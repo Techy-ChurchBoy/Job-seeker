@@ -20,7 +20,9 @@ PROFILE = open("profile.txt", encoding="utf-8").read()
 # Words that must appear in title or description to be worth scoring
 ROLE_WORDS = ["accountant", "accounting", "finance", "financial", "bookkeeper", "bookkeeping",
               "accounts", "audit", "reconciliation", "payroll", "treasury", "fp&a", "controller",
-              "graduate", "trainee", "intern", "internship", "entry", "junior", "associate", "officer"]
+              "graduate", "trainee", "intern", "internship", "entry", "junior", "associate", "officer",
+              "admin", "administrat", "procurement", "purchasing", "inventory", "stores", "store keeper",
+              "storekeeper", "supply chain", "logistics", "office manager", "operations"]
 
 # Company boards on Greenhouse / Lever. Add slugs of companies you want to watch.
 GREENHOUSE = ["flutterwave", "andela", "moniepoint"]
