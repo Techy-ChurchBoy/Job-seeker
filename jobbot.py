@@ -12,7 +12,7 @@ import requests
 
 MODEL = None  # set at startup by pick_model()
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
-MIN_SCORE = 65          # only keep jobs scoring at least this
+MIN_SCORE = 55          # only keep jobs scoring at least this
 MAX_TO_SCORE = 80       # cap per run to control cost
 
 PROFILE = open("profile.txt", encoding="utf-8").read()
@@ -106,6 +106,9 @@ def lever():
             print(f"lever {slug} failed: {e}", file=sys.stderr)
 
 
+JOOBLE_ERRORS = []
+
+
 def jooble():
     """Optional: free API key from jooble.org/api/about. Covers Nigerian listings."""
     key = os.getenv("JOOBLE_KEY")
@@ -120,7 +123,7 @@ def jooble():
                                location=j.get("location", ""), url=j["link"],
                                description=strip_html(j.get("snippet")))
             except Exception as e:
-                print(f"jooble failed: {e}", file=sys.stderr)
+                JOOBLE_ERRORS.append(str(e)[:200])
 
 
 def prefilter(j):
@@ -172,8 +175,11 @@ def score(j):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
-    for attempt in range(2):
+    for attempt in range(3):
         r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=60)
+        if r.status_code == 503:          # Google temporarily overloaded: retry
+            time.sleep(10)
+            continue
         if r.status_code == 429:          # rate or daily quota hit
             time.sleep(15)
             continue
@@ -200,6 +206,8 @@ def main():
         else:
             lines.append(f"- {src.__name__}: {len(got)} fetched, {sum(prefilter(j) for j in got)} passed filter")
         jobs += got
+    if JOOBLE_ERRORS:
+        lines.append(f"- jooble errors ({len(JOOBLE_ERRORS)}). First: {JOOBLE_ERRORS[0]}")
     if not os.getenv("JOOBLE_KEY"):
         lines.append("- jooble: skipped (no JOOBLE_KEY, so no Nigerian listings)")
 
