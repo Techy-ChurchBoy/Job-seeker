@@ -1,17 +1,17 @@
 """
-Job matcher, steps 1-2: fetch jobs from allowed sources, score against your profile with Claude,
+Job matcher, steps 1-2: fetch jobs from allowed sources, score against your profile with Gemini,
 write matches to matches.csv. Nothing is sent anywhere.
 
 Setup:
-    pip install requests anthropic
-    export ANTHROPIC_API_KEY=...
+    pip install requests
+    export GEMINI_API_KEY=...
     python jobbot.py
 """
-import csv, json, os, re, sys
+import csv, json, os, re, sys, time
 import requests
-import anthropic
 
-MODEL = "claude-sonnet-4-6"
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 MIN_SCORE = 65          # only keep jobs scoring at least this
 MAX_TO_SCORE = 80       # cap per run to control cost
 
@@ -95,8 +95,6 @@ def prefilter(j):
     return any(w in title for w in ROLE_WORDS) and any(w in loc for w in LOCATION_WORDS)
 
 
-client = anthropic.Anthropic()
-
 PROMPT = """You screen jobs for a candidate. Candidate profile:
 {profile}
 
@@ -112,14 +110,28 @@ Score low if a hard qualification (ACA, ACCA, CPA, ICAN, 5+ years) is required a
 
 
 def score(j):
-    msg = client.messages.create(model=MODEL, max_tokens=300, messages=[{"role": "user", "content": PROMPT.format(
-        profile=PROFILE, title=j["title"], company=j["company"], location=j["location"],
-        description=j["description"][:3000])}])
-    text = msg.content[0].text.strip().replace("```json", "").replace("```", "")
-    return json.loads(text)
+    prompt = PROMPT.format(profile=PROFILE, title=j["title"], company=j["company"],
+                           location=j["location"], description=j["description"][:3000])
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    body = {"contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
+    for attempt in range(4):
+        r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=60)
+        if r.status_code == 429:          # free tier rate limit: wait and retry
+            time.sleep(20 * (attempt + 1))
+            continue
+        r.raise_for_status()
+        break
+    else:
+        raise RuntimeError("rate limited")
+    text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    time.sleep(6)                          # stay under free-tier requests per minute
+    return json.loads(text.strip().replace("```json", "").replace("```", ""))
 
 
 def main():
+    if not GEMINI_KEY:
+        sys.exit("Set GEMINI_API_KEY")
     seen_path = "seen.json"
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
