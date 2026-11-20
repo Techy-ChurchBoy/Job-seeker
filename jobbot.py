@@ -20,7 +20,6 @@ PROFILE = open("profile.txt", encoding="utf-8").read()
 # Words that must appear in title or description to be worth scoring
 ROLE_WORDS = ["accountant", "accounting", "finance", "financial", "bookkeeper", "bookkeeping",
               "accounts", "audit", "reconciliation", "payroll", "treasury", "fp&a", "controller"]
-LOCATION_WORDS = ["remote", "worldwide", "anywhere", "africa", "nigeria", "lagos", "abuja", "emea"]
 
 # Company boards on Greenhouse / Lever. Add slugs of companies you want to watch.
 GREENHOUSE = ["flutterwave", "andela", "moniepoint"]
@@ -32,11 +31,42 @@ def strip_html(s):
 
 
 def remotive():
-    r = requests.get("https://remotive.com/api/remote-jobs", params={"category": "finance-legal"}, timeout=30)
-    for j in r.json().get("jobs", []):
-        yield dict(source="Remotive", title=j["title"], company=j["company_name"],
-                   location=j.get("candidate_required_location", ""), url=j["url"],
+    seen_ids = set()
+    for q in ["accountant", "finance", "bookkeeper", "accounts"]:
+        r = requests.get("https://remotive.com/api/remote-jobs", params={"search": q, "limit": 50}, timeout=30)
+        for j in r.json().get("jobs", []):
+            if j["id"] in seen_ids:
+                continue
+            seen_ids.add(j["id"])
+            yield dict(source="Remotive", title=j["title"], company=j["company_name"],
+                       location=j.get("candidate_required_location", ""), url=j["url"],
+                       description=strip_html(j.get("description")))
+
+
+def himalayas():
+    for offset in range(0, 100, 20):
+        r = requests.get("https://himalayas.app/jobs/api", params={"limit": 20, "offset": offset}, timeout=30)
+        for j in r.json().get("jobs", []):
+            yield dict(source="Himalayas", title=j.get("title", ""), company=j.get("companyName", ""),
+                       location=", ".join(j.get("locationRestrictions") or []) or "Worldwide",
+                       url=j.get("applicationLink") or j.get("guid", ""),
+                       description=strip_html(j.get("description") or j.get("excerpt")))
+
+
+def workingnomads():
+    r = requests.get("https://www.workingnomads.com/api/exposed_jobs/", timeout=30)
+    for j in r.json():
+        yield dict(source="WorkingNomads", title=j.get("title", ""), company=j.get("company_name", ""),
+                   location=j.get("location", ""), url=j.get("url", ""),
                    description=strip_html(j.get("description")))
+
+
+def jobicy():
+    r = requests.get("https://jobicy.com/api/v2/remote-jobs", params={"count": 50, "industry": "accounting-finance"}, timeout=30)
+    for j in r.json().get("jobs", []):
+        yield dict(source="Jobicy", title=j.get("jobTitle", ""), company=j.get("companyName", ""),
+                   location=j.get("jobGeo", ""), url=j.get("url", ""),
+                   description=strip_html(j.get("jobDescription")))
 
 
 def remoteok():
@@ -88,17 +118,30 @@ def jooble():
                 print(f"jooble failed: {e}", file=sys.stderr)
 
 
+OPEN_WORDS = ["worldwide", "anywhere", "global", "africa", "nigeria", "emea", "any location", "all countries"]
+CLOSED_WORDS = ["usa", "u.s.", "us only", "united states", "canada", "uk ", "united kingdom", "europe",
+                "eu only", "germany", "india", "australia", "latam", "latin america", "americas",
+                "north america", "brazil", "mexico", "philippines", "pakistan", "poland", "spain", "france"]
+
+
+def location_ok(j):
+    loc = (j["location"] or "").lower()
+    if not loc.strip():
+        return True
+    if any(w in loc for w in OPEN_WORDS):
+        return True
+    return not any(w in loc for w in CLOSED_WORDS)
+
+
 def prefilter(j):
-    text = f"{j['title']} {j['description'][:1500]}".lower()
     title = j["title"].lower()
-    loc = f"{j['location']} {text}".lower()
-    return any(w in title for w in ROLE_WORDS) and any(w in loc for w in LOCATION_WORDS)
+    return any(w in title for w in ROLE_WORDS) and location_ok(j)
 
 
 PROMPT = """You screen jobs for a candidate. Candidate profile:
 {profile}
 
-Targets: accounting/finance roles, entry to mid level, located Remote, Lagos or Abuja.
+Targets: fully remote accounting/finance roles, entry to mid level, that a candidate living in Nigeria can legally take (worldwide or Africa-friendly, not restricted to US/EU/UK residents).
 Job:
 Title: {title}
 Company: {company}
@@ -106,7 +149,7 @@ Location: {location}
 Description: {description}
 
 Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA, 5+ years, or empty"}}.
-Score low if a hard qualification (ACA, ACCA, CPA, ICAN, 5+ years) is required and missing, or if the location is not open to someone in Nigeria."""
+Score low if a hard qualification (ACA, ACCA, CPA, ICAN, 5+ years) is required and missing, or if the posting requires residency or work authorisation in a country other than Nigeria."""
 
 
 def score(j):
@@ -136,7 +179,7 @@ def main():
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
     jobs, lines = [], []
-    for src in (remotive, remoteok, greenhouse, lever, jooble):
+    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, jooble):
         try:
             got = list(src())
         except Exception as e:
