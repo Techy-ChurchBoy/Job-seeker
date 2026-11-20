@@ -19,7 +19,8 @@ PROFILE = open("profile.txt", encoding="utf-8").read()
 
 # Words that must appear in title or description to be worth scoring
 ROLE_WORDS = ["accountant", "accounting", "finance", "financial", "bookkeeper", "bookkeeping",
-              "accounts", "audit", "reconciliation", "payroll", "treasury", "fp&a", "controller"]
+              "accounts", "audit", "reconciliation", "payroll", "treasury", "fp&a", "controller",
+              "graduate", "trainee", "intern", "internship", "entry", "junior", "associate", "officer"]
 
 # Company boards on Greenhouse / Lever. Add slugs of companies you want to watch.
 GREENHOUSE = ["flutterwave", "andela", "moniepoint"]
@@ -110,8 +111,8 @@ def jooble():
     key = os.getenv("JOOBLE_KEY")
     if not key:
         return
-    for loc in ["Lagos", "Abuja", "Remote"]:
-        for kw in ["accountant", "finance officer", "management accountant"]:
+    for loc in ["Lagos", "Abuja", "Nigeria"]:
+        for kw in ["accountant", "finance officer", "management accountant", "graduate trainee accountant", "accounting internship", "finance graduate trainee", "junior accountant"]:
             try:
                 r = requests.post(f"https://jooble.org/api/{key}", json={"keywords": kw, "location": loc}, timeout=30)
                 for j in r.json().get("jobs", []):
@@ -122,50 +123,24 @@ def jooble():
                 print(f"jooble failed: {e}", file=sys.stderr)
 
 
-OPEN_WORDS = ["worldwide", "anywhere", "global", "africa", "nigeria", "emea", "any location", "all countries"]
-CLOSED_WORDS = ["usa", "u.s.", "us only", "united states", "canada", "uk ", "united kingdom", "europe",
-                "eu only", "germany", "india", "australia", "latam", "latin america", "americas",
-                "north america", "brazil", "mexico", "philippines", "pakistan", "poland", "spain", "france"]
-
-
-def location_ok(j):
-    loc = (j["location"] or "").lower()
-    if not loc.strip():
-        return True
-    if any(w in loc for w in OPEN_WORDS):
-        return True
-    return not any(w in loc for w in CLOSED_WORDS)
-
-
-REMOTE_WORDS = ["remote", "worldwide", "anywhere", "work from home"]
-
-
-def remote_ok(j):
-    text = f"{j['location']} {j['title']} {j['description'][:1500]}".lower()
-    return any(w in text for w in REMOTE_WORDS)
-
-
-REMOTE_ONLY_SOURCES = {"Remotive", "Himalayas", "WorkingNomads", "Jobicy", "RemoteOK"}
-
-
 def prefilter(j):
+    """Only checks the job title is finance/accounting or an entry-level role. No location restriction."""
     title = j["title"].lower()
-    is_remote = j["source"] in REMOTE_ONLY_SOURCES or remote_ok(j)
-    return any(w in title for w in ROLE_WORDS) and location_ok(j) and is_remote
+    return any(w in title for w in ROLE_WORDS)
 
 
 PROMPT = """You screen jobs for a candidate. Candidate profile:
 {profile}
 
-Targets: fully remote accounting/finance roles, entry to mid level, that a candidate living in Nigeria can legally take (worldwide or Africa-friendly, not restricted to US/EU/UK residents).
+Targets: accounting and finance roles for a candidate based in Nigeria. Remote, hybrid and onsite (Nigeria or elsewhere) are all acceptable. Entry-level, graduate trainee, internship and junior roles are welcome. Mid-level roles are fine too. Senior roles (head, director, controller, CFO) score low.
 Job:
 Title: {title}
 Company: {company}
 Location: {location}
 Description: {description}
 
-Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA, 5+ years, or empty"}}.
-Score low if the job is on-site or hybrid, or if a hard qualification (ACA, ACCA, CPA, ICAN, 5+ years) is required and missing, or if the posting requires residency or work authorisation in a country other than Nigeria."""
+Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA required, 5+ years experience, or empty"}}.
+Score low if a hard professional qualification (ACA, ACCA, CPA, ICAN) or 5+ years experience is required and missing."""
 
 
 def pick_model():
