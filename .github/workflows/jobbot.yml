@@ -1,11 +1,15 @@
 name: jobbot
 on:
   schedule:
-    - cron: "0 6 * * *"   # every day, 6am UTC (7am Nigeria)
+    - cron: "0 * * * *"   # every hour
   workflow_dispatch:       # lets you run it manually from the Actions tab
 
 permissions:
   contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
 
 jobs:
   run:
