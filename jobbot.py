@@ -8,11 +8,14 @@ Setup:
     python jobbot.py
 """
 import csv, json, os, re, sys, time
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 import requests
 
 MODEL = None  # set at startup by pick_model()
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 MIN_SCORE = 55          # only keep jobs scoring at least this
+MAX_AGE_DAYS = 30       # skip jobs posted longer ago than this
 MAX_TO_SCORE = 80       # cap per run to control cost
 
 PROFILE = open("profile.txt", encoding="utf-8").read()
@@ -29,6 +32,24 @@ GREENHOUSE = ["flutterwave", "andela", "moniepoint"]
 LEVER = ["paystack"]
 
 
+def to_dt(v):
+    """Parse a posting date from any of the sources' formats. Returns None if it can't."""
+    if v in (None, ""):
+        return None
+    try:
+        if isinstance(v, (int, float)) or str(v).strip().isdigit():
+            n = float(v)
+            return datetime.fromtimestamp(n / 1000 if n > 1e11 else n, tz=timezone.utc)
+        s = str(v).strip()
+        try:
+            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except ValueError:
+            dt = parsedate_to_datetime(s)
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+
 def strip_html(s):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).strip()
 
@@ -41,7 +62,7 @@ def remotive():
             if j["id"] in seen_ids:
                 continue
             seen_ids.add(j["id"])
-            yield dict(source="Remotive", title=j["title"], company=j["company_name"],
+            yield dict(posted=to_dt(j.get("publication_date")), source="Remotive", title=j["title"], company=j["company_name"],
                        location=j.get("candidate_required_location", ""), url=j["url"],
                        description=strip_html(j.get("description")))
 
@@ -50,7 +71,7 @@ def himalayas():
     for offset in range(0, 100, 20):
         r = requests.get("https://himalayas.app/jobs/api", params={"limit": 20, "offset": offset}, timeout=30)
         for j in r.json().get("jobs", []):
-            yield dict(source="Himalayas", title=j.get("title", ""), company=j.get("companyName", ""),
+            yield dict(posted=to_dt(j.get("pubDate")), source="Himalayas", title=j.get("title", ""), company=j.get("companyName", ""),
                        location=", ".join(j.get("locationRestrictions") or []) or "Worldwide",
                        url=j.get("applicationLink") or j.get("guid", ""),
                        description=strip_html(j.get("description") or j.get("excerpt")))
@@ -59,7 +80,7 @@ def himalayas():
 def workingnomads():
     r = requests.get("https://www.workingnomads.com/api/exposed_jobs/", timeout=30)
     for j in r.json():
-        yield dict(source="WorkingNomads", title=j.get("title", ""), company=j.get("company_name", ""),
+        yield dict(posted=to_dt(j.get("pub_date")), source="WorkingNomads", title=j.get("title", ""), company=j.get("company_name", ""),
                    location=j.get("location", ""), url=j.get("url", ""),
                    description=strip_html(j.get("description")))
 
@@ -67,7 +88,7 @@ def workingnomads():
 def jobicy():
     r = requests.get("https://jobicy.com/api/v2/remote-jobs", params={"count": 50, "industry": "accounting-finance"}, timeout=30)
     for j in r.json().get("jobs", []):
-        yield dict(source="Jobicy", title=j.get("jobTitle", ""), company=j.get("companyName", ""),
+        yield dict(posted=to_dt(j.get("pubDate")), source="Jobicy", title=j.get("jobTitle", ""), company=j.get("companyName", ""),
                    location=j.get("jobGeo", ""), url=j.get("url", ""),
                    description=strip_html(j.get("jobDescription")))
 
@@ -75,7 +96,7 @@ def jobicy():
 def remoteok():
     r = requests.get("https://remoteok.com/api", headers={"User-Agent": "jobbot"}, timeout=30)
     for j in r.json()[1:]:
-        yield dict(source="RemoteOK", title=j.get("position", ""), company=j.get("company", ""),
+        yield dict(posted=to_dt(j.get("date")), source="RemoteOK", title=j.get("position", ""), company=j.get("company", ""),
                    location=j.get("location") or "Remote", url=j.get("url", ""),
                    description=strip_html(j.get("description")))
 
@@ -85,7 +106,7 @@ def greenhouse():
         try:
             r = requests.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true", timeout=30)
             for j in r.json().get("jobs", []):
-                yield dict(source=f"Greenhouse:{slug}", title=j["title"], company=slug,
+                yield dict(posted=to_dt(j.get("updated_at")), source=f"Greenhouse:{slug}", title=j["title"], company=slug,
                            location=(j.get("location") or {}).get("name", ""), url=j["absolute_url"],
                            description=strip_html(j.get("content")))
         except Exception as e:
@@ -101,7 +122,7 @@ def lever():
                 print(f"lever {slug}: unexpected response, check the company slug", file=sys.stderr)
                 continue
             for j in data:
-                yield dict(source=f"Lever:{slug}", title=j["text"], company=slug,
+                yield dict(posted=to_dt(j.get("createdAt")), source=f"Lever:{slug}", title=j["text"], company=slug,
                            location=(j.get("categories") or {}).get("location", ""), url=j["hostedUrl"],
                            description=j.get("descriptionPlain", ""))
         except Exception as e:
@@ -121,7 +142,7 @@ def jooble():
             try:
                 r = requests.post(f"https://jooble.org/api/{key}", json={"keywords": kw, "location": loc}, timeout=30)
                 for j in r.json().get("jobs", []):
-                    yield dict(source="Jooble", title=j["title"], company=j.get("company", ""),
+                    yield dict(posted=to_dt(j.get("updated")), source="Jooble", title=j["title"], company=j.get("company", ""),
                                location=j.get("location", ""), url=j["link"],
                                description=strip_html(j.get("snippet")))
             except Exception as e:
@@ -213,7 +234,13 @@ def main():
     if not os.getenv("JOOBLE_KEY"):
         lines.append("- jooble: skipped (no JOOBLE_KEY, so no Nigerian listings)")
 
-    jobs = [j for j in jobs if j["url"] not in seen and prefilter(j)][:MAX_TO_SCORE]
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    too_old = sum(1 for j in jobs if j.get("posted") and j["posted"] < cutoff)
+    fresh = [j for j in jobs if not (j.get("posted") and j["posted"] < cutoff)
+             and j["url"] not in seen and prefilter(j)]
+    fresh.sort(key=lambda j: j.get("posted") or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    jobs = fresh[:MAX_TO_SCORE]
+    lines.append(f"- {too_old} jobs older than {MAX_AGE_DAYS} days skipped")
     lines.append(f"- {len(jobs)} new jobs sent to scoring")
     print("\n".join(lines))
 
