@@ -135,15 +135,22 @@ def main():
     seen_path = "seen.json"
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
-    jobs = []
+    jobs, lines = [], []
     for src in (remotive, remoteok, greenhouse, lever, jooble):
         try:
-            jobs += list(src())
+            got = list(src())
         except Exception as e:
-            print(f"{src.__name__} failed: {e}", file=sys.stderr)
+            got = []
+            lines.append(f"- {src.__name__}: FAILED ({e})")
+        else:
+            lines.append(f"- {src.__name__}: {len(got)} fetched, {sum(prefilter(j) for j in got)} passed filter")
+        jobs += got
+    if not os.getenv("JOOBLE_KEY"):
+        lines.append("- jooble: skipped (no JOOBLE_KEY, so no Nigerian listings)")
 
     jobs = [j for j in jobs if j["url"] not in seen and prefilter(j)][:MAX_TO_SCORE]
-    print(f"{len(jobs)} new candidate jobs to score")
+    lines.append(f"- {len(jobs)} new jobs sent to scoring")
+    print("\n".join(lines))
 
     results = []
     for j in jobs:
@@ -165,7 +172,10 @@ def main():
         for r in results:
             w.writerow({k: r.get(k, "") for k in w.fieldnames})
     json.dump(sorted(seen), open(seen_path, "w"))
-    print(f"{len(results)} matches written to matches.csv")
+    msg = f"- {len(results)} scored {MIN_SCORE}+ and written to matches.csv"
+    print(msg)
+    if os.getenv("GITHUB_STEP_SUMMARY"):
+        open(os.environ["GITHUB_STEP_SUMMARY"], "a").write("## jobbot run\n" + "\n".join(lines + [msg]) + "\n")
 
 
 if __name__ == "__main__":
