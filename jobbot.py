@@ -145,9 +145,13 @@ def remote_ok(j):
     return any(w in text for w in REMOTE_WORDS)
 
 
+REMOTE_ONLY_SOURCES = {"Remotive", "Himalayas", "WorkingNomads", "Jobicy", "RemoteOK"}
+
+
 def prefilter(j):
     title = j["title"].lower()
-    return any(w in title for w in ROLE_WORDS) and location_ok(j) and remote_ok(j)
+    is_remote = j["source"] in REMOTE_ONLY_SOURCES or remote_ok(j)
+    return any(w in title for w in ROLE_WORDS) and location_ok(j) and is_remote
 
 
 PROMPT = """You screen jobs for a candidate. Candidate profile:
@@ -228,7 +232,7 @@ def main():
     lines.append(f"- {len(jobs)} new jobs sent to scoring")
     print("\n".join(lines))
 
-    results, score_errors = [], []
+    results, score_errors, scored = [], [], []
     for j in jobs:
         try:
             s = score(j)
@@ -241,6 +245,7 @@ def main():
             score_errors.append(str(e))
             continue
         seen.add(j["url"])
+        scored.append((s["score"], j["title"], j["company"], s.get("blockers", ""), j["url"]))
         if s["score"] >= MIN_SCORE:
             results.append({**{k: j[k] for k in ("source", "title", "company", "location", "url")}, **s})
 
@@ -253,6 +258,10 @@ def main():
         for r in results:
             w.writerow({k: r.get(k, "") for k in w.fieldnames})
     json.dump(sorted(seen), open(seen_path, "w"))
+    if scored:
+        lines.append("- Top scores (threshold is %d):" % MIN_SCORE)
+        for sc, title, company, blockers, url in sorted(scored, reverse=True)[:5]:
+            lines.append(f"  - {sc}: {title} at {company}. Blockers: {blockers or 'none'}")
     if score_errors:
         lines.append(f"- {len(score_errors)} jobs FAILED scoring. First error: {score_errors[0][:300]}")
     msg = f"- {len(results)} scored {MIN_SCORE}+ and written to matches.csv"
