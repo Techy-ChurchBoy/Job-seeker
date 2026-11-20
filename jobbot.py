@@ -10,7 +10,7 @@ Setup:
 import csv, json, os, re, sys, time
 import requests
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = None  # set at startup by pick_model()
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 MIN_SCORE = 65          # only keep jobs scoring at least this
 MAX_TO_SCORE = 80       # cap per run to control cost
@@ -93,7 +93,11 @@ def lever():
     for slug in LEVER:
         try:
             r = requests.get(f"https://api.lever.co/v0/postings/{slug}?mode=json", timeout=30)
-            for j in r.json():
+            data = r.json()
+            if not isinstance(data, list):
+                print(f"lever {slug}: unexpected response, check the company slug", file=sys.stderr)
+                continue
+            for j in data:
                 yield dict(source=f"Lever:{slug}", title=j["text"], company=slug,
                            location=(j.get("categories") or {}).get("location", ""), url=j["hostedUrl"],
                            description=j.get("descriptionPlain", ""))
@@ -133,9 +137,17 @@ def location_ok(j):
     return not any(w in loc for w in CLOSED_WORDS)
 
 
+REMOTE_WORDS = ["remote", "worldwide", "anywhere", "work from home"]
+
+
+def remote_ok(j):
+    text = f"{j['location']} {j['title']} {j['description'][:1500]}".lower()
+    return any(w in text for w in REMOTE_WORDS)
+
+
 def prefilter(j):
     title = j["title"].lower()
-    return any(w in title for w in ROLE_WORDS) and location_ok(j)
+    return any(w in title for w in ROLE_WORDS) and location_ok(j) and remote_ok(j)
 
 
 PROMPT = """You screen jobs for a candidate. Candidate profile:
@@ -149,7 +161,24 @@ Location: {location}
 Description: {description}
 
 Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA, 5+ years, or empty"}}.
-Score low if a hard qualification (ACA, ACCA, CPA, ICAN, 5+ years) is required and missing, or if the posting requires residency or work authorisation in a country other than Nigeria."""
+Score low if the job is on-site or hybrid, or if a hard qualification (ACA, ACCA, CPA, ICAN, 5+ years) is required and missing, or if the posting requires residency or work authorisation in a country other than Nigeria."""
+
+
+def pick_model():
+    """Use GEMINI_MODEL if set, else ask Gemini which Flash models this key can use and take the newest stable one."""
+    if os.getenv("GEMINI_MODEL"):
+        return os.getenv("GEMINI_MODEL")
+    r = requests.get("https://generativelanguage.googleapis.com/v1beta/models",
+                     headers={"x-goog-api-key": GEMINI_KEY}, timeout=30)
+    r.raise_for_status()
+    names = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+             if "generateContent" in m.get("supportedGenerationMethods", [])]
+    flash = [n for n in names if "flash" in n and not any(x in n for x in ("lite", "preview", "image", "tts", "live", "exp"))]
+    if not flash:
+        raise RuntimeError(f"no Flash model available to this key. Models: {names[:20]}")
+    chosen = sorted(flash, reverse=True)[0]
+    print(f"Using model: {chosen}")
+    return chosen
 
 
 def score(j):
@@ -173,8 +202,6 @@ def score(j):
 
 
 def main():
-    if not GEMINI_KEY:
-        sys.exit("Set GEMINI_API_KEY")
     seen_path = "seen.json"
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
@@ -195,12 +222,13 @@ def main():
     lines.append(f"- {len(jobs)} new jobs sent to scoring")
     print("\n".join(lines))
 
-    results = []
+    results, score_errors = [], []
     for j in jobs:
         try:
             s = score(j)
         except Exception as e:
             print(f"score failed for {j['title']}: {e}", file=sys.stderr)
+            score_errors.append(str(e))
             continue
         seen.add(j["url"])
         if s["score"] >= MIN_SCORE:
@@ -215,6 +243,8 @@ def main():
         for r in results:
             w.writerow({k: r.get(k, "") for k in w.fieldnames})
     json.dump(sorted(seen), open(seen_path, "w"))
+    if score_errors:
+        lines.append(f"- {len(score_errors)} jobs FAILED scoring. First error: {score_errors[0][:300]}")
     msg = f"- {len(results)} scored {MIN_SCORE}+ and written to matches.csv"
     print(msg)
     if os.getenv("GITHUB_STEP_SUMMARY"):
@@ -242,6 +272,7 @@ def selftest():
 if __name__ == "__main__":
     if not GEMINI_KEY:
         sys.exit("Set GEMINI_API_KEY")
+    MODEL = pick_model()
     if "--selftest" in sys.argv:
         selftest()
     else:
