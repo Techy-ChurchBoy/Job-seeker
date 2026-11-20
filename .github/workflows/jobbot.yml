@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python jobbot.py
+      - run: python -u jobbot.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
