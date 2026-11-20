@@ -232,12 +232,13 @@ def main():
         seen.add(j["url"])
         scored.append((s["score"], j["title"], j["company"], s.get("blockers", ""), j["url"]))
         if s["score"] >= MIN_SCORE:
-            results.append({**{k: j[k] for k in ("source", "title", "company", "location", "url")}, **s})
+            results.append({**{k: j[k] for k in ("source", "title", "company", "location", "url")},
+                            "description": j["description"][:2500], **s})
 
     results.sort(key=lambda r: r["score"], reverse=True)
     new_file = not os.path.exists("matches.csv")
     with open("matches.csv", "a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["score", "title", "company", "location", "source", "url", "reason", "blockers"])
+        w = csv.DictWriter(f, fieldnames=["score", "title", "company", "location", "source", "url", "reason", "blockers", "description"])
         if new_file:
             w.writeheader()
         for r in results:
