@@ -221,5 +221,28 @@ def main():
         open(os.environ["GITHUB_STEP_SUMMARY"], "a").write("## jobbot run\n" + "\n".join(lines + [msg]) + "\n")
 
 
+def selftest():
+    """Makes one real Gemini call and one fetch per source. Writes no files. Run with: python jobbot.py --selftest"""
+    print("== Gemini check ==")
+    sample = dict(title="Accountant", company="Test Co", location="Remote (worldwide)",
+                  description="Prepare monthly bank reconciliations and journal entries. Remote, open to all countries.")
+    try:
+        print("OK:", score(sample))
+    except Exception as e:
+        print("FAILED:", repr(e))
+    print("== Sources ==")
+    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever):
+        try:
+            got = list(src())
+            print(f"{src.__name__}: {len(got)} jobs. Sample: {[g['title'] for g in got[:3]]}")
+        except Exception as e:
+            print(f"{src.__name__}: FAILED {e!r}")
+
+
 if __name__ == "__main__":
-    main()
+    if not GEMINI_KEY:
+        sys.exit("Set GEMINI_API_KEY")
+    if "--selftest" in sys.argv:
+        selftest()
+    else:
+        main()
