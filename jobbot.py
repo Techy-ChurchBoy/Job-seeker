@@ -173,10 +173,12 @@ def pick_model():
     r.raise_for_status()
     names = [m["name"].split("/")[-1] for m in r.json().get("models", [])
              if "generateContent" in m.get("supportedGenerationMethods", [])]
-    flash = [n for n in names if "flash" in n and not any(x in n for x in ("lite", "preview", "image", "tts", "live", "exp"))]
+    flash = [n for n in names if "flash" in n and not any(x in n for x in ("preview", "image", "tts", "live", "exp"))]
     if not flash:
         raise RuntimeError(f"no Flash model available to this key. Models: {names[:20]}")
-    chosen = sorted(flash, reverse=True)[0]
+    # Prefer Flash-Lite: much higher free daily limits, good enough for screening. Newest first.
+    lite = [n for n in flash if "lite" in n]
+    chosen = sorted(lite or flash, reverse=True)[0]
     print(f"Using model: {chosen}")
     return chosen
 
