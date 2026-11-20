@@ -181,21 +181,25 @@ def pick_model():
     return chosen
 
 
+class QuotaError(Exception):
+    pass
+
+
 def score(j):
     prompt = PROMPT.format(profile=PROFILE, title=j["title"], company=j["company"],
                            location=j["location"], description=j["description"][:3000])
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
-    for attempt in range(4):
+    for attempt in range(2):
         r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=60)
-        if r.status_code == 429:          # free tier rate limit: wait and retry
-            time.sleep(20 * (attempt + 1))
+        if r.status_code == 429:          # rate or daily quota hit
+            time.sleep(15)
             continue
         r.raise_for_status()
         break
     else:
-        raise RuntimeError("rate limited")
+        raise QuotaError("Gemini quota or rate limit hit (429). Daily free quota may be used up.")
     text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
     time.sleep(6)                          # stay under free-tier requests per minute
     return json.loads(text.strip().replace("```json", "").replace("```", ""))
@@ -226,6 +230,10 @@ def main():
     for j in jobs:
         try:
             s = score(j)
+        except QuotaError as e:
+            print(f"stopping: {e}", file=sys.stderr)
+            score_errors.append(str(e))
+            break
         except Exception as e:
             print(f"score failed for {j['title']}: {e}", file=sys.stderr)
             score_errors.append(str(e))
