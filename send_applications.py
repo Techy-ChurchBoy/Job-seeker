@@ -82,10 +82,7 @@ def main(dry_run):
 
     applied = load_applied()
     already = {r["url"] for r in applied}
-    budget = MAX_PER_DAY - sent_today(applied)
-    if budget <= 0:
-        print(f"Daily limit of {MAX_PER_DAY} reached. Nothing sent.")
-        return
+    budget = None  # no daily cap: every eligible job is sent
 
     rows = list(csv.DictReader(open(MATCHES_PATH, encoding="utf-8"))) if os.path.exists(MATCHES_PATH) else []
     eligible = []
@@ -103,7 +100,7 @@ def main(dry_run):
         if addr and letter:
             eligible.append((score, r, addr, letter))
     eligible.sort(key=lambda e: e[0], reverse=True)
-    print(f"{len(eligible)} eligible. Sending up to {budget} today.")
+    print(f"{len(eligible)} eligible. Sending all of them.")
 
     sent = 0
     for score, r, addr, letter in eligible[:budget]:

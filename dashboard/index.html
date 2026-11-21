@@ -71,7 +71,7 @@ function render(feed) {
 
   const stats = document.getElementById('stats'); stats.replaceChildren();
   [['Jobs scored', st.jobs_scored ?? 0], ['Email-ready (40+)', st.strong ?? 0], ['Drafts ready', st.drafts ?? 0],
-   ['Sent today (max ' + (st.daily_limit ?? 10) + ')', st.sent_today ?? 0], ['Sent in total', st.sent_total ?? 0]]
+   ['Sent today', st.sent_today ?? 0], ['Sent in total', st.sent_total ?? 0]]
     .forEach(([label, value]) => {
       const c = card('neu stat'); c.append(el('div', 'muted', label), el('b', null, String(value))); stats.append(c);
     });

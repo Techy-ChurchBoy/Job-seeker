@@ -119,8 +119,6 @@ def main():
         lines.append("- No contact email found. Apply through the posting's link using the draft.")
     elif os.path.exists("PAUSE"):
         lines.append("- PAUSE file found, so nothing was sent.")
-    elif sa.sent_today(applied) >= sa.MAX_PER_DAY:
-        lines.append("- Daily limit reached, so nothing was sent.")
     elif not all(os.getenv(k, "").strip() for k in ("GMAIL_ADDRESS", "GMAIL_APP_PASSWORD", "CANDIDATE_NAME", "CANDIDATE_PHONE")):
         lines.append("- Gmail or candidate secrets are missing, so nothing was sent.")
     elif job["url"] in {r["url"] for r in applied}:

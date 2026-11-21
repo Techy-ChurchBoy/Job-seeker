@@ -7,7 +7,6 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
 FEED = "dashboard/data/feed.json"
-DAILY_LIMIT = 10
 MIN_SCORE = 40
 
 
@@ -56,7 +55,6 @@ def build():
             "drafts": len(prepared),
             "sent_today": sum(1 for r in applied if (r.get("sent_at") or "").startswith(today)),
             "sent_total": len(applied),
-            "daily_limit": DAILY_LIMIT,
         },
         "skills": [{"skill": skill.title(), "count": n, "examples": gap_examples[skill]}
                    for skill, n in gap_count.most_common(15)],
