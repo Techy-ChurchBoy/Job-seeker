@@ -116,14 +116,17 @@ exports.handler = async (event) => {
   const ok = { statusCode: 200, body: "ok" };
   if (event.httpMethod !== "POST") return { statusCode: 405, body: "POST only" };
 
-  // Header names can arrive with any capitalisation, so compare them case-insensitively.
+  // Accept either the secret in the webhook URL (?key=...) or the secret header.
+  // The URL form is the one we rely on, because Netlify passes URL parameters reliably.
   const headers = Object.fromEntries(Object.entries(event.headers || {}).map(([k, v]) => [k.toLowerCase(), v]));
-  const expected = process.env.TELEGRAM_SECRET;
-  if (!expected || headers["x-telegram-bot-api-secret-token"] !== expected) {
-    // Log header names and whether the variable is set. Never log values.
-    console.log("rejected: secret missing or mismatched. TELEGRAM_SECRET set:", Boolean(expected),
-                "header names seen:", Object.keys(headers).join(","));
-    return { statusCode: 401, body: "bad secret" };
+  const query = event.queryStringParameters || {};
+  const secret = process.env.TELEGRAM_KEY || process.env.TELEGRAM_SECRET;
+  const allowed = Boolean(secret) && (query.key === secret || headers["x-telegram-bot-api-secret-token"] === secret);
+  if (!allowed) {
+    console.log("rejected: key missing or mismatched. TELEGRAM_KEY set:", Boolean(process.env.TELEGRAM_KEY),
+                "TELEGRAM_SECRET set:", Boolean(process.env.TELEGRAM_SECRET),
+                "query names:", Object.keys(query).join(","), "header names:", Object.keys(headers).join(","));
+    return { statusCode: 401, body: "bad key" };
   }
 
   const update = JSON.parse(event.body || "{}");
