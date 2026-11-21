@@ -32,6 +32,18 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
 
 <section><h2>Overview</h2><div id="stats" class="grid"></div></section>
 
+<section><h2>Location outreach</h2>
+<div class="clay">
+  <p class="muted">Type a town or area. The bot finds organisations there, writes an open application for each, and waits for your approval. Up to 20 emails a day.</p>
+  <input id="locPw" type="password" placeholder="Password" autocomplete="current-password" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:6px">
+  <input id="locName" type="text" placeholder="Town or area, e.g. Ibadan" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
+  <input id="locCats" type="text" placeholder="Kinds of organisation (optional)" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
+  <button class="btn" id="locSearch" type="button">Find organisations</button>
+  <p class="muted" id="locMsg"></p>
+</div>
+<div id="batches"></div>
+</section>
+
 <section><h2>Form submission</h2>
 <div class="clay">
   <div class="row"><b id="modeText">Checking...</b><button class="btn" id="modeBtn" type="button" disabled>...</button></div>
@@ -94,6 +106,7 @@ function render(feed) {
     skills.append(c);
   });
 
+  renderBatches(f.batches);
   const rep = document.getElementById('report'); rep.replaceChildren();
   (f.report || ['No run recorded yet.']).forEach(line => { const c = card(); c.append(el('div', null, line)); rep.append(c); });
   document.getElementById('run').textContent = (f.summary && f.summary.length) ? f.summary.join('\n') : 'No run recorded yet.';
@@ -158,6 +171,54 @@ document.getElementById('modeBtn').addEventListener('click', async () => {
     else modeMessage(d.error || 'Something went wrong.');
   } catch (err) { modeMessage('Could not reach the site: ' + err.message); }
 });
+
+function locMessage(text) { document.getElementById('locMsg').textContent = text; }
+async function outreachPost(body) {
+  const res = await fetch('/api/outreach', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  const d = await res.json().catch(() => ({}));
+  return { ok: res.ok, d };
+}
+document.getElementById('locSearch').addEventListener('click', async () => {
+  const password = document.getElementById('locPw').value;
+  const location = document.getElementById('locName').value.trim();
+  if (!password) return locMessage('Enter the password first.');
+  if (!location) return locMessage('Enter a town or area.');
+  locMessage('Starting the search...');
+  const r = await outreachPost({ password, action: 'search', location, categories: document.getElementById('locCats').value });
+  locMessage(r.ok ? r.d.message : (r.d.error || 'Something went wrong.'));
+});
+function renderBatches(list) {
+  const box = document.getElementById('batches'); box.replaceChildren();
+  if (!list || !list.length) { box.append(note('No batches yet. Enter a town or area above.')); return; }
+  list.forEach(b => {
+    const c = card();
+    c.append(el('b', null, b.location + ' \u00b7 ' + b.items.length + ' organisations'),
+             el('div', 'muted', 'Created ' + (b.created || '') + (b.categories ? ' \u00b7 ' + b.categories : '')));
+    const form = el('div');
+    b.items.forEach(i => {
+      const row = el('div'); row.style.cssText = 'display:flex;gap:10px;align-items:flex-start;margin:12px 0';
+      const cb = document.createElement('input'); cb.type = 'checkbox'; cb.value = i.id; cb.disabled = i.status !== 'pending';
+      cb.style.marginTop = '4px';
+      const txt = el('div');
+      txt.append(el('b', null, i.org), el('div', 'muted', [i.kind, i.email, i.status !== 'pending' ? i.status : ''].filter(Boolean).join(' \u00b7 ')));
+      if (i.letter) { const d = el('details'); d.append(el('summary', null, 'Read the letter'), el('pre', null, i.letter)); txt.append(d); }
+      row.append(cb, txt); form.append(row);
+    });
+    const btn = el('button', 'btn', 'Send the ticked organisations');
+    btn.type = 'button';
+    btn.addEventListener('click', async () => {
+      const ids = [...form.querySelectorAll('input[type=checkbox]:checked')].map(x => x.value);
+      const password = document.getElementById('locPw').value;
+      if (!ids.length) return locMessage('Tick at least one organisation.');
+      if (!password) return locMessage('Enter the password first.');
+      if (!confirm('Send ' + ids.length + ' application emails now? Up to 20 can go out per day.')) return;
+      locMessage('Sending...');
+      const r = await outreachPost({ password, action: 'send', batch: b.file, ids });
+      locMessage(r.ok ? r.d.message : (r.d.error || 'Something went wrong.'));
+    });
+    c.append(form, btn); box.append(c);
+  });
+}
 
 fetch('data/feed.json', { cache: 'no-store' })
   .then(r => r.ok ? r.json() : null)

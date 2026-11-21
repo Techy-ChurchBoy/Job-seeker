@@ -2,7 +2,7 @@
 Writes dashboard/data/feed.json. The dashboard page (dashboard/index.html) is a static file that reads this feed,
 so the page exists and works whether or not the job bot has run. Never includes your CV or cover letter text.
 """
-import csv, json, os
+import csv, glob, json, os
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
@@ -78,6 +78,22 @@ def plain_report(status, matches):
     return lines
 
 
+def load_batches():
+    out = []
+    for path in sorted(glob.glob("outreach/*.json"), reverse=True):
+        try:
+            b = json.load(open(path, encoding="utf-8"))
+        except ValueError:
+            continue
+        out.append({"file": os.path.basename(path), "location": b.get("location", ""),
+                    "categories": b.get("categories", ""), "created": b.get("created", ""),
+                    "items": [{"id": i.get("id"), "org": i.get("org"), "kind": i.get("kind"),
+                               "email": i.get("email"), "website": i.get("website"),
+                               "letter": i.get("letter"), "status": i.get("status")}
+                              for i in b.get("items", [])]})
+    return out
+
+
 def build():
     matches = rows("matches.csv")
     applied = rows("applied.csv")
@@ -100,6 +116,7 @@ def build():
     return {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "report": plain_report(status, matches),
+        "batches": load_batches(),
         "paused": paused,
         "last_run": status.get("last_run"),
         "summary": status.get("summary", []),
