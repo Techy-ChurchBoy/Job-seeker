@@ -50,3 +50,16 @@ jobs:
           git add matches.csv prepared.json applied.csv applications dashboard
           git diff --staged --quiet || git commit -m "apply: manual job"
           git push
+      - name: Notify on Telegram
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          JOB_URL: ${{ inputs.job_url }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          MSG="Apply job finished (${JOB_STATUS}): ${JOB_URL}
+          Details: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MSG}" > /dev/null
