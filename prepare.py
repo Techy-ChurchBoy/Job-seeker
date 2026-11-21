@@ -14,7 +14,7 @@ OUT_DIR = "applications"
 PREPARED_PATH = "prepared.json"
 MATCHES_PATH = "matches.csv"
 MAX_PER_RUN = 15
-DRAFT_MIN_SCORE = 55  # only write letters for jobs worth applying to
+DRAFT_MIN_SCORE = 40  # only write letters for jobs worth applying to
 
 PROMPT = """You are an experienced career writer helping a Nigerian graduate apply for a job. Write the way a careful, senior recruiter expects: clear, warm, confident, specific, never boastful, never generic.
 

@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from email.message import EmailMessage
 from prepare import slug  # same file naming as the drafts
 
-MIN_SCORE = 70
+MIN_SCORE = 40
 MAX_PER_DAY = 10
 MATCHES_PATH = "matches.csv"
 APPLIED_PATH = "applied.csv"

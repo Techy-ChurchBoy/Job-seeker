@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 FEED = "dashboard/data/feed.json"
 DAILY_LIMIT = 10
-MIN_SCORE = 70
+MIN_SCORE = 40
 
 
 def rows(path):
