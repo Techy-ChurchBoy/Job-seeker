@@ -1,0 +1,33 @@
+name: send-test
+on:
+  workflow_dispatch:
+    inputs:
+      to:
+        description: Recipient email address
+        required: true
+      role:
+        description: Job title
+        required: true
+        default: Accountant
+      company:
+        description: Company name
+        required: true
+        default: Midnight
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -u send_test.py
+        env:
+          TEST_TO: ${{ inputs.to }}
+          TEST_ROLE: ${{ inputs.role }}
+          TEST_COMPANY: ${{ inputs.company }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
