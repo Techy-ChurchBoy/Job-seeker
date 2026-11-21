@@ -21,11 +21,19 @@ MAX_TO_SCORE = 80       # cap per run to control cost
 PROFILE = open("profile.txt", encoding="utf-8").read()
 
 # Words that must appear in title or description to be worth scoring
-ROLE_WORDS = ["accountant", "accounting", "finance", "financial", "bookkeeper", "bookkeeping",
-              "accounts", "audit", "reconciliation", "payroll", "treasury", "fp&a", "controller",
-              "graduate", "trainee", "intern", "internship", "entry", "junior", "associate", "officer",
-              "admin", "administrat", "procurement", "purchasing", "inventory", "stores", "store keeper",
-              "storekeeper", "supply chain", "logistics", "office manager", "operations"]
+ROLE_WORDS = [
+    # accounting and finance
+    "accountant", "accounting", "finance", "financial", "bookkeeper", "bookkeeping", "accounts", "audit",
+    "reconciliation", "payroll", "treasury", "fp&a", "controller", "tax", "credit", "risk", "compliance", "reporting",
+    # operations, process, data and product
+    "operations", "analyst", "business analyst", "data", "process", "product", "project", "coordinator",
+    "implementation", "erp", "dynamics", "power bi", "excel", "documentation", "customer success", "fintech", "payments",
+    # admin, procurement and support
+    "admin", "administrat", "procurement", "purchasing", "inventory", "stores", "storekeeper", "logistics",
+    "supply chain", "office manager", "bursary", "revenue", "officer", "assistant", "executive",
+    # entry level
+    "graduate", "trainee", "intern", "internship", "entry", "junior", "associate",
+]
 
 # Company boards on Greenhouse / Lever. Add slugs of companies you want to watch.
 
@@ -193,14 +201,14 @@ def prefilter(j):
 PROMPT = """You screen jobs for a candidate. Candidate profile:
 {profile}
 
-Targets: accounting and finance roles for a candidate based in Nigeria. Remote, hybrid and onsite (Nigeria or elsewhere) are all acceptable. Entry-level, graduate trainee, internship and junior roles are welcome. Mid-level roles are fine too. Senior roles (head, director, controller, CFO) score low.
+Score how well this job uses the candidate's skills, including transferable fit. Accounting and finance roles fit best. Operations, reporting, data, process, product, admin, ERP and fintech roles can score well when the skills transfer. Entry-level, graduate trainee, internship and junior roles are welcome. Senior roles score low.
 Job:
 Title: {title}
 Company: {company}
 Location: {location}
 Description: {description}
 
-Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA required, 5+ years experience, or empty"}}.
+Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA required, 5+ years experience, or empty", "skill_gaps": "skills or tools this job asks for that the candidate lacks, as short phrases separated by semicolons, or empty"}}.
 Score low if a hard professional qualification (ACA, ACCA, CPA, ICAN) or 5+ years experience is required and missing."""
 
 
@@ -310,14 +318,13 @@ def main():
             continue
         seen.add(j["url"])
         scored.append((s["score"], j["title"], j["company"], s.get("blockers", ""), j["url"]))
-        if s["score"] >= MIN_SCORE:
-            results.append({**{k: j[k] for k in ("source", "title", "company", "location", "url")},
+        results.append({**{k: j[k] for k in ("source", "title", "company", "location", "url")},
                             "description": j["description"][:2500], **s})
 
     results.sort(key=lambda r: r["score"], reverse=True)
     new_file = not os.path.exists("matches.csv")
     with open("matches.csv", "a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["score", "title", "company", "location", "source", "url", "reason", "blockers", "description"])
+        w = csv.DictWriter(f, fieldnames=["score", "title", "company", "location", "source", "url", "reason", "blockers", "description", "skill_gaps"])
         if new_file:
             w.writeheader()
         for r in results:
@@ -329,7 +336,8 @@ def main():
             lines.append(f"  - {sc}: {title} at {company}. Blockers: {blockers or 'none'}")
     if score_errors:
         lines.append(f"- {len(score_errors)} jobs FAILED scoring. First error: {score_errors[0][:300]}")
-    msg = f"- {len(results)} scored {MIN_SCORE}+ and written to matches.csv"
+    strong = sum(1 for r in results if int(r["score"]) >= MIN_SCORE)
+    msg = f"- {len(results)} scored and saved to matches.csv, {strong} at {MIN_SCORE}+"
     print(msg)
     json.dump({"last_run": datetime.now(timezone.utc).isoformat(timespec="minutes"),
                "summary": lines}, open("status.json", "w", encoding="utf-8"), indent=1)

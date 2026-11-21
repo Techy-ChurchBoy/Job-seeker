@@ -18,7 +18,7 @@ JOB_URL = os.getenv("JOB_URL", "").strip()
 JOB_COMPANY = os.getenv("JOB_COMPANY", "").strip()
 JOB_EMAIL = os.getenv("JOB_EMAIL", "").strip()
 PASTED = os.getenv("JOB_DESCRIPTION", "").strip()
-MATCH_FIELDS = ["score", "title", "company", "location", "source", "url", "reason", "blockers", "description"]
+MATCH_FIELDS = ["score", "title", "company", "location", "source", "url", "reason", "blockers", "description", "skill_gaps"]
 
 
 def fetch_posting(url):
@@ -97,7 +97,7 @@ def main():
     jb.MODEL = jb.pick_model()
     s = jb.score(job)
     save_row({**job, "score": s["score"], "reason": s.get("reason", ""), "blockers": s.get("blockers", ""),
-              "description": job["description"][:2500]})
+              "skill_gaps": s.get("skill_gaps", ""), "description": job["description"][:2500]})
     lines.append(f"- Scored {s['score']}/100: {job['title']} at {job['company']}")
     lines.append(f"- Blockers: {s.get('blockers') or 'none'}")
 

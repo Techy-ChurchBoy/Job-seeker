@@ -1,4 +1,4 @@
-score,title,company,location,source,url,reason,blockers,description
+score,title,company,location,source,url,reason,blockers,description,skill_gaps
 95,Job posting,example.com,,Manual,https://example.com/jobs/test-accountant-2026,"The role perfectly matches the candidate's experience level, educational background, and technical skills in accounting software and reconciliations.",,"company: Lagos Ledger Ltd (test)
 email: goldendrizzle66@gmail.com
 description: Job title: Junior Accountant (Hybrid, Lagos)
@@ -13,4 +13,4 @@ Requirements:
 
 Nice to have: experience with Microsoft Dynamics 365 Business Central.
 
-We offer a supportive team, structured training, and a clear path to senior accounting roles. Send your application to the address below."
+We offer a supportive team, structured training, and a clear path to senior accounting roles. Send your application to the address below.",
