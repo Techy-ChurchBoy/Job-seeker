@@ -10,6 +10,8 @@ Setup:
 import csv, json, os, re, sys, time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from urllib.parse import urlparse
+from urllib.robotparser import RobotFileParser
 import requests
 
 MODEL = None  # set at startup by pick_model()
@@ -173,13 +175,75 @@ def ashby():
 
 
 SMARTYACAD_SKIP = ("scholarship", "grant", "bootcamp")
+FOLLOW_CAP = 50  # linked pages opened per run
+FOLLOW_UA = "jobbot-personal-job-search/1.0 (one request per run)"
+NO_FOLLOW_HOSTS = ("whatsapp.com", "t.me", "telegram.me", "facebook.com", "instagram.com", "x.com",
+                   "twitter.com", "linkedin.com", "youtube.com", "tiktok.com", "selar.co", "dixcoverhub.com",
+                   "smartyacad.com")
+_robots = {}
+_follow_count = 0
+
+
+def _host_skipped(url):
+    host = urlparse(url).netloc.lower()
+    return any(host == h or host.endswith("." + h) for h in NO_FOLLOW_HOSTS)
+
+
+def allowed_by_robots(url):
+    """Check the site's robots.txt once per domain. Unreadable robots.txt means stay out."""
+    host = urlparse(url).netloc
+    if host not in _robots:
+        rp = RobotFileParser()
+        try:
+            r = requests.get(f"https://{host}/robots.txt", timeout=15, headers={"User-Agent": FOLLOW_UA})
+            if r.status_code == 404:
+                rp.parse([])
+            elif r.ok:
+                rp.parse(r.text.splitlines())
+            else:
+                rp.parse(["User-agent: *", "Disallow: /"])
+        except requests.RequestException:
+            rp.parse(["User-agent: *", "Disallow: /"])
+        _robots[host] = rp
+    return _robots[host].can_fetch("jobbot", url)
+
+
+def follow_page(url):
+    """Open a page a Dixcover post links to. Returns its text, or None if it should be skipped."""
+    global _follow_count
+    if _follow_count >= FOLLOW_CAP or _host_skipped(url):
+        return None
+    if re.search(r"log-?in|sign-?in|whatsapp", url, re.I):
+        return None
+    if not allowed_by_robots(url):
+        return None
+    _follow_count += 1
+    time.sleep(2)
+    try:
+        r = requests.get(url, timeout=20, headers={"User-Agent": FOLLOW_UA})
+        if not r.ok:
+            return None
+        raw = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", r.text, flags=re.S | re.I)
+        text = strip_html(raw)
+    except requests.RequestException:
+        return None
+    return text if len(text) >= 300 else None
+
+
+def destination_links(html_text):
+    found = []
+    for link in re.findall(r"href=[\"'](https?://[^\"'\s>]+)", html_text or ""):
+        if not _host_skipped(link) and link not in found:
+            found.append(link)
+    return found
 
 
 def smartyacad():
-    """Dixcover Hub (jobs.smartyacad.com) is a WordPress site, so its public post feed is JSON."""
+    """Dixcover Hub (jobs.smartyacad.com) is a WordPress site, so its public post feed is JSON.
+    For strong-looking posts, the bot opens the linked job page for the full details."""
     r = requests.get("https://jobs.smartyacad.com/wp-json/wp/v2/posts",
                      params={"per_page": 50, "orderby": "date"}, timeout=30,
-                     headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
+                     headers={"User-Agent": FOLLOW_UA})
     r.raise_for_status()
     for p in r.json():
         heading = strip_html(p.get("title", {}).get("rendered", ""))
@@ -187,9 +251,17 @@ def smartyacad():
             continue
         m = re.match(r"(.+?)\s+(?:at|@)\s+(.+)", heading)
         title, company = (m.group(1), m.group(2)) if m else (heading, "Dixcover Hub listing")
+        content_html = p.get("content", {}).get("rendered", "")
+        url, text = p.get("link", ""), strip_html(content_html)[:6000]
+        if prefilter({"title": title}):
+            for dest in destination_links(content_html):
+                page = follow_page(dest)
+                if page:
+                    url, text = dest, page[:6000]
+                    break
         yield dict(posted=to_dt(p.get("date_gmt") or p.get("date")), source="Dixcover Hub",
-                   title=title, company=company, location="", url=p.get("link", ""),
-                   description=strip_html(p.get("content", {}).get("rendered", ""))[:6000])
+                   title=title, company=company, location="", url=url, description=text)
+    BOARD_LOG.append(f"Dixcover Hub: opened {_follow_count} linked pages")
 
 
 JOOBLE_ERRORS = []
