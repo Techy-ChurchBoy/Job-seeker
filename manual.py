@@ -113,7 +113,9 @@ def main():
 
     to = JOB_EMAIL or sa.contact_email(job["description"])
     applied = sa.load_applied()
-    if not to:
+    if str(s.get("blockers", "")).startswith("Possible scam"):
+        lines.append(f"- NOT sent. {s['blockers']}. Do not apply to this posting.")
+    elif not to:
         lines.append("- No contact email found. Apply through the posting's link using the draft.")
     elif os.path.exists("PAUSE"):
         lines.append("- PAUSE file found, so nothing was sent.")
