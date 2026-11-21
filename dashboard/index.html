@@ -138,10 +138,10 @@ function setMode(auto) {
   b.disabled = false;
 }
 function modeMessage(text) { document.getElementById('modeMsg').textContent = text; }
-fetch('/.netlify/functions/mode', { cache: 'no-store' })
+fetch('/api/mode', { cache: 'no-store' })
   .then(r => r.json())
   .then(d => d.error ? (document.getElementById('modeText').textContent = 'Could not read the setting', modeMessage(d.error)) : setMode(d.auto))
-  .catch(() => { document.getElementById('modeText').textContent = 'Could not read the setting'; modeMessage('Open the dashboard on its Netlify address to use this switch.'); });
+  .catch(() => { document.getElementById('modeText').textContent = 'Could not read the setting'; modeMessage('Could not reach the switch. Check APPLY_PASSWORD and GITHUB_TOKEN are set on this site.'); });
 document.getElementById('modeBtn').addEventListener('click', async () => {
   const want = document.getElementById('modeBtn').dataset.auto === 'true';
   const pw = document.getElementById('modePw').value;
@@ -149,7 +149,7 @@ document.getElementById('modeBtn').addEventListener('click', async () => {
   if (want && !confirm('Turn on automatic submission? The bot will submit Greenhouse applications itself, without asking you first.')) return;
   modeMessage('Saving...');
   try {
-    const res = await fetch('/.netlify/functions/mode', {
+    const res = await fetch('/api/mode', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ password: pw, auto: want }),
     });
