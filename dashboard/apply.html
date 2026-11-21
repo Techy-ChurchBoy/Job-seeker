@@ -23,8 +23,10 @@ button:disabled{opacity:.5}
   <label>Contact email (optional, if the posting doesn't show one)<input id="email" type="email"></label>
   <label>Job description (optional, paste if the link won't load)<textarea id="job_description"></textarea></label>
   <button id="run" type="submit">Run</button>
+  <button id="test" type="button">Test Telegram path</button>
 </form>
 <div id="result" hidden></div>
+<div id="steps"></div>
 <script>
 const form = document.getElementById('f');
 const result = document.getElementById('result');
@@ -53,6 +55,35 @@ form.addEventListener('submit', async (e) => {
   }
   result.hidden = false;
   button.disabled = false; button.textContent = 'Run';
+});
+
+const testBtn = document.getElementById('test');
+const stepsBox = document.getElementById('steps');
+testBtn.addEventListener('click', async () => {
+  testBtn.disabled = true; testBtn.textContent = 'Testing...';
+  stepsBox.innerHTML = '';
+  try {
+    const res = await fetch('/.netlify/functions/telegram-test', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: document.getElementById('password').value }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      stepsBox.innerHTML = '<div class="err" style="padding:12px;border-radius:8px;max-width:560px"></div>';
+      stepsBox.firstChild.textContent = data.error || 'Test failed.';
+    } else {
+      for (const s of data.steps) {
+        const box = document.createElement('div');
+        box.className = s.ok ? 'ok' : 'err';
+        box.style.cssText = 'padding:12px;border-radius:8px;max-width:560px;margin-top:10px';
+        box.textContent = (s.ok ? 'PASS  ' : 'FAIL  ') + s.name + ': ' + s.detail;
+        stepsBox.appendChild(box);
+      }
+    }
+  } catch (err) {
+    stepsBox.textContent = 'Could not reach the site: ' + err.message;
+  }
+  testBtn.disabled = false; testBtn.textContent = 'Test Telegram path';
 });
 </script>
 </body></html>
