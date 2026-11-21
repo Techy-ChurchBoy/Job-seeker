@@ -178,7 +178,8 @@ SMARTYACAD_SKIP = ("scholarship", "grant", "bootcamp")
 def smartyacad():
     """Dixcover Hub (jobs.smartyacad.com) is a WordPress site, so its public post feed is JSON."""
     r = requests.get("https://jobs.smartyacad.com/wp-json/wp/v2/posts",
-                     params={"per_page": 50, "orderby": "date"}, timeout=30)
+                     params={"per_page": 50, "orderby": "date"}, timeout=30,
+                     headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
     r.raise_for_status()
     for p in r.json():
         heading = strip_html(p.get("title", {}).get("rendered", ""))
