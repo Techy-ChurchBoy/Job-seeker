@@ -92,6 +92,7 @@ def main():
 <title>Job search dashboard</title><style>{CSS}</style></head>
 <body>
 <h1>Job search dashboard</h1>
+<p><a href="apply.html">Apply to a job</a></p>
 <div>{badge} <span class="muted">Last run: {esc(last_run)} UTC</span></div>
 <div class="cards">{cards_html}</div>
 

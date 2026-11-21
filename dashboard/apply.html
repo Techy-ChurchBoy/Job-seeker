@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
+<title>Apply to a job</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0f1115;color:#e6e6e6;margin:0;padding:16px;font-size:16px}
+h1{font-size:22px;margin:0 0 12px} a{color:#7dd3fc}
+form{display:flex;flex-direction:column;gap:12px;max-width:560px}
+label{display:flex;flex-direction:column;gap:4px;font-size:14px;color:#aab0ba}
+input,textarea{background:#1a1d24;color:#e6e6e6;border:1px solid #2c313c;border-radius:8px;padding:10px;font-size:16px;font-family:inherit}
+textarea{min-height:140px}
+button{background:#2563eb;color:#fff;border:0;border-radius:8px;padding:14px;font-size:17px;font-weight:600}
+button:disabled{opacity:.5}
+#result{margin-top:14px;padding:12px;border-radius:8px;max-width:560px;white-space:pre-wrap}
+.ok{background:#14532d}.err{background:#7f1d1d}
+</style></head>
+<body>
+<p><a href="index.html">Back to dashboard</a></p>
+<h1>Apply to a job</h1>
+<form id="f">
+  <label>Password<input id="password" type="password" autocomplete="current-password" required></label>
+  <label>Job link<input id="job_url" type="url" placeholder="https://..." required></label>
+  <label>Company (optional)<input id="company"></label>
+  <label>Contact email (optional, if the posting doesn't show one)<input id="email" type="email"></label>
+  <label>Job description (optional, paste if the link won't load)<textarea id="job_description"></textarea></label>
+  <button id="run" type="submit">Run</button>
+</form>
+<div id="result" hidden></div>
+<script>
+const form = document.getElementById('f');
+const result = document.getElementById('result');
+const button = document.getElementById('run');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  button.disabled = true; button.textContent = 'Starting...';
+  result.hidden = true;
+  const payload = {
+    password: document.getElementById('password').value,
+    job_url: document.getElementById('job_url').value.trim(),
+    company: document.getElementById('company').value.trim(),
+    email: document.getElementById('email').value.trim(),
+    job_description: document.getElementById('job_description').value.trim(),
+  };
+  try {
+    const res = await fetch('/.netlify/functions/apply', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+    });
+    const data = await res.json().catch(() => ({}));
+    result.className = res.ok ? 'ok' : 'err';
+    result.textContent = res.ok ? data.message : (data.error || 'Something went wrong.');
+  } catch (err) {
+    result.className = 'err';
+    result.textContent = 'Could not reach the site: ' + err.message;
+  }
+  result.hidden = false;
+  button.disabled = false; button.textContent = 'Run';
+});
+</script>
+</body></html>
