@@ -62,7 +62,7 @@ jobs:
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
-          for p in matches.csv seen.json prepared.json applied.csv alerted.json applied_forms.json gmail_drafts.json status.json applications cv dashboard; do
+          for p in matches.csv seen.json prepared.json applied.csv alerted.json applied_forms.json gmail_drafts.json failed_sends.json status.json applications cv dashboard; do
             [ -e "$p" ] && git add "$p"
           done
           git diff --staged --quiet || git commit -m "update matches and drafts"

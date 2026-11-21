@@ -7,7 +7,7 @@ at most MAX_PER_DAY a day, and a PAUSE file in the repo stops everything. Every 
 Needs env: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, CANDIDATE_NAME, CANDIDATE_PHONE.
 Run with --dry-run to see what would be sent without sending anything.
 """
-import csv, os, re, smtplib, sys
+import csv, json, os, re, smtplib, sys
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from prepare import slug  # same file naming as the drafts
@@ -105,6 +105,7 @@ def main(dry_run):
 
     sent = 0
     sent_list = []
+    failed_urls = []
     for score, r, addr, letter in eligible[:budget]:
         body = fill(letter, name, phone, sender)
         if PLACEHOLDER_RE.search(body):
@@ -123,9 +124,14 @@ def main(dry_run):
         msg.set_content(body)
         msg.add_attachment(open(CV_PDF, "rb").read(), maintype="application", subtype="pdf",
                            filename=f"{name.replace(' ', '_')}_CV.pdf")
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
-            s.login(sender, pw)
-            s.send_message(msg)
+        try:
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
+                s.login(sender, pw)
+                s.send_message(msg)
+        except Exception as e:
+            print(f"Send failed for {r['title']} at {r['company']}: {str(e)[:120]}. It will go to Gmail Drafts.")
+            failed_urls.append(r["url"])
+            continue
 
         applied.append({"sent_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                         "score": score, "title": r["title"], "company": r["company"],
@@ -136,6 +142,7 @@ def main(dry_run):
         print(f"Sent: {r['title']} at {r['company']} to {addr}")
 
     update_status("emails", {"sent": sent, "eligible": len(eligible), "names": sent_list[:20]})
+    json.dump(failed_urls, open("failed_sends.json", "w"))
     summary = f"- {sent} emails sent this run" + (" (dry run, none sent)" if dry_run else "")
     print(summary)
     if os.getenv("GITHUB_STEP_SUMMARY"):
