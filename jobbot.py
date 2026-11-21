@@ -247,7 +247,12 @@ def score(j):
         raise QuotaError("Gemini quota or rate limit hit (429). Daily free quota may be used up.")
     text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
     time.sleep(6)                          # stay under free-tier requests per minute
-    return json.loads(text.strip().replace("```json", "").replace("```", ""))
+    parsed = json.loads(text.strip().replace("```json", "").replace("```", ""))
+    if isinstance(parsed, list):  # sometimes Gemini wraps the answer in a list
+        parsed = next((x for x in parsed if isinstance(x, dict)), {})
+    if not isinstance(parsed, dict) or "score" not in parsed:
+        raise ValueError(f"unexpected Gemini reply: {str(parsed)[:120]}")
+    return parsed
 
 
 def main():
