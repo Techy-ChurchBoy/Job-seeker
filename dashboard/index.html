@@ -32,6 +32,14 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
 
 <section><h2>Overview</h2><div id="stats" class="grid"></div></section>
 
+<section><h2>Form submission</h2>
+<div class="clay">
+  <div class="row"><b id="modeText">Checking...</b><button class="btn" id="modeBtn" type="button" disabled>...</button></div>
+  <p class="muted">Review only: the bot fills Greenhouse forms and sends you a screenshot, and you submit. Automatic: the bot submits them itself.</p>
+  <input id="modePw" type="password" placeholder="Password" autocomplete="current-password" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:6px">
+  <p class="muted" id="modeMsg"></p>
+</div></section>
+
 <section><h2>Skills to build</h2>
 <p class="muted">Skills and tools the jobs ask for that your CV doesn't show yet, most common first.</p>
 <div id="skills"></div></section>
@@ -121,6 +129,35 @@ function render(feed) {
     jobs.append(c);
   });
 }
+
+function setMode(auto) {
+  document.getElementById('modeText').textContent = auto ? 'Automatic submission is ON' : 'Review only: nothing is submitted for you';
+  const b = document.getElementById('modeBtn');
+  b.textContent = auto ? 'Switch to review only' : 'Turn on automatic submission';
+  b.dataset.auto = auto ? 'false' : 'true';
+  b.disabled = false;
+}
+function modeMessage(text) { document.getElementById('modeMsg').textContent = text; }
+fetch('/.netlify/functions/mode', { cache: 'no-store' })
+  .then(r => r.json())
+  .then(d => d.error ? (document.getElementById('modeText').textContent = 'Could not read the setting', modeMessage(d.error)) : setMode(d.auto))
+  .catch(() => { document.getElementById('modeText').textContent = 'Could not read the setting'; modeMessage('Open the dashboard on its Netlify address to use this switch.'); });
+document.getElementById('modeBtn').addEventListener('click', async () => {
+  const want = document.getElementById('modeBtn').dataset.auto === 'true';
+  const pw = document.getElementById('modePw').value;
+  if (!pw) { modeMessage('Enter the password first.'); return; }
+  if (want && !confirm('Turn on automatic submission? The bot will submit Greenhouse applications itself, without asking you first.')) return;
+  modeMessage('Saving...');
+  try {
+    const res = await fetch('/.netlify/functions/mode', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: pw, auto: want }),
+    });
+    const d = await res.json().catch(() => ({}));
+    if (res.ok) { setMode(d.auto); modeMessage('Saved.'); document.getElementById('modePw').value = ''; }
+    else modeMessage(d.error || 'Something went wrong.');
+  } catch (err) { modeMessage('Could not reach the site: ' + err.message); }
+});
 
 fetch('data/feed.json', { cache: 'no-store' })
   .then(r => r.ok ? r.json() : null)
