@@ -1,26 +1,27 @@
 {
- "last_run": "2026-11-21T18:46+00:00",
+ "last_run": "2026-11-21T22:57+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 100 fetched, 30 passed filter",
+  "- himalayas: 20 fetched, 13 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
   "- jobicy: 50 fetched, 43 passed filter",
   "- remoteok: 100 fetched, 45 passed filter",
-  "- greenhouse: 66 fetched, 37 passed filter",
+  "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
   "- smartyacad: 44 fetched, 20 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "  - Greenhouse Moniepoint: 66 jobs",
+  "  - Greenhouse Moniepoint: 67 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 9 linked pages",
   "- 21 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 25: Implementation Specialist at Ooma. Blockers: 2+ years Technical Customer Success or Implementation Specialist experience",
-  "  - 10: Product Manager, Transformation at Trax Technologies. Blockers: 5+ years in product management for B2B",
-  "  - 0: Junior Web Designer at Snappy Kraken. Blockers: Required to reside and be eligible to work in the United States or Canada; degree or diploma in Web Design",
+  "  - 25: Systems Analyst at Ferrellgas. Blockers: experienced ERP Systems Analyst required",
+  "  - 15: Test Data Quality Engineer at PLATO. Blockers: 3-5 years of test data quality or data engineering experience required",
+  "  - 15: Product Designer (AI Products & Platforms) at Kyivstar. Blockers: UI/UX design experience required",
+  "  - 0: Product, Platform & Enterprise Full Stack Software Engineer I/II (Remote - US) ( at BNSF Railway. Blockers: US work authorization required; Full Stack Software Engineering experience required",
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "report": {
@@ -34,8 +35,8 @@
    {
     "name": "himalayas",
     "ok": true,
-    "fetched": 100,
-    "passed": 30
+    "fetched": 20,
+    "passed": 13
    },
    {
     "name": "workingnomads",
@@ -58,8 +59,8 @@
    {
     "name": "greenhouse",
     "ok": true,
-    "fetched": 66,
-    "passed": 37
+    "fetched": 67,
+    "passed": 38
    },
    {
     "name": "lever",
@@ -87,7 +88,7 @@
    }
   ],
   "new_to_score": 80,
-  "scored": 3,
+  "scored": 4,
   "scoring_failed": 1,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
