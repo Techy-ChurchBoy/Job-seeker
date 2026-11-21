@@ -16,6 +16,25 @@ Yours sincerely,
 [PHONE] | [EMAIL]"""
 
 
+def letter_for(role, company):
+    """Write a fresh letter with Gemini, the same way the real drafts are written.
+    Falls back to the fixed template if Gemini is unavailable."""
+    try:
+        import prepare
+        from jobbot import pick_model
+        model = pick_model()
+        out = prepare.generate(model, prepare.PROMPT.format(
+            cv=prepare.CV_TEXT, title=role, company=company, location="Nigeria",
+            description="(No posting text. Write from the CV, the role and the company name only.)"))
+        letter = out.get("cover_letter", "").strip()
+        if letter:
+            print(f"Letter written by {model}.")
+            return prepare.scrub(letter)
+    except Exception as e:
+        print(f"Gemini letter failed ({str(e)[:120]}). Using the fixed template.")
+    return LETTER.format(role=role, company=company)
+
+
 def main():
     name = os.getenv("CANDIDATE_NAME", "").strip()
     phone = os.getenv("CANDIDATE_PHONE", "").strip()
@@ -29,8 +48,9 @@ def main():
     if not os.path.exists("cv/cv.pdf"):
         sys.exit("cv/cv.pdf is missing. Nothing sent.")
 
-    body = (LETTER.format(role=role, company=company)
-            .replace("[FULL NAME]", name).replace("[PHONE]", phone).replace("[EMAIL]", sender))
+    body = (letter_for(role, company)
+            .replace("[FULL NAME]", name).replace("[PHONE]", phone)
+            .replace("[EMAIL]", sender).replace("[LOCATION]", "Nigeria"))
     msg = EmailMessage()
     msg["From"] = f"{name} <{sender}>"
     msg["To"] = to

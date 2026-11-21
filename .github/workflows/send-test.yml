@@ -22,11 +22,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install -r requirements.txt
       - run: python -u send_test.py
         env:
           TEST_TO: ${{ inputs.to }}
           TEST_ROLE: ${{ inputs.role }}
           TEST_COMPANY: ${{ inputs.company }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
