@@ -119,12 +119,19 @@ def board_jobs(kind, name, url, parse):
         BOARD_LOG.append(f"{kind} {name}: FAILED ({str(e)[:80]})")
 
 
+def place_name(loc):
+    """Greenhouse gives location as an object, sometimes as plain text."""
+    if isinstance(loc, dict):
+        return loc.get("name", "")
+    return loc or ""
+
+
 def greenhouse():
     for c in load_watchlist().get("greenhouse", []):
         def parse(data, c=c):
             return [dict(posted=to_dt(j.get("updated_at")), source=f"Greenhouse:{c['name']}",
                          title=j["title"], company=c["name"],
-                         location=(j.get("location") or {}).get("name", ""),
+                         location=place_name(j.get("location")),
                          url=j["absolute_url"], description=strip_html(j.get("content")))
                     for j in data["jobs"]]
         yield from board_jobs("Greenhouse", c["name"],
