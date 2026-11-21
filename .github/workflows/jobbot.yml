@@ -34,7 +34,9 @@ jobs:
           CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
           CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
       - run: python -u dashboard.py
+        if: always()
       - name: Save results
+        if: always()
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
