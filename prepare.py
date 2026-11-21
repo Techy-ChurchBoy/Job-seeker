@@ -28,7 +28,7 @@ Description: {description}
 
 Write:
 1. "tailored_cv": the CV in Markdown, reordered and reworded to emphasise what matches this job. Same facts only.
-2. "cover_letter": a plain, specific cover letter under 250 words. Name the company and the role. Mention the 2 or 3 most relevant experiences. No clichés.
+2. "cover_letter": a cover letter under 250 words, written fresh for this company and role. Open with something specific from the job description or the company's work, not a generic line. Do not start with "I am applying" or "I am writing". Vary the sentence structure and paragraph order instead of following a standard template. Name the company and the role. Mention the 2 or 3 experiences from the CV that matter most for this role. No clichés.
 3. "notes": short notes for the candidate. List any requirement they do not meet (for example a required professional qualification) so they can decide whether to apply.
 
 Never write a real name, phone number, email address or street address. Use these placeholders exactly: [FULL NAME], [PHONE], [EMAIL], [LOCATION].
