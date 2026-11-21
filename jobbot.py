@@ -28,8 +28,6 @@ ROLE_WORDS = ["accountant", "accounting", "finance", "financial", "bookkeeper", 
               "storekeeper", "supply chain", "logistics", "office manager", "operations"]
 
 # Company boards on Greenhouse / Lever. Add slugs of companies you want to watch.
-GREENHOUSE = ["flutterwave", "andela", "moniepoint"]
-LEVER = ["paystack"]
 
 
 def to_dt(v):
@@ -101,32 +99,62 @@ def remoteok():
                    description=strip_html(j.get("description")))
 
 
+def load_watchlist():
+    """companies.json: {"greenhouse": [{"name": ..., "board": ...}], "lever": [...], "ashby": [...]}"""
+    if os.path.exists("companies.json"):
+        return json.load(open("companies.json", encoding="utf-8"))
+    return {"greenhouse": [], "lever": [], "ashby": []}
+
+
+BOARD_LOG = []  # per-company results, shown in the run summary
+
+
+def board_jobs(kind, name, url, parse):
+    try:
+        data = requests.get(url, timeout=30).json()
+        items = parse(data)
+        BOARD_LOG.append(f"{kind} {name}: {len(items)} jobs")
+        yield from items
+    except Exception as e:
+        BOARD_LOG.append(f"{kind} {name}: FAILED ({str(e)[:80]})")
+
+
 def greenhouse():
-    for slug in GREENHOUSE:
-        try:
-            r = requests.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true", timeout=30)
-            for j in r.json().get("jobs", []):
-                yield dict(posted=to_dt(j.get("updated_at")), source=f"Greenhouse:{slug}", title=j["title"], company=slug,
-                           location=(j.get("location") or {}).get("name", ""), url=j["absolute_url"],
-                           description=strip_html(j.get("content")))
-        except Exception as e:
-            print(f"greenhouse {slug} failed: {e}", file=sys.stderr)
+    for c in load_watchlist().get("greenhouse", []):
+        def parse(data, c=c):
+            return [dict(posted=to_dt(j.get("updated_at")), source=f"Greenhouse:{c['name']}",
+                         title=j["title"], company=c["name"],
+                         location=(j.get("location") or {}).get("name", ""),
+                         url=j["absolute_url"], description=strip_html(j.get("content")))
+                    for j in data["jobs"]]
+        yield from board_jobs("Greenhouse", c["name"],
+                              f"https://boards-api.greenhouse.io/v1/boards/{c['board']}/jobs?content=true", parse)
 
 
 def lever():
-    for slug in LEVER:
-        try:
-            r = requests.get(f"https://api.lever.co/v0/postings/{slug}?mode=json", timeout=30)
-            data = r.json()
+    for c in load_watchlist().get("lever", []):
+        def parse(data, c=c):
             if not isinstance(data, list):
-                print(f"lever {slug}: unexpected response, check the company slug", file=sys.stderr)
-                continue
-            for j in data:
-                yield dict(posted=to_dt(j.get("createdAt")), source=f"Lever:{slug}", title=j["text"], company=slug,
-                           location=(j.get("categories") or {}).get("location", ""), url=j["hostedUrl"],
-                           description=j.get("descriptionPlain", ""))
-        except Exception as e:
-            print(f"lever {slug} failed: {e}", file=sys.stderr)
+                raise ValueError("unexpected response, check the board name")
+            return [dict(posted=to_dt(j.get("createdAt")), source=f"Lever:{c['name']}",
+                         title=j["text"], company=c["name"],
+                         location=(j.get("categories") or {}).get("location", ""),
+                         url=j["hostedUrl"], description=j.get("descriptionPlain", ""))
+                    for j in data]
+        yield from board_jobs("Lever", c["name"],
+                              f"https://api.lever.co/v0/postings/{c['board']}?mode=json", parse)
+
+
+def ashby():
+    for c in load_watchlist().get("ashby", []):
+        def parse(data, c=c):
+            return [dict(posted=to_dt(j.get("publishedAt")), source=f"Ashby:{c['name']}",
+                         title=j.get("title", ""), company=c["name"],
+                         location=j.get("location") or "", url=j.get("jobUrl", ""),
+                         description=strip_html(j.get("descriptionPlain") or j.get("descriptionHtml")))
+                    for j in data["jobs"]]
+        yield from board_jobs("Ashby", c["name"],
+                              f"https://api.ashbyhq.com/posting-api/job-board/{c['board']}", parse)
 
 
 JOOBLE_ERRORS = []
@@ -220,7 +248,7 @@ def main():
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
     jobs, lines = [], []
-    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, jooble):
+    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, jooble):
         try:
             got = list(src())
         except Exception as e:
@@ -229,6 +257,7 @@ def main():
         else:
             lines.append(f"- {src.__name__}: {len(got)} fetched, {sum(prefilter(j) for j in got)} passed filter")
         jobs += got
+    lines.extend(f"  - {b}" for b in BOARD_LOG)
     if JOOBLE_ERRORS:
         lines.append(f"- jooble errors ({len(JOOBLE_ERRORS)}). First: {JOOBLE_ERRORS[0]}")
     if not os.getenv("JOOBLE_KEY"):

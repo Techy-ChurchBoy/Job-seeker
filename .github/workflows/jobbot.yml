@@ -27,10 +27,16 @@ jobs:
       - run: python -u prepare.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - run: python -u send_applications.py
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
       - name: Save results
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
-          git add matches.csv seen.json prepared.json applications cv
+          git add matches.csv seen.json prepared.json applications cv applied.csv
           git diff --staged --quiet || git commit -m "update matches and drafts"
           git push

@@ -1,0 +1,9 @@
+{
+  "greenhouse": [
+    {"name": "Moniepoint", "board": "moniepoint"},
+    {"name": "Flutterwave", "board": "flutterwave"},
+    {"name": "Andela", "board": "andela"}
+  ],
+  "lever": [],
+  "ashby": []
+}
