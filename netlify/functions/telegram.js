@@ -104,11 +104,12 @@ async function matches() {
 }
 
 async function reply(chatId, text) {
-  await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
+  const res = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ chat_id: chatId, text }),
   });
+  if (!res.ok) console.log("reply failed with status", res.status, "(check TELEGRAM_BOT_TOKEN)");
 }
 
 exports.handler = async (event) => {
@@ -127,7 +128,14 @@ exports.handler = async (event) => {
 
   const update = JSON.parse(event.body || "{}");
   const msg = update.message || update.edited_message;
-  if (!msg || String(msg.chat.id) !== String(process.env.TELEGRAM_CHAT_ID)) return ok;
+  if (!msg) {
+    console.log("no message in update; update keys:", Object.keys(update).join(","));
+    return ok;
+  }
+  if (String(msg.chat.id) !== String(process.env.TELEGRAM_CHAT_ID)) {
+    console.log("ignored: chat id", msg.chat.id, "does not match TELEGRAM_CHAT_ID (set:", Boolean(process.env.TELEGRAM_CHAT_ID), ")");
+    return ok;
+  }
   const chatId = msg.chat.id;
   const text = (msg.text || "").trim();
 
