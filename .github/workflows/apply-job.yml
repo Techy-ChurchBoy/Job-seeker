@@ -47,7 +47,9 @@ jobs:
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
-          git add matches.csv prepared.json applied.csv applications dashboard
+          for p in matches.csv seen.json prepared.json applied.csv status.json applications cv dashboard; do
+            [ -e "$p" ] && git add "$p"
+          done
           git diff --staged --quiet || git commit -m "apply: manual job"
           git push
       - name: Notify on Telegram
