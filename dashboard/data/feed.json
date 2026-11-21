@@ -1,60 +1,17 @@
 {
- "generated": "2026-11-21 13:53 UTC",
+ "generated": "2026-11-21 13:55 UTC",
  "paused": false,
- "last_run": "2026-11-21T12:38+00:00",
- "summary": [
-  "- remotive: 16 fetched, 0 passed filter",
-  "- himalayas: 100 fetched, 18 passed filter",
-  "- workingnomads: 35 fetched, 1 passed filter",
-  "- jobicy: 50 fetched, 37 passed filter",
-  "- remoteok: 100 fetched, 9 passed filter",
-  "- greenhouse: 66 fetched, 31 passed filter",
-  "- lever: 0 fetched, 0 passed filter",
-  "- ashby: 0 fetched, 0 passed filter",
-  "- jooble: 0 fetched, 0 passed filter",
-  "  - Greenhouse Moniepoint: 66 jobs",
-  "  - Greenhouse Flutterwave: FAILED ('jobs')",
-  "  - Greenhouse Andela: FAILED ('jobs')",
-  "- 20 jobs older than 30 days skipped",
-  "- 31 new jobs sent to scoring",
-  "- Top scores (threshold is 55):",
-  "  - 35: Fraud Operations Analyst at Sezzle. Blockers: None",
-  "  - 35: Field Credit Officer (Edo) at Moniepoint. Blockers: none",
-  "  - 35: Field Credit Officer (Delta) at Moniepoint. Blockers: none",
-  "  - 25: Sales Operations Support Specialist at Core BTS. Blockers: 3-5 years experience in sales operations/inside sales required",
-  "  - 25: Risk Adjustment Operations Senior Project Analyst at Datavant. Blockers: Senior-level experience required; US-based healthcare operations focus."
- ],
+ "last_run": null,
+ "summary": [],
  "stats": {
-  "jobs_scored": 1,
-  "strong": 1,
-  "drafts": 1,
-  "sent_today": 1,
-  "sent_total": 1,
+  "jobs_scored": 0,
+  "strong": 0,
+  "drafts": 0,
+  "sent_today": 0,
+  "sent_total": 0,
   "daily_limit": 10
  },
  "skills": [],
- "sent": [
-  {
-   "sent_at": "2026-11-21T12:18:42+00:00",
-   "title": "Job posting",
-   "company": "example.com",
-   "email": "goldendrizzle66@gmail.com",
-   "score": "95",
-   "url": "https://example.com/jobs/test-accountant-2026"
-  }
- ],
- "jobs": [
-  {
-   "score": 95,
-   "title": "Job posting",
-   "company": "example.com",
-   "location": "",
-   "source": "Manual",
-   "reason": "The role perfectly matches the candidate's experience level, educational background, and technical skills in accounting software and reconciliations.",
-   "blockers": "",
-   "gaps": [],
-   "url": "https://example.com/jobs/test-accountant-2026",
-   "drafted": true
-  }
- ]
+ "sent": [],
+ "jobs": []
 }
