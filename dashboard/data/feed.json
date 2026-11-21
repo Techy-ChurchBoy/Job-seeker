@@ -1,17 +1,1488 @@
 {
- "generated": "2026-11-21 13:55 UTC",
+ "generated": "2026-11-21 16:16 UTC",
+ "report": [
+  "Last run: 2026-11-21T16:15+00:00 UTC.",
+  "The search checked 9 job sources and 9 responded. It found 367 postings in total, and 175 matched your skills.",
+  "78 postings were scored against your CV this run.",
+  "2 postings could not be scored because the AI service was busy. They will be tried again next run.",
+  "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+  "2 cover letters were written.",
+  "No application emails were sent this run.",
+  "Overall, 1 postings currently qualify for an email (score 40 or more, no blockers)."
+ ],
  "paused": false,
- "last_run": null,
- "summary": [],
+ "last_run": "2026-11-21T16:15+00:00",
+ "summary": [
+  "- remotive: 16 fetched, 2 passed filter",
+  "- himalayas: 100 fetched, 39 passed filter",
+  "- workingnomads: 35 fetched, 10 passed filter",
+  "- jobicy: 50 fetched, 42 passed filter",
+  "- remoteok: 100 fetched, 45 passed filter",
+  "- greenhouse: 66 fetched, 37 passed filter",
+  "- lever: 0 fetched, 0 passed filter",
+  "- ashby: 0 fetched, 0 passed filter",
+  "- jooble: 0 fetched, 0 passed filter",
+  "  - Greenhouse Moniepoint: 66 jobs",
+  "  - Greenhouse Flutterwave: FAILED ('jobs')",
+  "  - Greenhouse Andela: FAILED ('jobs')",
+  "- 20 jobs older than 30 days skipped",
+  "- 80 new jobs sent to scoring",
+  "- Top scores (threshold is 55):",
+  "  - 45: Implementation Officer (Lagos) at Moniepoint. Blockers: none",
+  "  - 40: Sr. Analyst, Fund Controlling at Gridline, LLC. Blockers: Location mismatch (Philippines required)",
+  "  - 35: Inbound Sales Officer (Lagos) at Moniepoint. Blockers: none",
+  "  - 25: REO Closing Coordinator at MORTGAGE CONNECT. Blockers: 1 to 5 years practical work experience within the real estate industry or vendor management service",
+  "  - 25: Payroll Specialist at Beitzel Corporation. Blockers: US location requirement and US payroll tax expertise",
+  "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+ ],
  "stats": {
-  "jobs_scored": 0,
-  "strong": 0,
-  "drafts": 0,
+  "jobs_scored": 78,
+  "strong": 2,
+  "drafts": 2,
   "sent_today": 0,
-  "sent_total": 0,
-  "daily_limit": 10
+  "sent_total": 0
  },
- "skills": [],
+ "skills": [
+  {
+   "skill": "Executive Leadership",
+   "count": 4,
+   "examples": [
+    "Head of Credit, Kenya at Moniepoint",
+    "Sr Director, L2C Process Owner at BeyondTrust",
+    "Senior Director of Product Management (R14361) at Oportun"
+   ]
+  },
+  {
+   "skill": "Team Leadership",
+   "count": 3,
+   "examples": [
+    "Head of Operations & Compliance Audit at Moniepoint",
+    "Accounting Manager at saas.group",
+    "Finance Director (CFO) at Scarpel Telecom"
+   ]
+  },
+  {
+   "skill": "Us Gaap",
+   "count": 3,
+   "examples": [
+    "Senior Manager, Technical Accounting and Reporting at Darktrace",
+    "Senior Analyst, Financial Reporting at Liftoff",
+    "Director of Accounting at AlphaSense"
+   ]
+  },
+  {
+   "skill": "Software Engineering",
+   "count": 3,
+   "examples": [
+    "Senior Product Engineer at Arbor Education",
+    "Senior Product Architect at Storyblok",
+    "Engineering Lead, Clinical Operations at Clover Health"
+   ]
+  },
+  {
+   "skill": "Product Demonstrations",
+   "count": 2,
+   "examples": [
+    "Inbound Sales Officer (Lagos) at Moniepoint",
+    "Customer Success Manager at Salsify"
+   ]
+  },
+  {
+   "skill": "People Management",
+   "count": 2,
+   "examples": [
+    "Manager, Data Product Management at wex",
+    "Senior Director of Product Management (R14361) at Oportun"
+   ]
+  },
+  {
+   "skill": "Customer Success",
+   "count": 2,
+   "examples": [
+    "Customer Success Manager at Salsify",
+    "Customer Success LATAM at GitLab"
+   ]
+  },
+  {
+   "skill": "Salesforce",
+   "count": 2,
+   "examples": [
+    "Sr Sales Ops Analyst at BeyondTrust",
+    "Sales Commissions Analyst at LaunchDarkly"
+   ]
+  },
+  {
+   "skill": "Databricks",
+   "count": 2,
+   "examples": [
+    "Sr Sales Ops Analyst at BeyondTrust",
+    "Sr Data Analyst at Alignment Health"
+   ]
+  },
+  {
+   "skill": "Team Management",
+   "count": 2,
+   "examples": [
+    "P2P Regional Operations - Africa at Bybit",
+    "Senior Manager, Technical Accounting and Reporting at Darktrace"
+   ]
+  },
+  {
+   "skill": "Cybersecurity",
+   "count": 2,
+   "examples": [
+    "Systems Analyst at Koniag Government Services",
+    "Security Analyst - Governance, Risk, and Compliance at LaunchDarkly"
+   ]
+  },
+  {
+   "skill": "Soc 2",
+   "count": 2,
+   "examples": [
+    "Security Analyst - Governance, Risk, and Compliance at LaunchDarkly",
+    "Head, IT Audit at Moniepoint"
+   ]
+  },
+  {
+   "skill": "Iso 27001",
+   "count": 2,
+   "examples": [
+    "Security Analyst - Governance, Risk, and Compliance at LaunchDarkly",
+    "Head, IT Audit at Moniepoint"
+   ]
+  },
+  {
+   "skill": "Devsecops",
+   "count": 2,
+   "examples": [
+    "Customer Success Engineer at GitLab",
+    "Customer Success LATAM at GitLab"
+   ]
+  },
+  {
+   "skill": "Enterprise Sales",
+   "count": 2,
+   "examples": [
+    "Regional Senior Key Account Manager - Data Center OEM at Eaton",
+    "Director, Enterprise Sales at Abnormal"
+   ]
+  }
+ ],
  "sent": [],
- "jobs": []
+ "jobs": [
+  {
+   "score": 45,
+   "title": "Implementation Officer (Lagos)",
+   "company": "Moniepoint",
+   "location": "Lagos, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "This is a customer-facing onboarding and implementation role in fintech that utilizes the candidate's process documentation, stakeholder coordination, and fintech interest, though it lacks direct accounting tasks.",
+   "blockers": "",
+   "gaps": [
+    "customer training",
+    "POS implementation",
+    "merchant onboarding"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4827872101",
+   "drafted": true
+  },
+  {
+   "score": 40,
+   "title": "Sr. Analyst, Fund Controlling",
+   "company": "Gridline, LLC",
+   "location": "Philippines",
+   "source": "Himalayas",
+   "reason": "The role matches the candidate's accounting background, but is located in the Philippines while the candidate seeks Nigeria or remote, and seniority may be higher than entry-level.",
+   "blockers": "Location mismatch (Philippines required)",
+   "gaps": [
+    "fund controlling",
+    "NAV calculation",
+    "private market fund accounting"
+   ],
+   "url": "https://himalayas.app/companies/gridline-llc/jobs/sr-analyst-fund-controlling?utm_source=api",
+   "drafted": true
+  },
+  {
+   "score": 35,
+   "title": "Inbound Sales Officer (Lagos)",
+   "company": "Moniepoint",
+   "location": "Lagos, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "This is a direct inbound sales role focused on customer acquisition and closing deals, which does not align well with the candidate's core accounting, finance, and reporting profile.",
+   "blockers": "",
+   "gaps": [
+    "sales closing",
+    "lead qualification",
+    "product demonstrations"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828536101",
+   "drafted": false
+  },
+  {
+   "score": 25,
+   "title": "REO Closing Coordinator",
+   "company": "MORTGAGE CONNECT",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires specific U.S. real estate industry and closing experience which the candidate lacks, though it is remote.",
+   "blockers": "1 to 5 years practical work experience within the real estate industry or vendor management service",
+   "gaps": [
+    "real estate titles",
+    "deed preparation",
+    "closing coordination",
+    "Alta Statement/CD preparation"
+   ],
+   "url": "https://himalayas.app/companies/mortgage-connect/jobs/reo-closing-coordinator?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 25,
+   "title": "Payroll Specialist",
+   "company": "Beitzel Corporation",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires US-specific payroll tax and compliance knowledge as well as physical presence in the United States, which does not match the candidate's profile based in Nigeria.",
+   "blockers": "US location requirement and US payroll tax expertise",
+   "gaps": [
+    "US payroll regulations",
+    "payroll processing",
+    "Vista by Viewpoint"
+   ],
+   "url": "https://himalayas.app/companies/beitzel-corporation/jobs/payroll-specialist?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 25,
+   "title": "In-Home Care Admin Coordinator",
+   "company": "Clover Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job is a US-based administrative healthcare role requiring direct US healthcare setting experience, which does not align with the candidate's finance and accounting profile based in Nigeria.",
+   "blockers": "US location/work authorization requirement; direct experience working in the US healthcare setting",
+   "gaps": [
+    "EHR experience",
+    "Google Apps",
+    "high-volume customer service call handling"
+   ],
+   "url": "https://himalayas.app/companies/clover-health/jobs/in-home-care-admin-coordinator?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 25,
+   "title": "Associate, Paid Social",
+   "company": "Real Chemistry",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role is in digital marketing and paid social media advertising, which is misaligned with the candidate's core accounting and finance background, though it is entry-level and mentions budget pacing.",
+   "blockers": "US location requirement with US working hours (EST/CST) for a candidate based in Nigeria seeking remote/onsite flexibility without explicit US work authorization.",
+   "gaps": [
+    "paid social campaigns",
+    "Meta, TikTok, Pinterest, Reddit advertising",
+    "MediaOcean",
+    "marketing execution"
+   ],
+   "url": "https://himalayas.app/companies/real-chemistry/jobs/associate-paid-social?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Senior Sales Operations Analyst",
+   "company": "ServiceNow",
+   "location": "Ireland",
+   "source": "Himalayas",
+   "reason": "The role requires 2+ years of specific sales operations experience and is a senior-level position located in Ireland, whereas the candidate is an entry-level accountant based in Nigeria.",
+   "blockers": "Senior role; 2+ years in Sales Operations required; location in Ireland",
+   "gaps": [
+    "Sales Operations",
+    "SaaS sales forecasting",
+    "CRM administration"
+   ],
+   "url": "https://himalayas.app/companies/servicenow/jobs/senior-sales-operations-analyst?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Operations Manager",
+   "company": "Essen Medical Associates",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job is located in the United States and is an operations/coordinator role in the healthcare sector, which poorly matches the candidate's finance profile and geographic preference for Nigeria or remote work.",
+   "blockers": "US location (onsite in New York implied by company and context)",
+   "gaps": [
+    "healthcare administration",
+    "HIPAA compliance",
+    "prior authorizations",
+    "provider attestations"
+   ],
+   "url": "https://himalayas.app/companies/essen-medical-associates/jobs/operations-manager?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "ABA Scheduling Coordinator",
+   "company": "Odyssey Autism",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires US remote work and specific healthcare scheduling experience, which do not align with the candidate's location and background.",
+   "blockers": "US residency/work authorization required",
+   "gaps": [
+    "ABA scheduling",
+    "Hipp Health",
+    "healthcare staffing"
+   ],
+   "url": "https://himalayas.app/companies/odyssey-autism/jobs/aba-scheduling-coordinator?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Manager, IT and Technology Operations",
+   "company": "GiveWell",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior management role for IT operations requiring specialized leadership and technical infrastructure experience that does not match the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior management role requiring dedicated IT and technology operations leadership experience.",
+   "gaps": [
+    "IT operations management",
+    "MDM platforms",
+    "ticketing systems",
+    "vendor negotiation",
+    "IT support infrastructure"
+   ],
+   "url": "https://himalayas.app/companies/givewell/jobs/manager-it-and-technology-operations?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "ASSISTENTE ADMINISTRATIVO | AFIRMATIVA PcD",
+   "company": "SGS",
+   "location": "Brazil",
+   "source": "Himalayas",
+   "reason": "The job is an onsite administrative assistant role located in Brazil requiring fluency in Portuguese, which does not align with the candidate's location or language profile.",
+   "blockers": "Location in Brazil; fluency in Portuguese",
+   "gaps": [
+    "Portuguese language proficiency",
+    "administrative support in Portuguese"
+   ],
+   "url": "https://himalayas.app/companies/sgs/jobs/assistente-administrativo-afirmativa-pcd?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Commercial and Account Management Intern",
+   "company": "IN-VR",
+   "location": "Argentina",
+   "source": "Himalayas",
+   "reason": "The job requires fluency in Spanish and a focus on outbound sales, cold-calling, and commercial account management, which do not align with the candidate's accounting and finance background.",
+   "blockers": "Fluent in both written and spoken Spanish",
+   "gaps": [
+    "Spanish language",
+    "cold-calling",
+    "sales",
+    "market research",
+    "account management"
+   ],
+   "url": "https://himalayas.app/companies/in-vr/jobs/commercial-and-account-management-intern?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Client Services Analyst - Swedish",
+   "company": "Bybit",
+   "location": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, Åland Islands",
+   "source": "Himalayas",
+   "reason": "The job requires bilingual fluency in English and Swedish, which the candidate does not possess.",
+   "blockers": "Fluent in Swedish",
+   "gaps": [
+    "Swedish language"
+   ],
+   "url": "https://himalayas.app/companies/bybit/jobs/client-services-analyst-swedish?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Manager, Data Product Management",
+   "company": "wex",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior management role requiring extensive product management leadership experience which conflicts with the candidate's junior profile.",
+   "blockers": "Senior management role requiring years of product management and leadership experience",
+   "gaps": [
+    "people management",
+    "enterprise product management",
+    "data product strategy"
+   ],
+   "url": "https://himalayas.app/companies/wex/jobs/manager-data-product-management?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Senior Analyst, Revenue Management",
+   "company": "OPENLANE",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required senior-level experience for this role, as they are an entry-level professional.",
+   "blockers": "Senior-level experience required",
+   "gaps": [
+    "pricing strategy",
+    "revenue optimization",
+    "advanced market segmentation",
+    "competitive benchmarking"
+   ],
+   "url": "https://himalayas.app/companies/openlane/jobs/senior-analyst-revenue-management?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Transportation and Capacity Analyst I/II/III/IV",
+   "company": "EQT Corporation",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job is a specialized US-based energy transportation and capacity analyst role requiring domain knowledge in natural gas pipeline operations, which does not align well with the candidate's accounting background and geographic location constraints.",
+   "blockers": "US location requirement; domain expertise in natural gas pipeline operations and ETRM systems",
+   "gaps": [
+    "natural gas pipeline scheduling",
+    "energy market insights",
+    "ETRM systems",
+    "capacity utilization"
+   ],
+   "url": "https://himalayas.app/companies/eqt-corporation/jobs/transportation-and-capacity-analyst-i-ii-iii-iv?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Project Scheduler – Primavera P6",
+   "company": "Peraton",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires US residency and specialized Primavera P6 scheduling experience which does not align with the candidate's accounting background.",
+   "blockers": "Must reside within the United States",
+   "gaps": [
+    "Primavera P6",
+    "CWP",
+    "US federal aviation systems"
+   ],
+   "url": "https://himalayas.app/companies/peraton/jobs/project-scheduler-primavera-p6-4013003487?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "F-35 Data Analyst Mid - 31190 (Arlington, VA, Virginia, United States)",
+   "company": "HII",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires US citizenship, the ability to obtain a security clearance for a defense program, and mid-level experience, none of which match the candidate's profile.",
+   "blockers": "Security clearance; US-based location / citizenship",
+   "gaps": [
+    "F-35 program knowledge",
+    "defense sector experience",
+    "mid-level experience"
+   ],
+   "url": "https://himalayas.app/companies/hii/jobs/f-35-data-analyst-mid-31190-arlington-va-virginia-united-states?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Customer Success Manager",
+   "company": "Salsify",
+   "location": "Europe",
+   "source": "RemoteOK",
+   "reason": "This role is a Customer Success Manager in Europe requiring commercial and account management experience, which does not align well with the candidate's accounting and finance background.",
+   "blockers": "Mid-market customer management experience required",
+   "gaps": [
+    "customer success",
+    "portfolio management",
+    "commercial upselling",
+    "product demonstrations"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-salsify-1137909",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Senior Associate, Finance and Accounting Operations",
+   "company": "Ensono",
+   "location": "Latin America",
+   "source": "RemoteOK",
+   "reason": "The role is too senior as a Senior Associate requiring local Brazilian tax and payroll expertise, which does not match the candidate's entry-level profile and geographical focus.",
+   "blockers": "Senior-level role; requires local Brazilian tax and payroll expertise",
+   "gaps": [
+    "Brazilian tax compliance",
+    "payroll administration for Brazil"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-associate-finance-and-accounting-operations-ensono-1137905",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Sr Sales Ops Analyst",
+   "company": "BeyondTrust",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires senior-level experience in sales operations and US-only location, which does not match the candidate's entry-level profile and Nigerian location.",
+   "blockers": "Senior-level experience required; US Only location",
+   "gaps": [
+    "Salesforce",
+    "Databricks",
+    "revenue planning",
+    "GTM motion",
+    "quota design"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-sales-ops-analyst-beyondtrust-1137902",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "Sales Commissions Analyst",
+   "company": "LaunchDarkly",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate is a junior accountant with less than a year of experience, whereas this role specifically requires 3+ years of experience in sales commissions and specific platform familiarity.",
+   "blockers": "3+ years of experience in sales commissions; commission platform experience (QuotaPath, Xactly, etc.); US only location",
+   "gaps": [
+    "sales commissions experience",
+    "Salesforce",
+    "QuotaPath or Xactly"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sales-commissions-analyst-launchdarkly-1137891",
+   "drafted": false
+  },
+  {
+   "score": 15,
+   "title": "P2P Regional Operations - Africa",
+   "company": "Bybit",
+   "location": "Africa",
+   "source": "RemoteOK",
+   "reason": "This is a senior regional management role requiring team leadership and strategic ownership, which does not match the candidate's entry-level profile.",
+   "blockers": "Senior regional management role requiring prior leadership and P2P operations experience; candidate is entry-level.",
+   "gaps": [
+    "P2P regional growth strategy",
+    "merchant ecosystem development",
+    "team management",
+    "crypto operations"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-p2p-regional-operations-africa-bybit-1137876",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Associate Technical Support Consultant",
+   "company": "Harris",
+   "location": "India",
+   "source": "Himalayas",
+   "reason": "The role requires a Bachelor's in Computer Science and technical support experience in healthcare, which does not align with the candidate's accounting background.",
+   "blockers": "Bachelor's in computer science required",
+   "gaps": [
+    "SQL",
+    "technical support",
+    "healthcare domain knowledge"
+   ],
+   "url": "https://himalayas.app/companies/harris/jobs/associate-technical-support-consultant-8522622094?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "AI Data Specialist - Croatian",
+   "company": "RWS Group",
+   "location": "Croatia",
+   "source": "Himalayas",
+   "reason": "The role requires native-level fluency in Croatian, which the candidate does not possess.",
+   "blockers": "Native-level fluency in Croatian",
+   "gaps": [
+    "Croatian language proficiency"
+   ],
+   "url": "https://himalayas.app/companies/rws-group/jobs/ai-data-specialist-croatian?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Procurement Manager",
+   "company": "Atari, Inc.",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior managerial role requiring independent leadership of a procurement function, which does not match the candidate's entry-level profile and geographic scope.",
+   "blockers": "Senior management role requiring extensive procurement experience; United States location requirement",
+   "gaps": [
+    "procurement management",
+    "vendor negotiation leadership",
+    "contract legal drafting"
+   ],
+   "url": "https://himalayas.app/companies/atari-inc/jobs/procurement-manager?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Public Service – Grants Management & Federal Funds Compliance Manager",
+   "company": "Accenture",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level Manager role requiring deep expertise in US federal funds compliance and grants management, which does not match the candidate's entry-level profile or geographic focus.",
+   "blockers": "Manager-level experience; expertise in US federal funds compliance and Uniform Guidance (2 CFR 200)",
+   "gaps": [
+    "US federal grants management",
+    "Uniform Guidance compliance",
+    "public sector advisory"
+   ],
+   "url": "https://himalayas.app/companies/accenture/jobs/public-service-grants-management-federal-funds-compliance-manager?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Account Executive III (State & Federal Agency)",
+   "company": "onXmaps",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This role is a senior-level enterprise B2B sales position (Account Executive III) requiring complex sales cycle management, which does not align with the candidate's junior accounting and finance profile.",
+   "blockers": "Senior-level sales experience required; B2B software sales expertise required",
+   "gaps": [
+    "complex sales cycles",
+    "enterprise procurement negotiation",
+    "B2B software sales",
+    "relationship building"
+   ],
+   "url": "https://himalayas.app/companies/onxmaps/jobs/account-executive-iii-state-federal-agency?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Project Operations Manager - 1st Shift - Travel (Remote, TX, US, 99999)",
+   "company": "GXO Logistics",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level operations management role requiring 1+ years of specific logistics/manufacturing operations experience and up to 75% US travel, whereas the candidate is an entry-level accountant based in Nigeria seeking remote or local opportunities.",
+   "blockers": "US residency and work authorization; 1+ years operations experience in manufacturing or logistics; ability to travel 75%+ within the US",
+   "gaps": [
+    "Logistics operations",
+    "Lean or Six Sigma",
+    "project management experience",
+    "supply chain management"
+   ],
+   "url": "https://himalayas.app/companies/gxo-logistics/jobs/project-operations-manager-1st-shift-travel-remote-tx-us-99999?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Systems Analyst",
+   "company": "Koniag Government Services",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires a US Secret security clearance and extensive defense IT experience in identity management and cybersecurity, which the candidate completely lacks.",
+   "blockers": "US Secret security clearance required; defense IT and ICAM experience required",
+   "gaps": [
+    "identity management",
+    "cybersecurity",
+    "requirements traceability matrices",
+    "DAF ICAM systems"
+   ],
+   "url": "https://himalayas.app/companies/koniag-government-services/jobs/systems-analyst?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Head of Operations & Compliance Audit",
+   "company": "Moniepoint",
+   "location": "Remote, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The candidate has only 11 months of junior-level experience and lacks professional certifications, whereas this senior executive role requires 12-15 years of progressive internal audit experience and leadership capabilities.",
+   "blockers": "12-15 years progressive internal audit experience; senior management and leadership capability",
+   "gaps": [
+    "IIA standards mastery",
+    "CBN regulatory compliance",
+    "team leadership",
+    "anti-money laundering frameworks"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5043648101",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Senior Manager, Product Analytics (Growth)",
+   "company": "iFIT",
+   "location": "Worldwide",
+   "source": "RemoteOK",
+   "reason": "The role requires 5 or more years of experience in product analytics and is a senior management position, which far exceeds the candidate's junior profile.",
+   "blockers": "5+ years in product analytics; Senior management level role",
+   "gaps": [
+    "product analytics",
+    "A/B testing methodology",
+    "event taxonomy",
+    "SQL/Python"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-product-analytics-growth-ifit-1137912",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Data Strategy Operations Manager",
+   "company": "Abnormal",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate lacks the required 5+ years of experience in data operations and specialized technical AI workflow building for this senior management role.",
+   "blockers": "5+ years in Sales Operations, Data Operations, or similar analytical or systems role",
+   "gaps": [
+    "Salesforce management",
+    "AI/LLM workflow building",
+    "GTM data strategy"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-data-strategy-operations-manager-abnormal-1137903",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Security Analyst - Governance, Risk, and Compliance",
+   "company": "LaunchDarkly",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level US-only cybersecurity and GRC role requiring deep technical security and compliance experience, which does not align with the candidate's profile.",
+   "blockers": "Senior-level role (Analyst III); US only; deep cybersecurity and risk management knowledge required",
+   "gaps": [
+    "cybersecurity",
+    "AWS control environments",
+    "SOC 2",
+    "ISO 27001",
+    "FedRAMP",
+    "privacy laws (CCPA, GDPR)"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-security-analyst-governance-risk-and-compliance-launchdarkly-1137898",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Sr. Product Manager",
+   "company": "6sense",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level product management role requiring extensive experience in product strategy and execution, which mismatches the candidate's junior accounting profile and location.",
+   "blockers": "Senior-level experience required; US only location",
+   "gaps": [
+    "product management strategy",
+    "technical product roadmap ownership",
+    "enterprise software go-to-market experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-product-manager-6sense-1137886",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Compliance Officer/MLRO",
+   "company": "Bybit",
+   "location": "Asia",
+   "source": "RemoteOK",
+   "reason": "This is a senior Compliance Officer and MLRO role requiring local regulatory licensing and leadership experience in Pakistan, which does not match the candidate's entry-level accounting and finance profile in Nigeria.",
+   "blockers": "senior leadership role, compliance officer/MLRO experience, based in Pakistan",
+   "gaps": [
+    "AML/CFT/CPF framework",
+    "regulatory licensing",
+    "compliance management"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-compliance-officer-mlro-bybit-1137880",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "International People Ops Analyst, Benefits",
+   "company": "Cribl",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The job requires US-only location, extensive international benefits administration experience, and HR operations expertise which do not align with the candidate's accounting and finance background.",
+   "blockers": "US Only location; 3+ years of international benefits administration experience required",
+   "gaps": [
+    "international benefits administration",
+    "HRIS management",
+    "vendor management",
+    "global mobility knowledge"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-international-people-ops-analyst-benefits-cribl-1137875",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Product Designer",
+   "company": "Tebra",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The job is for a Product Designer requiring UI/UX design skills and portfolio experience which do not align with the candidate's accounting and finance background.",
+   "blockers": "Requires professional UI/UX product design experience and portfolio",
+   "gaps": [
+    "UI/UX design",
+    "wireframing",
+    "prototyping tools (Figma/Sketch)",
+    "user research methods"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-product-designer-tebra-1137873",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Lifecycle Value Manager (Enterprise Customer Success/ Expansion), UK",
+   "company": "Everpure",
+   "location": "UK Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level customer success and account management role based in the UK requiring enterprise software experience, which does not match the candidate's entry-level accounting and finance profile in Nigeria.",
+   "blockers": "UK location requirement; senior enterprise account management experience",
+   "gaps": [
+    "enterprise customer success",
+    "account expansion",
+    "commercial sales strategy",
+    "stakeholder influencing"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-lifecycle-value-manager-enterprise-customer-success-expansion-uk-everpure-1137870",
+   "drafted": false
+  },
+  {
+   "score": 10,
+   "title": "Customer Success Engineer",
+   "company": "GitLab",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This role requires deep technical software engineering and DevSecOps expertise which does not align with the candidate's accounting and finance background.",
+   "blockers": "US Only location requirement; technical software engineering and DevSecOps expertise required",
+   "gaps": [
+    "GitLab",
+    "DevSecOps",
+    "source code management",
+    "continuous integration and delivery",
+    "customer success engineering"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-gitlab-1137867",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Senior AI Compliance Analyst",
+   "company": "Ivanti",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role is senior-level, US-based, and requires specialized AI compliance expertise, which completely misaligns with an entry-level Nigerian accounting candidate.",
+   "blockers": "Senior-level role, US location requirement, AI compliance expertise required",
+   "gaps": [
+    "AI compliance",
+    "regulatory frameworks",
+    "legal risk assessment",
+    "ISO 42001"
+   ],
+   "url": "https://himalayas.app/companies/ivanti/jobs/senior-ai-compliance-analyst?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Sr. Communications Lead, Product & Consumer Communications",
+   "company": "Pinterest",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level communications and public relations role requiring extensive media and storytelling experience, which does not align with the candidate's finance, accounting, and operations background.",
+   "blockers": "Senior-level experience required; communications and PR specialization required",
+   "gaps": [
+    "media relations",
+    "consumer communications",
+    "public relations strategy",
+    "executive messaging",
+    "press pitching"
+   ],
+   "url": "https://himalayas.app/companies/pinterestcareers/jobs/sr-communications-lead-product-consumer-communications?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Systems Engineering Technical Assistance (SETA), Policy Project Leader",
+   "company": "SRI International",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required PhD in applied sciences or engineering, U.S. citizenship or permanent residency, and the role is based in the United States.",
+   "blockers": "PhD in a technical discipline required; U.S. Citizenship or U.S. Permanent Residency required",
+   "gaps": [
+    "applied physics",
+    "electrical engineering",
+    "mechanical engineering",
+    "computer science",
+    "machine learning"
+   ],
+   "url": "https://himalayas.app/companies/sri-international/jobs/systems-engineering-technical-assistance-seta-policy-project-leader?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Regional Senior Key Account Manager - Data Center OEM",
+   "company": "Eaton",
+   "location": "Belgium, Czechia, Denmark, Finland, France, Germany, Hungary, Ireland, Italy, Netherlands, Norway, Spain, Sweden, United Kingdom",
+   "source": "Himalayas",
+   "reason": "This is a senior sales and key account management role in Europe requiring extensive commercial leadership experience, which does not match the candidate's entry-level accounting and finance profile in Nigeria.",
+   "blockers": "Senior-level experience required; regional sales leadership experience required",
+   "gaps": [
+    "key account management",
+    "enterprise sales",
+    "data center OEM industry knowledge",
+    "electrical engineering product knowledge"
+   ],
+   "url": "https://himalayas.app/companies/eaton/jobs/regional-senior-key-account-manager-data-center-oem?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Triage & Assessment Analyst",
+   "company": "Koniag Government Services",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires an active U.S. Secret security clearance and specialized federal IT security experience, which the candidate does not possess.",
+   "blockers": "Active Secret security clearance required; U.S. citizenship/location context",
+   "gaps": [
+    "Identity, Credential, and Access Management (ICAM)",
+    "Okta",
+    "SailPoint",
+    "federal IT security requirements"
+   ],
+   "url": "https://himalayas.app/companies/koniag-government-services/jobs/triage-assessment-analyst?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Senior Manager, Technical Accounting and Reporting",
+   "company": "Darktrace",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires a Senior Manager with extensive experience in US GAAP and technical accounting, which severely mismatches the candidate's junior profile.",
+   "blockers": "Senior management level experience; US GAAP technical accounting expertise; professional certification",
+   "gaps": [
+    "US GAAP",
+    "ASC standards",
+    "technical accounting memos",
+    "team management"
+   ],
+   "url": "https://himalayas.app/companies/darktrace/jobs/senior-manager-technical-accounting-and-reporting?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Sr Data Analyst",
+   "company": "Alignment Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level data analyst role in healthcare located in the United States, which completely misaligns with the candidate's entry-level status and geographic preference.",
+   "blockers": "Senior-level experience required; United States location",
+   "gaps": [
+    "healthcare data analytics",
+    "advanced SQL",
+    "Databricks",
+    "cloud-native data pipelines",
+    "HEDIS and STAR ratings",
+    "CMS compliance"
+   ],
+   "url": "https://himalayas.app/companies/alignment-health/jobs/sr-data-analyst?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Product Manager (Contracts & Projects)",
+   "company": "Unanet",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior software product management role requiring 3+ years of specific product management experience, which far exceeds the candidate's junior profile.",
+   "blockers": "3+ years of software product management experience; experience managing software in support of financial accounting system-of-record platform use cases",
+   "gaps": [
+    "product management",
+    "PRD creation",
+    "agile product ownership",
+    "software product development"
+   ],
+   "url": "https://himalayas.app/companies/unanet/jobs/product-manager-contracts-projects?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Product Manager IV (Domain Product Manager)",
+   "company": "Aya Healthcare",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level Product Manager IV position in the United States requiring extensive product management experience, making it a severe mismatch for an entry-level junior accountant from Nigeria.",
+   "blockers": "Senior-level product management role requiring years of experience; United States location",
+   "gaps": [
+    "AI product management",
+    "domain product ownership",
+    "UX prototyping",
+    "engineering partnership"
+   ],
+   "url": "https://himalayas.app/companies/aya-healthcare/jobs/product-manager-iv-domain-product-manager?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Senior Analyst, Financial Reporting",
+   "company": "Liftoff",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role requires a Senior Analyst with 4-6 years of experience and a CPA, which the junior candidate lacks.",
+   "blockers": "Senior role; CPA strongly preferred; 4-6 years of experience required",
+   "gaps": [
+    "SEC reporting",
+    "US GAAP",
+    "public accounting experience"
+   ],
+   "url": "https://jobicy.com/jobs/163563-senior-analyst-financial-reporting",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Head of Credit, Kenya",
+   "company": "Moniepoint",
+   "location": "Remote, Kenya",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role requires over 7 years of senior leadership experience in fintech lending, whereas the candidate is an entry-level junior accountant with less than a year of experience.",
+   "blockers": "7+ years of experience in fintech lending; senior leadership role",
+   "gaps": [
+    "credit strategy",
+    "credit unit economics ownership",
+    "executive leadership",
+    "regulatory compliance in Kenya"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5013834101",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Global Tax Manager",
+   "company": "Ensono",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires senior-level global tax management experience and a CPA, which the candidate lacks.",
+   "blockers": "CPA or equivalent; senior tax management experience",
+   "gaps": [
+    "global tax compliance",
+    "US tax matters",
+    "ASC 740",
+    "transfer pricing",
+    "tax audits"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-global-tax-manager-ensono-1137907",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Senior Accountant",
+   "company": "saas.group",
+   "location": "Europe",
+   "source": "Jobicy",
+   "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires at least 3 years of experience with NetSuite and German GAAP.",
+   "blockers": "Senior role requiring 3+ years experience and NetSuite/German GAAP expertise",
+   "gaps": [
+    "NetSuite",
+    "German GAAP",
+    "multi-GAAP accounting",
+    "tax filing (VAT/GST)"
+   ],
+   "url": "https://jobicy.com/jobs/163521-senior-accountant-13",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Accounting Manager",
+   "company": "saas.group",
+   "location": "Europe",
+   "source": "Jobicy",
+   "reason": "This is a senior management role requiring extensive M&amp;A accounting experience and leadership, which severely mismatches the candidate's junior profile.",
+   "blockers": "Senior management role requiring 5+ years of experience, M&amp;A due diligence, and multi-GAAP consolidation expertise.",
+   "gaps": [
+    "NetSuite",
+    "M&amp",
+    "A integration",
+    "financial due diligence",
+    "multi-GAAP consolidation",
+    "team leadership"
+   ],
+   "url": "https://jobicy.com/jobs/163517-accounting-manager-3",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Product Manager, AI Foundations",
+   "company": "Reddit",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level Product Manager role in AI/ML requiring deep technical expertise and US-only location, which does not align with the candidate's entry-level profile in accounting and finance.",
+   "blockers": "Senior-level experience, US only location, deep ML/AI product management background",
+   "gaps": [
+    "machine learning strategy",
+    "AI platforms",
+    "product management leadership"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ai-foundations-reddit-1137893",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Analyst Relations Senior Manager",
+   "company": "Stripe",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior management role requiring extensive industry experience, whereas the candidate is a junior accountant seeking entry-level or junior positions.",
+   "blockers": "Senior management level experience required, US only location restriction",
+   "gaps": [
+    "analyst relations strategy",
+    "enterprise marketing",
+    "executive coaching",
+    "influencer program management"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-analyst-relations-senior-manager-stripe-1137892",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Sr Director, L2C Process Owner",
+   "company": "BeyondTrust",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior executive role requiring extensive experience in process ownership, which does not match the candidate's junior profile.",
+   "blockers": "Senior leadership level; years of experience required",
+   "gaps": [
+    "Lead-to-Cash process ownership",
+    "executive leadership",
+    "Salesforce CoE management"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-director-l2c-process-owner-beyondtrust-1137890",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Senior Director of Product Management (R14361)",
+   "company": "Oportun",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level executive product management role requiring extensive experience, whereas the candidate is an entry-level professional seeking junior roles.",
+   "blockers": "Senior director level requiring extensive years of product leadership experience; candidate is junior",
+   "gaps": [
+    "people management",
+    "executive leadership",
+    "product strategy ownership"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-director-of-product-management-r14361-oportun-1137885",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Manager, Business Risk and AI Automation",
+   "company": "Reddit",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires 6+ years of experience and management level expertise in SOX and internal audit, which far exceeds the candidate's junior profile.",
+   "blockers": "6+ years in public accounting/internal audit; management level experience",
+   "gaps": [
+    "SOX program management",
+    "technical accounting certifications",
+    "US compliance frameworks"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-manager-business-risk-and-ai-automation-reddit-1137879",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Customer Success LATAM",
+   "company": "GitLab",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This customer success role requires technical expertise in DevSecOps and fluency for the LATAM market, which does not align with the candidate's finance and accounting profile.",
+   "blockers": "LATAM market coverage and DevSecOps technical background required",
+   "gaps": [
+    "Customer Success",
+    "LATAM region knowledge",
+    "DevSecOps",
+    "Git and software development workflows"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-customer-success-latam-gitlab-1137866",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Senior Product Engineer",
+   "company": "Arbor Education",
+   "location": "Remote",
+   "source": "RemoteOK",
+   "reason": "This is a senior software engineering role requiring extensive PHP and backend development experience, which does not match the candidate's finance and accounting background.",
+   "blockers": "Senior level experience; software engineering expertise; PHP proficiency",
+   "gaps": [
+    "software engineering",
+    "PHP",
+    "backend development",
+    "object-oriented programming"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-product-engineer-arbor-education-1137865",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Customer Success Architect - East",
+   "company": "GitLab",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires deep technical software development and DevSecOps expertise located strictly in the US, which does not align with the candidate's finance and accounting background in Nigeria.",
+   "blockers": "US Only location; DevSecOps and software architecture expertise required",
+   "gaps": [
+    "Git",
+    "CI/CD",
+    "DevSecOps practices",
+    "software development lifecycle"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-customer-success-architect-east-gitlab-1137861",
+   "drafted": false
+  },
+  {
+   "score": 5,
+   "title": "Head, IT Audit",
+   "company": "Moniepoint",
+   "location": "Lagos, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "This is a senior executive leadership role (Director/Head level) requiring extensive IT audit experience, whereas the candidate is a junior accountant with under a year of experience.",
+   "blockers": "Senior executive role requiring extensive IT audit leadership experience; candidate is an entry-level junior accountant with 11 months of experience.",
+   "gaps": [
+    "IT audit strategy",
+    "cybersecurity assessments",
+    "ISO 27001",
+    "NIST",
+    "COBIT",
+    "SOC 2",
+    "executive leadership"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5011025101",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Chief Technology Officer (Mobile app, M/F/D)",
+   "company": "Arise App",
+   "location": "Romania",
+   "source": "Himalayas",
+   "reason": "The role requires senior-level mobile app engineering, iOS/Android architecture, and AI-driven coding experience, which does not match the candidate's finance and accounting background.",
+   "blockers": "Expert-level iOS and Android software engineering experience, senior leadership experience as a CTO or lead mobile engineer",
+   "gaps": [
+    "iOS/Swift",
+    "Android/Kotlin",
+    "agentic coding tools",
+    "mobile app architecture"
+   ],
+   "url": "https://himalayas.app/companies/arise-app/jobs/chief-technology-officer-mobile-app-m-f-d-8045515256?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "English to Belarusian Review Lead for UI, Marketing & Product Content",
+   "company": "Welo Global",
+   "location": "Argentina, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, China, Colombia, Costa Rica, Croatia, Czechia, Denmark, Egypt, El Salvador, Finland, France, Germany, Ghana, Greece, Guatemala, Hong Kong, Hungary, India, Indonesia, Ireland, Israel, Italy, Japan, Kenya, Lithuania, Malaysia, Mexico, Netherlands, New Zealand, Nigeria, Norway, Peru, Philippines, Poland, Portugal, Qatar, Romania, Saudi Arabia, Singapore, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Turkey, United Arab Emirates, United Kingdom, United States, Vietnam",
+   "source": "Himalayas",
+   "reason": "The job requires translation and linguistic review expertise in English and Belarusian, which is completely unrelated to the candidate's accounting, finance, and operations background.",
+   "blockers": "Fluent Belarusian and English localization/translation expertise required",
+   "gaps": [
+    "Belarusian language proficiency",
+    "translation",
+    "localization",
+    "linguistic quality assurance"
+   ],
+   "url": "https://himalayas.app/companies/welo-global/jobs/english-to-belarusian-review-lead-for-ui-marketing-product-content?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Finance Director (CFO)",
+   "company": "Scarpel Telecom",
+   "location": "Cyprus",
+   "source": "Himalayas",
+   "reason": "The role requires 7+ years of experience and a Finance Director/CFO background, whereas the candidate is an entry-level junior accountant.",
+   "blockers": "Requires 7+ years experience, 3+ years in a senior role (Finance Director/CFO), and Russian language fluency.",
+   "gaps": [
+    "financial modelling",
+    "P&L ownership",
+    "cross-border tax compliance",
+    "team leadership",
+    "Russian language"
+   ],
+   "url": "https://himalayas.app/companies/scarpel-telecom/jobs/finance-director-cfo?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Alpheratz Project - Polish (Poland) Translation Quality Rater",
+   "company": "Welo Global",
+   "location": "Poland",
+   "source": "Himalayas",
+   "reason": "The job requires native proficiency in Polish and translation experience, which does not match the candidate's profile.",
+   "blockers": "Native proficiency in Polish (Poland); Experience in translation, localization, or MT post-editing",
+   "gaps": [
+    "Polish language proficiency",
+    "translation",
+    "localization",
+    "machine translation quality evaluation"
+   ],
+   "url": "https://himalayas.app/companies/welo-global/jobs/alpheratz-project-polish-poland-translation-quality-rater?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Cloud Operations Engineer",
+   "company": "Bright Vision Technologies",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires 10+ years of senior-level cloud engineering and DevOps experience, which does not align with the candidate's junior accounting profile.",
+   "blockers": "10+ years of experience in cloud engineering and DevOps required; U.S. work authorization required",
+   "gaps": [
+    "cloud infrastructure",
+    "CI/CD",
+    "Git",
+    "infrastructure as code",
+    "container technologies",
+    "systems operations"
+   ],
+   "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-operations-engineer-5212571962?utm_source=api",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Director of Accounting",
+   "company": "AlphaSense",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role requires 10+ years of progressive accounting leadership experience and a CPA, whereas the candidate is an entry-level professional with less than a year of experience and no professional certification.",
+   "blockers": "10+ years of experience; CPA required; Director-level leadership",
+   "gaps": [
+    "US GAAP",
+    "SOX compliance",
+    "public company readiness"
+   ],
+   "url": "https://jobicy.com/jobs/163423-director-of-accounting",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Product Architect",
+   "company": "Storyblok",
+   "location": "Worldwide",
+   "source": "RemoteOK",
+   "reason": "The role requires 7+ years of experience in software architecture and senior technical leadership, which far exceeds the candidate's junior profile.",
+   "blockers": "7+ years experience in software architecture; degree in Computer Science or Software Engineering",
+   "gaps": [
+    "cloud-native architectures",
+    "API design",
+    "distributed systems",
+    "microservices",
+    "software engineering"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-product-architect-storyblok-1137900",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Advisory Solutions Architect, MSP (New Product Intro)",
+   "company": "Rubrik Job Board",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level technical solutions architect role based in the US requiring deep cyber resilience and managed service provider expertise, which does not match the candidate's entry-level accounting and finance profile.",
+   "blockers": "US only location; senior solution architecture experience required",
+   "gaps": [
+    "cyber resilience architecture",
+    "MSP service creation",
+    "enterprise presales",
+    "cloud data protection"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-advisory-solutions-architect-msp-new-product-intro-rubrik-job-board-1137896",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Tax Manager",
+   "company": "Wrapbook",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "The role requires 8+ years of progressive tax experience and senior-level management, which far exceeds the candidate's junior profile.",
+   "blockers": "8+ years of progressive tax experience; Senior-level role",
+   "gaps": [
+    "corporate income tax",
+    "sales and indirect tax",
+    "cross-border compliance",
+    "ASC 740 tax provision"
+   ],
+   "url": "https://jobicy.com/jobs/156060-senior-tax-manager",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Atlassian Cloud Administrator",
+   "company": "Dropbox",
+   "location": "Europe",
+   "source": "RemoteOK",
+   "reason": "This is a senior engineering role requiring 9+ years of Atlassian cloud administration experience, which completely mismatches the candidate's entry-level accounting profile.",
+   "blockers": "9+ years of relevant experience in enterprise Atlassian platform administration",
+   "gaps": [
+    "Atlassian Cloud administration",
+    "Jira Service Management",
+    "APIs and webhooks",
+    "enterprise IT engineering"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-atlassian-cloud-administrator-dropbox-1137874",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Atlassian Cloud Admininstrator",
+   "company": "Dropbox",
+   "location": "North America",
+   "source": "RemoteOK",
+   "reason": "The role requires 9+ years of senior Atlassian cloud administration experience, which completely mismatches the candidate's entry-level accounting profile.",
+   "blockers": "9+ years of relevant experience in enterprise Atlassian platform administration",
+   "gaps": [
+    "Atlassian cloud administration",
+    "Jira Service Management",
+    "APIs and webhooks",
+    "scripting"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-atlassian-cloud-admininstrator-dropbox-1137860",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Engineering Lead, Clinical Operations",
+   "company": "Clover Health",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires extensive software engineering and technical leadership experience which does not align with the candidate's accounting and finance background.",
+   "blockers": "Requires software engineering leadership and technical development experience.",
+   "gaps": [
+    "software engineering",
+    "API development",
+    "mobile workflow development",
+    "technical team management"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-engineering-lead-clinical-operations-clover-health-1137852",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Data Engineer Tech Foundations",
+   "company": "Airbnb",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level software engineering role requiring extensive data engineering experience and US location, which completely misaligns with the candidate's entry-level profile and Nigerian/remote scope.",
+   "blockers": "Senior-level experience; US location only; Data Engineering background",
+   "gaps": [
+    "Data engineering",
+    "big data pipelines",
+    "software architecture",
+    "petabyte-scale data systems"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-data-engineer-tech-foundations-airbnb-1137846",
+   "drafted": false
+  },
+  {
+   "score": 0,
+   "title": "Director, Enterprise Sales",
+   "company": "Abnormal",
+   "location": "Europe",
+   "source": "RemoteOK",
+   "reason": "This is a senior sales leadership position requiring extensive enterprise sales experience, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "5+ years enterprise sales leadership experience required",
+   "gaps": [
+    "enterprise sales",
+    "B2B sales management",
+    "cybersecurity industry knowledge",
+    "MEDDPICC",
+    "revenue forecasting"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-director-enterprise-sales-abnormal-1137841",
+   "drafted": false
+  }
+ ]
 }
