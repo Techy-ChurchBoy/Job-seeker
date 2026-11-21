@@ -15,9 +15,9 @@ PREPARED_PATH = "prepared.json"
 MATCHES_PATH = "matches.csv"
 MAX_PER_RUN = 15
 
-PROMPT = """You help a job candidate apply for a job. Use ONLY facts from the candidate's CV below. Do not invent experience, skills, certifications, dates or numbers.
+PROMPT = """You are an experienced career writer helping a Nigerian graduate apply for a job. Write the way a careful, senior recruiter expects: clear, warm, confident, specific, never boastful, never generic.
 
-CANDIDATE CV:
+CANDIDATE CV (the only source of facts you may use):
 {cv}
 
 JOB:
@@ -26,14 +26,25 @@ Company: {company}
 Location: {location}
 Description: {description}
 
-Write:
-1. "tailored_cv": the CV in Markdown, reordered and reworded to emphasise what matches this job. Same facts only.
-2. "cover_letter": a cover letter under 250 words, written fresh for this company and role. Open with something specific from the job description or the company's work, not a generic line. Do not start with "I am applying" or "I am writing". Vary the sentence structure and paragraph order instead of following a standard template. Name the company and the role. Mention the 2 or 3 experiences from the CV that matter most for this role. No clichés.
-3. "notes": short notes for the candidate. List any requirement they do not meet (for example a required professional qualification) so they can decide whether to apply.
+Produce three parts, returned as JSON.
 
-Never write a real name, phone number, email address or street address. Use these placeholders exactly: [FULL NAME], [PHONE], [EMAIL], [LOCATION].
+1. "cover_letter": a professional cover letter of 230 to 290 words. Plain text only: no markdown, no bullet points, no bold, no headings. Use this structure, with one blank line between each part:
+- Greeting: "Dear Hiring Manager," unless the description names a person to address.
+- Opening paragraph (2 to 3 sentences): name the role and the company, and give one specific reason this role suits the candidate, drawn from the job description. Do not open with "I am applying" or "I am writing".
+- Middle paragraph (3 to 4 sentences): two or three concrete examples from the CV that match what the job asks for, such as the NCAT reconciliation work, month-end support, the software used, or the degree. Connect each example to a need in the job description. Rephrase the CV, do not copy its bullet points.
+- Third paragraph (2 to 3 sentences): if the candidate lacks a requirement, address it honestly and positively, for example by naming a learning step they are taking or their transferable skill. If the gap is minor, leave it out. Never claim a qualification or experience the CV does not show.
+- Closing paragraph (1 to 2 sentences): express interest in discussing the role, and say the CV is attached.
+- Sign-off: "Yours sincerely," on its own line, then "[FULL NAME]" on the next line, then "[PHONE] | [EMAIL]" on the line after.
 
-Return ONLY JSON with the keys "tailored_cv", "cover_letter" and "notes"."""
+Writing rules: use British spelling (organise, programme, analyse). Keep sentences under 25 words. Avoid clichés such as "passionate", "dynamic", "team player", "hit the ground running", "fast-paced", "I believe I would be a great fit". Do not invent facts about the company. If the description says little about the company, focus on the role. Use the job title as written in the posting.
+
+2. "tailored_cv": the CV rewritten in Markdown for this job. Put the most relevant skills and experience first. Keep every fact true to the original CV: reorder and reword only, never add. Use these headings in this order: Profile, Experience, Skills, Education, Additional. Use the placeholders [FULL NAME], [PHONE], [EMAIL], [LOCATION] instead of contact details.
+
+3. "notes": plain text for the candidate, short lines. The first line says the fit (strong, moderate or weak) and why, in one sentence. Then one line for each requirement the candidate does not meet, starting with "Gap:". If a professional qualification is required, such as ACCA, ACA or CPA, add a line starting with "Blocker:".
+
+Never write a real name, phone number, email address or street address in any part. Use the placeholders exactly: [FULL NAME], [PHONE], [EMAIL], [LOCATION].
+
+Return ONLY JSON with the keys "cover_letter", "tailored_cv" and "notes". Every value is a single string."""
 
 
 def generate(model, prompt):
