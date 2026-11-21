@@ -1,0 +1,52 @@
+name: apply-job
+on:
+  workflow_dispatch:
+    inputs:
+      job_url:
+        description: Link to the job posting
+        required: true
+      company:
+        description: Company name (optional, the site name is used if blank)
+        required: false
+      email:
+        description: Contact email, if the posting doesn't show one (optional)
+        required: false
+      job_description:
+        description: Paste the job description here if the link won't load (optional)
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -u manual.py
+        env:
+          JOB_URL: ${{ inputs.job_url }}
+          JOB_COMPANY: ${{ inputs.company }}
+          JOB_EMAIL: ${{ inputs.email }}
+          JOB_DESCRIPTION: ${{ inputs.job_description }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
+      - run: python -u dashboard.py
+      - name: Save results
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          git add matches.csv prepared.json applied.csv applications dashboard
+          git diff --staged --quiet || git commit -m "apply: manual job"
+          git push
