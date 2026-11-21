@@ -315,6 +315,8 @@ def main():
         lines.append(f"- {len(score_errors)} jobs FAILED scoring. First error: {score_errors[0][:300]}")
     msg = f"- {len(results)} scored {MIN_SCORE}+ and written to matches.csv"
     print(msg)
+    json.dump({"last_run": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+               "summary": lines}, open("status.json", "w", encoding="utf-8"), indent=1)
     if os.getenv("GITHUB_STEP_SUMMARY"):
         open(os.environ["GITHUB_STEP_SUMMARY"], "a").write("## jobbot run\n" + "\n".join(lines + [msg]) + "\n")
 
