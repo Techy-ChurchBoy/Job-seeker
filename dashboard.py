@@ -25,6 +25,59 @@ def gaps(r):
     return [g.strip() for g in (r.get("skill_gaps") or "").split(";") if g.strip()]
 
 
+FRIENDLY = {"remotive": "Remotive", "himalayas": "Himalayas", "workingnomads": "Working Nomads",
+            "jobicy": "Jobicy", "remoteok": "RemoteOK", "greenhouse": "company boards (Greenhouse)",
+            "lever": "company boards (Lever)", "ashby": "company boards (Ashby)", "jooble": "Jooble (Nigeria)"}
+
+
+def no_blockers(r):
+    return (r.get("blockers") or "").strip().lower() in ("", "none", "n/a", "no")
+
+
+def plain_report(status, matches):
+    """Sentences a non-technical reader can follow, built from what each step recorded."""
+    if not status.get("last_run"):
+        return ["No job search has run yet. It runs automatically twice a day once the schedule is working."]
+    rep = status.get("report", {})
+    src = rep.get("sources", [])
+    lines = [f"Last run: {status['last_run']} UTC."]
+    if src:
+        ok = [x for x in src if x.get("ok")]
+        bad = [FRIENDLY.get(x["name"], x["name"]) for x in src if not x.get("ok")]
+        found = sum(x.get("fetched", 0) for x in src)
+        matched = sum(x.get("passed", 0) for x in src)
+        lines.append(f"The search checked {len(src)} job sources and {len(ok)} responded. "
+                     f"It found {found} postings in total, and {matched} matched your skills.")
+        if bad:
+            lines.append("These sources could not be reached: " + ", ".join(bad) + ".")
+    if rep.get("scored") is not None:
+        lines.append(f"{rep.get('scored', 0)} postings were scored against your CV this run.")
+    if rep.get("scoring_failed"):
+        lines.append(f"{rep['scoring_failed']} postings could not be scored because the AI service was busy. "
+                     "They will be tried again next run.")
+    if rep.get("boards_failed"):
+        names = ", ".join(b.split(":")[0] for b in rep["boards_failed"])
+        lines.append(f"These company boards could not be read, so their names need checking: {names}.")
+    drafts = status.get("drafts")
+    if drafts:
+        text = f"{drafts.get('written', 0)} cover letters were written."
+        if drafts.get("waiting"):
+            text += f" {drafts['waiting']} more are waiting for the next run."
+        lines.append(text)
+    emails = status.get("emails")
+    if emails is not None:
+        n = emails.get("sent", 0)
+        if n:
+            names = emails.get("names", [])
+            more = " and more." if n > len(names) else "."
+            lines.append(f"{n} application emails were sent: " + "; ".join(names[:5]) + more)
+        else:
+            lines.append("No application emails were sent this run.")
+    ready = sum(1 for r in matches if num(r.get("score")) >= 40 and no_blockers(r))
+    lines.append(f"Overall, {ready} postings currently qualify for an email (score 40 or more, no blockers).")
+    return lines
+
+
 def build():
     matches = rows("matches.csv")
     applied = rows("applied.csv")
@@ -46,6 +99,7 @@ def build():
 
     return {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "report": plain_report(status, matches),
         "paused": paused,
         "last_run": status.get("last_run"),
         "summary": status.get("summary", []),

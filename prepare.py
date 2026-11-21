@@ -6,7 +6,7 @@ Needs env: GEMINI_API_KEY. Reads your CV from cv/cv.txt (the repo is private).
 """
 import csv, hashlib, json, os, re, sys, time
 import requests
-from jobbot import pick_model, QuotaError, GEMINI_KEY
+from jobbot import pick_model, QuotaError, GEMINI_KEY, update_status
 
 CV_PATH = "cv/cv.txt"
 CV_TEXT = open(CV_PATH, encoding="utf-8").read() if os.path.exists(CV_PATH) else ""
@@ -154,6 +154,7 @@ def main():
         made += 1
         json.dump(sorted(done), open(PREPARED_PATH, "w"))
 
+    update_status("drafts", {"written": made, "failed": len(errors), "waiting": max(0, len(rows) - made)})
     lines.append(f"- {made} drafts written to {OUT_DIR}/")
     for e in errors[:3]:
         lines.append(f"- FAILED: {e}")

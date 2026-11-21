@@ -288,15 +288,18 @@ def main():
     seen_path = "seen.json"
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
-    jobs, lines = [], []
+    jobs, lines, source_report = [], [], []
     for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, jooble):
         try:
             got = list(src())
         except Exception as e:
             got = []
             lines.append(f"- {src.__name__}: FAILED ({e})")
+            source_report.append({"name": src.__name__, "ok": False, "fetched": 0, "passed": 0})
         else:
             lines.append(f"- {src.__name__}: {len(got)} fetched, {sum(prefilter(j) for j in got)} passed filter")
+            source_report.append({"name": src.__name__, "ok": True, "fetched": len(got),
+                                  "passed": sum(prefilter(j) for j in got)})
         jobs += got
     lines.extend(f"  - {b}" for b in BOARD_LOG)
     if JOOBLE_ERRORS:
@@ -350,7 +353,13 @@ def main():
     msg = f"- {len(results)} scored and saved to matches.csv, {strong} at {MIN_SCORE}+"
     print(msg)
     json.dump({"last_run": datetime.now(timezone.utc).isoformat(timespec="minutes"),
-               "summary": lines}, open("status.json", "w", encoding="utf-8"), indent=1)
+               "summary": lines,
+               "report": {"sources": source_report,
+                          "new_to_score": len(jobs),
+                          "scored": len(results),
+                          "scoring_failed": len(score_errors),
+                          "boards_failed": [b for b in BOARD_LOG if "FAILED" in b]}},
+              open("status.json", "w", encoding="utf-8"), indent=1)
     if os.getenv("GITHUB_STEP_SUMMARY"):
         open(os.environ["GITHUB_STEP_SUMMARY"], "a").write("## jobbot run\n" + "\n".join(lines + [msg]) + "\n")
 
@@ -371,6 +380,18 @@ def selftest():
             print(f"{src.__name__}: {len(got)} jobs. Sample: {[g['title'] for g in got[:3]]}")
         except Exception as e:
             print(f"{src.__name__}: FAILED {e!r}")
+
+
+def update_status(key, value):
+    """Add or replace one section of status.json so each step can report what it did."""
+    data = {}
+    if os.path.exists("status.json"):
+        try:
+            data = json.load(open("status.json", encoding="utf-8"))
+        except ValueError:
+            data = {}
+    data[key] = value
+    json.dump(data, open("status.json", "w", encoding="utf-8"), indent=1)
 
 
 if __name__ == "__main__":

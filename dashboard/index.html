@@ -36,7 +36,8 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
 <p class="muted">Skills and tools the jobs ask for that your CV doesn't show yet, most common first.</p>
 <div id="skills"></div></section>
 
-<section><h2>Last run</h2><pre id="run">Loading...</pre></section>
+<section><h2>What happened last run</h2><div id="report"></div>
+<details class="clay" style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">Technical log</summary><pre id="run" style="margin-top:12px">Loading...</pre></details></section>
 
 <section><h2>Sent applications</h2><div id="sent"></div></section>
 
@@ -85,6 +86,8 @@ function render(feed) {
     skills.append(c);
   });
 
+  const rep = document.getElementById('report'); rep.replaceChildren();
+  (f.report || ['No run recorded yet.']).forEach(line => { const c = card(); c.append(el('div', null, line)); rep.append(c); });
   document.getElementById('run').textContent = (f.summary && f.summary.length) ? f.summary.join('\n') : 'No run recorded yet.';
 
   const sent = document.getElementById('sent'); sent.replaceChildren();

@@ -11,6 +11,7 @@ import csv, os, re, smtplib, sys
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from prepare import slug  # same file naming as the drafts
+from jobbot import update_status
 
 MIN_SCORE = 40
 MAX_PER_DAY = 10
@@ -103,6 +104,7 @@ def main(dry_run):
     print(f"{len(eligible)} eligible. Sending all of them.")
 
     sent = 0
+    sent_list = []
     for score, r, addr, letter in eligible[:budget]:
         body = fill(letter, name, phone, sender)
         if PLACEHOLDER_RE.search(body):
@@ -130,8 +132,10 @@ def main(dry_run):
                         "email": addr, "url": r["url"]})
         save_applied(applied)  # save after every send so a crash can't cause a double send
         sent += 1
+        sent_list.append(f"{r['title']} at {r['company']}")
         print(f"Sent: {r['title']} at {r['company']} to {addr}")
 
+    update_status("emails", {"sent": sent, "eligible": len(eligible), "names": sent_list[:20]})
     summary = f"- {sent} emails sent this run" + (" (dry run, none sent)" if dry_run else "")
     print(summary)
     if os.getenv("GITHUB_STEP_SUMMARY"):
