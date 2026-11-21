@@ -78,6 +78,10 @@ def plain_report(status, matches):
     return lines
 
 
+# Keep this False until the dashboard is behind a login. Replies come from private mail.
+SHOW_REPLIES = False
+
+
 def load_replies():
     if not os.path.exists("replies.json"):
         return []
@@ -126,7 +130,8 @@ def build():
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "report": plain_report(status, matches),
         "batches": load_batches(),
-        "replies": load_replies(),
+        "replies": load_replies() if SHOW_REPLIES else [],
+        "replies_hidden": (not SHOW_REPLIES) and os.path.exists("replies.json"),
         "paused": paused,
         "last_run": status.get("last_run"),
         "summary": status.get("summary", []),

@@ -111,7 +111,7 @@ function render(feed) {
   });
 
   renderBatches(f.batches);
-  renderReplies(f.replies);
+  renderReplies(f.replies, f.replies_hidden);
   const rep = document.getElementById('report'); rep.replaceChildren();
   (f.report || ['No run recorded yet.']).forEach(line => { const c = card(); c.append(el('div', null, line)); rep.append(c); });
   document.getElementById('run').textContent = (f.summary && f.summary.length) ? f.summary.join('\n') : 'No run recorded yet.';
@@ -225,8 +225,9 @@ function renderBatches(list) {
   });
 }
 
-function renderReplies(list) {
+function renderReplies(list, hidden) {
   const box = document.getElementById('replies'); box.replaceChildren();
+  if (hidden) { box.append(note('Replies are hidden until this dashboard is protected with a login.')); return; }
   if (!list || !list.length) { box.append(note('No replies yet.')); return; }
   list.forEach(r => {
     const c = card();

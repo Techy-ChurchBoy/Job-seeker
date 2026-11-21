@@ -15,6 +15,13 @@ REPLIES_PATH = "replies.json"
 SENT_FILES = ["applied.csv", "outreach_sent.csv"]
 GENERIC = ("gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "icloud.com", "proton.me")
 AUTOMATED = ("noreply", "no-reply", "donotreply", "mailer-daemon", "notifications")
+# Job platforms and applicant trackers. Their automated mail (for example LinkedIn) is job mail.
+JOB_DOMAINS = ("linkedin.com", "greenhouse.io", "lever.co", "ashbyhq.com", "ashby.com", "indeed.com",
+               "jobicy.com", "himalayas.app", "workable.com", "smartrecruiters.com", "myworkdayjobs.com",
+               "icims.com", "teamtailor.com", "recruitee.com")
+JOB_WORDS = ("application", "applied", "interview", "assessment", "shortlist", "offer", "unfortunately",
+             "regret", "thank you for applying", "next steps", "recruit", "job", "position", "role",
+             "vacancy", "candidate", "linkedin")
 LOOKBACK_DAYS = 30
 
 
@@ -66,23 +73,31 @@ def main():
     mail = imaplib.IMAP4_SSL("imap.gmail.com")
     mail.login(sender, password)
     mail.select("INBOX", readonly=True)
-    _, data = mail.search(None, f'(SINCE "{since}")')
+    _, data = mail.search(None, f'(SINCE "{since}")')  # every message in the last 30 days
     new = []
     for msg_id in data[0].split()[-300:]:
         msg = fetch_headers(mail, msg_id)
         message_id = (msg.get("Message-ID") or "").strip()
         addr = parseaddr(msg.get("From", ""))[1].lower()
-        if not message_id or message_id in seen or not addr or any(x in addr for x in AUTOMATED):
+        if not message_id or message_id in seen or not addr:
             continue
-        match = by_addr.get(addr) or by_domain.get(addr.split("@")[-1])
-        if not match:
+        domain = addr.split("@")[-1]
+        subject = text(msg.get("Subject"))
+        match = by_addr.get(addr) or by_domain.get(domain)
+        job_sender = any(domain == d or domain.endswith("." + d) for d in JOB_DOMAINS)
+        job_subject = any(w in subject.lower() for w in JOB_WORDS)
+        if not (match or job_sender or job_subject):
+            continue  # not job mail: nothing is stored
+        if any(x in addr for x in AUTOMATED) and not (match or job_sender):
             continue
+        company, application = match or ("", "")
+        company = company or domain
         try:
             when = parsedate_to_datetime(msg.get("Date")).astimezone(timezone.utc).isoformat(timespec="minutes")
         except (TypeError, ValueError):
             when = ""
         new.append({"message_id": message_id, "received": when, "from": addr,
-                    "subject": text(msg.get("Subject")), "company": match[0], "application": match[1]})
+                    "subject": subject, "company": company, "application": application or "your application"})
     mail.logout()
 
     replies = sorted(new + replies, key=lambda r: r.get("received") or "", reverse=True)[:200]
