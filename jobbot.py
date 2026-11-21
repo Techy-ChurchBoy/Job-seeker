@@ -172,6 +172,25 @@ def ashby():
                               f"https://api.ashbyhq.com/posting-api/job-board/{c['board']}", parse)
 
 
+SMARTYACAD_SKIP = ("scholarship", "grant", "bootcamp")
+
+
+def smartyacad():
+    """Dixcover Hub (jobs.smartyacad.com) is a WordPress site, so its public post feed is JSON."""
+    r = requests.get("https://jobs.smartyacad.com/wp-json/wp/v2/posts",
+                     params={"per_page": 50, "orderby": "date"}, timeout=30)
+    r.raise_for_status()
+    for p in r.json():
+        heading = strip_html(p.get("title", {}).get("rendered", ""))
+        if any(w in heading.lower() for w in SMARTYACAD_SKIP):
+            continue
+        m = re.match(r"(.+?)\s+(?:at|@)\s+(.+)", heading)
+        title, company = (m.group(1), m.group(2)) if m else (heading, "Dixcover Hub listing")
+        yield dict(posted=to_dt(p.get("date_gmt") or p.get("date")), source="Dixcover Hub",
+                   title=title, company=company, location="", url=p.get("link", ""),
+                   description=strip_html(p.get("content", {}).get("rendered", ""))[:6000])
+
+
 JOOBLE_ERRORS = []
 
 
@@ -289,7 +308,7 @@ def main():
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
     jobs, lines, source_report = [], [], []
-    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, jooble):
+    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, smartyacad, jooble):
         try:
             got = list(src())
         except Exception as e:

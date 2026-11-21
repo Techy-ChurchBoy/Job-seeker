@@ -27,7 +27,7 @@ def gaps(r):
 
 FRIENDLY = {"remotive": "Remotive", "himalayas": "Himalayas", "workingnomads": "Working Nomads",
             "jobicy": "Jobicy", "remoteok": "RemoteOK", "greenhouse": "company boards (Greenhouse)",
-            "lever": "company boards (Lever)", "ashby": "company boards (Ashby)", "jooble": "Jooble (Nigeria)"}
+            "lever": "company boards (Lever)", "ashby": "company boards (Ashby)", "smartyacad": "Dixcover Hub (jobs.smartyacad.com)", "jooble": "Jooble (Nigeria)"}
 
 
 def no_blockers(r):
