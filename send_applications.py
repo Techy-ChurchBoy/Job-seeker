@@ -96,7 +96,7 @@ def main(dry_run):
             continue
         if score < MIN_SCORE or r.get("blockers", "").strip().lower() not in NO_BLOCKERS:
             continue
-        addr = contact_email(r.get("description", ""))
+        addr = None if "himalayas.app" in (r.get("url") or "") else contact_email(r.get("description", ""))
         letter = read_cover_letter(r) if addr else None
         if addr and letter:
             eligible.append((score, r, addr, letter))

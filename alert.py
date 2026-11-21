@@ -33,6 +33,8 @@ def strong_without_email(r):
     except ValueError:
         return False
     no_blockers = (r.get("blockers") or "").strip().lower() in ("", "none", "n/a", "no")
+    if "himalayas.app" in (r.get("url") or ""):
+        return score >= MIN_SCORE and no_blockers  # Himalayas jobs are applied to through their own link
     return score >= MIN_SCORE and no_blockers and not contact_email(r.get("description", ""))
 
 

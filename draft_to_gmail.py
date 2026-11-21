@@ -72,7 +72,7 @@ def main():
                 continue
         except ValueError:
             continue
-        has_email = bool(contact_email(r.get("description", "")))
+        has_email = bool(contact_email(r.get("description", ""))) and "himalayas.app" not in url
         if has_email and url not in failed:
             continue  # the bot emails these itself
         letter = read_cover_letter(r)

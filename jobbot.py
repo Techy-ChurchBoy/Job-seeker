@@ -76,13 +76,17 @@ def remotive():
 
 
 def himalayas():
-    for offset in range(0, 100, 20):
-        r = requests.get("https://himalayas.app/jobs/api", params={"limit": 20, "offset": offset}, timeout=30)
-        for j in r.json().get("jobs", []):
-            yield dict(posted=to_dt(j.get("pubDate")), source="Himalayas", title=j.get("title", ""), company=j.get("companyName", ""),
-                       location=", ".join(j.get("locationRestrictions") or []) or "Worldwide",
-                       url=j.get("applicationLink") or j.get("guid", ""),
-                       description=strip_html(j.get("description") or j.get("excerpt")))
+    """Himalayas public jobs API. One request per run, because its robots.txt does not allow paging.
+    Applicants must use the job's own link, so these jobs are never emailed or sent to other boards."""
+    r = requests.get("https://himalayas.app/jobs/api", params={"limit": 20}, timeout=30,
+                     headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
+    r.raise_for_status()
+    for j in r.json().get("jobs", []):
+        yield dict(posted=to_dt(j.get("pubDate")), source="Himalayas", title=j.get("title", ""),
+                   company=j.get("companyName", ""),
+                   location=", ".join(j.get("locationRestrictions") or []) or "Worldwide",
+                   url=j.get("applicationLink") or j.get("guid", ""),
+                   description=strip_html(j.get("description") or j.get("excerpt")))
 
 
 def workingnomads():
