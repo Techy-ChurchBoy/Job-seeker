@@ -61,6 +61,8 @@ def generate(model, prompt):
                 parsed = next((x for x in parsed if isinstance(x, dict)), {})
             if not isinstance(parsed, dict) or not parsed.get("cover_letter"):
                 raise ValueError(f"unexpected reply: {str(parsed)[:120]}")
+            for key in ("tailored_cv", "cover_letter", "notes"):
+                parsed[key] = as_text(parsed.get(key, ""))
             return parsed
         except ValueError as e:
             last = e
@@ -68,8 +70,16 @@ def generate(model, prompt):
     raise RuntimeError(f"no usable draft after 3 tries: {last}")
 
 
+def as_text(value):
+    """Gemini sometimes returns a list where we expect text. Turn it into plain text."""
+    if isinstance(value, (list, tuple)):
+        return "\n".join(str(x) for x in value)
+    return str(value or "")
+
+
 def scrub(text):
     """Belt and braces: replace your name, emails and phone numbers if the model wrote them anyway."""
+    text = as_text(text)
     first = next((l.strip() for l in CV_TEXT.splitlines() if l.strip()), "")
     if first:
         text = re.sub(re.escape(first), "[FULL NAME]", text, flags=re.I)
