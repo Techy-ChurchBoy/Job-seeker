@@ -38,21 +38,34 @@ Return ONLY JSON with the keys "tailored_cv", "cover_letter" and "notes"."""
 
 def generate(model, prompt):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    body = {"contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}}
-    r = None
+    last = None
     for attempt in range(3):
+        p = prompt if attempt == 0 else prompt + (
+            "\n\nReturn ONLY one JSON object with the keys tailored_cv, cover_letter and notes. No other text.")
+        body = {"contents": [{"parts": [{"text": p}]}],
+                "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3,
+                                     "maxOutputTokens": 4096}}
         r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=90)
         if r.status_code == 429:
             raise QuotaError("Gemini quota or rate limit hit (429).")
         if r.status_code == 503:
             time.sleep(10)
+            last = "503 from Gemini"
             continue
         r.raise_for_status()
         text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         time.sleep(6)
-        return json.loads(text.strip().replace("```json", "").replace("```", ""))
-    raise RuntimeError(f"Gemini unavailable after retries (last status {r.status_code})")
+        try:
+            parsed = json.loads(text.strip().replace("```json", "").replace("```", ""))
+            if isinstance(parsed, list):
+                parsed = next((x for x in parsed if isinstance(x, dict)), {})
+            if not isinstance(parsed, dict) or not parsed.get("cover_letter"):
+                raise ValueError(f"unexpected reply: {str(parsed)[:120]}")
+            return parsed
+        except ValueError as e:
+            last = e
+            time.sleep(2)
+    raise RuntimeError(f"no usable draft after 3 tries: {last}")
 
 
 def scrub(text):

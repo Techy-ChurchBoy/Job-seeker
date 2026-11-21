@@ -227,32 +227,43 @@ class QuotaError(Exception):
     pass
 
 
-def score(j):
-    prompt = PROMPT.format(profile=PROFILE, title=j["title"], company=j["company"],
-                           location=j["location"], description=j["description"][:3000])
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-    body = {"contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
-    for attempt in range(3):
-        r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=60)
-        if r.status_code == 503:          # Google temporarily overloaded: retry
-            time.sleep(10)
-            continue
-        if r.status_code == 429:          # rate or daily quota hit
-            time.sleep(15)
-            continue
-        r.raise_for_status()
-        break
-    else:
-        raise QuotaError("Gemini quota or rate limit hit (429). Daily free quota may be used up.")
-    text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-    time.sleep(6)                          # stay under free-tier requests per minute
+def parse_reply(text):
+    """Turn Gemini's text into a dict. Accepts a single object or a list containing one."""
     parsed = json.loads(text.strip().replace("```json", "").replace("```", ""))
-    if isinstance(parsed, list):  # sometimes Gemini wraps the answer in a list
+    if isinstance(parsed, list):
         parsed = next((x for x in parsed if isinstance(x, dict)), {})
     if not isinstance(parsed, dict) or "score" not in parsed:
-        raise ValueError(f"unexpected Gemini reply: {str(parsed)[:120]}")
+        raise ValueError(f"unexpected reply: {str(parsed)[:120]}")
     return parsed
+
+
+def score(j):
+    base = PROMPT.format(profile=PROFILE, title=j["title"], company=j["company"],
+                         location=j["location"], description=j["description"][:3000])
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    last = None
+    for attempt in range(3):
+        prompt = base if attempt == 0 else base + (
+            "\n\nReturn ONLY one JSON object with the keys score, reason and blockers. No list, no other text.")
+        body = {"contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2,
+                                     "maxOutputTokens": 1024}}
+        r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=60)
+        if r.status_code == 429:
+            raise QuotaError("Gemini quota or rate limit hit (429). Daily free quota may be used up.")
+        if r.status_code == 503:
+            time.sleep(10)
+            last = "503 from Gemini"
+            continue
+        r.raise_for_status()
+        text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        time.sleep(6)
+        try:
+            return parse_reply(text)
+        except ValueError as e:
+            last = e
+            time.sleep(2)
+    raise ValueError(f"no usable answer after 3 tries: {last}")
 
 
 def main():
