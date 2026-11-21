@@ -1,27 +1,29 @@
 {
- "last_run": "2026-11-21T16:15+00:00",
+ "last_run": "2026-11-21T18:02+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 100 fetched, 39 passed filter",
+  "- himalayas: 100 fetched, 30 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
-  "- jobicy: 50 fetched, 42 passed filter",
+  "- jobicy: 50 fetched, 43 passed filter",
   "- remoteok: 100 fetched, 45 passed filter",
   "- greenhouse: 66 fetched, 37 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
+  "- smartyacad: 44 fetched, 20 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 66 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
+  "  - Dixcover Hub: opened 9 linked pages",
   "- 20 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 45: Implementation Officer (Lagos) at Moniepoint. Blockers: none",
-  "  - 40: Sr. Analyst, Fund Controlling at Gridline, LLC. Blockers: Location mismatch (Philippines required)",
-  "  - 35: Inbound Sales Officer (Lagos) at Moniepoint. Blockers: none",
-  "  - 25: REO Closing Coordinator at MORTGAGE CONNECT. Blockers: 1 to 5 years practical work experience within the real estate industry or vendor management service",
-  "  - 25: Payroll Specialist at Beitzel Corporation. Blockers: US location requirement and US payroll tax expertise",
-  "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 90: Access Bank Entry Level Training Programme 2026 at Dixcover Hub listing. Blockers: none",
+  "  - 40: Bookkeeper at Triquetra Health. Blockers: 3+ years of full-cycle bookkeeping",
+  "  - 35: Associate Salesforce Admin at i4DM. Blockers: US location requirement / US federal agency clearance context",
+  "  - 25: Senior Inventory Analyst -  Remote at Stryker. Blockers: Senior role requires 2 years of specific experience and SAP proficiency.",
+  "  - 15: Underwriting Associate-Specialty at EMC Insurance. Blockers: US location requirement",
+  "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "report": {
   "sources": [
@@ -35,7 +37,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 100,
-    "passed": 39
+    "passed": 30
    },
    {
     "name": "workingnomads",
@@ -47,7 +49,7 @@
     "name": "jobicy",
     "ok": true,
     "fetched": 50,
-    "passed": 42
+    "passed": 43
    },
    {
     "name": "remoteok",
@@ -74,6 +76,12 @@
     "passed": 0
    },
    {
+    "name": "smartyacad",
+    "ok": true,
+    "fetched": 44,
+    "passed": 20
+   },
+   {
     "name": "jooble",
     "ok": true,
     "fetched": 0,
@@ -81,21 +89,23 @@
    }
   ],
   "new_to_score": 80,
-  "scored": 78,
-  "scoring_failed": 2,
+  "scored": 16,
+  "scoring_failed": 1,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
  "drafts": {
-  "written": 2,
+  "written": 3,
   "failed": 0,
   "waiting": 0
  },
  "emails": {
-  "sent": 0,
-  "eligible": 0,
-  "names": []
+  "sent": 1,
+  "eligible": 1,
+  "names": [
+   "Access Bank Entry Level Training Programme 2026 at Dixcover Hub listing"
+  ]
  }
 }
