@@ -2,52 +2,126 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Job search dashboard</title><style>
-body{font-family:system-ui,sans-serif;margin:0;padding:16px;background:#0f1115;color:#e6e6e6;font-size:15px}
-h1{font-size:22px;margin:0 0 4px} h2{font-size:17px;margin:24px 0 8px}
-.muted{color:#8a8f98;font-size:13px}
-.badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:13px;font-weight:600}
-.on{background:#14532d;color:#bbf7d0} .off{background:#7f1d1d;color:#fecaca}
-.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}
-.card{background:#1a1d24;border-radius:10px;padding:12px}
-.card b{display:block;font-size:24px}
-table{width:100%;border-collapse:collapse;font-size:13px}
-th,td{text-align:left;padding:6px 4px;border-bottom:1px solid #262a33;vertical-align:top}
-th{color:#8a8f98;font-weight:500}
-a{color:#7dd3fc}
-pre{background:#1a1d24;padding:10px;border-radius:8px;white-space:pre-wrap;font-size:12px}
+<title>Job search</title>
+<style>
+:root{--ink:#000;--paper:#FFFBF1}
+*{box-sizing:border-box}
+body{margin:0;padding:18px;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.45}
+h1{font-size:24px;margin:0 0 4px;letter-spacing:-.3px} h2{font-size:17px;margin:0 0 12px}
+a{color:var(--ink);font-weight:600}
+.muted{color:rgba(0,0,0,.55);font-size:13px}
+section{margin-top:22px}
+.neu{background:var(--paper);border-radius:22px;padding:16px;box-shadow:9px 9px 18px rgba(0,0,0,.10),-9px -9px 18px #fff}
+.clay{background:var(--paper);border-radius:28px;padding:14px 16px;margin-bottom:12px;box-shadow:inset 0 -7px 0 rgba(0,0,0,.06),8px 10px 22px rgba(0,0,0,.12)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.stat b{display:block;font-size:26px;margin-top:4px}
+.pill{display:inline-block;padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;color:var(--paper);background:linear-gradient(#222,#000);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 4px 8px rgba(0,0,0,.25)}
+.pill.off{background:linear-gradient(#555,#222)}
+.track{height:12px;border-radius:99px;background:var(--paper);box-shadow:inset 3px 3px 6px rgba(0,0,0,.14),inset -3px -3px 6px #fff;overflow:hidden;margin:8px 0}
+.fill{height:100%;border-radius:99px;background:linear-gradient(90deg,#000,#3a3a3a);box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+.tag{display:inline-block;margin:3px 4px 0 0;padding:4px 10px;border-radius:999px;font-size:12px;background:var(--paper);box-shadow:inset 2px 2px 4px rgba(0,0,0,.12),inset -2px -2px 4px #fff}
+.score{font-size:22px;font-weight:700}
+.row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:14px;border-radius:18px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff}
+.btn{display:inline-block;margin-top:8px;padding:12px 18px;border-radius:14px;color:var(--paper);text-decoration:none;font-size:15px;font-weight:600;background:linear-gradient(#262626,#000);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 5px 10px rgba(0,0,0,.25)}
 </style></head>
 <body>
-<h1>Job search dashboard</h1>
-<p><a href="apply.html">Apply to a job</a></p>
-<div><span class="badge on">Sending on</span> <span class="muted">Last run: 2026-11-21T12:38+00:00 UTC</span></div>
-<div class="cards"><div class="card">Matches (55+)<b>1</b></div><div class="card">Strong (70+)<b>1</b></div><div class="card">Drafts ready<b>1</b></div><div class="card">Sent today (max 10)<b>1</b></div><div class="card">Sent in total<b>1</b></div></div>
+<h1>Job search</h1>
+<div class="row"><span id="badge" class="pill">Loading</span><span id="lastrun" class="muted"></span></div>
+<p><a class="btn" href="apply.html">Apply to a job</a></p>
 
-<h2>Last run</h2>
-<pre>- remotive: 16 fetched, 0 passed filter
-- himalayas: 100 fetched, 18 passed filter
-- workingnomads: 35 fetched, 1 passed filter
-- jobicy: 50 fetched, 37 passed filter
-- remoteok: 100 fetched, 9 passed filter
-- greenhouse: 66 fetched, 31 passed filter
-- lever: 0 fetched, 0 passed filter
-- ashby: 0 fetched, 0 passed filter
-- jooble: 0 fetched, 0 passed filter
-  - Greenhouse Moniepoint: 66 jobs
-  - Greenhouse Flutterwave: FAILED (&#x27;jobs&#x27;)
-  - Greenhouse Andela: FAILED (&#x27;jobs&#x27;)
-- 20 jobs older than 30 days skipped
-- 31 new jobs sent to scoring
-- Top scores (threshold is 55):
-  - 35: Fraud Operations Analyst at Sezzle. Blockers: None
-  - 35: Field Credit Officer (Edo) at Moniepoint. Blockers: none
-  - 35: Field Credit Officer (Delta) at Moniepoint. Blockers: none
-  - 25: Sales Operations Support Specialist at Core BTS. Blockers: 3-5 years experience in sales operations/inside sales required
-  - 25: Risk Adjustment Operations Senior Project Analyst at Datavant. Blockers: Senior-level experience required; US-based healthcare operations focus.</pre>
+<section><h2>Overview</h2><div id="stats" class="grid"></div></section>
 
-<h2>Sent applications</h2>
-<table><tr><th>When (UTC)</th><th>Company</th><th>Role</th><th>To</th><th></th></tr><tr><td>2026-11-21 12:18</td><td>example.com</td><td>Job posting</td><td>goldendrizzle66@gmail.com</td><td><a href="https://example.com/jobs/test-accountant-2026" target="_blank" rel="noopener">open</a></td></tr></table>
+<section><h2>Skills to build</h2>
+<p class="muted">Skills and tools the jobs ask for that your CV doesn't show yet, most common first.</p>
+<div id="skills"></div></section>
 
-<h2>Top matches</h2>
-<table><tr><th>Score</th><th>Role</th><th>Company</th><th>Source</th><th>Draft</th><th>Blockers</th><th></th></tr><tr><td>95</td><td>Job posting</td><td>example.com</td><td>Manual</td><td>yes</td><td></td><td><a href="https://example.com/jobs/test-accountant-2026" target="_blank" rel="noopener">open</a></td></tr></table>
+<section><h2>Last run</h2><pre id="run">Loading...</pre></section>
+
+<section><h2>Sent applications</h2><div id="sent"></div></section>
+
+<section><h2>All scored jobs</h2><p class="muted" id="jobcount"></p><div id="jobs"></div></section>
+
+<p class="muted" style="margin-top:24px" id="updated"></p>
+
+<script>
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined && text !== null) e.textContent = text;
+  return e;
+}
+function card(cls) { return el('div', cls || 'clay'); }
+function note(msg) { const c = card(); c.append(el('span', 'muted', msg)); return c; }
+function link(url, text) {
+  if (!/^https?:\/\//.test(url || '')) return null;
+  const a = el('a', null, text || 'Open posting');
+  a.href = url; a.target = '_blank'; a.rel = 'noopener';
+  return a;
+}
+
+function render(feed) {
+  const f = feed || {};
+  const st = f.stats || {};
+  const badge = document.getElementById('badge');
+  badge.className = f.paused ? 'pill off' : 'pill';
+  badge.textContent = f.paused ? 'Sending paused' : (feed ? 'Sending on' : 'No data yet');
+  document.getElementById('lastrun').textContent = f.last_run ? 'Last run: ' + f.last_run + ' UTC' : 'No run recorded yet';
+  document.getElementById('updated').textContent = f.generated ? 'Data updated ' + f.generated : '';
+
+  const stats = document.getElementById('stats'); stats.replaceChildren();
+  [['Jobs scored', st.jobs_scored ?? 0], ['Strong (70+)', st.strong ?? 0], ['Drafts ready', st.drafts ?? 0],
+   ['Sent today (max ' + (st.daily_limit ?? 10) + ')', st.sent_today ?? 0], ['Sent in total', st.sent_total ?? 0]]
+    .forEach(([label, value]) => {
+      const c = card('neu stat'); c.append(el('div', 'muted', label), el('b', null, String(value))); stats.append(c);
+    });
+
+  const skills = document.getElementById('skills'); skills.replaceChildren();
+  if (!f.skills || !f.skills.length) skills.append(note('No skill gaps recorded yet. They appear after the job search has scored some jobs.'));
+  (f.skills || []).forEach(s => {
+    const c = card();
+    const head = el('div', 'row'); head.append(el('b', null, s.skill), el('span', 'muted', 'in ' + s.count + ' job' + (s.count === 1 ? '' : 's')));
+    c.append(head, el('div', 'muted', (s.examples || []).join('; ')));
+    skills.append(c);
+  });
+
+  document.getElementById('run').textContent = (f.summary && f.summary.length) ? f.summary.join('\n') : 'No run recorded yet.';
+
+  const sent = document.getElementById('sent'); sent.replaceChildren();
+  if (!f.sent || !f.sent.length) sent.append(note('Nothing sent yet.'));
+  (f.sent || []).forEach(r => {
+    const c = card();
+    const head = el('div', 'row');
+    head.append(el('b', null, r.title), el('span', 'muted', (r.sent_at || '').slice(0, 16).replace('T', ' ') + ' UTC'));
+    c.append(head, el('div', 'muted', [r.company, 'to ' + r.email, 'score ' + r.score].join(' \u00b7 ')));
+    const a = link(r.url); if (a) { c.append(document.createElement('br'), a); }
+    sent.append(c);
+  });
+
+  const jobs = document.getElementById('jobs'); jobs.replaceChildren();
+  document.getElementById('jobcount').textContent = (f.jobs ? f.jobs.length : 0) + ' jobs, highest score first.';
+  if (!f.jobs || !f.jobs.length) jobs.append(note('No jobs scored yet.'));
+  (f.jobs || []).forEach(j => {
+    const c = card();
+    const head = el('div', 'row');
+    head.append(el('span', 'score', String(j.score)), el('span', 'muted', (j.source || '') + ' \u00b7 ' + (j.drafted ? 'draft ready' : 'no draft yet')));
+    const track = el('div', 'track'); const fill = el('div', 'fill'); fill.style.width = Math.max(0, Math.min(100, j.score)) + '%';
+    track.append(fill);
+    c.append(head, track, el('b', null, j.title), el('div', 'muted', [j.company, j.location].filter(Boolean).join(' \u00b7 ')));
+    if (j.reason) c.append(el('div', 'muted', j.reason));
+    c.append(el('div', 'muted', 'Blockers: ' + (j.blockers || 'none')));
+    const tags = el('div');
+    (j.gaps || []).forEach(g => tags.append(el('span', 'tag', g)));
+    if (!(j.gaps || []).length) tags.append(el('span', 'muted', 'No skill gaps listed'));
+    c.append(tags);
+    const a = link(j.url); if (a) { c.append(document.createElement('br'), a); }
+    jobs.append(c);
+  });
+}
+
+fetch('data/feed.json', { cache: 'no-store' })
+  .then(r => r.ok ? r.json() : null)
+  .catch(() => null)
+  .then(render);
+</script>
 </body></html>
