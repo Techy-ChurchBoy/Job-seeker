@@ -114,7 +114,14 @@ async function reply(chatId, text) {
 exports.handler = async (event) => {
   const ok = { statusCode: 200, body: "ok" };
   if (event.httpMethod !== "POST") return { statusCode: 405, body: "POST only" };
-  if (event.headers["x-telegram-bot-api-secret-token"] !== process.env.TELEGRAM_SECRET) {
+
+  // Header names can arrive with any capitalisation, so compare them case-insensitively.
+  const headers = Object.fromEntries(Object.entries(event.headers || {}).map(([k, v]) => [k.toLowerCase(), v]));
+  const expected = process.env.TELEGRAM_SECRET;
+  if (!expected || headers["x-telegram-bot-api-secret-token"] !== expected) {
+    // Log header names and whether the variable is set. Never log values.
+    console.log("rejected: secret missing or mismatched. TELEGRAM_SECRET set:", Boolean(expected),
+                "header names seen:", Object.keys(headers).join(","));
     return { statusCode: 401, body: "bad secret" };
   }
 
