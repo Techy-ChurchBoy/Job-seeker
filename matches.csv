@@ -1,1 +1,16 @@
 score,title,company,location,source,url,reason,blockers,description
+95,Job posting,example.com,,Manual,https://example.com/jobs/test-accountant-2026,"The role perfectly matches the candidate's experience level, educational background, and technical skills in accounting software and reconciliations.",,"company: Lagos Ledger Ltd (test)
+email: goldendrizzle66@gmail.com
+description: Job title: Junior Accountant (Hybrid, Lagos)
+
+About the role: We are looking for a junior accountant to join our finance team in Lagos. You will process supplier invoices, reconcile bank accounts, support the month-end close, and prepare schedules for the finance manager.
+
+Requirements:
+- Bachelor's degree in Accounting or a related field
+- Up to 2 years of accounting experience, including graduate or NYSC placements
+- Working knowledge of Excel and at least one accounting package such as QuickBooks, Sage, or Zoho Books
+- Strong attention to detail and a good record-keeping habit
+
+Nice to have: experience with Microsoft Dynamics 365 Business Central.
+
+We offer a supportive team, structured training, and a clear path to senior accounting roles. Send your application to the address below."
