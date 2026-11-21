@@ -2,13 +2,14 @@
 Step 3: for each job in matches.csv not yet prepared, write a tailored CV and cover letter to applications/.
 
 Contact details are never written to the repo: drafts use placeholders ([FULL NAME], [EMAIL], [PHONE], [LOCATION]).
-Needs env: GEMINI_API_KEY, and CV_TEXT (your CV as plain text, stored as a repo secret).
+Needs env: GEMINI_API_KEY. Reads your CV from cv/cv.txt (the repo is private).
 """
 import csv, hashlib, json, os, re, sys, time
 import requests
 from jobbot import pick_model, QuotaError, GEMINI_KEY
 
-CV_TEXT = os.getenv("CV_TEXT", "")
+CV_PATH = "cv/cv.txt"
+CV_TEXT = open(CV_PATH, encoding="utf-8").read() if os.path.exists(CV_PATH) else ""
 OUT_DIR = "applications"
 PREPARED_PATH = "prepared.json"
 MATCHES_PATH = "matches.csv"
@@ -73,7 +74,7 @@ def main():
     if not GEMINI_KEY:
         sys.exit("Set GEMINI_API_KEY")
     if not CV_TEXT.strip():
-        print("CV_TEXT secret not set, so no drafts were made. Add it under repo Settings, Secrets, Actions.")
+        print("cv/cv.txt is missing or empty, so no drafts were made.")
         return
     os.makedirs(OUT_DIR, exist_ok=True)
     if not os.path.exists(PREPARED_PATH):
