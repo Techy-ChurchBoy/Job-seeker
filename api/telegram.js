@@ -4,6 +4,11 @@ const { handler } = require("../netlify/functions/telegram.js");
 
 module.exports = async (req, res) => {
   const body = typeof req.body === "string" ? req.body : JSON.stringify(req.body || {});
-  const out = await handler({ httpMethod: req.method, headers: req.headers || {}, body });
+  const out = await handler({
+    httpMethod: req.method,
+    headers: req.headers || {},
+    queryStringParameters: req.query || {},
+    body,
+  });
   res.status(out.statusCode).send(out.body);
 };
