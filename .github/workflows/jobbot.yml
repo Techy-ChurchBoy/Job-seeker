@@ -33,6 +33,10 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
           CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
+      - run: python -u replies.py
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       - run: python -u alert.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -62,7 +66,7 @@ jobs:
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
-          for p in matches.csv seen.json prepared.json applied.csv alerted.json applied_forms.json gmail_drafts.json failed_sends.json status.json applications cv dashboard; do
+          for p in matches.csv seen.json prepared.json applied.csv alerted.json applied_forms.json gmail_drafts.json failed_sends.json replies.json status.json applications cv dashboard; do
             [ -e "$p" ] && git add "$p"
           done
           git diff --staged --quiet || git commit -m "update matches and drafts"

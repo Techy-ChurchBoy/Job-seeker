@@ -78,6 +78,15 @@ def plain_report(status, matches):
     return lines
 
 
+def load_replies():
+    if not os.path.exists("replies.json"):
+        return []
+    try:
+        return json.load(open("replies.json", encoding="utf-8"))
+    except ValueError:
+        return []
+
+
 def load_batches():
     out = []
     for path in sorted(glob.glob("outreach/*.json"), reverse=True):
@@ -117,6 +126,7 @@ def build():
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "report": plain_report(status, matches),
         "batches": load_batches(),
+        "replies": load_replies(),
         "paused": paused,
         "last_run": status.get("last_run"),
         "summary": status.get("summary", []),

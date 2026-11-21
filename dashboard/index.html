@@ -52,6 +52,10 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
   <p class="muted" id="modeMsg"></p>
 </div></section>
 
+<section><h2>Replies</h2>
+<p class="muted">Replies from organisations you've applied to, from the last 30 days. Only sender and subject are read.</p>
+<div id="replies"></div></section>
+
 <section><h2>Skills to build</h2>
 <p class="muted">Skills and tools the jobs ask for that your CV doesn't show yet, most common first.</p>
 <div id="skills"></div></section>
@@ -107,6 +111,7 @@ function render(feed) {
   });
 
   renderBatches(f.batches);
+  renderReplies(f.replies);
   const rep = document.getElementById('report'); rep.replaceChildren();
   (f.report || ['No run recorded yet.']).forEach(line => { const c = card(); c.append(el('div', null, line)); rep.append(c); });
   document.getElementById('run').textContent = (f.summary && f.summary.length) ? f.summary.join('\n') : 'No run recorded yet.';
@@ -217,6 +222,18 @@ function renderBatches(list) {
       locMessage(r.ok ? r.d.message : (r.d.error || 'Something went wrong.'));
     });
     c.append(form, btn); box.append(c);
+  });
+}
+
+function renderReplies(list) {
+  const box = document.getElementById('replies'); box.replaceChildren();
+  if (!list || !list.length) { box.append(note('No replies yet.')); return; }
+  list.forEach(r => {
+    const c = card();
+    const head = el('div', 'row');
+    head.append(el('b', null, r.company || r.from), el('span', 'muted', (r.received || '').slice(0, 16).replace('T', ' ') + ' UTC'));
+    c.append(head, el('div', null, r.subject || '(no subject)'), el('div', 'muted', 'From ' + r.from + ' \u00b7 about ' + (r.application || 'your application')));
+    box.append(c);
   });
 }
 
