@@ -1,6 +1,17 @@
-// Telegram webhook: a message with a job link starts the apply-job workflow on GitHub.
-// Only the chat ID in TELEGRAM_CHAT_ID is accepted; everyone else is ignored.
+// Telegram webhook. Job links start the apply-job workflow.
+// Commands (/status, /applied, /matches, /help) read the repo's status files. They never change anything.
+// Only the chat ID in TELEGRAM_CHAT_ID is answered; everyone else is ignored.
 const REPO = "Techy-ChurchBoy/Job-seeker";
+const MAX_PER_DAY = 10;
+
+const HELP = [
+  "Commands:",
+  "/status - sending on or paused, sends today, last run",
+  "/applied - the last 5 applications sent",
+  "/matches - the 5 best matches so far",
+  "",
+  "To apply to a job, send a link. Optional lines: company:, email:, description:",
+].join("\n");
 
 function parse(text) {
   const out = { url: "", company: "", email: "", description: "" };
@@ -26,6 +37,72 @@ function parse(text) {
   return out;
 }
 
+function parseCsv(text) {
+  const rows = [];
+  let row = [], field = "", quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') quoted = false;
+      else field += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n") { row.push(field); rows.push(row); row = []; field = ""; }
+    else if (c !== "\r") field += c;
+  }
+  if (field || row.length) { row.push(field); rows.push(row); }
+  if (!rows.length) return [];
+  const [head, ...body] = rows;
+  return body.filter(r => r.length === head.length)
+             .map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+}
+
+async function getFile(path) {
+  const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      Accept: "application/vnd.github.raw",
+      "User-Agent": "jobbot-telegram",
+    },
+  });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`GitHub returned ${res.status} reading ${path}`);
+  return await res.text();
+}
+
+async function status() {
+  const [raw, pause, applied] = await Promise.all([getFile("status.json"), getFile("PAUSE"), getFile("applied.csv")]);
+  const st = raw ? JSON.parse(raw) : null;
+  const sent = applied ? parseCsv(applied) : [];
+  const today = new Date().toISOString().slice(0, 10);
+  const sentToday = sent.filter(r => (r.sent_at || "").startsWith(today)).length;
+  const lines = [
+    pause !== null ? "Sending: PAUSED" : "Sending: on",
+    `Sent today: ${sentToday} of ${MAX_PER_DAY}. Sent in total: ${sent.length}`,
+    `Last run: ${st ? st.last_run : "never"} UTC`,
+  ];
+  if (st && Array.isArray(st.summary)) lines.push("", ...st.summary.slice(-15));
+  return lines.join("\n").slice(0, 3500);
+}
+
+async function applied() {
+  const raw = await getFile("applied.csv");
+  const rows = raw ? parseCsv(raw) : [];
+  if (!rows.length) return "No applications sent yet.";
+  return rows.slice(-5).reverse()
+    .map(r => `${(r.sent_at || "").slice(0, 16).replace("T", " ")} ${r.company}: ${r.title} (score ${r.score})`)
+    .join("\n");
+}
+
+async function matches() {
+  const raw = await getFile("matches.csv");
+  const rows = raw ? parseCsv(raw) : [];
+  const top = rows.map(r => ({ ...r, s: Number(r.score) || 0 })).sort((a, b) => b.s - a.s).slice(0, 5);
+  if (!top.length) return "No matches yet.";
+  return top.map(r => `${r.s}: ${r.title} at ${r.company}`).join("\n");
+}
+
 async function reply(chatId, text) {
   await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
     method: "POST",
@@ -45,10 +122,26 @@ exports.handler = async (event) => {
   const msg = update.message || update.edited_message;
   if (!msg || String(msg.chat.id) !== String(process.env.TELEGRAM_CHAT_ID)) return ok;
   const chatId = msg.chat.id;
+  const text = (msg.text || "").trim();
 
-  const job = parse(msg.text);
+  const command = text.split(/\s|@/)[0].toLowerCase();
+  if (command.startsWith("/")) {
+    let answer;
+    try {
+      if (command === "/status") answer = await status();
+      else if (command === "/applied") answer = await applied();
+      else if (command === "/matches") answer = await matches();
+      else answer = HELP;
+    } catch (e) {
+      answer = `${e.message}. Check that the GITHUB_TOKEN has Contents read access.`;
+    }
+    await reply(chatId, answer);
+    return ok;
+  }
+
+  const job = parse(text);
   if (!job.url) {
-    await reply(chatId, "Send a job link. Optional lines: company: ..., email: ..., description: ... (paste the description after it).");
+    await reply(chatId, "Send a job link, or /help for commands.");
     return ok;
   }
 
