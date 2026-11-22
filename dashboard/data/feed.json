@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 13:29 UTC",
+ "generated": "2026-11-22 13:30 UTC",
  "report": [
   "Last run: 2026-11-22T06:46+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
@@ -34,9 +34,9 @@
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
-  "jobs_scored": 28,
+  "jobs_scored": 29,
   "strong": 3,
-  "drafts": 5,
+  "drafts": 6,
   "sent_today": 1,
   "sent_total": 2
  },
@@ -657,6 +657,19 @@
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 0,
+   "title": "FirstCap Limited Graduate Trainee Program 2026/2027 - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "The candidate has a Second Class Honours (Lower Division) degree, whereas the job strictly requires a minimum of Second Class Upper (2:1).",
+   "blockers": "Second Class Upper (2:1) degree requirement",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/firstcap-limited-graduate-trainee-program-2026-2027/",
+   "drafted": true,
+   "recent": true
   }
  ],
  "history": [
