@@ -39,6 +39,8 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
   <input id="locName" type="text" placeholder="Town or area, e.g. Ibadan" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
   <input id="locCats" type="text" placeholder="Kinds of organisation (optional)" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
   <button class="btn" id="locSearch" type="button">Find organisations</button>
+  <input id="resendUrl" type="url" placeholder="Job link to resend" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
+  <button class="btn" id="resendBtn" type="button">Resend this application</button>
   <p class="muted" id="locMsg"></p>
 </div>
 <div id="batches"></div>
@@ -190,6 +192,16 @@ document.getElementById('locSearch').addEventListener('click', async () => {
   if (!location) return locMessage('Enter a town or area.');
   locMessage('Starting the search...');
   const r = await outreachPost({ password, action: 'search', location, categories: document.getElementById('locCats').value });
+  locMessage(r.ok ? r.d.message : (r.d.error || 'Something went wrong.'));
+});
+document.getElementById('resendBtn').addEventListener('click', async () => {
+  const password = document.getElementById('locPw').value;
+  const url = document.getElementById('resendUrl').value.trim();
+  if (!password) return locMessage('Enter the password first.');
+  if (!url) return locMessage('Paste the job link.');
+  if (!confirm('Resend this application now, with the documents the posting asks for?')) return;
+  locMessage('Resending...');
+  const r = await outreachPost({ password, action: 'resend', url });
   locMessage(r.ok ? r.d.message : (r.d.error || 'Something went wrong.'));
 });
 function renderBatches(list) {

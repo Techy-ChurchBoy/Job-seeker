@@ -36,6 +36,12 @@ exports.handler = async (event) => {
     workflow = "outreach-send.yml";
     inputs = { batch, ids };
     message = "Sending started. Results appear on this page after the next refresh.";
+  } else if (data.action === "resend") {
+    const url = String(data.url || "").trim();
+    if (!/^https?:\/\/\S+$/.test(url)) return reply(400, { error: "Paste the job link." });
+    workflow = "resend.yml";
+    inputs = { job_url: url };
+    message = "Resend started. Check Telegram for the result.";
   } else {
     return reply(400, { error: "Unknown action." });
   }

@@ -307,7 +307,7 @@ Description: {description}
 Check for scam signs first. Flag any of these: asking for Bitcoin or cryptocurrency knowledge or payments; debt recovery or collections with no named company; a fee to apply or to start; requests for bank details, ID or money up front; no company name or a lookalike domain; age limits; "full training provided" with a high salary and no experience needed; pressure to act fast or to move the conversation off the platform.
 
 Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA required, 5+ years experience, or empty", "skill_gaps": "skills or tools this job asks for that the candidate lacks, as short phrases separated by semicolons, or empty", "scam_flags": "red flags from the check above as short phrases separated by semicolons, or empty"}}.
-Score low if a hard professional qualification (ACA, ACCA, CPA, ICAN) or 5+ years experience is required and missing."""
+Score low if a hard professional qualification (ACA, ACCA, CPA, ICAN) or 5+ years experience is required and missing. Also check any minimum degree classification (for example Merit, First Class or Second Class Upper) against the candidate's degree in the profile. If the posting requires a higher class than the candidate has, list it as a blocker."""
 
 
 def pick_model():

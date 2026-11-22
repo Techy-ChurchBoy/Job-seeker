@@ -7,6 +7,7 @@ Needs env: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, CANDIDATE_NAME, CANDIDATE_PHONE.
 IMAP must be turned on in Gmail (Settings, See all settings, Forwarding and POP/IMAP).
 """
 import csv, imaplib, json, os, re, time
+import docs
 from email.message import EmailMessage
 from send_applications import contact_email, read_cover_letter
 
@@ -38,10 +39,7 @@ def build_message(r, letter, failed_send=False):
     else:
         body += "No email address was found in the posting, so please apply through the link."
     msg.set_content(body)
-    if os.path.exists("cv/cv.pdf"):
-        with open("cv/cv.pdf", "rb") as f:
-            msg.add_attachment(f.read(), maintype="application", subtype="pdf",
-                               filename=f"{NAME.replace(' ', '_')}_CV.pdf")
+    docs.attach(msg, docs.select(r.get("description", "")), NAME)
     return msg
 
 

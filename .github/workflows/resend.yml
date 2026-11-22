@@ -1,0 +1,41 @@
+name: resend
+on:
+  workflow_dispatch:
+    inputs:
+      job_url:
+        description: Link of the job to resend
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
+
+jobs:
+  resend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -u resend.py
+        env:
+          JOB_URL: ${{ inputs.job_url }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - run: python -u dashboard.py
+      - name: Save results
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          for p in applied.csv needs_attention.json dashboard; do [ -e "$p" ] && git add "$p"; done
+          git diff --staged --quiet || git commit -m "resend application"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 10; done

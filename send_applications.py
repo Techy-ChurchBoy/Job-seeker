@@ -112,6 +112,13 @@ def main(dry_run):
             print(f"Skipped {r['title']}: a placeholder was left unfilled.")
             continue
         subject = f"Application: {r['title']}"
+        sel = docs.select(r.get("description", ""))
+        if sel["missing"]:
+            if not dry_run:
+                docs.hold(r["url"], r["title"], r["company"], sel,
+                          os.getenv("TELEGRAM_BOT_TOKEN", ""), os.getenv("TELEGRAM_CHAT_ID", ""))
+                failed_urls.append(r["url"])  # also leaves a Gmail draft with the note
+            continue
         if dry_run:
             print(f"[dry run] would send {score} to {addr}: {subject} ({r['company']})")
             continue
@@ -122,8 +129,7 @@ def main(dry_run):
         msg["Reply-To"] = sender
         msg["Subject"] = subject
         msg.set_content(body)
-        msg.add_attachment(open(CV_PDF, "rb").read(), maintype="application", subtype="pdf",
-                           filename=f"{name.replace(' ', '_')}_CV.pdf")
+        docs.attach(msg, sel, name)
         try:
             with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
                 s.login(sender, pw)
