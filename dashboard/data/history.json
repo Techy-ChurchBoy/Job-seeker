@@ -67,5 +67,41 @@
    "  - 75: Inventory Support Officer (Lagos)  at Moniepoint. Blockers: none",
    "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
   ]
+ },
+ {
+  "last_run": "2026-11-22T18:06+00:00",
+  "report": [
+   "Last run: 2026-11-22T18:06+00:00 UTC.",
+   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 171 matched your skills.",
+   "53 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "6 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 17 postings currently qualify for an email (score 40 or more, no blockers)."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 8 passed filter",
+   "- workingnomads: 35 fetched, 10 passed filter",
+   "- jobicy: 47 fetched, 40 passed filter",
+   "- remoteok: 100 fetched, 52 passed filter",
+   "- greenhouse: 67 fetched, 38 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartyacad: 45 fetched, 21 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 67 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 9 linked pages",
+   "- 22 jobs older than 30 days skipped",
+   "- 53 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 75: State Inventory Officer (Sokoto) at Moniepoint. Blockers: none",
+   "  - 75: State Inventory Officer (Lagos) at Moniepoint. Blockers: none",
+   "  - 75: State Inventory Officer (Delta) at Moniepoint. Blockers: none",
+   "  - 75: Remote Office Assistant at Coalition Technologies . Blockers: none",
+   "  - 55: State Inventory Officer (Zamfara) at Moniepoint. Blockers: none"
+  ]
  }
 ]

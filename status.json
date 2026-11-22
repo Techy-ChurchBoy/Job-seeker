@@ -1,10 +1,10 @@
 {
- "last_run": "2026-11-22T14:41+00:00",
+ "last_run": "2026-11-22T18:06+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 7 passed filter",
+  "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
-  "- jobicy: 47 fetched, 41 passed filter",
+  "- jobicy: 47 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 52 passed filter",
   "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -16,14 +16,13 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 9 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 80 new jobs sent to scoring",
+  "- 53 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 90: Kleenol Nigeria Limited Graduate Trainee Programme 2026 at Dixcover Hub listing. Blockers: none",
-  "  - 85: Kleenol Nigeria Limited Graduate Trainee Programme 2026 | Apply Now at Dixcover Hub listing. Blockers: none",
-  "  - 85: Central Poultry Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
-  "  - 85: Access Bank Entry Level Training Programme 2026 at Dixcover Hub listing. Blockers: none",
-  "  - 75: Inventory Support Officer (Lagos)  at Moniepoint. Blockers: none",
-  "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 75: State Inventory Officer (Sokoto) at Moniepoint. Blockers: none",
+  "  - 75: State Inventory Officer (Lagos) at Moniepoint. Blockers: none",
+  "  - 75: State Inventory Officer (Delta) at Moniepoint. Blockers: none",
+  "  - 75: Remote Office Assistant at Coalition Technologies . Blockers: none",
+  "  - 55: State Inventory Officer (Zamfara) at Moniepoint. Blockers: none"
  ],
  "report": {
   "sources": [
@@ -37,7 +36,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 7
+    "passed": 8
    },
    {
     "name": "workingnomads",
@@ -49,7 +48,7 @@
     "name": "jobicy",
     "ok": true,
     "fetched": 47,
-    "passed": 41
+    "passed": 40
    },
    {
     "name": "remoteok",
@@ -88,16 +87,16 @@
     "passed": 0
    }
   ],
-  "new_to_score": 80,
-  "scored": 79,
-  "scoring_failed": 1,
+  "new_to_score": 53,
+  "scored": 53,
+  "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
  "drafts": {
-  "written": 11,
+  "written": 6,
   "failed": 0,
   "waiting": 0
  },

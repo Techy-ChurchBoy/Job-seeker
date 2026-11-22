@@ -1,25 +1,24 @@
 {
- "generated": "2026-11-22 14:46 UTC",
+ "generated": "2026-11-22 18:09 UTC",
  "report": [
-  "Last run: 2026-11-22T14:41+00:00 UTC.",
+  "Last run: 2026-11-22T18:06+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 171 matched your skills.",
-  "79 postings were scored against your CV this run.",
-  "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+  "53 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "11 cover letters were written.",
+  "6 cover letters were written.",
   "No application emails were sent this run.",
-  "Overall, 12 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 17 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
  "batches": [],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-22T14:41+00:00",
+ "last_run": "2026-11-22T18:06+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 7 passed filter",
+  "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
-  "- jobicy: 47 fetched, 41 passed filter",
+  "- jobicy: 47 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 52 passed filter",
   "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -31,39 +30,38 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 9 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 80 new jobs sent to scoring",
+  "- 53 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 90: Kleenol Nigeria Limited Graduate Trainee Programme 2026 at Dixcover Hub listing. Blockers: none",
-  "  - 85: Kleenol Nigeria Limited Graduate Trainee Programme 2026 | Apply Now at Dixcover Hub listing. Blockers: none",
-  "  - 85: Central Poultry Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
-  "  - 85: Access Bank Entry Level Training Programme 2026 at Dixcover Hub listing. Blockers: none",
-  "  - 75: Inventory Support Officer (Lagos)  at Moniepoint. Blockers: none",
-  "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 75: State Inventory Officer (Sokoto) at Moniepoint. Blockers: none",
+  "  - 75: State Inventory Officer (Lagos) at Moniepoint. Blockers: none",
+  "  - 75: State Inventory Officer (Delta) at Moniepoint. Blockers: none",
+  "  - 75: Remote Office Assistant at Coalition Technologies . Blockers: none",
+  "  - 55: State Inventory Officer (Zamfara) at Moniepoint. Blockers: none"
  ],
  "stats": {
-  "jobs_scored": 103,
-  "strong": 14,
-  "drafts": 20,
+  "jobs_scored": 156,
+  "strong": 20,
+  "drafts": 26,
   "sent_today": 1,
   "sent_total": 2
  },
  "skills": [
   {
+   "skill": "Python",
+   "count": 7,
+   "examples": [
+    "Test Data Quality Engineer at PLATO",
+    "Sr Analyst, Analytics & Insights at BeyondTrust",
+    "Senior Data Engineer (Python) at Proxify"
+   ]
+  },
+  {
    "skill": "Sql",
-   "count": 4,
+   "count": 6,
    "examples": [
     "Test Data Quality Engineer at PLATO",
     "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems",
     "Sr Analyst, Analytics & Insights at BeyondTrust"
-   ]
-  },
-  {
-   "skill": "Python",
-   "count": 4,
-   "examples": [
-    "Test Data Quality Engineer at PLATO",
-    "Sr Analyst, Analytics & Insights at BeyondTrust",
-    "Senior Data Scientist at Bright Vision Technologies"
    ]
   },
   {
@@ -73,6 +71,15 @@
     "Accounting Operations at Plaid",
     "Senior Corporate Accounting & Compliance Analyst II at NerdWallet",
     "Sr. Director, Global Controller at Resideo"
+   ]
+  },
+  {
+   "skill": "Netsuite",
+   "count": 4,
+   "examples": [
+    "Accountant at Canonical",
+    "Accounting Coordinator at Fandom",
+    "Strategic Finance Manager at ClickUp"
    ]
   },
   {
@@ -91,6 +98,33 @@
     "Senior Inventory Analyst -  Remote at Stryker",
     "Sr. Director, Global Controller at Resideo",
     "Principal Enterprise Architect, EDT - Joint Replacement, Trauma & Extremeties at Stryker"
+   ]
+  },
+  {
+   "skill": "Credit Risk Assessment",
+   "count": 3,
+   "examples": [
+    "Field Credit Officer (Ogun) at Moniepoint",
+    "Field Credit Officer (Ebonyi) at Moniepoint",
+    "Field Credit Officer (Delta) at Moniepoint"
+   ]
+  },
+  {
+   "skill": "Field Sales",
+   "count": 3,
+   "examples": [
+    "Field Credit Officer (Ogun) at Moniepoint",
+    "Field Credit Officer (Ebonyi) at Moniepoint",
+    "Field Credit Officer (Rivers) at Moniepoint"
+   ]
+  },
+  {
+   "skill": "Loan Portfolio Management",
+   "count": 3,
+   "examples": [
+    "Field Credit Officer (Ebonyi) at Moniepoint",
+    "Field Credit Officer (Rivers) at Moniepoint",
+    "Field Credit Officer (Delta) at Moniepoint"
    ]
   },
   {
@@ -139,44 +173,12 @@
    ]
   },
   {
-   "skill": "Executive Leadership",
+   "skill": "Dbt",
    "count": 3,
    "examples": [
-    "Director, Strategic Finance - Planning Systems at hims &#038; hers",
-    "VP, Customer Experience Operations at Ping Identity",
-    "Head of Credit & Fraud at Happy Money"
-   ]
-  },
-  {
-   "skill": "Portfolio Management",
-   "count": 2,
-   "examples": [
-    "Field Credit Officer (Ogun) at Moniepoint",
-    "Commercial Credit Operations Manager at Stripe"
-   ]
-  },
-  {
-   "skill": "Product Design",
-   "count": 2,
-   "examples": [
-    "Product Designer (AI Products & Platforms) at Kyivstar",
-    "Manager, Product Design at Carrot"
-   ]
-  },
-  {
-   "skill": "Graphic Design",
-   "count": 2,
-   "examples": [
-    "Youverify Internship-to-Hire Programme 2026 at Dixcover Hub listing",
-    "Social Media Content &#038; Creative Marketing Executive at Teekonect"
-   ]
-  },
-  {
-   "skill": "Outbound Prospecting",
-   "count": 2,
-   "examples": [
-    "Business Development Representative, Financial Services - UKI at GitLab",
-    "New Business Account Executive - Nordics at GitLab"
+    "Sr Analyst, Analytics & Insights at BeyondTrust",
+    "Senior Data Engineer at Lemon.io",
+    "Senior Data Engineer (Python) at Proxify"
    ]
   }
  ],
@@ -212,7 +214,7 @@
    "gaps": [],
    "url": "https://jobs.smartyacad.com/kleenol-nigeria-limited-graduate-trainee-programme-2026-2/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 85,
@@ -238,7 +240,7 @@
    "gaps": [],
    "url": "https://jobs.smartyacad.com/kleenol-nigeria-limited-graduate-trainee-programme-2026/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 85,
@@ -253,7 +255,7 @@
    ],
    "url": "https://jobs.smartyacad.com/central-poultry-graduate-trainee-program-2026/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -270,7 +272,7 @@
    ],
    "url": "https://jobs.smartyacad.com/executive-operations-associate-at-ohl-workforce-solutions-limited/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -285,7 +287,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4196076101",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -299,6 +301,68 @@
     "none"
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828382101",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 75,
+   "title": "State Inventory Officer (Lagos)",
+   "company": "Moniepoint",
+   "location": "Lagos, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role aligns well with the candidate's coursework in inventory accounting and stock valuation, as well as transferable skills in variance analysis, auditing, and reconciliation.",
+   "blockers": "",
+   "gaps": [
+    "supply chain execution",
+    "POS device tracking"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5040606101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 75,
+   "title": "State Inventory Officer (Delta)",
+   "company": "Moniepoint",
+   "location": "Delta, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role directly leverages the candidate's coursework in inventory accounting and stock valuation, alongside his experience in reconciliation, audits, and discrepancy investigation.",
+   "blockers": "",
+   "gaps": [
+    "supply chain execution",
+    "POS device tracking"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998881101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 75,
+   "title": "State Inventory Officer (Sokoto)",
+   "company": "Moniepoint",
+   "location": "Sokoto, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role aligns well with the candidate's background in inventory accounting, stock valuation, audits, and discrepancy investigations, though it is located in Sokoto while the candidate is in Nigeria.",
+   "blockers": "",
+   "gaps": [
+    "onsite presence in Sokoto"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5039834101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 75,
+   "title": "Remote Office Assistant",
+   "company": "Coalition Technologies ",
+   "location": "Worldwide",
+   "source": "Remotive",
+   "reason": "The job aligns well with the candidate's search for junior remote roles incorporating bookkeeping, administration, and internal reporting.",
+   "blockers": "",
+   "gaps": [
+    "customer service phone handling"
+   ],
+   "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
    "drafted": true,
    "recent": true
   },
@@ -316,7 +380,7 @@
    ],
    "url": "https://jobs.smartyacad.com/talent-platform-operations-associate-at-ethicpath/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 55,
@@ -333,7 +397,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5042163101",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 55,
@@ -348,6 +412,22 @@
     "POS software familiarity"
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931501101",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 55,
+   "title": "State Inventory Officer (Zamfara)",
+   "company": "Moniepoint",
+   "location": "Zamfara, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role utilizes the candidate's inventory accounting knowledge, stock valuation skills, and audit reconciliation experience, but requires relocation to Zamfara which may be a logistical constraint.",
+   "blockers": "",
+   "gaps": [
+    "logistical readiness for Zamfara placement",
+    "physical supply chain management experience"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5039838101",
    "drafted": true,
    "recent": true
   },
@@ -366,7 +446,7 @@
    ],
    "url": "https://jobs.smartyacad.com/goonite-hygiene-is-recruiting-for-entry-level-roles/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -395,6 +475,22 @@
     "Greenhouse"
    ],
    "url": "https://jobicy.com/jobs/153745-operations-analyst-finance",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Finance Operations",
+   "company": "Kalshi",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate has strong general finance operations and reconciliation skills that fit the role, but the job is based in the USA while the candidate is in Nigeria, and visa or relocation sponsorship is not indicated.",
+   "blockers": "Job is located in the USA and candidate is in Nigeria without specified relocation or authorization",
+   "gaps": [
+    "high-volume fintech transaction monitoring",
+    "prediction market clearing operations"
+   ],
+   "url": "https://jobicy.com/jobs/150744-finance-operations",
    "drafted": true,
    "recent": true
   },
@@ -449,7 +545,7 @@
    ],
    "url": "https://jobs.smartyacad.com/remote-project-coordinator-job-opportunity-at-nalafem/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 35,
@@ -465,6 +561,40 @@
     "software development tools (Claude, Cursor, GitHub Copilot)"
    ],
    "url": "https://hng.tech/internship",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 35,
+   "title": "Project Management Data Specialist - Remote",
+   "company": "Sun River Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate has a relevant Bachelor's degree and data analysis skills, but lacks specific healthcare data experience and this is a remote US role requiring US residency.",
+   "blockers": "US residency required",
+   "gaps": [
+    "healthcare data management",
+    "value-based payment contracts",
+    "PMO experience"
+   ],
+   "url": "https://himalayas.app/companies/sun-river-health/jobs/project-management-data-specialist-remote?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 35,
+   "title": "Packaging Officer",
+   "company": "Moniepoint",
+   "location": "Rivers, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role is a manual packaging and warehouse operations position which does not leverage Alexander's accounting and finance background, though it is based in Nigeria and matches his openness to operations roles.",
+   "blockers": "",
+   "gaps": [
+    "inventory management",
+    "warehouse operations",
+    "physical packaging"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4960548101",
    "drafted": false,
    "recent": true
   },
@@ -534,7 +664,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4983213101",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -552,6 +682,92 @@
     "employee onboarding"
    ],
    "url": "https://jobs.smartyacad.com/hr-recruitment-intern-at-prestigious-consulting/",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Field Credit Officer (Ebonyi)",
+   "company": "Moniepoint",
+   "location": "Ebonyi, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role is a field sales and credit recovery position in Ebonyi, which does not effectively utilize the candidate's accounting, reporting, and ERP skill set.",
+   "blockers": "",
+   "gaps": [
+    "credit risk assessment",
+    "field sales",
+    "loan portfolio management"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4983199101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 25,
+   "title": "Offline Customer Support Officer (Ore, Ondo State)",
+   "company": "Moniepoint",
+   "location": "Ondo, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role is a customer support position requiring face-to-face and chat-based client service, which does not effectively utilise the candidate's core accounting, finance, and reporting skills.",
+   "blockers": "",
+   "gaps": [
+    "customer support operations",
+    "client relationship management",
+    "technical support scripting"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4958576101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 25,
+   "title": "Field Credit Officer (Rivers)",
+   "company": "Moniepoint",
+   "location": "Rivers, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role involves field credit operations, sales, and loan portfolio management rather than core accounting, reporting, or financial operations.",
+   "blockers": "",
+   "gaps": [
+    "credit assessment",
+    "loan portfolio management",
+    "field sales"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5015823101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 25,
+   "title": "Field Credit Officer (Delta)",
+   "company": "Moniepoint",
+   "location": "Delta, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role is primarily a sales and field-based credit management position rather than an accounting, finance, or administrative role that matches the candidate's core profile.",
+   "blockers": "",
+   "gaps": [
+    "credit risk assessment",
+    "loan portfolio management",
+    "sales",
+    "field operations"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5014869101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 20,
+   "title": "Offline Customer Support Officer (Katsina)",
+   "company": "Moniepoint",
+   "location": "Katsina, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The job is a customer support role that does not utilize the candidate's finance, accounting, or administrative skills.",
+   "blockers": "",
+   "gaps": [
+    "customer service",
+    "walk-in support",
+    "client relationship management"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5026866101",
    "drafted": false,
    "recent": true
   },
@@ -678,7 +894,7 @@
    ],
    "url": "https://himalayas.app/companies/mutual-of-omaha/jobs/retail-solutions-internal-wholesaler-remote?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -695,7 +911,7 @@
    ],
    "url": "https://himalayas.app/companies/rxo/jobs/specialist-logistics-2nd-shift?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -726,7 +942,7 @@
    "gaps": [],
    "url": "https://jobs.smartyacad.com/dp-world-graduate-trainee-programme-2027/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -741,7 +957,7 @@
    ],
    "url": "https://firstcapltd.com/graduate-trainee-program/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -756,7 +972,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-business-services-assistant-ping-identity-1137936",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -774,7 +990,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-business-development-representative-financial-services-uki-gitlab-1137919",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -793,7 +1009,7 @@
    ],
    "url": "https://jobicy.com/jobs/163218-accounting-operations",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -811,7 +1027,7 @@
    ],
    "url": "https://jobs.smartyacad.com/oxgital-nysc-internship-opportunities-2026-2/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -828,7 +1044,7 @@
    ],
    "url": "https://jobicy.com/jobs/155917-assistant-manager-fund-administration-accounting",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -845,7 +1061,7 @@
    ],
    "url": "https://jobicy.com/jobs/155841-accountant-5",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -863,7 +1079,7 @@
    ],
    "url": "https://jobicy.com/jobs/153491-payroll-specialist",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -880,7 +1096,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4924151101",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -895,6 +1111,242 @@
     "international business case presentation"
    ],
    "url": "https://jobs.smartyacad.com/uniqlo-global-management-program-2027/",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Financial Reporting & Control Manager",
+   "company": "AltoVita",
+   "location": "United Kingdom",
+   "source": "Himalayas",
+   "reason": "This is a senior-level Financial Reporting & Control Manager role requiring extensive experience, whereas the candidate is a junior accountant with under a year of experience.",
+   "blockers": "Senior-level management role requiring extensive experience that the junior candidate lacks",
+   "gaps": [
+    "statutory financial statements preparation",
+    "group reporting",
+    "managerial experience"
+   ],
+   "url": "https://himalayas.app/companies/altovita/jobs/financial-reporting-control-manager?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Technical Support Executive",
+   "company": "Tekhqs",
+   "location": "Pakistan",
+   "source": "Himalayas",
+   "reason": "The role is a customer-facing technical support position requiring specific experience in client onboarding and troubleshooting, which does not align with the candidate's accounting, finance, and operations background.",
+   "blockers": "Mandatory 1-2 years of experience in customer support or technical support roles.",
+   "gaps": [
+    "customer support",
+    "technical support",
+    "troubleshooting",
+    "CRM systems",
+    "trucking software"
+   ],
+   "url": "https://himalayas.app/companies/tekhqs/jobs/technical-support-executive-1921870494?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Social Commerce Senior Coordinator (Affiliate, UGC & Live Shopping)",
+   "company": "Go Fish Digital",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires U.S. residency and focuses on social commerce, influencer marketing, and UGC strategy, which misaligns with the candidate's finance, accounting, and operations profile.",
+   "blockers": "U.S. residency requirement",
+   "gaps": [
+    "social media marketing",
+    "influencer management",
+    "TikTok and short-form content ecosystems",
+    "paid media"
+   ],
+   "url": "https://himalayas.app/companies/go-fish-digital/jobs/social-commerce-senior-coordinator-affiliate-ugc-live-shopping-312238115?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Senior Coding/Revenue Integrity Analyst",
+   "company": "Boston Medical Center",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level US healthcare revenue integrity and coding role requiring specialized experience that the candidate lacks.",
+   "blockers": "Senior-level role requiring extensive US healthcare revenue cycle and medical coding expertise.",
+   "gaps": [
+    "Epic system expertise",
+    "medical coding certification",
+    "US healthcare billing and payer compliance",
+    "clinical revenue integrity experience"
+   ],
+   "url": "https://himalayas.app/companies/boston-medical-center/jobs/senior-coding-revenue-integrity-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Technical & Reporting Accountant",
+   "company": "Canonical",
+   "location": "EMEA,  UK",
+   "source": "Jobicy",
+   "reason": "The job explicitly requires a qualified accountant (ACCA, ACA, ACMA, CPA, etc.) and deep IFRS technical expertise, which the junior candidate lacks.",
+   "blockers": "Requires a qualified accountant (ACCA, ACA, ACMA, CPA, etc.) which the candidate does not have.",
+   "gaps": [
+    "Qualified accountant certification",
+    "advanced IFRS technical advisory",
+    "statutory reporting across multiple jurisdictions"
+   ],
+   "url": "https://jobicy.com/jobs/146038-technical-reporting-accountant",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Strategic Finance Analyst - 15 Month Contract",
+   "company": "1Password",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required 4+ years of FP&A and strategic finance experience and is not located in Canada or the US.",
+   "blockers": "Requires 4+ years of experience in financial planning and analysis or strategic finance; requires residency in Canada or the US.",
+   "gaps": [
+    "SaaS industry experience",
+    "advanced headcount forecasting"
+   ],
+   "url": "https://jobicy.com/jobs/162949-strategic-finance-analyst-15-month-contract",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Sr. Audit Associate (Remote, USA-Based)",
+   "company": "Manay CPA Inc.",
+   "location": "Türkiye,  USA",
+   "source": "Jobicy",
+   "reason": "The role is a senior-level audit position requiring extensive experience and leadership responsibilities that far exceed the candidate's junior profile.",
+   "blockers": "Requires senior-level experience and leadership capabilities (Sr. Audit Associate) which the candidate lacks.",
+   "gaps": [
+    "U.S. GAAP",
+    "U.S. tax codes",
+    "Thomson Reuters Engagement",
+    "experience leading audit engagements"
+   ],
+   "url": "https://jobicy.com/jobs/162784-sr-audit-associate-remote-usa-based",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Accounting Coordinator",
+   "company": "Fandom",
+   "location": "Poland",
+   "source": "Jobicy",
+   "reason": "The candidate is ineligible because the role requires fluent Polish language skills and physical location/compliance in Poland.",
+   "blockers": "Requires fluent Polish (written & spoken) and local Polish accounting standards/compliance",
+   "gaps": [
+    "Fluent Polish",
+    "Polish GAAP",
+    "G Suite",
+    "NetSuite"
+   ],
+   "url": "https://jobicy.com/jobs/162737-accounting-coordinator",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Senior Business Analyst",
+   "company": "Moniepoint",
+   "location": "Remote, London, United Kingdom",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The candidate is underqualified for this senior role, lacking the required 3 to 4 years of quantitative analysis experience.",
+   "blockers": "Requires 3 to 4 years of professional experience in a quantitative analysis role, which exceeds the candidate's experience level.",
+   "gaps": [
+    "advanced SQL",
+    "statistical modelling",
+    "A/B testing",
+    "Python/R programming"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912592101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Senior Business Analyst",
+   "company": "Moniepoint",
+   "location": "Remote, Poland",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The candidate lacks the required 3 to 4 years of professional experience in quantitative analysis and the role is a senior-level position located in Poland.",
+   "blockers": "Senior role requiring 3 to 4 years of quantitative analysis experience; location in Poland.",
+   "gaps": [
+    "SQL programming",
+    "advanced statistical modeling",
+    "A/B testing"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Senior MS Power BI Developer",
+   "company": "Proxify",
+   "location": "CET (+/- 3 hours)",
+   "source": "WorkingNomads",
+   "reason": "The job is a senior-level technical developer role requiring mastery in data analytics and software development, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior-level experience required; extensive software development and BI stack mastery required.",
+   "gaps": [
+    "MS SQL Server",
+    "SSRS",
+    "T-SQL",
+    "MDX",
+    "DAX mastery",
+    "data warehousing",
+    "ETL procedures"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2007948/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Service Center Operations Manager",
+   "company": "Moniepoint",
+   "location": "Lagos, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The candidate has only 11 months of junior accounting experience and lacks the senior leadership, people management, and extensive multi-site operations background required for a managerial role.",
+   "blockers": "Requires senior-level management experience running multi-site operations which the candidate lacks.",
+   "gaps": [
+    "multi-site operational oversight",
+    "P&amp",
+    "amp",
+    "L ownership",
+    "people management",
+    "regional budgeting"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4776246101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Team Lead, System Administrator",
+   "company": "Moniepoint",
+   "location": "Lagos, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role is a senior technical IT infrastructure and systems administration position requiring deep networking, cloud, and security expertise, which does not align with the candidate's junior accounting and finance profile.",
+   "blockers": "Senior technical IT infrastructure role requiring deep networking and systems administration expertise, mismatched with an entry-level accounting background.",
+   "gaps": [
+    "Networking",
+    "cloud infrastructure",
+    "security",
+    "systems administration",
+    "IT team leadership"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4780532101",
    "drafted": false,
    "recent": true
   },
@@ -933,7 +1385,7 @@
    ],
    "url": "https://himalayas.app/companies/local-splash/jobs/senior-sales-associate?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -951,7 +1403,7 @@
    ],
    "url": "https://himalayas.app/companies/cardinal-health/jobs/sr-coordinator-individualized-care?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -968,7 +1420,7 @@
    ],
    "url": "https://himalayas.app/companies/high-light-electric-inc/jobs/recruiting-assistant-remote-latin-america?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -986,7 +1438,7 @@
    ],
    "url": "https://jobicy.com/jobs/151218-mortgage-processor",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1004,7 +1456,7 @@
    ],
    "url": "https://jobicy.com/jobs/163650-senior-corporate-accounting-compliance-analyst-ii",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1024,7 +1476,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-analyst-analytics-insights-beyondtrust-1137962",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1042,7 +1494,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-deal-desk-analyst-eastern-time-zone-preferred-mixpanel-1137961",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1059,7 +1511,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-enterprise-performance-lead-clover-health-1137944",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1075,7 +1527,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-financial-analyst-oura-1137935",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1094,7 +1546,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-manager-product-design-carrot-1137927",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1112,7 +1564,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-new-business-account-executive-nordics-gitlab-1137915",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1130,7 +1582,7 @@
    ],
    "url": "https://jobs.smartyacad.com/lsdf-is-hiring-state-program-officers-multiple-locations/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1149,7 +1601,7 @@
    ],
    "url": "https://jobicy.com/jobs/163281-senior-global-tax-specialist",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1167,7 +1619,7 @@
    ],
    "url": "https://jobs.smartyacad.com/social-media-content-creative-marketing-executive-at-teekonect/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1184,7 +1636,7 @@
    ],
    "url": "https://jobicy.com/jobs/155879-fpa-manager-3",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1205,7 +1657,7 @@
    ],
    "url": "https://jobicy.com/jobs/155825-senior-strategic-finance-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1224,7 +1676,7 @@
    ],
    "url": "https://jobicy.com/jobs/155786-contador-publico-certificado-senior-accountant-mexico",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1243,7 +1695,7 @@
    ],
    "url": "https://jobicy.com/jobs/155817-manager-strategic-finance",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1263,7 +1715,7 @@
    ],
    "url": "https://www.workingnomads.com/job/go/2032572/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -1278,6 +1730,310 @@
     "U.S. GAAP"
    ],
    "url": "https://jobicy.com/jobs/163074-senior-accountant-12",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Senior Account Executive US",
+   "company": "Hypernative",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior sales role requiring 3+ years of Web3 sales experience, which completely misaligns with the candidate's entry-level accounting and finance background.",
+   "blockers": "3+ years of experience in Web3, blockchain, or fintech sales or business development; Senior-level sales role",
+   "gaps": [
+    "Web3 sales",
+    "institutional sales",
+    "account executive experience",
+    "crypto network"
+   ],
+   "url": "https://himalayas.app/companies/hypernative/jobs/senior-account-executive-us?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Coding and Revenue Integrity Analyst",
+   "company": "Boston Medical Center",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level healthcare revenue integrity and medical coding role requiring specialized US medical billing and Epic system experience, which completely misaligns with the candidate's entry-level profile and lack of healthcare industry background.",
+   "blockers": "Senior-level role; requires US healthcare revenue cycle, medical coding expertise, and Epic system experience.",
+   "gaps": [
+    "medical coding",
+    "Epic software",
+    "revenue integrity",
+    "healthcare billing",
+    "US payer regulations"
+   ],
+   "url": "https://himalayas.app/companies/boston-medical-center/jobs/senior-coding-and-revenue-integrity-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "FP&A Manager",
+   "company": "Fandom",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires 7+ years of progressive corporate finance experience and a senior managerial background.",
+   "blockers": "7+ years of progressive experience required; senior manager level role",
+   "gaps": [
+    "FP&A management",
+    "corporate finance strategy",
+    "C-suite and Board-level reporting",
+    "FP&A software administration (Adaptive Insights, Anaplan, Planful)"
+   ],
+   "url": "https://jobicy.com/jobs/155759-fpa-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Director, Financial Audit, EMEA",
+   "company": "Fieldguide",
+   "location": "UK",
+   "source": "Jobicy",
+   "reason": "The role requires a Director-level senior leadership position with extensive executive experience in financial audit, which drastically exceeds the candidate's junior 11-month experience and lack of professional accounting qualifications.",
+   "blockers": "Requires Director-level experience and senior leadership in financial audit, far exceeding the candidate's entry-level status.",
+   "gaps": [
+    "Director experience",
+    "professional certifications (ACA, ACCA)",
+    "deep regulatory expertise in EMEA markets"
+   ],
+   "url": "https://jobicy.com/jobs/155640-director-financial-audit-emea",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Tax Accountant",
+   "company": "Articulate",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate is heavily underqualified for this senior-level role which requires 5+ years of experience and a CPA license.",
+   "blockers": "5+ years of experience required; CPA license preferred/required",
+   "gaps": [
+    "partnership and S corporation taxation",
+    "pass-through entity reporting",
+    "US tax compliance"
+   ],
+   "url": "https://jobicy.com/jobs/162997-senior-tax-accountant-2",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Strategic Finance Manager",
+   "company": "ClickUp",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role requires 5+ years of strategic finance experience and management-level responsibilities, far exceeding the candidate's junior-level background.",
+   "blockers": "5+ years of FP&amp;A or strategic finance experience required.",
+   "gaps": [
+    "Strategic finance",
+    "SaaS metrics",
+    "board reporting",
+    "financial modeling",
+    "NetSuite",
+    "Pigment/Anaplan"
+   ],
+   "url": "https://jobicy.com/jobs/162969-strategic-finance-manager-3",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Financial Analyst, Business Finance",
+   "company": "Thumbtack",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "This is a senior-level role based in the USA requiring extensive financial analysis experience, which does not match the candidate's entry-level status and location.",
+   "blockers": "Senior-level role requiring years of experience; USA location requirement.",
+   "gaps": [
+    "Senior financial planning and analysis",
+    "advanced headcount and infrastructure modeling",
+    "US market experience"
+   ],
+   "url": "https://jobicy.com/jobs/162758-senior-financial-analyst-business-finance",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "FP&A Manager | Tech & Product | Remote in Spain or Poland",
+   "company": "Docplanner",
+   "location": "Poland,  Spain",
+   "source": "Jobicy",
+   "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires a senior-level FP&A Manager to independently manage budgets and business partner with tech executives.",
+   "blockers": "Senior management role requiring extensive FP&A experience that the junior candidate lacks; location restriction to Spain or Poland.",
+   "gaps": [
+    "FP&A management",
+    "strategic finance business partnering",
+    "Pigment",
+    "tech and product cost modeling"
+   ],
+   "url": "https://jobicy.com/jobs/162687-fpa-manager-tech-product-remote-in-spain-or-poland",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Group Financial Controller",
+   "company": "Canonical",
+   "location": "EMEA,  UK",
+   "source": "Jobicy",
+   "reason": "This is a senior leadership role requiring a professionally qualified accounting leader (such as ACA, ACCA, or CPA) and a track record of preparing finance functions for public markets, which far exceeds the candidate's junior experience and lack of professional certifications.",
+   "blockers": "Requires a professionally qualified accounting leader with extensive senior experience, whereas the candidate is an entry-level junior accountant with no professional certifications (ACA/ACCA/ICAN).",
+   "gaps": [
+    "Public markets finance preparation",
+    "senior financial leadership",
+    "statutory governance framework design",
+    "professional accounting qualification"
+   ],
+   "url": "https://jobicy.com/jobs/146021-group-financial-controller",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Cost Accounting Manager",
+   "company": "Canonical",
+   "location": "EMEA,  UK",
+   "source": "Jobicy",
+   "reason": "This is a senior management role requiring a professionally qualified accounting leader and extensive experience, which the junior candidate lacks.",
+   "blockers": "Requires a professionally qualified accounting leader (ACA, ACCA, CPA, ICAN, etc.) and senior management experience which the candidate lacks.",
+   "gaps": [
+    "professional accounting qualification",
+    "NetSuite",
+    "IFRS 16/IAS38 expertise",
+    "team leadership experience"
+   ],
+   "url": "https://jobicy.com/jobs/146030-cost-accounting-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "QA Testers Wanted to Jump on an AI Assistant project",
+   "company": "Tester Work",
+   "location": "Switzerland, Belgium, Luxembourg, Sweden, Denmark, Norway, Finland, Saudi Arabia and Israel",
+   "source": "WorkingNomads",
+   "reason": "The candidate is located in Nigeria, but this QA testing role explicitly requires residency in specific European or Middle Eastern countries.",
+   "blockers": "Required to be based in Switzerland, Belgium, Luxembourg, Sweden, Denmark, Norway, Finland, Saudi Arabia or Israel.",
+   "gaps": [
+    "QA testing experience",
+    "native language proficiency for specified countries"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2019516/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Data Engineer (Python)",
+   "company": "Proxify",
+   "location": "Time zone: CET (+/- 3 hours)",
+   "source": "WorkingNomads",
+   "reason": "The role requires 5+ years of senior data engineering experience with Python, cloud warehouses, and complex data pipeline infrastructure, which does not align with the candidate's background in junior accounting and finance.",
+   "blockers": "Requires 5+ years of experience building complex data processing applications and senior-level Python/Data Engineering expertise.",
+   "gaps": [
+    "Python",
+    "Apache Airflow",
+    "dbt",
+    "Snowflake/BigQuery",
+    "Dimensional Modeling",
+    "Docker",
+    "CI/CD",
+    "Data Pipelines"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2007966/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Data Analyst (No Experience Required) - Japanese and English",
+   "company": "Peroptyx",
+   "location": "Japan - Remote",
+   "source": "WorkingNomads",
+   "reason": "The candidate fails the geographical eligibility requirement of living in Japan for a minimum of 5 consecutive years and requires fluency in Japanese.",
+   "blockers": "Must be living in Japan for a minimum of 5 consecutive years; Fluent in Japanese",
+   "gaps": [
+    "Japanese language proficiency",
+    "local knowledge of Japan",
+    "map evaluation experience"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2007849/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Data Analyst (No Experience Required)",
+   "company": "Peroptyx",
+   "location": "Canada",
+   "source": "WorkingNomads",
+   "reason": "The job requires living in Canada for a minimum of 5 consecutive years and knowledge of Canadian geography, which the candidate does not meet.",
+   "blockers": "Must be living in Canada for a minimum of 5 consecutive years",
+   "gaps": [
+    "local knowledge of Canada"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2007847/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Regional Security Officer (South West)",
+   "company": "Moniepoint",
+   "location": "Ekiti, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The job requires physical security management and liaison with law enforcement, which has no overlap with Alexander's finance, accounting, or administrative skill set.",
+   "blockers": "Mandatory prior experience in physical security management that the profile does not show",
+   "gaps": [
+    "physical security",
+    "risk assessment",
+    "law enforcement liaison",
+    "guard supervision"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4942966101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Regional Security Officer (South East)",
+   "company": "Moniepoint",
+   "location": "Enugu, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The job is for a physical and regional security officer role, which completely diverges from Alexander's finance, accounting, and administrative background.",
+   "blockers": "None strictly blocking eligibility, but the role requires physical security operations experience which the candidate lacks.",
+   "gaps": [
+    "physical security management",
+    "law enforcement liaison",
+    "security assessments",
+    "emergency response"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4942965101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Regional Security Officer (North East)",
+   "company": "Moniepoint",
+   "location": "Gombe, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "This is a physical and regional security management role requiring specialized safety operations, which has no overlap with the candidate's finance, accounting, or administrative skill set.",
+   "blockers": "The role requires specialized physical security management and leadership experience which the candidate lacks.",
+   "gaps": [
+    "physical security operations",
+    "risk assessment",
+    "law enforcement liaison",
+    "security guard supervision"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4942964101",
    "drafted": false,
    "recent": true
   },
@@ -1373,7 +2129,7 @@
    ],
    "url": "https://himalayas.app/companies/techbiz-global/jobs/license-compliance-sales-manager-cis-region?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1390,7 +2146,7 @@
    ],
    "url": "https://jobicy.com/jobs/156421-director-strategic-finance-planning-systems",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1411,7 +2167,7 @@
    ],
    "url": "https://jobicy.com/jobs/163710-actuarial-associate-uk-2",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1429,7 +2185,7 @@
    ],
    "url": "https://jobicy.com/jobs/163668-commercial-credit-operations-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1447,7 +2203,7 @@
    ],
    "url": "https://jobicy.com/jobs/163645-director-revenue-accounting",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1466,7 +2222,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-staff-data-scientist-martech-platform-ml-algos-airbnb-1137956",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1483,7 +2239,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-leader-strategy-planning-contentstack-1137951",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1501,7 +2257,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-vp-customer-experience-operations-ping-identity-1137949",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1518,7 +2274,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-technology-partner-director-product-partnerships-databricks-1137941",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1535,7 +2291,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-in-home-care-admin-coordinator-clover-health-1137934",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1554,7 +2310,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-product-design-manager-lastpass-1137928",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1572,7 +2328,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-strategic-account-executive-financial-services-us-central-gitlab-1137916",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1589,7 +2345,7 @@
    ],
    "url": "https://docs.google.com/document/d/1LBl-2lf_GxQJLmkTHvPXcRSX13vTdwmS/edit?usp=sharing&amp;ouid=102135167153986231100&amp;rtpof=true&amp;sd=true",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1606,7 +2362,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ecosystem-relevance-reddit-1137894",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1625,7 +2381,7 @@
    ],
    "url": "https://jobs.smartyacad.com/social-media-manager-entry-level/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1643,7 +2399,7 @@
    ],
    "url": "https://jobicy.com/jobs/163279-senior-tax-manager-2",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -1661,6 +2417,143 @@
     "portfolio risk management"
    ],
    "url": "https://jobicy.com/jobs/155829-head-of-credit-fraud",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Director, GTM Finance",
+   "company": "Customer.io",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "The role requires 10+ years of senior FP&A and strategic finance experience to direct GTM finance at a scaled tech company, which vastly exceeds the candidate's junior 11-month profile.",
+   "blockers": "Requires 10+ years of senior FP&A experience; senior director level role.",
+   "gaps": [
+    "GTM P&L ownership",
+    "SaaS unit economics (CAC/LTV modeling)",
+    "board-level executive partnering",
+    "10+ years experience"
+   ],
+   "url": "https://jobicy.com/jobs/155490-director-gtm-finance",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Data Engineer",
+   "company": "Lemon.io",
+   "location": "LATAM, Europe, USA, Canada, APAC",
+   "source": "Remotive",
+   "reason": "The role requires 4+ years of senior data engineering experience, which the candidate lacks completely.",
+   "blockers": "4+ years of commercial experience as a Data Engineer required; senior engineering role",
+   "gaps": [
+    "Apache Airflow",
+    "Snowflake",
+    "Python",
+    "SQL",
+    "AWS",
+    "GCP",
+    "Microsoft Azure",
+    "production data pipelines"
+   ],
+   "url": "https://remotive.com/remote-jobs/data/senior-data-engineer-2091137",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Data Engineer (Azure)",
+   "company": "Proxify",
+   "location": "CET (+/- 3 hours)",
+   "source": "WorkingNomads",
+   "reason": "The candidate is a junior accountant without data engineering experience, whereas this role requires 5+ years in senior data engineering on Azure.",
+   "blockers": "5+ years in Data Engineering roles required; senior-level role",
+   "gaps": [
+    "Azure Data Factory",
+    "Azure SQL",
+    "ETL pipeline development",
+    "data warehousing",
+    "Python",
+    "Git",
+    "CI/CD"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2007968/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Data Scientist (Python)",
+   "company": "Proxify",
+   "location": "Time zone: CET (+/- 3 hours)",
+   "source": "WorkingNomads",
+   "reason": "The role requires 5+ years of experience as a Senior Data Scientist with advanced Python machine learning and production engineering skills which far exceed the candidate's profile.",
+   "blockers": "5+ years of professional experience as a Data Scientist required; senior-level role",
+   "gaps": [
+    "Python data ecosystem",
+    "machine learning production",
+    "Docker",
+    "SQL",
+    "distributed computing",
+    "cloud data infrastructure"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2007934/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Microsoft Dynamics 365 Developer",
+   "company": "Proxify",
+   "location": "Time zone: CET (+/- 3 hours)",
+   "source": "WorkingNomads",
+   "reason": "The role requires 5+ years of hands-on software development experience as a Senior D365 Developer, which drastically exceeds the candidate's junior accounting and ERP user profile.",
+   "blockers": "Senior-level role requiring 5+ years of software development experience; missing required programming stack (X++, C#, .NET, Azure architecture); candidate is not in the required CET timezone.",
+   "gaps": [
+    "X++",
+    "C#",
+    ".NET",
+    "JavaScript/TypeScript",
+    "Azure-hosted services",
+    "Microsoft certifications"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2007930/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Technical Operations Lead",
+   "company": "Lemon.io",
+   "location": "Europe",
+   "source": "WorkingNomads",
+   "reason": "This is a senior software engineering and technical leadership role requiring 7+ years of commercial development experience, which the candidate lacks.",
+   "blockers": "Requires 7+ years of commercial software development and technical leadership experience.",
+   "gaps": [
+    "software development",
+    "coding",
+    "system architecture",
+    "production engineering"
+   ],
+   "url": "https://www.workingnomads.com/job/go/1994915/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Regional Security Officer (North West)",
+   "company": "Moniepoint",
+   "location": "Kano, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role requires physical security management and law enforcement liaison, which has no overlap with the candidate's accounting, finance, and administrative skill set.",
+   "blockers": "Lack of required background in physical security management and law enforcement operations.",
+   "gaps": [
+    "physical security",
+    "asset protection",
+    "law enforcement coordination",
+    "emergency response management"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4940527101",
    "drafted": false,
    "recent": true
   },
@@ -1810,7 +2703,7 @@
    ],
    "url": "https://himalayas.app/companies/stryker/jobs/principal-enterprise-architect-edt-joint-replacement-trauma-extremeties?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1825,7 +2718,7 @@
    ],
    "url": "https://jobicy.com/jobs/163690-collections-analyst-i",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1844,7 +2737,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-director-revenue-accounting-6sense-1137960",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1863,7 +2756,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-behavioral-security-products-abnormal-1137948",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1881,7 +2774,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-financial-reporting-oura-1137947",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1898,7 +2791,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-global-tax-intern-ensono-1137943",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1916,7 +2809,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-physician-assistant-virtual-health-assessment-oscar-health-1137938",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1934,7 +2827,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-associate-counsel-vendor-and-provider-contracting-clover-health-1137933",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1952,7 +2845,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-product-marketing-manager-secrets-manager-bitwarden-1137931",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1971,7 +2864,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-security-operations-manager-carrot-1137930",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -1987,7 +2880,7 @@
    ],
    "url": "https://jobs.smartyacad.com/first-bank-of-nigeria-service-executive-conversion-programme-2026/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -2000,10 +2893,99 @@
    "gaps": [],
    "url": "https://jobs.smartyacad.com/flour-mills-of-nigeria-inclusive-internship-initiative-fmn-iii-2026/",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Japanese Interpreter",
+   "company": "One World Global Services",
+   "location": "Japan",
+   "source": "Himalayas",
+   "reason": "The job requires Japanese language proficiency and translation experience, which are completely unrelated to the candidate's finance and accounting background.",
+   "blockers": "Japanese language proficiency required",
+   "gaps": [
+    "Japanese language",
+    "interpretation experience",
+    "medical industry vocabulary"
+   ],
+   "url": "https://himalayas.app/companies/one-world-global-services/jobs/japanese-interpreter-2243660974?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Senior Database Engineer",
+   "company": "Bitwarden",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires a Senior Database Engineer based in the US with expert knowledge of Microsoft SQL Server and database engineering, which completely mismatches the candidate's profile and location in Nigeria.",
+   "blockers": "Candidate must be located in the U.S. without visa sponsorship; requires senior database engineering experience.",
+   "gaps": [
+    "expert SQL Server",
+    "database engineering",
+    "database performance tuning",
+    "software engineering experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-database-engineer-bitwarden-1137957",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Tax Manager",
+   "company": "Bloomreach",
+   "location": "Czechia,  Slovakia",
+   "source": "Jobicy",
+   "reason": "The role requires a Tax Manager with extensive senior-level international tax and transfer pricing experience, which completely mismatches the candidate's entry-level profile.",
+   "blockers": "Senior management role requiring advanced professional tax experience, located in Central Europe (Czechia/Slovakia) while the candidate is in Nigeria.",
+   "gaps": [
+    "international taxation",
+    "transfer pricing",
+    "VAT and corporate tax management",
+    "tax audit representation"
+   ],
+   "url": "https://jobicy.com/jobs/155732-tax-manager",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-22T18:06+00:00",
+   "report": [
+    "Last run: 2026-11-22T18:06+00:00 UTC.",
+    "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 171 matched your skills.",
+    "53 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "6 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 17 postings currently qualify for an email (score 40 or more, no blockers)."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 8 passed filter",
+    "- workingnomads: 35 fetched, 10 passed filter",
+    "- jobicy: 47 fetched, 40 passed filter",
+    "- remoteok: 100 fetched, 52 passed filter",
+    "- greenhouse: 67 fetched, 38 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 21 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 9 linked pages",
+    "- 22 jobs older than 30 days skipped",
+    "- 53 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 75: State Inventory Officer (Sokoto) at Moniepoint. Blockers: none",
+    "  - 75: State Inventory Officer (Lagos) at Moniepoint. Blockers: none",
+    "  - 75: State Inventory Officer (Delta) at Moniepoint. Blockers: none",
+    "  - 75: Remote Office Assistant at Coalition Technologies . Blockers: none",
+    "  - 55: State Inventory Officer (Zamfara) at Moniepoint. Blockers: none"
+   ]
+  },
   {
    "last_run": "2026-11-22T14:41+00:00",
    "report": [
