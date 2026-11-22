@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 07:20 UTC",
+ "generated": "2026-11-22 07:51 UTC",
  "report": [
   "Last run: 2026-11-22T06:46+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
@@ -158,7 +158,8 @@
    "company": "Dixcover Hub listing",
    "email": "recruitments@accessbankplc.com",
    "score": "90",
-   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/"
+   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
+   "recent": true
   },
   {
    "sent_at": "2026-11-21T18:04:00+00:00",
@@ -166,7 +167,8 @@
    "company": "Dixcover Hub listing",
    "email": "recruitments@accessbankplc.com",
    "score": "90",
-   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/"
+   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
+   "recent": true
   }
  ],
  "jobs": [
@@ -180,7 +182,8 @@
    "blockers": "",
    "gaps": [],
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
-   "drafted": true
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 45,
@@ -192,7 +195,8 @@
    "blockers": "none",
    "gaps": [],
    "url": "https://m/1",
-   "drafted": true
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 40,
@@ -209,7 +213,8 @@
     "Sage Intacct"
    ],
    "url": "https://himalayas.app/companies/triquetra-health/jobs/bookkeeper?utm_source=api",
-   "drafted": true
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 35,
@@ -225,7 +230,8 @@
     "Agile project methodology"
    ],
    "url": "https://himalayas.app/companies/i4dm/jobs/associate-salesforce-admin?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 25,
@@ -240,7 +246,8 @@
     "inventory management experience"
    ],
    "url": "https://himalayas.app/companies/stryker/jobs/senior-inventory-analyst-remote?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 25,
@@ -256,7 +263,8 @@
     "low-voltage wiring"
    ],
    "url": "https://himalayas.app/companies/ooma/jobs/implementation-specialist?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 25,
@@ -273,7 +281,8 @@
     "stored procedures"
    ],
    "url": "https://himalayas.app/companies/ferrellgas/jobs/systems-analyst?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -289,7 +298,8 @@
     "policy quoting"
    ],
    "url": "https://himalayas.app/companies/emc-insurance/jobs/underwriting-associate-specialty?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -306,7 +316,8 @@
     "timekeeping systems administration"
    ],
    "url": "https://himalayas.app/companies/hire-virtue/jobs/payroll-analyst?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -322,7 +333,8 @@
     "conveyancing workflows"
    ],
    "url": "https://himalayas.app/companies/juno-legal/jobs/conveyancing-assistant?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -342,7 +354,8 @@
     "Azure DevOps"
    ],
    "url": "https://himalayas.app/companies/platotech/jobs/test-data-quality-engineer?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -359,7 +372,8 @@
     "interface design"
    ],
    "url": "https://himalayas.app/companies/kyivstar/jobs/product-designer-ai-products-platforms?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -374,7 +388,8 @@
     "relational database schemas"
    ],
    "url": "https://himalayas.app/companies/veeva-systems/jobs/data-analyst-opendata-commercial-asia-pacific?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 10,
@@ -391,7 +406,8 @@
     "technical architecture"
    ],
    "url": "https://himalayas.app/companies/trax-technologies/jobs/product-manager-transformation?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 5,
@@ -410,7 +426,8 @@
     "predictive modeling"
    ],
    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/senior-data-scientist-8127940440?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 5,
@@ -428,7 +445,8 @@
     "enterprise software strategy"
    ],
    "url": "https://himalayas.app/companies/fluency-inc-a92b5614-7a5c-4a66-8e47-cfdd3f504a59/jobs/staff-product-manager-social-advertising?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 5,
@@ -446,7 +464,8 @@
     "M&A diligence"
    ],
    "url": "https://himalayas.app/companies/resideo/jobs/sr-director-global-controller?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 5,
@@ -462,7 +481,8 @@
     "IT project delivery"
    ],
    "url": "https://himalayas.app/companies/alignment-health/jobs/principal-project-manager?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -479,7 +499,8 @@
     "pricing and packaging design"
    ],
    "url": "https://himalayas.app/companies/emcd/jobs/product-manager-mining-products?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -496,7 +517,8 @@
     "defense industry experience"
    ],
    "url": "https://himalayas.app/companies/caci-international-inc/jobs/project-manager-advanced-manufacturing?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -514,7 +536,8 @@
     "complex sales cycles"
    ],
    "url": "https://himalayas.app/companies/loadsmart/jobs/enterprise-sales-executive?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -529,7 +552,8 @@
     "bilingual communication"
    ],
    "url": "https://himalayas.app/companies/languageline-solutions/jobs/chin-tedim-interpreter?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -545,7 +569,8 @@
     "vendor management"
    ],
    "url": "https://himalayas.app/companies/hb-travels/jobs/trip-coordinator-6507046759?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -561,7 +586,8 @@
     "interpreting skills"
    ],
    "url": "https://himalayas.app/companies/cayuse-holdings/jobs/asl-interpreter-9790640919?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -580,7 +606,8 @@
     "Photoshop"
    ],
    "url": "https://himalayas.app/companies/snappy-kraken/jobs/junior-web-designer?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -596,7 +623,8 @@
     "full stack development"
    ],
    "url": "https://himalayas.app/companies/bnsf-railway/jobs/product-platform-enterprise-full-stack-software-engineer-i-ii-remote-us?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -614,7 +642,41 @@
     "database replication and high-availability"
    ],
    "url": "https://himalayas.app/companies/centrilogic/jobs/senior-sql-server-database-administrator-advisory-services?utm_source=api",
-   "drafted": false
+   "drafted": false,
+   "recent": true
+  }
+ ],
+ "history": [
+  {
+   "last_run": "2026-11-22T06:46+00:00",
+   "report": [
+    "Last run: 2026-11-22T06:46+00:00 UTC.",
+    "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
+    "0 postings were scored against your CV this run.",
+    "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "No application emails were sent this run.",
+    "Overall, 2 postings currently qualify for an email (score 40 or more, no blockers)."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 6 passed filter",
+    "- workingnomads: 35 fetched, 10 passed filter",
+    "- jobicy: 50 fetched, 43 passed filter",
+    "- remoteok: 100 fetched, 49 passed filter",
+    "- greenhouse: 67 fetched, 38 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 21 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 9 linked pages",
+    "- 21 jobs older than 30 days skipped",
+    "- 80 new jobs sent to scoring",
+    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+   ]
   }
  ]
 }
