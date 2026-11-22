@@ -3,10 +3,14 @@ Writes dashboard/data/feed.json. The dashboard page (dashboard/index.html) is a 
 so the page exists and works whether or not the job bot has run. Never includes your CV or cover letter text.
 """
 import csv, glob, json, os
+from datetime import timedelta
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
 FEED = "dashboard/data/feed.json"
+HISTORY = "dashboard/data/history.json"
+KNOWN = "dashboard/data/known_jobs.json"
+RECENT_DAYS = 7
 MIN_SCORE = 40
 
 
@@ -107,6 +111,20 @@ def load_batches():
     return out
 
 
+def recent(stamp):
+    """True if an ISO timestamp is within the last RECENT_DAYS."""
+    if not stamp:
+        return False
+    try:
+        from datetime import datetime, timezone
+        when = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=timezone.utc)
+        return when >= datetime.now(timezone.utc) - timedelta(days=RECENT_DAYS)
+    except ValueError:
+        return False
+
+
 def build():
     matches = rows("matches.csv")
     applied = rows("applied.csv")
@@ -116,6 +134,7 @@ def build():
     today = datetime.now(timezone.utc).date().isoformat()
 
     scored = sorted(matches, key=lambda r: num(r.get("score")), reverse=True)
+    known_urls = set(json.load(open(KNOWN))) if os.path.exists(KNOWN) else set()
 
     gap_count = Counter()
     gap_examples = defaultdict(list)
@@ -130,7 +149,7 @@ def build():
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "report": plain_report(status, matches),
         "batches": load_batches(),
-        "replies": load_replies() if SHOW_REPLIES else [],
+        "replies": [dict(r, recent=recent(r.get("received"))) for r in (load_replies() if SHOW_REPLIES else [])],
         "replies_hidden": (not SHOW_REPLIES) and os.path.exists("replies.json"),
         "paused": paused,
         "last_run": status.get("last_run"),
@@ -145,18 +164,29 @@ def build():
         "skills": [{"skill": skill.title(), "count": n, "examples": gap_examples[skill]}
                    for skill, n in gap_count.most_common(15)],
         "sent": [{"sent_at": r.get("sent_at", ""), "title": r.get("title", ""), "company": r.get("company", ""),
-                  "email": r.get("email", ""), "score": r.get("score", ""), "url": r.get("url", "")}
+                  "email": r.get("email", ""), "score": r.get("score", ""), "url": r.get("url", ""),
+                  "recent": recent(r.get("sent_at"))}
                  for r in reversed(applied)],
         "jobs": [{"score": int(num(r.get("score"))), "title": r.get("title", ""), "company": r.get("company", ""),
                   "location": r.get("location", ""), "source": r.get("source", ""), "reason": r.get("reason", ""),
                   "blockers": r.get("blockers", ""), "gaps": gaps(r), "url": r.get("url", ""),
-                  "drafted": r.get("url") in prepared} for r in scored],
+                  "drafted": r.get("url") in prepared, "recent": r.get("url") not in known_urls} for r in scored],
     }
 
 
 def main():
     os.makedirs(os.path.dirname(FEED), exist_ok=True)
     feed = build()
+    # history: one entry per job run, newest first
+    history = json.load(open(HISTORY)) if os.path.exists(HISTORY) else []
+    status = json.load(open("status.json")) if os.path.exists("status.json") else {}
+    if status.get("last_run") and (not history or history[-1].get("last_run") != status["last_run"]):
+        history.append({"last_run": status["last_run"], "report": feed["report"], "summary": status.get("summary", [])})
+        history = history[-60:]
+        json.dump(history, open(HISTORY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    feed["history"] = list(reversed(history))
+    # remember every job shown, so the next run can mark what is new
+    json.dump([j["url"] for j in feed["jobs"]], open(KNOWN, "w", encoding="utf-8"))
     with open(FEED, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=1)
     print(f"Dashboard feed written: {len(feed['jobs'])} jobs, {len(feed['sent'])} sent")

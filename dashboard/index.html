@@ -4,13 +4,23 @@
 <meta name="robots" content="noindex">
 <title>Job search</title>
 <style>
-:root{--ink:#000;--paper:#FFFBF1}
+:root{--ink:#000;--paper:#FFFBF1;--soft:rgba(0,0,0,.55)}
 *{box-sizing:border-box}
-body{margin:0;padding:18px;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.45}
-h1{font-size:24px;margin:0 0 4px;letter-spacing:-.3px} h2{font-size:17px;margin:0 0 12px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.45}
+header{position:sticky;top:0;z-index:5;background:var(--paper);padding:14px 16px 8px;box-shadow:0 6px 12px rgba(0,0,0,.06)}
+h1{font-size:22px;margin:0 0 6px;letter-spacing:-.3px}
+nav{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:0;border-radius:999px;padding:9px 16px;font-size:14px;font-weight:600;background:var(--paper);color:var(--ink);box-shadow:5px 5px 10px rgba(0,0,0,.09),-5px -5px 10px #fff;cursor:pointer}
+.tab.on{color:var(--paper);background:linear-gradient(#262626,#000);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 4px 8px rgba(0,0,0,.25)}
+.badge{display:inline-block;min-width:20px;padding:0 6px;margin-left:6px;border-radius:999px;font-size:12px;background:#000;color:var(--paper);text-align:center}
+main{padding:16px}
+section.page{display:none}
+section.page.on{display:block}
+h2{font-size:17px;margin:18px 0 10px}
+h2:first-child{margin-top:0}
+.muted{color:var(--soft);font-size:13px}
 a{color:var(--ink);font-weight:600}
-.muted{color:rgba(0,0,0,.55);font-size:13px}
-section{margin-top:22px}
 .neu{background:var(--paper);border-radius:22px;padding:16px;box-shadow:9px 9px 18px rgba(0,0,0,.10),-9px -9px 18px #fff}
 .clay{background:var(--paper);border-radius:28px;padding:14px 16px;margin-bottom:12px;box-shadow:inset 0 -7px 0 rgba(0,0,0,.06),8px 10px 22px rgba(0,0,0,.12)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
@@ -18,58 +28,106 @@ section{margin-top:22px}
 .pill{display:inline-block;padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;color:var(--paper);background:linear-gradient(#222,#000);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 4px 8px rgba(0,0,0,.25)}
 .pill.off{background:linear-gradient(#555,#222)}
 .track{height:12px;border-radius:99px;background:var(--paper);box-shadow:inset 3px 3px 6px rgba(0,0,0,.14),inset -3px -3px 6px #fff;overflow:hidden;margin:8px 0}
-.fill{height:100%;border-radius:99px;background:linear-gradient(90deg,#000,#3a3a3a);box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+.fill{height:100%;border-radius:99px;background:linear-gradient(90deg,#000,#3a3a3a)}
 .tag{display:inline-block;margin:3px 4px 0 0;padding:4px 10px;border-radius:999px;font-size:12px;background:var(--paper);box-shadow:inset 2px 2px 4px rgba(0,0,0,.12),inset -2px -2px 4px #fff}
 .score{font-size:22px;font-weight:700}
 .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
 pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:14px;border-radius:18px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff}
-.btn{display:inline-block;margin-top:8px;padding:12px 18px;border-radius:14px;color:var(--paper);text-decoration:none;font-size:15px;font-weight:600;background:linear-gradient(#262626,#000);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 5px 10px rgba(0,0,0,.25)}
+.btn{display:inline-block;margin-top:8px;padding:12px 18px;border-radius:14px;color:var(--paper);border:0;font-size:15px;font-weight:600;background:linear-gradient(#262626,#000);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 5px 10px rgba(0,0,0,.25);cursor:pointer}
+.field{width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px;font-family:inherit}
+.sub{margin:18px 0 8px;font-size:14px;color:var(--soft);font-weight:600;text-transform:uppercase;letter-spacing:.4px}
 </style></head>
 <body>
-<h1>Job search</h1>
-<div class="row"><span id="badge" class="pill">Loading</span><span id="lastrun" class="muted"></span></div>
-<p><a class="btn" href="apply.html">Apply to a job</a></p>
+<header>
+  <h1>Job search</h1>
+  <nav id="tabs">
+    <button class="tab" data-tab="overview">Overview</button>
+    <button class="tab" data-tab="jobs">Jobs<span class="badge" id="badgeJobs" hidden></span></button>
+    <button class="tab" data-tab="sent">Sent<span class="badge" id="badgeSent" hidden></span></button>
+    <button class="tab" data-tab="replies">Replies<span class="badge" id="badgeReplies" hidden></span></button>
+    <button class="tab" data-tab="outreach">Outreach</button>
+    <button class="tab" data-tab="history">History</button>
+    <button class="tab" data-tab="settings">Settings</button>
+  </nav>
+</header>
+<main>
 
-<section><h2>Overview</h2><div id="stats" class="grid"></div></section>
-
-<section><h2>Location outreach</h2>
-<div class="clay">
-  <p class="muted">Type a town or area. The bot finds organisations there, writes an open application for each, and waits for your approval. Up to 20 emails a day.</p>
-  <input id="locPw" type="password" placeholder="Password" autocomplete="current-password" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:6px">
-  <input id="locName" type="text" placeholder="Town or area, e.g. Ibadan" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
-  <input id="locCats" type="text" placeholder="Kinds of organisation (optional)" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
-  <button class="btn" id="locSearch" type="button">Find organisations</button>
-  <input id="resendUrl" type="url" placeholder="Job link to resend" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:10px">
-  <button class="btn" id="resendBtn" type="button">Resend this application</button>
-  <p class="muted" id="locMsg"></p>
-</div>
-<div id="batches"></div>
+<section class="page" id="page-overview">
+  <div class="row"><span id="badge" class="pill">Loading</span><span id="lastrun" class="muted"></span></div>
+  <h2>Overview</h2>
+  <div id="stats" class="grid"></div>
+  <h2>What happened last run</h2>
+  <div id="report"></div>
+  <h2>Skills to build</h2>
+  <p class="muted">Skills the jobs ask for that your CV doesn't show yet, most common first.</p>
+  <div id="skills"></div>
+  <p class="muted" id="updated" style="margin-top:20px"></p>
 </section>
 
-<section><h2>Form submission</h2>
-<div class="clay">
-  <div class="row"><b id="modeText">Checking...</b><button class="btn" id="modeBtn" type="button" disabled>...</button></div>
-  <p class="muted">Review only: the bot fills Greenhouse forms and sends you a screenshot, and you submit. Automatic: the bot submits them itself.</p>
-  <input id="modePw" type="password" placeholder="Password" autocomplete="current-password" style="width:100%;padding:12px;border:0;border-radius:14px;background:var(--paper);box-shadow:inset 5px 5px 10px rgba(0,0,0,.10),inset -5px -5px 10px #fff;font-size:16px;margin-top:6px">
-  <p class="muted" id="modeMsg"></p>
-</div></section>
+<section class="page" id="page-jobs">
+  <h2>Jobs</h2>
+  <p class="muted" id="jobcount"></p>
+  <div class="sub">New since the last update</div>
+  <div id="jobs-new"></div>
+  <div class="sub">Earlier</div>
+  <div id="jobs-old"></div>
+</section>
 
-<section><h2>Replies</h2>
-<p class="muted">Replies from organisations you've applied to, from the last 30 days. Only sender and subject are read.</p>
-<div id="replies"></div></section>
+<section class="page" id="page-sent">
+  <h2>Sent applications</h2>
+  <div class="sub">Last 7 days</div>
+  <div id="sent-new"></div>
+  <div class="sub">Earlier</div>
+  <div id="sent-old"></div>
+</section>
 
-<section><h2>Skills to build</h2>
-<p class="muted">Skills and tools the jobs ask for that your CV doesn't show yet, most common first.</p>
-<div id="skills"></div></section>
+<section class="page" id="page-replies">
+  <h2>Replies</h2>
+  <p class="muted">Replies from organisations you've applied to, or job-related mail, from the last 30 days. Only sender and subject are read.</p>
+  <div class="sub">Last 7 days</div>
+  <div id="replies-new"></div>
+  <div class="sub">Earlier</div>
+  <div id="replies-old"></div>
+</section>
 
-<section><h2>What happened last run</h2><div id="report"></div>
-<details class="clay" style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">Technical log</summary><pre id="run" style="margin-top:12px">Loading...</pre></details></section>
+<section class="page" id="page-outreach">
+  <h2>Location outreach</h2>
+  <div class="clay">
+    <p class="muted">Type a town or area. The bot finds organisations there, writes an open application for each, and waits for your approval. Up to 20 emails a day.</p>
+    <input id="locPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
+    <input id="locName" class="field" type="text" placeholder="Town or area, e.g. Ibadan">
+    <input id="locCats" class="field" type="text" placeholder="Kinds of organisation (optional)">
+    <button class="btn" id="locSearch" type="button">Find organisations</button>
+    <p class="muted" id="locMsg"></p>
+  </div>
+  <h2>Resend an application</h2>
+  <div class="clay">
+    <input id="resendUrl" class="field" type="url" placeholder="Job link to resend">
+    <button class="btn" id="resendBtn" type="button">Resend this application</button>
+  </div>
+  <h2>Batches</h2>
+  <div id="batches"></div>
+</section>
 
-<section><h2>Sent applications</h2><div id="sent"></div></section>
+<section class="page" id="page-history">
+  <h2>History</h2>
+  <p class="muted">Every job run, newest first.</p>
+  <div id="history"></div>
+</section>
 
-<section><h2>All scored jobs</h2><p class="muted" id="jobcount"></p><div id="jobs"></div></section>
+<section class="page" id="page-settings">
+  <h2>Form submission</h2>
+  <div class="clay">
+    <div class="row"><b id="modeText">Checking...</b><button class="btn" id="modeBtn" type="button" disabled>...</button></div>
+    <p class="muted">Review only: the bot fills Greenhouse forms and sends you a screenshot, and you submit. Automatic: the bot submits them itself.</p>
+    <input id="modePw" class="field" type="password" placeholder="Password" autocomplete="current-password">
+    <p class="muted" id="modeMsg"></p>
+  </div>
+  <h2>Technical log</h2>
+  <details class="clay"><summary style="cursor:pointer;font-weight:600">Show the raw log of the last run</summary><pre id="run" style="margin-top:12px">Loading...</pre></details>
+</section>
 
-<p class="muted" style="margin-top:24px" id="updated"></p>
+</main>
 
 <script>
 function el(tag, cls, text) {
@@ -86,9 +144,29 @@ function link(url, text) {
   a.href = url; a.target = '_blank'; a.rel = 'noopener';
   return a;
 }
+function setBadge(id, n) {
+  const b = document.getElementById(id);
+  b.textContent = n; b.hidden = !n;
+}
 
-function render(feed) {
-  const f = feed || {};
+/* ---------- tabs ---------- */
+const TABS = ['overview', 'jobs', 'sent', 'replies', 'outreach', 'history', 'settings'];
+function showTab(name) {
+  if (!TABS.includes(name)) name = 'overview';
+  TABS.forEach(t => {
+    document.getElementById('page-' + t).classList.toggle('on', t === name);
+    document.querySelector('.tab[data-tab="' + t + '"]').classList.toggle('on', t === name);
+  });
+  window.scrollTo(0, 0);
+}
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
+  location.hash = b.dataset.tab;
+}));
+window.addEventListener('hashchange', () => showTab(location.hash.slice(1)));
+showTab(location.hash.slice(1) || 'overview');
+
+/* ---------- feed ---------- */
+function renderOverview(f, feed) {
   const st = f.stats || {};
   const badge = document.getElementById('badge');
   badge.className = f.paused ? 'pill off' : 'pill';
@@ -103,6 +181,9 @@ function render(feed) {
       const c = card('neu stat'); c.append(el('div', 'muted', label), el('b', null, String(value))); stats.append(c);
     });
 
+  const rep = document.getElementById('report'); rep.replaceChildren();
+  (f.report || ['No run recorded yet.']).forEach(line => { const c = card(); c.append(el('div', null, line)); rep.append(c); });
+
   const skills = document.getElementById('skills'); skills.replaceChildren();
   if (!f.skills || !f.skills.length) skills.append(note('No skill gaps recorded yet. They appear after the job search has scored some jobs.'));
   (f.skills || []).forEach(s => {
@@ -112,73 +193,90 @@ function render(feed) {
     skills.append(c);
   });
 
-  renderBatches(f.batches);
-  renderReplies(f.replies, f.replies_hidden);
-  const rep = document.getElementById('report'); rep.replaceChildren();
-  (f.report || ['No run recorded yet.']).forEach(line => { const c = card(); c.append(el('div', null, line)); rep.append(c); });
   document.getElementById('run').textContent = (f.summary && f.summary.length) ? f.summary.join('\n') : 'No run recorded yet.';
+}
 
-  const sent = document.getElementById('sent'); sent.replaceChildren();
-  if (!f.sent || !f.sent.length) sent.append(note('Nothing sent yet.'));
-  (f.sent || []).forEach(r => {
-    const c = card();
-    const head = el('div', 'row');
-    head.append(el('b', null, r.title), el('span', 'muted', (r.sent_at || '').slice(0, 16).replace('T', ' ') + ' UTC'));
-    c.append(head, el('div', 'muted', [r.company, 'to ' + r.email, 'score ' + r.score].join(' \u00b7 ')));
-    const a = link(r.url); if (a) { c.append(document.createElement('br'), a); }
-    sent.append(c);
-  });
+function jobCard(j) {
+  const c = card();
+  const head = el('div', 'row');
+  head.append(el('span', 'score', String(j.score)), el('span', 'muted', (j.source || '') + ' \u00b7 ' + (j.drafted ? 'draft ready' : 'no draft yet')));
+  const track = el('div', 'track'); const fill = el('div', 'fill'); fill.style.width = Math.max(0, Math.min(100, j.score)) + '%';
+  track.append(fill);
+  c.append(head, track, el('b', null, j.title), el('div', 'muted', [j.company, j.location].filter(Boolean).join(' \u00b7 ')));
+  if (j.reason) c.append(el('div', 'muted', j.reason));
+  c.append(el('div', 'muted', 'Blockers: ' + (j.blockers || 'none')));
+  const tags = el('div');
+  (j.gaps || []).forEach(g => tags.append(el('span', 'tag', g)));
+  if (!(j.gaps || []).length) tags.append(el('span', 'muted', 'No skill gaps listed'));
+  c.append(tags);
+  const a = link(j.url); if (a) { c.append(document.createElement('br'), a); }
+  return c;
+}
 
-  const jobs = document.getElementById('jobs'); jobs.replaceChildren();
-  document.getElementById('jobcount').textContent = (f.jobs ? f.jobs.length : 0) + ' jobs, highest score first.';
-  if (!f.jobs || !f.jobs.length) jobs.append(note('No jobs scored yet.'));
-  (f.jobs || []).forEach(j => {
+function sentCard(r) {
+  const c = card();
+  const head = el('div', 'row');
+  head.append(el('b', null, r.title), el('span', 'muted', (r.sent_at || '').slice(0, 16).replace('T', ' ') + ' UTC'));
+  c.append(head, el('div', 'muted', [r.company, 'to ' + r.email, 'score ' + r.score].join(' \u00b7 ')));
+  const a = link(r.url); if (a) { c.append(document.createElement('br'), a); }
+  return c;
+}
+
+function replyCard(r) {
+  const c = card();
+  const head = el('div', 'row');
+  head.append(el('b', null, r.company || r.from), el('span', 'muted', (r.received || '').slice(0, 16).replace('T', ' ') + ' UTC'));
+  c.append(head, el('div', null, r.subject || '(no subject)'), el('div', 'muted', 'From ' + r.from + ' \u00b7 about ' + (r.application || 'your application')));
+  return c;
+}
+
+function fill(container, items, make, emptyText) {
+  container.replaceChildren();
+  if (!items.length) container.append(note(emptyText));
+  items.forEach(i => container.append(make(i)));
+}
+
+function renderJobs(f) {
+  const jobs = f.jobs || [];
+  document.getElementById('jobcount').textContent = jobs.length + ' jobs, highest score first.';
+  fill(document.getElementById('jobs-new'), jobs.filter(j => j.recent), jobCard, 'No new jobs since the last update.');
+  fill(document.getElementById('jobs-old'), jobs.filter(j => !j.recent), jobCard, 'No earlier jobs.');
+}
+
+function renderSent(f) {
+  const sent = f.sent || [];
+  fill(document.getElementById('sent-new'), sent.filter(r => r.recent), sentCard, 'Nothing sent in the last 7 days.');
+  fill(document.getElementById('sent-old'), sent.filter(r => !r.recent), sentCard, 'Nothing earlier.');
+  setBadge('badgeSent', sent.filter(r => r.recent).length);
+}
+
+function renderReplies(f) {
+  const box = { 'new': document.getElementById('replies-new'), 'old': document.getElementById('replies-old') };
+  box.new.replaceChildren(); box.old.replaceChildren();
+  if (f.replies_hidden) {
+    box.new.append(note('Replies are hidden until this dashboard is protected with a login.'));
+    setBadge('badgeReplies', 0);
+    return;
+  }
+  const list = f.replies || [];
+  fill(box.new, list.filter(r => r.recent), replyCard, 'No replies in the last 7 days.');
+  fill(box.old, list.filter(r => !r.recent), replyCard, 'No earlier replies.');
+  setBadge('badgeReplies', list.filter(r => r.recent).length);
+}
+
+function renderHistory(f) {
+  const box = document.getElementById('history'); box.replaceChildren();
+  const runs = f.history || [];
+  if (!runs.length) { box.append(note('No runs recorded yet.')); return; }
+  runs.forEach(run => {
     const c = card();
-    const head = el('div', 'row');
-    head.append(el('span', 'score', String(j.score)), el('span', 'muted', (j.source || '') + ' \u00b7 ' + (j.drafted ? 'draft ready' : 'no draft yet')));
-    const track = el('div', 'track'); const fill = el('div', 'fill'); fill.style.width = Math.max(0, Math.min(100, j.score)) + '%';
-    track.append(fill);
-    c.append(head, track, el('b', null, j.title), el('div', 'muted', [j.company, j.location].filter(Boolean).join(' \u00b7 ')));
-    if (j.reason) c.append(el('div', 'muted', j.reason));
-    c.append(el('div', 'muted', 'Blockers: ' + (j.blockers || 'none')));
-    const tags = el('div');
-    (j.gaps || []).forEach(g => tags.append(el('span', 'tag', g)));
-    if (!(j.gaps || []).length) tags.append(el('span', 'muted', 'No skill gaps listed'));
-    c.append(tags);
-    const a = link(j.url); if (a) { c.append(document.createElement('br'), a); }
-    jobs.append(c);
+    c.append(el('b', null, 'Run at ' + run.last_run + ' UTC'));
+    (run.report || []).forEach(line => c.append(el('div', 'muted', line)));
+    box.append(c);
   });
 }
 
-function setMode(auto) {
-  document.getElementById('modeText').textContent = auto ? 'Automatic submission is ON' : 'Review only: nothing is submitted for you';
-  const b = document.getElementById('modeBtn');
-  b.textContent = auto ? 'Switch to review only' : 'Turn on automatic submission';
-  b.dataset.auto = auto ? 'false' : 'true';
-  b.disabled = false;
-}
-function modeMessage(text) { document.getElementById('modeMsg').textContent = text; }
-fetch('/api/mode', { cache: 'no-store' })
-  .then(r => r.json())
-  .then(d => d.error ? (document.getElementById('modeText').textContent = 'Could not read the setting', modeMessage(d.error)) : setMode(d.auto))
-  .catch(() => { document.getElementById('modeText').textContent = 'Could not read the setting'; modeMessage('Could not reach the switch. Check APPLY_PASSWORD and GITHUB_TOKEN are set on this site.'); });
-document.getElementById('modeBtn').addEventListener('click', async () => {
-  const want = document.getElementById('modeBtn').dataset.auto === 'true';
-  const pw = document.getElementById('modePw').value;
-  if (!pw) { modeMessage('Enter the password first.'); return; }
-  if (want && !confirm('Turn on automatic submission? The bot will submit Greenhouse applications itself, without asking you first.')) return;
-  modeMessage('Saving...');
-  try {
-    const res = await fetch('/api/mode', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ password: pw, auto: want }),
-    });
-    const d = await res.json().catch(() => ({}));
-    if (res.ok) { setMode(d.auto); modeMessage('Saved.'); document.getElementById('modePw').value = ''; }
-    else modeMessage(d.error || 'Something went wrong.');
-  } catch (err) { modeMessage('Could not reach the site: ' + err.message); }
-});
-
+/* ---------- outreach ---------- */
 function locMessage(text) { document.getElementById('locMsg').textContent = text; }
 async function outreachPost(body) {
   const res = await fetch('/api/outreach', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
@@ -237,22 +335,46 @@ function renderBatches(list) {
   });
 }
 
-function renderReplies(list, hidden) {
-  const box = document.getElementById('replies'); box.replaceChildren();
-  if (hidden) { box.append(note('Replies are hidden until this dashboard is protected with a login.')); return; }
-  if (!list || !list.length) { box.append(note('No replies yet.')); return; }
-  list.forEach(r => {
-    const c = card();
-    const head = el('div', 'row');
-    head.append(el('b', null, r.company || r.from), el('span', 'muted', (r.received || '').slice(0, 16).replace('T', ' ') + ' UTC'));
-    c.append(head, el('div', null, r.subject || '(no subject)'), el('div', 'muted', 'From ' + r.from + ' \u00b7 about ' + (r.application || 'your application')));
-    box.append(c);
-  });
+/* ---------- form submission switch ---------- */
+function setMode(auto) {
+  document.getElementById('modeText').textContent = auto ? 'Automatic submission is ON' : 'Review only: nothing is submitted for you';
+  const b = document.getElementById('modeBtn');
+  b.textContent = auto ? 'Switch to review only' : 'Turn on automatic submission';
+  b.dataset.auto = auto ? 'false' : 'true';
+  b.disabled = false;
 }
+function modeMessage(text) { document.getElementById('modeMsg').textContent = text; }
+fetch('/api/mode', { cache: 'no-store' })
+  .then(r => r.json())
+  .then(d => d.error ? (document.getElementById('modeText').textContent = 'Could not read the setting', modeMessage(d.error)) : setMode(d.auto))
+  .catch(() => { document.getElementById('modeText').textContent = 'Could not read the setting'; modeMessage('Could not reach the switch. Check APPLY_PASSWORD and GITHUB_TOKEN are set on this site.'); });
+document.getElementById('modeBtn').addEventListener('click', async () => {
+  const want = document.getElementById('modeBtn').dataset.auto === 'true';
+  const pw = document.getElementById('modePw').value;
+  if (!pw) { modeMessage('Enter the password first.'); return; }
+  if (want && !confirm('Turn on automatic submission? The bot will submit Greenhouse applications itself, without asking you first.')) return;
+  modeMessage('Saving...');
+  try {
+    const res = await fetch('/api/mode', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: pw, auto: want }) });
+    const d = await res.json().catch(() => ({}));
+    if (res.ok) { setMode(d.auto); modeMessage('Saved.'); document.getElementById('modePw').value = ''; }
+    else modeMessage(d.error || 'Something went wrong.');
+  } catch (err) { modeMessage('Could not reach the site: ' + err.message); }
+});
 
+/* ---------- load the feed ---------- */
 fetch('data/feed.json', { cache: 'no-store' })
   .then(r => r.ok ? r.json() : null)
   .catch(() => null)
-  .then(render);
+  .then(feed => {
+    const f = feed || {};
+    renderOverview(f, feed);
+    renderJobs(f);
+    renderSent(f);
+    renderReplies(f);
+    renderHistory(f);
+    renderBatches(f.batches);
+    setBadge('badgeJobs', (f.jobs || []).filter(j => j.recent).length);
+  });
 </script>
 </body></html>
