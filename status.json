@@ -1,8 +1,8 @@
 {
- "last_run": "2026-11-22T18:45+00:00",
+ "last_run": "2026-11-22T23:28+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 8 passed filter",
+  "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
   "- jobicy: 47 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 52 passed filter",
@@ -16,7 +16,13 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 9 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 0 new jobs sent to scoring"
+  "- 10 new jobs sent to scoring",
+  "- Top scores (threshold is 55):",
+  "  - 60: Financial Analyst at Cogstate. Blockers: none",
+  "  - 25: Implementation Manager, Broker at Rippling. Blockers: 2+ years of hands-on experience in Implementation and/or Customer Experience at a rapidly growing SaaS company",
+  "  - 15: Junior Data Scientist - Contract at Mfinite Consulting. Blockers: Legally authorized to work in the U.S.; 100% remote with all work performed in the U.S.",
+  "  - 10: Senior Product Marketing Manager at Attentive. Blockers: Senior role level; requires specific marketing expertise and experience missing from the profile.",
+  "  - 10: Senior Business Analyst at ADDENDUM. Blockers: Senior level role requiring extensive business analysis experience, metadata standards (DCAT-AP), semantic technologies (OWL, RDF/XML), and mandatory Lithuanian language skills."
  ],
  "report": {
   "sources": [
@@ -30,7 +36,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 8
+    "passed": 9
    },
    {
     "name": "workingnomads",
@@ -81,13 +87,18 @@
     "passed": 0
    }
   ],
-  "new_to_score": 0,
-  "scored": 0,
+  "new_to_score": 10,
+  "scored": 10,
   "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
+ },
+ "drafts": {
+  "written": 1,
+  "failed": 0,
+  "waiting": 0
  },
  "emails": {
   "sent": 0,

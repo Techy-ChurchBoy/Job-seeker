@@ -132,5 +132,41 @@
    "- 22 jobs older than 30 days skipped",
    "- 0 new jobs sent to scoring"
   ]
+ },
+ {
+  "last_run": "2026-11-22T23:28+00:00",
+  "report": [
+   "Last run: 2026-11-22T23:28+00:00 UTC.",
+   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 172 matched your skills.",
+   "10 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 18 postings currently qualify for an email (score 40 or more, no blockers)."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 9 passed filter",
+   "- workingnomads: 35 fetched, 10 passed filter",
+   "- jobicy: 47 fetched, 40 passed filter",
+   "- remoteok: 100 fetched, 52 passed filter",
+   "- greenhouse: 67 fetched, 38 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartyacad: 45 fetched, 21 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 67 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 9 linked pages",
+   "- 22 jobs older than 30 days skipped",
+   "- 10 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 60: Financial Analyst at Cogstate. Blockers: none",
+   "  - 25: Implementation Manager, Broker at Rippling. Blockers: 2+ years of hands-on experience in Implementation and/or Customer Experience at a rapidly growing SaaS company",
+   "  - 15: Junior Data Scientist - Contract at Mfinite Consulting. Blockers: Legally authorized to work in the U.S.; 100% remote with all work performed in the U.S.",
+   "  - 10: Senior Product Marketing Manager at Attentive. Blockers: Senior role level; requires specific marketing expertise and experience missing from the profile.",
+   "  - 10: Senior Business Analyst at ADDENDUM. Blockers: Senior level role requiring extensive business analysis experience, metadata standards (DCAT-AP), semantic technologies (OWL, RDF/XML), and mandatory Lithuanian language skills."
+  ]
  }
 ]

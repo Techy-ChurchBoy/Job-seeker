@@ -1,21 +1,22 @@
 {
- "generated": "2026-11-22 18:47 UTC",
+ "generated": "2026-11-22 23:30 UTC",
  "report": [
-  "Last run: 2026-11-22T18:45+00:00 UTC.",
-  "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 171 matched your skills.",
-  "0 postings were scored against your CV this run.",
+  "Last run: 2026-11-22T23:28+00:00 UTC.",
+  "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 172 matched your skills.",
+  "10 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+  "1 cover letters were written.",
   "No application emails were sent this run.",
-  "Overall, 17 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 18 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
  "batches": [],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-22T18:45+00:00",
+ "last_run": "2026-11-22T23:28+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 8 passed filter",
+  "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
   "- jobicy: 47 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 52 passed filter",
@@ -29,12 +30,18 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 9 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 0 new jobs sent to scoring"
+  "- 10 new jobs sent to scoring",
+  "- Top scores (threshold is 55):",
+  "  - 60: Financial Analyst at Cogstate. Blockers: none",
+  "  - 25: Implementation Manager, Broker at Rippling. Blockers: 2+ years of hands-on experience in Implementation and/or Customer Experience at a rapidly growing SaaS company",
+  "  - 15: Junior Data Scientist - Contract at Mfinite Consulting. Blockers: Legally authorized to work in the U.S.; 100% remote with all work performed in the U.S.",
+  "  - 10: Senior Product Marketing Manager at Attentive. Blockers: Senior role level; requires specific marketing expertise and experience missing from the profile.",
+  "  - 10: Senior Business Analyst at ADDENDUM. Blockers: Senior level role requiring extensive business analysis experience, metadata standards (DCAT-AP), semantic technologies (OWL, RDF/XML), and mandatory Lithuanian language skills."
  ],
  "stats": {
-  "jobs_scored": 156,
-  "strong": 20,
-  "drafts": 26,
+  "jobs_scored": 166,
+  "strong": 21,
+  "drafts": 27,
   "sent_today": 1,
   "sent_total": 2
  },
@@ -55,6 +62,15 @@
     "Test Data Quality Engineer at PLATO",
     "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems",
     "Sr Analyst, Analytics & Insights at BeyondTrust"
+   ]
+  },
+  {
+   "skill": "Salesforce",
+   "count": 4,
+   "examples": [
+    "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
+    "Junior Data Scientist - Contract at Mfinite Consulting",
+    "Deal Desk Analyst (Eastern Time Zone Preferred) at Mixpanel"
    ]
   },
   {
@@ -121,21 +137,21 @@
    ]
   },
   {
+   "skill": "Client Relationship Management",
+   "count": 3,
+   "examples": [
+    "Offline Customer Support Officer (Ore, Ondo State) at Moniepoint",
+    "Offline Customer Support Officer (Katsina) at Moniepoint",
+    "Entry Level Remote Life Insurance Sales at The Semler Agency"
+   ]
+  },
+  {
    "skill": "Databricks",
    "count": 3,
    "examples": [
     "Test Data Quality Engineer at PLATO",
     "Sr Analyst, Analytics & Insights at BeyondTrust",
     "Senior Data Engineer at Lemon.io"
-   ]
-  },
-  {
-   "skill": "Salesforce",
-   "count": 3,
-   "examples": [
-    "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
-    "Deal Desk Analyst (Eastern Time Zone Preferred) at Mixpanel",
-    "Principal Enterprise Architect, EDT - Joint Replacement, Trauma & Extremeties at Stryker"
    ]
   },
   {
@@ -163,15 +179,6 @@
     "Assistant Manager, Fund Administration (Accounting) at Juniper Square",
     "FP&A Manager at Precision Medicine Group",
     "Senior Manager, Financial Reporting at ÅURA"
-   ]
-  },
-  {
-   "skill": "Dbt",
-   "count": 3,
-   "examples": [
-    "Sr Analyst, Analytics & Insights at BeyondTrust",
-    "Senior Data Engineer at Lemon.io",
-    "Senior Data Engineer (Python) at Proxify"
    ]
   }
  ],
@@ -374,6 +381,23 @@
    "url": "https://jobs.smartyacad.com/talent-platform-operations-associate-at-ethicpath/",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 60,
+   "title": "Financial Analyst",
+   "company": "Cogstate",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate has strong general financial analysis and reporting skills that align with the core responsibilities of this role, but lacks direct experience with Oracle NetSuite and complex clinical trial pricing.",
+   "blockers": "",
+   "gaps": [
+    "Oracle NetSuite",
+    "clinical trial pricing",
+    "RFP pricing management"
+   ],
+   "url": "https://jobicy.com/jobs/163856-financial-analyst-6",
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 55,
@@ -746,6 +770,23 @@
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5014869101",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Implementation Manager, Broker",
+   "company": "Rippling",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires 2+ years of hands-on implementation or customer experience at a SaaS company, which the candidate lacks.",
+   "blockers": "2+ years of hands-on experience in Implementation and/or Customer Experience at a rapidly growing SaaS company",
+   "gaps": [
+    "SaaS implementation experience",
+    "client onboarding and relationship management",
+    "enterprise software deployment"
+   ],
+   "url": "https://himalayas.app/companies/rippling/jobs/implementation-manager-broker-3776555956?utm_source=api",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 20,
@@ -1342,6 +1383,26 @@
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4780532101",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Junior Data Scientist - Contract",
+   "company": "Mfinite Consulting",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires legal authorization to work in the U.S. and residency there, which the candidate lacks.",
+   "blockers": "Legally authorized to work in the U.S.; 100% remote with all work performed in the U.S.",
+   "gaps": [
+    "3+ years cleaning data",
+    "3+ years supporting recurring reporting tasks",
+    "2+ years developing dashboards",
+    "Basic SQL",
+    "Salesforce",
+    "Smartsheet"
+   ],
+   "url": "https://himalayas.app/companies/mfinite-consulting/jobs/junior-data-scientist-contract?utm_source=api",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 10,
@@ -2031,6 +2092,121 @@
    "recent": false
   },
   {
+   "score": 10,
+   "title": "Senior Business Analyst",
+   "company": "ADDENDUM",
+   "location": "Lithuania",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required senior experience, metadata governance expertise, semantic technologies knowledge, and Lithuanian language skills for this senior role.",
+   "blockers": "Senior level role requiring extensive business analysis experience, metadata standards (DCAT-AP), semantic technologies (OWL, RDF/XML), and mandatory Lithuanian language skills.",
+   "gaps": [
+    "metadata governance",
+    "DCAT-AP",
+    "OWL",
+    "RDF/XML",
+    "Essential architecture tool",
+    "Jira",
+    "Lithuanian language"
+   ],
+   "url": "https://himalayas.app/companies/addendum/jobs/senior-business-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Client Implementation Consultant",
+   "company": "BrightSpring Health Services",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role is for a US-based Client Implementation Consultant requiring independent management of healthcare facility transitions, which does not align with the candidate's finance, accounting, and remote Nigeria profile.",
+   "blockers": "Candidate is located in Nigeria while the role is based in the United States without indication of international remote eligibility for non-US residents.",
+   "gaps": [
+    "healthcare industry experience",
+    "customer implementation management",
+    "pharmacy operations"
+   ],
+   "url": "https://himalayas.app/companies/brightspring-health-services/jobs/client-implementation-consultant?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Market Associate - Hotel Onboarding",
+   "company": "Maleda Tech",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate fails the geographical residency requirement to be based in the United States and lacks the required 3+ years of partner onboarding or account management experience.",
+   "blockers": "Based in the Mid-Atlantic or Northeast (United States residency required); 3+ years of experience in account management, partner support or partner onboarding.",
+   "gaps": [
+    "account management",
+    "partner support",
+    "partner onboarding",
+    "hospitality industry experience",
+    "hotel connectivity"
+   ],
+   "url": "https://himalayas.app/companies/maleda-tech/jobs/market-associate-hotel-onboarding?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Junior Full Stack Engineer (LATAM)",
+   "company": "LoanBud",
+   "location": "Argentina, Costa Rica, Honduras, Uruguay",
+   "source": "Himalayas",
+   "reason": "The job requires full-stack software engineering in Java and Spring Boot, which does not match the candidate's finance, accounting, and operations background.",
+   "blockers": "The job requires software engineering skills (Java, Spring Boot, TypeScript, PostgreSQL) and is restricted to candidates in Latin America, neither of which the candidate meets.",
+   "gaps": [
+    "Java",
+    "Spring Boot",
+    "TypeScript",
+    "PostgreSQL",
+    "software engineering",
+    "full stack development"
+   ],
+   "url": "https://himalayas.app/companies/loanbud/jobs/junior-full-stack-engineer-latam?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Product Marketing Manager",
+   "company": "Attentive",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level marketing role requiring specific digital marketing and copywriting experience, which completely misaligns with the candidate's finance, accounting, and entry-level profile.",
+   "blockers": "Senior role level; requires specific marketing expertise and experience missing from the profile.",
+   "gaps": [
+    "SEO",
+    "SEM",
+    "digital marketing platforms",
+    "email marketing",
+    "copywriting",
+    "campaign management"
+   ],
+   "url": "https://himalayas.app/companies/attentivemobile/jobs/senior-product-marketing-manager?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Regional Director, Enterprise Imaging Systems",
+   "company": "Fujifilm",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior sales leadership role requiring extensive medical technology sales experience in the United States, completely misaligned with the candidate's entry-level accounting profile in Nigeria.",
+   "blockers": "Senior leadership role; location in the United States; requires extensive enterprise healthcare IT sales experience.",
+   "gaps": [
+    "enterprise imaging sales",
+    "healthcare IT sales management",
+    "medical device regulatory compliance",
+    "FDA regulations"
+   ],
+   "url": "https://himalayas.app/companies/fujifilm/jobs/regional-director-enterprise-imaging-systems?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 5,
    "title": "Senior Data Scientist",
    "company": "Bright Vision Technologies",
@@ -2551,6 +2727,23 @@
    "recent": false
   },
   {
+   "score": 5,
+   "title": "Entry Level Remote Life Insurance Sales",
+   "company": "The Semler Agency",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role is purely commission-based life insurance sales, which does not utilize the candidate's finance, accounting, or analytical skill set.",
+   "blockers": "None",
+   "gaps": [
+    "insurance sales",
+    "client relationship management",
+    "life insurance licensing"
+   ],
+   "url": "https://himalayas.app/companies/the-semler-agency/jobs/entry-level-remote-life-insurance-sales?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 0,
    "title": "Project Manager - Advanced Manufacturing",
    "company": "CACI International Inc",
@@ -2943,6 +3136,42 @@
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-22T23:28+00:00",
+   "report": [
+    "Last run: 2026-11-22T23:28+00:00 UTC.",
+    "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 172 matched your skills.",
+    "10 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 18 postings currently qualify for an email (score 40 or more, no blockers)."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 9 passed filter",
+    "- workingnomads: 35 fetched, 10 passed filter",
+    "- jobicy: 47 fetched, 40 passed filter",
+    "- remoteok: 100 fetched, 52 passed filter",
+    "- greenhouse: 67 fetched, 38 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 21 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 9 linked pages",
+    "- 22 jobs older than 30 days skipped",
+    "- 10 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 60: Financial Analyst at Cogstate. Blockers: none",
+    "  - 25: Implementation Manager, Broker at Rippling. Blockers: 2+ years of hands-on experience in Implementation and/or Customer Experience at a rapidly growing SaaS company",
+    "  - 15: Junior Data Scientist - Contract at Mfinite Consulting. Blockers: Legally authorized to work in the U.S.; 100% remote with all work performed in the U.S.",
+    "  - 10: Senior Product Marketing Manager at Attentive. Blockers: Senior role level; requires specific marketing expertise and experience missing from the profile.",
+    "  - 10: Senior Business Analyst at ADDENDUM. Blockers: Senior level role requiring extensive business analysis experience, metadata standards (DCAT-AP), semantic technologies (OWL, RDF/XML), and mandatory Lithuanian language skills."
+   ]
+  },
   {
    "last_run": "2026-11-22T18:45+00:00",
    "report": [
