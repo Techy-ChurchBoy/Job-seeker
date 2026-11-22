@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 13:31 UTC",
+ "generated": "2026-11-22 13:32 UTC",
  "report": [
   "Last run: 2026-11-22T06:46+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
@@ -7,7 +7,7 @@
   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
   "No application emails were sent this run.",
-  "Overall, 3 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 4 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
  "batches": [],
  "replies": [],
@@ -34,9 +34,9 @@
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
-  "jobs_scored": 30,
-  "strong": 4,
-  "drafts": 7,
+  "jobs_scored": 31,
+  "strong": 5,
+  "drafts": 8,
   "sent_today": 1,
   "sent_total": 2
  },
@@ -88,6 +88,27 @@
    ]
   },
   {
+   "skill": "Ui/Ux Design",
+   "count": 1,
+   "examples": [
+    "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub at jobs.smartyacad.com"
+   ]
+  },
+  {
+   "skill": "Legal Analysis",
+   "count": 1,
+   "examples": [
+    "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub at jobs.smartyacad.com"
+   ]
+  },
+  {
+   "skill": "Data Privacy Analysis",
+   "count": 1,
+   "examples": [
+    "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub at jobs.smartyacad.com"
+   ]
+  },
+  {
    "skill": "E-Commerce Bookkeeping",
    "count": 1,
    "examples": [
@@ -127,27 +148,6 @@
    "count": 1,
    "examples": [
     "Associate Salesforce Admin at i4DM"
-   ]
-  },
-  {
-   "skill": "Agile Project Methodology",
-   "count": 1,
-   "examples": [
-    "Associate Salesforce Admin at i4DM"
-   ]
-  },
-  {
-   "skill": "Inventory Management Experience",
-   "count": 1,
-   "examples": [
-    "Senior Inventory Analyst -  Remote at Stryker"
-   ]
-  },
-  {
-   "skill": "Networking Fundamentals (Tcp/Ip, Dhcp, Vpn)",
-   "count": 1,
-   "examples": [
-    "Implementation Specialist at Ooma"
    ]
   }
  ],
@@ -211,6 +211,23 @@
     "banking or hospitality experience"
    ],
    "url": "https://jobs.smartyacad.com/yolat-is-hiring-remote-customer-support-representatives/",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "The job is an internship program in fields like product design, legal, and data privacy, which only partially aligns with the candidate's core finance and accounting profile despite accepting junior/internship applicants.",
+   "blockers": "",
+   "gaps": [
+    "UI/UX design",
+    "legal analysis",
+    "data privacy analysis"
+   ],
+   "url": "https://jobs.smartyacad.com/youverify-internship-to-hire-programme-2026/",
    "drafted": true,
    "recent": true
   },
