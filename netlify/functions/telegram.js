@@ -180,7 +180,7 @@ exports.handler = async (event) => {
   if (!res.ok) {
     await reply(chatId, `GitHub returned ${res.status}. Check the GITHUB_TOKEN permissions in Netlify.`);
   } else {
-    await reply(chatId, `Started applying to ${job.url}. I'll message you when it's done.`);
+    await reply(chatId, `Received: ${job.url}. I'll send the real result when it's done.`);
   }
   return ok;
 };

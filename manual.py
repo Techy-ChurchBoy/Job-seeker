@@ -21,6 +21,12 @@ PASTED = os.getenv("JOB_DESCRIPTION", "").strip()
 MATCH_FIELDS = ["score", "title", "company", "location", "source", "url", "reason", "blockers", "description", "skill_gaps"]
 
 
+def write_result(status, reason):
+    """Records what actually happened, so Telegram reports the truth: sent, drafted or failed."""
+    json.dump({"status": status, "reason": reason, "url": JOB_URL},
+              open("manual_result.json", "w", encoding="utf-8"), ensure_ascii=False)
+
+
 def fetch_posting(url):
     r = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (jobbot)"}, timeout=30)
     r.raise_for_status()
@@ -85,9 +91,11 @@ def main():
         except Exception as e:
             print(f"Could not fetch the posting: {e}")
             print("Re-run with the job description pasted into the description field.")
+            write_result("failed", f"Could not read the posting ({str(e)[:120]}). Paste the description instead.")
             return
         if len(text) < 300:
             print("The page returned very little text (it may need JavaScript). Re-run with the description pasted.")
+            write_result("failed", "The page showed almost no text (it may need JavaScript). Paste the description instead.")
             return
 
     company = JOB_COMPANY or urlparse(JOB_URL).hostname.replace("www.", "")
@@ -115,12 +123,16 @@ def main():
     applied = sa.load_applied()
     if not to:
         lines.append("- No contact email found. Apply through the posting's link using the draft.")
+        write_result("drafted", "Not sent: no contact email in the posting. A draft was saved; apply through the link.")
     elif os.path.exists("PAUSE"):
         lines.append("- PAUSE file found, so nothing was sent.")
+        write_result("failed", "Not sent: the PAUSE file is on.")
     elif not all(os.getenv(k, "").strip() for k in ("GMAIL_ADDRESS", "GMAIL_APP_PASSWORD", "CANDIDATE_NAME", "CANDIDATE_PHONE")):
         lines.append("- Gmail or candidate secrets are missing, so nothing was sent.")
+        write_result("failed", "Not sent: Gmail or candidate secrets are missing on GitHub.")
     elif job["url"] in {r["url"] for r in applied}:
         lines.append("- Already applied to this posting, so nothing was sent.")
+        write_result("failed", "Not sent: this posting was already applied to.")
     else:
         send(job, letter_out.get("cover_letter", ""), to)
         applied.append({"sent_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -128,6 +140,7 @@ def main():
                         "email": to, "url": job["url"]})
         sa.save_applied(applied)
         lines.append(f"- Emailed {to}")
+        write_result("sent", f"Email sent to {to}.")
 
     print("\n".join(lines))
     if os.getenv("GITHUB_STEP_SUMMARY"):
