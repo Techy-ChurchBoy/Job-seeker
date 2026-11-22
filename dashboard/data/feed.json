@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 07:51 UTC",
+ "generated": "2026-11-22 13:29 UTC",
  "report": [
   "Last run: 2026-11-22T06:46+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
@@ -34,7 +34,7 @@
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
-  "jobs_scored": 27,
+  "jobs_scored": 28,
   "strong": 3,
   "drafts": 5,
   "sent_today": 1,
@@ -183,7 +183,7 @@
    "gaps": [],
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -196,7 +196,7 @@
    "gaps": [],
    "url": "https://m/1",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 40,
@@ -214,7 +214,7 @@
    ],
    "url": "https://himalayas.app/companies/triquetra-health/jobs/bookkeeper?utm_source=api",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 35,
@@ -231,7 +231,7 @@
    ],
    "url": "https://himalayas.app/companies/i4dm/jobs/associate-salesforce-admin?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -247,7 +247,7 @@
    ],
    "url": "https://himalayas.app/companies/stryker/jobs/senior-inventory-analyst-remote?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -264,7 +264,7 @@
    ],
    "url": "https://himalayas.app/companies/ooma/jobs/implementation-specialist?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -282,7 +282,7 @@
    ],
    "url": "https://himalayas.app/companies/ferrellgas/jobs/systems-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -299,7 +299,7 @@
    ],
    "url": "https://himalayas.app/companies/emc-insurance/jobs/underwriting-associate-specialty?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -317,7 +317,7 @@
    ],
    "url": "https://himalayas.app/companies/hire-virtue/jobs/payroll-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -334,7 +334,7 @@
    ],
    "url": "https://himalayas.app/companies/juno-legal/jobs/conveyancing-assistant?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -355,7 +355,7 @@
    ],
    "url": "https://himalayas.app/companies/platotech/jobs/test-data-quality-engineer?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -373,7 +373,7 @@
    ],
    "url": "https://himalayas.app/companies/kyivstar/jobs/product-designer-ai-products-platforms?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -389,7 +389,7 @@
    ],
    "url": "https://himalayas.app/companies/veeva-systems/jobs/data-analyst-opendata-commercial-asia-pacific?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -407,7 +407,7 @@
    ],
    "url": "https://himalayas.app/companies/trax-technologies/jobs/product-manager-transformation?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -427,7 +427,7 @@
    ],
    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/senior-data-scientist-8127940440?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -446,7 +446,7 @@
    ],
    "url": "https://himalayas.app/companies/fluency-inc-a92b5614-7a5c-4a66-8e47-cfdd3f504a59/jobs/staff-product-manager-social-advertising?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -465,7 +465,7 @@
    ],
    "url": "https://himalayas.app/companies/resideo/jobs/sr-director-global-controller?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -482,7 +482,7 @@
    ],
    "url": "https://himalayas.app/companies/alignment-health/jobs/principal-project-manager?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -500,7 +500,7 @@
    ],
    "url": "https://himalayas.app/companies/emcd/jobs/product-manager-mining-products?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -518,7 +518,7 @@
    ],
    "url": "https://himalayas.app/companies/caci-international-inc/jobs/project-manager-advanced-manufacturing?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -537,7 +537,7 @@
    ],
    "url": "https://himalayas.app/companies/loadsmart/jobs/enterprise-sales-executive?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -553,7 +553,7 @@
    ],
    "url": "https://himalayas.app/companies/languageline-solutions/jobs/chin-tedim-interpreter?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -570,7 +570,7 @@
    ],
    "url": "https://himalayas.app/companies/hb-travels/jobs/trip-coordinator-6507046759?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -587,7 +587,7 @@
    ],
    "url": "https://himalayas.app/companies/cayuse-holdings/jobs/asl-interpreter-9790640919?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -607,7 +607,7 @@
    ],
    "url": "https://himalayas.app/companies/snappy-kraken/jobs/junior-web-designer?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -624,7 +624,7 @@
    ],
    "url": "https://himalayas.app/companies/bnsf-railway/jobs/product-platform-enterprise-full-stack-software-engineer-i-ii-remote-us?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -643,7 +643,20 @@
    ],
    "url": "https://himalayas.app/companies/centrilogic/jobs/senior-sql-server-database-administrator-advisory-services?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Access Bank Entry Level Training Programme 2026 - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "The role is an entry-level bank training programme matching the candidate's graduate status, degree, and career interests.",
+   "blockers": "Possible scam: lookalike domain",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
+   "drafted": true,
+   "recent": false
   }
  ],
  "history": [
