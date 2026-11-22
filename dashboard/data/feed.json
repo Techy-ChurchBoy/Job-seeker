@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 13:30 UTC",
+ "generated": "2026-11-22 13:31 UTC",
  "report": [
   "Last run: 2026-11-22T06:46+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
@@ -7,7 +7,7 @@
   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
   "No application emails were sent this run.",
-  "Overall, 2 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 3 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
  "batches": [],
  "replies": [],
@@ -34,9 +34,9 @@
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
-  "jobs_scored": 29,
-  "strong": 3,
-  "drafts": 6,
+  "jobs_scored": 30,
+  "strong": 4,
+  "drafts": 7,
   "sent_today": 1,
   "sent_total": 2
  },
@@ -71,6 +71,20 @@
    "examples": [
     "Product Manager, Transformation at Trax Technologies",
     "Staff Product Manager, Social Advertising at Fluency, Inc."
+   ]
+  },
+  {
+   "skill": "Customer Support Experience",
+   "count": 1,
+   "examples": [
+    "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub at jobs.smartyacad.com"
+   ]
+  },
+  {
+   "skill": "Banking Or Hospitality Experience",
+   "count": 1,
+   "examples": [
+    "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub at jobs.smartyacad.com"
    ]
   },
   {
@@ -135,20 +149,6 @@
    "examples": [
     "Implementation Specialist at Ooma"
    ]
-  },
-  {
-   "skill": "Saas Implementation",
-   "count": 1,
-   "examples": [
-    "Implementation Specialist at Ooma"
-   ]
-  },
-  {
-   "skill": "Low-Voltage Wiring",
-   "count": 1,
-   "examples": [
-    "Implementation Specialist at Ooma"
-   ]
   }
  ],
  "sent": [
@@ -197,6 +197,22 @@
    "url": "https://m/1",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "This is a junior fintech customer support role that aligns with the candidate's interest in fintech, but it heavily emphasizes customer service rather than accounting, finance, or process operations.",
+   "blockers": "",
+   "gaps": [
+    "customer support experience",
+    "banking or hospitality experience"
+   ],
+   "url": "https://jobs.smartyacad.com/yolat-is-hiring-remote-customer-support-representatives/",
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 40,
@@ -669,7 +685,7 @@
    "gaps": [],
    "url": "https://jobs.smartyacad.com/firstcap-limited-graduate-trainee-program-2026-2027/",
    "drafted": true,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
