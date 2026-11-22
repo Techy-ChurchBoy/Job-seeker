@@ -305,7 +305,8 @@ Location: {location}
 Description: {description}
 
 Return ONLY JSON: {{"score": 0-100, "reason": "one sentence", "blockers": "hard requirements the candidate lacks, e.g. ACA/ACCA required, 5+ years experience, or empty", "skill_gaps": "skills or tools this job asks for that the candidate lacks, as short phrases separated by semicolons, or empty"}}.
-Score low if a hard professional qualification (ACA, ACCA, CPA, ICAN) or 5+ years experience is required and missing. Also check any minimum degree classification (for example Merit, First Class or Second Class Upper) against the candidate's degree in the profile. If the posting requires a higher class than the candidate has, list it as a blocker."""
+Check hard eligibility before scoring. If the candidate fails any of these, score 0-20 and list the failure in blockers: an age limit the candidate is over (use the date of birth in the profile); a degree class higher than the candidate has; a required degree type the candidate does not hold (for example OND, HND, or a named discipline); a requirement to be a current employee of the organisation; a mandatory prior experience in a named industry or role that the profile does not show; a professional qualification (ACA, ACCA, CPA, ICAN) or 5+ years experience that is required and missing; or a requirement to be resident in a country the candidate is not in.
+Score low if the job's core work does not use the candidate's skills (for example customer support, sales, or design roles with no finance component). Also check any minimum degree classification (for example Merit, First Class or Second Class Upper) against the candidate's degree in the profile. If the posting requires a higher class than the candidate has, list it as a blocker."""
 
 
 def pick_model():
