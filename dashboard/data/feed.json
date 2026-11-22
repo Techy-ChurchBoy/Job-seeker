@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 13:32 UTC",
+ "generated": "2026-11-22 13:34 UTC",
  "report": [
   "Last run: 2026-11-22T06:46+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
@@ -34,9 +34,9 @@
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
-  "jobs_scored": 31,
+  "jobs_scored": 32,
   "strong": 5,
-  "drafts": 8,
+  "drafts": 9,
   "sent_today": 1,
   "sent_total": 2
  },
@@ -229,7 +229,7 @@
    ],
    "url": "https://jobs.smartyacad.com/youverify-internship-to-hire-programme-2026/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 40,
@@ -703,6 +703,19 @@
    "url": "https://jobs.smartyacad.com/firstcap-limited-graduate-trainee-program-2026-2027/",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 0,
+   "title": "PremiumTrust Bank Graduate Trainee Programme 2027 - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "The candidate's Second Class Lower degree does not meet the job's minimum requirement of a Second Class Upper degree.",
+   "blockers": "Possible scam: looks like an aggregator/content scraping site",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/premiumtrust-bank-graduate-trainee-programme-2027/",
+   "drafted": true,
+   "recent": true
   }
  ],
  "history": [
