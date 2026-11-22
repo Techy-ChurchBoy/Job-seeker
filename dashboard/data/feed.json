@@ -1,25 +1,26 @@
 {
- "generated": "2026-11-22 13:34 UTC",
+ "generated": "2026-11-22 14:46 UTC",
  "report": [
-  "Last run: 2026-11-22T06:46+00:00 UTC.",
-  "The search checked 10 job sources and 10 responded. It found 333 postings in total, and 169 matched your skills.",
-  "0 postings were scored against your CV this run.",
+  "Last run: 2026-11-22T14:41+00:00 UTC.",
+  "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 171 matched your skills.",
+  "79 postings were scored against your CV this run.",
   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+  "11 cover letters were written.",
   "No application emails were sent this run.",
-  "Overall, 4 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 12 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
  "batches": [],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-22T06:46+00:00",
+ "last_run": "2026-11-22T14:41+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 6 passed filter",
+  "- himalayas: 20 fetched, 7 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
-  "- jobicy: 50 fetched, 43 passed filter",
-  "- remoteok: 100 fetched, 49 passed filter",
+  "- jobicy: 47 fetched, 41 passed filter",
+  "- remoteok: 100 fetched, 52 passed filter",
   "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
@@ -29,125 +30,153 @@
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 9 linked pages",
-  "- 21 jobs older than 30 days skipped",
+  "- 22 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
-  "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+  "- Top scores (threshold is 55):",
+  "  - 90: Kleenol Nigeria Limited Graduate Trainee Programme 2026 at Dixcover Hub listing. Blockers: none",
+  "  - 85: Kleenol Nigeria Limited Graduate Trainee Programme 2026 | Apply Now at Dixcover Hub listing. Blockers: none",
+  "  - 85: Central Poultry Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
+  "  - 85: Access Bank Entry Level Training Programme 2026 at Dixcover Hub listing. Blockers: none",
+  "  - 75: Inventory Support Officer (Lagos)  at Moniepoint. Blockers: none",
+  "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
  ],
  "stats": {
-  "jobs_scored": 32,
-  "strong": 5,
-  "drafts": 9,
+  "jobs_scored": 103,
+  "strong": 14,
+  "drafts": 20,
   "sent_today": 1,
   "sent_total": 2
  },
  "skills": [
   {
-   "skill": "Sap",
-   "count": 2,
-   "examples": [
-    "Senior Inventory Analyst -  Remote at Stryker",
-    "Sr. Director, Global Controller at Resideo"
-   ]
-  },
-  {
    "skill": "Sql",
-   "count": 2,
+   "count": 4,
    "examples": [
     "Test Data Quality Engineer at PLATO",
-    "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems"
+    "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems",
+    "Sr Analyst, Analytics & Insights at BeyondTrust"
    ]
   },
   {
    "skill": "Python",
-   "count": 2,
+   "count": 4,
    "examples": [
     "Test Data Quality Engineer at PLATO",
+    "Sr Analyst, Analytics & Insights at BeyondTrust",
     "Senior Data Scientist at Bright Vision Technologies"
    ]
   },
   {
-   "skill": "Product Management",
+   "skill": "Us Gaap",
+   "count": 4,
+   "examples": [
+    "Accounting Operations at Plaid",
+    "Senior Corporate Accounting & Compliance Analyst II at NerdWallet",
+    "Sr. Director, Global Controller at Resideo"
+   ]
+  },
+  {
+   "skill": "None",
+   "count": 3,
+   "examples": [
+    "Data Entry Officer (Ogun) at Moniepoint",
+    "FirstCap Limited Graduate Trainee Program 2026/2027 at Dixcover Hub listing",
+    "Business Services Assistant at Ping Identity"
+   ]
+  },
+  {
+   "skill": "Sap",
+   "count": 3,
+   "examples": [
+    "Senior Inventory Analyst -  Remote at Stryker",
+    "Sr. Director, Global Controller at Resideo",
+    "Principal Enterprise Architect, EDT - Joint Replacement, Trauma & Extremeties at Stryker"
+   ]
+  },
+  {
+   "skill": "Databricks",
+   "count": 3,
+   "examples": [
+    "Test Data Quality Engineer at PLATO",
+    "Sr Analyst, Analytics & Insights at BeyondTrust",
+    "Senior Data Engineer at Lemon.io"
+   ]
+  },
+  {
+   "skill": "Salesforce",
+   "count": 3,
+   "examples": [
+    "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
+    "Deal Desk Analyst (Eastern Time Zone Preferred) at Mixpanel",
+    "Principal Enterprise Architect, EDT - Joint Replacement, Trauma & Extremeties at Stryker"
+   ]
+  },
+  {
+   "skill": "B2B Sales",
+   "count": 3,
+   "examples": [
+    "Business Development Representative, Financial Services - UKI at GitLab",
+    "New Business Account Executive - Nordics at GitLab",
+    "License Compliance & Sales Manager CIS region at TechBiz Global"
+   ]
+  },
+  {
+   "skill": "Social Media Management",
+   "count": 3,
+   "examples": [
+    "Oxgital NYSC Internship Opportunities 2026 at Dixcover Hub listing",
+    "Social Media Content &#038; Creative Marketing Executive at Teekonect",
+    "Social Media Manager (Entry-Level) at Dixcover Hub listing"
+   ]
+  },
+  {
+   "skill": "Management Experience",
+   "count": 3,
+   "examples": [
+    "Assistant Manager, Fund Administration (Accounting) at Juniper Square",
+    "FP&A Manager at Precision Medicine Group",
+    "Senior Manager, Financial Reporting at ÅURA"
+   ]
+  },
+  {
+   "skill": "Executive Leadership",
+   "count": 3,
+   "examples": [
+    "Director, Strategic Finance - Planning Systems at hims &#038; hers",
+    "VP, Customer Experience Operations at Ping Identity",
+    "Head of Credit & Fraud at Happy Money"
+   ]
+  },
+  {
+   "skill": "Portfolio Management",
    "count": 2,
    "examples": [
-    "Product Manager, Transformation at Trax Technologies",
-    "Staff Product Manager, Social Advertising at Fluency, Inc."
+    "Field Credit Officer (Ogun) at Moniepoint",
+    "Commercial Credit Operations Manager at Stripe"
    ]
   },
   {
-   "skill": "Customer Support Experience",
-   "count": 1,
+   "skill": "Product Design",
+   "count": 2,
    "examples": [
-    "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub at jobs.smartyacad.com"
+    "Product Designer (AI Products & Platforms) at Kyivstar",
+    "Manager, Product Design at Carrot"
    ]
   },
   {
-   "skill": "Banking Or Hospitality Experience",
-   "count": 1,
+   "skill": "Graphic Design",
+   "count": 2,
    "examples": [
-    "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub at jobs.smartyacad.com"
+    "Youverify Internship-to-Hire Programme 2026 at Dixcover Hub listing",
+    "Social Media Content &#038; Creative Marketing Executive at Teekonect"
    ]
   },
   {
-   "skill": "Ui/Ux Design",
-   "count": 1,
+   "skill": "Outbound Prospecting",
+   "count": 2,
    "examples": [
-    "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub at jobs.smartyacad.com"
-   ]
-  },
-  {
-   "skill": "Legal Analysis",
-   "count": 1,
-   "examples": [
-    "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub at jobs.smartyacad.com"
-   ]
-  },
-  {
-   "skill": "Data Privacy Analysis",
-   "count": 1,
-   "examples": [
-    "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub at jobs.smartyacad.com"
-   ]
-  },
-  {
-   "skill": "E-Commerce Bookkeeping",
-   "count": 1,
-   "examples": [
-    "Bookkeeper at Triquetra Health"
-   ]
-  },
-  {
-   "skill": "Marketplace Settlements",
-   "count": 1,
-   "examples": [
-    "Bookkeeper at Triquetra Health"
-   ]
-  },
-  {
-   "skill": "Inventory Accounting",
-   "count": 1,
-   "examples": [
-    "Bookkeeper at Triquetra Health"
-   ]
-  },
-  {
-   "skill": "Sage Intacct",
-   "count": 1,
-   "examples": [
-    "Bookkeeper at Triquetra Health"
-   ]
-  },
-  {
-   "skill": "Salesforce Administration",
-   "count": 1,
-   "examples": [
-    "Associate Salesforce Admin at i4DM"
-   ]
-  },
-  {
-   "skill": "Salesforce Service Cloud",
-   "count": 1,
-   "examples": [
-    "Associate Salesforce Admin at i4DM"
+    "Business Development Representative, Financial Services - UKI at GitLab",
+    "New Business Account Executive - Nordics at GitLab"
    ]
   }
  ],
@@ -174,16 +203,170 @@
  "jobs": [
   {
    "score": 90,
+   "title": "Kleenol Nigeria Limited Graduate Trainee Programme 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate has completed NYSC and holds a recognized university degree in accounting, matching all eligibility requirements for this general graduate trainee programme.",
+   "blockers": "",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/kleenol-nigeria-limited-graduate-trainee-programme-2026-2/",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 85,
    "title": "Access Bank Entry Level Training Programme 2026",
    "company": "Dixcover Hub listing",
    "location": "",
    "source": "Dixcover Hub",
-   "reason": "The candidate is a recent graduate seeking entry-level and graduate training programmes in finance and banking, making this Access Bank entry-level role an ideal fit.",
+   "reason": "The candidate meets all criteria including age (25 in Nov 2026), holds a bachelor's degree, and the role is an entry-level training programme in the financial services sector.",
    "blockers": "",
    "gaps": [],
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 85,
+   "title": "Kleenol Nigeria Limited Graduate Trainee Programme 2026 | Apply Now",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate is a recent graduate who has completed NYSC and holds a recognized university degree, perfectly aligning with this multi-disciplinary graduate trainee programme.",
+   "blockers": "",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/kleenol-nigeria-limited-graduate-trainee-programme-2026/",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 85,
+   "title": "Central Poultry Graduate Trainee Program 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role is a graduate trainee program explicitly open to Accounting and Finance graduates, matching the candidate's degree, education level, and career entry preference.",
+   "blockers": "",
+   "gaps": [
+    "agriculture domain knowledge"
+   ],
+   "url": "https://jobs.smartyacad.com/central-poultry-graduate-trainee-program-2026/",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 75,
+   "title": "Executive Operations Associate",
+   "company": "OHL Workforce Solutions Limited",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate's administrative, record-keeping, procurement support, and operational reporting skills transfer well to this fully remote executive operations role.",
+   "blockers": "",
+   "gaps": [
+    "CRM management",
+    "supply chain coordination",
+    "international trade operations"
+   ],
+   "url": "https://jobs.smartyacad.com/executive-operations-associate-at-ohl-workforce-solutions-limited/",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 75,
+   "title": "Inventory Support Officer (Lagos) ",
+   "company": "Moniepoint",
+   "location": "Lagos, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role aligns well with the candidate's background in inventory accounting, stock valuation, and process controls, fitting the junior operations profile.",
+   "blockers": "",
+   "gaps": [
+    "POS terminal inventory management systems"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4196076101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 75,
+   "title": "Data Entry Officer (Ogun)",
+   "company": "Moniepoint",
+   "location": "Ogun, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role aligns well with the candidate's entry-level status, data-handling skills, inventory/stock accounting coursework, and interest in fintech operations.",
+   "blockers": "",
+   "gaps": [
+    "none"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828382101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 65,
+   "title": "Talent &#038; Platform Operations Associate",
+   "company": "Ethicpath",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role aligns well with the candidate's organizational, administrative, and process documentation skills, though it is a part-time operations position rather than a core accounting role.",
+   "blockers": "",
+   "gaps": [
+    "recruitment software",
+    "CRM systems"
+   ],
+   "url": "https://jobs.smartyacad.com/talent-platform-operations-associate-at-ethicpath/",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 55,
+   "title": "Implementation Officer (Imo)",
+   "company": "Moniepoint",
+   "location": "Imo, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role involves onboarding and operational implementation in a fintech company, aligning well with the candidate's interest in fintech operations and administrative workflow design, though it is more client-facing than core accounting.",
+   "blockers": "",
+   "gaps": [
+    "customer onboarding",
+    "POS implementation",
+    "retail operations"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5042163101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 55,
+   "title": "Implementation Officer (Enugu)",
+   "company": "Moniepoint",
+   "location": "Enugu, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role involves onboarding and implementation for a fintech product, leveraging the candidate's operational, process review, and stakeholder coordination skills, though it deviates from core accounting.",
+   "blockers": "",
+   "gaps": [
+    "customer onboarding experience",
+    "POS software familiarity"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931501101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 50,
+   "title": "Goonite Hygiene is Recruiting for Entry Level Roles | Apply Now",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The job offers entry-level administrative and inventory roles at a manufacturing facility in Lagos that match the candidate's qualification level, though the positions lean heavily towards general admin, logistics, and HR rather than core finance.",
+   "blockers": "",
+   "gaps": [
+    "logistics coordination",
+    "customer service operations",
+    "HR administration"
+   ],
+   "url": "https://jobs.smartyacad.com/goonite-hygiene-is-recruiting-for-entry-level-roles/",
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 45,
@@ -200,36 +383,20 @@
   },
   {
    "score": 45,
-   "title": "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub",
-   "company": "jobs.smartyacad.com",
-   "location": "",
-   "source": "Manual",
-   "reason": "This is a junior fintech customer support role that aligns with the candidate's interest in fintech, but it heavily emphasizes customer service rather than accounting, finance, or process operations.",
-   "blockers": "",
+   "title": "Operations Analyst (Finance)",
+   "company": "Able",
+   "location": "LATAM",
+   "source": "Jobicy",
+   "reason": "The job matches the candidate's finance and reporting skills well, but the location requirement of LATAM creates a geographical blocker for a candidate based in Nigeria.",
+   "blockers": "100% remote in Latin America (LATAM) residency requirement.",
    "gaps": [
-    "customer support experience",
-    "banking or hospitality experience"
+    "HubSpot or Attio",
+    "Deel",
+    "Greenhouse"
    ],
-   "url": "https://jobs.smartyacad.com/yolat-is-hiring-remote-customer-support-representatives/",
+   "url": "https://jobicy.com/jobs/153745-operations-analyst-finance",
    "drafted": true,
-   "recent": false
-  },
-  {
-   "score": 45,
-   "title": "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub",
-   "company": "jobs.smartyacad.com",
-   "location": "",
-   "source": "Manual",
-   "reason": "The job is an internship program in fields like product design, legal, and data privacy, which only partially aligns with the candidate's core finance and accounting profile despite accepting junior/internship applicants.",
-   "blockers": "",
-   "gaps": [
-    "UI/UX design",
-    "legal analysis",
-    "data privacy analysis"
-   ],
-   "url": "https://jobs.smartyacad.com/youverify-internship-to-hire-programme-2026/",
-   "drafted": true,
-   "recent": false
+   "recent": true
   },
   {
    "score": 40,
@@ -265,6 +432,41 @@
    "url": "https://himalayas.app/companies/i4dm/jobs/associate-salesforce-admin?utm_source=api",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 35,
+   "title": "Remote Project Coordinator Job Opportunity",
+   "company": "Nalafem",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate has administrative and fellowship coordination experience, but lacks the required 4 years of experience and specific degree discipline in gender studies or public policy.",
+   "blockers": "Requires at least 4 years of experience (candidate has under 1 year); requires a degree in Gender Studies, Public Policy, International Relations or similar (candidate has B.Sc. Accounting).",
+   "gaps": [
+    "programme management",
+    "advocacy initiatives",
+    "gender equality policy",
+    "feminist leadership"
+   ],
+   "url": "https://jobs.smartyacad.com/remote-project-coordinator-job-opportunity-at-nalafem/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 35,
+   "title": "HNG AI Internship Program 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The internship is focused on AI product engineering and software development rather than finance or accounting, though the candidate's digital product project experience offers a minor transferable fit.",
+   "blockers": "",
+   "gaps": [
+    "AI product engineering",
+    "coding with AI",
+    "software development tools (Claude, Cursor, GitHub Copilot)"
+   ],
+   "url": "https://hng.tech/internship",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 25,
@@ -316,6 +518,42 @@
    "url": "https://himalayas.app/companies/ferrellgas/jobs/systems-analyst?utm_source=api",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Field Credit Officer (Ogun)",
+   "company": "Moniepoint",
+   "location": "Ogun, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role focuses on field credit onboarding and loan portfolio management rather than accounting, finance, or operations, poorly aligning with the candidate's core skills.",
+   "blockers": "",
+   "gaps": [
+    "credit risk assessment",
+    "portfolio management",
+    "field sales"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4983213101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 25,
+   "title": "HR &#038; Recruitment Intern",
+   "company": "Prestigious Consulting",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The job requires a degree in Human Resources, Business Administration, or a related field, but the candidate holds a B.Sc. in Accounting, representing a mismatch in the specified field of study despite some transferable administrative skills.",
+   "blockers": "Requires a Bachelor's Degree or HND in Human Resource Management, Business Administration, Industrial Relations, Psychology, Sociology, or a related discipline",
+   "gaps": [
+    "HR management",
+    "talent acquisition",
+    "candidate screening",
+    "recruitment platforms",
+    "employee onboarding"
+   ],
+   "url": "https://jobs.smartyacad.com/hr-recruitment-intern-at-prestigious-consulting/",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -425,6 +663,242 @@
    "recent": false
   },
   {
+   "score": 15,
+   "title": "Retail Solutions Internal Wholesaler – Remote",
+   "company": "Mutual Of Omaha",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This role is a sales and relationship management position requiring US life/health insurance industry experience and licensing, which the candidate lacks.",
+   "blockers": "Requires 2+ years of life/health insurance sales experience, US work authorization without sponsorship, and a Life/Health insurance license.",
+   "gaps": [
+    "Insurance sales experience",
+    "Salesforce",
+    "life and health insurance licensing",
+    "BGA relationship management"
+   ],
+   "url": "https://himalayas.app/companies/mutual-of-omaha/jobs/retail-solutions-internal-wholesaler-remote?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Specialist, Logistics - 2nd Shift",
+   "company": "RXO",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate is based in Nigeria and does not meet the geographic or visa sponsorship eligibility for this United States-based logistics role, which also requires specific industry experience they lack.",
+   "blockers": "Candidate is not in the United States, lacks required logistics experience, and the job offers no remote arrangement for international applicants.",
+   "gaps": [
+    "logistics experience",
+    "transportation industry knowledge",
+    "dispatching"
+   ],
+   "url": "https://himalayas.app/companies/rxo/jobs/specialist-logistics-2nd-shift?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Youverify Internship-to-Hire Programme 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The job requires specific roles in product design, creative design, legal analysis, or data privacy analysis, none of which align with the candidate's accounting, finance, and operations background.",
+   "blockers": "The available positions are strictly for Product Designers, Creative Designers, Legal Analysts, and Data Privacy Analysts, which do not match the candidate's finance and accounting profile.",
+   "gaps": [
+    "UI/UX design",
+    "graphic design",
+    "legal research",
+    "data privacy compliance"
+   ],
+   "url": "https://jobs.smartyacad.com/youverify-internship-to-hire-programme-2026/",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "DP World Graduate Trainee Programme 2027",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate has 11 months of formal work experience as a Junior Accountant, which violates the job's strict eligibility requirement of having no previous formal work experience.",
+   "blockers": "Applicants must have no previous formal work experience, but the candidate has 11 months of experience.",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/dp-world-graduate-trainee-programme-2027/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "FirstCap Limited Graduate Trainee Program 2026/2027",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate is ineligible because their degree is Second Class Lower (2:2), whereas the job explicitly requires a minimum of Second Class Upper (2:1).",
+   "blockers": "Requires a minimum of Second Class Upper (2:1) degree, but candidate holds Second Class Lower.",
+   "gaps": [
+    "None"
+   ],
+   "url": "https://firstcapltd.com/graduate-trainee-program/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Business Services Assistant",
+   "company": "Ping Identity",
+   "location": "UK Only",
+   "source": "RemoteOK",
+   "reason": "The candidate is ineligible because the job location is restricted to the UK only, and the candidate is based in Nigeria.",
+   "blockers": "Candidate must be based in the UK",
+   "gaps": [
+    "none"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-business-services-assistant-ping-identity-1137936",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Business Development Representative, Financial Services - UKI",
+   "company": "GitLab",
+   "location": "EMEA",
+   "source": "RemoteOK",
+   "reason": "The candidate is an entry-level accountant seeking finance and operations roles, whereas this is a sales and business development role based in the UK and Ireland requiring regional residency.",
+   "blockers": "Candidate is not resident in the UK or Ireland as required by the role.",
+   "gaps": [
+    "Outbound prospecting",
+    "sales pipeline generation",
+    "B2B sales",
+    "DevSecOps knowledge"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-business-development-representative-financial-services-uki-gitlab-1137919",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Accounting Operations",
+   "company": "Plaid",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The job requires 6+ years of progressive accounting experience, a CPA, and deep US GAAP expertise, none of which the candidate possesses.",
+   "blockers": "6+ years of progressive accounting experience; CPA preferred; US GAAP expertise",
+   "gaps": [
+    "US GAAP",
+    "public company experience",
+    "IPO readiness",
+    "SOX compliance",
+    "multi-currency accounting"
+   ],
+   "url": "https://jobicy.com/jobs/163218-accounting-operations",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Oxgital NYSC Internship Opportunities 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The job focuses entirely on creative, marketing, and social media roles which do not align with the candidate's accounting, finance, and operations background.",
+   "blockers": "The available roles require creative and marketing expertise rather than accounting or finance skills.",
+   "gaps": [
+    "content creation",
+    "social media management",
+    "paid ads performance marketing",
+    "video editing"
+   ],
+   "url": "https://jobs.smartyacad.com/oxgital-nysc-internship-opportunities-2026-2/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Assistant Manager, Fund Administration (Accounting)",
+   "company": "Juniper Square",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required senior-level experience and management background for an Assistant Manager role, in addition to location incompatibility as the job is in Canada/USA.",
+   "blockers": "Senior management role requiring experience beyond the candidate's junior profile; Location requirement (Canada, USA)",
+   "gaps": [
+    "fund administration",
+    "private markets accounting",
+    "management experience"
+   ],
+   "url": "https://jobicy.com/jobs/155917-assistant-manager-fund-administration-accounting",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Accountant",
+   "company": "Canonical",
+   "location": "EMEA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the mandatory professional qualification (ACA, ACCA, CPA, etc.) and large public accounting firm experience explicitly required by the job posting.",
+   "blockers": "Qualified accountant (ACA, ACCA, ACMA, CPA, etc.) required",
+   "gaps": [
+    "NetSuite",
+    "IFRS domain expertise",
+    "public accounting firm experience"
+   ],
+   "url": "https://jobicy.com/jobs/155841-accountant-5",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Payroll Specialist",
+   "company": "Alimentiv",
+   "location": "Germany,  Hungary,  Poland,  Romania,  UK",
+   "source": "Jobicy",
+   "reason": "The job requires multi-country payroll expertise and physical presence in the UK, Europe, or North America, which conflicts with the candidate's Nigerian residency and lack of specialized payroll experience.",
+   "blockers": "Requires residency in Germany, Hungary, Poland, Romania, or the UK, and multi-country payroll processing experience.",
+   "gaps": [
+    "multi-country payroll processing",
+    "statutory filings (T4, W-2)",
+    "EOR jurisdictions experience",
+    "global payroll legislation compliance"
+   ],
+   "url": "https://jobicy.com/jobs/153491-payroll-specialist",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Offline Customer Support Officer (Ughelli, Delta State)",
+   "company": "Moniepoint",
+   "location": "Delta, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role is a customer support position requiring face-to-face and chat assistance, which does not utilise the candidate's accounting, finance, or analytical skill set.",
+   "blockers": "",
+   "gaps": [
+    "customer service",
+    "issue resolution",
+    "communication scripts"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4924151101",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "UNIQLO Global Management Program 2027 | Fully Funded for Undergraduate and Postgraduate Students",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "This is a student-focused leadership program and travel opportunity in Japan rather than a finance, accounting, or corporate job role matching the candidate's profile.",
+   "blockers": "The program is specifically targeted at current undergraduate and postgraduate students, whereas the candidate has already graduated and completed NYSC.",
+   "gaps": [
+    "global retail leadership",
+    "international business case presentation"
+   ],
+   "url": "https://jobs.smartyacad.com/uniqlo-global-management-program-2027/",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 10,
    "title": "Product Manager, Transformation",
    "company": "Trax Technologies",
@@ -441,6 +915,371 @@
    "url": "https://himalayas.app/companies/trax-technologies/jobs/product-manager-transformation?utm_source=api",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Senior Sales Associate",
+   "company": "Local Splash",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role is a senior sales position requiring 2+ years of specific inside sales and SaaS closing experience, which does not align with the candidate's accounting and finance background.",
+   "blockers": "Requires 2+ years of experience as a sales closer in inside sales, telesales, and/or SaaS.",
+   "gaps": [
+    "sales acumen",
+    "telesales",
+    "SaaS sales",
+    "cold calling",
+    "online advertising sales"
+   ],
+   "url": "https://himalayas.app/companies/local-splash/jobs/senior-sales-associate?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Sr. Coordinator, Individualized Care",
+   "company": "Cardinal Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job is a customer-facing healthcare coordinator role requiring US location, whereas the candidate is a finance professional based in Nigeria seeking accounting and operations roles.",
+   "blockers": "Location mismatch (United States required, candidate is in Nigeria); role is a healthcare patient support coordinator requiring inbound/outbound calls, which does not utilize accounting or finance skills.",
+   "gaps": [
+    "healthcare patient support",
+    "benefit investigation",
+    "prior authorizations",
+    "pharmacy operations"
+   ],
+   "url": "https://himalayas.app/companies/cardinal-health/jobs/sr-coordinator-individualized-care?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Recruiting Assistant – Remote (Latin America)",
+   "company": "High Light Electric Inc",
+   "location": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+   "source": "Himalayas",
+   "reason": "The job requires location residency in Latin America and Spanish language skills, which the candidate does not possess.",
+   "blockers": "Candidate must be located in Latin America and fluent in Spanish.",
+   "gaps": [
+    "Recruitment experience",
+    "Spanish language",
+    "BambooHR"
+   ],
+   "url": "https://himalayas.app/companies/high-light-electric-inc/jobs/recruiting-assistant-remote-latin-america?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Mortgage Processor",
+   "company": "RenoFi",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The job requires US residency and specific US mortgage processing experience which the candidate lacks.",
+   "blockers": "Required to be resident in the USA and possess US mortgage industry processing experience.",
+   "gaps": [
+    "US mortgage processing",
+    "US mortgage regulations",
+    "Loan Origination Software (LOS)",
+    "mortgage underwriting knowledge"
+   ],
+   "url": "https://jobicy.com/jobs/151218-mortgage-processor",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Corporate Accounting & Compliance Analyst II",
+   "company": "NerdWallet",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required active CPA license, US residency, and 3 to 5 years of professional experience for this senior-level role.",
+   "blockers": "Active CPA license required; 3 to 5 years of professional accounting experience required; US residency required.",
+   "gaps": [
+    "US GAAP",
+    "SOX controls",
+    "Oracle, SAP, or NetSuite",
+    "external audit experience"
+   ],
+   "url": "https://jobicy.com/jobs/163650-senior-corporate-accounting-compliance-analyst-ii",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Sr Analyst, Analytics & Insights",
+   "company": "BeyondTrust",
+   "location": "North America",
+   "source": "RemoteOK",
+   "reason": "The candidate lacks the required 4-7 years of advanced analytics and statistical modeling experience, Python/SQL expertise, and is not located in North America.",
+   "blockers": "4-7 years in analytics required; location in North America required",
+   "gaps": [
+    "Python",
+    "SQL",
+    "statistical modelling",
+    "machine learning",
+    "dbt",
+    "Databricks"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-analyst-analytics-insights-beyondtrust-1137962",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Deal Desk Analyst (Eastern Time Zone Preferred)",
+   "company": "Mixpanel",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The job requires US-only residency, prior SaaS deal desk or Salesforce CPQ experience, and reviewing consumption-based SaaS contracts, which the candidate lacks.",
+   "blockers": "US Only location requirement; requires Salesforce CPQ and SaaS deal desk experience.",
+   "gaps": [
+    "Salesforce CPQ",
+    "DealDesk experience",
+    "SaaS contract review",
+    "Salesforce"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-deal-desk-analyst-eastern-time-zone-preferred-mixpanel-1137961",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Performance Lead",
+   "company": "Clover Health",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The job requires US location only and is a senior leadership role, whereas the candidate is based in Nigeria and seeks entry-level or junior positions.",
+   "blockers": "Location requirement (US only); Senior-level role requiring extensive strategic leadership experience.",
+   "gaps": [
+    "actuarial experience",
+    "healthcare industry expertise",
+    "strategic leadership"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-enterprise-performance-lead-clover-health-1137944",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Financial Analyst",
+   "company": "ÅURA",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate lacks the required US residency and senior-level experience for this role.",
+   "blockers": "US Only location requirement; Senior-level experience required",
+   "gaps": [
+    "Senior FP&A experience",
+    "Hardware and R&D financial modeling"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-financial-analyst-oura-1137935",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Manager, Product Design",
+   "company": "Carrot",
+   "location": "Worldwide",
+   "source": "RemoteOK",
+   "reason": "This is a senior product design leadership role requiring extensive professional design experience, which completely misaligns with the candidate's profile in accounting, finance, and operations.",
+   "blockers": "Senior product design management experience required; candidate has no professional design background.",
+   "gaps": [
+    "product design",
+    "UX/UI design",
+    "team management",
+    "design systems",
+    "user research"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-manager-product-design-carrot-1137927",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "New Business Account Executive - Nordics",
+   "company": "GitLab",
+   "location": "EMEA",
+   "source": "RemoteOK",
+   "reason": "This is a sales and account executive role focused on the Nordics market, which does not utilize the candidate's finance, accounting, or administrative skills.",
+   "blockers": "The job requires residency and hiring eligibility in the Netherlands, Sweden, or the UK, whereas the candidate is based in Nigeria.",
+   "gaps": [
+    "B2B sales",
+    "outbound prospecting",
+    "account executive experience",
+    "Nordics market knowledge"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-new-business-account-executive-nordics-gitlab-1137915",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "LSDF is Hiring State Program Officers (Multiple Locations)",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate lacks the required degree discipline and 5-6 years of specific public health and clinical quality assurance experience.",
+   "blockers": "Required Bachelor’s degree in nursing, Public Health, Sociology or related discipline (candidate has B.Sc. Accounting); required 5-6 years of experience in quality assurance, clinical supervision or health systems strengthening.",
+   "gaps": [
+    "quality assurance",
+    "clinical supervision",
+    "health systems strengthening",
+    "SRH, PAC and maternal health policies"
+   ],
+   "url": "https://jobs.smartyacad.com/lsdf-is-hiring-state-program-officers-multiple-locations/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Global Tax Specialist",
+   "company": "Thumbtack",
+   "location": "Philippines",
+   "source": "Jobicy",
+   "reason": "The job requires 4-7 years of corporate tax experience, a CPA or tax-focused advanced degree, and residency in the Philippines, all of which the candidate lacks.",
+   "blockers": "Requires 4-7 years of corporate tax experience, CPA or tax-focused advanced degree, and residency in the Philippines.",
+   "gaps": [
+    "corporate tax compliance",
+    "US and Philippine tax systems",
+    "tax provision",
+    "transfer pricing",
+    "tax research"
+   ],
+   "url": "https://jobicy.com/jobs/163281-senior-global-tax-specialist",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Social Media Content &#038; Creative Marketing Executive",
+   "company": "Teekonect",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "This is a digital marketing and graphic design role which requires creative content creation, video editing, and social media management skills that do not align with the candidate's finance and accounting background.",
+   "blockers": "None",
+   "gaps": [
+    "graphic design",
+    "video production",
+    "social media management",
+    "digital marketing"
+   ],
+   "url": "https://jobs.smartyacad.com/social-media-content-creative-marketing-executive-at-teekonect/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "FP&A Manager",
+   "company": "Precision Medicine Group",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role requires 8+ years of relevant experience for a management position, which far exceeds the candidate's junior experience level.",
+   "blockers": "8+ years of relevant experience required",
+   "gaps": [
+    "management experience",
+    "advanced financial planning and analysis",
+    "executive stakeholder management"
+   ],
+   "url": "https://jobicy.com/jobs/155879-fpa-manager-3",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Strategic Finance Manager",
+   "company": "DuckDuckGo",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "The role requires 8+ years of strategic finance experience, senior leadership, and North American residency, all of which the candidate lacks.",
+   "blockers": "Requires 8+ years in strategic finance; requires North America based residency.",
+   "gaps": [
+    "Three-statement financial modeling",
+    "M&amp",
+    "A experience",
+    "corporate development experience",
+    "U.S. GAAP knowledge",
+    "Tableau",
+    "Grafana"
+   ],
+   "url": "https://jobicy.com/jobs/155825-senior-strategic-finance-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Contador Público Certificado (Senior Accountant), Mexico",
+   "company": "Palmstreet",
+   "location": "Mexico",
+   "source": "Jobicy",
+   "reason": "The job requires a certified public accountant (Contador Público Certificado) in Mexico with local tax expertise, which the candidate lacks.",
+   "blockers": "Requires a certified public accountant in Mexico with Mexican tax compliance expertise; candidate is in Nigeria without local certification.",
+   "gaps": [
+    "Mexican tax compliance",
+    "SAT",
+    "CFDI e-invoicing",
+    "IMSS and INFONAVIT registration",
+    "Mexican entity incorporation"
+   ],
+   "url": "https://jobicy.com/jobs/155786-contador-publico-certificado-senior-accountant-mexico",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Manager, Strategic Finance",
+   "company": "Serve Robotics",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role is a senior management position requiring strategic finance leadership and experience the candidate does not possess.",
+   "blockers": "Requires a Manager-level strategic finance professional with extensive experience, whereas the candidate is an entry-level/junior accountant.",
+   "gaps": [
+    "capital budgeting",
+    "M&A",
+    "valuation",
+    "long-range planning",
+    "strategic leadership"
+   ],
+   "url": "https://jobicy.com/jobs/155817-manager-strategic-finance",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Data Engineer",
+   "company": "Lemon.io",
+   "location": "Global",
+   "source": "WorkingNomads",
+   "reason": "The job requires senior software engineering experience (4+ years) in data engineering and specific tech stacks like Databricks and MongoDB, which does not match the candidate's junior accounting background.",
+   "blockers": "Requires 4+ years of senior commercial experience as a Data Engineer with specific technical stacks.",
+   "gaps": [
+    "Databricks",
+    "dbt",
+    "Microsoft Azure",
+    "MongoDB",
+    "Snowflake",
+    "Data Engineering"
+   ],
+   "url": "https://www.workingnomads.com/job/go/2032572/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Accountant",
+   "company": "ComputerCare",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role requires senior-level experience and U.S. location which the candidate lacks.",
+   "blockers": "Senior role requiring 3-4 years of relevant experience; US location requirement",
+   "gaps": [
+    "sales tax administration",
+    "U.S. GAAP"
+   ],
+   "url": "https://jobicy.com/jobs/163074-senior-accountant-12",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 5,
@@ -518,22 +1357,312 @@
    "recent": false
   },
   {
-   "score": 0,
-   "title": "Product Manager (Mining Products)",
-   "company": "EMCD",
-   "location": "United Kingdom",
+   "score": 5,
+   "title": "License Compliance & Sales Manager CIS region",
+   "company": "TechBiz Global",
+   "location": "Armenia, Azerbaijan, Kazakhstan, Moldova, Ukraine, Uzbekistan",
    "source": "Himalayas",
-   "reason": "The role requires 3+ years of B2B product management or product marketing experience with P&L accountability, which exceeds the candidate's experience level.",
-   "blockers": "Possible scam: empty",
+   "reason": "The role requires senior-level sales management and anti-piracy operations experience in the CIS region with fluency in Russian, which completely misaligns with the candidate's profile.",
+   "blockers": "Requires extensive B2B sales and software license compliance experience, fluency in Russian, and knowledge of the CIS market.",
    "gaps": [
-    "B2B product management",
-    "product marketing",
-    "go-to-market strategy",
-    "pricing and packaging design"
+    "B2B sales",
+    "software license compliance",
+    "anti-piracy operations",
+    "CIS market knowledge",
+    "Russian language proficiency"
    ],
-   "url": "https://himalayas.app/companies/emcd/jobs/product-manager-mining-products?utm_source=api",
+   "url": "https://himalayas.app/companies/techbiz-global/jobs/license-compliance-sales-manager-cis-region?utm_source=api",
    "drafted": false,
-   "recent": false
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Director, Strategic Finance - Planning Systems",
+   "company": "hims &#038; hers",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "This is a senior-level Director position requiring extensive experience that far exceeds the candidate's junior profile.",
+   "blockers": "Requires senior leadership experience (Director level) which the candidate lacks.",
+   "gaps": [
+    "Director-level financial planning systems ownership",
+    "executive leadership",
+    "finance transformation leadership"
+   ],
+   "url": "https://jobicy.com/jobs/156421-director-strategic-finance-planning-systems",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Actuarial Associate, UK",
+   "company": "Lemonade",
+   "location": "UK",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required 3-5 years of UK personal lines pricing experience, actuarial qualifications, programming skills in SQL/Python/R, and UK residency.",
+   "blockers": "3-5 years of UK personal lines pricing experience required; Actuarial qualifications required; UK residency and ability to work from the London office required.",
+   "gaps": [
+    "UK insurance market expertise",
+    "Actuarial pricing",
+    "SQL",
+    "Python",
+    "R",
+    "Price comparison website analysis",
+    "UK regulatory knowledge"
+   ],
+   "url": "https://jobicy.com/jobs/163710-actuarial-associate-uk-2",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Commercial Credit Operations Manager",
+   "company": "Stripe",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "This is a senior management role requiring extensive experience managing teams, which does not match an entry-level candidate with junior experience.",
+   "blockers": "Requires manager-level experience and leadership responsibilities that exceed the candidate's junior profile.",
+   "gaps": [
+    "people management",
+    "credit risk underwriting",
+    "portfolio management",
+    "operational leadership"
+   ],
+   "url": "https://jobicy.com/jobs/163668-commercial-credit-operations-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Director, Revenue Accounting",
+   "company": "6sense",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "This is a senior executive leadership role (Director level) requiring extensive experience that vastly exceeds the candidate's junior profile.",
+   "blockers": "Requires Director-level executive experience, which the candidate lacks.",
+   "gaps": [
+    "ASC 606",
+    "revenue leadership",
+    "complex contract structuring",
+    "technical revenue accounting"
+   ],
+   "url": "https://jobicy.com/jobs/163645-director-revenue-accounting",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Staff Data Scientist - Martech Platform (ML/Algos)",
+   "company": "Airbnb",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior US-based machine learning data scientist role requiring advanced technical leadership, which does not match the candidate's junior accounting and finance profile or geographic location.",
+   "blockers": "Senior role; US location only; 5+ years advanced ML/AI expertise required",
+   "gaps": [
+    "machine learning algorithms",
+    "predictive modeling",
+    "Python/R programming",
+    "marketing science",
+    "technical leadership"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-staff-data-scientist-martech-platform-ml-algos-airbnb-1137956",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Revenue Operations Leader, Strategy & Planning",
+   "company": "Contentstack",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate is based in Nigeria while the job requires US Only residency and is a senior leadership role requiring extensive experience well beyond the candidate's junior profile.",
+   "blockers": "Location requirement: US Only; Experience level: Senior leadership role requiring extensive enterprise SaaS RevOps experience.",
+   "gaps": [
+    "enterprise SaaS GTM strategy",
+    "revenue operations leadership",
+    "advanced forecasting and capacity planning"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-leader-strategy-planning-contentstack-1137951",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "VP, Customer Experience Operations",
+   "company": "Ping Identity",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior executive VP role requiring 10+ years of operational leadership, whereas the candidate is an entry-level junior accountant based in Nigeria.",
+   "blockers": "Requires 10+ years of operational leadership experience; VP-level executive role; US Only location requirement.",
+   "gaps": [
+    "Executive leadership",
+    "Customer Experience operations",
+    "Revenue Operations leadership",
+    "10+ years experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-vp-customer-experience-operations-ping-identity-1137949",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sr. Technology Partner Director, Product Partnerships",
+   "company": "Databricks",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires senior-level executive experience managing technology ecosystems at a hyperscaler, which does not match an entry-level candidate.",
+   "blockers": "Senior-level experience managing ISV partnerships; US location requirement",
+   "gaps": [
+    "hyperscaler partner management",
+    "executive GTM leadership",
+    "ISV ecosystem scaling"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-technology-partner-director-product-partnerships-databricks-1137941",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "In-Home Care Admin Coordinator",
+   "company": "Clover Health",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The job requires US residency, which the candidate does not have, and focuses on healthcare administration rather than finance.",
+   "blockers": "US Only location requirement",
+   "gaps": [
+    "healthcare setting experience",
+    "EHR experience",
+    "customer service call volume"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-in-home-care-admin-coordinator-clover-health-1137934",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Product Design Manager",
+   "company": "LastPass",
+   "location": "Europe",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level design management role that does not utilize the candidate's finance, accounting, or transferable skills.",
+   "blockers": "Senior-level design management role requiring extensive product design experience, which the candidate lacks.",
+   "gaps": [
+    "product design leadership",
+    "UX research",
+    "design systems",
+    "UI/UX craft standards",
+    "prototyping"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-product-design-manager-lastpass-1137928",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Strategic Account Executive, Financial Services - US Central",
+   "company": "GitLab",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role is a senior-level US-based enterprise sales position requiring complex software sales experience, which completely misaligns with the candidate's entry-level financial accounting profile and geographic location.",
+   "blockers": "US residency required; Senior enterprise sales role requiring extensive experience; candidate is an entry-level accountant based in Nigeria.",
+   "gaps": [
+    "enterprise software sales",
+    "DevSecOps knowledge",
+    "full-cycle B2B sales",
+    "account executive experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-strategic-account-executive-financial-services-us-central-gitlab-1137916",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Dataphyte Foundation Infra-Watch Media Fellowship 2026 for Nigerian Journalists",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "This fellowship is targeted at Nigerian journalists for media reporting, which does not align with the candidate's accounting, finance, and operations background.",
+   "blockers": "Targeted at journalists, requiring journalism or media writing experience which the candidate lacks.",
+   "gaps": [
+    "journalism",
+    "media reporting",
+    "investigative reporting"
+   ],
+   "url": "https://docs.google.com/document/d/1LBl-2lf_GxQJLmkTHvPXcRSX13vTdwmS/edit?usp=sharing&amp;ouid=102135167153986231100&amp;rtpof=true&amp;sd=true",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Product Manager, Ecosystem Relevance",
+   "company": "Reddit",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior Product Manager role requiring US residency and consumer product shipping experience, none of which match the candidate's profile.",
+   "blockers": "US Only location requirement; Senior product management experience required",
+   "gaps": [
+    "consumer product shipping",
+    "machine learning ranking",
+    "recommendation systems"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ecosystem-relevance-reddit-1137894",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Social Media Manager (Entry-Level)",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role focuses entirely on digital marketing, content creation, and social media management, which do not align with the candidate's finance, accounting, and data skill set.",
+   "blockers": "",
+   "gaps": [
+    "short-form video editing",
+    "Canva graphic design",
+    "social media management",
+    "digital marketing",
+    "content creation"
+   ],
+   "url": "https://jobs.smartyacad.com/social-media-manager-entry-level/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Tax Manager",
+   "company": "Payoneer",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role requires 7+ years of progressive tax experience and a CPA certification, both of which the candidate lacks.",
+   "blockers": "Requires 7+ years of progressive tax experience and CPA certification; candidate is an entry-level professional without these qualifications.",
+   "gaps": [
+    "ASC 740",
+    "U.S. international tax",
+    "corporate tax compliance",
+    "CPA certification"
+   ],
+   "url": "https://jobicy.com/jobs/163279-senior-tax-manager-2",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Head of Credit & Fraud",
+   "company": "Happy Money",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "This is a senior executive role requiring extensive credit and fraud leadership experience, which does not match the candidate's entry-level profile.",
+   "blockers": "Requires senior executive experience in credit and fraud risk management, far exceeding the candidate's junior accounting background.",
+   "gaps": [
+    "credit strategy",
+    "fraud risk management",
+    "executive leadership",
+    "model governance",
+    "portfolio risk management"
+   ],
+   "url": "https://jobicy.com/jobs/155829-head-of-credit-fraud",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
@@ -585,23 +1714,6 @@
     "bilingual communication"
    ],
    "url": "https://himalayas.app/companies/languageline-solutions/jobs/chin-tedim-interpreter?utm_source=api",
-   "drafted": false,
-   "recent": false
-  },
-  {
-   "score": 0,
-   "title": "Trip Coordinator",
-   "company": "HB Travels",
-   "location": "United Kingdom",
-   "source": "Himalayas",
-   "reason": "The job is a customer-facing travel operations role that has minimal overlap with the candidate's core accounting, finance, and data skills, though the remote aspect matches.",
-   "blockers": "Possible scam: none",
-   "gaps": [
-    "travel planning",
-    "customer service",
-    "vendor management"
-   ],
-   "url": "https://himalayas.app/companies/hb-travels/jobs/trip-coordinator-6507046759?utm_source=api",
    "drafted": false,
    "recent": false
   },
@@ -680,45 +1792,256 @@
   },
   {
    "score": 0,
-   "title": "Access Bank Entry Level Training Programme 2026 - Dixcover Hub",
-   "company": "jobs.smartyacad.com",
-   "location": "",
-   "source": "Manual",
-   "reason": "The role is an entry-level bank training programme matching the candidate's graduate status, degree, and career interests.",
-   "blockers": "Possible scam: lookalike domain",
-   "gaps": [],
-   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
-   "drafted": true,
-   "recent": false
+   "title": "Principal Enterprise Architect, EDT - Joint Replacement, Trauma & Extremeties",
+   "company": "Stryker",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires extensive senior enterprise architecture experience, which completely mismatches the candidate's junior accounting and finance profile.",
+   "blockers": "Principal Enterprise Architect level with extensive architecture experience required; candidate is an entry-level/junior accountant with no architecture experience.",
+   "gaps": [
+    "enterprise architecture",
+    "SAP",
+    "Salesforce",
+    "Oracle CPQ",
+    "MuleSoft",
+    "Microsoft Azure",
+    "cloud infrastructure",
+    "cybersecurity strategy"
+   ],
+   "url": "https://himalayas.app/companies/stryker/jobs/principal-enterprise-architect-edt-joint-replacement-trauma-extremeties?utm_source=api",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
-   "title": "FirstCap Limited Graduate Trainee Program 2026/2027 - Dixcover Hub",
-   "company": "jobs.smartyacad.com",
-   "location": "",
-   "source": "Manual",
-   "reason": "The candidate has a Second Class Honours (Lower Division) degree, whereas the job strictly requires a minimum of Second Class Upper (2:1).",
-   "blockers": "Second Class Upper (2:1) degree requirement",
-   "gaps": [],
-   "url": "https://jobs.smartyacad.com/firstcap-limited-graduate-trainee-program-2026-2027/",
-   "drafted": true,
-   "recent": false
+   "title": "Collections Analyst I",
+   "company": "Samsara",
+   "location": "Mexico",
+   "source": "Jobicy",
+   "reason": "The candidate is based in Nigeria and does not meet the mandatory residency requirement for a role based in Mexico.",
+   "blockers": "Candidate must reside in Mexico",
+   "gaps": [
+    "global accounts receivable portfolio management"
+   ],
+   "url": "https://jobicy.com/jobs/163690-collections-analyst-i",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 0,
-   "title": "PremiumTrust Bank Graduate Trainee Programme 2027 - Dixcover Hub",
-   "company": "jobs.smartyacad.com",
+   "title": "Director, Revenue Accounting",
+   "company": "6sense",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires a Director-level professional with extensive experience in senior revenue accounting.",
+   "blockers": "Senior executive role (Director) requiring years of leadership and advanced revenue accounting experience, far exceeding the candidate's junior status and lack of professional certification; location restriction (US Only).",
+   "gaps": [
+    "Director-level leadership",
+    "ASC 606 expertise",
+    "technical revenue accounting",
+    "contract structuring",
+    "senior management and board reporting."
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-director-revenue-accounting-6sense-1137960",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Senior Software Engineer - Behavioral Security Products",
+   "company": "Abnormal",
+   "location": "UK Only",
+   "source": "RemoteOK",
+   "reason": "The job requires 7+ years of software engineering experience and technical leadership, which completely mismatches the candidate's junior accounting background and location in Nigeria.",
+   "blockers": "7+ years of software engineering experience required; UK location only",
+   "gaps": [
+    "software engineering",
+    "backend systems development",
+    "machine learning models",
+    "API development",
+    "production code writing"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-behavioral-security-products-abnormal-1137948",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Senior Manager, Financial Reporting",
+   "company": "ÅURA",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate is ineligible due to geographic restrictions (US only location) and a lack of senior-level management experience for a Senior Manager role.",
+   "blockers": "US Only location requirement; Senior level management experience required",
+   "gaps": [
+    "SEC reporting",
+    "US GAAP",
+    "capital markets experience",
+    "management experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-financial-reporting-oura-1137947",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Global Tax Intern",
+   "company": "Ensono",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate fails the geographic eligibility requirement as the job is restricted to candidates in the US only.",
+   "blockers": "US Only location requirement",
+   "gaps": [
+    "US corporate tax experience",
+    "Blackline",
+    "Workday ERP"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-global-tax-intern-ensono-1137943",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Physician Assistant - Virtual Health Assessment",
+   "company": "Oscar Health",
+   "location": "Worldwide",
+   "source": "RemoteOK",
+   "reason": "The candidate lacks the required clinical qualifications, medical license, and healthcare background for this Physician Assistant role.",
+   "blockers": "Requires DNP, FNP, ENP, or PA degree, board certification, and medical licensure, none of which the candidate possesses.",
+   "gaps": [
+    "clinical care",
+    "patient evaluation",
+    "prescriptive authority",
+    "virtual healthcare delivery"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-physician-assistant-virtual-health-assessment-oscar-health-1137938",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Associate Counsel, Vendor and Provider Contracting",
+   "company": "Clover Health",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate fails hard eligibility requirements as they are not an attorney, lack the required 3-5 years of legal experience, and are not resident in the US.",
+   "blockers": "Requires a US-qualified attorney with 3-5 years of legal experience and US residency.",
+   "gaps": [
+    "legal qualification",
+    "contract negotiation",
+    "legal drafting",
+    "vendor contracting"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-associate-counsel-vendor-and-provider-contracting-clover-health-1137933",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Sr. Product Marketing Manager, Secrets Manager",
+   "company": "Bitwarden",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires US residency, no visa sponsorship, and senior-level product marketing experience, none of which match the candidate's profile.",
+   "blockers": "US Only location requirement; No visa sponsorship; Senior-level experience required",
+   "gaps": [
+    "Product marketing",
+    "Developer ecosystem expertise",
+    "Go-to-market strategy",
+    "Secrets management"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-product-marketing-manager-secrets-manager-bitwarden-1137931",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Sr. Security Operations Manager",
+   "company": "Carrot",
+   "location": "Worldwide",
+   "source": "RemoteOK",
+   "reason": "This is a senior-level technical cybersecurity role requiring extensive security operations experience, which completely misaligns with the candidate's profile as a junior management accountant.",
+   "blockers": "Senior-level experience in security operations required (candidate is junior/entry-level)",
+   "gaps": [
+    "cybersecurity",
+    "incident response",
+    "SIEM management",
+    "threat detection",
+    "security compliance"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-security-operations-manager-carrot-1137930",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "First Bank of Nigeria Service Executive Conversion Programme 2026 | Apply Now",
+   "company": "Dixcover Hub listing",
    "location": "",
-   "source": "Manual",
-   "reason": "The candidate's Second Class Lower degree does not meet the job's minimum requirement of a Second Class Upper degree.",
-   "blockers": "Possible scam: looks like an aggregator/content scraping site",
+   "source": "Dixcover Hub",
+   "reason": "The candidate is ineligible because the role requires current employment within the bank for at least 12 months, which the candidate does not have.",
+   "blockers": "Must have worked in the bank for at least 12 months (current employee requirement)",
+   "gaps": [
+    "internal banking systems",
+    "service executive experience"
+   ],
+   "url": "https://jobs.smartyacad.com/first-bank-of-nigeria-service-executive-conversion-programme-2026/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Flour Mills of Nigeria Inclusive Internship Initiative (FMN-III) 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate fails the eligibility criteria because the internship is exclusively restricted to children of current and retired Flour Mills of Nigeria employees, or skilled persons with disabilities.",
+   "blockers": "Must be a child of a current or retired Flour Mills of Nigeria employee or a person with a disability",
    "gaps": [],
-   "url": "https://jobs.smartyacad.com/premiumtrust-bank-graduate-trainee-programme-2027/",
-   "drafted": true,
+   "url": "https://jobs.smartyacad.com/flour-mills-of-nigeria-inclusive-internship-initiative-fmn-iii-2026/",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-22T14:41+00:00",
+   "report": [
+    "Last run: 2026-11-22T14:41+00:00 UTC.",
+    "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 171 matched your skills.",
+    "79 postings were scored against your CV this run.",
+    "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "11 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 12 postings currently qualify for an email (score 40 or more, no blockers)."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 7 passed filter",
+    "- workingnomads: 35 fetched, 10 passed filter",
+    "- jobicy: 47 fetched, 41 passed filter",
+    "- remoteok: 100 fetched, 52 passed filter",
+    "- greenhouse: 67 fetched, 38 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 21 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 9 linked pages",
+    "- 22 jobs older than 30 days skipped",
+    "- 80 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 90: Kleenol Nigeria Limited Graduate Trainee Programme 2026 at Dixcover Hub listing. Blockers: none",
+    "  - 85: Kleenol Nigeria Limited Graduate Trainee Programme 2026 | Apply Now at Dixcover Hub listing. Blockers: none",
+    "  - 85: Central Poultry Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
+    "  - 85: Access Bank Entry Level Training Programme 2026 at Dixcover Hub listing. Blockers: none",
+    "  - 75: Inventory Support Officer (Lagos)  at Moniepoint. Blockers: none",
+    "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+   ]
+  },
   {
    "last_run": "2026-11-22T06:46+00:00",
    "report": [
