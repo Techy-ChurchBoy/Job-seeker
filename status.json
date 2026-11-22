@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-22T06:01+00:00",
+ "last_run": "2026-11-22T06:46+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 6 passed filter",
@@ -9,18 +9,14 @@
   "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
-  "- smartyacad: 44 fetched, 19 passed filter",
+  "- smartyacad: 45 fetched, 21 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 67 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 8 linked pages",
+  "  - Dixcover Hub: opened 9 linked pages",
   "- 21 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
-  "- Top scores (threshold is 55):",
-  "  - 15: Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems. Blockers: 3+ years of Data Analyst experience; strong SQL skills",
-  "  - 5: Principal Project Manager at Alignment Health. Blockers: Principal-level experience, years of project management experience",
-  "  - 0: Senior SQL Server Database Administrator \u2013 Advisory Services at Centrilogic. Blockers: Senior level required; 6+ years MSSQL DBA experience required",
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "report": {
@@ -76,8 +72,8 @@
    {
     "name": "smartyacad",
     "ok": true,
-    "fetched": 44,
-    "passed": 19
+    "fetched": 45,
+    "passed": 21
    },
    {
     "name": "jooble",
@@ -87,7 +83,7 @@
    }
   ],
   "new_to_score": 80,
-  "scored": 3,
+  "scored": 0,
   "scoring_failed": 1,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
