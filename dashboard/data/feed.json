@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 13:01 UTC",
+ "generated": "2026-11-23 13:04 UTC",
  "report": [
   "Last run: 2026-11-23T11:57+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 173 matched your skills.",
@@ -32,11 +32,11 @@
   "- 0 new jobs sent to scoring"
  ],
  "stats": {
-  "jobs_scored": 204,
+  "jobs_scored": 205,
   "strong": 23,
-  "drafts": 31,
-  "sent_today": 0,
-  "sent_total": 2
+  "drafts": 32,
+  "sent_today": 1,
+  "sent_total": 3
  },
  "skills": [
   {
@@ -176,6 +176,16 @@
   }
  ],
  "sent": [
+  {
+   "sent_at": "2026-11-23T13:04:03+00:00",
+   "title": "Job posting",
+   "company": "example.com",
+   "email": "support@yolat.com",
+   "score": "15",
+   "url": "https://example.com/jobs/test-accountant-2026",
+   "recent": true,
+   "repeat": false
+  },
   {
    "sent_at": "2026-11-22T07:20:07+00:00",
    "title": "Access Bank Entry Level Training Programme 2026",
@@ -1628,6 +1638,22 @@
    "url": "https://jobs.smartyacad.com/bomen-advisory-is-hiring-executive-marketers/",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Job posting",
+   "company": "example.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "The candidate lacks the mandatory prior work experience in banking, fintech or hospitality required for this customer support role.",
+   "blockers": "mandatory prior work experience in banking, fintech or hospitality",
+   "gaps": [
+    "customer support",
+    "live chat support"
+   ],
+   "url": "https://example.com/jobs/test-accountant-2026",
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 10,
