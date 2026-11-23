@@ -57,16 +57,45 @@ RESOURCES = {
 }
 
 
+# YouTube channels named by hand (check each is still active before relying on it).
+YOUTUBE = {
+    "power bi": ["Alex The Analyst", "Microsoft Power BI"],
+    "sql": ["freeCodeCamp.org", "Alex The Analyst"],
+    "excel": ["Leila Gharani", "Excel Campus"],
+    "ifrs": ["ACCA Global", "Corporate Finance Institute"],
+    "financial modell": ["Corporate Finance Institute", "Wall Street Prep"],
+    "budget": ["Corporate Finance Institute"],
+    "forecast": ["Corporate Finance Institute"],
+    "python": ["Corey Schafer", "Programming with Mosh"],
+    "tableau": ["Tableau"],
+    "quickbooks": ["QuickBooks"],
+    "xero": ["Xero"],
+    "oracle": ["Oracle Developers"],
+    "acca": ["ACCA Global"],
+    "cpa": ["AICPA & CIMA"],
+    "salesforce": ["Salesforce"],
+}
+
+
 def learn_line(skill):
     low = skill.lower()
     named = []
     for key, providers in RESOURCES.items():
         if key in low:
             named += providers
-    search = quote_plus(f"free course {skill}")
-    named = named[:2]
-    head = "; ".join(named) if named else "no named provider yet"
-    return f"{head}. Search: https://www.google.com/search?q={search}"
+    channels = []
+    for key, names in YOUTUBE.items():
+        if key in low:
+            channels += names
+    yt_search = quote_plus(f"{skill} tutorial")
+    parts = []
+    parts.append(f"YouTube: {'; '.join(dict.fromkeys(channels)) or 'search below'}. "
+                 f"Search: https://www.youtube.com/results?search_query={yt_search}")
+    if named:
+        parts.append("Also: " + "; ".join(named[:2]))
+    google = quote_plus(f"free course {skill}")
+    parts.append(f"Search: https://www.google.com/search?q={google}")
+    return " | ".join(parts)
 
 
 def category(skill):
