@@ -1,54 +1,54 @@
 {
- "generated": "2026-11-22 23:30 UTC",
+ "generated": "2026-11-23 06:04 UTC",
  "report": [
-  "Last run: 2026-11-22T23:28+00:00 UTC.",
-  "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 172 matched your skills.",
-  "10 postings were scored against your CV this run.",
+  "Last run: 2026-11-23T06:02+00:00 UTC.",
+  "The search checked 10 job sources and 10 responded. It found 325 postings in total, and 168 matched your skills.",
+  "15 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
   "1 cover letters were written.",
   "No application emails were sent this run.",
-  "Overall, 18 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
  "batches": [],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-22T23:28+00:00",
+ "last_run": "2026-11-23T06:02+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
-  "- jobicy: 47 fetched, 40 passed filter",
-  "- remoteok: 100 fetched, 52 passed filter",
+  "- jobicy: 42 fetched, 36 passed filter",
+  "- remoteok: 100 fetched, 51 passed filter",
   "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
-  "- smartyacad: 45 fetched, 21 passed filter",
+  "- smartyacad: 45 fetched, 22 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 67 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 9 linked pages",
+  "  - Dixcover Hub: opened 10 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 10 new jobs sent to scoring",
+  "- 15 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 60: Financial Analyst at Cogstate. Blockers: none",
-  "  - 25: Implementation Manager, Broker at Rippling. Blockers: 2+ years of hands-on experience in Implementation and/or Customer Experience at a rapidly growing SaaS company",
-  "  - 15: Junior Data Scientist - Contract at Mfinite Consulting. Blockers: Legally authorized to work in the U.S.; 100% remote with all work performed in the U.S.",
-  "  - 10: Senior Product Marketing Manager at Attentive. Blockers: Senior role level; requires specific marketing expertise and experience missing from the profile.",
-  "  - 10: Senior Business Analyst at ADDENDUM. Blockers: Senior level role requiring extensive business analysis experience, metadata standards (DCAT-AP), semantic technologies (OWL, RDF/XML), and mandatory Lithuanian language skills."
+  "  - 75: Remote Office Assistants Needed at Coalition Technologies. Blockers: none",
+  "  - 15: Lead Systems Consultant - Enterprise Systems at GM Financial. Blockers: Senior-level experience required; US location requirement",
+  "  - 15: ERP Success Lead at mazeed. Blockers: Senior leadership experience required; location outside candidate's region (Philippines); role level is too senior for an entry-level candidate.",
+  "  - 15: Connected Devices Project Manager at Lifelancer. Blockers: 5+ years related experience required; Life science or health care related degree preferred/required context; Senior project management responsibilities.",
+  "  - 10: Strategic Account Executive - Spain at GitLab. Blockers: Required to be resident in Spain; requires senior enterprise software sales experience"
  ],
  "stats": {
-  "jobs_scored": 166,
-  "strong": 21,
-  "drafts": 27,
-  "sent_today": 1,
+  "jobs_scored": 181,
+  "strong": 22,
+  "drafts": 28,
+  "sent_today": 0,
   "sent_total": 2
  },
  "skills": [
   {
    "skill": "Python",
-   "count": 7,
+   "count": 11,
    "examples": [
     "Test Data Quality Engineer at PLATO",
     "Sr Analyst, Analytics & Insights at BeyondTrust",
@@ -57,11 +57,29 @@
   },
   {
    "skill": "Sql",
-   "count": 6,
+   "count": 7,
    "examples": [
     "Test Data Quality Engineer at PLATO",
     "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems",
     "Sr Analyst, Analytics & Insights at BeyondTrust"
+   ]
+  },
+  {
+   "skill": "Us Gaap",
+   "count": 5,
+   "examples": [
+    "Accounting Operations at Plaid",
+    "Senior Corporate Accounting & Compliance Analyst II at NerdWallet",
+    "Sr. Director, Global Controller at Resideo"
+   ]
+  },
+  {
+   "skill": "Databricks",
+   "count": 4,
+   "examples": [
+    "Test Data Quality Engineer at PLATO",
+    "Sr Analyst, Analytics & Insights at BeyondTrust",
+    "Senior Data Engineer at Lemon.io"
    ]
   },
   {
@@ -74,21 +92,39 @@
    ]
   },
   {
-   "skill": "Us Gaap",
-   "count": 4,
-   "examples": [
-    "Accounting Operations at Plaid",
-    "Senior Corporate Accounting & Compliance Analyst II at NerdWallet",
-    "Sr. Director, Global Controller at Resideo"
-   ]
-  },
-  {
    "skill": "Netsuite",
    "count": 4,
    "examples": [
     "Accountant at Canonical",
     "Accounting Coordinator at Fandom",
     "Strategic Finance Manager at ClickUp"
+   ]
+  },
+  {
+   "skill": "Dbt",
+   "count": 4,
+   "examples": [
+    "Sr Analyst, Analytics & Insights at BeyondTrust",
+    "Senior Data Engineer at Lemon.io",
+    "Senior Data Engineer (Python) at Proxify"
+   ]
+  },
+  {
+   "skill": "Account Executive Experience",
+   "count": 4,
+   "examples": [
+    "New Business Account Executive - Nordics at GitLab",
+    "Senior Account Executive US at Hypernative",
+    "Strategic Account Executive - Spain at GitLab"
+   ]
+  },
+  {
+   "skill": "Software Engineering",
+   "count": 4,
+   "examples": [
+    "Junior Full Stack Engineer (LATAM) at LoanBud",
+    "Data Engineer at WebEngage",
+    "Product, Platform & Enterprise Full Stack Software Engineer I/II (Remote - US) ( at BNSF Railway"
    ]
   },
   {
@@ -143,42 +179,6 @@
     "Offline Customer Support Officer (Ore, Ondo State) at Moniepoint",
     "Offline Customer Support Officer (Katsina) at Moniepoint",
     "Entry Level Remote Life Insurance Sales at The Semler Agency"
-   ]
-  },
-  {
-   "skill": "Databricks",
-   "count": 3,
-   "examples": [
-    "Test Data Quality Engineer at PLATO",
-    "Sr Analyst, Analytics & Insights at BeyondTrust",
-    "Senior Data Engineer at Lemon.io"
-   ]
-  },
-  {
-   "skill": "B2B Sales",
-   "count": 3,
-   "examples": [
-    "Business Development Representative, Financial Services - UKI at GitLab",
-    "New Business Account Executive - Nordics at GitLab",
-    "License Compliance & Sales Manager CIS region at TechBiz Global"
-   ]
-  },
-  {
-   "skill": "Social Media Management",
-   "count": 3,
-   "examples": [
-    "Oxgital NYSC Internship Opportunities 2026 at Dixcover Hub listing",
-    "Social Media Content &#038; Creative Marketing Executive at Teekonect",
-    "Social Media Manager (Entry-Level) at Dixcover Hub listing"
-   ]
-  },
-  {
-   "skill": "Management Experience",
-   "count": 3,
-   "examples": [
-    "Assistant Manager, Fund Administration (Accounting) at Juniper Square",
-    "FP&A Manager at Precision Medicine Group",
-    "Senior Manager, Financial Reporting at ÅURA"
    ]
   }
  ],
@@ -367,6 +367,22 @@
    "recent": false
   },
   {
+   "score": 75,
+   "title": "Remote Office Assistants Needed",
+   "company": "Coalition Technologies",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role involves administrative, bookkeeping, billing, and reporting tasks which align well with the candidate's junior accounting experience and skills.",
+   "blockers": "",
+   "gaps": [
+    "phone support",
+    "customer billing resolution"
+   ],
+   "url": "https://app.testedrecruits.com/posting/16788",
+   "drafted": true,
+   "recent": true
+  },
+  {
    "score": 65,
    "title": "Talent &#038; Platform Operations Associate",
    "company": "Ethicpath",
@@ -397,7 +413,7 @@
    ],
    "url": "https://jobicy.com/jobs/163856-financial-analyst-6",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 55,
@@ -786,7 +802,7 @@
    ],
    "url": "https://himalayas.app/companies/rippling/jobs/implementation-manager-broker-3776555956?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -1401,6 +1417,57 @@
     "Smartsheet"
    ],
    "url": "https://himalayas.app/companies/mfinite-consulting/jobs/junior-data-scientist-contract?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Lead Systems Consultant - Enterprise Systems",
+   "company": "GM Financial",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires senior-level technical consulting expertise in enterprise systems which does not match the candidate's entry-level financial background.",
+   "blockers": "Senior-level experience required; US location requirement",
+   "gaps": [
+    "enterprise systems architecture",
+    "consulting experience",
+    "IT systems implementation"
+   ],
+   "url": "https://himalayas.app/companies/gm-financial/jobs/lead-systems-consultant-enterprise-systems?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "ERP Success Lead",
+   "company": "mazeed",
+   "location": "Philippines",
+   "source": "Himalayas",
+   "reason": "This is a senior-level leadership and client-facing ERP implementation role based in the Philippines requiring extensive experience, whereas the candidate is an entry-level junior accountant in Nigeria.",
+   "blockers": "Senior leadership experience required; location outside candidate's region (Philippines); role level is too senior for an entry-level candidate.",
+   "gaps": [
+    "ERP implementation leadership",
+    "technical support management",
+    "presales strategy"
+   ],
+   "url": "https://himalayas.app/companies/mazeed/jobs/erp-success-lead-8243871368?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Connected Devices Project Manager",
+   "company": "Lifelancer",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires five years of related experience and a life science or health care related degree, both of which the candidate lacks.",
+   "blockers": "5+ years related experience required; Life science or health care related degree preferred/required context; Senior project management responsibilities.",
+   "gaps": [
+    "clinical trial phases experience",
+    "project management",
+    "life science domain knowledge"
+   ],
+   "url": "https://himalayas.app/companies/lifelancer/jobs/connected-devices-project-manager-3118582075?utm_source=api",
    "drafted": false,
    "recent": true
   },
@@ -2110,7 +2177,7 @@
    ],
    "url": "https://himalayas.app/companies/addendum/jobs/senior-business-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2127,7 +2194,7 @@
    ],
    "url": "https://himalayas.app/companies/brightspring-health-services/jobs/client-implementation-consultant?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2146,7 +2213,7 @@
    ],
    "url": "https://himalayas.app/companies/maleda-tech/jobs/market-associate-hotel-onboarding?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2166,7 +2233,7 @@
    ],
    "url": "https://himalayas.app/companies/loanbud/jobs/junior-full-stack-engineer-latam?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2186,7 +2253,7 @@
    ],
    "url": "https://himalayas.app/companies/attentivemobile/jobs/senior-product-marketing-manager?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2203,6 +2270,102 @@
     "FDA regulations"
    ],
    "url": "https://himalayas.app/companies/fujifilm/jobs/regional-director-enterprise-imaging-systems?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Data Engineer",
+   "company": "WebEngage",
+   "location": "India",
+   "source": "Himalayas",
+   "reason": "This is a technical software engineering role requiring extensive data engineering expertise, Python, and pipeline development, which does not match the candidate's accounting and finance background.",
+   "blockers": "Requires a dedicated Data Engineer profile with software engineering and Python/ETL pipeline expertise, which the candidate lacks.",
+   "gaps": [
+    "Python",
+    "ETL pipelines",
+    "Kafka",
+    "data modeling",
+    "data warehousing",
+    "SQL",
+    "dbt",
+    "software engineering"
+   ],
+   "url": "https://himalayas.app/companies/webengage/jobs/data-engineer-7824687803?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Manager - Data Engineering",
+   "company": "Astrana Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires at least 5 years of experience in data engineering with management responsibilities, US residency, and a technical degree in computer science or engineering, which the candidate does not possess.",
+   "blockers": "5+ years of data engineering experience; management experience; US location; Computer Science or Engineering degree requirement",
+   "gaps": [
+    "data engineering",
+    "Python",
+    "Spark",
+    "AWS",
+    "Azure",
+    "Databricks",
+    "healthcare claims data",
+    "software development leadership"
+   ],
+   "url": "https://himalayas.app/companies/astrana-health/jobs/manager-data-engineering-2746589544?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Product Manager, Developer Ecosystem",
+   "company": "Reddit",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior Staff Product Manager role requiring extensive product management experience, whereas the candidate is an entry-level accountant based in Nigeria.",
+   "blockers": "Staff-level product management experience required; US only location requirement.",
+   "gaps": [
+    "Staff product management",
+    "developer ecosystem strategy",
+    "software engineering background"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-product-manager-developer-ecosystem-reddit-1137977",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "DRG Validation Auditor",
+   "company": "Clover Health",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The candidate lacks the required US location, medical coding certifications (CCS or CIC), and direct inpatient clinical coding experience.",
+   "blockers": "US Only location requirement; CCS or CIC certification required; 1 year of direct inpatient clinical coding experience required.",
+   "gaps": [
+    "CCS or CIC certification",
+    "inpatient clinical coding experience",
+    "DRG pricing methodology",
+    "Medicare Advantage experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-drg-validation-auditor-clover-health-1137972",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Strategic Account Executive - Spain",
+   "company": "GitLab",
+   "location": "Europe",
+   "source": "RemoteOK",
+   "reason": "The role is a senior enterprise sales position based in Spain requiring local residency and outbound software sales experience, which completely misaligns with the candidate's entry-level accounting and finance profile in Nigeria.",
+   "blockers": "Required to be resident in Spain; requires senior enterprise software sales experience",
+   "gaps": [
+    "enterprise sales",
+    "account executive experience",
+    "Spanish market knowledge"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-strategic-account-executive-spain-gitlab-1137963",
    "drafted": false,
    "recent": true
   },
@@ -2741,6 +2904,85 @@
    ],
    "url": "https://himalayas.app/companies/the-semler-agency/jobs/entry-level-remote-life-insurance-sales?utm_source=api",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Senior Data Scientist (m/f/x)",
+   "company": "Makersite",
+   "location": "Afghanistan, Albania, Algeria, Andorra, Angola, Antarctica, Armenia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Benin, Bosnia and Herzegovina, Botswana, Bouvet Island, Bulgaria, Burkina Faso, Burundi, Cabo Verde, Cameroon, Central African Republic, Chad, Comoros, Congo, Congo, The Democratic Republic of the, Cook Islands, Croatia, Curaçao, Cyprus, Czechia, Côte d'Ivoire, Denmark, Djibouti, Egypt, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Faroe Islands, Finland, France, French Guiana, French Southern Territories, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Greenland, Guadeloupe, Guernsey, Guinea, Guinea-Bissau, Heard Island and McDonald Islands, Holy See (Vatican City State), Hungary, Iceland, Iran, Iraq, Ireland, Isle of Man, Israel, Italy, Jersey, Jordan, Kazakhstan, Kenya, Kosovo, Kuwait, Kyrgyzstan, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Mali, Malta, Martinique, Mauritania, Mauritius, Mayotte, Moldova, Monaco, Montenegro, Morocco, Mozambique, Namibia, Netherlands, Niger, Nigeria, North Macedonia, Norway, Oman, Palestine, State of, Poland, Portugal, Qatar, Romania, Rwanda, Réunion, Saint Barthélemy, Saint Helena, Ascension and Tristan da Cunha, Saint Martin (French part), Saint Pierre and Miquelon, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Sint Maarten (Dutch part), Slovakia, Slovenia, Somalia, South Africa, South Sudan, Spain, Sudan, Svalbard and Jan Mayen, Sweden, Switzerland, Syrian Arab Republic, Tajikistan, Tanzania, Togo, Tunisia, Turkey, Turkmenistan, Uganda, Ukraine, United Arab Emirates, United Kingdom, Uzbekistan, Western Sahara, Yemen, Zambia, Zimbabwe, Åland Islands",
+   "source": "Himalayas",
+   "reason": "The role is for a Senior Data Scientist requiring advanced production-grade AI systems, ML engineering, and RAG architecture, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior-level role requiring extensive advanced machine learning and AI engineering experience that the candidate lacks.",
+   "gaps": [
+    "Python",
+    "machine learning engineering",
+    "AI architecture",
+    "LLMs",
+    "RAG systems",
+    "CI/CD pipelines"
+   ],
+   "url": "https://himalayas.app/companies/makersite/jobs/senior-data-scientist-m-f-x?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Director of National Accounts",
+   "company": "Khloud, Inc.",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires 10+ years of retail sales leadership experience and US residency, whereas the candidate is an entry-level accountant in Nigeria.",
+   "blockers": "Requires 10+ years of retail sales experience and US residency; candidate lacks both.",
+   "gaps": [
+    "retail sales",
+    "P&L ownership",
+    "key account management",
+    "broker management",
+    "trade promotion budgeting",
+    "CPG industry experience"
+   ],
+   "url": "https://himalayas.app/companies/khloud-inc/jobs/senior-director-of-national-accounts?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Head of Risk",
+   "company": "Keyrock",
+   "location": "Belgium, France, Germany, Netherlands, Poland, Portugal, Spain, Switzerland, United Kingdom",
+   "source": "Himalayas",
+   "reason": "The role requires senior executive leadership and advanced quantitative risk modeling expertise, which far exceeds the junior experience and qualifications of the candidate.",
+   "blockers": "Requires senior leadership (Head of Risk) and advanced quantitative risk modelling experience, which the candidate lacks.",
+   "gaps": [
+    "quantitative risk framework",
+    "risk architecture design",
+    "market risk modelling",
+    "stress testing",
+    "real-time risk aggregation"
+   ],
+   "url": "https://himalayas.app/companies/keyrock-com/jobs/head-of-risk-3753526255?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Manager, Technical Accounting and Equity Reporting",
+   "company": "ÅURA",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires management-level experience and advanced technical US GAAP accounting expertise which far exceeds the candidate's junior profile.",
+   "blockers": "Requires manager-level experience and US GAAP technical accounting expertise which the candidate lacks.",
+   "gaps": [
+    "Managerial experience",
+    "US GAAP",
+    "ASC 718",
+    "equity reporting",
+    "technical accounting policy",
+    "SOX compliance"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-manager-technical-accounting-and-equity-reporting-oura-1137976",
+   "drafted": false,
    "recent": true
   },
   {
@@ -3133,9 +3375,86 @@
    "url": "https://jobicy.com/jobs/155732-tax-manager",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Data Engineer, Embedded",
+   "company": "Shopify",
+   "location": "Canada",
+   "source": "Himalayas",
+   "reason": "The job is a senior-level software engineering role requiring advanced data engineering and technical skills that do not align with the candidate's finance and accounting background.",
+   "blockers": "Senior-level technical data engineering role requiring specialized software engineering experience the candidate lacks.",
+   "gaps": [
+    "Data engineering",
+    "software development",
+    "Python or Scala",
+    "SQL at scale",
+    "data warehousing architecture",
+    "distributed systems"
+   ],
+   "url": "https://himalayas.app/companies/shopify/jobs/senior-data-engineer-embedded?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Sr. Forward Deployed Data Engineer",
+   "company": "Natera",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This senior engineering role requires US residency, advanced data engineering experience, and production-grade Python and SQL software development, which completely misaligns with the candidate's profile.",
+   "blockers": "Location: US Only; Senior role requiring advanced software and data engineering experience",
+   "gaps": [
+    "Python",
+    "production-grade software development",
+    "data engineering pipelines",
+    "cloud data platforms",
+    "LLM pipelines",
+    "agentic workflows",
+    "semantic layers"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-forward-deployed-data-engineer-natera-1137970",
+   "drafted": false,
+   "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-23T06:02+00:00",
+   "report": [
+    "Last run: 2026-11-23T06:02+00:00 UTC.",
+    "The search checked 10 job sources and 10 responded. It found 325 postings in total, and 168 matched your skills.",
+    "15 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 9 passed filter",
+    "- workingnomads: 35 fetched, 10 passed filter",
+    "- jobicy: 42 fetched, 36 passed filter",
+    "- remoteok: 100 fetched, 51 passed filter",
+    "- greenhouse: 67 fetched, 38 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 22 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 10 linked pages",
+    "- 22 jobs older than 30 days skipped",
+    "- 15 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 75: Remote Office Assistants Needed at Coalition Technologies. Blockers: none",
+    "  - 15: Lead Systems Consultant - Enterprise Systems at GM Financial. Blockers: Senior-level experience required; US location requirement",
+    "  - 15: ERP Success Lead at mazeed. Blockers: Senior leadership experience required; location outside candidate's region (Philippines); role level is too senior for an entry-level candidate.",
+    "  - 15: Connected Devices Project Manager at Lifelancer. Blockers: 5+ years related experience required; Life science or health care related degree preferred/required context; Senior project management responsibilities.",
+    "  - 10: Strategic Account Executive - Spain at GitLab. Blockers: Required to be resident in Spain; requires senior enterprise software sales experience"
+   ]
+  },
   {
    "last_run": "2026-11-22T23:28+00:00",
    "report": [
