@@ -37,6 +37,37 @@ def rows(path):
     return list(csv.DictReader(open(path, encoding="utf-8"))) if os.path.exists(path) else []
 
 
+DEADLINE_CACHE = "deadlines.json"
+MAX_AI_DEADLINE_CHECKS = 10
+
+
+def ai_deadline(job):
+    """Asks Gemini to read the posting and report its closing date. Cached, so each posting is read once."""
+    cache = json.load(open(DEADLINE_CACHE)) if os.path.exists(DEADLINE_CACHE) else {}
+    if job["url"] in cache:
+        return cache[job["url"]]
+    import jobbot as jb
+    model = jb.pick_model()
+    prompt = ("Read this job posting. Find the application closing date or deadline, if the posting gives one. "
+              "Return ONLY JSON: {\"deadline\": \"YYYY-MM-DD\" or null, \"evidence\": \"the exact words used\"}. "
+              "If the posting gives no deadline, return null. Do not guess.\n\nPOSTING:\n" + (job.get("description") or "")[:4000])
+    body = {"contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
+    res = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                        headers={"x-goog-api-key": jb.GEMINI_KEY}, json=body, timeout=60)
+    res.raise_for_status()
+    data = json.loads(res.json()["candidates"][0]["content"]["parts"][0]["text"])
+    value = data.get("deadline")
+    try:
+        value = datetime.strptime(value, "%Y-%m-%d").date().isoformat() if value else None
+    except (TypeError, ValueError):
+        value = None
+    cache[job["url"]] = value
+    json.dump(cache, open(DEADLINE_CACHE, "w"), indent=1)
+    time.sleep(6)
+    return value
+
+
 def parse_deadline(text):
     m = DATE_RE.search(text or "")
     if not m:
@@ -70,10 +101,25 @@ def plan_text(today):
            and a["company"] not in replied
            and tracker.load().get(a["company"], {}).get("stage", "Applied") == "Applied"]
     deadlines = []
-    for r in matches:
-        d = parse_deadline(r.get("description"))
-        if d and 0 <= (d - today).days <= DEADLINE_WARNING:
-            deadlines.append(f"{r['title']} at {r['company']}: closes {d:%d %b}")
+    checks = 0
+    for r in sorted(matches, key=lambda m: float(m.get("score") or 0), reverse=True):
+        if float(r.get("score") or 0) < 40:
+            continue
+        cached = json.load(open(DEADLINE_CACHE)) if os.path.exists(DEADLINE_CACHE) else {}
+        if r["url"] not in cached:
+            if checks >= MAX_AI_DEADLINE_CHECKS:
+                continue
+            checks += 1
+            try:
+                ai_deadline(r)
+            except Exception as e:
+                print(f"Deadline check failed for {r['title']}: {str(e)[:100]}")
+                continue
+        iso = (json.load(open(DEADLINE_CACHE)) if os.path.exists(DEADLINE_CACHE) else {}).get(r["url"])
+        if iso:
+            d = datetime.strptime(iso, "%Y-%m-%d").date()
+            if 0 <= (d - today).days <= DEADLINE_WARNING:
+                deadlines.append(f"{r['title']} at {r['company']}: closes {d:%d %b %Y}")
     interviews = [k for k, v in tracker.load().items() if v.get("stage") == "Interview"]
     lines = [f"Today's plan ({today:%A %d %B})", ""]
     lines.append("Apply by hand (top 3):")

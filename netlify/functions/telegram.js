@@ -268,10 +268,11 @@ exports.handler = async (event) => {
   }
 
   const job = parse(text);
-  if (!job.url) {
-    await reply(chatId, "Send a job link, or /help for commands.");
+  if (!job.url && !job.email && !job.description) {
+    await reply(chatId, "Send a job link, or an email address, or a job description. /help lists the commands.");
     return ok;
   }
+  if (!job.url) job.url = `pasted-${Date.now()}`;  // no link: the description and email are used instead
 
   const res = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/apply-job.yml/dispatches`, {
     method: "POST",

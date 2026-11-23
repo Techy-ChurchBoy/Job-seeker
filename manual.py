@@ -85,6 +85,10 @@ def main():
 
     if PASTED:
         title, text = "", PASTED
+    elif not JOB_URL.startswith("http"):
+        write_result("failed", "No link and no job description were given, so there is nothing to read.")
+        print("No link and no description. Nothing sent.")
+        return
     else:
         try:
             title, text = fetch_posting(JOB_URL)

@@ -390,8 +390,9 @@ def main():
     seen_path = "seen.json"
     seen = set(json.load(open(seen_path))) if os.path.exists(seen_path) else set()
 
+    from web_search import web_search_jobs  # loaded here: web_search imports this module
     jobs, lines, source_report = [], [], []
-    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, smartyacad, jooble):
+    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, smartyacad, jooble, web_search_jobs):
         try:
             got = list(src())
         except Exception as e:
