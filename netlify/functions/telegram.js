@@ -10,6 +10,7 @@ const HELP = [
   "/applied - the last 5 applications sent",
   "/matches - the 5 best matches so far",
   "/run - start the job search now",
+  "/skills - your skills report",
   "/mode - show whether automatic submission is on",
   "/auto on or /auto off - turn automatic submission on or off",
   "",
@@ -172,6 +173,18 @@ exports.handler = async (event) => {
   const text = (msg.text || "").trim();
 
   const command = text.split(/\s|@/)[0].toLowerCase();
+  if (command === "/skills") {
+    const res = await fetch(`https://api.github.com/repos/${REPO}/contents/skills_report.txt`, {
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        Accept: "application/vnd.github.raw",
+        "User-Agent": "jobbot-telegram",
+      },
+    });
+    const text = res.ok ? await res.text() : "No skills report yet. It is created after the next job run.";
+    for (let i = 0; i < text.length; i += 3500) await reply(chatId, text.slice(i, i + 3500));
+    return ok;
+  }
   if (command === "/mode" || command === "/auto") {
     const setting = (text.split(/\s+/)[1] || "").toLowerCase();
     try {
