@@ -1,12 +1,11 @@
 {
- "generated": "2026-11-23 17:56 UTC",
+ "generated": "2026-11-23 18:04 UTC",
  "report": [
-  "Last run: 2026-11-23T17:52+00:00 UTC.",
+  "Last run: 2026-11-23T18:01+00:00 UTC.",
   "The search checked 11 job sources and 11 responded. It found 330 postings in total, and 173 matched your skills.",
-  "13 postings were scored against your CV this run.",
-  "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+  "1 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "0 cover letters were written. 3 more are waiting for the next run.",
+  "1 cover letters were written. 2 more are waiting for the next run.",
   "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
@@ -14,7 +13,7 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-23T17:52+00:00",
+ "last_run": "2026-11-23T18:01+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 7 passed filter",
@@ -32,19 +31,14 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 11 linked pages",
   "- 20 jobs older than 30 days skipped",
-  "- 14 new jobs sent to scoring",
+  "- 1 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Data Entry Officer (Lagos) at Moniepoint. Blockers: none",
-  "  - 75: Data Entry Officer (Delta) at Moniepoint. Blockers: none",
-  "  - 65: Data Entry Officer (Oyo) at Moniepoint. Blockers: none",
-  "  - 35: Field Credit Officer (Edo North, Central and Ovia) at Moniepoint. Blockers: none",
-  "  - 20: Customer Support Officer at Yolat ( Remote) | Apply Now. Blockers: Previous work experience in banking, fintech, or hospitality industry is required",
-  "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 10: Data Engineer, AI & Analytics at Power Digital Marketing. Blockers: Requires residency in Spain and advanced data engineering experience that the candidate lacks."
  ],
  "stats": {
-  "jobs_scored": 219,
+  "jobs_scored": 220,
   "strong": 27,
-  "drafts": 32,
+  "drafts": 33,
   "sent_today": 1,
   "sent_total": 3
  },
@@ -69,11 +63,20 @@
   },
   {
    "skill": "Data Engineering",
-   "count": 7,
+   "count": 8,
    "examples": [
     "Data Engineer, AI & Analytics at Power Digital Marketing",
     "Senior Data Engineer at Lemon.io",
     "Manager - Data Engineering at Astrana Health"
+   ]
+  },
+  {
+   "skill": "Software Engineering",
+   "count": 6,
+   "examples": [
+    "Junior Full Stack Engineer (LATAM) at LoanBud",
+    "Data Engineer at WebEngage",
+    "Data Engineer, AI & Analytics at Power Digital Marketing"
    ]
   },
   {
@@ -95,21 +98,21 @@
    ]
   },
   {
+   "skill": "Etl Pipelines",
+   "count": 5,
+   "examples": [
+    "Data Engineer, AI & Analytics at Power Digital Marketing",
+    "Data Engineer at WebEngage",
+    "Data Engineer, AI & Analytics at Power Digital Marketing"
+   ]
+  },
+  {
    "skill": "Dbt",
    "count": 5,
    "examples": [
     "Sr Analyst, Analytics & Insights at BeyondTrust",
     "Senior Data Engineer at Lemon.io",
     "Senior Data Engineer (Python) at Proxify"
-   ]
-  },
-  {
-   "skill": "Software Engineering",
-   "count": 5,
-   "examples": [
-    "Junior Full Stack Engineer (LATAM) at LoanBud",
-    "Data Engineer at WebEngage",
-    "Data Engineer, AI & Analytics at Power Digital Marketing"
    ]
   },
   {
@@ -164,15 +167,6 @@
     "Senior MS Power BI Developer at Proxify",
     "Data Engineer, AI & Analytics at Power Digital Marketing",
     "Data Engineer at WebEngage"
-   ]
-  },
-  {
-   "skill": "Etl Pipelines",
-   "count": 4,
-   "examples": [
-    "Data Engineer, AI & Analytics at Power Digital Marketing",
-    "Data Engineer at WebEngage",
-    "Data Engineer, AI & Analytics at Power Digital Marketing"
    ]
   },
   {
@@ -412,7 +406,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828394101",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -427,7 +421,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828361101",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 65,
@@ -457,8 +451,8 @@
     "Moniebook platform experience"
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4929783101",
-   "drafted": false,
-   "recent": true
+   "drafted": true,
+   "recent": false
   },
   {
    "score": 60,
@@ -773,7 +767,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5014860101",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -1015,7 +1009,7 @@
    ],
    "url": "https://jobs.smartyacad.com/customer-support-officer-at-yolat-remote-apply-now/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -1032,7 +1026,7 @@
    ],
    "url": "https://jobicy.com/jobs/163904-business-services-assistant",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -1793,7 +1787,7 @@
    ],
    "url": "https://himalayas.app/companies/power-digital-marketing/jobs/data-engineer-ai-analytics-426035771?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -1814,7 +1808,7 @@
    ],
    "url": "https://himalayas.app/companies/win-home-inspection/jobs/marketing-associate-2-yrs-experience-100-remote-5908406791?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2843,7 +2837,7 @@
    ],
    "url": "https://himalayas.app/companies/power-digital-marketing/jobs/data-engineer-ai-analytics-8045764846?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2862,7 +2856,7 @@
    ],
    "url": "https://himalayas.app/companies/power-digital-marketing/jobs/data-engineer-ai-analytics-6953029588?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2880,6 +2874,25 @@
     "software development"
    ],
    "url": "https://himalayas.app/companies/power-digital-marketing/jobs/data-engineer-ai-analytics?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Data Engineer, AI & Analytics",
+   "company": "Power Digital Marketing",
+   "location": "Spain",
+   "source": "Himalayas",
+   "reason": "This is a senior engineering role requiring data engineering skills in Spain, which completely mismatches the candidate's finance and accounting background and location.",
+   "blockers": "Requires residency in Spain and advanced data engineering experience that the candidate lacks.",
+   "gaps": [
+    "Data engineering",
+    "ETL pipelines",
+    "data modeling",
+    "software engineering",
+    "AI-agentic workflows"
+   ],
+   "url": "https://himalayas.app/companies/power-digital-marketing/jobs/data-engineer-ai-analytics-3803593581?utm_source=api",
    "drafted": false,
    "recent": true
   },
@@ -3611,7 +3624,7 @@
    ],
    "url": "https://jobicy.com/jobs/163932-actuarial-associate-uk-3",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -4110,10 +4123,42 @@
    ],
    "url": "https://himalayas.app/companies/olsson-com/jobs/project-civil-engineer-data-center-4589961041?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-23T18:01+00:00",
+   "report": [
+    "Last run: 2026-11-23T18:01+00:00 UTC.",
+    "The search checked 11 job sources and 11 responded. It found 330 postings in total, and 173 matched your skills.",
+    "1 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written. 2 more are waiting for the next run.",
+    "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 15 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 7 passed filter",
+    "- workingnomads: 37 fetched, 10 passed filter",
+    "- jobicy: 45 fetched, 38 passed filter",
+    "- remoteok: 100 fetched, 54 passed filter",
+    "- greenhouse: 67 fetched, 36 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 46 fetched, 26 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 11 linked pages",
+    "- 20 jobs older than 30 days skipped",
+    "- 1 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 10: Data Engineer, AI & Analytics at Power Digital Marketing. Blockers: Requires residency in Spain and advanced data engineering experience that the candidate lacks."
+   ]
+  },
   {
    "last_run": "2026-11-23T17:52+00:00",
    "report": [

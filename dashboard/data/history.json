@@ -340,5 +340,37 @@
    "  - 20: Customer Support Officer at Yolat ( Remote) | Apply Now. Blockers: Previous work experience in banking, fintech, or hospitality industry is required",
    "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
   ]
+ },
+ {
+  "last_run": "2026-11-23T18:01+00:00",
+  "report": [
+   "Last run: 2026-11-23T18:01+00:00 UTC.",
+   "The search checked 11 job sources and 11 responded. It found 330 postings in total, and 173 matched your skills.",
+   "1 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 cover letters were written. 2 more are waiting for the next run.",
+   "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 7 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 45 fetched, 38 passed filter",
+   "- remoteok: 100 fetched, 54 passed filter",
+   "- greenhouse: 67 fetched, 36 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartyacad: 46 fetched, 26 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 67 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 11 linked pages",
+   "- 20 jobs older than 30 days skipped",
+   "- 1 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 10: Data Engineer, AI & Analytics at Power Digital Marketing. Blockers: Requires residency in Spain and advanced data engineering experience that the candidate lacks."
+  ]
  }
 ]

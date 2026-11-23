@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-23T17:52+00:00",
+ "last_run": "2026-11-23T18:01+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 7 passed filter",
@@ -17,14 +17,9 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 11 linked pages",
   "- 20 jobs older than 30 days skipped",
-  "- 14 new jobs sent to scoring",
+  "- 1 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Data Entry Officer (Lagos) at Moniepoint. Blockers: none",
-  "  - 75: Data Entry Officer (Delta) at Moniepoint. Blockers: none",
-  "  - 65: Data Entry Officer (Oyo) at Moniepoint. Blockers: none",
-  "  - 35: Field Credit Officer (Edo North, Central and Ovia) at Moniepoint. Blockers: none",
-  "  - 20: Customer Support Officer at Yolat ( Remote) | Apply Now. Blockers: Previous work experience in banking, fintech, or hospitality industry is required",
-  "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 10: Data Engineer, AI & Analytics at Power Digital Marketing. Blockers: Requires residency in Spain and advanced data engineering experience that the candidate lacks."
  ],
  "report": {
   "sources": [
@@ -95,17 +90,17 @@
     "passed": 0
    }
   ],
-  "new_to_score": 14,
-  "scored": 13,
-  "scoring_failed": 1,
+  "new_to_score": 1,
+  "scored": 1,
+  "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
  "drafts": {
-  "written": 0,
-  "failed": 3,
-  "waiting": 3
+  "written": 1,
+  "failed": 2,
+  "waiting": 2
  }
 }
