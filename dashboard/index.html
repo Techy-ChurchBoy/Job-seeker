@@ -235,6 +235,7 @@ function sentCard(r) {
   const head = el('div', 'row');
   head.append(el('b', null, r.title), el('span', 'muted', (r.sent_at || '').slice(0, 16).replace('T', ' ') + ' UTC'));
   c.append(head, el('div', 'muted', [r.company, 'to ' + r.email, 'score ' + r.score].join(' \u00b7 ')));
+  if (r.repeat) c.append(el('div', null, 'Sent more than once to this posting. Check before sending again.'));
   const a = link(r.url); if (a) { c.append(document.createElement('br'), a); }
   return c;
 }

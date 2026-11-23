@@ -34,6 +34,12 @@ FRIENDLY = {"remotive": "Remotive", "himalayas": "Himalayas", "workingnomads": "
             "lever": "company boards (Lever)", "ashby": "company boards (Ashby)", "smartyacad": "Dixcover Hub (jobs.smartyacad.com)", "jooble": "Jooble (Nigeria)"}
 
 
+def contact_address(description):
+    import re
+    found = re.findall(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+", description or "")
+    return [a for a in found if not any(x in a.lower() for x in ("noreply", "no-reply", "example."))]
+
+
 def no_blockers(r):
     return (r.get("blockers") or "").strip().lower() in ("", "none", "n/a", "no")
 
@@ -77,8 +83,10 @@ def plain_report(status, matches):
             lines.append(f"{n} application emails were sent: " + "; ".join(names[:5]) + more)
         else:
             lines.append("No application emails were sent this run.")
-    ready = sum(1 for r in matches if num(r.get("score")) >= 40 and no_blockers(r))
-    lines.append(f"Overall, {ready} postings currently qualify for an email (score 40 or more, no blockers).")
+    qualifying = [r for r in matches if num(r.get("score")) >= 40 and no_blockers(r)]
+    with_email = sum(1 for r in qualifying if contact_address(r.get("description", "")))
+    lines.append(f"Overall, {len(qualifying)} postings meet the score rules (40 or more, no blockers). "
+                 f"{with_email} of them list a contact address the bot can email; the rest need the application link.")
     return lines
 
 
@@ -165,7 +173,8 @@ def build():
                    for skill, n in gap_count.most_common(15)],
         "sent": [{"sent_at": r.get("sent_at", ""), "title": r.get("title", ""), "company": r.get("company", ""),
                   "email": r.get("email", ""), "score": r.get("score", ""), "url": r.get("url", ""),
-                  "recent": recent(r.get("sent_at"))}
+                  "recent": recent(r.get("sent_at")),
+                  "repeat": sum(1 for x in applied if x.get("url") == r.get("url")) > 1}
                  for r in reversed(applied)],
         "jobs": [{"score": int(num(r.get("score"))), "title": r.get("title", ""), "company": r.get("company", ""),
                   "location": r.get("location", ""), "source": r.get("source", ""), "reason": r.get("reason", ""),
