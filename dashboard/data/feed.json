@@ -1,11 +1,10 @@
 {
- "generated": "2026-11-23 06:04 UTC",
+ "generated": "2026-11-23 06:48 UTC",
  "report": [
-  "Last run: 2026-11-23T06:02+00:00 UTC.",
-  "The search checked 10 job sources and 10 responded. It found 325 postings in total, and 168 matched your skills.",
-  "15 postings were scored against your CV this run.",
+  "Last run: 2026-11-23T06:46+00:00 UTC.",
+  "The search checked 10 job sources and 10 responded. It found 326 postings in total, and 168 matched your skills.",
+  "9 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "1 cover letters were written.",
   "No application emails were sent this run.",
   "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
@@ -13,12 +12,12 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-23T06:02+00:00",
+ "last_run": "2026-11-23T06:46+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 9 passed filter",
+  "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
-  "- jobicy: 42 fetched, 36 passed filter",
+  "- jobicy: 43 fetched, 37 passed filter",
   "- remoteok: 100 fetched, 51 passed filter",
   "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -30,16 +29,16 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 10 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 15 new jobs sent to scoring",
+  "- 9 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Remote Office Assistants Needed at Coalition Technologies. Blockers: none",
-  "  - 15: Lead Systems Consultant - Enterprise Systems at GM Financial. Blockers: Senior-level experience required; US location requirement",
-  "  - 15: ERP Success Lead at mazeed. Blockers: Senior leadership experience required; location outside candidate's region (Philippines); role level is too senior for an entry-level candidate.",
-  "  - 15: Connected Devices Project Manager at Lifelancer. Blockers: 5+ years related experience required; Life science or health care related degree preferred/required context; Senior project management responsibilities.",
-  "  - 10: Strategic Account Executive - Spain at GitLab. Blockers: Required to be resident in Spain; requires senior enterprise software sales experience"
+  "  - 35: Data Entry Specialist, Remote at ABC Legal Services. Blockers: Must be located in Oklahoma, United States.",
+  "  - 35: AMiR Innovation Consult Programme Officer Vacancy (Remote) | Apply Now at Dixcover Hub listing. Blockers: Minimum of 2 years of relevant professional experience in an NGO, international development organisation, or management consulting firm required.",
+  "  - 25: Customer Operations &#038; Client Support Specialist at Brain and Structure Limited. Blockers: none",
+  "  - 15: Agile Operations & Security Coordinator at Movilges. Blockers: Minimum 5 years of experience in IT environments; Licenciatura em Engenharia Informática ou área relacionada (Computer Science or related degree required)",
+  "  - 10: NetSuite Functional and Operations Lead at STAFFVIRTUAL. Blockers: Requires eight or more years of substantial NetSuite experience and demonstrated independent ownership of a complex NetSuite environment."
  ],
  "stats": {
-  "jobs_scored": 181,
+  "jobs_scored": 190,
   "strong": 22,
   "drafts": 28,
   "sent_today": 0,
@@ -57,7 +56,7 @@
   },
   {
    "skill": "Sql",
-   "count": 7,
+   "count": 8,
    "examples": [
     "Test Data Quality Engineer at PLATO",
     "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems",
@@ -380,7 +379,7 @@
    ],
    "url": "https://app.testedrecruits.com/posting/16788",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 65,
@@ -632,6 +631,40 @@
    "recent": false
   },
   {
+   "score": 35,
+   "title": "AMiR Innovation Consult Programme Officer Vacancy (Remote) | Apply Now",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role requires at least two years of professional experience in an NGO, international development organisation, or management consulting firm, which exceeds the candidate's experience level.",
+   "blockers": "Minimum of 2 years of relevant professional experience in an NGO, international development organisation, or management consulting firm required.",
+   "gaps": [
+    "programme management",
+    "project coordination",
+    "international development",
+    "management consulting"
+   ],
+   "url": "https://jobs.smartyacad.com/amir-innovation-consult-programme-officer-vacancy-remote/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 35,
+   "title": "Data Entry Specialist, Remote",
+   "company": "ABC Legal Services",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This remote data entry role does not utilize the candidate's finance and accounting background, and requires location in the United States (specifically Oklahoma), whereas the candidate is based in Nigeria.",
+   "blockers": "Must be located in Oklahoma, United States.",
+   "gaps": [
+    "legal document filing",
+    "typing 50-60 wpm"
+   ],
+   "url": "https://himalayas.app/companies/abc-legal-services/jobs/data-entry-specialist-remote-2156885579?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 25,
    "title": "Senior Inventory Analyst -  Remote",
    "company": "Stryker",
@@ -803,6 +836,23 @@
    "url": "https://himalayas.app/companies/rippling/jobs/implementation-manager-broker-3776555956?utm_source=api",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Customer Operations &#038; Client Support Specialist",
+   "company": "Brain and Structure Limited",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The job is a customer support and operations role, which has minimal overlap with the candidate's core accounting, finance, and reporting skills.",
+   "blockers": "",
+   "gaps": [
+    "customer support experience",
+    "helpdesk and CRM tools like Zendesk or Intercom",
+    "ticket volume management"
+   ],
+   "url": "https://ellarecruit.com/ats/customer-service/apply/?utm_source=MyJobMag",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 20,
@@ -1435,7 +1485,7 @@
    ],
    "url": "https://himalayas.app/companies/gm-financial/jobs/lead-systems-consultant-enterprise-systems?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -1452,7 +1502,7 @@
    ],
    "url": "https://himalayas.app/companies/mazeed/jobs/erp-success-lead-8243871368?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -1468,6 +1518,32 @@
     "life science domain knowledge"
    ],
    "url": "https://himalayas.app/companies/lifelancer/jobs/connected-devices-project-manager-3118582075?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Agile Operations & Security Coordinator",
+   "company": "Movilges",
+   "location": "Portugal",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required 5+ years of IT experience and a degree in Computer Science or a related engineering field.",
+   "blockers": "Minimum 5 years of experience in IT environments; Licenciatura em Engenharia Informática ou área relacionada (Computer Science or related degree required)",
+   "gaps": [
+    "Scrum Master",
+    "Incident Manager",
+    "Change Manager",
+    "security",
+    "Risk Management",
+    "Compliance",
+    "Agile",
+    "ITIL",
+    "Jira",
+    "Confluence",
+    "ServiceNow",
+    "PagerDuty"
+   ],
+   "url": "https://himalayas.app/companies/movilges/jobs/agile-operations-security-coordinator?utm_source=api",
    "drafted": false,
    "recent": true
   },
@@ -2293,7 +2369,7 @@
    ],
    "url": "https://himalayas.app/companies/webengage/jobs/data-engineer-7824687803?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2315,7 +2391,7 @@
    ],
    "url": "https://himalayas.app/companies/astrana-health/jobs/manager-data-engineering-2746589544?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2332,7 +2408,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-product-manager-developer-ecosystem-reddit-1137977",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2350,7 +2426,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-drg-validation-auditor-clover-health-1137972",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2366,6 +2442,62 @@
     "Spanish market knowledge"
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-strategic-account-executive-spain-gitlab-1137963",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Freelance possible - Functional Business Analyst",
+   "company": "EngiFlex",
+   "location": "Belgium",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required active knowledge of French or Dutch and the extensive functional analyst experience demanded for this role.",
+   "blockers": "Active knowledge of French or Dutch; experienced functional analyst",
+   "gaps": [
+    "French language",
+    "Dutch language",
+    "BPMN",
+    "SQL",
+    "Test Analysis & Design",
+    "UML"
+   ],
+   "url": "https://himalayas.app/companies/engiflex/jobs/freelance-possible-functional-business-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Associate Clinical Research Manager (Early Phase))",
+   "company": "Lifelancer",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job is a clinical research management role in the United States requiring specific healthcare and FDA regulatory knowledge, which does not align with the candidate's finance and accounting background.",
+   "blockers": "Requires US residency and clinical research/FDA regulatory expertise, which the candidate lacks.",
+   "gaps": [
+    "Phase I processes",
+    "clinical study operations",
+    "FDA regulations",
+    "ICH GCP guidelines"
+   ],
+   "url": "https://himalayas.app/companies/lifelancer/jobs/associate-clinical-research-manager-early-phase?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "NetSuite Functional and Operations Lead",
+   "company": "STAFFVIRTUAL",
+   "location": "Philippines",
+   "source": "Himalayas",
+   "reason": "The role requires extensive senior-level NetSuite administration experience and eight years of specialized expertise that the junior candidate completely lacks.",
+   "blockers": "Requires eight or more years of substantial NetSuite experience and demonstrated independent ownership of a complex NetSuite environment.",
+   "gaps": [
+    "NetSuite administration",
+    "SuiteFlow",
+    "NetSuite functional customization",
+    "NetSuite reporting and forecasting"
+   ],
+   "url": "https://himalayas.app/companies/staffvirtual/jobs/netsuite-functional-and-operations-lead?utm_source=api",
    "drafted": false,
    "recent": true
   },
@@ -2924,7 +3056,7 @@
    ],
    "url": "https://himalayas.app/companies/makersite/jobs/senior-data-scientist-m-f-x?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -2944,7 +3076,7 @@
    ],
    "url": "https://himalayas.app/companies/khloud-inc/jobs/senior-director-of-national-accounts?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -2963,7 +3095,7 @@
    ],
    "url": "https://himalayas.app/companies/keyrock-com/jobs/head-of-risk-3753526255?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -2982,6 +3114,24 @@
     "SOX compliance"
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-manager-technical-accounting-and-equity-reporting-oura-1137976",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Senior Manager, Financial Analysis",
+   "company": "Socure",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The role requires 8+ years of experience and a senior management level, whereas the candidate is a junior accountant with under a year of experience.",
+   "blockers": "8+ years of experience required; Senior Manager role; US location requiring work authorization",
+   "gaps": [
+    "financial modeling for SaaS",
+    "investment banking experience",
+    "M&A evaluation",
+    "executive stakeholder management"
+   ],
+   "url": "https://jobicy.com/jobs/156603-senior-manager-financial-analysis",
    "drafted": false,
    "recent": true
   },
@@ -3394,7 +3544,7 @@
    ],
    "url": "https://himalayas.app/companies/shopify/jobs/senior-data-engineer-embedded?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -3415,10 +3565,64 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-forward-deployed-data-engineer-natera-1137970",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Manager Risk Adjustment Reporting",
+   "company": "Cotiviti",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate is a junior accountant in Nigeria, whereas this is a senior management role in the United States requiring extensive US healthcare risk adjustment experience.",
+   "blockers": "Requires senior-level experience (Senior Manager) and US residency; candidate has junior-level experience and is resident in Nigeria.",
+   "gaps": [
+    "Risk Adjustment expertise",
+    "actuarial thinking",
+    "data science",
+    "AWS-based data pipelines",
+    "team leadership and management"
+   ],
+   "url": "https://himalayas.app/companies/cotiviti/jobs/senior-manager-risk-adjustment-reporting?utm_source=api",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-23T06:46+00:00",
+   "report": [
+    "Last run: 2026-11-23T06:46+00:00 UTC.",
+    "The search checked 10 job sources and 10 responded. It found 326 postings in total, and 168 matched your skills.",
+    "9 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "No application emails were sent this run.",
+    "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 8 passed filter",
+    "- workingnomads: 35 fetched, 10 passed filter",
+    "- jobicy: 43 fetched, 37 passed filter",
+    "- remoteok: 100 fetched, 51 passed filter",
+    "- greenhouse: 67 fetched, 38 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 22 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 10 linked pages",
+    "- 22 jobs older than 30 days skipped",
+    "- 9 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 35: Data Entry Specialist, Remote at ABC Legal Services. Blockers: Must be located in Oklahoma, United States.",
+    "  - 35: AMiR Innovation Consult Programme Officer Vacancy (Remote) | Apply Now at Dixcover Hub listing. Blockers: Minimum of 2 years of relevant professional experience in an NGO, international development organisation, or management consulting firm required.",
+    "  - 25: Customer Operations &#038; Client Support Specialist at Brain and Structure Limited. Blockers: none",
+    "  - 15: Agile Operations & Security Coordinator at Movilges. Blockers: Minimum 5 years of experience in IT environments; Licenciatura em Engenharia Informática ou área relacionada (Computer Science or related degree required)",
+    "  - 10: NetSuite Functional and Operations Lead at STAFFVIRTUAL. Blockers: Requires eight or more years of substantial NetSuite experience and demonstrated independent ownership of a complex NetSuite environment."
+   ]
+  },
   {
    "last_run": "2026-11-23T06:02+00:00",
    "report": [

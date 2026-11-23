@@ -1,10 +1,10 @@
 {
- "last_run": "2026-11-23T06:02+00:00",
+ "last_run": "2026-11-23T06:46+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 9 passed filter",
+  "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 35 fetched, 10 passed filter",
-  "- jobicy: 42 fetched, 36 passed filter",
+  "- jobicy: 43 fetched, 37 passed filter",
   "- remoteok: 100 fetched, 51 passed filter",
   "- greenhouse: 67 fetched, 38 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -16,13 +16,13 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 10 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 15 new jobs sent to scoring",
+  "- 9 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Remote Office Assistants Needed at Coalition Technologies. Blockers: none",
-  "  - 15: Lead Systems Consultant - Enterprise Systems at GM Financial. Blockers: Senior-level experience required; US location requirement",
-  "  - 15: ERP Success Lead at mazeed. Blockers: Senior leadership experience required; location outside candidate's region (Philippines); role level is too senior for an entry-level candidate.",
-  "  - 15: Connected Devices Project Manager at Lifelancer. Blockers: 5+ years related experience required; Life science or health care related degree preferred/required context; Senior project management responsibilities.",
-  "  - 10: Strategic Account Executive - Spain at GitLab. Blockers: Required to be resident in Spain; requires senior enterprise software sales experience"
+  "  - 35: Data Entry Specialist, Remote at ABC Legal Services. Blockers: Must be located in Oklahoma, United States.",
+  "  - 35: AMiR Innovation Consult Programme Officer Vacancy (Remote) | Apply Now at Dixcover Hub listing. Blockers: Minimum of 2 years of relevant professional experience in an NGO, international development organisation, or management consulting firm required.",
+  "  - 25: Customer Operations &#038; Client Support Specialist at Brain and Structure Limited. Blockers: none",
+  "  - 15: Agile Operations & Security Coordinator at Movilges. Blockers: Minimum 5 years of experience in IT environments; Licenciatura em Engenharia Inform\u00e1tica ou \u00e1rea relacionada (Computer Science or related degree required)",
+  "  - 10: NetSuite Functional and Operations Lead at STAFFVIRTUAL. Blockers: Requires eight or more years of substantial NetSuite experience and demonstrated independent ownership of a complex NetSuite environment."
  ],
  "report": {
   "sources": [
@@ -36,7 +36,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 9
+    "passed": 8
    },
    {
     "name": "workingnomads",
@@ -47,8 +47,8 @@
    {
     "name": "jobicy",
     "ok": true,
-    "fetched": 42,
-    "passed": 36
+    "fetched": 43,
+    "passed": 37
    },
    {
     "name": "remoteok",
@@ -87,18 +87,13 @@
     "passed": 0
    }
   ],
-  "new_to_score": 15,
-  "scored": 15,
+  "new_to_score": 9,
+  "scored": 9,
   "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
- },
- "drafts": {
-  "written": 1,
-  "failed": 0,
-  "waiting": 0
  },
  "emails": {
   "sent": 0,
