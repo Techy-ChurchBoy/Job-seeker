@@ -1,8 +1,8 @@
 {
- "last_run": "2026-11-23T21:56+00:00",
+ "last_run": "2026-11-23T22:26+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 12 passed filter",
+  "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 37 fetched, 10 passed filter",
   "- jobicy: 47 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 54 passed filter",
@@ -17,14 +17,13 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 11 linked pages",
   "- 20 jobs older than 30 days skipped",
-  "- 14 new jobs sent to scoring",
+  "- 8 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 15: Supervisor, Revenue Cycle Management at Cardinal Health. Blockers: US residency and work authorization required",
-  "  - 15: Senior Revenue Accountant at Cologix, Inc.. Blockers: 4-8 years of relevant accounting experience required; CPA preferred",
-  "  - 15: Proxy Product Owner (w/m/d) at NETFORMIC GmbH. Blockers: Mehrj\u00e4hrige Erfahrung als Product Owner; verhandlungssicheres Deutsch in Wort und Schrift",
-  "  - 15: People Operations Specialist at Vireo Health. Blockers: Candidate is not located in the United States and the role is onsite/in the US; requires HR experience rather than finance/accounting.",
-  "  - 15: Customer Support Executive - EMEA Remote at LiveAboard.com BV. Blockers: Must be based in the Americas region; candidate is based in Nigeria",
-  "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 15: Program Coordinator, CACP at Aledade. Blockers: Candidate is not located in the United States and the job is onsite/based in the United States.",
+  "  - 15: Marketing and Communications Intern at Shatterproof. Blockers: Candidate is not located in the United States.",
+  "  - 10: Principal Strategy Consultant - Finance Transformation - REMOTE at Prime Therapeutics. Blockers: Requires 8 years of experience in strategy and finance transformation; requires US work authorization.",
+  "  - 10: Principal Revenue Operations Manager at Ethena. Blockers: Senior-level management role requiring significant revenue operations experience and US location.",
+  "  - 10: Contracts Administrator Principal at General Dynamics Information Technology. Blockers: Requires 8+ years of related experience; candidate has less than 1 year of professional experience."
  ],
  "report": {
   "sources": [
@@ -38,7 +37,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 12
+    "passed": 8
    },
    {
     "name": "workingnomads",
@@ -95,16 +94,16 @@
     "passed": 0
    }
   ],
-  "new_to_score": 14,
-  "scored": 12,
-  "scoring_failed": 2,
+  "new_to_score": 8,
+  "scored": 8,
+  "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
  "drafts": {
-  "written": 1,
+  "written": 0,
   "failed": 1,
   "waiting": 1
  }

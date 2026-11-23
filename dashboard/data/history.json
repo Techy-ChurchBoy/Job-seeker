@@ -440,5 +440,41 @@
    "  - 15: Customer Support Executive - EMEA Remote at LiveAboard.com BV. Blockers: Must be based in the Americas region; candidate is based in Nigeria",
    "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
   ]
+ },
+ {
+  "last_run": "2026-11-23T22:26+00:00",
+  "report": [
+   "Last run: 2026-11-23T22:26+00:00 UTC.",
+   "The search checked 11 job sources and 11 responded. It found 332 postings in total, and 176 matched your skills.",
+   "8 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "0 cover letters were written. 1 more are waiting for the next run.",
+   "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 8 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 47 fetched, 40 passed filter",
+   "- remoteok: 100 fetched, 54 passed filter",
+   "- greenhouse: 67 fetched, 36 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartyacad: 46 fetched, 26 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 67 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 11 linked pages",
+   "- 20 jobs older than 30 days skipped",
+   "- 8 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 15: Program Coordinator, CACP at Aledade. Blockers: Candidate is not located in the United States and the job is onsite/based in the United States.",
+   "  - 15: Marketing and Communications Intern at Shatterproof. Blockers: Candidate is not located in the United States.",
+   "  - 10: Principal Strategy Consultant - Finance Transformation - REMOTE at Prime Therapeutics. Blockers: Requires 8 years of experience in strategy and finance transformation; requires US work authorization.",
+   "  - 10: Principal Revenue Operations Manager at Ethena. Blockers: Senior-level management role requiring significant revenue operations experience and US location.",
+   "  - 10: Contracts Administrator Principal at General Dynamics Information Technology. Blockers: Requires 8+ years of related experience; candidate has less than 1 year of professional experience."
+  ]
  }
 ]
