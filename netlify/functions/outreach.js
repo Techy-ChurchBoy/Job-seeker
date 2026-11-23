@@ -36,6 +36,10 @@ exports.handler = async (event) => {
     workflow = "outreach-send.yml";
     inputs = { batch, ids };
     message = "Sending started. Results appear on this page after the next refresh.";
+  } else if (data.action === "run") {
+    workflow = "jobbot.yml";
+    inputs = {};
+    message = "Job search started. Results appear on the dashboard and on Telegram when it finishes.";
   } else if (data.action === "resend") {
     const url = String(data.url || "").trim();
     if (!/^https?:\/\/\S+$/.test(url)) return reply(400, { error: "Paste the job link." });

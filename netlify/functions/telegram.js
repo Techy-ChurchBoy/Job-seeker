@@ -9,6 +9,7 @@ const HELP = [
   "/status - sending on or paused, sends today, last run",
   "/applied - the last 5 applications sent",
   "/matches - the 5 best matches so far",
+  "/run - start the job search now",
   "",
   "To apply to a job, send a link. Optional lines: company:, email:, description:",
 ].join("\n");
@@ -143,6 +144,22 @@ exports.handler = async (event) => {
   const text = (msg.text || "").trim();
 
   const command = text.split(/\s|@/)[0].toLowerCase();
+  if (command === "/run") {
+    const res = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/jobbot.yml/dispatches`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": "jobbot-telegram",
+      },
+      body: JSON.stringify({ ref: "main" }),
+    });
+    await reply(chatId, res.ok
+      ? "Job search started. I'll send you the summary when it's done."
+      : `GitHub returned ${res.status}. Check GITHUB_TOKEN on this site.`);
+    return ok;
+  }
   if (command.startsWith("/")) {
     let answer;
     try {

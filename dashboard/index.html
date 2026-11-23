@@ -56,6 +56,12 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
   <div class="row"><span id="badge" class="pill">Loading</span><span id="lastrun" class="muted"></span></div>
   <h2>Overview</h2>
   <div id="stats" class="grid"></div>
+  <div class="clay">
+    <p class="muted">Start the full job search now, instead of waiting for the next scheduled run.</p>
+    <input id="runPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
+    <button class="btn" id="runBtn" type="button">Run the job search now</button>
+    <p class="muted" id="runMsg"></p>
+  </div>
   <h2>What happened last run</h2>
   <div id="report"></div>
   <h2>Skills to build</h2>
@@ -166,6 +172,17 @@ window.addEventListener('hashchange', () => showTab(location.hash.slice(1)));
 showTab(location.hash.slice(1) || 'overview');
 
 /* ---------- feed ---------- */
+document.getElementById('runBtn').addEventListener('click', async () => {
+  const password = document.getElementById('runPw').value;
+  const msg = document.getElementById('runMsg');
+  if (!password) { msg.textContent = 'Enter the password first.'; return; }
+  msg.textContent = 'Starting...';
+  const res = await fetch('/api/outreach', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password, action: 'run' }) });
+  const d = await res.json().catch(() => ({}));
+  msg.textContent = res.ok ? d.message : (d.error || 'Something went wrong.');
+  if (res.ok) document.getElementById('runPw').value = '';
+});
+
 function renderOverview(f, feed) {
   const st = f.stats || {};
   const badge = document.getElementById('badge');
