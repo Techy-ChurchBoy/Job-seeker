@@ -105,6 +105,15 @@ def main():
         letter = read_cover_letter(r)
         if letter:
             todo.append((float(r["score"]), r, letter))
+    queue = json.load(open("direct_apply.json", encoding="utf-8")) if os.path.exists("direct_apply.json") else {}
+    by_url = {r["url"]: r for r in rows}
+    for posting, item in queue.items():
+        if item.get("status") != "greenhouse" or item.get("apply_url") in state or posting not in by_url:
+            continue
+        orig = by_url[posting]
+        letter = read_cover_letter(orig)
+        if letter:
+            todo.append((float(orig["score"]), dict(orig, url=item["apply_url"]), letter))
     todo.sort(key=lambda x: x[0], reverse=True)
     todo = todo[:MAX_PER_RUN]
     print(f"{len(todo)} Greenhouse forms to fill. Mode: {'AUTO SUBMIT' if AUTO else 'review only'}.")
