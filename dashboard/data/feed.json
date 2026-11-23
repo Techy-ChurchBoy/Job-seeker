@@ -1,11 +1,12 @@
 {
- "generated": "2026-11-23 18:48 UTC",
+ "generated": "2026-11-23 22:00 UTC",
  "report": [
-  "Last run: 2026-11-23T18:45+00:00 UTC.",
-  "The search checked 11 job sources and 11 responded. It found 330 postings in total, and 173 matched your skills.",
-  "0 postings were scored against your CV this run.",
+  "Last run: 2026-11-23T21:56+00:00 UTC.",
+  "The search checked 11 job sources and 11 responded. It found 332 postings in total, and 180 matched your skills.",
+  "12 postings were scored against your CV this run.",
+  "2 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "0 cover letters were written. 2 more are waiting for the next run.",
+  "1 cover letters were written. 1 more are waiting for the next run.",
   "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
@@ -13,12 +14,12 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-23T18:45+00:00",
+ "last_run": "2026-11-23T21:56+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 7 passed filter",
+  "- himalayas: 20 fetched, 12 passed filter",
   "- workingnomads: 37 fetched, 10 passed filter",
-  "- jobicy: 45 fetched, 38 passed filter",
+  "- jobicy: 47 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 54 passed filter",
   "- greenhouse: 67 fetched, 36 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -31,19 +32,26 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 11 linked pages",
   "- 20 jobs older than 30 days skipped",
-  "- 0 new jobs sent to scoring"
+  "- 14 new jobs sent to scoring",
+  "- Top scores (threshold is 55):",
+  "  - 15: Supervisor, Revenue Cycle Management at Cardinal Health. Blockers: US residency and work authorization required",
+  "  - 15: Senior Revenue Accountant at Cologix, Inc.. Blockers: 4-8 years of relevant accounting experience required; CPA preferred",
+  "  - 15: Proxy Product Owner (w/m/d) at NETFORMIC GmbH. Blockers: Mehrjährige Erfahrung als Product Owner; verhandlungssicheres Deutsch in Wort und Schrift",
+  "  - 15: People Operations Specialist at Vireo Health. Blockers: Candidate is not located in the United States and the role is onsite/in the US; requires HR experience rather than finance/accounting.",
+  "  - 15: Customer Support Executive - EMEA Remote at LiveAboard.com BV. Blockers: Must be based in the Americas region; candidate is based in Nigeria",
+  "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
  ],
  "stats": {
-  "jobs_scored": 220,
+  "jobs_scored": 232,
   "strong": 27,
-  "drafts": 33,
+  "drafts": 34,
   "sent_today": 1,
   "sent_total": 3
  },
  "skills": [
   {
    "skill": "Python",
-   "count": 13,
+   "count": 14,
    "examples": [
     "Test Data Quality Engineer at PLATO",
     "Sr Analyst, Analytics & Insights at BeyondTrust",
@@ -61,7 +69,7 @@
   },
   {
    "skill": "Data Engineering",
-   "count": 8,
+   "count": 9,
    "examples": [
     "Data Engineer, AI & Analytics at Power Digital Marketing",
     "Senior Data Engineer at Lemon.io",
@@ -87,12 +95,30 @@
    ]
   },
   {
+   "skill": "Databricks",
+   "count": 5,
+   "examples": [
+    "Test Data Quality Engineer at PLATO",
+    "Sr Analyst, Analytics & Insights at BeyondTrust",
+    "Senior Data Engineer at Lemon.io"
+   ]
+  },
+  {
    "skill": "Us Gaap",
    "count": 5,
    "examples": [
     "Accounting Operations at Plaid",
     "Senior Corporate Accounting & Compliance Analyst II at NerdWallet",
     "Sr. Director, Global Controller at Resideo"
+   ]
+  },
+  {
+   "skill": "Netsuite",
+   "count": 5,
+   "examples": [
+    "Accountant at Canonical",
+    "Accounting Coordinator at Fandom",
+    "Senior Revenue Accountant at Cologix, Inc."
    ]
   },
   {
@@ -132,30 +158,12 @@
    ]
   },
   {
-   "skill": "Databricks",
-   "count": 4,
-   "examples": [
-    "Test Data Quality Engineer at PLATO",
-    "Sr Analyst, Analytics & Insights at BeyondTrust",
-    "Senior Data Engineer at Lemon.io"
-   ]
-  },
-  {
    "skill": "Salesforce",
    "count": 4,
    "examples": [
     "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
     "Junior Data Scientist - Contract at Mfinite Consulting",
     "Deal Desk Analyst (Eastern Time Zone Preferred) at Mixpanel"
-   ]
-  },
-  {
-   "skill": "Netsuite",
-   "count": 4,
-   "examples": [
-    "Accountant at Canonical",
-    "Accounting Coordinator at Fandom",
-    "Strategic Finance Manager at ClickUp"
    ]
   },
   {
@@ -403,7 +411,7 @@
     "Moniebook platform familiarity"
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828394101",
-   "drafted": false,
+   "drafted": true,
    "recent": false
   },
   {
@@ -1809,6 +1817,112 @@
    "recent": false
   },
   {
+   "score": 15,
+   "title": "Customer Support Executive - EMEA Remote",
+   "company": "LiveAboard.com BV",
+   "location": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Greenland, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia, Saint Martin (French part), Saint Pierre and Miquelon, Saint Vincent and the Grenadines, Sint Maarten (Dutch part), Suriname, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Minor Outlying Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+   "source": "Himalayas",
+   "reason": "The candidate is based in Nigeria, whereas this role strictly requires residency in the Americas for scheduling purposes.",
+   "blockers": "Must be based in the Americas region; candidate is based in Nigeria",
+   "gaps": [
+    "customer service experience",
+    "scuba diving knowledge",
+    "travel industry experience"
+   ],
+   "url": "https://himalayas.app/companies/liveaboard-com-bv/jobs/customer-support-executive-emea-remote?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "People Operations Specialist",
+   "company": "Vireo Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role is located in the United States while the candidate is in Nigeria, and focuses on HR and people operations rather than finance or accounting.",
+   "blockers": "Candidate is not located in the United States and the role is onsite/in the US; requires HR experience rather than finance/accounting.",
+   "gaps": [
+    "HR operations",
+    "recruitment",
+    "benefits administration",
+    "HRIS systems (Wurk, JazzHR)"
+   ],
+   "url": "https://himalayas.app/companies/vireo-health/jobs/people-operations-specialist?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Supervisor, Revenue Cycle Management",
+   "company": "Cardinal Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires physical presence and eligibility to work in the United States, whereas the candidate is based in Nigeria.",
+   "blockers": "US residency and work authorization required",
+   "gaps": [
+    "revenue cycle management",
+    "healthcare billing",
+    "US payer regulations",
+    "patient collections"
+   ],
+   "url": "https://himalayas.app/companies/cardinal-health/jobs/supervisor-revenue-cycle-management?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Proxy Product Owner (w/m/d)",
+   "company": "NETFORMIC GmbH",
+   "location": "Germany",
+   "source": "Himalayas",
+   "reason": "The job requires multi-year experience as a Product Owner in agile software projects and fluent German, which the candidate lacks.",
+   "blockers": "Mehrjährige Erfahrung als Product Owner; verhandlungssicheres Deutsch in Wort und Schrift",
+   "gaps": [
+    "Product Owner experience",
+    "JIRA and Confluence",
+    "fluent German",
+    "agile software project management"
+   ],
+   "url": "https://himalayas.app/companies/netformic-gmbh/jobs/proxy-product-owner-w-m-d?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Associate Underwriter, Workers Compensation",
+   "company": "Amynta Group",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires US residency and 2+ years of recent experience in Workers Compensation customer service, neither of which the candidate possesses.",
+   "blockers": "US residency requirement; 2+ years of Workers Compensation customer service experience required",
+   "gaps": [
+    "workers compensation underwriting",
+    "insurance policy processing",
+    "broker management"
+   ],
+   "url": "https://himalayas.app/companies/amynta-group/jobs/associate-underwriter-workers-compensation?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Senior Revenue Accountant",
+   "company": "Cologix, Inc.",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the 4 to 8 years of relevant accounting experience and the CPA required for this senior-level role.",
+   "blockers": "4-8 years of relevant accounting experience required; CPA preferred",
+   "gaps": [
+    "CPA",
+    "U.S. GAAP",
+    "NetSuite",
+    "lease revenue accounting experience"
+   ],
+   "url": "https://jobicy.com/jobs/163978-senior-revenue-accountant-2",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 10,
    "title": "Product Manager, Transformation",
    "company": "Trax Technologies",
@@ -2895,6 +3009,60 @@
    "recent": false
   },
   {
+   "score": 10,
+   "title": "Senior Customer Success Manager",
+   "company": "Relativity",
+   "location": "Singapore",
+   "source": "Himalayas",
+   "reason": "This is a senior customer success role in legal tech based in Singapore, which does not match the candidate's entry-level accounting and finance profile or geographic location.",
+   "blockers": "Senior role level; requires location in Singapore; requires senior customer success experience.",
+   "gaps": [
+    "customer success management",
+    "legal tech expertise",
+    "account portfolio management",
+    "change management"
+   ],
+   "url": "https://himalayas.app/companies/relativity-com/jobs/senior-customer-success-manager?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Intern - Bioinformatics",
+   "company": "Labcorp",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job is for a Bioinformatics Intern requiring specific enrollment in a science or computer science degree and technical programming skills, which does not align with the candidate's finance and accounting background.",
+   "blockers": "Required current enrollment in a Bachelor's degree program in Bioinformatics, Computational Biology, Computer Science or Data Science; out-of-country location (United States).",
+   "gaps": [
+    "Bioinformatics",
+    "Python",
+    "computational biology",
+    "machine learning",
+    "genomic data analysis"
+   ],
+   "url": "https://himalayas.app/companies/labcorp/jobs/intern-bioinformatics?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Political Data Project Manager",
+   "company": "WeVote",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate is ineligible because the role requires physical location in the United States and has specific U.S. time zone overlap requirements.",
+   "blockers": "Must be currently located in the U.S.",
+   "gaps": [
+    "Agile leadership",
+    "OKR management",
+    "U.S. political data collection"
+   ],
+   "url": "https://himalayas.app/companies/wevote/jobs/political-data-project-manager?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 5,
    "title": "Senior Data Scientist",
    "company": "Bright Vision Technologies",
@@ -3625,6 +3793,43 @@
    "recent": false
   },
   {
+   "score": 5,
+   "title": "Provider Recruiting Associate - Registered Dietitians",
+   "company": "Nourish",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires recruiting registered dietitians in the United States, which does not utilize the candidate's finance, accounting, or operations skills and requires US presence.",
+   "blockers": "Requires location in the United States and domain expertise in healthcare provider recruiting.",
+   "gaps": [
+    "Healthcare recruiting",
+    "talent acquisition",
+    "US healthcare system knowledge"
+   ],
+   "url": "https://himalayas.app/companies/nourish/jobs/provider-recruiting-associate-registered-dietitians?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "FP&A Manager - Subscriptions",
+   "company": "iFIT",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "This is a senior management role (FP&A Manager) requiring extensive experience that vastly exceeds the candidate's junior profile.",
+   "blockers": "Requires managerial experience and senior FP&A background that the candidate lacks.",
+   "gaps": [
+    "people leadership",
+    "strategic planning",
+    "subscription P&amp",
+    "L ownership",
+    "Adaptive",
+    "Snowflake"
+   ],
+   "url": "https://jobicy.com/jobs/163985-fpa-manager-subscriptions",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 0,
    "title": "Project Manager - Advanced Manufacturing",
    "company": "CACI International Inc",
@@ -4122,9 +4327,67 @@
    "url": "https://himalayas.app/companies/olsson-com/jobs/project-civil-engineer-data-center-4589961041?utm_source=api",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Sr Data Engineer",
+   "company": "Harris",
+   "location": "India",
+   "source": "Himalayas",
+   "reason": "The role requires senior-level data engineering and Databricks expertise, which completely misaligns with the candidate's entry-level accounting and finance background.",
+   "blockers": "Senior-level experience in data engineering and Databricks required",
+   "gaps": [
+    "Databricks",
+    "Azure",
+    "Python/Scala",
+    "data engineering",
+    "Spark",
+    "data pipelines"
+   ],
+   "url": "https://himalayas.app/companies/harris/jobs/sr-data-engineer?utm_source=api",
+   "drafted": false,
+   "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-23T21:56+00:00",
+   "report": [
+    "Last run: 2026-11-23T21:56+00:00 UTC.",
+    "The search checked 11 job sources and 11 responded. It found 332 postings in total, and 180 matched your skills.",
+    "12 postings were scored against your CV this run.",
+    "2 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written. 1 more are waiting for the next run.",
+    "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 15 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 12 passed filter",
+    "- workingnomads: 37 fetched, 10 passed filter",
+    "- jobicy: 47 fetched, 40 passed filter",
+    "- remoteok: 100 fetched, 54 passed filter",
+    "- greenhouse: 67 fetched, 36 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 46 fetched, 26 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 11 linked pages",
+    "- 20 jobs older than 30 days skipped",
+    "- 14 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 15: Supervisor, Revenue Cycle Management at Cardinal Health. Blockers: US residency and work authorization required",
+    "  - 15: Senior Revenue Accountant at Cologix, Inc.. Blockers: 4-8 years of relevant accounting experience required; CPA preferred",
+    "  - 15: Proxy Product Owner (w/m/d) at NETFORMIC GmbH. Blockers: Mehrjährige Erfahrung als Product Owner; verhandlungssicheres Deutsch in Wort und Schrift",
+    "  - 15: People Operations Specialist at Vireo Health. Blockers: Candidate is not located in the United States and the role is onsite/in the US; requires HR experience rather than finance/accounting.",
+    "  - 15: Customer Support Executive - EMEA Remote at LiveAboard.com BV. Blockers: Must be based in the Americas region; candidate is based in Nigeria",
+    "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+   ]
+  },
   {
    "last_run": "2026-11-23T18:45+00:00",
    "report": [
