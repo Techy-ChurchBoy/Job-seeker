@@ -80,6 +80,13 @@ jobs:
             git pull --rebase -q origin main && git push && break
             echo "push was rejected, retrying in 10 seconds"; sleep 10
           done
+      - run: python -u generic_apply.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
       - name: Notify on Telegram
         if: always()
         env:

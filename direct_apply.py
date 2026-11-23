@@ -8,6 +8,7 @@ import csv, json, os, re, time
 from datetime import datetime, timezone
 import requests
 import jobbot as jb
+from urllib.parse import urljoin
 from send_applications import contact_email
 
 QUEUE = "direct_apply.json"
@@ -40,18 +41,66 @@ def eligible(r, skip):
     return score >= 40 and no_blockers and not contact_email(r.get("description", ""))
 
 
-def find_apply_link(posting_url):
-    if ATS.match(posting_url):
-        return posting_url
-    if not jb.allowed_by_robots(posting_url):
+APPLY_LINK = re.compile(r"apply|careers|vacanc|opening|join (us|our)", re.I)
+FORM_EMAIL = re.compile(r"<input[^>]+type=[\"']email", re.I)
+FORM_FILE = re.compile(r"<input[^>]+type=[\"']file", re.I)
+MAX_REQUESTS = 6  # per posting: pages opened while looking for a form
+
+
+def page(url):
+    if not jb.allowed_by_robots(url):
         return ""
     time.sleep(2)
     try:
-        html = requests.get(posting_url, headers={"User-Agent": UA}, timeout=20).text
+        return requests.get(url, headers={"User-Agent": UA}, timeout=20).text
     except requests.RequestException:
         return ""
-    found = ATS.search(html)
-    return found.group(0) if found else ""
+
+
+def apply_links(html, base):
+    """Links on a page whose wording suggests applying or careers."""
+    found = []
+    for href, text in re.findall(r"<a\s[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", html or "", re.I | re.S):
+        if APPLY_LINK.search(re.sub(r"<[^>]+>", " ", text)):
+            link = urljoin(base, href)
+            if link.startswith("http") and link not in found:
+                found.append(link)
+    return found
+
+
+def classify(html, url):
+    """('greenhouse' | 'supported_other', link) for a known system, ('generic_form', url) for a plain form."""
+    ats = ATS.search(html or "")
+    if ats:
+        link = ats.group(0)
+        return ("greenhouse" if GREENHOUSE.match(link) else "supported_other", link)
+    if FORM_EMAIL.search(html or "") and FORM_FILE.search(html or ""):
+        return ("generic_form", url)
+    return None
+
+
+def find_apply_link(posting_url):
+    """Looks at the posting, then up to two links deeper, for a supported system or a plain application form."""
+    budget = [MAX_REQUESTS]
+
+    def visit(url):
+        budget[0] -= 1
+        return page(url)
+
+    html = visit(posting_url)
+    hit = classify(html, posting_url)
+    if hit:
+        return hit
+    queue_pages = [(link, 1) for link in apply_links(html, posting_url)[:3]]
+    while queue_pages and budget[0] > 0:
+        url, depth = queue_pages.pop(0)
+        html = visit(url)
+        hit = classify(html, url)
+        if hit:
+            return hit
+        if depth < 2:
+            queue_pages += [(link, depth + 1) for link in apply_links(html, url)[:2]]
+    return ("none", "")
 
 
 def telegram(text):
@@ -72,12 +121,8 @@ def main():
     todo = [r for r in rows if r.get("url") not in queue and r.get("url") not in done and eligible(r, skip)][:MAX_PER_RUN]
     print(f"{len(todo)} postings to check for a direct application link.")
     for r in todo:
-        link = find_apply_link(r["url"])
-        if GREENHOUSE.match(link):
-            status = "greenhouse"
-        elif link:
-            status = "supported_other"
-        else:
+        status, link = find_apply_link(r["url"])
+        if status == "none":
             status = "no_direct_form"
         queue[r["url"]] = {"company": r["company"], "title": r["title"], "posting": r["url"],
                            "apply_url": link, "status": status,
