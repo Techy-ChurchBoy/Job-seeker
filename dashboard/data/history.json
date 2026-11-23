@@ -274,5 +274,33 @@
    "  - 15: Implementation Consultant at Samsara. Blockers: Residency in Canada required",
    "  - 15: Bomen Advisory Is Hiring Executive Marketers at Dixcover Hub listing. Blockers: The role requires strong marketing and sales skills rather than accounting or finance expertise."
   ]
+ },
+ {
+  "last_run": "2026-11-23T11:57+00:00",
+  "report": [
+   "Last run: 2026-11-23T11:57+00:00 UTC.",
+   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 173 matched your skills.",
+   "0 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 10 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 43 fetched, 37 passed filter",
+   "- remoteok: 100 fetched, 51 passed filter",
+   "- greenhouse: 68 fetched, 37 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartyacad: 46 fetched, 26 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 68 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 12 linked pages",
+   "- 22 jobs older than 30 days skipped",
+   "- 0 new jobs sent to scoring"
+  ]
  }
 ]

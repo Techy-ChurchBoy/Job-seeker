@@ -1,18 +1,17 @@
 {
- "generated": "2026-11-23 10:23 UTC",
+ "generated": "2026-11-23 11:59 UTC",
  "report": [
-  "Last run: 2026-11-23T10:18+00:00 UTC.",
+  "Last run: 2026-11-23T11:57+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 173 matched your skills.",
-  "13 postings were scored against your CV this run.",
+  "0 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "2 cover letters were written.",
-  "Overall, 20 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
  ],
  "batches": [],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-23T10:18+00:00",
+ "last_run": "2026-11-23T11:57+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 10 passed filter",
@@ -29,17 +28,11 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
   "- 22 jobs older than 30 days skipped",
-  "- 13 new jobs sent to scoring",
-  "- Top scores (threshold is 55):",
-  "  - 50: Remote Academic Administrators at Learnsignal. Blockers: none",
-  "  - 40: Accounts Payable Specialist at Samsara. Blockers: Requirement to be based in or fully remote within Mexico.",
-  "  - 25: Customer Relationship &#038; Client Retention Virtual Assistant at Talentbridging. Blockers: none",
-  "  - 15: Implementation Consultant at Samsara. Blockers: Residency in Canada required",
-  "  - 15: Bomen Advisory Is Hiring Executive Marketers at Dixcover Hub listing. Blockers: The role requires strong marketing and sales skills rather than accounting or finance expertise."
+  "- 0 new jobs sent to scoring"
  ],
  "stats": {
   "jobs_scored": 204,
-  "strong": 24,
+  "strong": 23,
   "drafts": 31,
   "sent_today": 0,
   "sent_total": 2
@@ -212,19 +205,6 @@
    "blockers": "",
    "gaps": [],
    "url": "https://jobs.smartyacad.com/kleenol-nigeria-limited-graduate-trainee-programme-2026-2/",
-   "drafted": true,
-   "recent": false
-  },
-  {
-   "score": 85,
-   "title": "Access Bank Entry Level Training Programme 2026",
-   "company": "Dixcover Hub listing",
-   "location": "",
-   "source": "Dixcover Hub",
-   "reason": "The candidate meets all criteria including age (25 in Nov 2026), holds a bachelor's degree, and the role is an entry-level training programme in the financial services sector.",
-   "blockers": "",
-   "gaps": [],
-   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
    "drafted": true,
    "recent": false
   },
@@ -493,7 +473,7 @@
    ],
    "url": "https://jobs.smartyacad.com/remote-academic-administrators-at-learnsignal/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -573,7 +553,7 @@
    ],
    "url": "https://himalayas.app/companies/samsara/jobs/accounts-payable-specialist?utm_source=api",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 35,
@@ -901,7 +881,7 @@
    ],
    "url": "https://jobs.smartyacad.com/customer-relationship-client-retention-virtual-assistant-at-talentbridging/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -1626,7 +1606,7 @@
    ],
    "url": "https://himalayas.app/companies/samsara/jobs/implementation-consultant-8039665811?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -1644,7 +1624,7 @@
    ],
    "url": "https://jobs.smartyacad.com/bomen-advisory-is-hiring-executive-marketers/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2619,7 +2599,7 @@
    ],
    "url": "https://himalayas.app/companies/nttdata/jobs/data-migration-engineer-informatica-dbt-remote-tx-us?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2636,7 +2616,7 @@
    ],
    "url": "https://himalayas.app/companies/veeam-software/jobs/executive-assistant-remote-central-or-west-coast?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2655,7 +2635,7 @@
    ],
    "url": "https://himalayas.app/companies/aps-bank-plc/jobs/aps-43-25-senior-data-developer?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -3307,7 +3287,7 @@
    ],
    "url": "https://himalayas.app/companies/lifelancer/jobs/project-oversight-ad-rems-team?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -3329,7 +3309,7 @@
    ],
    "url": "https://himalayas.app/companies/engiflex/jobs/product-owner-cloud-et-paas-cdi-ou-freelance?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -3346,7 +3326,7 @@
    ],
    "url": "https://himalayas.app/companies/samsara/jobs/customer-success-manager-french-speaker?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -3365,7 +3345,7 @@
    ],
    "url": "https://himalayas.app/companies/samsara/jobs/security-operations-engineer?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -3491,6 +3471,19 @@
    ],
    "url": "https://himalayas.app/companies/centrilogic/jobs/senior-sql-server-database-administrator-advisory-services?utm_source=api",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Access Bank Entry Level Training Programme 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate meets all criteria including age (25 in Nov 2026), holds a bachelor's degree, and the role is an entry-level training programme in the financial services sector.",
+   "blockers": "Ruled out by you (skip_companies.json)",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
+   "drafted": true,
    "recent": false
   },
   {
@@ -3834,10 +3827,38 @@
    ],
    "url": "https://himalayas.app/companies/funkycorp/jobs/localization-quality-controller-korean-project-based-freelance-position?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-23T11:57+00:00",
+   "report": [
+    "Last run: 2026-11-23T11:57+00:00 UTC.",
+    "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 173 matched your skills.",
+    "0 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 10 passed filter",
+    "- workingnomads: 37 fetched, 10 passed filter",
+    "- jobicy: 43 fetched, 37 passed filter",
+    "- remoteok: 100 fetched, 51 passed filter",
+    "- greenhouse: 68 fetched, 37 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 46 fetched, 26 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 68 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 12 linked pages",
+    "- 22 jobs older than 30 days skipped",
+    "- 0 new jobs sent to scoring"
+   ]
+  },
   {
    "last_run": "2026-11-23T10:18+00:00",
    "report": [
