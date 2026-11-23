@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 06:48 UTC",
+ "generated": "2026-11-23 09:34 UTC",
  "report": [
   "Last run: 2026-11-23T06:46+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 326 postings in total, and 168 matched your skills.",
@@ -38,9 +38,9 @@
   "  - 10: NetSuite Functional and Operations Lead at STAFFVIRTUAL. Blockers: Requires eight or more years of substantial NetSuite experience and demonstrated independent ownership of a complex NetSuite environment."
  ],
  "stats": {
-  "jobs_scored": 190,
+  "jobs_scored": 191,
   "strong": 22,
-  "drafts": 28,
+  "drafts": 29,
   "sent_today": 0,
   "sent_total": 2
  },
@@ -646,7 +646,7 @@
    ],
    "url": "https://jobs.smartyacad.com/amir-innovation-consult-programme-officer-vacancy-remote/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 35,
@@ -662,7 +662,7 @@
    ],
    "url": "https://himalayas.app/companies/abc-legal-services/jobs/data-entry-specialist-remote-2156885579?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -852,7 +852,7 @@
    ],
    "url": "https://ellarecruit.com/ats/customer-service/apply/?utm_source=MyJobMag",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -1545,6 +1545,21 @@
    ],
    "url": "https://himalayas.app/companies/movilges/jobs/agile-operations-security-coordinator?utm_source=api",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Seflam Graduate Trainee Program 2026 - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "The candidate holds a B.Sc. degree, but the job explicitly requires a Higher National Diploma (HND) with Distinction or Upper Credit, rendering the candidate ineligible.",
+   "blockers": "Requires a Higher National Diploma (HND) with Distinction or Upper Credit; candidate holds a B.Sc. degree.",
+   "gaps": [
+    "oil and gas industry experience"
+   ],
+   "url": "https://jobs.smartyacad.com/seflam-graduate-trainee-program-2026/",
+   "drafted": true,
    "recent": true
   },
   {
@@ -2463,7 +2478,7 @@
    ],
    "url": "https://himalayas.app/companies/engiflex/jobs/freelance-possible-functional-business-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2481,7 +2496,7 @@
    ],
    "url": "https://himalayas.app/companies/lifelancer/jobs/associate-clinical-research-manager-early-phase?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -2499,7 +2514,7 @@
    ],
    "url": "https://himalayas.app/companies/staffvirtual/jobs/netsuite-functional-and-operations-lead?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -3133,7 +3148,7 @@
    ],
    "url": "https://jobicy.com/jobs/156603-senior-manager-financial-analysis",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -3584,7 +3599,7 @@
    ],
    "url": "https://himalayas.app/companies/cotiviti/jobs/senior-manager-risk-adjustment-reporting?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
