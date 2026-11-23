@@ -10,6 +10,8 @@ const HELP = [
   "/applied - the last 5 applications sent",
   "/matches - the 5 best matches so far",
   "/run - start the job search now",
+  "/mode - show whether automatic submission is on",
+  "/auto on or /auto off - turn automatic submission on or off",
   "",
   "To apply to a job, send a link. Optional lines: company:, email:, description:",
 ].join("\n");
@@ -104,6 +106,32 @@ async function matches() {
   return top.map(r => `${r.s}: ${r.title} at ${r.company}`).join("\n");
 }
 
+const AUTO_VAR = "AUTO_SUBMIT";
+
+function ghVar() {
+  return fetch(`https://api.github.com/repos/${REPO}/actions/variables/${AUTO_VAR}`, {
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
+      "User-Agent": "jobbot-telegram",
+    },
+  });
+}
+
+function ghVarWrite(method, value) {
+  const path = method === "POST" ? "" : `/${AUTO_VAR}`;
+  return fetch(`https://api.github.com/repos/${REPO}/actions/variables${path}`, {
+    method,
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+      "User-Agent": "jobbot-telegram",
+    },
+    body: JSON.stringify({ name: AUTO_VAR, value }),
+  });
+}
+
 async function reply(chatId, text) {
   const res = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
     method: "POST",
@@ -144,6 +172,34 @@ exports.handler = async (event) => {
   const text = (msg.text || "").trim();
 
   const command = text.split(/\s|@/)[0].toLowerCase();
+  if (command === "/mode" || command === "/auto") {
+    const setting = (text.split(/\s+/)[1] || "").toLowerCase();
+    try {
+      if (command === "/auto" && (setting === "on" || setting === "off")) {
+        const value = setting === "on" ? "true" : "false";
+        const exists = (await ghVar()).status !== 404;
+        const res = exists
+          ? await ghVarWrite("PATCH", value)
+          : await ghVarWrite("POST", value);
+        if (!res.ok) throw new Error(`GitHub returned ${res.status}. The token needs Variables read and write access.`);
+        await reply(chatId, value === "true"
+          ? "Automatic submission is ON. Forms will be submitted without asking you first."
+          : "Automatic submission is OFF. Forms are filled and sent to you to submit.");
+      } else if (command === "/auto") {
+        await reply(chatId, "Use /auto on or /auto off.");
+      } else {
+        const res = await ghVar();
+        if (res.status === 404) return await reply(chatId, "Automatic submission is OFF.") && ok;
+        if (!res.ok) throw new Error(`GitHub returned ${res.status}. The token needs Variables read access.`);
+        const on = String((await res.json()).value).toLowerCase() === "true";
+        await reply(chatId, on ? "Automatic submission is ON. Use /auto off to change it."
+                               : "Automatic submission is OFF. Use /auto on to change it.");
+      }
+    } catch (e) {
+      await reply(chatId, e.message);
+    }
+    return ok;
+  }
   if (command === "/run") {
     const res = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/jobbot.yml/dispatches`, {
       method: "POST",
