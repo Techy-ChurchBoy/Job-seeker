@@ -342,12 +342,16 @@ def parse_reply(text):
     return parsed
 
 
+def norm(text):
+    return re.sub(r"[-_]+", " ", text.lower())
+
+
 def skip_check(result, j):
     """Postings you have ruled out (skip_companies.json) score 0, so no path will apply to them."""
     if os.path.exists("skip_companies.json"):
         skip = json.load(open("skip_companies.json", encoding="utf-8"))
-        text = f"{j.get('company', '')} {j.get('title', '')} {j.get('url', '')}".lower()
-        if any(s.lower() in text for s in skip):
+        text = norm(f"{j.get('company', '')} {j.get('title', '')} {j.get('url', '')}")
+        if any(norm(s) in text for s in skip):
             result["score"] = 0
             result["blockers"] = "Ruled out by you (skip_companies.json)"
     return result
