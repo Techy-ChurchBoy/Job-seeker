@@ -1,13 +1,14 @@
 {
- "generated": "2026-11-23 11:59 UTC",
+ "generated": "2026-11-23 13:01 UTC",
  "report": [
   "Last run: 2026-11-23T11:57+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 173 matched your skills.",
   "0 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "Overall, 19 postings currently qualify for an email (score 40 or more, no blockers)."
+  "Overall, 19 postings meet the score rules (40 or more, no blockers). 1 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
+ "tracker": [],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
@@ -182,7 +183,8 @@
    "email": "recruitments@accessbankplc.com",
    "score": "90",
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
-   "recent": true
+   "recent": true,
+   "repeat": true
   },
   {
    "sent_at": "2026-11-21T18:04:00+00:00",
@@ -191,7 +193,8 @@
    "email": "recruitments@accessbankplc.com",
    "score": "90",
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
-   "recent": true
+   "recent": true,
+   "repeat": true
   }
  ],
  "jobs": [
