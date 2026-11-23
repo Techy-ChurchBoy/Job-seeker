@@ -15,6 +15,7 @@ def load():
 
 def update(company, stage):
     """Sets the stage for every application whose company name contains the text given."""
+    stage = stage.strip().capitalize()
     if stage not in STAGES:
         return f"Unknown stage. Use one of: {', '.join(STAGES)}."
     data = load()

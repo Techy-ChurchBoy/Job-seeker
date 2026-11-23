@@ -65,7 +65,9 @@ def plan_text(today):
     applied_urls = {r["url"] for r in applied}
     by_hand = [r for r in matches if float(r.get("score") or 0) >= 40 and r["url"] not in applied_urls
                and not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", r.get("description") or "")][:3]
+    replied = {r.get("company") for r in (json.load(open("replies.json")) if os.path.exists("replies.json") else [])}
     due = [a for a in applied if (today - datetime.fromisoformat(a["sent_at"]).date()).days >= FOLLOW_UP_AFTER
+           and a["company"] not in replied
            and tracker.load().get(a["company"], {}).get("stage", "Applied") == "Applied"]
     deadlines = []
     for r in matches:
