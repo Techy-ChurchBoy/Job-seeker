@@ -5,6 +5,7 @@ Writes skills_report.txt (read by the /skills command on Telegram) and emails it
 Needs env for the email: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, CANDIDATE_NAME.
 """
 import csv, json, os, smtplib
+from urllib.parse import quote_plus
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
@@ -29,6 +30,43 @@ ADVICE = {
     "Business and communication": "Show these in your CV with a real example from your NCAT role or your fellowship work. Don't claim what you haven't done.",
     "Other": "Look at the example jobs to see what they actually need, then decide whether it's worth building.",
 }
+
+
+# Providers named by hand. The bot doesn't generate web addresses; each skill also gets a search link.
+RESOURCES = {
+    "power bi": ["Microsoft Learn (free Power BI modules)", "Coursera (Power BI courses)"],
+    "sql": ["freeCodeCamp (free SQL course)", "Microsoft Learn (SQL fundamentals)"],
+    "excel": ["Microsoft Learn (free Excel training)", "Coursera (Excel courses)"],
+    "ifrs": ["IFRS Foundation (free educational material)", "ACCA (IFRS study resources)"],
+    "sap": ["openSAP (free SAP courses)", "SAP Learning Hub (paid)"],
+    "oracle": ["Oracle Learning Library (free tutorials)"],
+    "netsuite": ["Oracle NetSuite SuiteAnswers (free help articles)"],
+    "dynamics": ["Microsoft Learn (Dynamics 365 Business Central modules)"],
+    "sage intacct": ["Sage official training videos"],
+    "quickbooks": ["QuickBooks ProAdvisor training (free)"],
+    "xero": ["Xero Central (free courses)"],
+    "python": ["python.org tutorial (free)", "freeCodeCamp (Python course)"],
+    "tableau": ["Tableau free training videos"],
+    "salesforce": ["Salesforce Trailhead (free)"],
+    "acca": ["ACCA official study route"],
+    "cpa": ["AICPA official CPA exam information"],
+    "financial modell": ["Corporate Finance Institute (free articles)", "Wall Street Prep (free resources)"],
+    "forecast": ["Corporate Finance Institute (free articles)"],
+    "budget": ["Corporate Finance Institute (free articles)"],
+    "inventory": ["Coursera (supply chain and inventory courses)"],
+}
+
+
+def learn_line(skill):
+    low = skill.lower()
+    named = []
+    for key, providers in RESOURCES.items():
+        if key in low:
+            named += providers
+    search = quote_plus(f"free course {skill}")
+    named = named[:2]
+    head = "; ".join(named) if named else "no named provider yet"
+    return f"{head}. Search: https://www.google.com/search?q={search}"
 
 
 def category(skill):
@@ -73,6 +111,7 @@ def build():
         out += [name.upper(), ADVICE[name]]
         for skill, n in items[:8]:
             out.append(f"- {skill.title()} ({n} job{'s' if n != 1 else ''}): e.g. {examples[skill][0]}")
+            out.append(f"  Learn: {learn_line(skill)}")
         out.append("")
     quick = [s for s, n in counts.items() if n >= 2]
     out += ["QUICK WINS", "These show up in two or more jobs, so they are worth building first."]
