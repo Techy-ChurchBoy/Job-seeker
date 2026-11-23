@@ -13,6 +13,7 @@ NAME = os.getenv("CANDIDATE_NAME", "").strip()
 PHONE = os.getenv("CANDIDATE_PHONE", "").strip()
 SENDER = os.getenv("GMAIL_ADDRESS", "").strip()
 TOKEN, CHAT = os.getenv("TELEGRAM_BOT_TOKEN", "").strip(), os.getenv("TELEGRAM_CHAT_ID", "").strip()
+AUTO = os.getenv("AUTO_SUBMIT", "false").strip().lower() == "true"  # the dashboard switch
 QUEUE, STATE_PATH, SCREEN_DIR = "direct_apply.json", "applied_forms.json", "applications/screens"
 MAX_PER_RUN = 5
 
@@ -73,6 +74,20 @@ def fill_form(page, letter, sel):
     return "filled"
 
 
+def submit(page):
+    """Presses the form's submit button and checks for a confirmation. Never used when a captcha is shown."""
+    button = page.locator('button[type="submit"], input[type="submit"]')
+    if not button.count():
+        return "no_submit_button"
+    button.first.click()
+    page.wait_for_timeout(6000)
+    text = page.content().lower()
+    if any(s in text for s in ("thank you for applying", "thanks for applying", "application submitted",
+                               "application received", "we have received your application")):
+        return "submitted"
+    return "submit_unconfirmed"
+
+
 def main():
     if not os.path.exists(QUEUE):
         print("No direct-apply queue yet.")
@@ -107,14 +122,22 @@ def main():
                 page.goto(url, timeout=60000)
                 result = fill_form(page, fill_placeholders(letter), sel)
                 if result == "filled":
+                    if AUTO:
+                        result = submit(page)
                     page.screenshot(path=shot, full_page=True)
-                    result = "ready_for_review"
+                    if result == "filled":
+                        result = "ready_for_review"
             except Exception as e:
                 result = f"error: {str(e)[:150]}"
             state[url] = result
             if result == "ready_for_review":
                 telegram(f"Form filled, NOT submitted: {item['title']} at {item['company']}.\n"
                          f"Check the screenshot, then submit here: {url}", shot)
+            elif result in ("submitted", "submit_unconfirmed"):
+                telegram(f"Application {'submitted' if result == 'submitted' else 'sent, but no confirmation was shown'}: "
+                         f"{item['title']} at {item['company']}.", shot)
+            elif result == "captcha":
+                telegram(f"This form has a captcha, so I stopped. Please apply here: {url}")
             else:
                 telegram(f"Could not fill automatically ({result}). Apply here: {url}")
             print(f"{item['company']} | {item['title']}: {result}")

@@ -82,6 +82,7 @@ jobs:
           done
       - run: python -u generic_apply.py
         env:
+          AUTO_SUBMIT: ${{ vars.AUTO_SUBMIT }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
