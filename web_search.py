@@ -70,7 +70,7 @@ def web_search_jobs():
                 html = requests.get(url, headers={"User-Agent": UA}, timeout=20).text
             except requests.RequestException:
                 continue
-            raw = re.sub(r"<(script|style)[^>]*>.*?</\\1>", " ", html, flags=re.S | re.I)
+            raw = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.S | re.I)
             text = jb.strip_html(raw)
             if len(text) < 300:
                 continue
