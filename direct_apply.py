@@ -19,10 +19,13 @@ MAX_PER_RUN = 10
 
 
 def skipped_companies():
-    names = [n.lower() for n in json.load(open("skip_companies.json"))] if os.path.exists("skip_companies.json") else []
-    if os.path.exists("applied.csv"):
-        names += [r["company"].lower() for r in csv.DictReader(open("applied.csv", encoding="utf-8")) if r.get("company")]
-    return [n for n in names if n]
+    return [n.lower() for n in json.load(open("skip_companies.json"))] if os.path.exists("skip_companies.json") else []
+
+
+def applied_urls():
+    if not os.path.exists("applied.csv"):
+        return set()
+    return {r["url"] for r in csv.DictReader(open("applied.csv", encoding="utf-8")) if r.get("url")}
 
 
 def eligible(r, skip):
@@ -65,7 +68,8 @@ def main():
         return
     skip = skipped_companies()
     rows = list(csv.DictReader(open("matches.csv", encoding="utf-8")))
-    todo = [r for r in rows if r.get("url") not in queue and eligible(r, skip)][:MAX_PER_RUN]
+    done = applied_urls()
+    todo = [r for r in rows if r.get("url") not in queue and r.get("url") not in done and eligible(r, skip)][:MAX_PER_RUN]
     print(f"{len(todo)} postings to check for a direct application link.")
     for r in todo:
         link = find_apply_link(r["url"])
