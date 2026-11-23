@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-23 13:04 UTC",
+ "generated": "2026-11-23 13:09 UTC",
  "report": [
   "Last run: 2026-11-23T11:57+00:00 UTC.",
   "The search checked 10 job sources and 10 responded. It found 330 postings in total, and 173 matched your skills.",
   "0 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "Overall, 19 postings meet the score rules (40 or more, no blockers). 1 of them list a contact address the bot can email; the rest need the application link."
+  "Overall, 20 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -32,8 +32,8 @@
   "- 0 new jobs sent to scoring"
  ],
  "stats": {
-  "jobs_scored": 205,
-  "strong": 23,
+  "jobs_scored": 206,
+  "strong": 24,
   "drafts": 32,
   "sent_today": 1,
   "sent_total": 3
@@ -371,6 +371,21 @@
     "customer billing resolution"
    ],
    "url": "https://app.testedrecruits.com/posting/16788",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 75,
+   "title": "Job posting",
+   "company": "example.com",
+   "location": "",
+   "source": "Manual",
+   "reason": "The candidate has the required B.Sc. degree, NYSC completion, and accounting experience that matches the Account Officer role, though the job asks for 2-4 years of experience while the candidate has 11 months.",
+   "blockers": "",
+   "gaps": [
+    "Sage experience"
+   ],
+   "url": "https://example.com/jobs/test-accountant-2026",
    "drafted": true,
    "recent": false
   },
@@ -1653,7 +1668,7 @@
    ],
    "url": "https://example.com/jobs/test-accountant-2026",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
