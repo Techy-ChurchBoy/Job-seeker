@@ -1,0 +1,38 @@
+name: track
+on:
+  workflow_dispatch:
+    inputs:
+      company:
+        description: Company name (part of it is enough)
+        required: true
+      stage:
+        description: Applied, Replied, Interview, Offer, Rejected or Closed
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -u tracker.py
+        env:
+          TRACK_COMPANY: ${{ inputs.company }}
+          TRACK_STAGE: ${{ inputs.stage }}
+      - run: python -u dashboard.py
+      - name: Save results
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          for p in tracker.json dashboard; do [ -e "$p" ] && git add "$p"; done
+          git diff --staged --quiet || git commit -m "tracker update"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 10; done

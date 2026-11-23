@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: jobbot
@@ -72,7 +73,7 @@ jobs:
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
-          for p in matches.csv seen.json prepared.json applied.csv alerted.json applied_forms.json gmail_drafts.json failed_sends.json replies.json needs_attention.json direct_apply.json skip_companies.json skills_report.txt skills_report_sent.json status.json applications cv documents dashboard; do
+          for p in matches.csv seen.json prepared.json applied.csv alerted.json applied_forms.json gmail_drafts.json failed_sends.json replies.json needs_attention.json direct_apply.json skip_companies.json skills_report.txt skills_report_sent.json productivity_state.json followups_done.json tracker.json applications/prep status.json applications cv documents dashboard; do
             [ -e "$p" ] && git add "$p"
           done
           git diff --staged --quiet || git commit -m "update matches and drafts"
@@ -88,6 +89,14 @@ jobs:
           CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
           CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+      - run: python -u productivity.py
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
       - run: python -u skills_report.py
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}

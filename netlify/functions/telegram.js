@@ -11,6 +11,7 @@ const HELP = [
   "/matches - the 5 best matches so far",
   "/run - start the job search now",
   "/skills - your skills report",
+  "/track <company> <stage> - update an application (Applied, Replied, Interview, Offer, Rejected, Closed)",
   "/mode - show whether automatic submission is on",
   "/auto on or /auto off - turn automatic submission on or off",
   "",
@@ -173,6 +174,29 @@ exports.handler = async (event) => {
   const text = (msg.text || "").trim();
 
   const command = text.split(/\s|@/)[0].toLowerCase();
+  if (command === "/track") {
+    const parts = text.split(/\s+/).slice(1);
+    const stage = (parts.pop() || "").toLowerCase();
+    const company = parts.join(" ");
+    if (!company || !stage) {
+      await reply(chatId, "Use /track <company> <stage>, for example /track Access Bank interview");
+      return ok;
+    }
+    const res = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/track.yml/dispatches`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": "jobbot-telegram",
+      },
+      body: JSON.stringify({ ref: "main", inputs: { company, stage: stage.charAt(0).toUpperCase() + stage.slice(1) } }),
+    });
+    await reply(chatId, res.ok
+      ? `Updating ${company} to ${stage}. The dashboard will show it shortly.`
+      : `GitHub returned ${res.status}. Check GITHUB_TOKEN on this site.`);
+    return ok;
+  }
   if (command === "/skills") {
     const res = await fetch(`https://api.github.com/repos/${REPO}/contents/skills_report.txt`, {
       headers: {

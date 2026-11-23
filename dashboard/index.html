@@ -80,6 +80,9 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
 </section>
 
 <section class="page" id="page-sent">
+  <h2>Tracker</h2>
+  <p class="muted">Update a stage from Telegram: /track Company interview</p>
+  <div id="tracker"></div>
   <h2>Sent applications</h2>
   <div class="sub">Last 7 days</div>
   <div id="sent-new"></div>
@@ -261,6 +264,18 @@ function renderJobs(f) {
   fill(document.getElementById('jobs-old'), jobs.filter(j => !j.recent), jobCard, 'No earlier jobs.');
 }
 
+function renderTracker(f) {
+  const box = document.getElementById('tracker'); box.replaceChildren();
+  const list = f.tracker || [];
+  if (!list.length) { box.append(note('No applications tracked yet.')); return; }
+  list.forEach(t => {
+    const c = card();
+    c.append(el('b', null, t.company));
+    c.append(el('div', 'muted', t.stage + (t.updated ? ' \u00b7 updated ' + t.updated : '')));
+    box.append(c);
+  });
+}
+
 function renderSent(f) {
   const sent = f.sent || [];
   fill(document.getElementById('sent-new'), sent.filter(r => r.recent), sentCard, 'Nothing sent in the last 7 days.');
@@ -389,6 +404,7 @@ fetch('data/feed.json', { cache: 'no-store' })
     renderOverview(f, feed);
     renderJobs(f);
     renderSent(f);
+    renderTracker(f);
     renderReplies(f);
     renderHistory(f);
     renderBatches(f.batches);

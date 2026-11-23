@@ -103,6 +103,16 @@ def load_replies():
         return []
 
 
+def load_tracker():
+    if not os.path.exists("tracker.json"):
+        return []
+    try:
+        data = json.load(open("tracker.json", encoding="utf-8"))
+    except ValueError:
+        return []
+    return [{"company": k, "stage": v.get("stage", ""), "updated": v.get("updated", "")} for k, v in data.items()]
+
+
 def load_batches():
     out = []
     for path in sorted(glob.glob("outreach/*.json"), reverse=True):
@@ -157,6 +167,7 @@ def build():
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "report": plain_report(status, matches),
         "batches": load_batches(),
+        "tracker": load_tracker(),
         "replies": [dict(r, recent=recent(r.get("received"))) for r in (load_replies() if SHOW_REPLIES else [])],
         "replies_hidden": (not SHOW_REPLIES) and os.path.exists("replies.json"),
         "paused": paused,
