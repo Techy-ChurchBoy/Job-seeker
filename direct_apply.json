@@ -142,5 +142,29 @@
   "apply_url": "https://app.testedrecruits.com/posting/16788",
   "status": "generic_form",
   "checked": "2026-11-23T11:59+00:00"
+ },
+ "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828394101": {
+  "company": "Moniepoint",
+  "title": "Data Entry Officer (Delta)",
+  "posting": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828394101",
+  "apply_url": "",
+  "status": "no_direct_form",
+  "checked": "2026-11-23T17:56+00:00"
+ },
+ "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828361101": {
+  "company": "Moniepoint",
+  "title": "Data Entry Officer (Lagos)",
+  "posting": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828361101",
+  "apply_url": "",
+  "status": "no_direct_form",
+  "checked": "2026-11-23T17:56+00:00"
+ },
+ "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4929783101": {
+  "company": "Moniepoint",
+  "title": "Data Entry Officer (Oyo)",
+  "posting": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4929783101",
+  "apply_url": "",
+  "status": "no_direct_form",
+  "checked": "2026-11-23T17:56+00:00"
  }
 }

@@ -302,5 +302,43 @@
    "- 22 jobs older than 30 days skipped",
    "- 0 new jobs sent to scoring"
   ]
+ },
+ {
+  "last_run": "2026-11-23T17:52+00:00",
+  "report": [
+   "Last run: 2026-11-23T17:52+00:00 UTC.",
+   "The search checked 11 job sources and 11 responded. It found 330 postings in total, and 173 matched your skills.",
+   "13 postings were scored against your CV this run.",
+   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "0 cover letters were written. 3 more are waiting for the next run.",
+   "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 7 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 45 fetched, 38 passed filter",
+   "- remoteok: 100 fetched, 54 passed filter",
+   "- greenhouse: 67 fetched, 36 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartyacad: 46 fetched, 26 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 67 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 11 linked pages",
+   "- 20 jobs older than 30 days skipped",
+   "- 14 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 75: Data Entry Officer (Lagos) at Moniepoint. Blockers: none",
+   "  - 75: Data Entry Officer (Delta) at Moniepoint. Blockers: none",
+   "  - 65: Data Entry Officer (Oyo) at Moniepoint. Blockers: none",
+   "  - 35: Field Credit Officer (Edo North, Central and Ovia) at Moniepoint. Blockers: none",
+   "  - 20: Customer Support Officer at Yolat ( Remote) | Apply Now. Blockers: Previous work experience in banking, fintech, or hospitality industry is required",
+   "- 1 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  ]
  }
 ]
