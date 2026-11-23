@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-23T18:01+00:00",
+ "last_run": "2026-11-23T18:45+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 7 passed filter",
@@ -17,9 +17,7 @@
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 11 linked pages",
   "- 20 jobs older than 30 days skipped",
-  "- 1 new jobs sent to scoring",
-  "- Top scores (threshold is 55):",
-  "  - 10: Data Engineer, AI & Analytics at Power Digital Marketing. Blockers: Requires residency in Spain and advanced data engineering experience that the candidate lacks."
+  "- 0 new jobs sent to scoring"
  ],
  "report": {
   "sources": [
@@ -90,8 +88,8 @@
     "passed": 0
    }
   ],
-  "new_to_score": 1,
-  "scored": 1,
+  "new_to_score": 0,
+  "scored": 0,
   "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
@@ -99,7 +97,7 @@
   ]
  },
  "drafts": {
-  "written": 1,
+  "written": 0,
   "failed": 2,
   "waiting": 2
  }
