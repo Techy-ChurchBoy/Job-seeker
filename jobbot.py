@@ -8,6 +8,7 @@ Setup:
     python jobbot.py
 """
 import csv, json, os, re, sys, time
+import records
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
@@ -468,6 +469,8 @@ def main():
             w.writeheader()
         for r in results:
             w.writerow({k: r.get(k, "") for k in w.fieldnames})
+            records.upsert("scoring", r["url"], **{k: r.get(k, "") for k in
+                           ("score", "reason", "blockers", "skill_gaps", "title", "company", "source")})
     json.dump(sorted(seen), open(seen_path, "w"))
     if scored:
         lines.append("- Top scores (threshold is %d):" % MIN_SCORE)

@@ -62,6 +62,8 @@ def ai_deadline(job):
     except (TypeError, ValueError):
         value = None
     cache[job["url"]] = value
+    import records
+    records.upsert("deadlines", job["url"], deadline=value)
     json.dump(cache, open(DEADLINE_CACHE, "w"), indent=1)
     time.sleep(6)
     return value

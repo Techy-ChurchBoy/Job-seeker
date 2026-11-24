@@ -11,6 +11,7 @@ import csv, json, os, re, smtplib, sys
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from prepare import slug  # same file naming as the drafts
+import records
 from jobbot import update_status
 
 MIN_SCORE = 40
@@ -139,6 +140,7 @@ def main(dry_run):
             failed_urls.append(r["url"])
             continue
 
+        records.upsert("sender", r["url"], sent=True)
         applied.append({"sent_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                         "score": score, "title": r["title"], "company": r["company"],
                         "email": addr, "url": r["url"]})

@@ -64,6 +64,8 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
   </div>
   <h2>What happened last run</h2>
   <div id="report"></div>
+  <h2>Consistency check</h2>
+  <div id="checks"></div>
   <h2>Skills to build</h2>
   <p class="muted">Skills the jobs ask for that your CV doesn't show yet, most common first.</p>
   <div id="skills"></div>
@@ -279,6 +281,13 @@ function renderTracker(f) {
   });
 }
 
+function renderChecks(f) {
+  const box = document.getElementById('checks'); box.replaceChildren();
+  const list = f.checks || [];
+  if (!list.length) { box.append(note('All records agree with the logs.')); return; }
+  list.slice(0, 20).forEach(issue => { const c = card(); c.append(el('div', null, issue)); box.append(c); });
+}
+
 function renderUsage(f) {
   const box = document.getElementById('usage'); box.replaceChildren();
   const u = f.usage || {};
@@ -424,6 +433,7 @@ fetch('data/feed.json', { cache: 'no-store' })
     renderSent(f);
     renderTracker(f);
     renderUsage(f);
+    renderChecks(f);
     renderReplies(f);
     renderHistory(f);
     renderBatches(f.batches);

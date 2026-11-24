@@ -113,6 +113,13 @@ def load_tracker():
     return [{"company": k, "stage": v.get("stage", ""), "updated": v.get("updated", "")} for k, v in data.items()]
 
 
+def build_checks():
+    import records
+    return records.check(
+        [r for r in rows("applied.csv")],
+        [r for r in rows("matches.csv")])
+
+
 def build_usage():
     """Calls per process, with rate-limit (429) and overload (503) counts. Keeps the newest 5,000 lines."""
     if not os.path.exists("usage.jsonl"):
@@ -197,6 +204,7 @@ def build():
         "batches": load_batches(),
         "tracker": load_tracker(),
         "usage": build_usage(),
+        "checks": build_checks(),
         "replies": [dict(r, recent=recent(r.get("received"))) for r in (load_replies() if SHOW_REPLIES else [])],
         "replies_hidden": (not SHOW_REPLIES) and os.path.exists("replies.json"),
         "paused": paused,

@@ -152,6 +152,8 @@ def main():
             f.write(f"## Cover letter\n\n{scrub(out.get('cover_letter', ''))}\n\n")
             f.write(f"## Tailored CV\n\n{scrub(out.get('tailored_cv', ''))}\n")
         done.add(r["url"])
+        import records
+        records.upsert("letters", r["url"], drafted=True)
         made += 1
         json.dump(sorted(done), open(PREPARED_PATH, "w"))
 
