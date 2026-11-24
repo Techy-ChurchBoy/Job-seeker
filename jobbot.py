@@ -179,6 +179,49 @@ def ashby():
                               f"https://api.ashbyhq.com/posting-api/job-board/{c['board']}", parse)
 
 
+def arbeitnow():
+    """Arbeitnow public job board API. Mostly European roles, so most will be filtered out."""
+    r = requests.get("https://www.arbeitnow.com/api/job-board-api", timeout=30,
+                     headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
+    r.raise_for_status()
+    for j in (r.json().get("data") or [])[:50]:
+        yield dict(posted=to_dt(j.get("created_at")), source="Arbeitnow", title=j.get("title", ""),
+                   company=j.get("company_name", ""), location=j.get("location", ""), url=j.get("url", ""),
+                   description=strip_html(j.get("description")))
+
+
+def themuse():
+    """The Muse public jobs API. An optional free key (THE_MUSE_KEY) raises its limits."""
+    params = {"page": 0, "descending": "true"}
+    key = os.getenv("THE_MUSE_KEY", "").strip()
+    if key:
+        params["api_key"] = key
+    r = requests.get("https://www.themuse.com/api/public/jobs", params=params, timeout=30,
+                     headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
+    r.raise_for_status()
+    for j in r.json().get("results", []):
+        locations = ", ".join(x.get("name", "") for x in j.get("locations", []))
+        yield dict(posted=to_dt(j.get("publication_date")), source="The Muse", title=j.get("name", ""),
+                   company=(j.get("company") or {}).get("name", ""), location=locations,
+                   url=(j.get("refs") or {}).get("landing_page", ""), description=strip_html(j.get("contents")))
+
+
+def weworkremotely():
+    """We Work Remotely publishes an RSS feed. Titles usually read 'Company: Job title'."""
+    import xml.etree.ElementTree as ET
+    r = requests.get("https://weworkremotely.com/remote-jobs.rss", timeout=30,
+                     headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
+    r.raise_for_status()
+    for item in ET.fromstring(r.content).iter("item"):
+        raw = (item.findtext("title") or "").strip()
+        company, _, title = raw.partition(":")
+        if not title:
+            company, title = "", raw
+        yield dict(posted=to_dt(item.findtext("pubDate")), source="We Work Remotely", title=title.strip(),
+                   company=company.strip(), location="Remote", url=(item.findtext("link") or "").strip(),
+                   description=strip_html(item.findtext("description")))
+
+
 SMARTYACAD_SKIP = ("scholarship", "grant", "bootcamp")
 FOLLOW_CAP = 50  # linked pages opened per run
 FOLLOW_UA = "jobbot-personal-job-search/1.0 (one request per run)"
@@ -416,7 +459,7 @@ def main():
 
     from web_search import web_search_jobs  # loaded here: web_search imports this module
     jobs, lines, source_report = [], [], []
-    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, smartyacad, jooble, web_search_jobs):
+    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, smartyacad, jooble, arbeitnow, themuse, weworkremotely, web_search_jobs):
         try:
             got = list(src())
         except Exception as e:

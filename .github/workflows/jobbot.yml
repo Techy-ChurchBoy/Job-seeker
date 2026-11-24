@@ -16,6 +16,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     env:
+      THE_MUSE_KEY: ${{ secrets.THE_MUSE_KEY }}
       GEMINI_KEY_SCORING: ${{ secrets.GEMINI_KEY_SCORING }}
       GEMINI_KEY_LETTERS: ${{ secrets.GEMINI_KEY_LETTERS }}
       GEMINI_KEY_DEADLINES: ${{ secrets.GEMINI_KEY_DEADLINES }}
