@@ -62,6 +62,8 @@ def main():
         smtp.login(SENDER, PASSWORD)
         smtp.send_message(msg)
 
+    import records
+    records.upsert("sender", JOB_URL, sent=True)
     new = not os.path.exists("applied.csv")
     with open("applied.csv", "a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)

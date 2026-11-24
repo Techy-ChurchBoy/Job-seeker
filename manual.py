@@ -145,6 +145,8 @@ def main():
         sa.save_applied(applied)
         lines.append(f"- Emailed {to}")
         write_result("sent", f"Email sent to {to}.")
+        import records
+        records.upsert("sender", JOB_URL, sent=True)
 
     print("\n".join(lines))
     if os.getenv("GITHUB_STEP_SUMMARY"):
