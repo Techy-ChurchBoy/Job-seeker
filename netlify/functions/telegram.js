@@ -11,6 +11,7 @@ const HELP = [
   "/matches - the 5 best matches so far",
   "/run - start the job search now",
   "/skills - your skills report",
+  "/boards - find more company job boards",
   "/track <company> <stage> - update an application (Applied, Replied, Interview, Offer, Rejected, Closed)",
   "/mode - show whether automatic submission is on",
   "/auto on or /auto off - turn automatic submission on or off",
@@ -194,6 +195,22 @@ exports.handler = async (event) => {
     });
     await reply(chatId, res.ok
       ? `Updating ${company} to ${stage}. The dashboard will show it shortly.`
+      : `GitHub returned ${res.status}. Check GITHUB_TOKEN on this site.`);
+    return ok;
+  }
+  if (command === "/boards") {
+    const res = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/board-finder.yml/dispatches`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": "jobbot-telegram",
+      },
+      body: JSON.stringify({ ref: "main" }),
+    });
+    await reply(chatId, res.ok
+      ? "Board finder started. I'll send the result when it's done."
       : `GitHub returned ${res.status}. Check GITHUB_TOKEN on this site.`);
     return ok;
   }

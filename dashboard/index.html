@@ -69,6 +69,7 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
     <p class="muted">Start the full job search now, instead of waiting for the next scheduled run.</p>
     <input id="runPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
     <button class="btn" id="runBtn" type="button">Run the job search now</button>
+    <button class="btn" id="boardsBtn" type="button">Find job boards</button>
     <p class="muted" id="runMsg"></p>
   </div>
   <h2>What happened last run</h2>
@@ -198,6 +199,16 @@ document.getElementById('runBtn').addEventListener('click', async () => {
   const d = await res.json().catch(() => ({}));
   msg.textContent = res.ok ? d.message : (d.error || 'Something went wrong.');
   if (res.ok) document.getElementById('runPw').value = '';
+});
+
+document.getElementById('boardsBtn').addEventListener('click', async () => {
+  const password = document.getElementById('runPw').value;
+  const msg = document.getElementById('runMsg');
+  if (!password) { msg.textContent = 'Enter the password first.'; return; }
+  msg.textContent = 'Starting the board finder...';
+  const res = await fetch('/api/outreach', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password, action: 'boards' }) });
+  const d = await res.json().catch(() => ({}));
+  msg.textContent = res.ok ? d.message : (d.error || 'Something went wrong.');
 });
 
 function renderOverview(f, feed) {

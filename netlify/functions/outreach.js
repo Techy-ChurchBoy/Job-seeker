@@ -36,6 +36,10 @@ exports.handler = async (event) => {
     workflow = "outreach-send.yml";
     inputs = { batch, ids };
     message = "Sending started. Results appear on this page after the next refresh.";
+  } else if (data.action === "boards") {
+    workflow = "board-finder.yml";
+    inputs = {};
+    message = "Board finder started. Results arrive on Telegram when it finishes.";
   } else if (data.action === "run") {
     workflow = "jobbot.yml";
     inputs = {};

@@ -1,0 +1,41 @@
+name: board-finder
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_KEY_BOARD_FINDER: ${{ secrets.GEMINI_KEY_BOARD_FINDER }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -u board_finder.py
+      - name: Save results
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          for p in companies.json board_finder_log.json usage.jsonl; do [ -e "$p" ] && git add "$p"; done
+          git diff --staged --quiet || git commit -m "board finder results"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 10; done
+      - name: Notify on Telegram
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          MSG=$(python3 board_notify.py)
+          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MSG}" > /dev/null
