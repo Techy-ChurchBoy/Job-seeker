@@ -179,6 +179,48 @@ def ashby():
                               f"https://api.ashbyhq.com/posting-api/job-board/{c['board']}", parse)
 
 
+def smartrecruiters():
+    """SmartRecruiters public postings API, one company board at a time (companies.json: smartrecruiters)."""
+    for c in load_watchlist().get("smartrecruiters", []):
+        try:
+            r = requests.get(f"https://api.smartrecruiters.com/v1/companies/{c['board']}/postings", timeout=30,
+                             headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
+            r.raise_for_status()
+            for p in r.json().get("content", [])[:40]:
+                loc = p.get("location") or {}
+                desc = ""
+                try:
+                    d = requests.get(f"https://api.smartrecruiters.com/v1/companies/{c['board']}/postings/{p['id']}",
+                                     timeout=30, headers={"User-Agent": "jobbot-personal-job-search/1.0"}).json()
+                    desc = strip_html((d.get("jobAd") or {}).get("sections", {}).get("jobDescription", {}).get("text"))
+                except (requests.RequestException, ValueError):
+                    pass
+                yield dict(posted=to_dt(p.get("releasedDate")), source=f"SmartRecruiters:{c['name']}",
+                           title=p.get("name", ""), company=c["name"],
+                           location=", ".join(x for x in [loc.get("city"), loc.get("country")] if x),
+                           url=p.get("ref") or f"https://jobs.smartrecruiters.com/{c['board']}/{p.get('id')}",
+                           description=desc)
+        except (requests.RequestException, ValueError) as e:
+            BOARD_LOG.append(f"SmartRecruiters {c['name']}: FAILED ({str(e)[:80]})")
+
+
+def workable():
+    """Workable public widget API, one account at a time (companies.json: workable)."""
+    for c in load_watchlist().get("workable", []):
+        try:
+            r = requests.get(f"https://apply.workable.com/api/v1/widget/accounts/{c['board']}", params={"details": "true"},
+                             timeout=30, headers={"User-Agent": "jobbot-personal-job-search/1.0 (one request per run)"})
+            r.raise_for_status()
+            for j in r.json().get("jobs", [])[:40]:
+                yield dict(posted=to_dt(j.get("published")), source=f"Workable:{c['name']}",
+                           title=j.get("title", ""), company=c["name"],
+                           location=", ".join(x for x in [j.get("city"), j.get("country")] if x),
+                           url=j.get("url") or f"https://apply.workable.com/{c['board']}/j/{j.get('shortcode', '')}/",
+                           description=strip_html(j.get("description") or j.get("requirements")))
+        except (requests.RequestException, ValueError) as e:
+            BOARD_LOG.append(f"Workable {c['name']}: FAILED ({str(e)[:80]})")
+
+
 def arbeitnow():
     """Arbeitnow public job board API. Mostly European roles, so most will be filtered out."""
     r = requests.get("https://www.arbeitnow.com/api/job-board-api", timeout=30,
@@ -459,7 +501,7 @@ def main():
 
     from web_search import web_search_jobs  # loaded here: web_search imports this module
     jobs, lines, source_report = [], [], []
-    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, smartyacad, jooble, arbeitnow, themuse, weworkremotely, web_search_jobs):
+    for src in (remotive, himalayas, workingnomads, jobicy, remoteok, greenhouse, lever, ashby, smartrecruiters, workable, smartyacad, jooble, arbeitnow, themuse, weworkremotely, web_search_jobs):
         try:
             got = list(src())
         except Exception as e:
