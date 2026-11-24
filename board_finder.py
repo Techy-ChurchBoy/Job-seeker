@@ -57,12 +57,23 @@ def search_for(name, country):
     return [c.get("web", {}).get("uri", "") for c in meta.get("groundingChunks", []) if c.get("web", {}).get("uri")]
 
 
+def _alnum(text):
+    return re.sub(r"[^a-z0-9]", "", text.lower())
+
+
+def belongs_to(name, slug):
+    """The board must be named after the company, so a board for another company is never added."""
+    first = _alnum(name.split()[0]) if name.split() else ""
+    s = _alnum(slug)
+    return bool(first) and (first in s or (len(s) >= 4 and s in _alnum(name)))
+
+
 def find_board(name, country):
     for uri in search_for(name, country):
         final = ws.final_url(uri) or uri
         for system, pattern in PATTERNS:
             m = pattern.search(final)
-            if m and verified(system, m.group(1)):
+            if m and belongs_to(name, m.group(1)) and verified(system, m.group(1)):
                 return system, m.group(1)
     return None, None
 
