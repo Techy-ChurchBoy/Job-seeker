@@ -3316,7 +3316,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 45,
   "reason": "The job matches the candidate's degree and Excel skills, but the US location is outside Nigeria and remote eligibility is not confirmed.",
@@ -3325,7 +3326,8 @@
   "title": "Financial Administrator",
   "company": "Somewhere",
   "source": "Jooble",
-  "updated": "2026-11-24T17:42:16+00:00"
+  "updated": "2026-11-24T18:05:56+00:00",
+  "drafted": true
  },
  "https://jobicy.com/jobs/156798-billing-operations-analyst-1": {
   "url": "https://jobicy.com/jobs/156798-billing-operations-analyst-1",
@@ -4646,5 +4648,205 @@
   "company": "Information Technology Engineering Corporation",
   "source": "Jooble",
   "updated": "2026-11-24T17:42:16+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/gitlab-senior-ta-operations-specialist": {
+  "url": "https://weworkremotely.com/remote-jobs/gitlab-senior-ta-operations-specialist",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This is a senior-level operations role requiring extensive prior experience in talent acquisition operations, which exceeds the candidate's junior profile.",
+  "blockers": "Senior-level role requiring significant prior TA operations experience.",
+  "skill_gaps": "Talent Acquisition operations; ATS configuration; recruiting metrics and dashboards",
+  "title": "Senior TA Operations Specialist",
+  "company": "GitLab",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/zoologisch/senior-finance-controlling-officer-gn-focus-africa-hq-frankfurt-407944": {
+  "url": "https://www.arbeitnow.com/jobs/companies/zoologisch/senior-finance-controlling-officer-gn-focus-africa-hq-frankfurt-407944",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate is heavily underqualified for this senior-level role, which requires at least five years of professional experience.",
+  "blockers": "Requires at least 5 years of professional experience in controlling, accounting, finance, or auditing (candidate has under 1 year); requires relocation to Frankfurt and permanently to Lusaka, Zambia; requires German and English language skills.",
+  "skill_gaps": "German language proficiency; 5+ years of senior finance experience; ABACUS accounting system",
+  "title": "Senior Finance & Controlling Officer (gn) - Focus Africa",
+  "company": "Zoologisch",
+  "source": "Arbeitnow",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/proxify-ab-senior-microsoft-power-bi-developer-6": {
+  "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-microsoft-power-bi-developer-6",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This is a senior-level technical role requiring deep software development, data warehousing, and advanced BI stack mastery, which does not match the candidate's junior accounting and finance profile.",
+  "blockers": "Senior-level experience required; extensive software development and data engineering expertise missing",
+  "skill_gaps": "MS SQL Server BI Stack; SSRS; T-SQL; MDX; DAX mastery; data warehousing; ETL procedures; software development",
+  "title": "Senior Microsoft Power BI Developer",
+  "company": "Proxify AB",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/enua-pharma-gmbh/director-technology-data-intelligence-cologne-84526": {
+  "url": "https://www.arbeitnow.com/jobs/companies/enua-pharma-gmbh/director-technology-data-intelligence-cologne-84526",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior director-level technology and data intelligence role requiring years of executive leadership and deep IT/data engineering expertise, which heavily mismatches the candidate's junior accounting and entry-level profile.",
+  "blockers": "Requires several years of executive leadership experience as a Director of Technology & Data Intelligence, which the candidate lacks.",
+  "skill_gaps": "Executive leadership; IT infrastructure management; Data engineering; Databricks; AI & Automation strategy",
+  "title": "Director Technology & Data Intelligence (w/m/d)",
+  "company": "enua Pharma GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-5": {
+  "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-5",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the mandatory 5+ years of professional experience in data engineering and advanced programming skills required for this senior technical role.",
+  "blockers": "Minimum 5 years of professional experience in Data Engineering required.",
+  "skill_gaps": "Python; SQL; ETL; Apache Spark; data warehousing (Redshift/BigQuery/Snowflake); cloud platforms (AWS/GCP/Azure)",
+  "title": "Senior Data Engineer",
+  "company": "Proxify AB",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-scientist-3": {
+  "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-scientist-3",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the required 5+ years of hands-on data science experience and Python/R programming for this senior technical role.",
+  "blockers": "5+ years of hands-on experience in Data Science field",
+  "skill_gaps": "SAS; SQL; R; Python; Hadoop; Spark; Hive; machine learning",
+  "title": "Senior Data Scientist",
+  "company": "Proxify AB",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/miss-germany-studios-gmbh-co-kg/trainee-redaktion-youtube-all-genders-cologne-461774": {
+  "url": "https://www.arbeitnow.com/jobs/companies/miss-germany-studios-gmbh-co-kg/trainee-redaktion-youtube-all-genders-cologne-461774",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role is a media and editorial YouTube trainee position in Germany, which completely misaligns with the candidate's finance, accounting, and Nigeria-based profile.",
+  "blockers": "Requires physical relocation to Germany and media/journalism background.",
+  "skill_gaps": "editorial work; YouTube content creation; German language fluency; journalism",
+  "title": "Trainee Redaktion YouTube (all genders)",
+  "company": "Miss Germany Studios GmbH & Co. KG",
+  "source": "Arbeitnow",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/gemini-senior-product-designer-prediction-markets": {
+  "url": "https://weworkremotely.com/remote-jobs/gemini-senior-product-designer-prediction-markets",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior-level UX/UI design role requiring 5+ years of product design experience and specialized design execution skills, which do not align with the candidate's finance and accounting profile.",
+  "blockers": "Requires 5+ years of Product Design experience; requires a senior-level design role",
+  "skill_gaps": "Product design experience; Figma; user-centered design; UX prototyping; design systems",
+  "title": "Senior Product Designer (Prediction Markets)",
+  "company": "Gemini",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/proxify-ab-senior-microsoft-dynamics-365-developer": {
+  "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-microsoft-dynamics-365-developer",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires 5+ years of software development experience in X++, C#, and .NET as a Senior D365 Developer, which does not match the candidate's junior accounting background.",
+  "blockers": "5+ years technical development experience in Microsoft Dynamics 365, proficiency in X++, C#, .NET",
+  "skill_gaps": "X++; C#; .NET; JavaScript/TypeScript; Dataverse; Azure; API development",
+  "title": "Senior Microsoft Dynamics 365 Developer",
+  "company": "Proxify AB",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/gitlab-principal-executive-recruiter-r-d": {
+  "url": "https://weworkremotely.com/remote-jobs/gitlab-principal-executive-recruiter-r-d",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "This is a senior executive recruitment role requiring extensive headhunting experience for VP-level searches, which does not align with the candidate's junior accounting and finance profile.",
+  "blockers": "Senior leadership executive search experience required",
+  "skill_gaps": "Executive recruiting; talent acquisition; market mapping; C-suite advisory",
+  "title": "Principal Executive Recruiter, R&D",
+  "company": "GitLab",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:04:09+00:00"
  }
 }
