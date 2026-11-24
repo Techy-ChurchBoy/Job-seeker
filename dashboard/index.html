@@ -454,12 +454,9 @@ function showFeed(feed) {
     renderHistory(f);
     renderBatches(f.batches);
     setBadge('badgeJobs', (f.jobs || []).filter(j => j.recent).length);
-  }
-  if (feed) {
-    document.getElementById('lock').hidden = true;
-    document.querySelector('header').hidden = false;
-    document.querySelector('main').hidden = false;
-  }
+  document.getElementById('lock').hidden = true;
+  document.querySelector('header').hidden = false;
+  document.querySelector('main').hidden = false;
 }
 document.getElementById('lockBtn').addEventListener('click', async () => {
   const password = document.getElementById('lockPw').value;
