@@ -53,8 +53,7 @@ def ai_deadline(job):
               "If the posting gives no deadline, return null. Do not guess.\n\nPOSTING:\n" + (job.get("description") or "")[:4000])
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
-    res = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                        headers={"x-goog-api-key": jb.GEMINI_KEY}, json=body, timeout=60)
+    res = jb.gemini_post("deadlines", model, body, 60)
     res.raise_for_status()
     data = json.loads(res.json()["candidates"][0]["content"]["parts"][0]["text"])
     value = data.get("deadline")

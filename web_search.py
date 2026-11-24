@@ -25,8 +25,7 @@ def grounded_sources(query):
     body = {"contents": [{"parts": [{"text": f"Search the web for current job postings: {query}. "
                                               "List the postings you find."}]}],
             "tools": [{"google_search": {}}]}
-    res = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                        headers={"x-goog-api-key": jb.GEMINI_KEY}, json=body, timeout=90)
+    res = jb.gemini_post("web_search", model, body, 90)
     res.raise_for_status()
     meta = res.json()["candidates"][0].get("groundingMetadata", {})
     out = []

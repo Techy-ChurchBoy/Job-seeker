@@ -113,6 +113,34 @@ def load_tracker():
     return [{"company": k, "stage": v.get("stage", ""), "updated": v.get("updated", "")} for k, v in data.items()]
 
 
+def build_usage():
+    """Calls per process, with rate-limit (429) and overload (503) counts. Keeps the newest 5,000 lines."""
+    if not os.path.exists("usage.jsonl"):
+        return {"processes": [], "note": "No Gemini calls logged yet."}
+    lines = open("usage.jsonl", encoding="utf-8").read().splitlines()[-5000:]
+    open("usage.jsonl", "w", encoding="utf-8").write("\n".join(lines) + "\n")
+    entries = [json.loads(x) for x in lines if x.strip()]
+    cutoff_day = datetime.now(timezone.utc).date().isoformat()
+    week_start = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
+    summary = {}
+    for e in entries:
+        if e["at"] < week_start:
+            continue
+        p = summary.setdefault(e["process"], {"process": e["process"], "today": 0, "week": 0, "limited": 0,
+                                              "overloaded": 0, "tokens_in": 0, "tokens_out": 0})
+        p["week"] += 1
+        if e["at"].startswith(cutoff_day):
+            p["today"] += 1
+        if e["status"] == 429:
+            p["limited"] += 1
+        if e["status"] == 503:
+            p["overloaded"] += 1
+        p["tokens_in"] += e.get("prompt_tokens", 0)
+        p["tokens_out"] += e.get("output_tokens", 0)
+    return {"processes": sorted(summary.values(), key=lambda x: -x["week"]),
+            "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."}
+
+
 def load_batches():
     out = []
     for path in sorted(glob.glob("outreach/*.json"), reverse=True):
@@ -168,6 +196,7 @@ def build():
         "report": plain_report(status, matches),
         "batches": load_batches(),
         "tracker": load_tracker(),
+        "usage": build_usage(),
         "replies": [dict(r, recent=recent(r.get("received"))) for r in (load_replies() if SHOW_REPLIES else [])],
         "replies_hidden": (not SHOW_REPLIES) and os.path.exists("replies.json"),
         "paused": paused,

@@ -6,6 +6,7 @@ Needs env: GEMINI_API_KEY. Reads your CV from cv/cv.txt (the repo is private).
 """
 import csv, hashlib, json, os, re, sys, time
 import requests
+import jobbot as jb
 from jobbot import pick_model, QuotaError, GEMINI_KEY, update_status
 
 CV_PATH = "cv/cv.txt"
@@ -57,7 +58,7 @@ def generate(model, prompt):
         body = {"contents": [{"parts": [{"text": p}]}],
                 "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3,
                                      "maxOutputTokens": 4096}}
-        r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=90)
+        r = jb.gemini_post("letters", model, body, 90)
         if r.status_code == 429:
             raise QuotaError("Gemini quota or rate limit hit (429).")
         if r.status_code == 503:

@@ -132,6 +132,9 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
     <input id="modePw" class="field" type="password" placeholder="Password" autocomplete="current-password">
     <p class="muted" id="modeMsg"></p>
   </div>
+  <h2>Usage</h2>
+  <p class="muted" id="usageNote"></p>
+  <div id="usage"></div>
   <h2>Technical log</h2>
   <details class="clay"><summary style="cursor:pointer;font-weight:600">Show the raw log of the last run</summary><pre id="run" style="margin-top:12px">Loading...</pre></details>
 </section>
@@ -276,6 +279,21 @@ function renderTracker(f) {
   });
 }
 
+function renderUsage(f) {
+  const box = document.getElementById('usage'); box.replaceChildren();
+  const u = f.usage || {};
+  document.getElementById('usageNote').textContent = u.note || '';
+  const procs = u.processes || [];
+  if (!procs.length) { box.append(note('No Gemini calls logged yet.')); return; }
+  procs.forEach(p => {
+    const c = card();
+    c.append(el('b', null, p.process), el('div', 'muted', 'Today: ' + p.today + ' calls \u00b7 last 7 days: ' + p.week));
+    c.append(el('div', 'muted', 'Quota hits (429): ' + p.limited + ' \u00b7 overloads (503): ' + p.overloaded));
+    c.append(el('div', 'muted', 'Tokens in ' + p.tokens_in + ' \u00b7 out ' + p.tokens_out));
+    box.append(c);
+  });
+}
+
 function renderSent(f) {
   const sent = f.sent || [];
   fill(document.getElementById('sent-new'), sent.filter(r => r.recent), sentCard, 'Nothing sent in the last 7 days.');
@@ -405,6 +423,7 @@ fetch('data/feed.json', { cache: 'no-store' })
     renderJobs(f);
     renderSent(f);
     renderTracker(f);
+    renderUsage(f);
     renderReplies(f);
     renderHistory(f);
     renderBatches(f.batches);

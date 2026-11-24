@@ -346,6 +346,29 @@ def norm(text):
     return re.sub(r"[-_]+", " ", text.lower())
 
 
+USAGE_LOG = "usage.jsonl"
+
+
+def gemini_post(process, model, body, timeout=60):
+    """Every Gemini call goes through here. Each process can have its own key (GEMINI_KEY_<PROCESS>),
+    falling back to GEMINI_API_KEY. Each call is logged to usage.jsonl for the dashboard."""
+    key = os.getenv(f"GEMINI_KEY_{process.upper()}", "").strip() or GEMINI_KEY
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    res = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=timeout)
+    usage = {}
+    if res.ok:
+        try:
+            usage = res.json().get("usageMetadata", {})
+        except ValueError:
+            usage = {}
+    entry = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "process": process,
+             "model": model, "status": res.status_code,
+             "prompt_tokens": usage.get("promptTokenCount", 0), "output_tokens": usage.get("candidatesTokenCount", 0)}
+    with open(USAGE_LOG, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry) + "\n")
+    return res
+
+
 def skip_check(result, j):
     """Postings you have ruled out (skip_companies.json) score 0, so no path will apply to them."""
     if os.path.exists("skip_companies.json"):
@@ -368,7 +391,7 @@ def score(j):
         body = {"contents": [{"parts": [{"text": prompt}]}],
                 "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2,
                                      "maxOutputTokens": 1024}}
-        r = requests.post(url, headers={"x-goog-api-key": GEMINI_KEY}, json=body, timeout=60)
+        r = gemini_post("scoring", MODEL, body, 60)
         if r.status_code == 429:
             raise QuotaError("Gemini quota or rate limit hit (429). Daily free quota may be used up.")
         if r.status_code == 503:
