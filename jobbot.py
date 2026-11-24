@@ -320,8 +320,8 @@ def jooble():
     key = os.getenv("JOOBLE_KEY")
     if not key:
         return
-    for loc in ["Lagos", "Abuja", "Nigeria"]:
-        for kw in ["accountant", "finance officer", "management accountant", "graduate trainee accountant", "accounting internship", "finance graduate trainee", "junior accountant"]:
+    for loc in ["Lagos", "Abuja", "Nigeria", "Remote", "Philippines", "United Kingdom", "Canada", "United States"]:
+        for kw in ["accountant", "finance officer", "graduate trainee accountant", "accounts assistant"]:
             try:
                 r = requests.post(f"https://jooble.org/api/{key}", json={"keywords": kw, "location": loc}, timeout=30)
                 for j in r.json().get("jobs", []):
