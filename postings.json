@@ -1,0 +1,230 @@
+{
+ "https://himalayas.app/companies/parexel/jobs/senior-project-specialist": {
+  "url": "https://himalayas.app/companies/parexel/jobs/senior-project-specialist?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate is ineligible for this role as it requires residency in the United States and mid-level project management experience that exceeds an entry-level profile.",
+  "blockers": "Required to be resident in the United States; mid-level project management experience required.",
+  "skill_gaps": "clinical trial management; life sciences industry experience; project management software",
+  "title": "Senior Project Specialist",
+  "company": "Parexel",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/clera/jobs/expert-talent-pool-physical-ai-associate-0-5-years": {
+  "url": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-physical-ai-associate-0-5-years?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires physical AI operation and robotics tasks that do not utilize the candidate's finance, accounting, or administrative skills.",
+  "blockers": "Mandatory prior experience as a robotics technician, teleoperation pilot, motion-capture technician, or skilled tradesperson which the candidate lacks.",
+  "skill_gaps": "robotics; teleoperation; VR controllers; motion-capture systems; OptiTrack; Vicon; IMUs; LiDAR; ROS; ROS 2",
+  "title": "Expert Talent Pool, Physical AI (Associate, 0-5 Years)",
+  "company": "Clera",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/concentrix/jobs/customer-success-account-manager-csa-security-identity": {
+  "url": "https://himalayas.app/companies/concentrix/jobs/customer-success-account-manager-csa-security-identity?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a technical customer success and security identity role requiring deep expertise in Microsoft Entra ID and Active Directory, which does not align with the candidate's finance and accounting background.",
+  "blockers": "Candidate lacks mandatory technical expertise in cybersecurity, Microsoft Entra ID, and Active Directory administration.",
+  "skill_gaps": "Microsoft Entra ID; Active Directory; Hybrid Identity; SSO; AD FS; SAML; OAuth; cybersecurity and identity management",
+  "title": "Customer Success Account Manager (CSA) - Security Identity",
+  "company": "Concentrix",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/onphase-software/jobs/sr-product-manager-payments": {
+  "url": "https://himalayas.app/companies/onphase-software/jobs/sr-product-manager-payments?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate is an entry-level accountant with under a year of experience, whereas this role requires 6+ years in product management and 3+ years specifically in payments or fintech.",
+  "blockers": "Requires 6+ years in product management, 3+ years in a payments or fintech company, and senior-level product management experience.",
+  "skill_gaps": "product management experience; B2B payments expertise; agile methodologies; AI-led product development; technical product roadmap ownership",
+  "title": "Sr Product Manager - Payments",
+  "company": "onPhase Software",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/nexer-group/jobs/payroll-specialist-sap-hcm": {
+  "url": "https://himalayas.app/companies/nexer-group/jobs/payroll-specialist-sap-hcm?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks mandatory residency in Central Europe and specific SAP HCM and Slovak payroll legislation experience required for the role.",
+  "blockers": "Must be located in Czechia, Slovakia, Poland or Hungary; Required strong payroll experience in Slovakia and SAP HCM Payroll",
+  "skill_gaps": "SAP HCM; Slovak payroll legislation; SAP SuccessFactors",
+  "title": "Payroll Specialist (SAP HCM)",
+  "company": "Nexer Group",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/prometeo-talent/jobs/operations-director-customer-service-bpo-fully-remote-latam": {
+  "url": "https://himalayas.app/companies/prometeo-talent/jobs/operations-director-customer-service-bpo-fully-remote-latam?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires 10+ years of senior executive experience in BPO operations.",
+  "blockers": "10+ years of experience in Operations, Service Delivery, Customer Experience, or BPO environments; senior leadership/Director level requirement",
+  "skill_gaps": "BPO operations management; team leadership of large distributed teams; customer service strategy; executive experience",
+  "title": "Operations Director (Customer service- BPO) | Fully remote | LATAM",
+  "company": "Prometeo Talent",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/featherless-ai/jobs/ai-researcher-multilingual-data-7080086955": {
+  "url": "https://himalayas.app/companies/featherless-ai/jobs/ai-researcher-multilingual-data-7080086955?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This AI research and NLP engineering role has no overlap with the candidate's finance, accounting, and business operations background.",
+  "blockers": "Mandatory background in NLP/ML research with a publication record at top venues (ACL, EMNLP, NeurIPS, etc.) which the candidate lacks.",
+  "skill_gaps": "NLP research; PyTorch; JAX; multilingual modeling; large-scale text dataset curation; transformer training",
+  "title": "AI Researcher – Multilingual Data",
+  "company": "Featherless AI",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/first-advantage/jobs/global-noc-analyst": {
+  "url": "https://himalayas.app/companies/first-advantage/jobs/global-noc-analyst?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires a degree in Computer Science or IT and deep technical cloud infrastructure skills, which do not align with the candidate's accounting background.",
+  "blockers": "Bachelor's degree in Computer Science, Information Technology, or related field required; India location",
+  "skill_gaps": "cloud platforms AWS/Azure/GCP; deployment tools and automation; SSL certificate management; scripting languages Python/Shell; monitoring tools AppDynamics/CloudWatch; 24/7 rotational shifts",
+  "title": "Global NOC Analyst",
+  "company": "First Advantage",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/centene-corporation/jobs/adults-ltss-service-care-coordinator": {
+  "url": "https://himalayas.app/companies/centene-corporation/jobs/adults-ltss-service-care-coordinator?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate does not physically reside in Texas as required by the job posting.",
+  "blockers": "Must physically reside in Texas, United States",
+  "skill_gaps": "healthcare case management; long-term care coordination; LTSS service care planning",
+  "title": "Adults, LTSS Service Care Coordinator",
+  "company": "Centene Corporation",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/beonemedicines/jobs/executive-director-global-commercial-learning-development": {
+  "url": "https://himalayas.app/companies/beonemedicines/jobs/executive-director-global-commercial-learning-development?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "This is a senior executive leadership role requiring extensive commercial learning and development experience in the pharmaceutical industry, which completely misaligns with the candidate's profile as an entry-level junior accountant.",
+  "blockers": "Requires extensive executive-level leadership experience in global commercial learning and development within the pharmaceutical industry; located in the United States.",
+  "skill_gaps": "commercial learning strategy; pharmaceutical industry expertise; executive leadership; global training operations",
+  "title": "Executive Director, Global Commercial Learning & Development",
+  "company": "BeiGene",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://himalayas.app/companies/xperteez-technology/jobs/data-video-generalist-us-based-remote-contract": {
+  "url": "https://himalayas.app/companies/xperteez-technology/jobs/data-video-generalist-us-based-remote-contract?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate fails the geographic residency eligibility requirement as they are based in Nigeria while the job requires residence in specific US states.",
+  "blockers": "Must be resident in the US (specifically in one of the listed US states)",
+  "skill_gaps": "Video capturing; IMU; smartphone video recording",
+  "title": "Data-Video Generalist (US-based) | Remote - Contract",
+  "company": "Xperteez Technology",
+  "source": "Himalayas",
+  "updated": "2026-11-24T03:56:15+00:00"
+ },
+ "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828361101": {
+  "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828361101",
+  "owners": {
+   "drafted": "letters"
+  },
+  "drafted": true,
+  "updated": "2026-11-24T03:56:24+00:00"
+ }
+}

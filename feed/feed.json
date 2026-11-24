@@ -1,25 +1,61 @@
 {
- "generated": "2026-11-23 22:28 UTC",
+ "generated": "2026-11-24 04:01 UTC",
  "report": [
-  "Last run: 2026-11-23T22:26+00:00 UTC.",
-  "The search checked 11 job sources and 11 responded. It found 332 postings in total, and 176 matched your skills.",
-  "8 postings were scored against your CV this run.",
+  "Last run: 2026-11-24T03:56+00:00 UTC.",
+  "The search checked 11 job sources and 11 responded. It found 331 postings in total, and 177 matched your skills.",
+  "11 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "0 cover letters were written. 1 more are waiting for the next run.",
+  "1 cover letters were written.",
   "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
+ "usage": {
+  "processes": [
+   {
+    "process": "scoring",
+    "today": 11,
+    "week": 11,
+    "limited": 0,
+    "overloaded": 0,
+    "tokens_in": 14748,
+    "tokens_out": 1137
+   },
+   {
+    "process": "web_search",
+    "today": 4,
+    "week": 4,
+    "limited": 4,
+    "overloaded": 0,
+    "tokens_in": 0,
+    "tokens_out": 0
+   },
+   {
+    "process": "letters",
+    "today": 1,
+    "week": 1,
+    "limited": 0,
+    "overloaded": 0,
+    "tokens_in": 2325,
+    "tokens_out": 857
+   }
+  ],
+  "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."
+ },
+ "checks": [
+  "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
+  "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026"
+ ],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-23T22:26+00:00",
+ "last_run": "2026-11-24T03:56+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 8 passed filter",
+  "- himalayas: 20 fetched, 11 passed filter",
   "- workingnomads: 37 fetched, 10 passed filter",
-  "- jobicy: 47 fetched, 40 passed filter",
-  "- remoteok: 100 fetched, 54 passed filter",
+  "- jobicy: 46 fetched, 39 passed filter",
+  "- remoteok: 100 fetched, 53 passed filter",
   "- greenhouse: 67 fetched, 36 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
@@ -30,20 +66,20 @@
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 11 linked pages",
-  "- 20 jobs older than 30 days skipped",
-  "- 8 new jobs sent to scoring",
+  "- 24 jobs older than 30 days skipped",
+  "- 11 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 15: Program Coordinator, CACP at Aledade. Blockers: Candidate is not located in the United States and the job is onsite/based in the United States.",
-  "  - 15: Marketing and Communications Intern at Shatterproof. Blockers: Candidate is not located in the United States.",
-  "  - 10: Principal Strategy Consultant - Finance Transformation - REMOTE at Prime Therapeutics. Blockers: Requires 8 years of experience in strategy and finance transformation; requires US work authorization.",
-  "  - 10: Principal Revenue Operations Manager at Ethena. Blockers: Senior-level management role requiring significant revenue operations experience and US location.",
-  "  - 10: Contracts Administrator Principal at General Dynamics Information Technology. Blockers: Requires 8+ years of related experience; candidate has less than 1 year of professional experience."
+  "  - 15: Senior Project Specialist at Parexel. Blockers: Required to be resident in the United States; mid-level project management experience required.",
+  "  - 10: Sr Product Manager - Payments at onPhase Software. Blockers: Requires 6+ years in product management, 3+ years in a payments or fintech company, and senior-level product management experience.",
+  "  - 10: Payroll Specialist (SAP HCM) at Nexer Group. Blockers: Must be located in Czechia, Slovakia, Poland or Hungary; Required strong payroll experience in Slovakia and SAP HCM Payroll",
+  "  - 10: Expert Talent Pool, Physical AI (Associate, 0-5 Years) at Clera. Blockers: Mandatory prior experience as a robotics technician, teleoperation pilot, motion-capture technician, or skilled tradesperson which the candidate lacks.",
+  "  - 10: Customer Success Account Manager (CSA) - Security Identity at Concentrix. Blockers: Candidate lacks mandatory technical expertise in cybersecurity, Microsoft Entra ID, and Active Directory administration."
  ],
  "stats": {
-  "jobs_scored": 240,
+  "jobs_scored": 251,
   "strong": 27,
-  "drafts": 34,
-  "sent_today": 1,
+  "drafts": 35,
+  "sent_today": 0,
   "sent_total": 3
  },
  "skills": [
@@ -147,6 +183,15 @@
    ]
   },
   {
+   "skill": "Executive Leadership",
+   "count": 5,
+   "examples": [
+    "Director, Strategic Finance - Planning Systems at hims &#038; hers",
+    "VP, Customer Experience Operations at Ping Identity",
+    "Head of Credit & Fraud at Happy Money"
+   ]
+  },
+  {
    "skill": "Loan Portfolio Management",
    "count": 4,
    "examples": [
@@ -171,15 +216,6 @@
     "Senior MS Power BI Developer at Proxify",
     "Data Engineer, AI & Analytics at Power Digital Marketing",
     "Data Engineer at WebEngage"
-   ]
-  },
-  {
-   "skill": "Api Integration",
-   "count": 4,
-   "examples": [
-    "Data Engineer, AI & Analytics at Power Digital Marketing",
-    "Data Engineer, AI & Analytics at Power Digital Marketing",
-    "Data Engineer, AI & Analytics at Power Digital Marketing"
    ]
   }
  ],
@@ -424,7 +460,7 @@
     "Moniebook platform familiarity"
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828361101",
-   "drafted": false,
+   "drafted": true,
    "recent": false
   },
   {
@@ -1935,7 +1971,7 @@
    ],
    "url": "https://himalayas.app/companies/aledade/jobs/program-coordinator-cacp?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -1952,6 +1988,23 @@
     "podcast and influencer outreach"
    ],
    "url": "https://himalayas.app/companies/shatterproof/jobs/marketing-and-communications-intern?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Senior Project Specialist",
+   "company": "Parexel",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate is ineligible for this role as it requires residency in the United States and mid-level project management experience that exceeds an entry-level profile.",
+   "blockers": "Required to be resident in the United States; mid-level project management experience required.",
+   "gaps": [
+    "clinical trial management",
+    "life sciences industry experience",
+    "project management software"
+   ],
+   "url": "https://himalayas.app/companies/parexel/jobs/senior-project-specialist?utm_source=api",
    "drafted": false,
    "recent": true
   },
@@ -3110,7 +3163,7 @@
    ],
    "url": "https://himalayas.app/companies/seer-interactive/jobs/contractor-project-management?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3128,7 +3181,7 @@
    ],
    "url": "https://himalayas.app/companies/general-dynamics-information-technology/jobs/contracts-administrator-principal?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3146,7 +3199,7 @@
    ],
    "url": "https://himalayas.app/companies/sunbound-ai/jobs/account-executive?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3164,7 +3217,7 @@
    ],
    "url": "https://himalayas.app/companies/prime-therapeutics/jobs/principal-strategy-consultant-finance-transformation-remote?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3181,6 +3234,88 @@
     "team leadership"
    ],
    "url": "https://himalayas.app/companies/ethena/jobs/principal-revenue-operations-manager?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Expert Talent Pool, Physical AI (Associate, 0-5 Years)",
+   "company": "Clera",
+   "location": "Worldwide",
+   "source": "Himalayas",
+   "reason": "The job requires physical AI operation and robotics tasks that do not utilize the candidate's finance, accounting, or administrative skills.",
+   "blockers": "Mandatory prior experience as a robotics technician, teleoperation pilot, motion-capture technician, or skilled tradesperson which the candidate lacks.",
+   "gaps": [
+    "robotics",
+    "teleoperation",
+    "VR controllers",
+    "motion-capture systems",
+    "OptiTrack",
+    "Vicon",
+    "IMUs",
+    "LiDAR",
+    "ROS",
+    "ROS 2"
+   ],
+   "url": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-physical-ai-associate-0-5-years?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Customer Success Account Manager (CSA) - Security Identity",
+   "company": "Concentrix",
+   "location": "Portugal",
+   "source": "Himalayas",
+   "reason": "This is a technical customer success and security identity role requiring deep expertise in Microsoft Entra ID and Active Directory, which does not align with the candidate's finance and accounting background.",
+   "blockers": "Candidate lacks mandatory technical expertise in cybersecurity, Microsoft Entra ID, and Active Directory administration.",
+   "gaps": [
+    "Microsoft Entra ID",
+    "Active Directory",
+    "Hybrid Identity",
+    "SSO",
+    "AD FS",
+    "SAML",
+    "OAuth",
+    "cybersecurity and identity management"
+   ],
+   "url": "https://himalayas.app/companies/concentrix/jobs/customer-success-account-manager-csa-security-identity?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Sr Product Manager - Payments",
+   "company": "onPhase Software",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate is an entry-level accountant with under a year of experience, whereas this role requires 6+ years in product management and 3+ years specifically in payments or fintech.",
+   "blockers": "Requires 6+ years in product management, 3+ years in a payments or fintech company, and senior-level product management experience.",
+   "gaps": [
+    "product management experience",
+    "B2B payments expertise",
+    "agile methodologies",
+    "AI-led product development",
+    "technical product roadmap ownership"
+   ],
+   "url": "https://himalayas.app/companies/onphase-software/jobs/sr-product-manager-payments?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Payroll Specialist (SAP HCM)",
+   "company": "Nexer Group",
+   "location": "Czechia, Hungary, Poland, Slovakia",
+   "source": "Himalayas",
+   "reason": "The candidate lacks mandatory residency in Central Europe and specific SAP HCM and Slovak payroll legislation experience required for the role.",
+   "blockers": "Must be located in Czechia, Slovakia, Poland or Hungary; Required strong payroll experience in Slovakia and SAP HCM Payroll",
+   "gaps": [
+    "SAP HCM",
+    "Slovak payroll legislation",
+    "SAP SuccessFactors"
+   ],
+   "url": "https://himalayas.app/companies/nexer-group/jobs/payroll-specialist-sap-hcm?utm_source=api",
    "drafted": false,
    "recent": true
   },
@@ -3952,6 +4087,64 @@
    "recent": false
   },
   {
+   "score": 5,
+   "title": "Operations Director (Customer service- BPO) | Fully remote | LATAM",
+   "company": "Prometeo Talent",
+   "location": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+   "source": "Himalayas",
+   "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires 10+ years of senior executive experience in BPO operations.",
+   "blockers": "10+ years of experience in Operations, Service Delivery, Customer Experience, or BPO environments; senior leadership/Director level requirement",
+   "gaps": [
+    "BPO operations management",
+    "team leadership of large distributed teams",
+    "customer service strategy",
+    "executive experience"
+   ],
+   "url": "https://himalayas.app/companies/prometeo-talent/jobs/operations-director-customer-service-bpo-fully-remote-latam?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "AI Researcher – Multilingual Data",
+   "company": "Featherless AI",
+   "location": "Worldwide",
+   "source": "Himalayas",
+   "reason": "This AI research and NLP engineering role has no overlap with the candidate's finance, accounting, and business operations background.",
+   "blockers": "Mandatory background in NLP/ML research with a publication record at top venues (ACL, EMNLP, NeurIPS, etc.) which the candidate lacks.",
+   "gaps": [
+    "NLP research",
+    "PyTorch",
+    "JAX",
+    "multilingual modeling",
+    "large-scale text dataset curation",
+    "transformer training"
+   ],
+   "url": "https://himalayas.app/companies/featherless-ai/jobs/ai-researcher-multilingual-data-7080086955?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Global NOC Analyst",
+   "company": "First Advantage",
+   "location": "India",
+   "source": "Himalayas",
+   "reason": "The role requires a degree in Computer Science or IT and deep technical cloud infrastructure skills, which do not align with the candidate's accounting background.",
+   "blockers": "Bachelor's degree in Computer Science, Information Technology, or related field required; India location",
+   "gaps": [
+    "cloud platforms AWS/Azure/GCP",
+    "deployment tools and automation",
+    "SSL certificate management",
+    "scripting languages Python/Shell",
+    "monitoring tools AppDynamics/CloudWatch",
+    "24/7 rotational shifts"
+   ],
+   "url": "https://himalayas.app/companies/first-advantage/jobs/global-noc-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 0,
    "title": "Project Manager - Advanced Manufacturing",
    "company": "CACI International Inc",
@@ -4485,10 +4678,98 @@
    ],
    "url": "https://himalayas.app/companies/hilton/jobs/interim-associate-gdcm-deployment-pep?utm_source=api",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Adults, LTSS Service Care Coordinator",
+   "company": "Centene Corporation",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate does not physically reside in Texas as required by the job posting.",
+   "blockers": "Must physically reside in Texas, United States",
+   "gaps": [
+    "healthcare case management",
+    "long-term care coordination",
+    "LTSS service care planning"
+   ],
+   "url": "https://himalayas.app/companies/centene-corporation/jobs/adults-ltss-service-care-coordinator?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Executive Director, Global Commercial Learning & Development",
+   "company": "BeiGene",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior executive leadership role requiring extensive commercial learning and development experience in the pharmaceutical industry, which completely misaligns with the candidate's profile as an entry-level junior accountant.",
+   "blockers": "Requires extensive executive-level leadership experience in global commercial learning and development within the pharmaceutical industry; located in the United States.",
+   "gaps": [
+    "commercial learning strategy",
+    "pharmaceutical industry expertise",
+    "executive leadership",
+    "global training operations"
+   ],
+   "url": "https://himalayas.app/companies/beonemedicines/jobs/executive-director-global-commercial-learning-development?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Data-Video Generalist (US-based) | Remote - Contract",
+   "company": "Xperteez Technology",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate fails the geographic residency eligibility requirement as they are based in Nigeria while the job requires residence in specific US states.",
+   "blockers": "Must be resident in the US (specifically in one of the listed US states)",
+   "gaps": [
+    "Video capturing",
+    "IMU",
+    "smartphone video recording"
+   ],
+   "url": "https://himalayas.app/companies/xperteez-technology/jobs/data-video-generalist-us-based-remote-contract?utm_source=api",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-24T03:56+00:00",
+   "report": [
+    "Last run: 2026-11-24T03:56+00:00 UTC.",
+    "The search checked 11 job sources and 11 responded. It found 331 postings in total, and 177 matched your skills.",
+    "11 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written.",
+    "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 15 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 11 passed filter",
+    "- workingnomads: 37 fetched, 10 passed filter",
+    "- jobicy: 46 fetched, 39 passed filter",
+    "- remoteok: 100 fetched, 53 passed filter",
+    "- greenhouse: 67 fetched, 36 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartyacad: 46 fetched, 26 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 11 linked pages",
+    "- 24 jobs older than 30 days skipped",
+    "- 11 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 15: Senior Project Specialist at Parexel. Blockers: Required to be resident in the United States; mid-level project management experience required.",
+    "  - 10: Sr Product Manager - Payments at onPhase Software. Blockers: Requires 6+ years in product management, 3+ years in a payments or fintech company, and senior-level product management experience.",
+    "  - 10: Payroll Specialist (SAP HCM) at Nexer Group. Blockers: Must be located in Czechia, Slovakia, Poland or Hungary; Required strong payroll experience in Slovakia and SAP HCM Payroll",
+    "  - 10: Expert Talent Pool, Physical AI (Associate, 0-5 Years) at Clera. Blockers: Mandatory prior experience as a robotics technician, teleoperation pilot, motion-capture technician, or skilled tradesperson which the candidate lacks.",
+    "  - 10: Customer Success Account Manager (CSA) - Security Identity at Concentrix. Blockers: Candidate lacks mandatory technical expertise in cybersecurity, Microsoft Entra ID, and Active Directory administration."
+   ]
+  },
   {
    "last_run": "2026-11-23T22:26+00:00",
    "report": [

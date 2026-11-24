@@ -476,5 +476,41 @@
    "  - 10: Principal Revenue Operations Manager at Ethena. Blockers: Senior-level management role requiring significant revenue operations experience and US location.",
    "  - 10: Contracts Administrator Principal at General Dynamics Information Technology. Blockers: Requires 8+ years of related experience; candidate has less than 1 year of professional experience."
   ]
+ },
+ {
+  "last_run": "2026-11-24T03:56+00:00",
+  "report": [
+   "Last run: 2026-11-24T03:56+00:00 UTC.",
+   "The search checked 11 job sources and 11 responded. It found 331 postings in total, and 177 matched your skills.",
+   "11 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 cover letters were written.",
+   "Overall, 23 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 11 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 46 fetched, 39 passed filter",
+   "- remoteok: 100 fetched, 53 passed filter",
+   "- greenhouse: 67 fetched, 36 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartyacad: 46 fetched, 26 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 67 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 11 linked pages",
+   "- 24 jobs older than 30 days skipped",
+   "- 11 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 15: Senior Project Specialist at Parexel. Blockers: Required to be resident in the United States; mid-level project management experience required.",
+   "  - 10: Sr Product Manager - Payments at onPhase Software. Blockers: Requires 6+ years in product management, 3+ years in a payments or fintech company, and senior-level product management experience.",
+   "  - 10: Payroll Specialist (SAP HCM) at Nexer Group. Blockers: Must be located in Czechia, Slovakia, Poland or Hungary; Required strong payroll experience in Slovakia and SAP HCM Payroll",
+   "  - 10: Expert Talent Pool, Physical AI (Associate, 0-5 Years) at Clera. Blockers: Mandatory prior experience as a robotics technician, teleoperation pilot, motion-capture technician, or skilled tradesperson which the candidate lacks.",
+   "  - 10: Customer Success Account Manager (CSA) - Security Identity at Concentrix. Blockers: Candidate lacks mandatory technical expertise in cybersecurity, Microsoft Entra ID, and Active Directory administration."
+  ]
  }
 ]
