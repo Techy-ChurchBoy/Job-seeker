@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
-          for p in matches.csv seen.json prepared.json applied.csv postings.json alerted.json status.json applications cv dashboard; do
+          for p in matches.csv seen.json prepared.json applied.csv postings.json alerted.json status.json applications cv dashboard feed; do
             [ -e "$p" ] && git add "$p"
           done
           git diff --staged --quiet || git commit -m "apply: manual job"

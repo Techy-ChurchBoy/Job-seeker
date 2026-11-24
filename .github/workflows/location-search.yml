@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "jobbot"
           git config user.email "jobbot@users.noreply.github.com"
-          for p in outreach dashboard; do [ -e "$p" ] && git add "$p"; done
+          for p in outreach dashboard feed; do [ -e "$p" ] && git add "$p"; done
           git diff --staged --quiet || git commit -m "location batch"
           for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 10; done

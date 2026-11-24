@@ -50,6 +50,15 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
     <button class="tab" data-tab="settings">Settings</button>
   </nav>
 </header>
+<section id="lock" hidden style="padding:24px;max-width:420px;margin:40px auto">
+  <div class="clay">
+    <h2>Dashboard</h2>
+    <p class="muted">Enter the dashboard password to see your job search.</p>
+    <input id="lockPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
+    <button class="btn" id="lockBtn" type="button">Open</button>
+    <p class="muted" id="lockMsg"></p>
+  </div>
+</section>
 <main>
 
 <section class="page" id="page-overview">
@@ -423,10 +432,17 @@ document.getElementById('modeBtn').addEventListener('click', async () => {
 });
 
 /* ---------- load the feed ---------- */
-fetch('data/feed.json', { cache: 'no-store' })
-  .then(r => r.ok ? r.json() : null)
-  .catch(() => null)
-  .then(feed => {
+function loadFeed(password) {
+  return fetch('/api/feed', { cache: 'no-store', headers: { 'x-dashboard-password': password } })
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .catch(status => {
+      sessionStorage.removeItem('dashboardPassword');
+      document.getElementById('lockMsg').textContent = status === 401 ? 'Wrong password.' : 'Could not load the dashboard. Try again.';
+      document.getElementById('lock').hidden = false;
+      return null;
+    });
+}
+function showFeed(feed) {
     const f = feed || {};
     renderOverview(f, feed);
     renderJobs(f);
@@ -438,6 +454,28 @@ fetch('data/feed.json', { cache: 'no-store' })
     renderHistory(f);
     renderBatches(f.batches);
     setBadge('badgeJobs', (f.jobs || []).filter(j => j.recent).length);
-  });
+  }
+  if (feed) {
+    document.getElementById('lock').hidden = true;
+    document.querySelector('header').hidden = false;
+    document.querySelector('main').hidden = false;
+  }
+}
+document.getElementById('lockBtn').addEventListener('click', async () => {
+  const password = document.getElementById('lockPw').value;
+  if (!password) return;
+  const feed = await loadFeed(password);
+  if (feed) { sessionStorage.setItem('dashboardPassword', password); showFeed(feed); }
+});
+(function start() {
+  document.querySelector('header').hidden = true;
+  document.querySelector('main').hidden = true;
+  const saved = sessionStorage.getItem('dashboardPassword');
+  if (saved) {
+    loadFeed(saved).then(feed => { if (feed) showFeed(feed); });
+  } else {
+    document.getElementById('lock').hidden = false;
+  }
+})();
 </script>
 </body></html>

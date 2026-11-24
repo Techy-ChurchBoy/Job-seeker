@@ -1,5 +1,5 @@
 """
-Writes dashboard/data/feed.json. The dashboard page (dashboard/index.html) is a static file that reads this feed,
+Writes feed/feed.json. The dashboard page (dashboard/index.html) is a static file that reads this feed,
 so the page exists and works whether or not the job bot has run. Never includes your CV or cover letter text.
 """
 import csv, glob, json, os
@@ -7,9 +7,9 @@ from datetime import timedelta
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
-FEED = "dashboard/data/feed.json"
-HISTORY = "dashboard/data/history.json"
-KNOWN = "dashboard/data/known_jobs.json"
+FEED = "feed/feed.json"
+HISTORY = "feed/history.json"
+KNOWN = "feed/known_jobs.json"
 RECENT_DAYS = 7
 MIN_SCORE = 40
 
