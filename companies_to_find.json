@@ -1,174 +1,672 @@
 [
  {
+  "name": "Moniepoint",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "PalmPay",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "PiggyVest",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "Redtech",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "LemFi",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "Zone",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "Flutterwave",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "OPay",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
   "name": "Interswitch",
-  "country": "Nigeria"
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
  },
  {
   "name": "Kuda",
-  "country": "Nigeria"
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "Paystack",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "Paga",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "Moove",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "Remita",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
+ },
+ {
+  "name": "BudPay",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
  },
  {
   "name": "Carbon",
-  "country": "Nigeria"
- },
- {
-  "name": "Chowdeck",
-  "country": "Nigeria"
- },
- {
-  "name": "Bamboo",
-  "country": "Nigeria"
- },
- {
-  "name": "Piggyvest",
-  "country": "Nigeria"
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
  },
  {
   "name": "Cowrywise",
-  "country": "Nigeria"
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
  },
  {
-  "name": "Eyowo",
-  "country": "Nigeria"
+  "name": "Jumia",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
  },
  {
-  "name": "Sterling Bank",
-  "country": "Nigeria"
+  "name": "Renmoney",
+  "country": "Nigeria",
+  "source": "CNBC/Statista 2026 and Tribune (Jan 2026), Silicon Africa, Tamtam, Techpoint 2026"
  },
  {
-  "name": "Zenith Bank",
-  "country": "Nigeria"
+  "name": "Radius",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
-  "name": "Monzo",
-  "country": "United Kingdom"
+  "name": "SumUp",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
-  "name": "Revolut",
-  "country": "United Kingdom"
- },
- {
-  "name": "Starling Bank",
-  "country": "United Kingdom"
+  "name": "Ebury",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
   "name": "Wise",
-  "country": "United Kingdom"
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
-  "name": "Octopus Energy",
-  "country": "United Kingdom"
+  "name": "Starling Bank",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Monzo",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Kraken (Payward)",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Atom Bank",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Allica Bank",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Teya",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
   "name": "Zopa",
-  "country": "United Kingdom"
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
-  "name": "Thought Machine",
-  "country": "United Kingdom"
+  "name": "myPOS",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
-  "name": "Checkout.com",
-  "country": "United Kingdom"
+  "name": "9fin",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
-  "name": "GoCardless",
-  "country": "United Kingdom"
- },
- {
-  "name": "Deliveroo",
-  "country": "United Kingdom"
- },
- {
-  "name": "Shopify",
-  "country": "Canada"
- },
- {
-  "name": "Wealthsimple",
-  "country": "Canada"
- },
- {
-  "name": "Clio",
-  "country": "Canada"
- },
- {
-  "name": "Faire",
-  "country": "Canada"
- },
- {
-  "name": "Hootsuite",
-  "country": "Canada"
- },
- {
-  "name": "Lightspeed",
-  "country": "Canada"
- },
- {
-  "name": "KOHO",
-  "country": "Canada"
- },
- {
-  "name": "Nuvei",
-  "country": "Canada"
- },
- {
-  "name": "Stripe",
-  "country": "United States"
- },
- {
-  "name": "Plaid",
-  "country": "United States"
- },
- {
-  "name": "Brex",
-  "country": "United States"
- },
- {
-  "name": "Ramp",
-  "country": "United States"
- },
- {
-  "name": "Mercury",
-  "country": "United States"
- },
- {
-  "name": "Gusto",
-  "country": "United States"
- },
- {
-  "name": "Rippling",
-  "country": "United States"
- },
- {
-  "name": "Chime",
-  "country": "United States"
- },
- {
-  "name": "Airtable",
-  "country": "United States"
- },
- {
-  "name": "Figma",
-  "country": "United States"
- },
- {
-  "name": "Kumu",
-  "country": "Philippines"
- },
- {
-  "name": "Voyager Innovations",
-  "country": "Philippines"
- },
- {
-  "name": "Mynt GCash",
-  "country": "Philippines"
- },
- {
-  "name": "Maya",
-  "country": "Philippines"
+  "name": "Qube Research",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
  },
  {
   "name": "Airwallex",
-  "country": "Singapore"
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Cleo",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Diesta",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Peratera",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Adclear",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Capsa AI",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "EC Markets UK",
+  "country": "United Kingdom",
+  "source": "UK hiring forecasts 2026 (Morgan McKinley, City AM, cord.com)"
+ },
+ {
+  "name": "Wealthsimple",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Clio",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Helcim",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "1Password",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Betty",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Clinia",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Maxa",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Joyride",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Svante",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Moonvalley",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Spellbook",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Botpress",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Behaviour Interactive",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Private AI",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "SensorUp",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Keep",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "CoLab Software",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Tailscale",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Cohere",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Waabi",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Tenstorrent",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "BioRender",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "OneLocal",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "KorrAI",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Decoda Health",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Shopify",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "BlackBerry",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "OpenText",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Deep Genomics",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Rose Rocket",
+  "country": "Canada",
+  "source": "Canada startup lists (Startups in Canada News Oct and Nov 2026, NewLocal, Toronto startup list)"
+ },
+ {
+  "name": "Salmon",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Mynt (GCash)",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Voyager Innovations (Maya)",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "GrowSari",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "First Circle",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "PayMongo",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Sovrun",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Etaily",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "SariSuki",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Kalibrr",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Shipmates",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Sprout Solutions",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "OpenSolar",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Coins.ph",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "GoTyme Bank",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Tonik",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "UNO Digital Bank",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "PDAX",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "SAVii",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "NextPay",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Taxumo",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Packworks",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Locad",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Edamama",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "SwipeRx",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "MedGrocer",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Zennya",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Kumu",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Xendit",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Remitly",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Possible Finance",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Kasama",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Apex Fintech Solutions",
+  "country": "Philippines",
+  "source": "Philippines startup lists (Seedtable, StartupBlink, Second Talent, Tracxn, 2026)"
+ },
+ {
+  "name": "Stripe",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Plaid",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Brex",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Ramp",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Mercury",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Gusto",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Rippling",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Chime",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Airtable",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Figma",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Coinbase",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "SoFi",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "OppFi",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Wealthfront",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Circle",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Robinhood",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "PayPal",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Klarna",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "N26",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Revolut",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Socure",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Perk",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Xsolla",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "iCapital",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Cardinal Financial",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Tabby",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Binance",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Alloy",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Canoe",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Bloom Credit",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
+ },
+ {
+  "name": "Motive",
+  "country": "United States",
+  "source": "US remote fintech and startup lists (Builtin, KORE1, Landed, JobBoardSearch, Dailyremote, 2026)"
  }
 ]
