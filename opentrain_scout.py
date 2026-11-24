@@ -29,6 +29,9 @@ def _parse(res):
 
 def _post(payload, session=None):
     headers = dict(HEADERS)
+    key = os.getenv("OPENTRAIN_API_KEY", "").strip()  # optional; read-only key, jobs:read only
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
     if session:
         headers["Mcp-Session-Id"] = session
     res = requests.post(MCP_URL, headers=headers, json=payload, timeout=60)

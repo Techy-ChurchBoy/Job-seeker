@@ -105,6 +105,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
       - run: python -u opentrain_scout.py
         env:
+          OPENTRAIN_API_KEY: ${{ secrets.OPENTRAIN_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       - run: python -u skills_report.py
