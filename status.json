@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-24T06:16+00:00",
+ "last_run": "2026-11-24T07:01+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 12 passed filter",
@@ -11,11 +11,11 @@
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
-  "- smartyacad: 44 fetched, 24 passed filter",
-  "- jooble: 506 fetched, 437 passed filter",
+  "- smartyacad: 44 fetched, 23 passed filter",
+  "- jooble: 506 fetched, 438 passed filter",
   "- arbeitnow: 50 fetched, 25 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 49 passed filter",
+  "- weworkremotely: 100 fetched, 46 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 67 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
@@ -24,11 +24,12 @@
   "- 66 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Bookkeeper / Financial Administrator (Spa and Maintenance) at D2B. Blockers: none",
-  "  - 50: Medical Virtual Assistant - Reception & Bookkeeping at D2B. Blockers: none",
-  "  - 45: Trading Associate (Remote Work Option) at Wealth Enhancement. Blockers: Requirement to be resident or authorized to work in the United States.",
-  "  - 25: CPC Processor Customer Support- 8706 at Datavant. Blockers: none",
-  "  - 25: CPC Processor Customer Support I at Datavant. Blockers: none"
+  "  - 75: General Accountant - Accounts Payable at Upsun. Blockers: none",
+  "  - 45: Executive Assistant at Vogue Citi. Blockers: none",
+  "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines.",
+  "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines or have local work authorization.",
+  "  - 25: Office Administrator at Bluebell Tutors. Blockers: Candidate is not located in the Philippines and the role requires physical presence for front desk duties.",
+  "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
  ],
  "report": {
   "sources": [
@@ -96,13 +97,13 @@
     "name": "smartyacad",
     "ok": true,
     "fetched": 44,
-    "passed": 24
+    "passed": 23
    },
    {
     "name": "jooble",
     "ok": true,
     "fetched": 506,
-    "passed": 437
+    "passed": 438
    },
    {
     "name": "arbeitnow",
@@ -120,7 +121,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 49
+    "passed": 46
    },
    {
     "name": "web_search_jobs",
@@ -130,15 +131,15 @@
    }
   ],
   "new_to_score": 80,
-  "scored": 80,
-  "scoring_failed": 0,
+  "scored": 78,
+  "scoring_failed": 2,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
  "drafts": {
-  "written": 3,
+  "written": 4,
   "failed": 0,
   "waiting": 0
  }

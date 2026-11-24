@@ -554,5 +554,49 @@
    "  - 25: CPC Processor Customer Support- 8706 at Datavant. Blockers: none",
    "  - 25: CPC Processor Customer Support I at Datavant. Blockers: none"
   ]
+ },
+ {
+  "last_run": "2026-11-24T07:01+00:00",
+  "report": [
+   "Last run: 2026-11-24T07:01+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 985 postings in total, and 684 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "78 postings were scored against your CV this run.",
+   "2 postings could not be scored because the AI service was busy. They will be tried again next run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "4 cover letters were written.",
+   "Overall, 27 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 12 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 46 fetched, 39 passed filter",
+   "- remoteok: 100 fetched, 53 passed filter",
+   "- greenhouse: 67 fetched, 36 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 23 passed filter",
+   "- jooble: 506 fetched, 438 passed filter",
+   "- arbeitnow: 50 fetched, 25 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 46 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 67 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 10 linked pages",
+   "- 66 jobs older than 30 days skipped",
+   "- 80 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 75: General Accountant - Accounts Payable at Upsun. Blockers: none",
+   "  - 45: Executive Assistant at Vogue Citi. Blockers: none",
+   "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines.",
+   "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines or have local work authorization.",
+   "  - 25: Office Administrator at Bluebell Tutors. Blockers: Candidate is not located in the Philippines and the role requires physical presence for front desk duties.",
+   "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  ]
  }
 ]

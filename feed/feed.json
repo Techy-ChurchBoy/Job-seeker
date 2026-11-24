@@ -1,13 +1,14 @@
 {
- "generated": "2026-11-24 06:18 UTC",
+ "generated": "2026-11-24 07:05 UTC",
  "report": [
-  "Last run: 2026-11-24T06:16+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 985 postings in total, and 687 matched your skills.",
+  "Last run: 2026-11-24T07:01+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 985 postings in total, and 684 matched your skills.",
   "These sources could not be reached: themuse.",
-  "80 postings were scored against your CV this run.",
+  "78 postings were scored against your CV this run.",
+  "2 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "3 cover letters were written.",
-  "Overall, 25 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  "4 cover letters were written.",
+  "Overall, 27 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -15,30 +16,30 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 113,
-    "week": 113,
+    "today": 220,
+    "week": 220,
     "limited": 0,
-    "overloaded": 22,
-    "tokens_in": 122451,
-    "tokens_out": 8614
+    "overloaded": 51,
+    "tokens_in": 209319,
+    "tokens_out": 14804
    },
    {
     "process": "web_search",
-    "today": 8,
-    "week": 8,
-    "limited": 8,
+    "today": 12,
+    "week": 12,
+    "limited": 12,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
    },
    {
     "process": "letters",
-    "today": 4,
-    "week": 4,
+    "today": 10,
+    "week": 10,
     "limited": 0,
-    "overloaded": 0,
-    "tokens_in": 8413,
-    "tokens_out": 3191
+    "overloaded": 2,
+    "tokens_in": 15711,
+    "tokens_out": 6465
    }
   ],
   "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."
@@ -49,12 +50,14 @@
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Senior Payroll Specialist: 10 in matches, 5 in records",
-  "Score differs for Tax Expert - Remote: 10 in matches, 0 in records"
+  "Score differs for Tax Expert - Remote: 10 in matches, 0 in records",
+  "Score differs for Accounts Assistant: 20 in matches, 10 in records",
+  "Score differs for Payroll Clerk: 10 in matches, 0 in records"
  ],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-24T06:16+00:00",
+ "last_run": "2026-11-24T07:01+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 12 passed filter",
@@ -66,11 +69,11 @@
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
-  "- smartyacad: 44 fetched, 24 passed filter",
-  "- jooble: 506 fetched, 437 passed filter",
+  "- smartyacad: 44 fetched, 23 passed filter",
+  "- jooble: 506 fetched, 438 passed filter",
   "- arbeitnow: 50 fetched, 25 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 49 passed filter",
+  "- weworkremotely: 100 fetched, 46 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 67 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
@@ -79,16 +82,17 @@
   "- 66 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Bookkeeper / Financial Administrator (Spa and Maintenance) at D2B. Blockers: none",
-  "  - 50: Medical Virtual Assistant - Reception & Bookkeeping at D2B. Blockers: none",
-  "  - 45: Trading Associate (Remote Work Option) at Wealth Enhancement. Blockers: Requirement to be resident or authorized to work in the United States.",
-  "  - 25: CPC Processor Customer Support- 8706 at Datavant. Blockers: none",
-  "  - 25: CPC Processor Customer Support I at Datavant. Blockers: none"
+  "  - 75: General Accountant - Accounts Payable at Upsun. Blockers: none",
+  "  - 45: Executive Assistant at Vogue Citi. Blockers: none",
+  "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines.",
+  "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines or have local work authorization.",
+  "  - 25: Office Administrator at Bluebell Tutors. Blockers: Candidate is not located in the Philippines and the role requires physical presence for front desk duties.",
+  "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
  ],
  "stats": {
-  "jobs_scored": 331,
-  "strong": 30,
-  "drafts": 38,
+  "jobs_scored": 409,
+  "strong": 34,
+  "drafts": 41,
   "sent_today": 0,
   "sent_total": 3
  },
@@ -103,12 +107,39 @@
    ]
   },
   {
+   "skill": "Enterprise Sales",
+   "count": 12,
+   "examples": [
+    "Strategic Account Executive - Spain at GitLab",
+    "Senior Enterprise Account Executive - Central at LaunchDarkly",
+    "Enterprise Account Executive, Miami at Glean"
+   ]
+  },
+  {
+   "skill": "Customer Service",
+   "count": 11,
+   "examples": [
+    "CPC Processor Customer Support- 8706 at Datavant",
+    "CPC Processor Customer Support I at Datavant",
+    "Offline Customer Support Officer (Katsina) at Moniepoint"
+   ]
+  },
+  {
    "skill": "Sql",
    "count": 10,
    "examples": [
     "Test Data Quality Engineer at PLATO",
     "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems",
     "Sr Analyst, Analytics & Insights at BeyondTrust"
+   ]
+  },
+  {
+   "skill": "People Management",
+   "count": 9,
+   "examples": [
+    "Service Center Operations Manager at Moniepoint",
+    "Operations and AI Enablement Manager, Remote at Aledade",
+    "Manager, Payments & Reconciliation at Maven Clinic"
    ]
   },
   {
@@ -121,6 +152,33 @@
    ]
   },
   {
+   "skill": "Software Engineering",
+   "count": 9,
+   "examples": [
+    "General Application for Product, Engineering and Technology at Talkspace",
+    "Junior Full Stack Engineer (LATAM) at LoanBud",
+    "Data Engineer at WebEngage"
+   ]
+  },
+  {
+   "skill": "Us Gaap",
+   "count": 8,
+   "examples": [
+    "Accounting Operations at Plaid",
+    "Senior Corporate Accounting & Compliance Analyst II at NerdWallet",
+    "Accounting Manager at SunStrong Management, LLC"
+   ]
+  },
+  {
+   "skill": "Retail Sales",
+   "count": 8,
+   "examples": [
+    "Senior Director of National Accounts at Khloud, Inc.",
+    "Sales Assistant at Crown Home Store",
+    "Retail Sales Associate at Anchor Fashion"
+   ]
+  },
+  {
    "skill": "Salesforce",
    "count": 7,
    "examples": [
@@ -130,12 +188,12 @@
    ]
   },
   {
-   "skill": "Us Gaap",
+   "skill": "B2B Sales",
    "count": 7,
    "examples": [
-    "Accounting Operations at Plaid",
-    "Senior Corporate Accounting & Compliance Analyst II at NerdWallet",
-    "Accounting Manager at SunStrong Management, LLC"
+    "Business Development Representative, Financial Services - UKI at GitLab",
+    "New Business Account Executive - Nordics at GitLab",
+    "Account Executive - In-Territory (Los Angeles, CA) at Justworks"
    ]
   },
   {
@@ -148,30 +206,12 @@
    ]
   },
   {
-   "skill": "Software Engineering",
+   "skill": "Executive Leadership",
    "count": 7,
    "examples": [
-    "General Application for Product, Engineering and Technology at Talkspace",
-    "Junior Full Stack Engineer (LATAM) at LoanBud",
-    "Data Engineer at WebEngage"
-   ]
-  },
-  {
-   "skill": "Enterprise Sales",
-   "count": 7,
-   "examples": [
-    "Strategic Account Executive - Spain at GitLab",
-    "Senior Enterprise Account Executive - Central at LaunchDarkly",
-    "Enterprise Account Executive, Miami at Glean"
-   ]
-  },
-  {
-   "skill": "B2B Sales",
-   "count": 6,
-   "examples": [
-    "Business Development Representative, Financial Services - UKI at GitLab",
-    "New Business Account Executive - Nordics at GitLab",
-    "Account Executive - In-Territory (Los Angeles, CA) at Justworks"
+    "Chief of Staff Director, Product at Affirm",
+    "Director, Strategic Finance - Planning Systems at hims &#038; hers",
+    "VP, Customer Experience Operations at Ping Identity"
    ]
   },
   {
@@ -184,48 +224,12 @@
    ]
   },
   {
-   "skill": "People Management",
-   "count": 6,
-   "examples": [
-    "Service Center Operations Manager at Moniepoint",
-    "Operations and AI Enablement Manager, Remote at Aledade",
-    "Manager, Payments & Reconciliation at Maven Clinic"
-   ]
-  },
-  {
-   "skill": "Client Relationship Management",
+   "skill": "Customer Support",
    "count": 5,
    "examples": [
-    "Offline Customer Support Officer (Ore, Ondo State) at Moniepoint",
-    "Offline Customer Support Officer (Katsina) at Moniepoint",
-    "Bomen Advisory Is Hiring Executive Marketers at Dixcover Hub listing"
-   ]
-  },
-  {
-   "skill": "Databricks",
-   "count": 5,
-   "examples": [
-    "Test Data Quality Engineer at PLATO",
-    "Sr Analyst, Analytics & Insights at BeyondTrust",
-    "Senior Data Engineer at Lemon.io"
-   ]
-  },
-  {
-   "skill": "Etl Pipelines",
-   "count": 5,
-   "examples": [
-    "Data Engineer, AI & Analytics at Power Digital Marketing",
-    "Data Engineer at WebEngage",
-    "Data Engineer, AI & Analytics at Power Digital Marketing"
-   ]
-  },
-  {
-   "skill": "Product Management",
-   "count": 5,
-   "examples": [
-    "(Senior) Product Manager (m/w/d) at Peter Park",
-    "General Application for Product, Engineering and Technology at Talkspace",
-    "Product Manager, Transformation at Trax Technologies"
+    "Executive Assistant at Vogue Citi",
+    "Technical Support Executive at Tekhqs",
+    "Job posting at example.com"
    ]
   }
  ],
@@ -489,6 +493,22 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/d2b-bookkeeper-financial-administrator-spa-and-maintenance",
    "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 75,
+   "title": "General Accountant - Accounts Payable",
+   "company": "Upsun",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate has relevant accounts payable, general ledger, and reconciliation experience that aligns well with this junior-friendly remote AP role, though it requires multi-currency and multi-entity coordination.",
+   "blockers": "",
+   "gaps": [
+    "multi-currency AP",
+    "multi-entity international tax/VAT treatment"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/upsun-general-accountant-accounts-payable",
+   "drafted": true,
    "recent": true
   },
   {
@@ -635,7 +655,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/d2b-medical-virtual-assistant-reception-bookkeeping",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -697,6 +717,52 @@
     "wealth management trading experience"
    ],
    "url": "https://himalayas.app/companies/wealth-enhancement/jobs/trading-associate-remote-work-option?utm_source=api",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Executive Assistant",
+   "company": "Vogue Citi",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role involves administrative, operational, and customer support tasks that moderately utilize the candidate's organizational and digital proficiencies, though it lacks a core finance component.",
+   "blockers": "",
+   "gaps": [
+    "Shopify management",
+    "influencer marketing",
+    "customer support",
+    "social media management"
+   ],
+   "url": "https://jobs.smartyacad.com/executive-assistant-at-vogue-citi/",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Accounts Assistant",
+   "company": "Brook Accounting",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "The job matches the candidate's accounting skills well, but the location in the Philippines presents a geographical mismatch for a candidate based in Nigeria seeking Nigeria-based or remote roles.",
+   "blockers": "Candidate must be resident in the Philippines or have local work authorization.",
+   "gaps": [
+    "local taxation knowledge"
+   ],
+   "url": "https://jooble.org/jdp/2555130073963261954",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Accounts Assistant",
+   "company": "Brook Accounting",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "The job is a strong skills match for an Accounts Assistant, but the location in the Philippines violates the geographic requirement since the candidate is in Nigeria and the role is not listed as remote.",
+   "blockers": "Candidate must be resident in the Philippines.",
+   "gaps": [],
+   "url": "https://jooble.org/jdp/2555130073963261954",
    "drafted": true,
    "recent": true
   },
@@ -1095,7 +1161,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/datavant-cpc-processor-customer-support-8706",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -1112,6 +1178,23 @@
     "insurance claims processing"
    ],
    "url": "https://weworkremotely.com/remote-jobs/datavant-cpc-processor-customer-support-i",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Office Administrator",
+   "company": "Bluebell Tutors",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "This job is a general administrative and receptionist role located in the Philippines, which does not align with the candidate's accounting background and geographic location constraints.",
+   "blockers": "Candidate is not located in the Philippines and the role requires physical presence for front desk duties.",
+   "gaps": [
+    "calendar management",
+    "customer reception",
+    "appointment booking"
+   ],
+   "url": "https://jooble.org/jdp/5874203937156516656",
    "drafted": false,
    "recent": true
   },
@@ -1165,6 +1248,51 @@
    "url": "https://jobicy.com/jobs/163904-business-services-assistant",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 20,
+   "title": "Accounts Assistant",
+   "company": "Elm Accounting",
+   "location": "Canada",
+   "source": "Jooble",
+   "reason": "The job is located in Canada, but the candidate is based in Nigeria and remote work is not indicated.",
+   "blockers": "Candidate is not resident in Canada as required for this onsite role.",
+   "gaps": [],
+   "url": "https://jooble.org/jdp/-603021138050691495",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 20,
+   "title": "Accounts Assistant",
+   "company": "Elm Accounting",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The job is located in the United Kingdom, whereas the candidate is based in Nigeria and requires remote work or relocation.",
+   "blockers": "Candidate is located in Nigeria and the job is in the United Kingdom with no indication of visa sponsorship or remote eligibility.",
+   "gaps": [
+    "UK accounting standards"
+   ],
+   "url": "https://jooble.org/jdp/-4798161436844642044",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 20,
+   "title": "Finance Officer",
+   "company": "Impactpool",
+   "location": "Washington DC",
+   "source": "Jooble",
+   "reason": "The candidate is based in Nigeria and does not meet the geographic or senior analytical leadership requirements for a Washington DC-based IFC role.",
+   "blockers": "Location mismatch (role is in Washington DC) and lack of required analytical leadership/senior experience.",
+   "gaps": [
+    "strategic resourcing",
+    "analytical leadership",
+    "international financial institution experience"
+   ],
+   "url": "https://jooble.org/jdp/6144932613779747794",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 15,
@@ -2122,7 +2250,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/dropbox-financial-reporting-technical-accounting-sr-analyst",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2139,7 +2267,7 @@
    ],
    "url": "https://himalayas.app/companies/harris/jobs/product-owner-w-m-d-9362047224?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2157,7 +2285,7 @@
    ],
    "url": "https://himalayas.app/companies/aledade/jobs/operations-and-ai-enablement-manager-remote?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2177,7 +2305,7 @@
    ],
    "url": "https://himalayas.app/companies/draftkings-inc/jobs/igaming-product-marketing-specialist?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2196,7 +2324,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/dornier-medtech-gmbh/working-student-digital-learning-technical-documentation-dmt-germany-wessling-170820",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2215,7 +2343,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/peter-park/data-privacy-specialist-datenschutzspezialist-munchen-497170",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2234,7 +2362,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/peter-park/senior-product-manager-munchen-400855",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2253,7 +2381,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/snke/data-project-manager-munchen-226934",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2271,7 +2399,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/esmc/quality-assurance-documentation-technician-dresden-375755",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2288,7 +2416,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/avantgarde/talent-culture-intern-working-student-avantgarde-munchen-462901",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2305,7 +2433,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/avantgarde/senior-controller-financial-reporting-planning-bi-avantgarde-munchen-205627",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2322,7 +2450,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/upstart-lead-accountant",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2339,7 +2467,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/mercury-executive-assistant",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2356,7 +2484,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-network-operations-manager-contracting",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2373,7 +2501,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-manager-payments-reconciliation",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2391,7 +2519,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/talkspace-general-application-for-product-engineering-and-technology",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2408,7 +2536,7 @@
    ],
    "url": "https://jooble.org/jdp/-6466770117065301998",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2424,7 +2552,7 @@
    ],
    "url": "https://jooble.org/jdp/-2933400572286502464",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2441,7 +2569,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/gitlab-senior-solutions-architect-operations-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -2458,6 +2586,223 @@
     "property management systems"
    ],
    "url": "https://weworkremotely.com/remote-jobs/alliants-limited-customer-success-executive-apac-middle-east",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Complex Care Outreach Coordinator",
+   "company": "Devoted Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This role is a US-based healthcare outreach and scheduling position requiring direct patient communication, which does not align with the candidate's finance, accounting, and operations skill set.",
+   "blockers": "Location requirement: United States.",
+   "gaps": [
+    "healthcare outreach",
+    "patient scheduling",
+    "clinical coordination",
+    "customer support"
+   ],
+   "url": "https://himalayas.app/companies/devoted-health/jobs/complex-care-outreach-coordinator?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Business Development Representative, Financial Services - UKI",
+   "company": "GitLab",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a sales and business development role targeting the UK and Ireland region, which does not utilize the candidate's accounting, finance, or operational skills.",
+   "blockers": "The job requires the candidate to be based in the UK and Ireland, whereas the candidate is in Nigeria.",
+   "gaps": [
+    "outbound prospecting",
+    "sales",
+    "lead generation",
+    "cold outreach"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/gitlab-business-development-representative-financial-services-uki",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Remote Business Tax Expert",
+   "company": "Intuit",
+   "location": "Cambridge, MA",
+   "source": "Jooble",
+   "reason": "The role requires extensive US business tax preparation expertise, which is outside the candidate's Nigerian accounting and reporting background.",
+   "blockers": "Mandatory prior experience in business tax preparation and books-to-tax accounting that the profile does not show.",
+   "gaps": [
+    "US business tax preparation",
+    "tax accounting"
+   ],
+   "url": "https://jooble.org/jdp/1150783529783810244",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "CPC Processor Customer Support - Afterhours",
+   "company": "Datavant",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a customer support and medical records processing role requiring US-centric healthcare administration experience and extreme graveyard shift hours, which does not align with the candidate's finance and accounting background.",
+   "blockers": "None",
+   "gaps": [
+    "customer support",
+    "multi-line phone system",
+    "medical records",
+    "healthcare experience",
+    "insurance claims processing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/datavant-cpc-processor-customer-support-afterhours",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Accounting Assistant",
+   "company": "Neo Industries Weirton, Inc.",
+   "location": "Weirton, WV",
+   "source": "Jooble",
+   "reason": "The candidate is located in Nigeria, but this job requires physical presence in Weirton, West Virginia, USA, making it an ineligible geographic mismatch.",
+   "blockers": "Candidate is not resident in the required location (Weirton, WV, USA)",
+   "gaps": [
+    "Paper Save/PO system"
+   ],
+   "url": "https://jooble.org/jdp/-668702962025803795",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Administrative Assistant",
+   "company": "Atlas Contact Center",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "The job requires physical presence in the Philippines and is an administrative support role, whereas the candidate is based in Nigeria and specializes in accounting and finance.",
+   "blockers": "Candidate is not resident in the Philippines",
+   "gaps": [
+    "front desk management",
+    "calendar management",
+    "visitor greeting"
+   ],
+   "url": "https://jooble.org/jdp/89699400718763270",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Office Administrator",
+   "company": "Bluebell Accounting",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "The job requires physical presence in the Philippines, which does not match the candidate's location in Nigeria.",
+   "blockers": "Candidate is not resident in the required country (Philippines).",
+   "gaps": [
+    "receptionist skills",
+    "calendar management"
+   ],
+   "url": "https://jooble.org/jdp/6512535870392274980",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Administrative Assistant",
+   "company": "Dawn Medical Center",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The candidate is based in Nigeria and cannot fulfill an onsite administrative role in the United Kingdom.",
+   "blockers": "The job requires physical presence in the United Kingdom, whereas the candidate is resident in Nigeria.",
+   "gaps": [
+    "healthcare administration"
+   ],
+   "url": "https://jooble.org/jdp/951432314599645895",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Administrative Assistant",
+   "company": "Birch Medical Center",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The job requires physical residency and work authorization in the United Kingdom, which the candidate lacks.",
+   "blockers": "Must be resident and authorized to work in the United Kingdom",
+   "gaps": [
+    "medical reception",
+    "appointment scheduling"
+   ],
+   "url": "https://jooble.org/jdp/-7060298914896601890",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Tax Accountant",
+   "company": "Dialysis Clinic, Inc.",
+   "location": "Nashville, TN",
+   "source": "Jooble",
+   "reason": "The job requires US tax compliance experience and presence in Nashville, TN, whereas the candidate is based in Nigeria without US tax expertise.",
+   "blockers": "Requires physical presence in Nashville, TN and US tax compliance expertise, both of which the candidate lacks.",
+   "gaps": [
+    "federal tax regulations",
+    "state tax regulations",
+    "local tax regulations",
+    "US healthcare tax compliance"
+   ],
+   "url": "https://jooble.org/jdp/-4627981544053105907",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Remote Tax Accountant",
+   "company": "Virtual Vocations Inc",
+   "location": "United States",
+   "source": "Jooble",
+   "reason": "The candidate lacks U.S. tax accounting expertise and residency required for this remote U.S. position.",
+   "blockers": "Requires residency in the United States and specialized knowledge of corporate income tax returns which the candidate does not possess.",
+   "gaps": [
+    "corporate income tax returns",
+    "tax accounting",
+    "U.S. tax compliance"
+   ],
+   "url": "https://jooble.org/jdp/6397420310614697883",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Accountant",
+   "company": "NSCS",
+   "location": "Lincoln, NE",
+   "source": "Jooble",
+   "reason": "The job requires physical presence in Lincoln, Nebraska, whereas the candidate is based in Nigeria and seeking remote or local roles.",
+   "blockers": "Candidate is based in Nigeria and does not meet the US geographic location requirement",
+   "gaps": [
+    "knowledge of college policies and business office policies"
+   ],
+   "url": "https://jooble.org/jdp/3647884542876048349",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Tech Recruiter Trainee — Growth, Training & Remote Options",
+   "company": "Optomi",
+   "location": "Charlotte, NC",
+   "source": "Jooble",
+   "reason": "The job is for a Technical Recruiter role requiring sales and recruitment skills in the United States, which does not align with the candidate's finance, accounting, and reporting profile.",
+   "blockers": "Requires residency in the United States / Charlotte, NC.",
+   "gaps": [
+    "technical recruitment",
+    "IT staffing",
+    "sales"
+   ],
+   "url": "https://jooble.org/jdp/-5520887977979532037",
    "drafted": false,
    "recent": true
   },
@@ -3788,7 +4133,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/okta-strategic-account-executive",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3805,7 +4150,7 @@
    ],
    "url": "https://himalayas.app/companies/devoted-health/jobs/pharmacy-coordinator-medicare-part-d?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3823,7 +4168,7 @@
    ],
    "url": "https://himalayas.app/companies/trimble/jobs/manager-customer-success?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3842,7 +4187,7 @@
    ],
    "url": "https://himalayas.app/companies/peraton/jobs/cloud-engineer-governance-risk-and-compliance-grc-8879857410?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3859,7 +4204,7 @@
    ],
    "url": "https://himalayas.app/companies/motorola-solutions/jobs/project-manager-arizona-or-colorado?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3877,7 +4222,7 @@
    ],
    "url": "https://himalayas.app/companies/sunstrong-management-llc/jobs/accounting-manager?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3896,7 +4241,7 @@
    ],
    "url": "https://himalayas.app/companies/covermymeds/jobs/study-lead-feasibility-coordinator-remote-us?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3914,7 +4259,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/peter-park/senior-operations-excellence-manager-munchen-495482",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3932,7 +4277,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/shyftplan/junior-account-executive-berlin-167852",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3952,7 +4297,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tawo-gmbh/teilprojektleiter-bau-csa-data-center-im-raum-berlin-386125",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3970,7 +4315,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tawo-gmbh/product-owner-ai-construction-software-berlin-126731",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -3989,7 +4334,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/vercore/account-executive-gn-italy-emea-germany-hq-fulda-232598",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4007,7 +4352,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/turbine-kreuzberg/project-manager-ai-first-delivery-berlin-291258",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4025,7 +4370,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/twentyfour-industries/working-student-operations-project-management-munich-291371",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4044,7 +4389,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/turbalabs/data-scientist-researcher-heidelberg-ger-214106",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4060,7 +4405,7 @@
    ],
    "url": "https://jooble.org/jdp/-2878285583936857652",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4077,7 +4422,7 @@
    ],
    "url": "https://jooble.org/jdp/-2878285583936857652",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4093,7 +4438,7 @@
    ],
    "url": "https://jooble.org/jdp/8881676261883584637",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4111,7 +4456,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-los-angeles-ca",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4129,7 +4474,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/customer-io-mid-market-account-executive-uk-ireland",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4146,7 +4491,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/oportun-sr-financial-analyst-r14363",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4164,7 +4509,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-dallas-tx",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4181,7 +4526,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/oportun-senior-product-manager-r14206",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4199,7 +4544,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/metamask-senior-product-manager-universal-kyc-metamask-passport",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4219,7 +4564,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/coinbase-corporate-accounting-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4237,7 +4582,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/launchdarkly-senior-enterprise-account-executive-central",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4255,7 +4600,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/mercury-executive-producer-brand-creative",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4273,7 +4618,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-miami",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4291,7 +4636,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/okta-solutions-engineer-okta-enterprise",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4309,7 +4654,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/pinterest-manager-ii-engineering-analytics-engineering-core-data-science",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4325,7 +4670,7 @@
    ],
    "url": "https://jooble.org/jdp/-7419342200207469181",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -4344,6 +4689,525 @@
     "data engineering experience"
    ],
    "url": "https://weworkremotely.com/remote-jobs/oddball-senior-data-engineer",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Data Analyst - Remote USA",
+   "company": "TechInsights",
+   "location": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, United States, Åland Islands",
+   "source": "Himalayas",
+   "reason": "The candidate is based in Nigeria and does not meet the geographic eligibility for this remote USA/Europe role.",
+   "blockers": "Candidate is not located in one of the eligible countries (USA, UK, or specified European countries).",
+   "gaps": [
+    "ETL processes",
+    "semiconductor industry market analysis"
+   ],
+   "url": "https://himalayas.app/companies/techinsights/jobs/data-analyst-remote-usa?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Business Planning & Risk Analyst",
+   "company": "First Citizens",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required 4 years of experience and is not located in the United States.",
+   "blockers": "4 years of experience required; US residency/market requirement",
+   "gaps": [
+    "vulnerability management software",
+    "project planning experience in financial services"
+   ],
+   "url": "https://himalayas.app/companies/first-citizens/jobs/business-planning-risk-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive - Data Modernization Sales",
+   "company": "Rocket Software",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires 5+ years of enterprise software sales experience and selling to Global 1000 clients, which the candidate completely lacks.",
+   "blockers": "5+ years of sales experience required",
+   "gaps": [
+    "enterprise software sales",
+    "data modernization sales",
+    "Global 1000 client relationships",
+    "technical data architecture sales"
+   ],
+   "url": "https://himalayas.app/companies/rocket-software/jobs/account-executive-data-modernization-sales?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Associate Software Engineer",
+   "company": "Parsons Corporation",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate lacks US citizenship and a security clearance, and the role requires a computer science degree and software engineering experience.",
+   "blockers": "Must be a US Citizen and requires the selected candidate to be eligible and willing to obtain a Department of Defense TS/SCI level security clearance; Bachelor's Degree in computer science or other technical discipline",
+   "gaps": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "software engineering",
+    "containerized application development"
+   ],
+   "url": "https://himalayas.app/companies/parsons-corporation/jobs/associate-software-engineer?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Cybersecurity Analyst",
+   "company": "Assurant",
+   "location": "Argentina",
+   "source": "Himalayas",
+   "reason": "The job requires a minimum of 3 years of experience in Information Security and Cybersecurity, which the candidate lacks.",
+   "blockers": "Minimum 3 years of experience in Information Security, Risk Management, Compliance, Audit, Governance, Risk & Compliance (GRC), or related cybersecurity functions.",
+   "gaps": [
+    "information security",
+    "cybersecurity risk assessments",
+    "vendor risk reviews",
+    "cybersecurity frameworks",
+    "ServiceNow"
+   ],
+   "url": "https://himalayas.app/companies/assurant/jobs/cybersecurity-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Customer Success Representative",
+   "company": "Multitexter",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate is ineligible due to a strict gender requirement (female) specified in the job posting.",
+   "blockers": "Female candidates only requirement",
+   "gaps": [
+    "customer service experience"
+   ],
+   "url": "https://jobs.smartyacad.com/customer-success-representative-at-multitexter/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive - In-Territory (Orange County, CA)",
+   "company": "Justworks",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a U.S.-based outbound sales role requiring in-person territory travel in California, whereas the candidate is a finance professional based in Nigeria seeking remote or local finance and operations roles.",
+   "blockers": "Requires physical presence and travel in Orange County, California; role is outbound B2B sales rather than finance or accounting.",
+   "gaps": [
+    "cold calling",
+    "quota carrying sales",
+    "B2B pipeline management",
+    "negotiation and closing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-orange-county-ca",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive, Enterprise (Columbus, Ohio)",
+   "company": "Everpure",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior sales and account executive role requiring enterprise software sales experience, which does not align with the candidate's background in junior accounting and finance.",
+   "blockers": "Requires extensive enterprise sales and account management experience which the candidate lacks.",
+   "gaps": [
+    "Enterprise sales",
+    "pipeline forecasting",
+    "C-level prospecting",
+    "account management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-columbus-ohio",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive - In-Territory (Miami, FL)",
+   "company": "Justworks",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is an outbound sales and business development role requiring local territory presence in Miami, which does not match the candidate's accounting, finance, and remote operations profile.",
+   "blockers": "Requires physical presence and in-territory work in Miami, USA; candidate is based in Nigeria.",
+   "gaps": [
+    "B2B sales",
+    "pipeline management",
+    "cold prospecting",
+    "contract negotiation",
+    "closing deals"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-miami-fl",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Account Executive, Sacramento",
+   "company": "Glean",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level enterprise software sales role requiring regional sales experience, which completely misaligns with the candidate's background in junior accounting and finance.",
+   "blockers": "Requires experienced Enterprise Account Executive with US territory sales background.",
+   "gaps": [
+    "enterprise software sales",
+    "cold outreach",
+    "quota attainment",
+    "C-level sales negotiation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-sacramento",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Corporate Accountant - Tax",
+   "company": "Salesloft",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level role requiring significant prior experience and tax expertise that the junior candidate lacks.",
+   "blockers": "Senior role requiring extensive corporate accounting and tax experience.",
+   "gaps": [
+    "corporate tax compliance",
+    "public-readiness tax experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/salesloft-senior-corporate-accountant-tax",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Account Executive, Oregon",
+   "company": "Glean",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior Enterprise Account Executive sales role requiring direct tech sales experience, which completely misaligns with the candidate's background in junior accounting, finance, and operations.",
+   "blockers": "Requires experienced Enterprise Account Executive background in tech sales, whereas the candidate has only junior accounting experience.",
+   "gaps": [
+    "Enterprise sales",
+    "quota carrying",
+    "SaaS sales cycle management",
+    "C-level prospecting",
+    "pipeline generation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-oregon",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Head of Product - Personal Banking",
+   "company": "Mercury",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior executive leadership role (Head of Product) requiring extensive experience building consumer fintech products at scale, which completely mismatches the candidate's junior accounting profile.",
+   "blockers": "Requires extensive senior product leadership experience and a proven track record of building products used by millions of people, which the candidate lacks.",
+   "gaps": [
+    "product strategy",
+    "people management",
+    "consumer fintech product development",
+    "AI product shipping",
+    "P&L ownership"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/mercury-head-of-product-personal-banking",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Head of Product - Business Banking",
+   "company": "Mercury",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 10+ years of experience and 5+ years of leading product managers, which vastly exceeds the candidate's junior experience level.",
+   "blockers": "Requires 10+ years of experience and 5+ years managing product managers; candidate is a junior accountant with under 1 year of experience.",
+   "gaps": [
+    "product leadership",
+    "people management",
+    "executive P&L ownership",
+    "software product management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/mercury-head-of-product-business-banking",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Chief of Staff Director, Product",
+   "company": "Affirm",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 10+ years of senior executive-level experience and leadership, which far exceeds the candidate's junior profile.",
+   "blockers": "Requires 10+ years of experience in product strategy or as a Chief of Staff to a senior executive, whereas the candidate is an entry-level/junior accountant with under a year of experience.",
+   "gaps": [
+    "10+ years experience",
+    "executive leadership",
+    "product strategy",
+    "speechwriting",
+    "organizational change management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/affirm-chief-of-staff-director-product",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Customer Success Manager, Strategic",
+   "company": "Customer.io",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires 5+ years of enterprise customer success experience and US or Canada residency, both of which the candidate lacks.",
+   "blockers": "5+ years enterprise CSM experience required; US or Canada residency required.",
+   "gaps": [
+    "enterprise CSM",
+    "SaaS account management",
+    "executive business reviews",
+    "API and integration technical consulting"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/customer-io-senior-customer-success-manager-strategic",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Executive Recruiter",
+   "company": "Sezzle",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This role is for an experienced Executive Recruiter focusing on C-suite and board-level talent, whereas the candidate is a junior finance professional with no recruitment or HR experience.",
+   "blockers": "Executive recruitment experience required",
+   "gaps": [
+    "talent acquisition",
+    "executive search",
+    "C-level recruiting",
+    "market benchmarking",
+    "compensation benchmarking"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-executive-recruiter",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Executive Recruiter",
+   "company": "Sezzle",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior executive recruitment role requiring extensive experience in headhunting C-suite talent, which completely misaligns with the candidate's background as an entry-level management accountant.",
+   "blockers": "Requires extensive executive search and recruitment experience.",
+   "gaps": [
+    "Executive recruitment",
+    "talent acquisition",
+    "headhunting",
+    "C-suite hiring"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-executive-recruiter",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Payroll Clerk",
+   "company": "Marriott International, Inc",
+   "location": "Canada",
+   "source": "Jooble",
+   "reason": "The job is located in Canada, whereas the candidate is based in Nigeria and the role does not offer remote work.",
+   "blockers": "Candidate is not resident in Canada and requires visa sponsorship for an onsite role.",
+   "gaps": [
+    "local payroll regulations"
+   ],
+   "url": "https://jooble.org/jdp/2038528419865140200",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Office Administrator",
+   "company": "Arbor Early Learning",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The job is located in the United Kingdom while the candidate is in Nigeria, representing an out-of-country requirement with no visa sponsorship mentioned.",
+   "blockers": "Candidate is not resident in the United Kingdom",
+   "gaps": [
+    "childcare administration"
+   ],
+   "url": "https://jooble.org/jdp/499790261610153228",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Office Administrator",
+   "company": "Brook Early Learning",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The job requires physical presence in the United Kingdom, violating the candidate's location eligibility of Nigeria or remote.",
+   "blockers": "Required to be resident in the United Kingdom.",
+   "gaps": [
+    "reception",
+    "appointment booking",
+    "office administration"
+   ],
+   "url": "https://jooble.org/jdp/5255345084773795407",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Accounts Assistant",
+   "company": "Elm Accounting",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The job is located in the United Kingdom, whereas the candidate is based in Nigeria and requires remote or local work.",
+   "blockers": "Required to be resident in the United Kingdom",
+   "gaps": [],
+   "url": "https://jooble.org/jdp/-4798161436844642044",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior OR Staff Product Designer",
+   "company": "Elation Health",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior UX and product design role requiring extensive design experience and a portfolio, which completely misaligns with the candidate's accounting, finance, and entry-level profile.",
+   "blockers": "8+ years of experience in product design required; UI/UX portfolio required",
+   "gaps": [
+    "product design",
+    "UX strategy",
+    "wireframing",
+    "user research",
+    "design systems"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/elation-health-senior-or-staff-product-designer",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Head of Compliance, LATAM",
+   "company": "OKX",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level compliance leadership role requiring extensive regional regulatory experience in LATAM, which completely mismatches the candidate's entry-level profile and Nigerian location.",
+   "blockers": "Senior management role requiring extensive regional regulatory experience and leadership in LATAM.",
+   "gaps": [
+    "KYC/KYB",
+    "CDD/EDD",
+    "AML/FT",
+    "Sanctions compliance",
+    "LATAM regulatory knowledge",
+    "senior compliance leadership"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/okx-head-of-compliance-latam",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Accounting Specialist",
+   "company": "FMS",
+   "location": "Tulsa, OK",
+   "source": "Jooble",
+   "reason": "The job is located in Tulsa, OK, which violates the candidate's requirement to be based in Nigeria or remote.",
+   "blockers": "Candidate is not located in Tulsa, OK or eligible to work on-site in the US.",
+   "gaps": [
+    "US GAAP",
+    "local US tax compliance"
+   ],
+   "url": "https://jooble.org/jdp/-5335837248834290841",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Business Finance Officer II",
+   "company": "King County",
+   "location": "Seattle, WA",
+   "source": "Jooble",
+   "reason": "The job is located in Seattle, WA, and the candidate is based in Nigeria without authorization or relocation provided for a local US county government role.",
+   "blockers": "Candidate is not resident in the required location (Seattle, WA) and lacks US work authorization.",
+   "gaps": [
+    "local government finance knowledge",
+    "public sector accounting standards"
+   ],
+   "url": "https://jooble.org/jdp/2923067233727752257",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Financial Aid Officer",
+   "company": "Kaplan",
+   "location": "United States",
+   "source": "Jooble",
+   "reason": "The job is located in the United States, and the candidate is based in Nigeria without U.S. work authorization.",
+   "blockers": "U.S. residency and work authorization required",
+   "gaps": [
+    "U.S. financial aid regulations",
+    "Title IV compliance"
+   ],
+   "url": "https://jooble.org/jdp/7927060983779029809",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Student Financial Aid Officer IV",
+   "company": "UT Dallas",
+   "location": "Richardson, TX",
+   "source": "Jooble",
+   "reason": "The job requires US residency and work authorization in Texas, which the candidate lacks, in addition to being located abroad.",
+   "blockers": "Candidate is located in Nigeria and does not have US work authorization for Texas",
+   "gaps": [
+    "student financial aid administration",
+    "US federal financial aid compliance"
+   ],
+   "url": "https://jooble.org/jdp/1794397945923000758",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Summer 2027: MBA Pricing & Monetization Strategy Intern",
+   "company": "Intuit",
+   "location": "Mountain View, CA",
+   "source": "Jooble",
+   "reason": "The job requires current enrollment in an MBA degree program, which the candidate does not have as he holds a B.Sc.",
+   "blockers": "currently enrolled in an MBA degree-seeking program",
+   "gaps": [
+    "pricing strategy",
+    "monetization strategy",
+    "MBA-level business strategy"
+   ],
+   "url": "https://jooble.org/jdp/-1228276138009350377",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Corporate Tax Manager",
+   "company": "Armstrong Watson",
+   "location": "Glasgow, KY",
+   "source": "Jooble",
+   "reason": "The candidate lacks the extensive professional experience required for a senior managerial role like Corporate Tax Manager.",
+   "blockers": "Senior management role requiring years of specialized tax experience.",
+   "gaps": [
+    "Corporate tax management",
+    "formal line management",
+    "professional tax qualification"
+   ],
+   "url": "https://jooble.org/jdp/-6768238876155679002",
    "drafted": false,
    "recent": true
   },
@@ -5188,7 +6052,7 @@
    ],
    "url": "https://jobs.smartyacad.com/dem-controls-graduate-engineering-trainee-program-2026/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5207,7 +6071,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/higgsfield/founding-account-executive-dach-advertising-and-video-production-berlin-244993",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5225,7 +6089,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/pennylane/team-lead-sales-steuerkanzleien-b2b-saas-fintech-scale-up-berlin-98258",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5243,7 +6107,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/dornier-medtech-gmbh/working-student-technical-documentation-dmt-germany-wessling-352993",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5261,7 +6125,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/peter-park/group-product-manager-team-lead-product-munchen-252582",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5279,7 +6143,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/prologistik-group/senior-project-manager-fur-intralogistiksoftware-dortmund-440696",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5298,7 +6162,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tawo-gmbh/teilprojektleiter-elektrotechnik-data-center-im-raum-berlin-49817",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5317,7 +6181,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/vercore/account-executive-gn-dach-germany-hq-fulda-222772",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5332,7 +6196,7 @@
    ],
    "url": "https://jooble.org/jdp/8881676261883584637",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5348,7 +6212,7 @@
    ],
    "url": "https://jooble.org/jdp/8881676261883584637",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5365,7 +6229,7 @@
    ],
    "url": "https://jooble.org/jdp/-1938418828067230921",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5383,7 +6247,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/c4media-inc-enterprise-account-executive",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5402,7 +6266,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/customer-io-associate-account-executive-uk-ireland",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5420,7 +6284,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-new-york-city",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5439,7 +6303,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/dropbox-full-stack-product-software-engineer",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -5457,6 +6321,343 @@
     "understanding of design fundamentals"
    ],
    "url": "https://weworkremotely.com/remote-jobs/lightbox-animation-sets-props-concept-artist-internship",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Director, Product Management, Digital Services - Billing & Payments",
+   "company": "DIRECTV",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior executive product management role in the United States requiring extensive leadership experience, which does not align with the candidate's entry-level profile and location.",
+   "blockers": "Senior executive role (Director level) requiring extensive leadership experience; US location requirement.",
+   "gaps": [
+    "People management",
+    "AI product strategy",
+    "product roadmap ownership",
+    "technical product management"
+   ],
+   "url": "https://himalayas.app/companies/directv/jobs/director-product-management-digital-services-billing-payments?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Manager, Business Compliance",
+   "company": "Aledade",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This senior compliance management role requires 10+ years of healthcare industry experience and US residency, both of which the candidate lacks.",
+   "blockers": "Minimum of 10+ years of progressive experience in the healthcare industry; US residency requirement",
+   "gaps": [
+    "healthcare compliance",
+    "vendor risk management",
+    "HIPAA knowledge",
+    "regulatory compliance"
+   ],
+   "url": "https://himalayas.app/companies/aledade/jobs/manager-business-compliance?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Account Manager - Enterprise Sales",
+   "company": "BrowserStack",
+   "location": "India",
+   "source": "Himalayas",
+   "reason": "The role requires 8-10 years of B2B SaaS enterprise sales experience and is restricted to candidates residing in India, both of which the candidate lacks.",
+   "blockers": "Requires 8-10 years of B2B SaaS experience; requires residency in India",
+   "gaps": [
+    "enterprise sales",
+    "B2B SaaS account management",
+    "customer expansion strategy"
+   ],
+   "url": "https://himalayas.app/companies/browserstack/jobs/senior-account-manager-enterprise-sales?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sr. Client Manager, Commercial Risk - Insurance Advisory Solutions",
+   "company": "Baldwin Risk Partners, LLC",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires senior-level account management experience and insurance industry expertise which the candidate lacks.",
+   "blockers": "5+ years account management experience required; insurance industry experience and professional insurance designation/licensing required; US location requirement",
+   "gaps": [
+    "commercial insurance",
+    "risk management",
+    "client management",
+    "insurance underwriting knowledge"
+   ],
+   "url": "https://himalayas.app/companies/baldwin-risk-partners-llc/jobs/sr-client-manager-commercial-risk-insurance-advisory-solutions?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Enterprise Account Executive - West",
+   "company": "LaunchDarkly",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 7+ years of enterprise software sales experience, which completely misaligns with the candidate's junior accounting and finance profile.",
+   "blockers": "7+ years of enterprise sales experience required; candidate has junior accounting experience.",
+   "gaps": [
+    "enterprise sales",
+    "closing sales",
+    "selling DevOps products",
+    "developer workflow technical understanding"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/launchdarkly-senior-enterprise-account-executive-west",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Enterprise Account Executive - East",
+   "company": "LaunchDarkly",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise sales role requiring 7+ years of closing sales experience, which completely misaligns with the candidate's entry-level accounting background.",
+   "blockers": "Requires 7+ years of Enterprise closing sales experience and technical DevOps sales background.",
+   "gaps": [
+    "Enterprise sales",
+    "DevOps product sales",
+    "B2B pipeline generation",
+    "C-suite negotiation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/launchdarkly-senior-enterprise-account-executive-east",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Route Trainee - UniFirst Canada",
+   "company": "UniFirst",
+   "location": "Canada",
+   "source": "Jooble",
+   "reason": "This role requires physical route service and customer management in Canada, which does not align with the candidate's finance and accounting background or location in Nigeria.",
+   "blockers": "Required residency in Canada",
+   "gaps": [
+    "route service",
+    "customer delivery"
+   ],
+   "url": "https://jooble.org/jdp/-141519824469917603",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Certified Municipal Finance Officer - Burlington Township.",
+   "company": "NJLM",
+   "location": "Burlington, NJ",
+   "source": "Jooble",
+   "reason": "This is a senior municipal Chief Financial Officer role in the United States, requiring extensive local government finance experience which the junior candidate lacks.",
+   "blockers": "Senior executive role requiring municipal finance experience and US residency; candidate is an entry-level professional based in Nigeria.",
+   "gaps": [
+    "Municipal finance",
+    "local government budgeting",
+    "US public sector accounting standards"
+   ],
+   "url": "https://jooble.org/jdp/-7552135791303113192",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sales Assistant",
+   "company": "Crown Home Store",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The role is an entry-level retail sales position in the United Kingdom, which is entirely outside the candidate's finance, accounting, and Nigeria-based or remote scope.",
+   "blockers": "Required to be resident in the United Kingdom; retail sales role requiring no financial skills.",
+   "gaps": [
+    "retail sales",
+    "customer service"
+   ],
+   "url": "https://jooble.org/jdp/7039417654941228902",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Transport Coordinator",
+   "company": "Arbor Couriers",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "The job requires physical presence in the Philippines and transport coordination duties that do not align with the candidate's finance and accounting background.",
+   "blockers": "Candidate is not resident in the Philippines",
+   "gaps": [
+    "transport coordination",
+    "logistics management",
+    "route planning"
+   ],
+   "url": "https://jooble.org/jdp/6048517109425069198",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Retail Sales Associate",
+   "company": "Anchor Fashion",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "The role is an entry-level retail sales position in the Philippines, which does not match the candidate's finance, accounting, or remote/Nigeria career profile.",
+   "blockers": "Requires physical presence in the Philippines",
+   "gaps": [
+    "retail sales",
+    "customer service"
+   ],
+   "url": "https://jooble.org/jdp/-5212620850882756439",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Retail Sales Associate",
+   "company": "Clover Fashion",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The job is a retail sales role in the United Kingdom, which does not utilize the candidate's accounting, finance, or analytical skills, and requires international relocation.",
+   "blockers": "The candidate is resident in Nigeria and does not meet the geographic location requirement for a UK-based retail position.",
+   "gaps": [
+    "retail sales",
+    "customer service"
+   ],
+   "url": "https://jooble.org/jdp/-7008361809185787299",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Transport Coordinator",
+   "company": "Dawn Couriers",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "This transport coordinator role requires physical presence in the United Kingdom, which violates the candidate's geographic restriction to Nigeria or remote work.",
+   "blockers": "Candidate is not resident in the United Kingdom",
+   "gaps": [
+    "transport coordination",
+    "logistics management"
+   ],
+   "url": "https://jooble.org/jdp/7942227458069278617",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Retail Sales Associate",
+   "company": "Bluebell Fashion",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "This retail sales role is entirely unrelated to the candidate's finance, accounting, and analytical background.",
+   "blockers": "Location requirement: job is in the Philippines while candidate is in Nigeria.",
+   "gaps": [
+    "retail sales",
+    "customer service"
+   ],
+   "url": "https://jooble.org/jdp/-3772368630425222468",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sales Assistant",
+   "company": "Fern Home Store",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "This sales role is completely unrelated to accounting, finance, or operations, and the candidate is not located in the required country.",
+   "blockers": "Candidate is not resident in the United Kingdom",
+   "gaps": [
+    "customer service",
+    "retail sales",
+    "in-person merchandising"
+   ],
+   "url": "https://jooble.org/jdp/-4920037966400360387",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Moving Assistant",
+   "company": "Copper Removals",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The role is for a manual labor moving assistant in the UK, which is completely unrelated to the candidate's finance, accounting, and remote work profile.",
+   "blockers": "Required to be resident in the United Kingdom",
+   "gaps": [
+    "physical lifting",
+    "furniture wrapping",
+    "moving logistics"
+   ],
+   "url": "https://jooble.org/jdp/4031408233423142155",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Graduate Software Engineer",
+   "company": "Cedar Apps",
+   "location": "United Kingdom",
+   "source": "Jooble",
+   "reason": "The role is for a software engineer requiring technical programming skills which the candidate does not possess.",
+   "blockers": "Requires software engineering skills and on-site presence in the United Kingdom.",
+   "gaps": [
+    "software engineering",
+    "coding",
+    "computer science fundamentals"
+   ],
+   "url": "https://jooble.org/jdp/4139991492477608978",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sales Assistant",
+   "company": "Atlas Home Store",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "This sales role in the Philippines does not use the candidate's accounting, finance, or transferable corporate skills.",
+   "blockers": "The job requires physical presence in the Philippines, where the candidate is not resident.",
+   "gaps": [
+    "retail sales",
+    "customer service"
+   ],
+   "url": "https://jooble.org/jdp/4858350498613692500",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sales Assistant",
+   "company": "Atlas Home Store",
+   "location": "Philippines",
+   "source": "Jooble",
+   "reason": "The role is an entry-level retail sales position in the Philippines, which does not utilize the candidate's accounting, finance, or transferable corporate skills.",
+   "blockers": "Candidate is not resident in the Philippines",
+   "gaps": [
+    "retail sales",
+    "customer service"
+   ],
+   "url": "https://jooble.org/jdp/4858350498613692500",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Chief Finance Officer - Onsite",
+   "company": "The Karuk Tribe",
+   "location": "Happy Camp, CA",
+   "source": "Jooble",
+   "reason": "The candidate is an entry-level junior accountant while this position is for a Chief Finance Officer requiring extensive executive experience.",
+   "blockers": "Senior executive role requiring many years of CFO or senior financial leadership experience.",
+   "gaps": [
+    "executive leadership",
+    "strategic financial management",
+    "organizational governance"
+   ],
+   "url": "https://jooble.org/jdp/1415581429249893603",
    "drafted": false,
    "recent": true
   },
@@ -6064,7 +7265,7 @@
    ],
    "url": "https://himalayas.app/companies/parsons-corporation/jobs/entry-level-civil-engineer-transportation?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -6081,7 +7282,7 @@
    ],
    "url": "https://himalayas.app/companies/calix/jobs/regional-vice-president-sales-engineering-nationals-strategic-accounts?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -6100,7 +7301,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/h2fly-gmbh/working-student-intern-all-genders-electrical-test-systems-instrumentation-stuttgart-474677",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -6119,7 +7320,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tawo-gmbh/teilprojektleiter-hlk-kaltetechnik-data-center-im-raum-berlin-68401",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -6139,7 +7340,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tawo-gmbh/senior-projektleiter-data-center-deutschlandweit-271798",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -6154,7 +7355,7 @@
    ],
    "url": "https://jooble.org/jdp/-2878285583936857652",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -6170,10 +7371,171 @@
    ],
    "url": "https://jooble.org/jdp/-7419342200207469181",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Business System Analyst - Veeva Vault",
+   "company": "NAMSA",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level technical role based in the United States requiring specialized experience in Veeva Vault systems, which completely misaligns with the candidate's entry-level financial profile and Nigerian location.",
+   "blockers": "Senior role level; United States location requirement; missing specialized Veeva Vault eTMF and CTMS clinical systems experience.",
+   "gaps": [
+    "Veeva Vault",
+    "clinical systems administration",
+    "technical system architecture",
+    "software configuration",
+    "Agile release planning"
+   ],
+   "url": "https://himalayas.app/companies/namsa/jobs/senior-business-system-analyst-veeva-vault?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Application Database Administrator",
+   "company": "CACI International Inc",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate fails mandatory geographic, citizenship, and experience requirements, including U.S. citizenship, a T5 security clearance, and 5+ years of Oracle DBA experience.",
+   "blockers": "Requires U.S. citizenship, T5 clearance, residency in the United States, and 5+ years of IT/Oracle EBS database administration experience.",
+   "gaps": [
+    "Oracle Database Administration",
+    "Oracle RAC",
+    "Oracle EBS R12.2",
+    "Security+ certification",
+    "Oracle Fusion Middleware"
+   ],
+   "url": "https://himalayas.app/companies/caci-international-inc/jobs/application-database-administrator-4069244090?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Tax Expert - Remote",
+   "company": "Intuit",
+   "location": "Jackson, MS",
+   "source": "Jooble",
+   "reason": "The candidate lacks the mandatory professional certifications (CPA or EA) required for this tax role.",
+   "blockers": "Requires active unrestricted credential: EA, CPA, or Practicing Attorney",
+   "gaps": [
+    "US tax preparation",
+    "tax laws",
+    "active CPA or EA credential"
+   ],
+   "url": "https://jooble.org/jdp/-1351854820226533023",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Payroll Clerk",
+   "company": "Marriott International, Inc",
+   "location": "Canada",
+   "source": "Jooble",
+   "reason": "The job requires physical presence in Canada and the candidate is located in Nigeria.",
+   "blockers": "Canada location requirement",
+   "gaps": [
+    "payroll processing",
+    "French language"
+   ],
+   "url": "https://jooble.org/jdp/2038528419865140200",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Payroll Clerk",
+   "company": "Marriott International, Inc",
+   "location": "Canada",
+   "source": "Jooble",
+   "reason": "The candidate is not resident in Canada, and the job requires physical presence in Canada.",
+   "blockers": "Required to be resident in Canada",
+   "gaps": [
+    "Canadian payroll experience"
+   ],
+   "url": "https://jooble.org/jdp/2038528419865140200",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Payroll Clerk",
+   "company": "Marriott International, Inc",
+   "location": "Canada",
+   "source": "Jooble",
+   "reason": "The job requires physical presence in Canada and the candidate is based in Nigeria without listed Canadian work authorization.",
+   "blockers": "Required to be located in Canada",
+   "gaps": [
+    "Canadian payroll regulations"
+   ],
+   "url": "https://jooble.org/jdp/2038528419865140200",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Operations Management Trainee",
+   "company": "Avis Budget Group",
+   "location": "Lihue, HI",
+   "source": "Jooble",
+   "reason": "The job requires physical presence and work authorization in Lihue, HI, USA, whereas the candidate is based in Nigeria and seeking Nigeria or remote roles.",
+   "blockers": "Candidate is not located in the required job location (Lihue, HI) and lacks US work authorization",
+   "gaps": [
+    "car rental operations",
+    "customer care referrals"
+   ],
+   "url": "https://jooble.org/jdp/3619333679255274993",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-24T07:01+00:00",
+   "report": [
+    "Last run: 2026-11-24T07:01+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 985 postings in total, and 684 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "78 postings were scored against your CV this run.",
+    "2 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "4 cover letters were written.",
+    "Overall, 27 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 15 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 12 passed filter",
+    "- workingnomads: 37 fetched, 10 passed filter",
+    "- jobicy: 46 fetched, 39 passed filter",
+    "- remoteok: 100 fetched, 53 passed filter",
+    "- greenhouse: 67 fetched, 36 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 44 fetched, 23 passed filter",
+    "- jooble: 506 fetched, 438 passed filter",
+    "- arbeitnow: 50 fetched, 25 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 46 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 67 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 10 linked pages",
+    "- 66 jobs older than 30 days skipped",
+    "- 80 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 75: General Accountant - Accounts Payable at Upsun. Blockers: none",
+    "  - 45: Executive Assistant at Vogue Citi. Blockers: none",
+    "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines.",
+    "  - 45: Accounts Assistant at Brook Accounting. Blockers: Candidate must be resident in the Philippines or have local work authorization.",
+    "  - 25: Office Administrator at Bluebell Tutors. Blockers: Candidate is not located in the Philippines and the role requires physical presence for front desk duties.",
+    "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+   ]
+  },
   {
    "last_run": "2026-11-24T06:16+00:00",
    "report": [
