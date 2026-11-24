@@ -3190,7 +3190,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 75,
   "reason": "The role aligns well with the candidate's coursework in inventory accounting and stock valuation, utilizing his skills in reconciliation, record keeping, and discrepancy investigation within a prominent fintech environment.",
@@ -3199,7 +3200,8 @@
   "title": "State Inventory Officer (Adamawa)",
   "company": "Moniepoint",
   "source": "Greenhouse:Moniepoint",
-  "updated": "2026-11-24T17:42:16+00:00"
+  "updated": "2026-11-24T18:54:47+00:00",
+  "drafted": true
  },
  "https://jooble.org/jdp/3935580966416531377": {
   "url": "https://jooble.org/jdp/3935580966416531377",
@@ -4848,5 +4850,365 @@
   "company": "GitLab",
   "source": "We Work Remotely",
   "updated": "2026-11-24T18:04:09+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/maven-clinic-member-services-senior-associate": {
+  "url": "https://weworkremotely.com/remote-jobs/maven-clinic-member-services-senior-associate",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "This is a senior customer operations and support role requiring handling member inquiries, which does not closely align with the candidate's finance and accounting background.",
+  "blockers": "Senior role requirement (Senior Associate) requiring specialized customer/member services experience rather than accounting or finance.",
+  "skill_gaps": "customer support; healthcare benefits navigation; member services management",
+  "title": "Member Services Senior Associate",
+  "company": "Maven Clinic",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/affirm-compensation-analyst-i": {
+  "url": "https://weworkremotely.com/remote-jobs/affirm-compensation-analyst-i",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires the candidate to be based in the US and work in the New York office, whereas the candidate is based in Nigeria.",
+  "blockers": "Candidate must be based in the US / New York office.",
+  "skill_gaps": "Compensation analysis; HR systems",
+  "title": "Compensation Analyst I",
+  "company": "Affirm",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/patronus/payment-operations-manager-berlin-143976": {
+  "url": "https://www.arbeitnow.com/jobs/companies/patronus/payment-operations-manager-berlin-143976",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate fails the required 3 years of professional experience and the mandatory native German language proficiency.",
+  "blockers": "Requires at least 3 years of professional experience (candidate has under 1 year); Requires native-level German language proficiency (not possessed); Requires location in Berlin, Germany (candidate is in Nigeria and role is onsite/Berlin).",
+  "skill_gaps": "German language fluency; 3+ years of FinOps/operations experience; experience with healthcare billing (Pflegekassen)",
+  "title": "Payment Operations Manager (w/m/x)",
+  "company": "Patronus",
+  "source": "Arbeitnow",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://jobicy.com/jobs/164156-financial-reporting-technical-accounting-sr-analyst": {
+  "url": "https://jobicy.com/jobs/164156-financial-reporting-technical-accounting-sr-analyst",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires 4-6 years of relevant experience, SEC reporting, and U.S. GAAP knowledge, which exceed the candidate's 11 months of junior accounting experience and profile.",
+  "blockers": "4-6 years of relevant experience required; publicly traded company reporting experience required",
+  "skill_gaps": "U.S. GAAP; SEC reporting; Forms 10-Q and 10-K preparation; technical accounting",
+  "title": "Financial Reporting & Technical Accounting Sr Analyst",
+  "company": "Dropbox",
+  "source": "Jobicy",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://jobicy.com/jobs/164130-gl-accountant": {
+  "url": "https://jobicy.com/jobs/164130-gl-accountant",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required 3+ years of accounting experience and does not reside in the required Eastern or Central Standard Time Zones.",
+  "blockers": "3+ years of accounting experience required; Located in either Eastern or Central Standard Time Zones",
+  "skill_gaps": "full charge bookkeeping experience",
+  "title": "GL Accountant",
+  "company": "Teamshares",
+  "source": "Jobicy",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern": {
+  "url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role is a technical software engineering internship requiring cryptography, machine learning, and coding skills that do not align with the candidate's accounting and finance background.",
+  "blockers": "The candidate lacks software engineering, cryptography, and machine learning skills required for this technical role.",
+  "skill_gaps": "software engineering; cryptography; machine learning; coding",
+  "title": "Software Engineer Intern",
+  "company": "Ritual",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/affirm-affirm-bank-accounting-lead": {
+  "url": "https://weworkremotely.com/remote-jobs/affirm-affirm-bank-accounting-lead",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires extensive recent experience in general ledger accounting within banking or financial services and leadership responsibilities, which exceed the candidate's entry-level profile.",
+  "blockers": "Requires recent experience in banking or financial services and senior-level responsibilities such as reviewing work prepared by Staff Accountants and mentoring team members.",
+  "skill_gaps": "banking or financial services experience; regulatory reporting (Call Reports and Federal Reserve reporting); US GAAP",
+  "title": "Affirm Bank Accounting Lead",
+  "company": "Affirm",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/ping-identity-enterprise-account-executive": {
+  "url": "https://weworkremotely.com/remote-jobs/ping-identity-enterprise-account-executive",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior B2B enterprise software sales role that requires extensive outbound sales and account management experience, which does not match the candidate's accounting and finance background.",
+  "blockers": "Requires extensive enterprise software sales and account executive experience which the candidate lacks.",
+  "skill_gaps": "enterprise software sales; B2B prospecting; quota carrying sales; cybersecurity domain expertise",
+  "title": "Enterprise Account Executive",
+  "company": "Ping Identity",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/clover-health-engineering-lead-clinical-operations": {
+  "url": "https://weworkremotely.com/remote-jobs/clover-health-engineering-lead-clinical-operations",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This role requires extensive software engineering leadership and technical development experience, which does not match the candidate's finance and accounting background.",
+  "blockers": "Requires senior engineering leadership experience and technical software development expertise.",
+  "skill_gaps": "software engineering; API development; mobile workflows; clinical operations tech",
+  "title": "Engineering Lead, Clinical Operations",
+  "company": "Clover Health",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/glossier-director-product-marketing-contractor": {
+  "url": "https://weworkremotely.com/remote-jobs/glossier-director-product-marketing-contractor",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior-level marketing leadership role requiring extensive product marketing experience, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+  "blockers": "Senior leadership role requiring extensive product marketing experience; candidate is an entry-level accountant.",
+  "skill_gaps": "product marketing; go-to-market strategy; brand storytelling; creative direction; commercial P&L management",
+  "title": "Director, Product Marketing (Contractor)",
+  "company": "Glossier",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/abnormal-ai-security-sales-executive-tola": {
+  "url": "https://weworkremotely.com/remote-jobs/abnormal-ai-security-sales-executive-tola",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior quota-carrying technical sales role in the USA that requires specialized cybersecurity sales experience, which does not match the candidate's finance and accounting background.",
+  "blockers": "Requires US residency (Dallas, Austin, or Houston area) and extensive enterprise software sales experience.",
+  "skill_gaps": "enterprise sales; quota carrying; AI security expertise; cybersecurity technical depth",
+  "title": "AI Security Sales Executive, TOLA",
+  "company": "Abnormal",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sumo-logic-enterprise-account-executive-iii": {
+  "url": "https://weworkremotely.com/remote-jobs/sumo-logic-enterprise-account-executive-iii",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior enterprise sales role requiring 7+ years of IT sales experience, which completely misaligns with the candidate's entry-level accounting and finance background.",
+  "blockers": "Requires 7+ years of total IT sales experience and 5+ years of enterprise software sales, which the candidate lacks.",
+  "skill_gaps": "Enterprise sales; SaaS selling; quota-carrying sales experience; MEDDPICC methodology; relationship management for sales",
+  "title": "Enterprise Account Executive III",
+  "company": "Sumo Logic",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/datadog-senior-sales-engineer-ai-accounts": {
+  "url": "https://weworkremotely.com/remote-jobs/datadog-senior-sales-engineer-ai-accounts",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires 7+ years of senior technical sales and AI/ML infrastructure experience, which the candidate lacks.",
+  "blockers": "Requires 7+ years in Sales/Solutions Engineering and deep AI/ML infrastructure expertise",
+  "skill_gaps": "Sales engineering; AI/ML infrastructure; Kubernetes; distributed tracing; cloud architecture",
+  "title": "Senior Sales Engineer - AI Accounts",
+  "company": "Datadog",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-senior-director-product-management-agentic-platform": {
+  "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-senior-director-product-management-agentic-platform",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate is an entry-level junior accountant with less than a year of experience, whereas this role requires at least 10 years building technical products and 3 years leading product management teams in AI and agentic systems.",
+  "blockers": "Requires at least 10 years building technical products and at least 3 years leading teams of PMs, which far exceeds the candidate's experience level.",
+  "skill_gaps": "AI agentic systems; product management leadership; multi-agent orchestration frameworks; custom model training; RAG and memory architectures",
+  "title": "Senior Director, Product Management, Agentic Platform",
+  "company": "ZoomInfo Technologies LLC",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/airbnb-senior-staff-data-scientist-guest-host-marketplace-ai": {
+  "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-staff-data-scientist-guest-host-marketplace-ai",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior-level data science and AI role requiring extensive machine learning and causal inference expertise, which does not match the candidate's junior accounting and finance profile.",
+  "blockers": "Senior-level role requiring advanced data science and AI expertise",
+  "skill_gaps": "Data science; machine learning; causal inference; Python or R coding for AI; marketplace AI product development",
+  "title": "Senior Staff Data Scientist, Guest & Host Marketplace AI",
+  "company": "Airbnb",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/databricks-enterprise-hunter-account-executive-fsi-dib": {
+  "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-hunter-account-executive-fsi-dib",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior sales account executive role requiring 5+ years of complex software sales experience in specific defense and federal markets, which completely mismatches the candidate's junior accounting and finance background.",
+  "blockers": "Requires 5+ years of experience selling complex software deals and specialized enterprise hunting experience in the FSI/DIB market.",
+  "skill_gaps": "enterprise software sales; MEDDPICC; B2B tech sales; account executive experience",
+  "title": "Enterprise Hunter Account Executive, FSI/ DIB",
+  "company": "Databricks",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/pinterest-principal-engineer-big-data-platform": {
+  "url": "https://weworkremotely.com/remote-jobs/pinterest-principal-engineer-big-data-platform",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "This is a senior software engineering role requiring 12+ years of industry experience and deep technical expertise in big data and machine learning platforms, which completely misaligns with the candidate's profile.",
+  "blockers": "12+ years of industry experience required; 8+ years of big data/Kubernetes platform experience required; Bachelor's degree in Computer Science or related technical field required.",
+  "skill_gaps": "big data technologies; Flink; Spark; Kubernetes; Ray; PyTorch/TensorFlow; Java; Go; Scala; software engineering",
+  "title": "Principal Engineer, Big Data Platform",
+  "company": "Pinterest",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/clover-health-drg-validation-auditor": {
+  "url": "https://weworkremotely.com/remote-jobs/clover-health-drg-validation-auditor",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate lacks the required CCS or CIC certification and 1 year of direct inpatient clinical coding experience.",
+  "blockers": "Required CCS or CIC certification; Required 1 year of direct inpatient clinical coding experience",
+  "skill_gaps": "CCS certification; CIC certification; inpatient clinical coding experience; DRG pricing methodology knowledge",
+  "title": "DRG Validation Auditor",
+  "company": "Clover Health",
+  "source": "We Work Remotely",
+  "updated": "2026-11-24T18:54:04+00:00"
  }
 }

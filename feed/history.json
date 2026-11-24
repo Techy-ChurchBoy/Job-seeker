@@ -686,5 +686,49 @@
    "  - 10: Senior Data Engineer at Proxify AB. Blockers: Minimum 5 years of professional experience in Data Engineering required.",
    "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
   ]
+ },
+ {
+  "last_run": "2026-11-24T18:54+00:00",
+  "report": [
+   "Last run: 2026-11-24T18:54+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 484 postings in total, and 226 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "18 postings were scored against your CV this run.",
+   "4 postings could not be scored because the AI service was busy. They will be tried again next run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 cover letters were written. 2 more are waiting for the next run.",
+   "Overall, 30 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 3 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 50 fetched, 42 passed filter",
+   "- remoteok: 100 fetched, 52 passed filter",
+   "- greenhouse: 68 fetched, 37 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 21 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 17 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 42 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 68 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 9 linked pages",
+   "- 24 jobs older than 30 days skipped",
+   "- 22 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 35: Member Services Senior Associate at Maven Clinic. Blockers: Senior role requirement (Senior Associate) requiring specialized customer/member services experience rather than accounting or finance.",
+   "  - 15: Payment Operations Manager (w/m/x) at Patronus. Blockers: Requires at least 3 years of professional experience (candidate has under 1 year); Requires native-level German language proficiency (not possessed); Requires location in Berlin, Germany (candidate is in Nigeria and role is onsite/Berlin).",
+   "  - 15: GL Accountant at Teamshares. Blockers: 3+ years of accounting experience required; Located in either Eastern or Central Standard Time Zones",
+   "  - 15: Financial Reporting & Technical Accounting Sr Analyst at Dropbox. Blockers: 4-6 years of relevant experience required; publicly traded company reporting experience required",
+   "  - 15: Compensation Analyst I at Affirm. Blockers: Candidate must be based in the US / New York office.",
+   "- 4 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  ]
  }
 ]

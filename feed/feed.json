@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-24 18:07 UTC",
+ "generated": "2026-11-24 18:58 UTC",
  "report": [
-  "Last run: 2026-11-24T18:04+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 483 postings in total, and 229 matched your skills.",
+  "Last run: 2026-11-24T18:54+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 484 postings in total, and 226 matched your skills.",
   "These sources could not be reached: themuse.",
-  "10 postings were scored against your CV this run.",
-  "2 postings could not be scored because the AI service was busy. They will be tried again next run.",
+  "18 postings were scored against your CV this run.",
+  "4 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "1 cover letters were written. 3 more are waiting for the next run.",
+  "1 cover letters were written. 2 more are waiting for the next run.",
   "Overall, 30 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
@@ -16,27 +16,27 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 364,
-    "week": 364,
+    "today": 406,
+    "week": 406,
     "limited": 0,
-    "overloaded": 110,
-    "tokens_in": 314271,
-    "tokens_out": 22179
+    "overloaded": 134,
+    "tokens_in": 339393,
+    "tokens_out": 23933
    },
    {
     "process": "letters",
-    "today": 39,
-    "week": 39,
+    "today": 47,
+    "week": 47,
     "limited": 0,
-    "overloaded": 26,
-    "tokens_in": 24670,
-    "tokens_out": 10374
+    "overloaded": 33,
+    "tokens_in": 26984,
+    "tokens_out": 11099
    },
    {
     "process": "web_search",
-    "today": 20,
-    "week": 20,
-    "limited": 20,
+    "today": 24,
+    "week": 24,
+    "limited": 24,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -45,8 +45,8 @@
   "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."
  },
  "checks": [
-  "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026",
   "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
+  "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Senior Payroll Specialist: 10 in matches, 5 in records",
@@ -58,12 +58,12 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-24T18:04+00:00",
+ "last_run": "2026-11-24T18:54+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 3 passed filter",
   "- workingnomads: 37 fetched, 10 passed filter",
-  "- jobicy: 49 fetched, 41 passed filter",
+  "- jobicy: 50 fetched, 42 passed filter",
   "- remoteok: 100 fetched, 52 passed filter",
   "- greenhouse: 68 fetched, 37 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -74,26 +74,26 @@
   "- jooble: 0 fetched, 0 passed filter",
   "- arbeitnow: 50 fetched, 17 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 46 passed filter",
+  "- weworkremotely: 100 fetched, 42 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 68 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 9 linked pages",
   "- 24 jobs older than 30 days skipped",
-  "- 12 new jobs sent to scoring",
+  "- 22 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 15: Senior TA Operations Specialist at GitLab. Blockers: Senior-level role requiring significant prior TA operations experience.",
-  "  - 15: Senior Microsoft Power BI Developer at Proxify AB. Blockers: Senior-level experience required; extensive software development and data engineering expertise missing",
-  "  - 15: Senior Finance & Controlling Officer (gn) - Focus Africa at Zoologisch. Blockers: Requires at least 5 years of professional experience in controlling, accounting, finance, or auditing (candidate has under 1 year); requires relocation to Frankfurt and permanently to Lusaka, Zambia; requires German and English language skills.",
-  "  - 10: Senior Data Scientist at Proxify AB. Blockers: 5+ years of hands-on experience in Data Science field",
-  "  - 10: Senior Data Engineer at Proxify AB. Blockers: Minimum 5 years of professional experience in Data Engineering required.",
-  "- 2 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 35: Member Services Senior Associate at Maven Clinic. Blockers: Senior role requirement (Senior Associate) requiring specialized customer/member services experience rather than accounting or finance.",
+  "  - 15: Payment Operations Manager (w/m/x) at Patronus. Blockers: Requires at least 3 years of professional experience (candidate has under 1 year); Requires native-level German language proficiency (not possessed); Requires location in Berlin, Germany (candidate is in Nigeria and role is onsite/Berlin).",
+  "  - 15: GL Accountant at Teamshares. Blockers: 3+ years of accounting experience required; Located in either Eastern or Central Standard Time Zones",
+  "  - 15: Financial Reporting & Technical Accounting Sr Analyst at Dropbox. Blockers: 4-6 years of relevant experience required; publicly traded company reporting experience required",
+  "  - 15: Compensation Analyst I at Affirm. Blockers: Candidate must be based in the US / New York office.",
+  "- 4 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
  ],
  "stats": {
-  "jobs_scored": 494,
+  "jobs_scored": 512,
   "strong": 42,
-  "drafts": 46,
+  "drafts": 47,
   "sent_today": 0,
   "sent_total": 3
  },
@@ -108,6 +108,15 @@
    ]
   },
   {
+   "skill": "Enterprise Sales",
+   "count": 16,
+   "examples": [
+    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
+    "Strategic Account Executive - Spain at GitLab",
+    "Senior Enterprise Account Executive - Central at LaunchDarkly"
+   ]
+  },
+  {
    "skill": "Sql",
    "count": 15,
    "examples": [
@@ -117,12 +126,12 @@
    ]
   },
   {
-   "skill": "Enterprise Sales",
-   "count": 14,
+   "skill": "Software Engineering",
+   "count": 15,
    "examples": [
-    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
-    "Strategic Account Executive - Spain at GitLab",
-    "Senior Enterprise Account Executive - Central at LaunchDarkly"
+    "General Application for Product, Engineering and Technology at Talkspace",
+    "Technical Product Manager at Sanovio",
+    "Junior Full Stack Engineer (LATAM) at LoanBud"
    ]
   },
   {
@@ -141,15 +150,6 @@
     "CPC Processor Customer Support- 8706 at Datavant",
     "CPC Processor Customer Support I at Datavant",
     "Offline Customer Support Officer (Katsina) at Moniepoint"
-   ]
-  },
-  {
-   "skill": "Software Engineering",
-   "count": 12,
-   "examples": [
-    "General Application for Product, Engineering and Technology at Talkspace",
-    "Technical Product Manager at Sanovio",
-    "Junior Full Stack Engineer (LATAM) at LoanBud"
    ]
   },
   {
@@ -172,7 +172,7 @@
   },
   {
    "skill": "Us Gaap",
-   "count": 9,
+   "count": 10,
    "examples": [
     "Accounting Specialist at Attentive Care Inc",
     "Accounting Operations at Plaid",
@@ -225,12 +225,12 @@
    ]
   },
   {
-   "skill": "None",
-   "count": 6,
+   "skill": "Enterprise Software Sales",
+   "count": 7,
    "examples": [
-    "Data Entry Officer (Ogun) at Moniepoint",
-    "FirstCap Limited Graduate Trainee Program 2026/2027 at Dixcover Hub listing",
-    "Business Services Assistant at Ping Identity"
+    "Solutions Engineer, Okta(Enterprise) at Okta",
+    "Account Executive - Data Modernization Sales at Rocket Software",
+    "Enterprise Account Executive, Sacramento at Glean"
    ]
   }
  ],
@@ -542,7 +542,7 @@
     "logistics operations"
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998886101",
-   "drafted": false,
+   "drafted": true,
    "recent": false
   },
   {
@@ -1082,6 +1082,23 @@
    "url": "https://jobicy.com/jobs/156798-billing-operations-analyst-1",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 35,
+   "title": "Member Services Senior Associate",
+   "company": "Maven Clinic",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior customer operations and support role requiring handling member inquiries, which does not closely align with the candidate's finance and accounting background.",
+   "blockers": "Senior role requirement (Senior Associate) requiring specialized customer/member services experience rather than accounting or finance.",
+   "gaps": [
+    "customer support",
+    "healthcare benefits navigation",
+    "member services management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/maven-clinic-member-services-senior-associate",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 25,
@@ -3396,7 +3413,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/gitlab-senior-ta-operations-specialist",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -3413,7 +3430,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/zoologisch/senior-finance-controlling-officer-gn-focus-africa-hq-frankfurt-407944",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -3434,6 +3451,72 @@
     "software development"
    ],
    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-microsoft-power-bi-developer-6",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Compensation Analyst I",
+   "company": "Affirm",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires the candidate to be based in the US and work in the New York office, whereas the candidate is based in Nigeria.",
+   "blockers": "Candidate must be based in the US / New York office.",
+   "gaps": [
+    "Compensation analysis",
+    "HR systems"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/affirm-compensation-analyst-i",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Payment Operations Manager (w/m/x)",
+   "company": "Patronus",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The candidate fails the required 3 years of professional experience and the mandatory native German language proficiency.",
+   "blockers": "Requires at least 3 years of professional experience (candidate has under 1 year); Requires native-level German language proficiency (not possessed); Requires location in Berlin, Germany (candidate is in Nigeria and role is onsite/Berlin).",
+   "gaps": [
+    "German language fluency",
+    "3+ years of FinOps/operations experience",
+    "experience with healthcare billing (Pflegekassen)"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/patronus/payment-operations-manager-berlin-143976",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Financial Reporting & Technical Accounting Sr Analyst",
+   "company": "Dropbox",
+   "location": "Canada",
+   "source": "Jobicy",
+   "reason": "The role requires 4-6 years of relevant experience, SEC reporting, and U.S. GAAP knowledge, which exceed the candidate's 11 months of junior accounting experience and profile.",
+   "blockers": "4-6 years of relevant experience required; publicly traded company reporting experience required",
+   "gaps": [
+    "U.S. GAAP",
+    "SEC reporting",
+    "Forms 10-Q and 10-K preparation",
+    "technical accounting"
+   ],
+   "url": "https://jobicy.com/jobs/164156-financial-reporting-technical-accounting-sr-analyst",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "GL Accountant",
+   "company": "Teamshares",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required 3+ years of accounting experience and does not reside in the required Eastern or Central Standard Time Zones.",
+   "blockers": "3+ years of accounting experience required; Located in either Eastern or Central Standard Time Zones",
+   "gaps": [
+    "full charge bookkeeping experience"
+   ],
+   "url": "https://jobicy.com/jobs/164130-gl-accountant",
    "drafted": false,
    "recent": true
   },
@@ -6096,7 +6179,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/enua-pharma-gmbh/director-technology-data-intelligence-cologne-84526",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -6116,7 +6199,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-5",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -6137,6 +6220,41 @@
     "machine learning"
    ],
    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-scientist-3",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Software Engineer Intern",
+   "company": "Ritual",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role is a technical software engineering internship requiring cryptography, machine learning, and coding skills that do not align with the candidate's accounting and finance background.",
+   "blockers": "The candidate lacks software engineering, cryptography, and machine learning skills required for this technical role.",
+   "gaps": [
+    "software engineering",
+    "cryptography",
+    "machine learning",
+    "coding"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Affirm Bank Accounting Lead",
+   "company": "Affirm",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires extensive recent experience in general ledger accounting within banking or financial services and leadership responsibilities, which exceed the candidate's entry-level profile.",
+   "blockers": "Requires recent experience in banking or financial services and senior-level responsibilities such as reviewing work prepared by Staff Accountants and mentoring team members.",
+   "gaps": [
+    "banking or financial services experience",
+    "regulatory reporting (Call Reports and Federal Reserve reporting)",
+    "US GAAP"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/affirm-affirm-bank-accounting-lead",
    "drafted": false,
    "recent": true
   },
@@ -7822,7 +7940,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/miss-germany-studios-gmbh-co-kg/trainee-redaktion-youtube-all-genders-cologne-461774",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -7841,7 +7959,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/gemini-senior-product-designer-prediction-markets",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -7861,6 +7979,173 @@
     "API development"
    ],
    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-microsoft-dynamics-365-developer",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Enterprise Account Executive",
+   "company": "Ping Identity",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior B2B enterprise software sales role that requires extensive outbound sales and account management experience, which does not match the candidate's accounting and finance background.",
+   "blockers": "Requires extensive enterprise software sales and account executive experience which the candidate lacks.",
+   "gaps": [
+    "enterprise software sales",
+    "B2B prospecting",
+    "quota carrying sales",
+    "cybersecurity domain expertise"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/ping-identity-enterprise-account-executive",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Engineering Lead, Clinical Operations",
+   "company": "Clover Health",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This role requires extensive software engineering leadership and technical development experience, which does not match the candidate's finance and accounting background.",
+   "blockers": "Requires senior engineering leadership experience and technical software development expertise.",
+   "gaps": [
+    "software engineering",
+    "API development",
+    "mobile workflows",
+    "clinical operations tech"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/clover-health-engineering-lead-clinical-operations",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Director, Product Marketing (Contractor)",
+   "company": "Glossier",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level marketing leadership role requiring extensive product marketing experience, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior leadership role requiring extensive product marketing experience; candidate is an entry-level accountant.",
+   "gaps": [
+    "product marketing",
+    "go-to-market strategy",
+    "brand storytelling",
+    "creative direction",
+    "commercial P&L management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/glossier-director-product-marketing-contractor",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "AI Security Sales Executive, TOLA",
+   "company": "Abnormal",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior quota-carrying technical sales role in the USA that requires specialized cybersecurity sales experience, which does not match the candidate's finance and accounting background.",
+   "blockers": "Requires US residency (Dallas, Austin, or Houston area) and extensive enterprise software sales experience.",
+   "gaps": [
+    "enterprise sales",
+    "quota carrying",
+    "AI security expertise",
+    "cybersecurity technical depth"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/abnormal-ai-security-sales-executive-tola",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Enterprise Account Executive III",
+   "company": "Sumo Logic",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise sales role requiring 7+ years of IT sales experience, which completely misaligns with the candidate's entry-level accounting and finance background.",
+   "blockers": "Requires 7+ years of total IT sales experience and 5+ years of enterprise software sales, which the candidate lacks.",
+   "gaps": [
+    "Enterprise sales",
+    "SaaS selling",
+    "quota-carrying sales experience",
+    "MEDDPICC methodology",
+    "relationship management for sales"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sumo-logic-enterprise-account-executive-iii",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Sales Engineer - AI Accounts",
+   "company": "Datadog",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 7+ years of senior technical sales and AI/ML infrastructure experience, which the candidate lacks.",
+   "blockers": "Requires 7+ years in Sales/Solutions Engineering and deep AI/ML infrastructure expertise",
+   "gaps": [
+    "Sales engineering",
+    "AI/ML infrastructure",
+    "Kubernetes",
+    "distributed tracing",
+    "cloud architecture"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/datadog-senior-sales-engineer-ai-accounts",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Director, Product Management, Agentic Platform",
+   "company": "ZoomInfo Technologies LLC",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate is an entry-level junior accountant with less than a year of experience, whereas this role requires at least 10 years building technical products and 3 years leading product management teams in AI and agentic systems.",
+   "blockers": "Requires at least 10 years building technical products and at least 3 years leading teams of PMs, which far exceeds the candidate's experience level.",
+   "gaps": [
+    "AI agentic systems",
+    "product management leadership",
+    "multi-agent orchestration frameworks",
+    "custom model training",
+    "RAG and memory architectures"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-senior-director-product-management-agentic-platform",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Staff Data Scientist, Guest & Host Marketplace AI",
+   "company": "Airbnb",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level data science and AI role requiring extensive machine learning and causal inference expertise, which does not match the candidate's junior accounting and finance profile.",
+   "blockers": "Senior-level role requiring advanced data science and AI expertise",
+   "gaps": [
+    "Data science",
+    "machine learning",
+    "causal inference",
+    "Python or R coding for AI",
+    "marketplace AI product development"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-staff-data-scientist-guest-host-marketplace-ai",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Enterprise Hunter Account Executive, FSI/ DIB",
+   "company": "Databricks",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior sales account executive role requiring 5+ years of complex software sales experience in specific defense and federal markets, which completely mismatches the candidate's junior accounting and finance background.",
+   "blockers": "Requires 5+ years of experience selling complex software deals and specialized enterprise hunting experience in the FSI/DIB market.",
+   "gaps": [
+    "enterprise software sales",
+    "MEDDPICC",
+    "B2B tech sales",
+    "account executive experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/databricks-enterprise-hunter-account-executive-fsi-dib",
    "drafted": false,
    "recent": true
   },
@@ -8966,10 +9251,96 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/gitlab-principal-executive-recruiter-r-d",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Principal Engineer, Big Data Platform",
+   "company": "Pinterest",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior software engineering role requiring 12+ years of industry experience and deep technical expertise in big data and machine learning platforms, which completely misaligns with the candidate's profile.",
+   "blockers": "12+ years of industry experience required; 8+ years of big data/Kubernetes platform experience required; Bachelor's degree in Computer Science or related technical field required.",
+   "gaps": [
+    "big data technologies",
+    "Flink",
+    "Spark",
+    "Kubernetes",
+    "Ray",
+    "PyTorch/TensorFlow",
+    "Java",
+    "Go",
+    "Scala",
+    "software engineering"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/pinterest-principal-engineer-big-data-platform",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "DRG Validation Auditor",
+   "company": "Clover Health",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate lacks the required CCS or CIC certification and 1 year of direct inpatient clinical coding experience.",
+   "blockers": "Required CCS or CIC certification; Required 1 year of direct inpatient clinical coding experience",
+   "gaps": [
+    "CCS certification",
+    "CIC certification",
+    "inpatient clinical coding experience",
+    "DRG pricing methodology knowledge"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/clover-health-drg-validation-auditor",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-24T18:54+00:00",
+   "report": [
+    "Last run: 2026-11-24T18:54+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 484 postings in total, and 226 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "18 postings were scored against your CV this run.",
+    "4 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written. 2 more are waiting for the next run.",
+    "Overall, 30 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 15 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 3 passed filter",
+    "- workingnomads: 37 fetched, 10 passed filter",
+    "- jobicy: 50 fetched, 42 passed filter",
+    "- remoteok: 100 fetched, 52 passed filter",
+    "- greenhouse: 68 fetched, 37 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 44 fetched, 21 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 17 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 42 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 68 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 9 linked pages",
+    "- 24 jobs older than 30 days skipped",
+    "- 22 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 35: Member Services Senior Associate at Maven Clinic. Blockers: Senior role requirement (Senior Associate) requiring specialized customer/member services experience rather than accounting or finance.",
+    "  - 15: Payment Operations Manager (w/m/x) at Patronus. Blockers: Requires at least 3 years of professional experience (candidate has under 1 year); Requires native-level German language proficiency (not possessed); Requires location in Berlin, Germany (candidate is in Nigeria and role is onsite/Berlin).",
+    "  - 15: GL Accountant at Teamshares. Blockers: 3+ years of accounting experience required; Located in either Eastern or Central Standard Time Zones",
+    "  - 15: Financial Reporting & Technical Accounting Sr Analyst at Dropbox. Blockers: 4-6 years of relevant experience required; publicly traded company reporting experience required",
+    "  - 15: Compensation Analyst I at Affirm. Blockers: Candidate must be based in the US / New York office.",
+    "- 4 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+   ]
+  },
   {
    "last_run": "2026-11-24T18:04+00:00",
    "report": [
