@@ -730,5 +730,47 @@
    "  - 15: Compensation Analyst I at Affirm. Blockers: Candidate must be based in the US / New York office.",
    "- 4 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
   ]
+ },
+ {
+  "last_run": "2026-11-25T02:17+00:00",
+  "report": [
+   "Last run: 2026-11-25T02:17+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 984 postings in total, and 669 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "80 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "9 cover letters were written. 1 more are waiting for the next run.",
+   "Overall, 31 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 6 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 50 fetched, 42 passed filter",
+   "- remoteok: 100 fetched, 53 passed filter",
+   "- greenhouse: 68 fetched, 37 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 21 passed filter",
+   "- jooble: 500 fetched, 436 passed filter",
+   "- arbeitnow: 50 fetched, 20 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 42 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 68 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 9 linked pages",
+   "- 59 jobs older than 30 days skipped",
+   "- 80 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 75: Staff Accountant at Colony Brands, Inc.. Blockers: none",
+   "  - 75: Cost Accountant at GCB Services LLC. Blockers: US residency/work authorization likely required for a physical plant role in Wisconsin",
+   "  - 45: Bookkeeper at Tidewell Accounting. Blockers: United Kingdom residency or work authorization required",
+   "  - 45: Administrative Assistant at Tidewell Accounting. Blockers: Remote work is not specified for this UK-based role, and the candidate is based in Nigeria.",
+   "  - 45: Accounting Assistant at Sonalysts. Blockers: Local candidate preference in Waterford, CT"
+  ]
  }
 ]
