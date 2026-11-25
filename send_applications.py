@@ -11,6 +11,7 @@ import csv, json, os, re, smtplib, sys
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from prepare import slug  # same file naming as the drafts
+import docs  # attaches the tailored CV and cover letter
 import records
 from jobbot import update_status
 
