@@ -92,7 +92,6 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <div id="stats" class="grid"></div>
   <div class="clay">
     <p class="muted">Start the full job search now, instead of waiting for the next scheduled run.</p>
-    <input id="runPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
     <button class="btn" id="runBtn" type="button">Run the job search now</button>
     <button class="btn" id="boardsBtn" type="button">Find job boards</button>
     <p class="muted" id="runMsg"></p>
@@ -111,7 +110,6 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <h2>Draft-ready opportunities</h2>
   <p class="muted">Cover letters written and waiting. Open a draft to read the letter, then apply through the link.</p>
   <div class="clay">
-    <input id="dPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
     <p class="muted" id="dMsg"></p>
   </div>
   <div class="sub">Ready to handle</div>
@@ -153,7 +151,6 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <h2>Location outreach</h2>
   <div class="clay">
     <p class="muted">Type a town or area. The bot finds organisations there, writes an open application for each, and waits for your approval. Up to 20 emails a day.</p>
-    <input id="locPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
     <input id="locName" class="field" type="text" placeholder="Town or area, e.g. Ibadan">
     <input id="locCats" class="field" type="text" placeholder="Kinds of organisation (optional)">
     <button class="btn" id="locSearch" type="button">Find organisations</button>
@@ -179,7 +176,6 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <div class="clay">
     <div class="row"><b id="modeText">Checking...</b><button class="btn" id="modeBtn" type="button" disabled>...</button></div>
     <p class="muted">Review only: the bot fills Greenhouse forms and sends you a screenshot, and you submit. Automatic: the bot submits them itself.</p>
-    <input id="modePw" class="field" type="password" placeholder="Password" autocomplete="current-password">
     <p class="muted" id="modeMsg"></p>
   </div>
   <h2>Usage</h2>
@@ -192,6 +188,7 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
 </main>
 
 <script>
+function savedPassword() { return sessionStorage.getItem('dashboardPassword') || ''; }
 function el(tag, cls, text) {
   const e = document.createElement(tag);
   if (cls) e.className = cls;
@@ -229,18 +226,17 @@ showTab(location.hash.slice(1) || 'overview');
 
 /* ---------- feed ---------- */
 document.getElementById('runBtn').addEventListener('click', async () => {
-  const password = document.getElementById('runPw').value;
+  const password = savedPassword();
   const msg = document.getElementById('runMsg');
   if (!password) { msg.textContent = 'Enter the password first.'; return; }
   msg.textContent = 'Starting...';
   const res = await fetch('/api/outreach', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password, action: 'run' }) });
   const d = await res.json().catch(() => ({}));
   msg.textContent = res.ok ? d.message : (d.error || 'Something went wrong.');
-  if (res.ok) document.getElementById('runPw').value = '';
 });
 
 document.getElementById('boardsBtn').addEventListener('click', async () => {
-  const password = document.getElementById('runPw').value;
+  const password = savedPassword();
   const msg = document.getElementById('runMsg');
   if (!password) { msg.textContent = 'Enter the password first.'; return; }
   msg.textContent = 'Starting the board finder...';
@@ -378,7 +374,7 @@ function draftCard(d, handled) {
   return c;
 }
 async function markDraft(url, state, card, btn, wasHandled) {
-  const password = document.getElementById('dPw').value;
+  const password = savedPassword();
   const msg = document.getElementById('dMsg');
   if (!password) { msg.textContent = 'Enter the password first.'; return; }
   btn.disabled = true; msg.textContent = 'Saving...';
@@ -444,11 +440,12 @@ function renderHistory(f) {
 function locMessage(text) { document.getElementById('locMsg').textContent = text; }
 async function outreachPost(body) {
   const res = await fetch('/api/outreach', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  if (res.status === 401) { sessionStorage.removeItem('dashboardPassword'); location.reload(); }
   const d = await res.json().catch(() => ({}));
   return { ok: res.ok, d };
 }
 document.getElementById('locSearch').addEventListener('click', async () => {
-  const password = document.getElementById('locPw').value;
+  const password = savedPassword();
   const location = document.getElementById('locName').value.trim();
   if (!password) return locMessage('Enter the password first.');
   if (!location) return locMessage('Enter a town or area.');
@@ -457,7 +454,7 @@ document.getElementById('locSearch').addEventListener('click', async () => {
   locMessage(r.ok ? r.d.message : (r.d.error || 'Something went wrong.'));
 });
 document.getElementById('resendBtn').addEventListener('click', async () => {
-  const password = document.getElementById('locPw').value;
+  const password = savedPassword();
   const url = document.getElementById('resendUrl').value.trim();
   if (!password) return locMessage('Enter the password first.');
   if (!url) return locMessage('Paste the job link.');
@@ -487,7 +484,7 @@ function renderBatches(list) {
     btn.type = 'button';
     btn.addEventListener('click', async () => {
       const ids = [...form.querySelectorAll('input[type=checkbox]:checked')].map(x => x.value);
-      const password = document.getElementById('locPw').value;
+      const password = savedPassword();
       if (!ids.length) return locMessage('Tick at least one organisation.');
       if (!password) return locMessage('Enter the password first.');
       if (!confirm('Send ' + ids.length + ' application emails now? Up to 20 can go out per day.')) return;
@@ -514,14 +511,14 @@ fetch('/api/mode', { cache: 'no-store' })
   .catch(() => { document.getElementById('modeText').textContent = 'Could not read the setting'; modeMessage('Could not reach the switch. Check APPLY_PASSWORD and GITHUB_TOKEN are set on this site.'); });
 document.getElementById('modeBtn').addEventListener('click', async () => {
   const want = document.getElementById('modeBtn').dataset.auto === 'true';
-  const pw = document.getElementById('modePw').value;
+  const pw = savedPassword();
   if (!pw) { modeMessage('Enter the password first.'); return; }
   if (want && !confirm('Turn on automatic submission? The bot will submit Greenhouse applications itself, without asking you first.')) return;
   modeMessage('Saving...');
   try {
     const res = await fetch('/api/mode', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: pw, auto: want }) });
     const d = await res.json().catch(() => ({}));
-    if (res.ok) { setMode(d.auto); modeMessage('Saved.'); document.getElementById('modePw').value = ''; }
+    if (res.ok) { setMode(d.auto); modeMessage('Saved.'); }
     else modeMessage(d.error || 'Something went wrong.');
   } catch (err) { modeMessage('Could not reach the site: ' + err.message); }
 });
