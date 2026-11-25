@@ -858,5 +858,49 @@
    "  - 25: Brand Partnership Associate - esports, Gaming & Internet Culture at Coinbase. Blockers: Lacks required 2+ years of experience in esports, gaming marketing, and/or creator/influencer marketing partnerships.",
    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
   ]
+ },
+ {
+  "last_run": "2026-11-25T17:12+00:00",
+  "report": [
+   "Last run: 2026-11-25T17:12+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 483 postings in total, and 224 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "38 postings were scored against your CV this run.",
+   "6 postings could not be scored because the AI service was busy. They will be tried again next run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "0 cover letters were written. 5 more are waiting for the next run.",
+   "Overall, 40 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 13 passed filter",
+   "- workingnomads: 38 fetched, 11 passed filter",
+   "- jobicy: 50 fetched, 44 passed filter",
+   "- remoteok: 100 fetched, 50 passed filter",
+   "- greenhouse: 66 fetched, 34 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 43 fetched, 20 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 12 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 38 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 66 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 8 linked pages",
+   "- 27 jobs older than 30 days skipped",
+   "- 44 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 50: Remote Filing Coordinator (Government Submissions) at The Hello Team. Blockers: none",
+   "  - 45: Revenue Operations Analyst at Augment. Blockers: none",
+   "  - 45: Diageo Business Support Coordinator Graduate Program 2026 at Dixcover Hub listing. Blockers: none",
+   "  - 25: Marketing & Influencer Operations Specialist at STERRY. Blockers: 2 to 4 years of experience in digital marketing, social media, or influencer marketing required.",
+   "  - 25: Excellium Sales Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
+   "- 6 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  ]
  }
 ]
