@@ -1,0 +1,91 @@
+name: runs
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "site (a saved site) or link (a pasted page)"
+        required: true
+        default: site
+      site_id:
+        description: "Saved site id (mode site)"
+        required: false
+        default: ""
+      link_url:
+        description: "Page link (mode link)"
+        required: false
+        default: ""
+      save_site:
+        description: "Save the pasted link as a site (true or false)"
+        required: false
+        default: "false"
+      site_name:
+        description: "Name for the saved site"
+        required: false
+        default: ""
+      keyword:
+        required: false
+        default: ""
+      category:
+        required: false
+        default: ""
+      domain:
+        required: false
+        default: ""
+      language:
+        required: false
+        default: ""
+      country:
+        required: false
+        default: ""
+      pay_type:
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -u runs.py
+        env:
+          RUN_MODE: ${{ inputs.mode }}
+          SITE_ID: ${{ inputs.site_id }}
+          LINK_URL: ${{ inputs.link_url }}
+          SAVE_SITE: ${{ inputs.save_site }}
+          SITE_NAME: ${{ inputs.site_name }}
+          FILTER_KEYWORD: ${{ inputs.keyword }}
+          FILTER_CATEGORY: ${{ inputs.category }}
+          FILTER_DOMAIN: ${{ inputs.domain }}
+          FILTER_LANGUAGE: ${{ inputs.language }}
+          FILTER_COUNTRY: ${{ inputs.country }}
+          FILTER_PAY_TYPE: ${{ inputs.pay_type }}
+          OPENTRAIN_API_KEY: ${{ secrets.OPENTRAIN_API_KEY }}
+      - run: python -u outstanding.py
+        if: always()
+      - run: python -u dashboard.py
+        if: always()
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          for p in feed; do
+            [ -e "$p" ] && git add "$p"
+          done
+          git diff --staged --quiet || git commit -m "runs: $(date -u +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push && break
+            echo "push was rejected, retrying in 10 seconds"; sleep 10
+          done

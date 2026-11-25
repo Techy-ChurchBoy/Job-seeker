@@ -1,0 +1,56 @@
+name: retry
+
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "draft (cover letter) or send (email)"
+        required: true
+        default: draft
+      url:
+        description: "Job link (for draft)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -u retry.py
+        env:
+          RETRY_KIND: ${{ inputs.kind }}
+          RETRY_URL: ${{ inputs.url }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
+      - run: python -u outstanding.py
+        if: always()
+      - run: python -u dashboard.py
+        if: always()
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          for p in matches.csv prepared.json draft_attempts.json applied.csv failed_sends.json status.json applications feed; do
+            [ -e "$p" ] && git add "$p"
+          done
+          git diff --staged --quiet || git commit -m "retry: ${{ inputs.kind }}"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push && break
+            echo "push was rejected, retrying in 10 seconds"; sleep 10
+          done

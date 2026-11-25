@@ -271,6 +271,8 @@ def main():
     with open(FEED, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=1)
     print(f"Dashboard feed written: {len(feed['jobs'])} jobs, {len(feed['sent'])} sent")
+    import outstanding
+    outstanding.main()
 
 
 if __name__ == "__main__":
