@@ -13,6 +13,7 @@ CV_PATH = "cv/cv.txt"
 CV_TEXT = open(CV_PATH, encoding="utf-8").read() if os.path.exists(CV_PATH) else ""
 OUT_DIR = "applications"
 PREPARED_PATH = "prepared.json"
+ATTEMPTS_PATH = "draft_attempts.json"  # url -> number of failed tries
 MATCHES_PATH = "matches.csv"
 MAX_PER_RUN = 15
 DRAFT_MIN_SCORE = 40  # only write letters for jobs worth applying to
@@ -122,6 +123,9 @@ def main():
     done = set(json.load(open(PREPARED_PATH)))
     rows = [r for r in csv.DictReader(open(MATCHES_PATH, encoding="utf-8"))
             if r.get("url") and r["url"] not in done and float(r.get("score") or 0) >= DRAFT_MIN_SCORE]
+    # Jobs that failed before go to the back of the queue, so they cannot block the jobs behind them.
+    attempts = json.load(open(ATTEMPTS_PATH)) if os.path.exists(ATTEMPTS_PATH) else {}
+    rows.sort(key=lambda r: attempts.get(r["url"], 0))  # stable: keeps score order inside each group
     todo = rows[:MAX_PER_RUN]
     lines = [f"- {len(rows)} matches not yet prepared, doing {len(todo)} this run"]
     if not todo:
@@ -138,9 +142,11 @@ def main():
                                                 description=r.get("description", "")[:2500]))
         except QuotaError as e:
             errors.append(str(e))
-            break
+            break  # the AI is out of quota: stop, the rest wait for the next run
         except Exception as e:
             errors.append(f"{r['title']}: {str(e)[:200]}")
+            attempts[r["url"]] = attempts.get(r["url"], 0) + 1
+            json.dump(attempts, open(ATTEMPTS_PATH, "w"))
             continue
 
         path = f"{OUT_DIR}/{slug(r)}.md"
@@ -152,6 +158,8 @@ def main():
             f.write(f"## Cover letter\n\n{scrub(out.get('cover_letter', ''))}\n\n")
             f.write(f"## Tailored CV\n\n{scrub(out.get('tailored_cv', ''))}\n")
         done.add(r["url"])
+        attempts.pop(r["url"], None)
+        json.dump(attempts, open(ATTEMPTS_PATH, "w"))
         import records
         records.upsert("letters", r["url"], drafted=True)
         made += 1
