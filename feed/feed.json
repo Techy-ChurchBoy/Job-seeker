@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 14:40 UTC",
+ "generated": "2026-11-25 14:45 UTC",
  "report": [
   "Last run: 2026-11-25T06:48+00:00 UTC.",
   "The search checked 16 job sources and 15 responded. It found 984 postings in total, and 672 matched your skills.",
@@ -45,8 +45,8 @@
   "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."
  },
  "checks": [
-  "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
   "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026",
+  "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Senior Payroll Specialist: 10 in matches, 5 in records",
