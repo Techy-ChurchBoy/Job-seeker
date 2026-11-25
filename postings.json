@@ -6836,7 +6836,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 55,
   "reason": "The job matches the candidate's entry-level accounting skills and accounts payable experience, but it is located in New York, NY while the candidate is based in Nigeria.",
@@ -6845,7 +6846,8 @@
   "title": "Accounting Assistant",
   "company": "NAKA Tech",
   "source": "Jooble",
-  "updated": "2026-11-25T06:10:37+00:00"
+  "updated": "2026-11-25T06:49:17+00:00",
+  "drafted": true
  },
  "https://jooble.org/jdp/581702304726811561": {
   "url": "https://jooble.org/jdp/581702304726811561",
@@ -8152,5 +8154,505 @@
   "company": "The Karuk Tribe",
   "source": "Jooble",
   "updated": "2026-11-25T06:10:38+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-fraud-operations-analyst-turkey": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-fraud-operations-analyst-turkey",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 45,
+  "reason": "The candidate has general analytical, data, and operational skills that transfer well to a fintech fraud operations role, but lacks specialized prior fraud detection or risk analysis experience.",
+  "blockers": "",
+  "skill_gaps": "fraud detection experience; risk analysis; transaction monitoring tools",
+  "title": "Fraud Operations Analyst (Turkey)",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://jobicy.com/jobs/157010-staff-accountant-3": {
+  "url": "https://jobicy.com/jobs/157010-staff-accountant-3",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 45,
+  "reason": "The candidate has a relevant B.Sc. in Accounting and foundational accounting experience, but falls short of the required 2+ years of experience and US GAAP technical knowledge.",
+  "blockers": "2+ years experience in accounting or finance; US GAAP technical accounting knowledge",
+  "skill_gaps": "US GAAP; ASC 606 revenue recognition; NetSuite or Salesforce",
+  "title": "Staff Accountant",
+  "company": "H1",
+  "source": "Jobicy",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/launchdarkly-executive-assistant": {
+  "url": "https://weworkremotely.com/remote-jobs/launchdarkly-executive-assistant",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "While the candidate has administrative experience and transferable organizational skills, this is a dedicated senior Executive Assistant role supporting a C-level executive at a US tech company, whereas the candidate's core expertise is in accounting and finance.",
+  "blockers": "",
+  "skill_gaps": "Executive Assistant experience; supporting C-level executives; complex global travel management; calendar management for CRO",
+  "title": "Executive Assistant",
+  "company": "LaunchDarkly",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/coinbase-brand-partnership-associate-sports": {
+  "url": "https://weworkremotely.com/remote-jobs/coinbase-brand-partnership-associate-sports",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "The candidate has general project management and budget tracking skills, but lacks the mandatory 2+ years of experience in sports marketing, partnerships, or sponsorship management required for the role.",
+  "blockers": "2+ years of experience in sports marketing, partnerships or sponsorship management",
+  "skill_gaps": "sports marketing; partnership management; sponsorship management",
+  "title": "Brand Partnership Associate, Sports",
+  "company": "Coinbase",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/coinbase-brand-partnership-associate-esports-gaming-internet-culture": {
+  "url": "https://weworkremotely.com/remote-jobs/coinbase-brand-partnership-associate-esports-gaming-internet-culture",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "The candidate matches the entry-level junior requirement, but lacks the specific 2+ years of experience in esports, gaming marketing, and creator partnerships.",
+  "blockers": "Lacks required 2+ years of experience in esports, gaming marketing, and/or creator/influencer marketing partnerships.",
+  "skill_gaps": "esports marketing; gaming marketing; creator marketing partnerships; agency coordination",
+  "title": "Brand Partnership Associate - esports, Gaming & Internet Culture",
+  "company": "Coinbase",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/brex-field-marketing-coordinator-upmarket": {
+  "url": "https://weworkremotely.com/remote-jobs/brex-field-marketing-coordinator-upmarket",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires the candidate to be based in the United States and focuses on field marketing rather than finance or accounting.",
+  "blockers": "Candidate must be based in the United States",
+  "skill_gaps": "field marketing; event management; sales alignment; marketing program execution",
+  "title": "Field Marketing Coordinator, Upmarket",
+  "company": "Brex",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/smartsheet-product-operations-manager-remote-eligible": {
+  "url": "https://weworkremotely.com/remote-jobs/smartsheet-product-operations-manager-remote-eligible",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required 2-4 years of experience in product operations or program management and is not located in the US.",
+  "blockers": "2-4 years of experience in product operations or program management required; US residency required.",
+  "skill_gaps": "product operations experience; Smartsheet; Jira; Confluence",
+  "title": "Product Operations Manager (Remote Eligible)",
+  "company": "Smartsheet",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/affirm-compensation-analyst-ii-programs-partnerships": {
+  "url": "https://weworkremotely.com/remote-jobs/affirm-compensation-analyst-ii-programs-partnerships",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires specialized US-focused HR compensation analyst experience and tools that do not align with the candidate's entry-level accounting background.",
+  "blockers": "Lack of compensation analysis experience and specialized compensation tools (Radford, Pave, Sigma).",
+  "skill_gaps": "Compensation programs; Radford Global Compensation Database; Pave; Sigma Dashboards; HR partnership",
+  "title": "Compensation Analyst II (Programs & Partnerships)",
+  "company": "Affirm",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-human-resources-intern-colombia": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-human-resources-intern-colombia",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical or legal presence/residency in Colombia and studies in HR or Psychology, which the candidate lacks.",
+  "blockers": "Location requirement: Colombia; Required degree discipline: Psychology, Human Resources, or related",
+  "skill_gaps": "HR operations; Applicant Tracking Systems; recruiting; People Operations",
+  "title": "Human Resources Intern (Colombia)",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://jobicy.com/jobs/156989-senior-financial-analyst-fpa": {
+  "url": "https://jobicy.com/jobs/156989-senior-financial-analyst-fpa",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required 6+ years of relevant financial analysis experience for this senior role.",
+  "blockers": "6+ years of relevant financial analysis work experience in FP&A, corporate finance, or management consulting",
+  "skill_gaps": "FP&A experience; corporate finance; financial modeling; G-Suite; US GAAP or IFRS advanced experience",
+  "title": "Senior Financial Analyst (FP&A)",
+  "company": "Thumbtack",
+  "source": "Jobicy",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://jobicy.com/jobs/156891-manager-fund-administation-onboarding": {
+  "url": "https://jobicy.com/jobs/156891-manager-fund-administation-onboarding",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This is a senior management role requiring extensive experience, whereas the candidate is an entry-level junior accountant.",
+  "blockers": "Senior management level role requiring years of experience that the candidate lacks.",
+  "skill_gaps": "people management; fund administration experience; client onboarding leadership",
+  "title": "Manager, Fund Administation (Onboarding)",
+  "company": "Juniper Square",
+  "source": "Jobicy",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://jooble.org/jdp/-1918352061024335331": {
+  "url": "https://jooble.org/jdp/-1918352061024335331",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires a US-based tax professional, while the candidate is located in Nigeria and lacks US tax experience.",
+  "blockers": "Remote work location restriction to US (Kansas City, MO); lack of US tax experience",
+  "skill_gaps": "US tax preparation; tax accounting",
+  "title": "Remote Tax Accountant",
+  "company": "Solid Rock Recruiting LLC",
+  "source": "Jooble",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/launchdarkly-senior-product-marketing-manager": {
+  "url": "https://weworkremotely.com/remote-jobs/launchdarkly-senior-product-marketing-manager",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior marketing role requiring extensive product marketing experience and GTM ownership, which does not align with the candidate's entry-level accounting and finance profile.",
+  "blockers": "Senior-level marketing experience required; candidate is entry-level in finance and accounting.",
+  "skill_gaps": "product marketing; go-to-market strategy; sales enablement; category creation; pipeline management",
+  "title": "Senior Product Marketing Manager",
+  "company": "LaunchDarkly",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-virginia": {
+  "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-virginia",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is an enterprise software sales and account executive role requiring direct technology sales experience, which completely misaligns with the candidate's finance and accounting background.",
+  "blockers": "Requires proven enterprise technology sales and territory management experience, which the candidate lacks.",
+  "skill_gaps": "enterprise sales; prospecting; territory management; IT infrastructure sales; C-level executive selling",
+  "title": "Account Executive, Enterprise (Virginia)",
+  "company": "Everpure",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/smartsheet-principal-pricing-program-operations-manager-remote-eligible": {
+  "url": "https://weworkremotely.com/remote-jobs/smartsheet-principal-pricing-program-operations-manager-remote-eligible",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level principal operations role requiring extensive B2B SaaS pricing experience, which heavily mismatches the candidate's junior profile.",
+  "blockers": "Principal level position requiring deep B2B SaaS pricing experience and senior program leadership, which far exceeds the candidate's junior experience.",
+  "skill_gaps": "B2B SaaS pricing acumen; program leadership; enterprise program management; change management across product and engineering teams",
+  "title": "Principal Pricing Program & Operations Manager (Remote Eligible)",
+  "company": "Smartsheet",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/celonis-lead-applied-value-engineer-ai-process-intelligence-consultant": {
+  "url": "https://weworkremotely.com/remote-jobs/celonis-lead-applied-value-engineer-ai-process-intelligence-consultant",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate is an entry-level junior accountant with less than one year of experience, whereas this role requires 7+ years of senior executive-facing presales and value engineering experience.",
+  "blockers": "Requires 7+ years of experience and senior-level executive presales expertise which the candidate lacks.",
+  "skill_gaps": "Executive-facing presales; ROI/TCO modeling; AI solution architecture; LLM/agent systems implementation",
+  "title": "Lead Applied Value Engineer - AI & Process Intelligence Consultant",
+  "company": "Celonis",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/pagerduty-enterprise-account-executive-denver": {
+  "url": "https://weworkremotely.com/remote-jobs/pagerduty-enterprise-account-executive-denver",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior B2B sales role requiring 8+ years of enterprise SaaS sales experience, which completely mismatches the candidate's entry-level finance profile.",
+  "blockers": "8+ years of experience in B2B sales and enterprise account management required.",
+  "skill_gaps": "enterprise sales; B2B sales; Salesforce forecasting; MEDDICC framework; consultative selling",
+  "title": "Enterprise Account Executive (Denver)",
+  "company": "PagerDuty",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/okx-head-of-compliance-mlro-nigeria": {
+  "url": "https://weworkremotely.com/remote-jobs/okx-head-of-compliance-mlro-nigeria",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior executive leadership role requiring extensive compliance and MLRO experience, which completely mismatches the candidate's junior profile.",
+  "blockers": "Requires an experienced compliance professional and Head of Compliance / MLRO, whereas the candidate is a junior accountant with under a year of experience.",
+  "skill_gaps": "regulatory strategy; AML/CFT compliance; MLRO experience; board-level governance",
+  "title": "Head of Compliance & MLRO - Nigeria",
+  "company": "OKX",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/keeper-security-director-enterprise-sales": {
+  "url": "https://weworkremotely.com/remote-jobs/keeper-security-director-enterprise-sales",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior enterprise sales leadership role requiring extensive sales management experience, which does not match the candidate's entry-level profile in finance and accounting.",
+  "blockers": "Requires a seasoned sales leader with extensive experience building and leading enterprise sales teams, which the candidate lacks.",
+  "skill_gaps": "enterprise sales leadership; B2B sales strategy; revenue generation; team management",
+  "title": "Director, Enterprise Sales",
+  "company": "Keeper Security",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/keeper-security-customer-success-manager-bilingual-spanish": {
+  "url": "https://weworkremotely.com/remote-jobs/keeper-security-customer-success-manager-bilingual-spanish",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a bilingual customer success and sales role requiring fluency in Spanish, which does not utilize the candidate's accounting, finance, or transferable operational skills.",
+  "blockers": "The candidate lacks the required bilingual (Spanish/English) fluency and customer success sales experience.",
+  "skill_gaps": "Bilingual Spanish; customer success; sales; account management",
+  "title": "Customer Success Manager, Bilingual (Spanish)",
+  "company": "Keeper Security",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/customer-io-accounting-manager": {
+  "url": "https://weworkremotely.com/remote-jobs/customer-io-accounting-manager",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate is an entry-level junior accountant with less than one year of experience, whereas this role requires 6+ years of progressive accounting experience including management responsibilities.",
+  "blockers": "Requires 6+ years of progressive accounting experience with at least 2 years reviewing the work of others, which the candidate lacks.",
+  "skill_gaps": "NetSuite; FloQast; US GAAP; team management experience",
+  "title": "Accounting Manager",
+  "company": "Customer.io",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-walmart": {
+  "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-walmart",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior enterprise sales and account management role for a tech company requiring deep industry sales experience, which does not utilize the candidate's finance and accounting background.",
+  "blockers": "Requires extensive enterprise sales and account management experience in tech, which the candidate lacks.",
+  "skill_gaps": "enterprise sales; territory management; C-level relationship building; quota attainment; pipeline forecasting",
+  "title": "Account Executive, Enterprise (Walmart)",
+  "company": "Everpure",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/celonis-principal-enterprise-architect": {
+  "url": "https://weworkremotely.com/remote-jobs/celonis-principal-enterprise-architect",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior-level Principal Enterprise Architect role requiring extensive technical solution architecture experience and C-level executive engagement, which completely mismatches the candidate's junior accounting background.",
+  "blockers": "Senior-level role requiring extensive enterprise architecture and technical leadership experience that the candidate lacks",
+  "skill_gaps": "enterprise architecture; cloud strategy; solution architecture; C-level executive engagement; technical sales support; Agentic AI",
+  "title": "Principal Enterprise Architect",
+  "company": "Celonis",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/rubrik-job-board-account-executive-product-sales-specialist-identity-germany": {
+  "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-account-executive-product-sales-specialist-identity-germany",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior enterprise software sales role requiring substantial cybersecurity sales experience, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+  "blockers": "Requires substantial experience selling cybersecurity/identity solutions and enterprise software quotas; candidate is an entry-level accountant.",
+  "skill_gaps": "enterprise sales; cybersecurity; identity access management; quota attainment; C-level tech sales",
+  "title": "Account Executive, Product Sales Specialist (Identity) - Germany",
+  "company": "Rubrik Job Board",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T06:48:56+00:00"
+ },
+ "https://jobicy.com/jobs/153941-senior-financial-analyst-gtm": {
+  "url": "https://jobicy.com/jobs/153941-senior-financial-analyst-gtm",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate lacks the required 4+ years of experience, senior-level FP&A background, expert SQL skills, and US residency.",
+  "blockers": "Requires 4+ years of experience spanning data/finance roles (candidate has 11 months); requires US residency (candidate is in Nigeria); senior-level role.",
+  "skill_gaps": "Expert SQL; SaaS metrics (ARR, CAC, LTV); financial modeling and forecasting",
+  "title": "Senior Financial Analyst, GTM",
+  "company": "Luxury Presence",
+  "source": "Jobicy",
+  "updated": "2026-11-25T06:48:56+00:00"
  }
 }

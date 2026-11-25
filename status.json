@@ -1,10 +1,10 @@
 {
- "last_run": "2026-11-25T06:10+00:00",
+ "last_run": "2026-11-25T06:48+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 37 fetched, 10 passed filter",
-  "- jobicy: 46 fetched, 39 passed filter",
+  "- jobicy: 50 fetched, 43 passed filter",
   "- remoteok: 100 fetched, 53 passed filter",
   "- greenhouse: 68 fetched, 37 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -15,20 +15,21 @@
   "- jooble: 500 fetched, 435 passed filter",
   "- arbeitnow: 50 fetched, 22 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 42 passed filter",
+  "- weworkremotely: 100 fetched, 41 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 68 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 10 linked pages",
-  "- 62 jobs older than 30 days skipped",
+  "- 61 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Accounts Assistant at Anchor Accounting. Blockers: none",
-  "  - 75: Accounting Assistant at RFA Engineering. Blockers: none",
-  "  - 75: Accounting Assistant at Illinois Wesleyan. Blockers: None",
-  "  - 75: Accounting Assistant at Anant Operations Inc. Blockers: none",
-  "  - 65: Virtual Executive Assistant at RAY AI. Blockers: none"
+  "  - 45: Staff Accountant at H1. Blockers: 2+ years experience in accounting or finance; US GAAP technical accounting knowledge",
+  "  - 45: Fraud Operations Analyst (Turkey) at Sezzle. Blockers: none",
+  "  - 35: Executive Assistant at LaunchDarkly. Blockers: none",
+  "  - 35: Brand Partnership Associate, Sports at Coinbase. Blockers: 2+ years of experience in sports marketing, partnerships or sponsorship management",
+  "  - 25: Brand Partnership Associate - esports, Gaming & Internet Culture at Coinbase. Blockers: Lacks required 2+ years of experience in esports, gaming marketing, and/or creator/influencer marketing partnerships.",
+  "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "report": {
   "sources": [
@@ -53,8 +54,8 @@
    {
     "name": "jobicy",
     "ok": true,
-    "fetched": 46,
-    "passed": 39
+    "fetched": 50,
+    "passed": 43
    },
    {
     "name": "remoteok",
@@ -120,7 +121,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 42
+    "passed": 41
    },
    {
     "name": "web_search_jobs",
@@ -130,16 +131,16 @@
    }
   ],
   "new_to_score": 80,
-  "scored": 80,
-  "scoring_failed": 0,
+  "scored": 25,
+  "scoring_failed": 1,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
  "drafts": {
-  "written": 13,
+  "written": 1,
   "failed": 1,
-  "waiting": 1
+  "waiting": 2
  }
 }

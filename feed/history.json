@@ -814,5 +814,49 @@
    "  - 75: Accounting Assistant at Anant Operations Inc. Blockers: none",
    "  - 65: Virtual Executive Assistant at RAY AI. Blockers: none"
   ]
+ },
+ {
+  "last_run": "2026-11-25T06:48+00:00",
+  "report": [
+   "Last run: 2026-11-25T06:48+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 984 postings in total, and 672 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "25 postings were scored against your CV this run.",
+   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 cover letters were written. 2 more are waiting for the next run.",
+   "Overall, 37 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 15 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 8 passed filter",
+   "- workingnomads: 37 fetched, 10 passed filter",
+   "- jobicy: 50 fetched, 43 passed filter",
+   "- remoteok: 100 fetched, 53 passed filter",
+   "- greenhouse: 68 fetched, 37 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 21 passed filter",
+   "- jooble: 500 fetched, 435 passed filter",
+   "- arbeitnow: 50 fetched, 22 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 41 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 68 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 10 linked pages",
+   "- 61 jobs older than 30 days skipped",
+   "- 80 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 45: Staff Accountant at H1. Blockers: 2+ years experience in accounting or finance; US GAAP technical accounting knowledge",
+   "  - 45: Fraud Operations Analyst (Turkey) at Sezzle. Blockers: none",
+   "  - 35: Executive Assistant at LaunchDarkly. Blockers: none",
+   "  - 35: Brand Partnership Associate, Sports at Coinbase. Blockers: 2+ years of experience in sports marketing, partnerships or sponsorship management",
+   "  - 25: Brand Partnership Associate - esports, Gaming & Internet Culture at Coinbase. Blockers: Lacks required 2+ years of experience in esports, gaming marketing, and/or creator/influencer marketing partnerships.",
+   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+  ]
  }
 ]

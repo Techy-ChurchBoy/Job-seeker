@@ -1,13 +1,14 @@
 {
- "generated": "2026-11-25 06:15 UTC",
+ "generated": "2026-11-25 06:50 UTC",
  "report": [
-  "Last run: 2026-11-25T06:10+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 980 postings in total, and 669 matched your skills.",
+  "Last run: 2026-11-25T06:48+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 984 postings in total, and 672 matched your skills.",
   "These sources could not be reached: themuse.",
-  "80 postings were scored against your CV this run.",
+  "25 postings were scored against your CV this run.",
+  "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "13 cover letters were written. 1 more are waiting for the next run.",
-  "Overall, 36 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  "1 cover letters were written. 2 more are waiting for the next run.",
+  "Overall, 37 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -15,27 +16,27 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 172,
-    "week": 578,
-    "limited": 0,
-    "overloaded": 146,
-    "tokens_in": 513888,
-    "tokens_out": 36779
+    "today": 199,
+    "week": 605,
+    "limited": 1,
+    "overloaded": 147,
+    "tokens_in": 548301,
+    "tokens_out": 39091
    },
    {
     "process": "letters",
-    "today": 30,
-    "week": 77,
-    "limited": 0,
-    "overloaded": 41,
-    "tokens_in": 63826,
-    "tokens_out": 28961
+    "today": 33,
+    "week": 80,
+    "limited": 1,
+    "overloaded": 42,
+    "tokens_in": 65470,
+    "tokens_out": 29951
    },
    {
     "process": "web_search",
-    "today": 8,
-    "week": 32,
-    "limited": 32,
+    "today": 12,
+    "week": 36,
+    "limited": 36,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -44,8 +45,8 @@
   "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."
  },
  "checks": [
-  "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026",
   "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
+  "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Senior Payroll Specialist: 10 in matches, 5 in records",
@@ -65,12 +66,12 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-25T06:10+00:00",
+ "last_run": "2026-11-25T06:48+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 37 fetched, 10 passed filter",
-  "- jobicy: 46 fetched, 39 passed filter",
+  "- jobicy: 50 fetched, 43 passed filter",
   "- remoteok: 100 fetched, 53 passed filter",
   "- greenhouse: 68 fetched, 37 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -81,25 +82,26 @@
   "- jooble: 500 fetched, 435 passed filter",
   "- arbeitnow: 50 fetched, 22 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 42 passed filter",
+  "- weworkremotely: 100 fetched, 41 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 68 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 10 linked pages",
-  "- 62 jobs older than 30 days skipped",
+  "- 61 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Accounts Assistant at Anchor Accounting. Blockers: none",
-  "  - 75: Accounting Assistant at RFA Engineering. Blockers: none",
-  "  - 75: Accounting Assistant at Illinois Wesleyan. Blockers: None",
-  "  - 75: Accounting Assistant at Anant Operations Inc. Blockers: none",
-  "  - 65: Virtual Executive Assistant at RAY AI. Blockers: none"
+  "  - 45: Staff Accountant at H1. Blockers: 2+ years experience in accounting or finance; US GAAP technical accounting knowledge",
+  "  - 45: Fraud Operations Analyst (Turkey) at Sezzle. Blockers: none",
+  "  - 35: Executive Assistant at LaunchDarkly. Blockers: none",
+  "  - 35: Brand Partnership Associate, Sports at Coinbase. Blockers: 2+ years of experience in sports marketing, partnerships or sponsorship management",
+  "  - 25: Brand Partnership Associate - esports, Gaming & Internet Culture at Coinbase. Blockers: Lacks required 2+ years of experience in esports, gaming marketing, and/or creator/influencer marketing partnerships.",
+  "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
-  "jobs_scored": 672,
-  "strong": 63,
-  "drafts": 68,
+  "jobs_scored": 697,
+  "strong": 65,
+  "drafts": 69,
   "sent_today": 0,
   "sent_total": 3
  },
@@ -114,21 +116,21 @@
    ]
   },
   {
+   "skill": "Enterprise Sales",
+   "count": 23,
+   "examples": [
+    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
+    "Strategic Account Executive - Spain at GitLab",
+    "Senior Enterprise Account Executive - Central at LaunchDarkly"
+   ]
+  },
+  {
    "skill": "Sql",
    "count": 20,
    "examples": [
     "Financial Analyst at CertiK",
     "Test Data Quality Engineer at PLATO",
     "Data Analyst - OpenData Commercial - Asia Pacific at Veeva Systems"
-   ]
-  },
-  {
-   "skill": "Enterprise Sales",
-   "count": 19,
-   "examples": [
-    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
-    "Strategic Account Executive - Spain at GitLab",
-    "Senior Enterprise Account Executive - Central at LaunchDarkly"
    ]
   },
   {
@@ -151,7 +153,7 @@
   },
   {
    "skill": "People Management",
-   "count": 14,
+   "count": 15,
    "examples": [
     "Accounts Receivable & Payable Lead at Who Gives A Crap",
     "Service Center Operations Manager at Moniepoint",
@@ -165,6 +167,15 @@
     "Chief of Staff Director, Product at Affirm",
     "Director Technology & Data Intelligence (w/m/d) at enua Pharma GmbH",
     "Director, Strategic Finance - Planning Systems at hims &#038; hers"
+   ]
+  },
+  {
+   "skill": "Us Gaap",
+   "count": 13,
+   "examples": [
+    "Staff Accountant at H1",
+    "Accounting Specialist at Attentive Care Inc",
+    "Staff Accountant at Cascade Living Group"
    ]
   },
   {
@@ -186,12 +197,12 @@
    ]
   },
   {
-   "skill": "Us Gaap",
+   "skill": "Account Management",
    "count": 11,
    "examples": [
-    "Accounting Specialist at Attentive Care Inc",
-    "Staff Accountant at Cascade Living Group",
-    "Accounting Operations at Plaid"
+    "Customer Relationship &#038; Client Retention Virtual Assistant at Talentbridging",
+    "Customer Success Manager at Fresh Prints",
+    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel"
    ]
   },
   {
@@ -213,12 +224,12 @@
    ]
   },
   {
-   "skill": "Account Management",
+   "skill": "B2B Sales",
    "count": 10,
    "examples": [
-    "Customer Relationship &#038; Client Retention Virtual Assistant at Talentbridging",
-    "Customer Success Manager at Fresh Prints",
-    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel"
+    "Business Development Representative, Financial Services - UKI at GitLab",
+    "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
+    "New Business Account Executive - Nordics at GitLab"
    ]
   },
   {
@@ -228,15 +239,6 @@
     "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
     "Junior Data Scientist - Contract at Mfinite Consulting",
     "Senior Sales Operations Manager at SumUp"
-   ]
-  },
-  {
-   "skill": "B2B Sales",
-   "count": 9,
-   "examples": [
-    "Business Development Representative, Financial Services - UKI at GitLab",
-    "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
-    "New Business Account Executive - Nordics at GitLab"
    ]
   }
  ],
@@ -610,7 +612,7 @@
    ],
    "url": "https://jooble.org/jdp/7701752442098778656",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -625,7 +627,7 @@
    ],
    "url": "https://jooble.org/jdp/1475268909009670583",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -640,7 +642,7 @@
    ],
    "url": "https://jooble.org/jdp/2509671297147940902",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -655,7 +657,7 @@
    ],
    "url": "https://jooble.org/jdp/1399572510279287839",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 65,
@@ -702,7 +704,7 @@
    ],
    "url": "https://careers.getray.ai/jobs/8208212-virtual-executive-assistant",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 60,
@@ -798,7 +800,7 @@
    ],
    "url": "https://jooble.org/jdp/7307761238579440469",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 55,
@@ -814,7 +816,7 @@
    ],
    "url": "https://jooble.org/jdp/334556861255021317",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 55,
@@ -829,7 +831,7 @@
    ],
    "url": "https://jooble.org/jdp/2820612429063627742",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 55,
@@ -843,8 +845,8 @@
     "Resales Certificates"
    ],
    "url": "https://jooble.org/jdp/704900430191440410",
-   "drafted": false,
-   "recent": true
+   "drafted": true,
+   "recent": false
   },
   {
    "score": 50,
@@ -908,7 +910,7 @@
    ],
    "url": "https://jooble.org/jdp/581702304726811561",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 50,
@@ -923,7 +925,7 @@
    ],
    "url": "https://jooble.org/jdp/581702304726811561",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 50,
@@ -939,7 +941,7 @@
    ],
    "url": "https://jooble.org/jdp/7087827625752467296",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -1161,6 +1163,40 @@
    "recent": false
   },
   {
+   "score": 45,
+   "title": "Fraud Operations Analyst (Turkey)",
+   "company": "Sezzle",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate has general analytical, data, and operational skills that transfer well to a fintech fraud operations role, but lacks specialized prior fraud detection or risk analysis experience.",
+   "blockers": "",
+   "gaps": [
+    "fraud detection experience",
+    "risk analysis",
+    "transaction monitoring tools"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-fraud-operations-analyst-turkey",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Staff Accountant",
+   "company": "H1",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate has a relevant B.Sc. in Accounting and foundational accounting experience, but falls short of the required 2+ years of experience and US GAAP technical knowledge.",
+   "blockers": "2+ years experience in accounting or finance; US GAAP technical accounting knowledge",
+   "gaps": [
+    "US GAAP",
+    "ASC 606 revenue recognition",
+    "NetSuite or Salesforce"
+   ],
+   "url": "https://jobicy.com/jobs/157010-staff-accountant-3",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 40,
    "title": "Bookkeeper",
    "company": "Triquetra Health",
@@ -1252,7 +1288,7 @@
    ],
    "url": "https://himalayas.app/companies/tax-alchemy/jobs/family-office-accounting-tax-associate-part-time?utm_source=api",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 35,
@@ -1441,6 +1477,41 @@
    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-product-manager-care-delivery",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 35,
+   "title": "Executive Assistant",
+   "company": "LaunchDarkly",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "While the candidate has administrative experience and transferable organizational skills, this is a dedicated senior Executive Assistant role supporting a C-level executive at a US tech company, whereas the candidate's core expertise is in accounting and finance.",
+   "blockers": "",
+   "gaps": [
+    "Executive Assistant experience",
+    "supporting C-level executives",
+    "complex global travel management",
+    "calendar management for CRO"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/launchdarkly-executive-assistant",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 35,
+   "title": "Brand Partnership Associate, Sports",
+   "company": "Coinbase",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate has general project management and budget tracking skills, but lacks the mandatory 2+ years of experience in sports marketing, partnerships, or sponsorship management required for the role.",
+   "blockers": "2+ years of experience in sports marketing, partnerships or sponsorship management",
+   "gaps": [
+    "sports marketing",
+    "partnership management",
+    "sponsorship management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/coinbase-brand-partnership-associate-sports",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 25,
@@ -1722,6 +1793,24 @@
    "recent": false
   },
   {
+   "score": 25,
+   "title": "Brand Partnership Associate - esports, Gaming & Internet Culture",
+   "company": "Coinbase",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate matches the entry-level junior requirement, but lacks the specific 2+ years of experience in esports, gaming marketing, and creator partnerships.",
+   "blockers": "Lacks required 2+ years of experience in esports, gaming marketing, and/or creator/influencer marketing partnerships.",
+   "gaps": [
+    "esports marketing",
+    "gaming marketing",
+    "creator marketing partnerships",
+    "agency coordination"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/coinbase-brand-partnership-associate-esports-gaming-internet-culture",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 20,
    "title": "Offline Customer Support Officer (Katsina)",
    "company": "Moniepoint",
@@ -1953,7 +2042,7 @@
    ],
    "url": "https://jooble.org/jdp/1929793180742725769",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -1968,7 +2057,7 @@
    ],
    "url": "https://jooble.org/jdp/4669756005338054349",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -1983,7 +2072,7 @@
    ],
    "url": "https://jooble.org/jdp/-1097519900615422442",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4207,7 +4296,7 @@
    ],
    "url": "https://himalayas.app/companies/binance/jobs/senior-legal-operations-executive-fully-remote?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4225,7 +4314,7 @@
    ],
    "url": "https://himalayas.app/companies/thorne/jobs/regulatory-business-system-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4242,7 +4331,7 @@
    ],
    "url": "https://himalayas.app/companies/ravelin/jobs/staff-project-manager?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4259,7 +4348,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/taxforce/tax-operations-intern-berlin-214959",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4275,7 +4364,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/epilot-gmbh/werkstudentin-product-management-koln-425633",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4292,7 +4381,7 @@
    ],
    "url": "https://jooble.org/jdp/-5778263529575972695",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4307,7 +4396,7 @@
    ],
    "url": "https://jooble.org/jdp/8227134631101264387",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4322,7 +4411,7 @@
    ],
    "url": "https://jooble.org/jdp/-9075070537310238273",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4335,7 +4424,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/-5702106604538896537",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4352,7 +4441,7 @@
    ],
    "url": "https://jooble.org/jdp/9212551155563411009",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4368,7 +4457,7 @@
    ],
    "url": "https://jooble.org/jdp/9212551155563411009",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4383,7 +4472,7 @@
    ],
    "url": "https://jooble.org/jdp/1475268909009670583",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4399,7 +4488,7 @@
    ],
    "url": "https://jooble.org/jdp/-4237333391293050028",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4414,7 +4503,7 @@
    ],
    "url": "https://jooble.org/jdp/8397150503289854989",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4431,7 +4520,7 @@
    ],
    "url": "https://jooble.org/jdp/-6091213303340838994",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -4446,6 +4535,131 @@
     "municipal investment management"
    ],
    "url": "https://jooble.org/jdp/970603515588778649",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Field Marketing Coordinator, Upmarket",
+   "company": "Brex",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires the candidate to be based in the United States and focuses on field marketing rather than finance or accounting.",
+   "blockers": "Candidate must be based in the United States",
+   "gaps": [
+    "field marketing",
+    "event management",
+    "sales alignment",
+    "marketing program execution"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/brex-field-marketing-coordinator-upmarket",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Product Operations Manager (Remote Eligible)",
+   "company": "Smartsheet",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate lacks the required 2-4 years of experience in product operations or program management and is not located in the US.",
+   "blockers": "2-4 years of experience in product operations or program management required; US residency required.",
+   "gaps": [
+    "product operations experience",
+    "Smartsheet",
+    "Jira",
+    "Confluence"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/smartsheet-product-operations-manager-remote-eligible",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Compensation Analyst II (Programs & Partnerships)",
+   "company": "Affirm",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires specialized US-focused HR compensation analyst experience and tools that do not align with the candidate's entry-level accounting background.",
+   "blockers": "Lack of compensation analysis experience and specialized compensation tools (Radford, Pave, Sigma).",
+   "gaps": [
+    "Compensation programs",
+    "Radford Global Compensation Database",
+    "Pave",
+    "Sigma Dashboards",
+    "HR partnership"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/affirm-compensation-analyst-ii-programs-partnerships",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Human Resources Intern (Colombia)",
+   "company": "Sezzle",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires physical or legal presence/residency in Colombia and studies in HR or Psychology, which the candidate lacks.",
+   "blockers": "Location requirement: Colombia; Required degree discipline: Psychology, Human Resources, or related",
+   "gaps": [
+    "HR operations",
+    "Applicant Tracking Systems",
+    "recruiting",
+    "People Operations"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-human-resources-intern-colombia",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Senior Financial Analyst (FP&A)",
+   "company": "Thumbtack",
+   "location": "Philippines",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required 6+ years of relevant financial analysis experience for this senior role.",
+   "blockers": "6+ years of relevant financial analysis work experience in FP&A, corporate finance, or management consulting",
+   "gaps": [
+    "FP&A experience",
+    "corporate finance",
+    "financial modeling",
+    "G-Suite",
+    "US GAAP or IFRS advanced experience"
+   ],
+   "url": "https://jobicy.com/jobs/156989-senior-financial-analyst-fpa",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Manager, Fund Administation (Onboarding)",
+   "company": "Juniper Square",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "This is a senior management role requiring extensive experience, whereas the candidate is an entry-level junior accountant.",
+   "blockers": "Senior management level role requiring years of experience that the candidate lacks.",
+   "gaps": [
+    "people management",
+    "fund administration experience",
+    "client onboarding leadership"
+   ],
+   "url": "https://jobicy.com/jobs/156891-manager-fund-administation-onboarding",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Remote Tax Accountant",
+   "company": "Solid Rock Recruiting LLC",
+   "location": "Kansas City, MO",
+   "source": "Jooble",
+   "reason": "The job requires a US-based tax professional, while the candidate is located in Nigeria and lacks US tax experience.",
+   "blockers": "Remote work location restriction to US (Kansas City, MO); lack of US tax experience",
+   "gaps": [
+    "US tax preparation",
+    "tax accounting"
+   ],
+   "url": "https://jooble.org/jdp/-1918352061024335331",
    "drafted": false,
    "recent": true
   },
@@ -7565,7 +7779,7 @@
    ],
    "url": "https://himalayas.app/companies/zenity/jobs/senior-customer-success-manager?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7583,7 +7797,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/ninjaone/senior-salesforce-administrator-berlin-244565",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7603,7 +7817,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/almedia/growth-manager-strategic-accounts-berlin-328227",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7622,7 +7836,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/lio/product-engineer-all-genders-munich-388379",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7639,7 +7853,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/lemon-markets/senior-product-manager-investing-berlin-372596",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7656,7 +7870,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/natuvion-gmbh/remote-senior-it-project-manager-berlin-473609",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7675,7 +7889,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/natuvion-gmbh/remote-sap-finance-oder-sales-fi-co-sd-architect-berlin-212937",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7691,7 +7905,7 @@
    ],
    "url": "https://jooble.org/jdp/4856858202490067488",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7708,7 +7922,7 @@
    ],
    "url": "https://jooble.org/jdp/4856858202490067488",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7724,7 +7938,7 @@
    ],
    "url": "https://jooble.org/jdp/-315447276876428251",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7739,7 +7953,7 @@
    ],
    "url": "https://jooble.org/jdp/7998970422832284531",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7754,7 +7968,7 @@
    ],
    "url": "https://jooble.org/jdp/251616694086600659",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7769,7 +7983,7 @@
    ],
    "url": "https://jooble.org/jdp/-8839330229115777714",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7785,7 +7999,7 @@
    ],
    "url": "https://jooble.org/jdp/7375601117624233827",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7801,7 +8015,7 @@
    ],
    "url": "https://jooble.org/jdp/-1039819256437164286",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7817,7 +8031,7 @@
    ],
    "url": "https://jooble.org/jdp/-6091213303340838994",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7834,7 +8048,7 @@
    ],
    "url": "https://jooble.org/jdp/-938998268896489118",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7852,7 +8066,7 @@
    ],
    "url": "https://jooble.org/jdp/5703543100492744515",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7868,7 +8082,7 @@
    ],
    "url": "https://jooble.org/jdp/7225698058283509877",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -7883,6 +8097,153 @@
     "grant compliance"
    ],
    "url": "https://jooble.org/jdp/-8082660554441855576",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Senior Product Marketing Manager",
+   "company": "LaunchDarkly",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior marketing role requiring extensive product marketing experience and GTM ownership, which does not align with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior-level marketing experience required; candidate is entry-level in finance and accounting.",
+   "gaps": [
+    "product marketing",
+    "go-to-market strategy",
+    "sales enablement",
+    "category creation",
+    "pipeline management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/launchdarkly-senior-product-marketing-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive, Enterprise (Virginia)",
+   "company": "Everpure",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is an enterprise software sales and account executive role requiring direct technology sales experience, which completely misaligns with the candidate's finance and accounting background.",
+   "blockers": "Requires proven enterprise technology sales and territory management experience, which the candidate lacks.",
+   "gaps": [
+    "enterprise sales",
+    "prospecting",
+    "territory management",
+    "IT infrastructure sales",
+    "C-level executive selling"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-virginia",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Principal Pricing Program & Operations Manager (Remote Eligible)",
+   "company": "Smartsheet",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level principal operations role requiring extensive B2B SaaS pricing experience, which heavily mismatches the candidate's junior profile.",
+   "blockers": "Principal level position requiring deep B2B SaaS pricing experience and senior program leadership, which far exceeds the candidate's junior experience.",
+   "gaps": [
+    "B2B SaaS pricing acumen",
+    "program leadership",
+    "enterprise program management",
+    "change management across product and engineering teams"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/smartsheet-principal-pricing-program-operations-manager-remote-eligible",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Lead Applied Value Engineer - AI & Process Intelligence Consultant",
+   "company": "Celonis",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate is an entry-level junior accountant with less than one year of experience, whereas this role requires 7+ years of senior executive-facing presales and value engineering experience.",
+   "blockers": "Requires 7+ years of experience and senior-level executive presales expertise which the candidate lacks.",
+   "gaps": [
+    "Executive-facing presales",
+    "ROI/TCO modeling",
+    "AI solution architecture",
+    "LLM/agent systems implementation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/celonis-lead-applied-value-engineer-ai-process-intelligence-consultant",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Account Executive (Denver)",
+   "company": "PagerDuty",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior B2B sales role requiring 8+ years of enterprise SaaS sales experience, which completely mismatches the candidate's entry-level finance profile.",
+   "blockers": "8+ years of experience in B2B sales and enterprise account management required.",
+   "gaps": [
+    "enterprise sales",
+    "B2B sales",
+    "Salesforce forecasting",
+    "MEDDICC framework",
+    "consultative selling"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/pagerduty-enterprise-account-executive-denver",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Head of Compliance & MLRO - Nigeria",
+   "company": "OKX",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior executive leadership role requiring extensive compliance and MLRO experience, which completely mismatches the candidate's junior profile.",
+   "blockers": "Requires an experienced compliance professional and Head of Compliance / MLRO, whereas the candidate is a junior accountant with under a year of experience.",
+   "gaps": [
+    "regulatory strategy",
+    "AML/CFT compliance",
+    "MLRO experience",
+    "board-level governance"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/okx-head-of-compliance-mlro-nigeria",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Director, Enterprise Sales",
+   "company": "Keeper Security",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise sales leadership role requiring extensive sales management experience, which does not match the candidate's entry-level profile in finance and accounting.",
+   "blockers": "Requires a seasoned sales leader with extensive experience building and leading enterprise sales teams, which the candidate lacks.",
+   "gaps": [
+    "enterprise sales leadership",
+    "B2B sales strategy",
+    "revenue generation",
+    "team management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/keeper-security-director-enterprise-sales",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Customer Success Manager, Bilingual (Spanish)",
+   "company": "Keeper Security",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a bilingual customer success and sales role requiring fluency in Spanish, which does not utilize the candidate's accounting, finance, or transferable operational skills.",
+   "blockers": "The candidate lacks the required bilingual (Spanish/English) fluency and customer success sales experience.",
+   "gaps": [
+    "Bilingual Spanish",
+    "customer success",
+    "sales",
+    "account management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/keeper-security-customer-success-manager-bilingual-spanish",
    "drafted": false,
    "recent": true
   },
@@ -9990,7 +10351,7 @@
    ],
    "url": "https://www.visapro.com/about/careers/global/#apply",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10008,7 +10369,7 @@
    ],
    "url": "https://himalayas.app/companies/astrana-health/jobs/care-coordinator-ii-care-at-home?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10027,7 +10388,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/lexroom/customer-success-manager-smb-german-market-berlin-435003",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10047,7 +10408,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/almedia/senior-growth-manager-strategic-accounts-berlin-342003",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10065,7 +10426,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/almedia/director-of-product-design-berlin-119558",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10082,7 +10443,7 @@
    ],
    "url": "https://jooble.org/jdp/8636007368414588349",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10098,7 +10459,7 @@
    ],
    "url": "https://jooble.org/jdp/646138740696650960",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10115,7 +10476,7 @@
    ],
    "url": "https://jooble.org/jdp/-2225421988822498051",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10131,7 +10492,7 @@
    ],
    "url": "https://jooble.org/jdp/-4576429253865674766",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10148,7 +10509,7 @@
    ],
    "url": "https://jooble.org/jdp/1799450940216887961",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10165,7 +10526,7 @@
    ],
    "url": "https://jooble.org/jdp/1873505382135957070",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10182,7 +10543,7 @@
    ],
    "url": "https://jooble.org/jdp/-39327794529761399",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -10198,6 +10559,99 @@
     "C-suite operational experience"
    ],
    "url": "https://jooble.org/jdp/-6671411430517384235",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Accounting Manager",
+   "company": "Customer.io",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate is an entry-level junior accountant with less than one year of experience, whereas this role requires 6+ years of progressive accounting experience including management responsibilities.",
+   "blockers": "Requires 6+ years of progressive accounting experience with at least 2 years reviewing the work of others, which the candidate lacks.",
+   "gaps": [
+    "NetSuite",
+    "FloQast",
+    "US GAAP",
+    "team management experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/customer-io-accounting-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Account Executive, Enterprise (Walmart)",
+   "company": "Everpure",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise sales and account management role for a tech company requiring deep industry sales experience, which does not utilize the candidate's finance and accounting background.",
+   "blockers": "Requires extensive enterprise sales and account management experience in tech, which the candidate lacks.",
+   "gaps": [
+    "enterprise sales",
+    "territory management",
+    "C-level relationship building",
+    "quota attainment",
+    "pipeline forecasting"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-walmart",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Principal Enterprise Architect",
+   "company": "Celonis",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level Principal Enterprise Architect role requiring extensive technical solution architecture experience and C-level executive engagement, which completely mismatches the candidate's junior accounting background.",
+   "blockers": "Senior-level role requiring extensive enterprise architecture and technical leadership experience that the candidate lacks",
+   "gaps": [
+    "enterprise architecture",
+    "cloud strategy",
+    "solution architecture",
+    "C-level executive engagement",
+    "technical sales support",
+    "Agentic AI"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/celonis-principal-enterprise-architect",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Account Executive, Product Sales Specialist (Identity) - Germany",
+   "company": "Rubrik Job Board",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise software sales role requiring substantial cybersecurity sales experience, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Requires substantial experience selling cybersecurity/identity solutions and enterprise software quotas; candidate is an entry-level accountant.",
+   "gaps": [
+    "enterprise sales",
+    "cybersecurity",
+    "identity access management",
+    "quota attainment",
+    "C-level tech sales"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-account-executive-product-sales-specialist-identity-germany",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Financial Analyst, GTM",
+   "company": "Luxury Presence",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required 4+ years of experience, senior-level FP&A background, expert SQL skills, and US residency.",
+   "blockers": "Requires 4+ years of experience spanning data/finance roles (candidate has 11 months); requires US residency (candidate is in Nigeria); senior-level role.",
+   "gaps": [
+    "Expert SQL",
+    "SaaS metrics (ARR, CAC, LTV)",
+    "financial modeling and forecasting"
+   ],
+   "url": "https://jobicy.com/jobs/153941-senior-financial-analyst-gtm",
    "drafted": false,
    "recent": true
   },
@@ -11715,7 +12169,7 @@
    ],
    "url": "https://himalayas.app/companies/micro1/jobs/program-analyst-federal-agency-experience?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11735,7 +12189,7 @@
    ],
    "url": "https://himalayas.app/companies/shopify/jobs/senior-data-engineer-embedded-8703439660?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11755,7 +12209,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/almedia/junior-engineer-typescript-python-devops-ai-data-berlin-138277",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11773,7 +12227,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/amboss/legal-counsel-it-data-protection-berlin-336827",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11789,7 +12243,7 @@
    ],
    "url": "https://jooble.org/jdp/-2882457183509537613",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11805,7 +12259,7 @@
    ],
    "url": "https://jooble.org/jdp/1779166937420781543",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11820,7 +12274,7 @@
    ],
    "url": "https://jooble.org/jdp/-3023537232542574726",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11833,7 +12287,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/1034831279819442251",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11849,7 +12303,7 @@
    ],
    "url": "https://jooble.org/jdp/-2216354328925566036",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11862,7 +12316,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/8651499008104169784",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11878,7 +12332,7 @@
    ],
    "url": "https://jooble.org/jdp/-7584843088337543326",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11891,7 +12345,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/-7584843088337543326",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11908,7 +12362,7 @@
    ],
    "url": "https://jooble.org/jdp/-8004670078229985690",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11923,7 +12377,7 @@
    ],
    "url": "https://jooble.org/jdp/-5501477587496006252",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -11940,10 +12394,54 @@
    ],
    "url": "https://jooble.org/jdp/8997343733480614537",
    "drafted": false,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-25T06:48+00:00",
+   "report": [
+    "Last run: 2026-11-25T06:48+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 984 postings in total, and 672 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "25 postings were scored against your CV this run.",
+    "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written. 2 more are waiting for the next run.",
+    "Overall, 37 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 15 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 8 passed filter",
+    "- workingnomads: 37 fetched, 10 passed filter",
+    "- jobicy: 50 fetched, 43 passed filter",
+    "- remoteok: 100 fetched, 53 passed filter",
+    "- greenhouse: 68 fetched, 37 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 44 fetched, 21 passed filter",
+    "- jooble: 500 fetched, 435 passed filter",
+    "- arbeitnow: 50 fetched, 22 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 41 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 68 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 10 linked pages",
+    "- 61 jobs older than 30 days skipped",
+    "- 80 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 45: Staff Accountant at H1. Blockers: 2+ years experience in accounting or finance; US GAAP technical accounting knowledge",
+    "  - 45: Fraud Operations Analyst (Turkey) at Sezzle. Blockers: none",
+    "  - 35: Executive Assistant at LaunchDarkly. Blockers: none",
+    "  - 35: Brand Partnership Associate, Sports at Coinbase. Blockers: 2+ years of experience in sports marketing, partnerships or sponsorship management",
+    "  - 25: Brand Partnership Associate - esports, Gaming & Internet Culture at Coinbase. Blockers: Lacks required 2+ years of experience in esports, gaming marketing, and/or creator/influencer marketing partnerships.",
+    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+   ]
+  },
   {
    "last_run": "2026-11-25T06:10+00:00",
    "report": [
