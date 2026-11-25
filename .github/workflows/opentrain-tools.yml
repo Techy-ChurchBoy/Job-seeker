@@ -1,0 +1,28 @@
+name: opentrain-tools
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Save OpenTrain tool list
+        env:
+          OPENTRAIN_API_KEY: ${{ secrets.OPENTRAIN_API_KEY }}
+        run: python -u opentrain_tools_dump.py
+      - name: Commit the list
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          git add opentrain_tools.json
+          git diff --cached --quiet || git commit -m "chore: save OpenTrain tool list"
+          git push
