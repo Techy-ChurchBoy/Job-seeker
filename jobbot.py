@@ -435,23 +435,45 @@ def norm(text):
 USAGE_LOG = "usage.jsonl"
 
 
+def gemini_keys(process):
+    """Keys to try, in order. Sources, first match wins for the order:
+    GEMINI_KEY_<PROCESS>, then GEMINI_API_KEY, then GEMINI_API_KEYS (comma-separated extras).
+    Duplicates are removed. Keys from the same Google project share one quota."""
+    raw = [os.getenv(f"GEMINI_KEY_{process.upper()}", ""), GEMINI_KEY or ""]
+    raw += os.getenv("GEMINI_API_KEYS", "").split(",")
+    keys = []
+    for k in raw:
+        k = k.strip()
+        if k and k not in keys:
+            keys.append(k)
+    return keys
+
+
 def gemini_post(process, model, body, timeout=60):
-    """Every Gemini call goes through here. Each process can have its own key (GEMINI_KEY_<PROCESS>),
-    falling back to GEMINI_API_KEY. Each call is logged to usage.jsonl for the dashboard."""
-    key = os.getenv(f"GEMINI_KEY_{process.upper()}", "").strip() or GEMINI_KEY
+    """Every Gemini call goes through here. If a key hits its quota (429) or is refused (403),
+    the next key is tried. Each call is logged to usage.jsonl for the dashboard (keys are never logged)."""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    res = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=timeout)
-    usage = {}
-    if res.ok:
-        try:
-            usage = res.json().get("usageMetadata", {})
-        except ValueError:
-            usage = {}
-    entry = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "process": process,
-             "model": model, "status": res.status_code,
-             "prompt_tokens": usage.get("promptTokenCount", 0), "output_tokens": usage.get("candidatesTokenCount", 0)}
-    with open(USAGE_LOG, "a", encoding="utf-8") as f:
-        f.write(json.dumps(entry) + "\n")
+    keys = gemini_keys(process)
+    if not keys:
+        raise QuotaError("No Gemini key is set (GEMINI_API_KEY or GEMINI_API_KEYS).")
+    res = None
+    for n, key in enumerate(keys, 1):
+        res = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=timeout)
+        usage = {}
+        if res.ok:
+            try:
+                usage = res.json().get("usageMetadata", {})
+            except ValueError:
+                usage = {}
+        entry = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "process": process,
+                 "model": model, "status": res.status_code, "key_number": n,
+                 "prompt_tokens": usage.get("promptTokenCount", 0), "output_tokens": usage.get("candidatesTokenCount", 0)}
+        with open(USAGE_LOG, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry) + "\n")
+        if res.status_code in (429, 403) and n < len(keys):
+            print(f"Gemini key {n} refused ({res.status_code}). Trying key {n + 1}.")
+            continue
+        return res
     return res
 
 
