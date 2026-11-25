@@ -2,7 +2,7 @@
 Writes feed/feed.json. The dashboard page (dashboard/index.html) is a static file that reads this feed,
 so the page exists and works whether or not the job bot has run. Never includes your CV or cover letter text.
 """
-import csv, glob, json, os
+import csv, glob, json, os, re
 from datetime import timedelta
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
@@ -113,6 +113,27 @@ def load_tracker():
     return [{"company": k, "stage": v.get("stage", ""), "updated": v.get("updated", "")} for k, v in data.items()]
 
 
+def build_drafts():
+    """Every draft-ready opportunity, read from the draft files written by the letter step."""
+    import glob
+    out = []
+    for path in glob.glob("applications/*.md"):
+        text = open(path, encoding="utf-8").read()
+        head = re.search(r"^# (.+?) at (.+)$", text, re.M)
+        score = re.search(r"Score: ([\d.]+)/100", text)
+        link = re.search(r"Job link: (\S+)", text)
+        letter = re.search(r"## Cover letter\n\n(.*?)\n\n## Tailored CV", text, re.S)
+        notes = re.search(r"## Notes for you\n\n(.*?)\n\n## Cover letter", text, re.S)
+        if not head:
+            continue
+        out.append({"title": head.group(1), "company": head.group(2),
+                    "score": int(float(score.group(1))) if score else 0,
+                    "url": link.group(1) if link else "",
+                    "letter": letter.group(1).strip() if letter else "",
+                    "notes": notes.group(1).strip() if notes else ""})
+    return sorted(out, key=lambda d: d["score"], reverse=True)
+
+
 def build_checks():
     import records
     return records.check(
@@ -205,6 +226,7 @@ def build():
         "tracker": load_tracker(),
         "usage": build_usage(),
         "checks": build_checks(),
+        "drafts": build_drafts(),
         "replies": [dict(r, recent=recent(r.get("received"))) for r in (load_replies() if SHOW_REPLIES else [])],
         "replies_hidden": (not SHOW_REPLIES) and os.path.exists("replies.json"),
         "paused": paused,

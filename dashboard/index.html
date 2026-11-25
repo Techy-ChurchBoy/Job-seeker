@@ -50,6 +50,10 @@ pre{white-space:pre-wrap;word-break:break-word;font-size:13px;margin:0;padding:1
 .tag{border:1px solid rgba(255,251,241,.16);box-shadow:0 2px 6px rgba(0,0,0,.8)}
 pre{border:1px solid rgba(255,251,241,.12);box-shadow:inset 0 2px 8px rgba(0,0,0,.9)}
 input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:inset 0 2px 6px rgba(0,0,0,.9),0 0 12px rgba(255,251,241,.08)!important}
+.toggle{cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;padding:8px 0;border-bottom:1px solid rgba(255,251,241,.14);margin-bottom:10px}
+.toggle::after{content:"\25BE";font-size:14px;opacity:.7;transition:transform .2s}
+.toggle.open::after{transform:rotate(180deg)}
+@media (min-width:601px){.toggle{cursor:default;border-bottom:none;padding:0;margin-bottom:12px}.toggle::after{display:none}}
 </style><link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -62,6 +66,7 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <nav id="tabs">
     <button class="tab" data-tab="overview">Overview</button>
     <button class="tab" data-tab="jobs">Jobs<span class="badge" id="badgeJobs" hidden></span></button>
+    <button class="tab" data-tab="drafts">Drafts<span class="badge" id="badgeDrafts" hidden></span></button>
     <button class="tab" data-tab="sent">Sent<span class="badge" id="badgeSent" hidden></span></button>
     <button class="tab" data-tab="replies">Replies<span class="badge" id="badgeReplies" hidden></span></button>
     <button class="tab" data-tab="outreach">Outreach</button>
@@ -99,6 +104,12 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <p class="muted">Skills the jobs ask for that your CV doesn't show yet, most common first.</p>
   <div id="skills"></div>
   <p class="muted" id="updated" style="margin-top:20px"></p>
+</section>
+
+<section class="page" id="page-drafts">
+  <h2>Draft-ready opportunities</h2>
+  <p class="muted">Cover letters written and waiting. Open a draft to read the letter, then apply through the link.</p>
+  <div id="drafts"></div>
 </section>
 
 <section class="page" id="page-jobs">
@@ -193,7 +204,7 @@ function setBadge(id, n) {
 }
 
 /* ---------- tabs ---------- */
-const TABS = ['overview', 'jobs', 'sent', 'replies', 'outreach', 'history', 'settings'];
+const TABS = ['overview', 'jobs', 'drafts', 'sent', 'replies', 'outreach', 'history', 'settings'];
 function showTab(name) {
   if (!TABS.includes(name)) name = 'overview';
   TABS.forEach(t => {
@@ -342,6 +353,25 @@ function renderUsage(f) {
   });
 }
 
+function renderDrafts(f) {
+  const box = document.getElementById('drafts'); box.replaceChildren();
+  const list = f.drafts || [];
+  setBadge('badgeDrafts', list.length);
+  if (!list.length) { box.append(note('No drafts yet.')); return; }
+  list.forEach(d => {
+    const c = card();
+    const head = el('div', 'row');
+    head.append(el('b', null, d.title), el('span', 'score', String(d.score)));
+    c.append(head, el('div', 'muted', d.company));
+    if (d.notes) c.append(el('div', 'muted', d.notes));
+    const a = link(d.url); if (a) { c.append(document.createElement('br'), a); }
+    const det = el('details'); det.style.marginTop = '8px';
+    det.append(el('summary', null, 'Read the cover letter'), el('pre', null, d.letter || 'No letter text saved.'));
+    c.append(det);
+    box.append(c);
+  });
+}
+
 function renderSent(f) {
   const sent = f.sent || [];
   fill(document.getElementById('sent-new'), sent.filter(r => r.recent), sentCard, 'Nothing sent in the last 7 days.');
@@ -461,6 +491,33 @@ document.getElementById('modeBtn').addEventListener('click', async () => {
   } catch (err) { modeMessage('Could not reach the site: ' + err.message); }
 });
 
+/* ---------- tap to open sections on small screens ---------- */
+function makeCollapsible() {
+  const small = window.matchMedia('(max-width: 600px)');
+  document.querySelectorAll('main section.page h2').forEach(h => {
+    const page = h.closest('section.page');
+    if (page.querySelector('h2') === h) return; // the tab's own title stays open
+    const body = document.createElement('div');
+    body.className = 'collapsible';
+    let n = h.nextSibling;
+    const moved = [];
+    while (n && !(n.nodeType === 1 && (n.tagName === 'H2' || n.tagName === 'SECTION'))) { moved.push(n); n = n.nextSibling; }
+    moved.forEach(x => body.appendChild(x));
+    h.after(body);
+    h.classList.add('toggle');
+    h.setAttribute('role', 'button');
+    h.tabIndex = 0;
+    const set = open => { body.hidden = !open; h.classList.toggle('open', open); };
+    const apply = () => set(!small.matches);
+    apply();
+    small.addEventListener('change', apply);
+    const flip = () => { if (small.matches) set(body.hidden); };
+    h.addEventListener('click', flip);
+    h.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } });
+  });
+}
+makeCollapsible();
+
 /* ---------- load the feed ---------- */
 function loadFeed(password) {
   return fetch('/api/feed', { cache: 'no-store', headers: { 'x-dashboard-password': password } })
@@ -476,6 +533,7 @@ function showFeed(feed) {
     const f = feed || {};
     renderOverview(f, feed);
     renderJobs(f);
+    renderDrafts(f);
     renderSent(f);
     renderTracker(f);
     renderUsage(f);
