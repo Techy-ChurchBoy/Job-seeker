@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 17:17 UTC",
+ "generated": "2026-11-25 17:27 UTC",
  "report": [
   "Last run: 2026-11-25T17:12+00:00 UTC.",
   "The search checked 16 job sources and 15 responded. It found 483 postings in total, and 224 matched your skills.",
@@ -45,8 +45,8 @@
   "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."
  },
  "checks": [
-  "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
   "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026",
+  "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Senior Payroll Specialist: 10 in matches, 5 in records",
@@ -71,7 +71,7 @@
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
    "letter": "Dear Hiring Manager,\n\nBuilding a professional career in financial services through the Access Bank Entry Level Training Programme 2026 presents an ideal opportunity to apply my background in accounting and practical finance workflows. My recent tenure in the Bursary Department at the Nigerian College of Aviation Technology provided a solid foundation in transaction processing, financial records management and audit documentation. \n\nDuring my time at NCAT, I managed revenue streams, maintained accurate receipt and payment records, and prepared journal postings to support month-end close schedules. Navigating software packages such as QuickBooks, Sage, Zoho Books and Microsoft Dynamics 365 Business Central has equipped me to handle ledger management and account reconciliations with precision. Furthermore, my B.Sc. in Accounting from Obafemi Awolowo University has grounded my practical work in sound financial principles, double-entry bookkeeping and regulatory compliance.\n\nI look forward to the possibility of discussing how my foundational accounting experience and diligence can contribute to your team. Please find my CV, academic certificates and National Registration Card attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Strong fit, as the candidate holds a relevant degree in accounting, has completed NYSC, is within the age limit, and brings nearly a year of practical financial and reconciliation experience that aligns well with an entry-level banking career.",
-   "handled": false
+   "handled": true
   },
   {
    "title": "Kleenol Nigeria Limited Graduate Trainee Programme 2026",
@@ -674,7 +674,7 @@
    "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
    "letter": "Dear Hiring Manager,\n\nBeginning a professional banking career through the Access Bank Entry Level Training Programme 2026 presents a valuable opportunity to build upon my foundation in finance. Working within a leading financial services institution aligns well with my ambition to apply my background in accounting and numerical analysis.\n\nDuring my recent experience in the Bursary Department at the Nigerian College of Aviation Technology, I managed financial records, processed internally generated revenue transactions, and supported month-end close activities. I regularly reconciled accounts and investigated variances to ensure reliable financial reporting, utilizing tools such as Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel. Holding a Bachelor of Science in Accounting from Obafemi Awolowo University has equipped me with a strong understanding of financial controls and transaction processing.\n\nI look forward to discussing how my numerical accuracy and operational experience can contribute to the training programme. My updated curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Strong fit, as the candidate possesses a relevant bachelor's degree in accounting, practical financial experience, and meets all stated educational and entry-level criteria.\nGap: None.",
-   "handled": false
+   "handled": true
   },
   {
    "title": "FirstCap Limited Graduate Trainee Program 2026/2027 - Dixcover Hub",
@@ -1589,7 +1589,7 @@
    ],
    "url": "https://himalayas.app/companies/the-hello-team/jobs/remote-filing-coordinator-government-submissions?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -1859,7 +1859,7 @@
    ],
    "url": "https://jobs.smartyacad.com/diageo-business-support-coordinator-graduate-program-2026/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -1877,7 +1877,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 40,
@@ -2509,7 +2509,7 @@
    ],
    "url": "https://himalayas.app/companies/sterry/jobs/marketing-influencer-operations-specialist?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -2527,7 +2527,7 @@
    ],
    "url": "https://jobs.smartyacad.com/excellium-sales-graduate-trainee-program-2026/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -5398,7 +5398,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/infinity-inside-sales-representative-existing-customer-accounts",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5416,7 +5416,7 @@
    ],
    "url": "https://himalayas.app/companies/sterry/jobs/marketing-influencer-operations-specialist-369359820?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5434,7 +5434,7 @@
    ],
    "url": "https://himalayas.app/companies/getmagic/jobs/associate-account-manager-philippines-remote?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5450,7 +5450,7 @@
    ],
    "url": "https://himalayas.app/companies/supporting-strategies/jobs/client-account-associate-accountant?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5469,7 +5469,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/enova-unternehmensgruppe/trainee-corporate-finance-erneuerbare-energien-hamburg-406972",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5487,7 +5487,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/mkt-moderne-kunststofftechnik-gmbh/financial-controller-ohrdruf-418395",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5505,7 +5505,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/riege-software/strategic-project-manager-meerbusch-424459",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5524,7 +5524,7 @@
    ],
    "url": "https://jobicy.com/jobs/164268-staff-business-systems-engineer-tax-technology",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -5541,7 +5541,7 @@
    ],
    "url": "https://jobicy.com/jobs/164231-payroll-associate",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9144,7 +9144,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tacto/founding-account-executive-italy-munich-379574",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9163,7 +9163,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/lufthansa-innovation-hub-gmbh/intern-product-design-all-genders-berlin-396020",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9181,7 +9181,7 @@
    ],
    "url": "https://himalayas.app/companies/danaher/jobs/lead-workday-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9198,7 +9198,7 @@
    ],
    "url": "https://himalayas.app/companies/source-ai/jobs/enterprise-account-executive-bay-area-usa?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9216,7 +9216,7 @@
    ],
    "url": "https://himalayas.app/companies/canonical/jobs/enterprise-account-executive-5894573291?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9235,7 +9235,7 @@
    ],
    "url": "https://www.workingnomads.com/job/go/2049641/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9253,7 +9253,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/deutsche-extrakt-kaffee-gmbh/senior-produktionscontroller-hamburg-470889",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -9271,7 +9271,7 @@
    ],
    "url": "https://jobicy.com/jobs/164223-head-of-financial-planning-analysis",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11697,7 +11697,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/samsara/regional-sales-director-core-enterprise-dach-492473",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11716,7 +11716,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/wellster-healthtech-group/senior-international-marketing-manager-southern-europe-munchen-236641",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11735,7 +11735,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/emetriq-gmbh/senior-campaign-manager-ad-operations-hamburg-19036",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11754,7 +11754,7 @@
    ],
    "url": "https://himalayas.app/companies/medvidi/jobs/senior-product-designer-ai-track-8047274968?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11771,7 +11771,7 @@
    ],
    "url": "https://himalayas.app/companies/grupoquintoandar/jobs/grupo-quintoandar-senior-product-manager?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11790,7 +11790,7 @@
    ],
    "url": "https://himalayas.app/companies/stn-incorporated/jobs/security-analyst-l2?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11809,7 +11809,7 @@
    ],
    "url": "https://himalayas.app/companies/protagona/jobs/principal-account-executive?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11828,7 +11828,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/ilos-projects-gmbh-co-kg/head-of-people-operations-karlsruhe-358541",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11847,7 +11847,7 @@
    ],
    "url": "https://jobs.smartyacad.com/lloyd-philips-limited-graduate-internship-2026/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11865,7 +11865,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-corporate-accountant-tax-salesloft-1138099",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11884,7 +11884,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-account-executive-saas-industrials-salsify-1138088",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11902,7 +11902,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-account-executive-ai-hpc-everpure-1138086",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11921,7 +11921,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-director-product-marketing-contractor-glossier-1138085",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -11939,7 +11939,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-portfolio-customer-success-manager-lastpass-1138083",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -13695,7 +13695,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/chemin-audio-recording-malay-speaker-short-term-project",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -13711,7 +13711,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-associate-payment-integrity-oscar-health-1138090",
    "drafted": false,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
