@@ -8164,7 +8164,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 45,
   "reason": "The candidate has general analytical, data, and operational skills that transfer well to a fintech fraud operations role, but lacks specialized prior fraud detection or risk analysis experience.",
@@ -8173,7 +8174,8 @@
   "title": "Fraud Operations Analyst (Turkey)",
   "company": "Sezzle",
   "source": "We Work Remotely",
-  "updated": "2026-11-25T06:48:56+00:00"
+  "updated": "2026-11-25T18:56:51+00:00",
+  "drafted": true
  },
  "https://jobicy.com/jobs/157010-staff-accountant-3": {
   "url": "https://jobicy.com/jobs/157010-staff-accountant-3",
@@ -8184,7 +8186,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 45,
   "reason": "The candidate has a relevant B.Sc. in Accounting and foundational accounting experience, but falls short of the required 2+ years of experience and US GAAP technical knowledge.",
@@ -8193,7 +8196,8 @@
   "title": "Staff Accountant",
   "company": "H1",
   "source": "Jobicy",
-  "updated": "2026-11-25T06:48:56+00:00"
+  "updated": "2026-11-25T18:57:16+00:00",
+  "drafted": true
  },
  "https://weworkremotely.com/remote-jobs/launchdarkly-executive-assistant": {
   "url": "https://weworkremotely.com/remote-jobs/launchdarkly-executive-assistant",
@@ -8664,7 +8668,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 50,
   "reason": "The role involves administrative filing, documentation, and record keeping which aligns with the candidate's organizational and admin skills, though it is not a finance role.",
@@ -8673,7 +8678,8 @@
   "title": "Remote Filing Coordinator (Government Submissions)",
   "company": "The Hello Team",
   "source": "Himalayas",
-  "updated": "2026-11-25T17:12:42+00:00"
+  "updated": "2026-11-25T18:57:53+00:00",
+  "drafted": true
  },
  "https://jobs.smartyacad.com/diageo-business-support-coordinator-graduate-program-2026": {
   "url": "https://jobs.smartyacad.com/diageo-business-support-coordinator-graduate-program-2026/",
@@ -8684,7 +8690,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 45,
   "reason": "The candidate has a valid degree and fits the graduate program timeframe, but the role is in Human Resources rather than finance or accounting.",
@@ -8693,7 +8700,8 @@
   "title": "Diageo Business Support Coordinator Graduate Program 2026",
   "company": "Dixcover Hub listing",
   "source": "Dixcover Hub",
-  "updated": "2026-11-25T17:12:42+00:00"
+  "updated": "2026-11-25T18:58:26+00:00",
+  "drafted": true
  },
  "https://remoteok.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081": {
   "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
@@ -8704,7 +8712,8 @@
    "skill_gaps": "scoring",
    "title": "scoring",
    "company": "scoring",
-   "source": "scoring"
+   "source": "scoring",
+   "drafted": "letters"
   },
   "score": 45,
   "reason": "The candidate has strong Excel skills and financial reporting exposure, but lacks the specific 2-4 years of B2B SaaS RevOps experience required for the role.",
@@ -8713,7 +8722,8 @@
   "title": "Revenue Operations Analyst",
   "company": "Augment",
   "source": "RemoteOK",
-  "updated": "2026-11-25T17:12:42+00:00"
+  "updated": "2026-11-25T18:58:47+00:00",
+  "drafted": true
  },
  "https://himalayas.app/companies/sterry/jobs/marketing-influencer-operations-specialist": {
   "url": "https://himalayas.app/companies/sterry/jobs/marketing-influencer-operations-specialist?utm_source=api",
@@ -9414,5 +9424,833 @@
   "company": "Oscar Health",
   "source": "RemoteOK",
   "updated": "2026-11-25T17:12:42+00:00"
+ },
+ "https://himalayas.app/companies/american-income-life-insurance-company/jobs/customer-experience-associate-work-from-home": {
+  "url": "https://himalayas.app/companies/american-income-life-insurance-company/jobs/customer-experience-associate-work-from-home?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "This customer experience and sales-adjacent role utilizes administrative and documentation skills but does not leverage the candidate's core accounting, finance, or reporting expertise.",
+  "blockers": "",
+  "skill_gaps": "customer service experience; insurance industry knowledge; client-facing advisory skills",
+  "title": "Customer Experience Associate | Work From Home",
+  "company": "American Income Life Insurance Company",
+  "source": "Himalayas",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://himalayas.app/companies/reworks-solutions/jobs/personal-assistant": {
+  "url": "https://himalayas.app/companies/reworks-solutions/jobs/personal-assistant?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "The role is a general administrative Personal Assistant position requiring US hours and South African Rand payment, which does not leverage the candidate's core finance, accounting, or reporting skills well.",
+  "blockers": "Remote work based in South Africa with salary in ZAR; lack of proven PA experience.",
+  "skill_gaps": "calendar management; travel arrangements; Amazon reselling background",
+  "title": "Personal Assistant",
+  "company": "ReWorks Solutions",
+  "source": "Himalayas",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/bybit-asset-wallet-operations": {
+  "url": "https://weworkremotely.com/remote-jobs/bybit-asset-wallet-operations",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 20,
+  "reason": "The candidate lacks the required 3+ years of specific digital asset operations experience and deep crypto wallet management background.",
+  "blockers": "3+ years of relevant experience in digital asset operations, custody, or crypto wallet management required.",
+  "skill_gaps": "digital asset operations; crypto wallet management; multi-signature and MPC custody hands-on experience",
+  "title": "Asset/Wallet Operations",
+  "company": "Bybit",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/davies-business-operations-manager": {
+  "url": "https://weworkremotely.com/remote-jobs/davies-business-operations-manager",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate is based in Nigeria and ineligible for a role requiring physical presence in North America/Home, United States, and lacks the senior management experience required for a Business Operations Manager position.",
+  "blockers": "Location requirement (North America/United States); Senior management experience required",
+  "skill_gaps": "Forensic accounting operations; cross-functional enterprise management",
+  "title": "Business Operations Manager",
+  "company": "Davies",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centres-australia": {
+  "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centres-australia",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires senior-level government relations and community engagement experience in Australia, which does not match the candidate's junior accounting and finance profile based in Nigeria.",
+  "blockers": "Requires physical presence/residency in Australia and extensive regional public policy and community relations experience.",
+  "skill_gaps": "government affairs; public policy; community engagement; stakeholder relations",
+  "title": "Community Engagement Manager, Data Centres (Australia)",
+  "company": "Anthropic",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the software engineering background, coding skills, and technical stack expertise required for this software engineering role.",
+  "blockers": "Mandatory prior software engineering experience and coding proficiency",
+  "skill_gaps": "Golang; React; software development; coding standards; AWS; Kubernetes; Gitlab CI/CD",
+  "title": "Junior Software Engineer with Accounting Experience",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/dropbox-implementation-architect": {
+  "url": "https://weworkremotely.com/remote-jobs/dropbox-implementation-architect",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required hands-on SaaS implementation and technical architecture experience for this remote Canada-based role.",
+  "blockers": "Remote location restriction (candidate is in Nigeria, job requires select locations in Canada); lack of SaaS implementation experience.",
+  "skill_gaps": "SaaS implementation; SSO/SAML; SCIM; identity provisioning; technical architecture",
+  "title": "Implementation Architect",
+  "company": "Dropbox",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/spotmyenergy-gmbh/operations-coordinator-einsatz-terminplanung-cologne-352064": {
+  "url": "https://www.arbeitnow.com/jobs/companies/spotmyenergy-gmbh/operations-coordinator-einsatz-terminplanung-cologne-352064",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires fluent German at C1 level, which the candidate does not possess, along with being based in Germany.",
+  "blockers": "Requires fluent German (C1 minimum) and location in Cologne, Germany.",
+  "skill_gaps": "Fluent German; dispatching experience; field service management software",
+  "title": "Operations Coordinator – Einsatz- & Terminplanung (d/w/m)",
+  "company": "SpotmyEnergy GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/american-society-of-anesthesiologists-summer-intern-quality-health-policy-economics-remote": {
+  "url": "https://weworkremotely.com/remote-jobs/american-society-of-anesthesiologists-summer-intern-quality-health-policy-economics-remote",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires specific education in health policy, economics, or public health at the graduate level, which does not align with the candidate's accounting background.",
+  "blockers": "Requires graduate-level education in health policy, economics, public policy, or a related field, which the candidate lacks.",
+  "skill_gaps": "health policy; health economics; Medicare familiarity; statistical software",
+  "title": "Summer Intern - Quality (Health Policy / Economics) - Remote",
+  "company": "American Society of Anesthesiologists®",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://himalayas.app/companies/key-capture-energy-llc/jobs/associate-senior-associate-development": {
+  "url": "https://himalayas.app/companies/key-capture-energy-llc/jobs/associate-senior-associate-development?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required 1-3 years of renewable sector project development experience and is not located in the United States.",
+  "blockers": "Requires 1-3 years of renewable sector development experience; US location / work authorization required.",
+  "skill_gaps": "renewable energy development; land and title acquisition; electrical interconnection; permitting",
+  "title": "Associate/Senior Associate, Development",
+  "company": "Key Capture Energy, LLC",
+  "source": "Himalayas",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/user-10366023/spa-1/candidate/eform/14689576/page/1": {
+  "url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/user-10366023/spa-1/candidate/eform/14689576/page/1",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This role is for a Digital Media Officer focused on communications, which does not match the candidate's background in accounting, finance, and operations.",
+  "blockers": "The job requires digital media and communications skills rather than finance, accounting, or administrative expertise.",
+  "skill_gaps": "digital media; content creation; public relations; communications",
+  "title": "Digital Media Officer",
+  "company": "the British High Commission",
+  "source": "Dixcover Hub",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/coinbase-engineering-manager-finhub-financial-intelligence-platform": {
+  "url": "https://weworkremotely.com/remote-jobs/coinbase-engineering-manager-finhub-financial-intelligence-platform",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior engineering management role requiring 7+ years of software engineering experience and direct people management, which completely mismatches the candidate's entry-level accounting and finance background.",
+  "blockers": "Requires 7+ years of software engineering experience with at least 2 years of engineering management experience, which the candidate lacks.",
+  "skill_gaps": "software engineering management; distributed systems at scale; writing code and leading engineering incidents",
+  "title": "Engineering Manager, FinHub - Financial Intelligence (Platform)",
+  "company": "Coinbase",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centres-canada": {
+  "url": "https://weworkremotely.com/remote-jobs/anthropic-community-engagement-manager-data-centres-canada",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires extensive on-the-ground community engagement, government relations, and public affairs experience specifically in Canada, which does not align with the candidate's finance, accounting, and remote Nigerian profile.",
+  "blockers": "Requires physical presence and established professional relationships in Canada (Alberta/Ottawa), plus senior experience in public policy and government relations.",
+  "skill_gaps": "community engagement; government relations; public affairs; policy advocacy; stakeholder management in Canada",
+  "title": "Community Engagement Manager, Data Centres (Canada)",
+  "company": "Anthropic",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-tampa-miami-orlando-sarasota": {
+  "url": "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-tampa-miami-orlando-sarasota",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a direct outbound sales and account executive role requiring U.S. territory travel and cold prospecting, which does not utilize the candidate's finance, accounting, or administrative skills.",
+  "blockers": "Role requires physical presence and travel in U.S. territories (Tampa, Miami, Orlando, Sarasota), whereas the candidate is based in Nigeria.",
+  "skill_gaps": "full sales cycle; B2B prospecting; cold calling; quota attainment; U.S. market research",
+  "title": "Account Executive - In-Territory (Tampa, Miami, Orlando, Sarasota)",
+  "company": "Justworks",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-argentina": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-argentina",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role is a technical software engineering position requiring coding and development skills in languages like Golang and React, which the candidate does not possess.",
+  "blockers": "The candidate lacks software engineering and coding skills required for this technical developer role.",
+  "skill_gaps": "Golang; React; software development; coding standards; Kubernetes; AWS; Gitlab CI/CD",
+  "title": "Junior Software Engineer with Accounting Experience (Argentina)",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/descript-strategic-finance-gtm": {
+  "url": "https://weworkremotely.com/remote-jobs/descript-strategic-finance-gtm",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires 7 to 10+ years of experience in strategic finance and advanced SQL skills, which far exceeds the candidate's junior profile.",
+  "blockers": "7 to 10+ years of experience required",
+  "skill_gaps": "advanced SQL; strategic finance; SaaS GTM finance; revenue forecasting",
+  "title": "Strategic Finance, GTM",
+  "company": "Descript",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-san-diego-ca": {
+  "url": "https://weworkremotely.com/remote-jobs/justworks-account-executive-in-territory-san-diego-ca",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a sales and business development role requiring local territory management in San Diego, which does not utilize the candidate's finance, accounting, or reporting background.",
+  "blockers": "Requires physical presence and territory management in San Diego, California, while the candidate is based in Nigeria.",
+  "skill_gaps": "full sales cycle management; cold prospecting; territory building in San Diego; B2B sales negotiation",
+  "title": "Account Executive - In-Territory (San Diego, CA)",
+  "company": "Justworks",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/clover-health-enterprise-performance-lead": {
+  "url": "https://weworkremotely.com/remote-jobs/clover-health-enterprise-performance-lead",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior leadership role requiring extensive cross-functional strategic management in US healthcare, whereas the candidate is a junior accountant with 11 months of experience.",
+  "blockers": "Senior leadership role requiring deep strategic US healthcare and actuarial experience, far exceeding the candidate's junior profile.",
+  "skill_gaps": "actuarial expertise; healthcare industry knowledge; executive decision support; strategic business partnering",
+  "title": "Enterprise Performance Lead",
+  "company": "Clover Health",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/metamask-senior-systems-administrator": {
+  "url": "https://weworkremotely.com/remote-jobs/metamask-senior-systems-administrator",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level technical IT role requiring 5+ years of systems administration experience, whereas the candidate is a junior accountant with under a year of experience.",
+  "blockers": "5+ years experience required",
+  "skill_gaps": "cloud infrastructure administration; IT systems administration; network engineering; incident response",
+  "title": "Senior Systems Administrator",
+  "company": "MetaMask",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/samsara-associate-sales-engineer-se-desk-northeast": {
+  "url": "https://weworkremotely.com/remote-jobs/samsara-associate-sales-engineer-se-desk-northeast",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a technical sales engineering role requiring US regional residency and sales engineering expertise, neither of which match the candidate's Nigerian location and accounting background.",
+  "blockers": "Candidate must reside in the Northeast region within the US; lacks sales engineering experience.",
+  "skill_gaps": "IoT hardware; cloud infrastructure; carrier networks; sales engineering",
+  "title": "Associate Sales Engineer, SE Desk - Northeast",
+  "company": "Samsara",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/keeper-security-enterprise-sales-executive": {
+  "url": "https://weworkremotely.com/remote-jobs/keeper-security-enterprise-sales-executive",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires 5+ years of experience in enterprise SaaS sales, which far exceeds the candidate's background.",
+  "blockers": "5+ years experience in enterprise SaaS sales required",
+  "skill_gaps": "enterprise SaaS sales; cold calling; channel partner development; sales pipeline management; enterprise software negotiations",
+  "title": "Enterprise Sales Executive",
+  "company": "Keeper Security",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/bitwarden-principal-implementation-engineer-customer-support": {
+  "url": "https://weworkremotely.com/remote-jobs/bitwarden-principal-implementation-engineer-customer-support",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior technical implementation engineering role requiring deep software deployment and server/cloud expertise that does not align with the candidate's finance, accounting, and entry-level background.",
+  "blockers": "Requires advanced server and cloud deployment expertise and experience as a Principal Implementation Engineer.",
+  "skill_gaps": "server and cloud deployment; enterprise software implementation; technical support; identity security systems; customer success management",
+  "title": "Principal Implementation Engineer, Customer Support",
+  "company": "Bitwarden",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/keeper-security-director-revops-strategy-operations": {
+  "url": "https://weworkremotely.com/remote-jobs/keeper-security-director-revops-strategy-operations",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the extensive executive-level experience required for a Director position.",
+  "blockers": "Requires senior leadership experience (Director level) which the candidate lacks.",
+  "skill_gaps": "GTM planning; revenue operations leadership; quota methodology design; territory management",
+  "title": "Director, RevOps Strategy & Operations",
+  "company": "Keeper Security",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/databricks-lakebase-associate-director-specialist-manufacturing": {
+  "url": "https://weworkremotely.com/remote-jobs/databricks-lakebase-associate-director-specialist-manufacturing",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior enterprise sales and go-to-market role requiring deep technical database expertise, entirely misaligned with an entry-level junior accountant profile.",
+  "blockers": "Requires extensive enterprise sales and database specialization experience, which the candidate lacks.",
+  "skill_gaps": "Enterprise software sales; database architecture; Lakebase; Postgres; multi-threaded sales cycles; executive stakeholder management",
+  "title": "Lakebase Associate Director Specialist-Manufacturing",
+  "company": "Databricks",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/databricks-lakebase-associate-director-financial-services": {
+  "url": "https://weworkremotely.com/remote-jobs/databricks-lakebase-associate-director-financial-services",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior enterprise sales and go-to-market leadership role requiring extensive database sales experience, which completely misaligns with the candidate's profile as an entry-level junior accountant.",
+  "blockers": "Senior director-level experience required; complex enterprise software sales experience missing.",
+  "skill_gaps": "database sales; go-to-market strategy; enterprise software sales; technical solution selling",
+  "title": "Lakebase Associate Director, Financial Services",
+  "company": "Databricks",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/squareneo/senior-solution-consultant-enterprise-software-ki-karlsruhe-396817": {
+  "url": "https://www.arbeitnow.com/jobs/companies/squareneo/senior-solution-consultant-enterprise-software-ki-karlsruhe-396817",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the mandatory 5+ years of experience, German C1 language proficiency, and specific background required for this senior consultant role.",
+  "blockers": "Minimum 5 years of experience in consulting or software development required; C1 German proficiency required.",
+  "skill_gaps": "German language; enterprise software consulting; AI and LLMs deployment experience",
+  "title": "Senior Solution Consultant - Enterprise Software & KI (m/w/d)",
+  "company": "SquareNeo",
+  "source": "Arbeitnow",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/data-ai-engineer-munich-99309": {
+  "url": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/data-ai-engineer-munich-99309",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires a degree in Computer Science, Mathematics, Data Science, or a related technical field and deep software engineering and machine learning expertise, which does not align with the candidate's background in accounting and finance.",
+  "blockers": "Degree in Computer Science, Mathematics, Data Science, Wirtschaftsinformatik, Artificial Intelligence or comparable required.",
+  "skill_gaps": "Python; Machine Learning; TensorFlow; PyTorch; Data Engineering; cloud deployment; SQL",
+  "title": "Data & AI Engineer (m/w/d)",
+  "company": "Collaboration Betters The World GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://himalayas.app/companies/omatic/jobs/senior-customer-success-manager": {
+  "url": "https://himalayas.app/companies/omatic/jobs/senior-customer-success-manager?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior customer success management role requiring extensive strategic account experience that does not align with the candidate's junior accounting background.",
+  "blockers": "Senior-level role requiring years of enterprise account management experience that the candidate lacks.",
+  "skill_gaps": "customer success; enterprise account management; stakeholder escalation handling; NRR/GRR forecasting; SaaS retention strategy",
+  "title": "Senior Customer Success Manager",
+  "company": "Omatic",
+  "source": "Himalayas",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://himalayas.app/companies/travelodge-hotels-asia/jobs/finance-manager": {
+  "url": "https://himalayas.app/companies/travelodge-hotels-asia/jobs/finance-manager?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level Finance Manager role requiring extensive corporate finance, investment structuring, and hospitality transaction experience, which far exceeds the candidate's junior profile.",
+  "blockers": "Senior management role requiring advanced corporate finance, transaction execution, and hospitality/real estate experience that the junior candidate lacks",
+  "skill_gaps": "corporate finance; investment underwriting; debt financing; hotel acquisition structuring; lender management",
+  "title": "Finance Manager",
+  "company": "Travelodge Hotels - Asia",
+  "source": "Himalayas",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/hubside-die-recruitingwerkstatt/systemadministrator-microsoft-365-munich-494799": {
+  "url": "https://www.arbeitnow.com/jobs/companies/hubside-die-recruitingwerkstatt/systemadministrator-microsoft-365-munich-494799",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a specialized IT system administrator role requiring technical IT qualifications, hardware/infrastructure management, and years of IT experience, which completely misaligns with the candidate's accounting and finance profile.",
+  "blockers": "Requires a specific IT vocational training (Ausbildung im IT-Bereich) or a comparable IT degree and multi-year experience with M365 and ERP system administration, which the candidate lacks.",
+  "skill_gaps": "System administration; Microsoft 365; Windows Server; Active Directory; Virtualization; IT Support",
+  "title": "Systemadministrator (m/w/d) Microsoft 365",
+  "company": "hubside - Die Recruitingwerkstatt",
+  "source": "Arbeitnow",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://remoteok.com/remote-jobs/remote-sr-ehr-implementation-manager-natera-1138098": {
+  "url": "https://remoteOK.com/remote-jobs/remote-sr-ehr-implementation-manager-natera-1138098",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior healthcare IT implementation role based in the US only, requiring US location and senior-level experience, whereas the candidate is an entry-level accountant based in Nigeria.",
+  "blockers": "Senior role; US Only location requirement",
+  "skill_gaps": "EHR implementation; healthcare IT project management; clinical software deployment",
+  "title": "Sr EHR Implementation Manager",
+  "company": "Natera",
+  "source": "RemoteOK",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/veracode-senior-account-executive-dach": {
+  "url": "https://weworkremotely.com/remote-jobs/veracode-senior-account-executive-dach",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior sales role requiring 5+ years of SaaS cybersecurity sales experience in the DACH region and fluency in German, which completely misaligns with the candidate's profile.",
+  "blockers": "Minimum of 5 years of Sales experience selling SaaS in Cybersecurity industry; Fluent in German required; Senior role",
+  "skill_gaps": "SaaS sales; cybersecurity industry knowledge; DACH region market expertise; German language; B2B closing",
+  "title": "Senior Account Executive - DACH",
+  "company": "Veracode",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/coinbase-director-credit-risk": {
+  "url": "https://weworkremotely.com/remote-jobs/coinbase-director-credit-risk",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires 12+ years of senior experience in credit risk and leadership at the director level.",
+  "blockers": "Requires 12+ years of experience in credit risk/counterparty risk at a global financial institution; requires senior director-level experience.",
+  "skill_gaps": "credit risk; counterparty underwriting; securities financing; prime brokerage; stress testing; collateral mechanics",
+  "title": "Director, Credit Risk",
+  "company": "Coinbase",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/fivetran-director-enterprise-sales-field-operations-americas": {
+  "url": "https://weworkremotely.com/remote-jobs/fivetran-director-enterprise-sales-field-operations-americas",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior executive leadership role requiring extensive enterprise sales operations experience, which completely mismatches the candidate's entry-level profile.",
+  "blockers": "Requires extensive senior-level experience in enterprise sales operations; candidate is an entry-level junior accountant.",
+  "skill_gaps": "enterprise sales forecasting; GTM strategy; sales operations leadership; managing operations teams",
+  "title": "Director, Enterprise Sales Field Operations, Americas",
+  "company": "Fivetran",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/wrike-head-of-finance": {
+  "url": "https://weworkremotely.com/remote-jobs/wrike-head-of-finance",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires extensive executive-level leadership, private equity exit experience, and many years of financial management, which vastly exceeds the candidate's junior-level experience and lack of senior qualifications.",
+  "blockers": "Requires senior executive experience, M&A leadership, PE exit experience, and many years of finance management which the candidate lacks.",
+  "skill_gaps": "corporate finance strategy; M&A execution; board-level advisory; private equity exit experience",
+  "title": "Head of Finance",
+  "company": "Wrike",
+  "source": "We Work Remotely",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/samsara/core-account-executive-dach-300184": {
+  "url": "https://www.arbeitnow.com/jobs/companies/samsara/core-account-executive-dach-300184",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a sales and account executive role for the DACH region, which does not utilize the candidate's accounting, finance, or operations skill set.",
+  "blockers": "The job requires enterprise sales experience and regional coverage (DACH), which the candidate lacks.",
+  "skill_gaps": "B2B sales; DACH market knowledge; enterprise software sales",
+  "title": "Core Account Executive - DACH",
+  "company": "Samsara",
+  "source": "Arbeitnow",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/purestorage/enterprise-account-executive-manufacturing-munich-283762": {
+  "url": "https://www.arbeitnow.com/jobs/companies/purestorage/enterprise-account-executive-manufacturing-munich-283762",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior enterprise sales role in Germany, whereas the candidate is an entry-level accountant in Nigeria seeking finance and operations positions.",
+  "blockers": "Senior role requiring enterprise sales experience, location in Munich, Germany, and lack of quota-carrying B2B software sales background.",
+  "skill_gaps": "enterprise sales; full sales cycle management; B2B quota attainment; manufacturing sector sales; C-level relationship building",
+  "title": "Enterprise Account Executive - Manufacturing",
+  "company": "purestorage",
+  "source": "Arbeitnow",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://remoteok.com/remote-jobs/remote-district-manager-enterprise-healthcare-southeast-everpure-1138089": {
+  "url": "https://remoteOK.com/remote-jobs/remote-district-manager-enterprise-healthcare-southeast-everpure-1138089",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior sales leadership role requiring extensive enterprise healthcare sales experience and physical presence in the US, which completely misaligns with the candidate's entry-level financial profile and location in Nigeria.",
+  "blockers": "US residency required; senior-level sales management experience required; healthcare enterprise sales domain expertise required.",
+  "skill_gaps": "Enterprise sales; healthcare industry domain expertise; sales team leadership; quota carrying management; CRM pipeline forecasting",
+  "title": "District Manager, Enterprise - Healthcare (Southeast)",
+  "company": "Everpure",
+  "source": "RemoteOK",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/jawbuddy/business-development-intern-mandatory-internship-leipzig-29517": {
+  "url": "https://www.arbeitnow.com/jobs/companies/jawbuddy/business-development-intern-mandatory-internship-leipzig-29517",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate fails the mandatory eligibility requirement of being currently enrolled at a German university with a requirement for a mandatory internship.",
+  "blockers": "Must be enrolled at a German university with a mandatory internship requirement in study regulations; must be resident in or able to work on-site in Leipzig, Germany.",
+  "skill_gaps": "German language; CRM tool experience",
+  "title": "Business Development Intern (m/f/d) – Mandatory Internship",
+  "company": "JawBuddy",
+  "source": "Arbeitnow",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://himalayas.app/companies/cardiovascular-associates-of-america/jobs/social-work-coordinator": {
+  "url": "https://himalayas.app/companies/cardiovascular-associates-of-america/jobs/social-work-coordinator?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires a professional background in social work and patient care coordination, which does not align with the candidate's finance, accounting, and business profile.",
+  "blockers": "Requires a background in social work and healthcare coordination",
+  "skill_gaps": "social work; patient care coordination; motivational interviewing; clinical workflows",
+  "title": "Social Work Coordinator",
+  "company": "Cardiovascular Associates of America",
+  "source": "Himalayas",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://himalayas.app/companies/northbay-solutions/jobs/senior-data-engineer": {
+  "url": "https://himalayas.app/companies/northbay-solutions/jobs/senior-data-engineer?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate lacks the required 8-10+ years of experience in data engineering and residency in India.",
+  "blockers": "Requires 8-10+ years of experience in Data Engineering and India residency.",
+  "skill_gaps": "Azure Data Services; PySpark; Apache Spark; Python; Scala; Java; Data Engineering",
+  "title": "Senior Data Engineer",
+  "company": "NorthBay Solutions",
+  "source": "Himalayas",
+  "updated": "2026-11-25T18:56:31+00:00"
+ },
+ "https://jobs.smartyacad.com/remote-academic-administrators-at-learnsignal": {
+  "url": "https://jobs.smartyacad.com/remote-academic-administrators-at-learnsignal/",
+  "owners": {
+   "sent": "sender"
+  },
+  "sent": true,
+  "updated": "2026-11-25T19:00:10+00:00"
  }
 }

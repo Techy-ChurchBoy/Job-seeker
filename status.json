@@ -1,8 +1,8 @@
 {
- "last_run": "2026-11-25T17:12+00:00",
+ "last_run": "2026-11-25T18:56+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 13 passed filter",
+  "- himalayas: 20 fetched, 10 passed filter",
   "- workingnomads: 38 fetched, 11 passed filter",
   "- jobicy: 50 fetched, 44 passed filter",
   "- remoteok: 100 fetched, 50 passed filter",
@@ -15,21 +15,21 @@
   "- jooble: 0 fetched, 0 passed filter",
   "- arbeitnow: 50 fetched, 12 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 38 passed filter",
+  "- weworkremotely: 100 fetched, 47 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 66 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 8 linked pages",
   "- 27 jobs older than 30 days skipped",
-  "- 44 new jobs sent to scoring",
+  "- 45 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 50: Remote Filing Coordinator (Government Submissions) at The Hello Team. Blockers: none",
-  "  - 45: Revenue Operations Analyst at Augment. Blockers: none",
-  "  - 45: Diageo Business Support Coordinator Graduate Program 2026 at Dixcover Hub listing. Blockers: none",
-  "  - 25: Marketing & Influencer Operations Specialist at STERRY. Blockers: 2 to 4 years of experience in digital marketing, social media, or influencer marketing required.",
-  "  - 25: Excellium Sales Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
-  "- 6 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
+  "  - 35: Customer Experience Associate | Work From Home at American Income Life Insurance Company. Blockers: none",
+  "  - 25: Personal Assistant at ReWorks Solutions. Blockers: Remote work based in South Africa with salary in ZAR; lack of proven PA experience.",
+  "  - 20: Asset/Wallet Operations at Bybit. Blockers: 3+ years of relevant experience in digital asset operations, custody, or crypto wallet management required.",
+  "  - 15: Summer Intern - Quality (Health Policy / Economics) - Remote at American Society of Anesthesiologists\u00ae. Blockers: Requires graduate-level education in health policy, economics, public policy, or a related field, which the candidate lacks.",
+  "  - 15: Operations Coordinator \u2013 Einsatz- & Terminplanung (d/w/m) at SpotmyEnergy GmbH. Blockers: Requires fluent German (C1 minimum) and location in Cologne, Germany.",
+  "- 3 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
  ],
  "report": {
   "sources": [
@@ -43,7 +43,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 13
+    "passed": 10
    },
    {
     "name": "workingnomads",
@@ -121,7 +121,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 38
+    "passed": 47
    },
    {
     "name": "web_search_jobs",
@@ -130,17 +130,24 @@
     "passed": 0
    }
   ],
-  "new_to_score": 44,
-  "scored": 38,
-  "scoring_failed": 6,
+  "new_to_score": 45,
+  "scored": 42,
+  "scoring_failed": 3,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
  "drafts": {
-  "written": 0,
-  "failed": 5,
-  "waiting": 5
+  "written": 5,
+  "failed": 0,
+  "waiting": 0
+ },
+ "emails": {
+  "sent": 1,
+  "eligible": 1,
+  "names": [
+   "Remote Academic Administrators at Learnsignal"
+  ]
  }
 }

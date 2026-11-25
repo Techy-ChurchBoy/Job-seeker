@@ -1,5 +1,13 @@
 [
  {
+  "message_id": "<1835412166.403337.1795629807217@email-sender-5676bfb666-wgrbz>",
+  "received": "2026-11-25T18:03+00:00",
+  "from": "notification@smartrecruiters.com",
+  "subject": "Thank you for applying to Fintrak Software Co. Ltd",
+  "company": "smartrecruiters.com",
+  "application": "your application"
+ },
+ {
   "message_id": "<1026598039.23729072.1795613371113@lva1-app164571.prod.linkedin.com>",
   "received": "2026-11-25T13:29+00:00",
   "from": "games-discovery-noreply@linkedin.com",
