@@ -1,10 +1,10 @@
 {
- "last_run": "2026-11-25T02:17+00:00",
+ "last_run": "2026-11-25T06:10+00:00",
  "summary": [
   "- remotive: 15 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 6 passed filter",
+  "- himalayas: 20 fetched, 8 passed filter",
   "- workingnomads: 37 fetched, 10 passed filter",
-  "- jobicy: 50 fetched, 42 passed filter",
+  "- jobicy: 46 fetched, 39 passed filter",
   "- remoteok: 100 fetched, 53 passed filter",
   "- greenhouse: 68 fetched, 37 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -12,23 +12,23 @@
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 44 fetched, 21 passed filter",
-  "- jooble: 500 fetched, 436 passed filter",
-  "- arbeitnow: 50 fetched, 20 passed filter",
+  "- jooble: 500 fetched, 435 passed filter",
+  "- arbeitnow: 50 fetched, 22 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
   "- weworkremotely: 100 fetched, 42 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 68 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 9 linked pages",
-  "- 59 jobs older than 30 days skipped",
+  "  - Dixcover Hub: opened 10 linked pages",
+  "- 62 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Staff Accountant at Colony Brands, Inc.. Blockers: none",
-  "  - 75: Cost Accountant at GCB Services LLC. Blockers: US residency/work authorization likely required for a physical plant role in Wisconsin",
-  "  - 45: Bookkeeper at Tidewell Accounting. Blockers: United Kingdom residency or work authorization required",
-  "  - 45: Administrative Assistant at Tidewell Accounting. Blockers: Remote work is not specified for this UK-based role, and the candidate is based in Nigeria.",
-  "  - 45: Accounting Assistant at Sonalysts. Blockers: Local candidate preference in Waterford, CT"
+  "  - 75: Accounts Assistant at Anchor Accounting. Blockers: none",
+  "  - 75: Accounting Assistant at RFA Engineering. Blockers: none",
+  "  - 75: Accounting Assistant at Illinois Wesleyan. Blockers: None",
+  "  - 75: Accounting Assistant at Anant Operations Inc. Blockers: none",
+  "  - 65: Virtual Executive Assistant at RAY AI. Blockers: none"
  ],
  "report": {
   "sources": [
@@ -42,7 +42,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 6
+    "passed": 8
    },
    {
     "name": "workingnomads",
@@ -53,8 +53,8 @@
    {
     "name": "jobicy",
     "ok": true,
-    "fetched": 50,
-    "passed": 42
+    "fetched": 46,
+    "passed": 39
    },
    {
     "name": "remoteok",
@@ -102,13 +102,13 @@
     "name": "jooble",
     "ok": true,
     "fetched": 500,
-    "passed": 436
+    "passed": 435
    },
    {
     "name": "arbeitnow",
     "ok": true,
     "fetched": 50,
-    "passed": 20
+    "passed": 22
    },
    {
     "name": "themuse",
@@ -138,7 +138,7 @@
   ]
  },
  "drafts": {
-  "written": 9,
+  "written": 13,
   "failed": 1,
   "waiting": 1
  }
