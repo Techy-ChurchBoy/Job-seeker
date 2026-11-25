@@ -1,0 +1,39 @@
+name: handled
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Link of the draft
+        required: true
+      state:
+        description: handled or open
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobbot
+  cancel-in-progress: false
+
+jobs:
+  mark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -u handled.py
+        env:
+          HANDLED_URL: ${{ inputs.url }}
+          HANDLED_STATE: ${{ inputs.state }}
+      - run: python -u dashboard.py
+      - name: Save results
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          for p in handled.json feed; do [ -e "$p" ] && git add "$p"; done
+          git diff --staged --quiet || git commit -m "draft handled"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 10; done

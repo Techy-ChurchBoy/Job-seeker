@@ -116,6 +116,7 @@ def load_tracker():
 def build_drafts():
     """Every draft-ready opportunity, read from the draft files written by the letter step."""
     import glob
+    handled = set(json.load(open("handled.json", encoding="utf-8"))) if os.path.exists("handled.json") else set()
     out = []
     for path in glob.glob("applications/*.md"):
         text = open(path, encoding="utf-8").read()
@@ -130,7 +131,8 @@ def build_drafts():
                     "score": int(float(score.group(1))) if score else 0,
                     "url": link.group(1) if link else "",
                     "letter": letter.group(1).strip() if letter else "",
-                    "notes": notes.group(1).strip() if notes else ""})
+                    "notes": notes.group(1).strip() if notes else "",
+                    "handled": bool(link) and link.group(1) in handled})
     return sorted(out, key=lambda d: d["score"], reverse=True)
 
 

@@ -36,6 +36,14 @@ exports.handler = async (event) => {
     workflow = "outreach-send.yml";
     inputs = { batch, ids };
     message = "Sending started. Results appear on this page after the next refresh.";
+  } else if (data.action === "handled") {
+    const url = String(data.url || "").trim();
+    const state = String(data.state || "");
+    if (!/^https?:\/\/\S+$/.test(url)) return reply(400, { error: "That draft has no link to mark." });
+    if (state !== "handled" && state !== "open") return reply(400, { error: "Unknown state." });
+    workflow = "handled.yml";
+    inputs = { url, state };
+    message = "Saved. The draft moves to its new section after the next refresh, about a minute.";
   } else if (data.action === "boards") {
     workflow = "board-finder.yml";
     inputs = {};

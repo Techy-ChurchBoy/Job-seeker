@@ -109,7 +109,14 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
 <section class="page" id="page-drafts">
   <h2>Draft-ready opportunities</h2>
   <p class="muted">Cover letters written and waiting. Open a draft to read the letter, then apply through the link.</p>
-  <div id="drafts"></div>
+  <div class="clay">
+    <input id="dPw" class="field" type="password" placeholder="Password" autocomplete="current-password">
+    <p class="muted" id="dMsg"></p>
+  </div>
+  <div class="sub">Ready to handle</div>
+  <div id="drafts-open"></div>
+  <div class="sub">Handled</div>
+  <div id="drafts-done"></div>
 </section>
 
 <section class="page" id="page-jobs">
@@ -353,23 +360,50 @@ function renderUsage(f) {
   });
 }
 
+function draftCard(d, handled) {
+  const c = card();
+  const head = el('div', 'row');
+  head.append(el('b', null, d.title), el('span', 'score', String(d.score)));
+  c.append(head, el('div', 'muted', d.company));
+  if (d.notes) c.append(el('div', 'muted', d.notes));
+  const a = link(d.url); if (a) { c.append(document.createElement('br'), a); }
+  const det = el('details'); det.style.marginTop = '8px';
+  det.append(el('summary', null, 'Read the cover letter'), el('pre', null, d.letter || 'No letter text saved.'));
+  c.append(det);
+  const btn = el('button', 'btn', handled ? 'Reopen' : 'Mark handled');
+  btn.type = 'button'; btn.style.marginTop = '10px';
+  btn.addEventListener('click', () => markDraft(d.url, handled ? 'open' : 'handled', c, btn, handled));
+  c.append(btn);
+  return c;
+}
+async function markDraft(url, state, card, btn, wasHandled) {
+  const password = document.getElementById('dPw').value;
+  const msg = document.getElementById('dMsg');
+  if (!password) { msg.textContent = 'Enter the password first.'; return; }
+  btn.disabled = true; msg.textContent = 'Saving...';
+  const r = await outreachPost({ password, action: 'handled', url, state });
+  btn.disabled = false;
+  msg.textContent = r.ok ? r.d.message : (r.d.error || 'Something went wrong.');
+  if (r.ok) {
+    const target = document.getElementById(state === 'handled' ? 'drafts-done' : 'drafts-open');
+    target.prepend(card);
+    btn.textContent = state === 'handled' ? 'Reopen' : 'Mark handled';
+    btn.onclick = null;
+    btn.replaceWith(btn.cloneNode(true));
+  }
+}
 function renderDrafts(f) {
-  const box = document.getElementById('drafts'); box.replaceChildren();
+  const open = document.getElementById('drafts-open');
+  const done = document.getElementById('drafts-done');
+  open.replaceChildren(); done.replaceChildren();
   const list = f.drafts || [];
-  setBadge('badgeDrafts', list.length);
-  if (!list.length) { box.append(note('No drafts yet.')); return; }
-  list.forEach(d => {
-    const c = card();
-    const head = el('div', 'row');
-    head.append(el('b', null, d.title), el('span', 'score', String(d.score)));
-    c.append(head, el('div', 'muted', d.company));
-    if (d.notes) c.append(el('div', 'muted', d.notes));
-    const a = link(d.url); if (a) { c.append(document.createElement('br'), a); }
-    const det = el('details'); det.style.marginTop = '8px';
-    det.append(el('summary', null, 'Read the cover letter'), el('pre', null, d.letter || 'No letter text saved.'));
-    c.append(det);
-    box.append(c);
-  });
+  const pending = list.filter(d => !d.handled);
+  const handled = list.filter(d => d.handled);
+  setBadge('badgeDrafts', pending.length);
+  if (!pending.length) open.append(note('No drafts waiting.'));
+  pending.forEach(d => open.append(draftCard(d, false)));
+  if (!handled.length) done.append(note('Nothing handled yet.'));
+  handled.forEach(d => done.append(draftCard(d, true)));
 }
 
 function renderSent(f) {
