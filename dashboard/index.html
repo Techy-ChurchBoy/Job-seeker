@@ -163,8 +163,8 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <h2>Location outreach</h2>
   <div class="clay">
     <p class="muted">Type a town or area. The bot finds organisations there, writes an open application for each, and waits for your approval. Up to 20 emails a day.</p>
-    <input id="locName" class="field" type="text" placeholder="Town or area, e.g. Ibadan">
-    <input id="locCats" class="field" type="text" placeholder="Kinds of organisation (optional)">
+    <input id="locName" class="field" type="text" name="town-search" placeholder="Town or area, e.g. Ibadan" autocomplete="off" autocapitalize="words" data-lpignore="true" data-1p-ignore="true" data-form-type="other">
+    <input id="locCats" class="field" type="text" name="org-kinds" placeholder="Kinds of organisation (optional)" autocomplete="off" data-lpignore="true" data-1p-ignore="true" data-form-type="other">
     <button class="btn" id="locSearch" type="button">Find organisations</button>
     <p class="muted" id="locMsg"></p>
   </div>
