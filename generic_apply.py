@@ -95,13 +95,22 @@ def main():
     queue = json.load(open(QUEUE, encoding="utf-8"))
     state = json.load(open(STATE_PATH)) if os.path.exists(STATE_PATH) else {}
     rows = {r["url"]: r for r in csv.DictReader(open("matches.csv", encoding="utf-8"))} if os.path.exists("matches.csv") else {}
-    todo = []
+    todo, seen_forms = [], set()
+    notified = json.load(open("notified_forms.json")) if os.path.exists("notified_forms.json") else []
     for posting, item in queue.items():
         if item.get("status") != "generic_form" or item.get("apply_url") in state or posting not in rows:
             continue
+        if item["apply_url"] in seen_forms:  # the same form queued under two postings: fill it once
+            continue
+        seen_forms.add(item["apply_url"])
         letter = read_cover_letter(rows[posting])
         if letter:
             todo.append((posting, item, letter))
+        elif item["apply_url"] not in notified:
+            telegram(f"Waiting for a cover letter before filling: {item['title']} at {item['company']}. "
+                     f"It will be filled on a later run. Apply here if you prefer: {item['apply_url']}")
+            notified.append(item["apply_url"])
+    json.dump(notified, open("notified_forms.json", "w"))
     todo = todo[:MAX_PER_RUN]
     print(f"{len(todo)} plain forms to fill (review only).")
     if not todo:
