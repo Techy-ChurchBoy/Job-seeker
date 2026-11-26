@@ -1074,3 +1074,16 @@
 {"at": "2026-11-26T03:34:56+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 903, "output_tokens": 69}
 {"at": "2026-11-26T03:35:08+00:00", "process": "letters", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1612, "output_tokens": 848}
 {"at": "2026-11-26T03:35:17+00:00", "process": "letters", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1866, "output_tokens": 795}
+{"at": "2026-11-26T06:01:06+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:01:06+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:01:07+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:01:07+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:01:11+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1398, "output_tokens": 89}
+{"at": "2026-11-26T06:01:18+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1299, "output_tokens": 100}
+{"at": "2026-11-26T06:01:25+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1359, "output_tokens": 89}
+{"at": "2026-11-26T06:01:35+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1387, "output_tokens": 89}
+{"at": "2026-11-26T06:01:43+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1377, "output_tokens": 66}
+{"at": "2026-11-26T06:01:53+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1355, "output_tokens": 74}
+{"at": "2026-11-26T06:02:02+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1352, "output_tokens": 109}
+{"at": "2026-11-26T06:02:09+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1386, "output_tokens": 92}
+{"at": "2026-11-26T06:02:15+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}

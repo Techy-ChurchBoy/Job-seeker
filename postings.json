@@ -13322,5 +13322,165 @@
   "company": "Information Resource Group",
   "source": "Jooble",
   "updated": "2026-11-26T03:35:02+00:00"
+ },
+ "https://himalayas.app/companies/caresource/jobs/member-incentive-program-analyst": {
+  "url": "https://himalayas.app/companies/caresource/jobs/member-incentive-program-analyst?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "The job requires US location and 2 years of experience in data analysis, reporting, or healthcare managed care, which exceeds the candidate's local Nigerian residency and junior experience level.",
+  "blockers": "Candidate is located in Nigeria while the role is in the United States; requires 2 years of data/healthcare analysis experience.",
+  "skill_gaps": "healthcare industry experience; Tableau; Access; Visio; claims processing",
+  "title": "Member Incentive Program Analyst",
+  "company": "CareSource",
+  "source": "Himalayas",
+  "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/abnormal-compliance-trust-analyst": {
+  "url": "https://weworkremotely.com/remote-jobs/abnormal-compliance-trust-analyst",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "This is a mid-to-senior level compliance and security trust analyst role requiring proven security experience in an audit or advisory capacity, which exceeds the candidate's junior accounting background.",
+  "blockers": "Proven security experience in an audit or advisory capacity required",
+  "skill_gaps": "GRC programs; cybersecurity compliance; risk management operations; policy management; multi-framework audit",
+  "title": "Compliance Trust Analyst",
+  "company": "Abnormal",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/yubico-inc-sr-business-operations-analyst": {
+  "url": "https://weworkremotely.com/remote-jobs/yubico-inc-sr-business-operations-analyst",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is a senior-level role requiring extensive experience, whereas the candidate is an entry-level professional.",
+  "blockers": "Senior-level experience required",
+  "skill_gaps": "extensive cross-functional leadership; supply chain management; advanced business operations strategy",
+  "title": "Sr. Business Operations Analyst",
+  "company": "Yubico Inc.",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/bitwarden-product-manager-platform": {
+  "url": "https://weworkremotely.com/remote-jobs/bitwarden-product-manager-platform",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks U.S. residency and the required product management experience for a senior platform role.",
+  "blockers": "Located in the U.S. requirement; no visa sponsorship; requires extensive product management experience.",
+  "skill_gaps": "product management; cloud platform architecture; FedRAMP compliance; enterprise software strategy",
+  "title": "Product Manager - Platform",
+  "company": "Bitwarden",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/abnormal-customer-success-manager-enterprise-florida": {
+  "url": "https://weworkremotely.com/remote-jobs/abnormal-customer-success-manager-enterprise-florida",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires 5+ years of enterprise SaaS and Customer Success experience, which heavily exceeds the candidate's background.",
+  "blockers": "Requires 5+ years of experience in enterprise SaaS with 3+ years specifically in Customer Success, TAM, or support roles.",
+  "skill_gaps": "Enterprise SaaS experience; Salesforce; Jira; customer success management; technical networking knowledge",
+  "title": "Customer Success Manager, Enterprise (Florida)",
+  "company": "Abnormal",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://himalayas.app/companies/ahead/jobs/senior-technical-consultant-identity-operations-and-iga-support": {
+  "url": "https://himalayas.app/companies/ahead/jobs/senior-technical-consultant-identity-operations-and-iga-support?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior IT role requiring 5+ years of specialized IGA platform experience, which far exceeds the candidate's junior profile.",
+  "blockers": "5+ years of experience administering, supporting, or operating IGA platforms",
+  "skill_gaps": "Identity Governance and Administration (IGA) platforms; Saviynt; ITSM ticketing systems; IAM administration; PowerShell/SQL scripting",
+  "title": "Senior Technical Consultant - Identity Operations and IGA Support",
+  "company": "AHEAD",
+  "source": "Himalayas",
+  "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/databricks-lakebase-associate-director-specialist-mfg": {
+  "url": "https://weworkremotely.com/remote-jobs/databricks-lakebase-associate-director-specialist-mfg",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior sales and go-to-market specialist role requiring complex multi-threaded enterprise software sales experience, which completely misaligns with an entry-level accounting graduate.",
+  "blockers": "Senior go-to-market and enterprise sales experience required",
+  "skill_gaps": "enterprise software sales; database go-to-market strategy; technical sales cycles; Postgres expertise",
+  "title": "Lakebase Associate Director Specialist-MFG",
+  "company": "Databricks",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://himalayas.app/companies/rainfocus/jobs/director-of-implementation-consulting": {
+  "url": "https://himalayas.app/companies/rainfocus/jobs/director-of-implementation-consulting?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires extensive senior-level leadership and implementation consulting experience in the US, which heavily conflicts with the candidate's junior profile and location.",
+  "blockers": "Senior leadership role requiring extensive implementation consulting experience and US location.",
+  "skill_gaps": "implementation consulting experience; executive leadership; enterprise software implementation",
+  "title": "Director of Implementation Consulting",
+  "company": "RainFocus",
+  "source": "Himalayas",
+  "updated": "2026-11-26T06:02:15+00:00"
  }
 }
