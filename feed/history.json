@@ -1077,5 +1077,46 @@
    "  - 10: Product Manager - Platform at Bitwarden. Blockers: Located in the U.S. requirement; no visa sponsorship; requires extensive product management experience.",
    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
   ]
+ },
+ {
+  "last_run": "2026-11-26T06:23+00:00",
+  "report": [
+   "Last run: 2026-11-26T06:23+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 478 postings in total, and 234 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "2 postings were scored against your CV this run.",
+   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 application emails were sent: Job posting at example.com.",
+   "Overall, 42 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 9 passed filter",
+   "- workingnomads: 38 fetched, 11 passed filter",
+   "- jobicy: 43 fetched, 37 passed filter",
+   "- remoteok: 100 fetched, 50 passed filter",
+   "- greenhouse: 66 fetched, 34 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 45 fetched, 22 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 21 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 48 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 66 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 11 linked pages",
+   "- 28 jobs older than 30 days skipped",
+   "- 45 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 10: Principal Data Scientist at Upstart. Blockers: Principal-level data science experience required; candidate is entry-level in accounting and finance.",
+   "  - 5: Head of Technology & Data Partnerships at 6sense. Blockers: Senior executive-level leadership experience required",
+   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+  ]
  }
 ]

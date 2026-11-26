@@ -13482,5 +13482,53 @@
   "company": "RainFocus",
   "source": "Himalayas",
   "updated": "2026-11-26T06:02:15+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/upstart-principal-data-scientist": {
+  "url": "https://weworkremotely.com/remote-jobs/upstart-principal-data-scientist",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires a Principal Data Scientist with advanced technical machine learning and causal inference expertise, which vastly exceeds the candidate's entry-level accounting profile.",
+  "blockers": "Principal-level data science experience required; candidate is entry-level in accounting and finance.",
+  "skill_gaps": "advanced machine learning; causal inference; marketing incrementality; attribution models; spend allocation optimization",
+  "title": "Principal Data Scientist",
+  "company": "Upstart",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T06:23:05+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/6sense-head-of-technology-data-partnerships": {
+  "url": "https://weworkremotely.com/remote-jobs/6sense-head-of-technology-data-partnerships",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior executive enterprise-level leadership role requiring extensive partnership strategy experience, which completely misaligns with the candidate's entry-level management accounting and finance background.",
+  "blockers": "Senior executive-level leadership experience required",
+  "skill_gaps": "enterprise partnership strategy; C-suite negotiation; data strategy leadership; M&A evaluation",
+  "title": "Head of Technology & Data Partnerships",
+  "company": "6sense",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T06:23:05+00:00"
+ },
+ "https://example.com/jobs/test-accountant-2026": {
+  "url": "https://example.com/jobs/test-accountant-2026",
+  "owners": {
+   "sent": "sender"
+  },
+  "sent": true,
+  "updated": "2026-11-26T06:24:21+00:00"
  }
 }

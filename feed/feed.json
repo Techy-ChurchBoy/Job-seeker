@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-26 06:03 UTC",
+ "generated": "2026-11-26 06:24 UTC",
  "report": [
-  "Last run: 2026-11-26T06:02+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 972 postings in total, and 663 matched your skills.",
+  "Last run: 2026-11-26T06:23+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 478 postings in total, and 234 matched your skills.",
   "These sources could not be reached: themuse.",
-  "8 postings were scored against your CV this run.",
+  "2 postings were scored against your CV this run.",
   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "No application emails were sent this run.",
+  "1 application emails were sent: Job posting at example.com.",
   "Overall, 42 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
@@ -16,12 +16,12 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 170,
-    "week": 921,
-    "limited": 2,
+    "today": 173,
+    "week": 924,
+    "limited": 3,
     "overloaded": 214,
-    "tokens_in": 840499,
-    "tokens_out": 60491
+    "tokens_in": 843313,
+    "tokens_out": 60685
    },
    {
     "process": "letters",
@@ -34,9 +34,9 @@
    },
    {
     "process": "web_search",
-    "today": 12,
-    "week": 56,
-    "limited": 56,
+    "today": 16,
+    "week": 60,
+    "limited": 60,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -45,7 +45,6 @@
   "note": "429 means the free quota was hit for that process. 503 means Google was overloaded."
  },
  "checks": [
-  "In the applied log but not marked sent: https://example.com/jobs/test-accountant-2026",
   "In the applied log but not marked sent: https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
   "Score differs for Project Payroll Administrator: 10 in matches, 0 in records",
@@ -870,7 +869,7 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-26T06:02+00:00",
+ "last_run": "2026-11-26T06:23+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
@@ -883,31 +882,28 @@
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 45 fetched, 22 passed filter",
-  "- jooble: 494 fetched, 434 passed filter",
+  "- jooble: 0 fetched, 0 passed filter",
   "- arbeitnow: 50 fetched, 21 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 43 passed filter",
+  "- weworkremotely: 100 fetched, 48 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 66 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 10 linked pages",
-  "- 59 jobs older than 30 days skipped",
-  "- 80 new jobs sent to scoring",
+  "  - Dixcover Hub: opened 11 linked pages",
+  "- 28 jobs older than 30 days skipped",
+  "- 45 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 35: Member Incentive Program Analyst at CareSource. Blockers: Candidate is located in Nigeria while the role is in the United States; requires 2 years of data/healthcare analysis experience.",
-  "  - 25: Compliance Trust Analyst at Abnormal. Blockers: Proven security experience in an audit or advisory capacity required",
-  "  - 15: Sr. Business Operations Analyst at Yubico Inc.. Blockers: Senior-level experience required",
-  "  - 10: Senior Technical Consultant - Identity Operations and IGA Support at AHEAD. Blockers: 5+ years of experience administering, supporting, or operating IGA platforms",
-  "  - 10: Product Manager - Platform at Bitwarden. Blockers: Located in the U.S. requirement; no visa sponsorship; requires extensive product management experience.",
+  "  - 10: Principal Data Scientist at Upstart. Blockers: Principal-level data science experience required; candidate is entry-level in accounting and finance.",
+  "  - 5: Head of Technology & Data Partnerships at 6sense. Blockers: Senior executive-level leadership experience required",
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
-  "jobs_scored": 945,
+  "jobs_scored": 947,
   "strong": 73,
   "drafts": 79,
-  "sent_today": 0,
-  "sent_total": 4
+  "sent_today": 1,
+  "sent_total": 5
  },
  "skills": [
   {
@@ -1048,6 +1044,16 @@
  ],
  "sent": [
   {
+   "sent_at": "2026-11-26T06:24:21+00:00",
+   "title": "Job posting",
+   "company": "example.com",
+   "email": "hr@sop-consulting.com",
+   "score": "75",
+   "url": "https://example.com/jobs/test-accountant-2026",
+   "recent": true,
+   "repeat": true
+  },
+  {
    "sent_at": "2026-11-25T19:00:10+00:00",
    "title": "Remote Academic Administrators",
    "company": "Learnsignal",
@@ -1065,7 +1071,7 @@
    "score": "15",
    "url": "https://example.com/jobs/test-accountant-2026",
    "recent": true,
-   "repeat": false
+   "repeat": true
   },
   {
    "sent_at": "2026-11-22T07:20:07+00:00",
@@ -2524,7 +2530,7 @@
    ],
    "url": "https://himalayas.app/companies/caresource/jobs/member-incentive-program-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 30,
@@ -2943,7 +2949,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/abnormal-compliance-trust-analyst",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -6642,7 +6648,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/yubico-inc-sr-business-operations-analyst",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11360,7 +11366,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/bitwarden-product-manager-platform",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11379,7 +11385,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/abnormal-customer-success-manager-enterprise-florida",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11397,6 +11403,25 @@
     "PowerShell/SQL scripting"
    ],
    "url": "https://himalayas.app/companies/ahead/jobs/senior-technical-consultant-identity-operations-and-iga-support?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Principal Data Scientist",
+   "company": "Upstart",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires a Principal Data Scientist with advanced technical machine learning and causal inference expertise, which vastly exceeds the candidate's entry-level accounting profile.",
+   "blockers": "Principal-level data science experience required; candidate is entry-level in accounting and finance.",
+   "gaps": [
+    "advanced machine learning",
+    "causal inference",
+    "marketing incrementality",
+    "attribution models",
+    "spend allocation optimization"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/upstart-principal-data-scientist",
    "drafted": false,
    "recent": true
   },
@@ -15148,7 +15173,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/databricks-lakebase-associate-director-specialist-mfg",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -15164,6 +15189,24 @@
     "enterprise software implementation"
    ],
    "url": "https://himalayas.app/companies/rainfocus/jobs/director-of-implementation-consulting?utm_source=api",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Head of Technology & Data Partnerships",
+   "company": "6sense",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior executive enterprise-level leadership role requiring extensive partnership strategy experience, which completely misaligns with the candidate's entry-level management accounting and finance background.",
+   "blockers": "Senior executive-level leadership experience required",
+   "gaps": [
+    "enterprise partnership strategy",
+    "C-suite negotiation",
+    "data strategy leadership",
+    "M&A evaluation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/6sense-head-of-technology-data-partnerships",
    "drafted": false,
    "recent": true
   },
@@ -17528,6 +17571,47 @@
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-26T06:23+00:00",
+   "report": [
+    "Last run: 2026-11-26T06:23+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 478 postings in total, and 234 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "2 postings were scored against your CV this run.",
+    "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 application emails were sent: Job posting at example.com.",
+    "Overall, 42 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 9 passed filter",
+    "- workingnomads: 38 fetched, 11 passed filter",
+    "- jobicy: 43 fetched, 37 passed filter",
+    "- remoteok: 100 fetched, 50 passed filter",
+    "- greenhouse: 66 fetched, 34 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 22 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 21 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 48 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 66 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 11 linked pages",
+    "- 28 jobs older than 30 days skipped",
+    "- 45 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 10: Principal Data Scientist at Upstart. Blockers: Principal-level data science experience required; candidate is entry-level in accounting and finance.",
+    "  - 5: Head of Technology & Data Partnerships at 6sense. Blockers: Senior executive-level leadership experience required",
+    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+   ]
+  },
   {
    "last_run": "2026-11-26T06:02+00:00",
    "report": [
