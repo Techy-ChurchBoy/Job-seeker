@@ -15044,5 +15044,447 @@
   "company": "Veeva Systems",
   "source": "RemoteOK",
   "updated": "2026-11-26T16:52:17+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/s-akquise-gmbh/interne-projekt-und-prozessanalyse-berlin-309393": {
+  "url": "https://www.arbeitnow.com/jobs/companies/s-akquise-gmbh/interne-projekt-und-prozessanalyse-berlin-309393",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring",
+   "drafted": "letters"
+  },
+  "score": 45,
+  "reason": "The internship matches the candidate's process documentation, analysis, and administrative skills, but is located in Berlin, Germany, requiring physical presence or local residency not aligned with the candidate's location in Nigeria.",
+  "blockers": "The job requires physical presence in Berlin, Germany, whereas the candidate is based in Nigeria and seeking Nigeria-based or remote roles.",
+  "skill_gaps": "German language proficiency",
+  "title": "Interne Projekt- und Prozessanalyse (m/w/d)",
+  "company": "S-Akquise GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:21+00:00",
+  "drafted": true
+ },
+ "https://arbeitnow.com/jobs/companies/enter-by-baupal-gmbh/operations-koordination-werkstudent-berlin-465194": {
+  "url": "https://www.arbeitnow.com/jobs/companies/enter-by-baupal-gmbh/operations-koordination-werkstudent-berlin-465194",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires current enrollment in a Bachelor or Master program in Germany, as well as very fluent German (min. C1), which the candidate lacks.",
+  "blockers": "Required current student status in Germany; Required C1 German language proficiency",
+  "skill_gaps": "Salesforce; German language proficiency",
+  "title": "Operations Koordination - Werkstudent (m/w/d)",
+  "company": "Enter by baupal GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/foodji-gmbh/senior-business-performance-analyst-all-genders-munchen-277175": {
+  "url": "https://www.arbeitnow.com/jobs/companies/foodji-gmbh/senior-business-performance-analyst-all-genders-munchen-277175",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires 2 to 5 years of experience, fluent German, and specific advanced FP&A or investment banking background, which the candidate lacks.",
+  "blockers": "2 to 5 years of experience required; Fluent German required",
+  "skill_gaps": "FP&A experience; Tableau; German language proficiency; Corporate Finance",
+  "title": "(Senior) Business Performance Analyst (all genders)",
+  "company": "Foodji GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/ordio-gmbh/executive-assistant-people-hr-cologne-136649": {
+  "url": "https://www.arbeitnow.com/jobs/companies/ordio-gmbh/executive-assistant-people-hr-cologne-136649",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate fails the geographical residency requirement (must be in or around Cologne, Germany) and lacks the mandatory fluent German language skills.",
+  "blockers": "Must be resident in or around Cologne, Germany and able to work regularly on-site; Very good German language skills required.",
+  "skill_gaps": "Fluent German language; Human Resources (HR) administration experience; Office management experience",
+  "title": "Executive Assistant People & HR (m/w/d)",
+  "company": "Ordio GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/fivetran-deal-desk-analyst": {
+  "url": "https://weworkremotely.com/remote-jobs/fivetran-deal-desk-analyst",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires physical presence in Costa Rica and specific enterprise sales tools like Salesforce CPQ, which are outside the candidate's remote location and toolset.",
+  "blockers": "Based out of our Costa Rica office / remote from Costa Rica",
+  "skill_gaps": "Salesforce CPQ; Ironclad",
+  "title": "Deal Desk Analyst",
+  "company": "Fivetran",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/jeeves-head-of-product-platform-growth-spend-management": {
+  "url": "https://weworkremotely.com/remote-jobs/jeeves-head-of-product-platform-growth-spend-management",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role is a senior leadership position (Head of Product) requiring extensive product management experience, whereas the candidate is an entry-level accountant.",
+  "blockers": "Requires extensive senior product management experience and leadership capabilities far beyond an entry-level accounting background.",
+  "skill_gaps": "product strategy; team leadership; credit underwriting; mobile app development; lifecycle marketing",
+  "title": "Head of Product - Platform, Growth & Spend Management",
+  "company": "Jeeves",
+  "source": "We Work Remotely",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/empact/jobs/senior-corporate-finance-manager-m-w-d": {
+  "url": "https://himalayas.app/companies/empact/jobs/senior-corporate-finance-manager-m-w-d?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role is a senior-level management position requiring multi-year relevant experience which the junior candidate lacks.",
+  "blockers": "Senior Corporate Finance Manager title requiring multi-year relevant experience",
+  "skill_gaps": "multi-year project controlling experience; executive leadership experience; German language proficiency",
+  "title": "Senior Corporate Finance Manager (m/w/d)",
+  "company": "empact",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/next-lotto-gmbh/jobs/cro-product-experimentation-manager-m-w-d-remote-deutschlandweit": {
+  "url": "https://himalayas.app/companies/next-lotto-gmbh/jobs/cro-product-experimentation-manager-m-w-d-remote-deutschlandweit?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate is massively under-qualified for a senior management role requiring 5+ years of dedicated CRO and experimentation experience.",
+  "blockers": "Requires at least 5 years of experience in CRO, Growth or Experimentation, which the candidate lacks; requires fluent German, which is not stated in the profile.",
+  "skill_gaps": "CRO; A/B testing; ABlyft; statistical significance; HTML/CSS/JavaScript; product analytics (GA4); fluent German",
+  "title": "CRO & Product Experimentation Manager (m/w/d) - Remote (Deutschlandweit)",
+  "company": "Next Lotto GmbH",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/maxana/jobs/zendesk-administrator-remote-latam": {
+  "url": "https://himalayas.app/companies/maxana/jobs/zendesk-administrator-remote-latam?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the required 3+ years of Zendesk administration experience and residency in a LATAM country.",
+  "blockers": "Requires 3+ years Zendesk administration experience; Requires residency in LATAM.",
+  "skill_gaps": "Zendesk administration; Zendesk Explore; Zendesk automation; API and webhook familiarity",
+  "title": "Zendesk Administrator (Remote - LATAM)",
+  "company": "Maxana",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/jane-technologies/jobs/account-executive-retail": {
+  "url": "https://himalayas.app/companies/jane-technologies/jobs/account-executive-retail?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior sales role requiring 4+ years of B2B SaaS sales experience, which completely misaligns with the candidate's entry-level accounting and finance background.",
+  "blockers": "Requires 4+ years of B2B SaaS sales experience, which the candidate lacks.",
+  "skill_gaps": "B2B SaaS sales; Salesforce; cold outbound prospecting; MEDDICC/Challenger methodology",
+  "title": "Account Executive, Retail",
+  "company": "Jane Technologies",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/visual-statements-gmbh/junior-creative-strategist-all-genders-freiburg-im-breisgau-247465": {
+  "url": "https://www.arbeitnow.com/jobs/companies/visual-statements-gmbh/junior-creative-strategist-all-genders-freiburg-im-breisgau-247465",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires a degree and background in marketing, communication, or media, as well as very good German language skills, none of which match the candidate's finance profile.",
+  "blockers": "Very good German language skills required; degree in marketing, communication, or media required.",
+  "skill_gaps": "German language; social media marketing; performance marketing; content creation; creative strategy",
+  "title": "Junior Creative Strategist (all genders)",
+  "company": "Visual Statements GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/encontec-gmbh/product-owner-softwareentwicklung-oberkochen-242644": {
+  "url": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/product-owner-softwareentwicklung-oberkochen-242644",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the required Computer Science or engineering degree, experience as a Product Owner, and mandatory fluent German language skills.",
+  "blockers": "Mandatory degree in Computer Science, natural sciences, or engineering; minimum B2 German language proficiency; prior Product Owner and software development experience.",
+  "skill_gaps": "software engineering; Scrum experience; Product Owner experience; fluent German language",
+  "title": "Product Owner Softwareentwicklung (m/w/d)",
+  "company": "encontec GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektmanager-windenergie-mit-dem-schwerpunkt-genehmigungsverfahren-molbergen-47783": {
+  "url": "https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektmanager-windenergie-mit-dem-schwerpunkt-genehmigungsverfahren-molbergen-47783",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires extensive professional experience in wind energy approval management and fluent German, which the candidate lacks.",
+  "blockers": "Mandatory prior experience in wind energy approval management; fluent German required; relocation to Germany / local residency",
+  "skill_gaps": "Wind energy permitting; German language; engineering background",
+  "title": "Projektmanager (m/w/d) Windenergie mit dem Schwerpunkt Genehmigungsverfahren",
+  "company": "Deutscher Bauservice GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://jobicy.com/jobs/164408-director-fp-a": {
+  "url": "https://jobicy.com/jobs/164408-director-fp-a",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior director-level role requiring extensive FP&A leadership experience, which far exceeds the candidate's junior profile.",
+  "blockers": "Senior executive role requiring many years of experience, far beyond candidate's junior level.",
+  "skill_gaps": "Director-level financial planning and analysis leadership; executive stakeholder management; advanced supply chain forecasting",
+  "title": "Director, FP&A",
+  "company": "Motive",
+  "source": "Jobicy",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/netforemost-inc/jobs/trainee-flutter-developer": {
+  "url": "https://himalayas.app/companies/netforemost-inc/jobs/trainee-flutter-developer?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires software engineering skills in Flutter, which does not align with the candidate's finance, accounting, and business profile.",
+  "blockers": "Based in Latin America; Requires basic knowledge of Flutter and mobile app development",
+  "skill_gaps": "Flutter; mobile development; coding",
+  "title": "Trainee Flutter Developer",
+  "company": "NetForemost, Inc",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/cprime/jobs/apptio-targetprocess-atp-implementation-lead": {
+  "url": "https://himalayas.app/companies/cprime/jobs/apptio-targetprocess-atp-implementation-lead?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires specialized implementation leadership for Apptio Targetprocess software in India, which does not align with the candidate's accounting, finance, and entry-level profile.",
+  "blockers": "Candidate is not located in India and lacks specialized Apptio Targetprocess implementation experience.",
+  "skill_gaps": "Apptio Targetprocess; implementation leadership; SAFe framework; pre-sales; RFP responses",
+  "title": "Apptio Targetprocess (ATP) Implementation Lead",
+  "company": "Cprime",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/rubrik/remote-msp-account-executive-dach-338050": {
+  "url": "https://www.arbeitnow.com/jobs/companies/rubrik/remote-msp-account-executive-dach-338050",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior enterprise sales role requiring 7+ years of software sales experience and fluency in German, which completely mismatches the candidate's profile.",
+  "blockers": "Requires 7+ years of enterprise software or security sales experience and business fluency in German, both of which the candidate lacks.",
+  "skill_gaps": "Enterprise software sales; DACH market relationships; German language fluency; outbound prospecting",
+  "title": "MSP Account Executive - DACH",
+  "company": "Rubrik",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/axicom/junior-account-executive-gestalte-die-zukunft-der-tech-kommunikation-munchen-bavaria-242662": {
+  "url": "https://www.arbeitnow.com/jobs/companies/axicom/junior-account-executive-gestalte-die-zukunft-der-tech-kommunikation-munchen-bavaria-242662",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role is for a PR and communications agency in Germany, which is completely unrelated to the candidate's accounting, finance, and administrative skill set.",
+  "blockers": "Requires location in Munich, Germany, and targets tech PR/communications professionals, which does not align with the candidate's geography or profession.",
+  "skill_gaps": "PR and communications; public relations; media relations; content creation; German language skills",
+  "title": "(Junior) Account Executive (m/w/d) - Gestalte die Zukunft der Tech-Kommunikation!",
+  "company": "Axicom",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/andercore/senior-product-engineer-full-stack-berlin-49635": {
+  "url": "https://www.arbeitnow.com/jobs/companies/andercore/senior-product-engineer-full-stack-berlin-49635",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role is a senior software engineering position requiring advanced full-stack development expertise and years of coding experience, which does not match the candidate's profile.",
+  "blockers": "Senior-level software engineering experience required; candidate is a junior accountant/finance graduate.",
+  "skill_gaps": "Java 21; Spring Boot; Python; LangGraph; LLM APIs; PostgreSQL; Kinesis; AWS; Terraform; TypeScript; Node.js",
+  "title": "Senior Product Engineer (Full Stack)",
+  "company": "Andercore",
+  "source": "Arbeitnow",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/inv/jobs/japanese-voice-actor-freelance-ai-trainer-project": {
+  "url": "https://himalayas.app/companies/inv/jobs/japanese-voice-actor-freelance-ai-trainer-project?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires professional Japanese voice acting expertise and fluency, which is completely unrelated to the candidate's accounting, finance, and operations background.",
+  "blockers": "Requires fluency in Japanese and professional voice acting experience, which the candidate lacks.",
+  "skill_gaps": "Japanese language fluency; voice acting; audio recording setup; linguistic annotation",
+  "title": "Japanese Voice Actor - Freelance AI Trainer Project",
+  "company": "Invisible Technologies",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/inv/jobs/slovene-voice-actor-freelance-ai-trainer-project": {
+  "url": "https://himalayas.app/companies/inv/jobs/slovene-voice-actor-freelance-ai-trainer-project?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires professional voice acting experience in the Slovene language, which the candidate does not possess.",
+  "blockers": "Required professional voice acting experience in Slovene",
+  "skill_gaps": "Slovene language fluency; professional voice acting; dubbing; narration; linguistic annotation",
+  "title": "Slovene Voice Actor - Freelance AI Trainer Project",
+  "company": "Invisible Technologies",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
+ },
+ "https://himalayas.app/companies/boldscience/jobs/associate-client-services-director": {
+  "url": "https://himalayas.app/companies/boldscience/jobs/associate-client-services-director?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "This is a senior-level Associate Client Services Director role in medical communications requiring extensive industry experience, which completely misaligns with an entry-level candidate.",
+  "blockers": "Senior-level management role requiring extensive medical communications industry experience that the candidate lacks.",
+  "skill_gaps": "medical communications expertise; client services leadership; therapeutic area knowledge",
+  "title": "Associate Client Services Director",
+  "company": "BOLDSCIENCE",
+  "source": "Himalayas",
+  "updated": "2026-11-26T18:04:11+00:00"
  }
 }

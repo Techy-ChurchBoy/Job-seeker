@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26 16:55 UTC",
+ "generated": "2026-11-26 18:05 UTC",
  "report": [
-  "Last run: 2026-11-26T16:52+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 476 postings in total, and 216 matched your skills.",
+  "Last run: 2026-11-26T18:04+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 213 matched your skills.",
   "These sources could not be reached: themuse.",
-  "75 postings were scored against your CV this run.",
+  "22 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "7 cover letters were written.",
+  "1 cover letters were written.",
   "No application emails were sent this run.",
   "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
@@ -16,27 +16,27 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 251,
-    "week": 1002,
+    "today": 274,
+    "week": 1025,
     "limited": 4,
-    "overloaded": 216,
-    "tokens_in": 947941,
-    "tokens_out": 67725
+    "overloaded": 217,
+    "tokens_in": 979556,
+    "tokens_out": 69714
    },
    {
     "process": "letters",
-    "today": 13,
-    "week": 120,
+    "today": 14,
+    "week": 121,
     "limited": 1,
     "overloaded": 65,
-    "tokens_in": 98539,
-    "tokens_out": 44823
+    "tokens_in": 100496,
+    "tokens_out": 45542
    },
    {
     "process": "web_search",
-    "today": 24,
-    "week": 68,
-    "limited": 68,
+    "today": 28,
+    "week": 72,
+    "limited": 72,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -796,6 +796,16 @@
    "requirements": []
   },
   {
+   "title": "Interne Projekt- und Prozessanalyse (m/w/d)",
+   "company": "S-Akquise GmbH",
+   "score": 45,
+   "url": "https://www.arbeitnow.com/jobs/companies/s-akquise-gmbh/interne-projekt-und-prozessanalyse-berlin-309393",
+   "letter": "Dear Hiring Manager,\n\nSupporting internal consulting workflows and organising project documentation at S-Akquise GmbH offers a natural transition from my recent accounting and administrative responsibilities. The focus on structured operational reviews and information preparation closely matches my background in financial record-keeping and data verification.\n\nDuring my work in the Bursary Department at the Nigerian College of Aviation Technology, I regularly reviewed transaction documentation, compiled supporting schedules, and investigated account discrepancies to ensure complete accuracy. My experience also includes preparing structured reports, maintaining detailed ledgers using systems like Microsoft Dynamics 365 and Excel, and ensuring all records complied with internal controls. Furthermore, my academic background in accounting at Obafemi Awolowo University has trained me to examine operational data methodically and prepare reliable documentation for review.\n\nI welcome the opportunity to discuss how my meticulous approach to documentation and process review can support your team. My detailed CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong, because the role requires rigorous document preparation, process checking, and analytical record-keeping which directly aligns with the candidate's reconciliation and documentation experience.\nGap: None.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Trading Associate (Remote Work Option)",
    "company": "Wealth Enhancement",
    "score": 45,
@@ -939,12 +949,12 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-26T16:52+00:00",
+ "last_run": "2026-11-26T18:04+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 37 fetched, 11 passed filter",
-  "- jobicy: 45 fetched, 39 passed filter",
+  "- jobicy: 46 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 41 passed filter",
   "- greenhouse: 65 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -953,34 +963,34 @@
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 43 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 16 passed filter",
+  "- arbeitnow: 50 fetched, 13 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 42 passed filter",
+  "- weworkremotely: 100 fetched, 41 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 65 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
   "- 27 jobs older than 30 days skipped",
-  "- 75 new jobs sent to scoring",
+  "- 22 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 85: SAP Young Professionals Program 2027 | Free Professional Training for African Graduates at Dixcover Hub listing. Blockers: none",
-  "  - 75: Resident Internal Control Officer (RICO) at Moniepoint. Blockers: none",
-  "  - 75: Admin Support Officer at TeamAce Limited. Blockers: none",
-  "  - 50: General Administrative Assistant — Remote | Pacific Time at Boogie Consulting & Projects. Blockers: none",
-  "  - 50: Contract Analyst at Kpler. Blockers: none"
+  "  - 45: Interne Projekt- und Prozessanalyse (m/w/d) at S-Akquise GmbH. Blockers: The job requires physical presence in Berlin, Germany, whereas the candidate is based in Nigeria and seeking Nigeria-based or remote roles.",
+  "  - 15: Operations Koordination - Werkstudent (m/w/d) at Enter by baupal GmbH. Blockers: Required current student status in Germany; Required C1 German language proficiency",
+  "  - 15: Executive Assistant People & HR (m/w/d) at Ordio GmbH. Blockers: Must be resident in or around Cologne, Germany and able to work regularly on-site; Very good German language skills required.",
+  "  - 15: Deal Desk Analyst at Fivetran. Blockers: Based out of our Costa Rica office / remote from Costa Rica",
+  "  - 15: (Senior) Business Performance Analyst (all genders) at Foodji GmbH. Blockers: 2 to 5 years of experience required; Fluent German required"
  ],
  "stats": {
-  "jobs_scored": 1022,
-  "strong": 80,
-  "drafts": 86,
+  "jobs_scored": 1044,
+  "strong": 81,
+  "drafts": 87,
   "sent_today": 1,
   "sent_total": 5
  },
  "skills": [
   {
    "skill": "Python",
-   "count": 42,
+   "count": 43,
    "examples": [
     "Financial Analyst at CertiK",
     "Test Data Quality Engineer at PLATO",
@@ -994,6 +1004,15 @@
     "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
     "Strategic Account Executive - Spain at GitLab",
     "Senior Enterprise Account Executive - Central at LaunchDarkly"
+   ]
+  },
+  {
+   "skill": "German Language",
+   "count": 28,
+   "examples": [
+    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
+    "Quality Assurance & Documentation Technician (m/f/d) at Esmc",
+    "Talent & Culture Intern / Working Student (m/w/d) at Avantgarde"
    ]
   },
   {
@@ -1015,15 +1034,6 @@
    ]
   },
   {
-   "skill": "German Language",
-   "count": 26,
-   "examples": [
-    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
-    "Quality Assurance & Documentation Technician (m/f/d) at Esmc",
-    "Talent & Culture Intern / Working Student (m/w/d) at Avantgarde"
-   ]
-  },
-  {
    "skill": "Cpa",
    "count": 24,
    "examples": [
@@ -1034,7 +1044,7 @@
   },
   {
    "skill": "Software Engineering",
-   "count": 21,
+   "count": 22,
    "examples": [
     "General Application for Product, Engineering and Technology at Talkspace",
     "Technical Product Manager at Sanovio",
@@ -1057,6 +1067,15 @@
     "Accounts Receivable & Payable Lead at Who Gives A Crap",
     "Service Center Operations Manager at Moniepoint",
     "Operations and AI Enablement Manager, Remote at Aledade"
+   ]
+  },
+  {
+   "skill": "Salesforce",
+   "count": 19,
+   "examples": [
+    "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
+    "Junior Data Scientist - Contract at Mfinite Consulting",
+    "Senior Sales Operations Manager at SumUp"
    ]
   },
   {
@@ -1087,30 +1106,21 @@
    ]
   },
   {
+   "skill": "Enterprise Software Sales",
+   "count": 18,
+   "examples": [
+    "Solutions Engineer, Okta(Enterprise) at Okta",
+    "Account Executive - Data Modernization Sales at Rocket Software",
+    "Enterprise Account Executive, Sacramento at Glean"
+   ]
+  },
+  {
    "skill": "Tax Preparation",
    "count": 18,
    "examples": [
     "Tax Expert - Remote at Intuit",
     "Remote Tax Accountant at Nexus Leads Services",
     "Tax Expert - Expert Center at Intuit"
-   ]
-  },
-  {
-   "skill": "Salesforce",
-   "count": 17,
-   "examples": [
-    "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
-    "Junior Data Scientist - Contract at Mfinite Consulting",
-    "Senior Sales Operations Manager at SumUp"
-   ]
-  },
-  {
-   "skill": "Enterprise Software Sales",
-   "count": 17,
-   "examples": [
-    "Solutions Engineer, Okta(Enterprise) at Okta",
-    "Account Executive - Data Modernization Sales at Rocket Software",
-    "Enterprise Account Executive, Sacramento at Glean"
    ]
   }
  ],
@@ -1239,7 +1249,7 @@
    ],
    "url": "https://careers.sap.com/job/Cairo-SAP-Young-Professionals-Program-Egypt-2027-11865/1451571733/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -1581,7 +1591,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5048525101",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -1596,7 +1606,7 @@
    ],
    "url": "https://jobs.smartyacad.com/admin-support-officer-at-teamace-limited/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 65,
@@ -1975,7 +1985,7 @@
    ],
    "url": "https://himalayas.app/companies/boogie-consulting-projects/jobs/general-administrative-assistant-remote-pacific-time?utm_source=api",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 50,
@@ -1993,7 +2003,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/kpler-contract-analyst",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -2315,7 +2325,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931500101",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -2331,6 +2341,21 @@
     "calendar management"
    ],
    "url": "https://jobs.smartyacad.com/hiring-teamace-is-hiring-for-executive-assistant/",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Interne Projekt- und Prozessanalyse (m/w/d)",
+   "company": "S-Akquise GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The internship matches the candidate's process documentation, analysis, and administrative skills, but is located in Berlin, Germany, requiring physical presence or local residency not aligned with the candidate's location in Nigeria.",
+   "blockers": "The job requires physical presence in Berlin, Germany, whereas the candidate is based in Nigeria and seeking Nigeria-based or remote roles.",
+   "gaps": [
+    "German language proficiency"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/s-akquise-gmbh/interne-projekt-und-prozessanalyse-berlin-309393",
    "drafted": true,
    "recent": true
   },
@@ -2736,7 +2761,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/dun-bradstreet-pursuit-channel-operations-manager-r-20201",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 35,
@@ -2754,7 +2779,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/okx-assistant-vip-relationship-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 30,
@@ -3190,7 +3215,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/foodsmart-food-operations-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -3208,7 +3233,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/justworks-project-manager-financial-benefits",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -6925,7 +6950,7 @@
    ],
    "url": "https://himalayas.app/companies/bighand/jobs/customer-operations-support-analyst?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6943,7 +6968,7 @@
    ],
    "url": "https://himalayas.app/companies/lockheed-martin-corporation/jobs/data-analyst-sr-e3?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6961,7 +6986,7 @@
    ],
    "url": "https://himalayas.app/companies/systra/jobs/pmo-cost-controller-alto-project?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6979,7 +7004,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/aha-agentur-fur-handelsmarketing/junior-account-managerin-cologne-65010",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7002,7 +7027,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/statista/analytics-engineer-data-platform-hamburg-or-berlin-437592",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7020,7 +7045,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/moss/graduate-commercial-associate-berlin-178990",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7037,7 +7062,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/zauber-technology-gmbh/founders-associate-intern-berlin-59575",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7054,7 +7079,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/smartsheet-product-readiness-manager-remote-eligible-in-bulgaria",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7073,7 +7098,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/reddit-international-payroll-analyst",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7090,6 +7115,73 @@
     "legal tech stack management"
    ],
    "url": "https://weworkremotely.com/remote-jobs/coinbase-enterprise-engineer",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Operations Koordination - Werkstudent (m/w/d)",
+   "company": "Enter by baupal GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The job requires current enrollment in a Bachelor or Master program in Germany, as well as very fluent German (min. C1), which the candidate lacks.",
+   "blockers": "Required current student status in Germany; Required C1 German language proficiency",
+   "gaps": [
+    "Salesforce",
+    "German language proficiency"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/enter-by-baupal-gmbh/operations-koordination-werkstudent-berlin-465194",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "(Senior) Business Performance Analyst (all genders)",
+   "company": "Foodji GmbH",
+   "location": "München, Bayern, Deutschland",
+   "source": "Arbeitnow",
+   "reason": "The role requires 2 to 5 years of experience, fluent German, and specific advanced FP&A or investment banking background, which the candidate lacks.",
+   "blockers": "2 to 5 years of experience required; Fluent German required",
+   "gaps": [
+    "FP&A experience",
+    "Tableau",
+    "German language proficiency",
+    "Corporate Finance"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/foodji-gmbh/senior-business-performance-analyst-all-genders-munchen-277175",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Executive Assistant People & HR (m/w/d)",
+   "company": "Ordio GmbH",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "The candidate fails the geographical residency requirement (must be in or around Cologne, Germany) and lacks the mandatory fluent German language skills.",
+   "blockers": "Must be resident in or around Cologne, Germany and able to work regularly on-site; Very good German language skills required.",
+   "gaps": [
+    "Fluent German language",
+    "Human Resources (HR) administration experience",
+    "Office management experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/ordio-gmbh/executive-assistant-people-hr-cologne-136649",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Deal Desk Analyst",
+   "company": "Fivetran",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires physical presence in Costa Rica and specific enterprise sales tools like Salesforce CPQ, which are outside the candidate's remote location and toolset.",
+   "blockers": "Based out of our Costa Rica office / remote from Costa Rica",
+   "gaps": [
+    "Salesforce CPQ",
+    "Ironclad"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/fivetran-deal-desk-analyst",
    "drafted": false,
    "recent": true
   },
@@ -11884,7 +11976,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/protective-life-reinsurance-accountant-ii-specialty-p-c",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11903,7 +11995,7 @@
    ],
    "url": "https://himalayas.app/companies/enovis/jobs/product-marketing-manager?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11920,7 +12012,7 @@
    ],
    "url": "https://himalayas.app/companies/teleperformanceusa/jobs/interpreter-arabic-work-from-home?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11939,7 +12031,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/arcadia-senior-analyst-manager-apm-modeling-analytics",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11957,7 +12049,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/teveo-gmbh/junior-influencer-manager-dach-teveo-men-ansbach-135302",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11974,7 +12066,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/mvz-dres-daniel-stephan-krause-egbr/controller-dortmund-341679",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11992,7 +12084,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-frankfurt-294902",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12010,7 +12102,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-cologne-256847",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12028,7 +12120,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-berlin-463777",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12048,7 +12140,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/zauber-technology-gmbh/product-engineer-berlin-432491",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12068,7 +12160,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-data-scientist-research-eu-uk-berlin-247671",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12087,7 +12179,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/brillio-project-manager-r01573664",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12106,7 +12198,7 @@
    ],
    "url": "https://jobicy.com/jobs/164356-accounting-manager-4",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12124,7 +12216,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/6sense-director-revenue-accounting",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12143,7 +12235,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/sumo-logic-principal-product-marketing-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12161,7 +12253,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/smartsheet-senior-product-manager-i-remote-eligible",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12180,7 +12272,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-gsi-account-executive-ltm-hcl",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12196,7 +12288,7 @@
    ],
    "url": "https://jobicy.com/jobs/157223-senior-accountant-6",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12213,7 +12305,7 @@
    ],
    "url": "https://jobicy.com/jobs/157189-senior-manager-accounting",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12231,7 +12323,7 @@
    ],
    "url": "https://jobicy.com/jobs/157084-senior-sales-compensation-analyst",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12248,7 +12340,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-southeast-agiloft-1138139",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12268,7 +12360,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-account-executive-i-1096-remote-lightcast-1138132",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12288,7 +12380,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-commercial-account-executive-apryse-1138127",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12306,7 +12398,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12322,7 +12414,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-technical-customer-success-manager-xmatters-everbridge-1138113",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12339,6 +12431,170 @@
     "entrepreneurship"
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-remote-travel-advisor-entry-level-destination-knot-1138109",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Head of Product - Platform, Growth & Spend Management",
+   "company": "Jeeves",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role is a senior leadership position (Head of Product) requiring extensive product management experience, whereas the candidate is an entry-level accountant.",
+   "blockers": "Requires extensive senior product management experience and leadership capabilities far beyond an entry-level accounting background.",
+   "gaps": [
+    "product strategy",
+    "team leadership",
+    "credit underwriting",
+    "mobile app development",
+    "lifecycle marketing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/jeeves-head-of-product-platform-growth-spend-management",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Corporate Finance Manager (m/w/d)",
+   "company": "empact",
+   "location": "Germany",
+   "source": "Himalayas",
+   "reason": "The role is a senior-level management position requiring multi-year relevant experience which the junior candidate lacks.",
+   "blockers": "Senior Corporate Finance Manager title requiring multi-year relevant experience",
+   "gaps": [
+    "multi-year project controlling experience",
+    "executive leadership experience",
+    "German language proficiency"
+   ],
+   "url": "https://himalayas.app/companies/empact/jobs/senior-corporate-finance-manager-m-w-d?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "CRO & Product Experimentation Manager (m/w/d) - Remote (Deutschlandweit)",
+   "company": "Next Lotto GmbH",
+   "location": "Germany",
+   "source": "Himalayas",
+   "reason": "The candidate is massively under-qualified for a senior management role requiring 5+ years of dedicated CRO and experimentation experience.",
+   "blockers": "Requires at least 5 years of experience in CRO, Growth or Experimentation, which the candidate lacks; requires fluent German, which is not stated in the profile.",
+   "gaps": [
+    "CRO",
+    "A/B testing",
+    "ABlyft",
+    "statistical significance",
+    "HTML/CSS/JavaScript",
+    "product analytics (GA4)",
+    "fluent German"
+   ],
+   "url": "https://himalayas.app/companies/next-lotto-gmbh/jobs/cro-product-experimentation-manager-m-w-d-remote-deutschlandweit?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Zendesk Administrator (Remote - LATAM)",
+   "company": "Maxana",
+   "location": "Argentina, Belize, Bolivia, Brazil, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Guatemala, Guyana, Honduras, Nicaragua, Panama, Paraguay, Peru, Suriname, Uruguay, Venezuela",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required 3+ years of Zendesk administration experience and residency in a LATAM country.",
+   "blockers": "Requires 3+ years Zendesk administration experience; Requires residency in LATAM.",
+   "gaps": [
+    "Zendesk administration",
+    "Zendesk Explore",
+    "Zendesk automation",
+    "API and webhook familiarity"
+   ],
+   "url": "https://himalayas.app/companies/maxana/jobs/zendesk-administrator-remote-latam?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive, Retail",
+   "company": "Jane Technologies",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior sales role requiring 4+ years of B2B SaaS sales experience, which completely misaligns with the candidate's entry-level accounting and finance background.",
+   "blockers": "Requires 4+ years of B2B SaaS sales experience, which the candidate lacks.",
+   "gaps": [
+    "B2B SaaS sales",
+    "Salesforce",
+    "cold outbound prospecting",
+    "MEDDICC/Challenger methodology"
+   ],
+   "url": "https://himalayas.app/companies/jane-technologies/jobs/account-executive-retail?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Junior Creative Strategist (all genders)",
+   "company": "Visual Statements GmbH",
+   "location": "Freiburg im Breisgau",
+   "source": "Arbeitnow",
+   "reason": "The job requires a degree and background in marketing, communication, or media, as well as very good German language skills, none of which match the candidate's finance profile.",
+   "blockers": "Very good German language skills required; degree in marketing, communication, or media required.",
+   "gaps": [
+    "German language",
+    "social media marketing",
+    "performance marketing",
+    "content creation",
+    "creative strategy"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/visual-statements-gmbh/junior-creative-strategist-all-genders-freiburg-im-breisgau-247465",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Product Owner Softwareentwicklung (m/w/d)",
+   "company": "encontec GmbH",
+   "location": "Oberkochen , Baden-Württemberg, Deutschland",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks the required Computer Science or engineering degree, experience as a Product Owner, and mandatory fluent German language skills.",
+   "blockers": "Mandatory degree in Computer Science, natural sciences, or engineering; minimum B2 German language proficiency; prior Product Owner and software development experience.",
+   "gaps": [
+    "software engineering",
+    "Scrum experience",
+    "Product Owner experience",
+    "fluent German language"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/product-owner-softwareentwicklung-oberkochen-242644",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Projektmanager (m/w/d) Windenergie mit dem Schwerpunkt Genehmigungsverfahren",
+   "company": "Deutscher Bauservice GmbH",
+   "location": "Molbergen",
+   "source": "Arbeitnow",
+   "reason": "The job requires extensive professional experience in wind energy approval management and fluent German, which the candidate lacks.",
+   "blockers": "Mandatory prior experience in wind energy approval management; fluent German required; relocation to Germany / local residency",
+   "gaps": [
+    "Wind energy permitting",
+    "German language",
+    "engineering background"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektmanager-windenergie-mit-dem-schwerpunkt-genehmigungsverfahren-molbergen-47783",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Director, FP&A",
+   "company": "Motive",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "This is a senior director-level role requiring extensive FP&A leadership experience, which far exceeds the candidate's junior profile.",
+   "blockers": "Senior executive role requiring many years of experience, far beyond candidate's junior level.",
+   "gaps": [
+    "Director-level financial planning and analysis leadership",
+    "executive stakeholder management",
+    "advanced supply chain forecasting"
+   ],
+   "url": "https://jobicy.com/jobs/164408-director-fp-a",
    "drafted": false,
    "recent": true
   },
@@ -16143,7 +16399,7 @@
    ],
    "url": "https://himalayas.app/companies/gate-city-bank/jobs/svp-of-enterprise-payments?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16161,7 +16417,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/statista/junior-sales-manager-licensing-dach-hamburg-167910",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16179,7 +16435,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-hamburg-17379",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16197,7 +16453,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/zauber-technology-gmbh/senior-enterprise-sales-manager-berlin-429025",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16216,7 +16472,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/jobgether-head-of-tax",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16233,7 +16489,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/affirm-compliance-manager-card-1",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16252,7 +16508,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/justworks-senior-account-executive-in-territory-sf-bay-area-la-orange-county-san-diego",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16270,7 +16526,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/affirm-compliance-manager-card",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16288,7 +16544,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/launchdarkly-strategic-account-executive-west",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16305,7 +16561,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/pinterest-product-design-intern-usa",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16321,7 +16577,7 @@
    ],
    "url": "https://jobicy.com/jobs/154057-technical-accountant",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16337,7 +16593,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-account-executive-idmworks-1138145",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16356,7 +16612,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-enterprise-sales-executive-loadsmart-1138141",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16374,7 +16630,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-manager-revenue-enablement-secure-code-warrior-1138138",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16391,7 +16647,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-federal-account-executive-metabase-1138134",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16409,7 +16665,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-illinois-wisconsin-indiana-and-michigan-sonatype-1138131",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16428,7 +16684,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-ethena-1138112",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16444,6 +16700,104 @@
     "enterprise client management"
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-sr-customer-success-manager-i-lyra-health-1138106",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Trainee Flutter Developer",
+   "company": "NetForemost, Inc",
+   "location": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+   "source": "Himalayas",
+   "reason": "The role requires software engineering skills in Flutter, which does not align with the candidate's finance, accounting, and business profile.",
+   "blockers": "Based in Latin America; Requires basic knowledge of Flutter and mobile app development",
+   "gaps": [
+    "Flutter",
+    "mobile development",
+    "coding"
+   ],
+   "url": "https://himalayas.app/companies/netforemost-inc/jobs/trainee-flutter-developer?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Apptio Targetprocess (ATP) Implementation Lead",
+   "company": "Cprime",
+   "location": "India",
+   "source": "Himalayas",
+   "reason": "The role requires specialized implementation leadership for Apptio Targetprocess software in India, which does not align with the candidate's accounting, finance, and entry-level profile.",
+   "blockers": "Candidate is not located in India and lacks specialized Apptio Targetprocess implementation experience.",
+   "gaps": [
+    "Apptio Targetprocess",
+    "implementation leadership",
+    "SAFe framework",
+    "pre-sales",
+    "RFP responses"
+   ],
+   "url": "https://himalayas.app/companies/cprime/jobs/apptio-targetprocess-atp-implementation-lead?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "MSP Account Executive - DACH",
+   "company": "Rubrik",
+   "location": "Remote",
+   "source": "Arbeitnow",
+   "reason": "This is a senior enterprise sales role requiring 7+ years of software sales experience and fluency in German, which completely mismatches the candidate's profile.",
+   "blockers": "Requires 7+ years of enterprise software or security sales experience and business fluency in German, both of which the candidate lacks.",
+   "gaps": [
+    "Enterprise software sales",
+    "DACH market relationships",
+    "German language fluency",
+    "outbound prospecting"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/rubrik/remote-msp-account-executive-dach-338050",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "(Junior) Account Executive (m/w/d) - Gestalte die Zukunft der Tech-Kommunikation!",
+   "company": "Axicom",
+   "location": "München, Bavaria",
+   "source": "Arbeitnow",
+   "reason": "The role is for a PR and communications agency in Germany, which is completely unrelated to the candidate's accounting, finance, and administrative skill set.",
+   "blockers": "Requires location in Munich, Germany, and targets tech PR/communications professionals, which does not align with the candidate's geography or profession.",
+   "gaps": [
+    "PR and communications",
+    "public relations",
+    "media relations",
+    "content creation",
+    "German language skills"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/axicom/junior-account-executive-gestalte-die-zukunft-der-tech-kommunikation-munchen-bavaria-242662",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Product Engineer (Full Stack)",
+   "company": "Andercore",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The role is a senior software engineering position requiring advanced full-stack development expertise and years of coding experience, which does not match the candidate's profile.",
+   "blockers": "Senior-level software engineering experience required; candidate is a junior accountant/finance graduate.",
+   "gaps": [
+    "Java 21",
+    "Spring Boot",
+    "Python",
+    "LangGraph",
+    "LLM APIs",
+    "PostgreSQL",
+    "Kinesis",
+    "AWS",
+    "Terraform",
+    "TypeScript",
+    "Node.js"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/andercore/senior-product-engineer-full-stack-berlin-49635",
    "drafted": false,
    "recent": true
   },
@@ -18822,7 +19176,7 @@
    ],
    "url": "https://himalayas.app/companies/commonspirit-health/jobs/mkt-manager-revenue-cycle-inpatient-coding?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18844,7 +19198,7 @@
    ],
    "url": "https://himalayas.app/companies/combo/jobs/senior-fullstack-engineer-payroll-front-end-oriented-paris-f-m-x?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18859,7 +19213,7 @@
    ],
    "url": "https://tally.so/r/2jEOpD",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18879,7 +19233,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/aha-agentur-fur-handelsmarketing/junior-art-directorin-cologne-324220",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18898,7 +19252,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/hawk/chief-information-security-officer-ciso-munich-319880",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18915,7 +19269,7 @@
    ],
    "url": "https://jobs.smartyacad.com/chordpoint-group-recruitment-2026/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18933,7 +19287,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/customer-io-senior-software-engineer-product-ai",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18951,7 +19305,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/salesloft-regional-vice-president-enterprise-account-management",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18969,7 +19323,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-english-to-belarusian-review-lead-for-ui-marketing-product-content-welo-data-1138140",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -18987,10 +19341,107 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-associate-director-of-field-marketing-quality-cloud-europe-veeva-systems-1138121",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Japanese Voice Actor - Freelance AI Trainer Project",
+   "company": "Invisible Technologies",
+   "location": "Worldwide",
+   "source": "Himalayas",
+   "reason": "The job requires professional Japanese voice acting expertise and fluency, which is completely unrelated to the candidate's accounting, finance, and operations background.",
+   "blockers": "Requires fluency in Japanese and professional voice acting experience, which the candidate lacks.",
+   "gaps": [
+    "Japanese language fluency",
+    "voice acting",
+    "audio recording setup",
+    "linguistic annotation"
+   ],
+   "url": "https://himalayas.app/companies/inv/jobs/japanese-voice-actor-freelance-ai-trainer-project?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Slovene Voice Actor - Freelance AI Trainer Project",
+   "company": "Invisible Technologies",
+   "location": "Worldwide",
+   "source": "Himalayas",
+   "reason": "The role requires professional voice acting experience in the Slovene language, which the candidate does not possess.",
+   "blockers": "Required professional voice acting experience in Slovene",
+   "gaps": [
+    "Slovene language fluency",
+    "professional voice acting",
+    "dubbing",
+    "narration",
+    "linguistic annotation"
+   ],
+   "url": "https://himalayas.app/companies/inv/jobs/slovene-voice-actor-freelance-ai-trainer-project?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Associate Client Services Director",
+   "company": "BOLDSCIENCE",
+   "location": "United Kingdom",
+   "source": "Himalayas",
+   "reason": "This is a senior-level Associate Client Services Director role in medical communications requiring extensive industry experience, which completely misaligns with an entry-level candidate.",
+   "blockers": "Senior-level management role requiring extensive medical communications industry experience that the candidate lacks.",
+   "gaps": [
+    "medical communications expertise",
+    "client services leadership",
+    "therapeutic area knowledge"
+   ],
+   "url": "https://himalayas.app/companies/boldscience/jobs/associate-client-services-director?utm_source=api",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-26T18:04+00:00",
+   "report": [
+    "Last run: 2026-11-26T18:04+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 213 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "22 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 9 passed filter",
+    "- workingnomads: 37 fetched, 11 passed filter",
+    "- jobicy: 46 fetched, 40 passed filter",
+    "- remoteok: 100 fetched, 41 passed filter",
+    "- greenhouse: 65 fetched, 33 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 43 fetched, 23 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 13 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 41 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 65 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 12 linked pages",
+    "- 27 jobs older than 30 days skipped",
+    "- 22 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 45: Interne Projekt- und Prozessanalyse (m/w/d) at S-Akquise GmbH. Blockers: The job requires physical presence in Berlin, Germany, whereas the candidate is based in Nigeria and seeking Nigeria-based or remote roles.",
+    "  - 15: Operations Koordination - Werkstudent (m/w/d) at Enter by baupal GmbH. Blockers: Required current student status in Germany; Required C1 German language proficiency",
+    "  - 15: Executive Assistant People & HR (m/w/d) at Ordio GmbH. Blockers: Must be resident in or around Cologne, Germany and able to work regularly on-site; Very good German language skills required.",
+    "  - 15: Deal Desk Analyst at Fivetran. Blockers: Based out of our Costa Rica office / remote from Costa Rica",
+    "  - 15: (Senior) Business Performance Analyst (all genders) at Foodji GmbH. Blockers: 2 to 5 years of experience required; Fluent German required"
+   ]
+  },
   {
    "last_run": "2026-11-26T16:52+00:00",
    "report": [

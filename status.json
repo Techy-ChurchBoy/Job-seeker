@@ -1,10 +1,10 @@
 {
- "last_run": "2026-11-26T16:52+00:00",
+ "last_run": "2026-11-26T18:04+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 37 fetched, 11 passed filter",
-  "- jobicy: 45 fetched, 39 passed filter",
+  "- jobicy: 46 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 41 passed filter",
   "- greenhouse: 65 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -13,22 +13,22 @@
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 43 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 16 passed filter",
+  "- arbeitnow: 50 fetched, 13 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 42 passed filter",
+  "- weworkremotely: 100 fetched, 41 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 65 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
   "- 27 jobs older than 30 days skipped",
-  "- 75 new jobs sent to scoring",
+  "- 22 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 85: SAP Young Professionals Program 2027 | Free Professional Training for African Graduates at Dixcover Hub listing. Blockers: none",
-  "  - 75: Resident Internal Control Officer (RICO) at Moniepoint. Blockers: none",
-  "  - 75: Admin Support Officer at TeamAce Limited. Blockers: none",
-  "  - 50: General Administrative Assistant \u2014 Remote | Pacific Time at Boogie Consulting & Projects. Blockers: none",
-  "  - 50: Contract Analyst at Kpler. Blockers: none"
+  "  - 45: Interne Projekt- und Prozessanalyse (m/w/d) at S-Akquise GmbH. Blockers: The job requires physical presence in Berlin, Germany, whereas the candidate is based in Nigeria and seeking Nigeria-based or remote roles.",
+  "  - 15: Operations Koordination - Werkstudent (m/w/d) at Enter by baupal GmbH. Blockers: Required current student status in Germany; Required C1 German language proficiency",
+  "  - 15: Executive Assistant People & HR (m/w/d) at Ordio GmbH. Blockers: Must be resident in or around Cologne, Germany and able to work regularly on-site; Very good German language skills required.",
+  "  - 15: Deal Desk Analyst at Fivetran. Blockers: Based out of our Costa Rica office / remote from Costa Rica",
+  "  - 15: (Senior) Business Performance Analyst (all genders) at Foodji GmbH. Blockers: 2 to 5 years of experience required; Fluent German required"
  ],
  "report": {
   "sources": [
@@ -53,8 +53,8 @@
    {
     "name": "jobicy",
     "ok": true,
-    "fetched": 45,
-    "passed": 39
+    "fetched": 46,
+    "passed": 40
    },
    {
     "name": "remoteok",
@@ -108,7 +108,7 @@
     "name": "arbeitnow",
     "ok": true,
     "fetched": 50,
-    "passed": 16
+    "passed": 13
    },
    {
     "name": "themuse",
@@ -120,7 +120,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 42
+    "passed": 41
    },
    {
     "name": "web_search_jobs",
@@ -129,8 +129,8 @@
     "passed": 0
    }
   ],
-  "new_to_score": 75,
-  "scored": 75,
+  "new_to_score": 22,
+  "scored": 22,
   "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
@@ -138,7 +138,7 @@
   ]
  },
  "drafts": {
-  "written": 7,
+  "written": 1,
   "failed": 0,
   "waiting": 0
  },
