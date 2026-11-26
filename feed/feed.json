@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 03:36 UTC",
+ "generated": "2026-11-26 03:46 UTC",
  "report": [
   "Last run: 2026-11-26T03:35+00:00 UTC.",
   "The search checked 16 job sources and 15 responded. It found 971 postings in total, and 662 matched your skills.",
@@ -100,7 +100,7 @@
    "url": "https://jobs.smartyacad.com/central-poultry-graduate-trainee-program-2026/",
    "letter": "Dear Hiring Manager,\n\nCentral Poultry's Graduate Trainee Programme offers a clear path to gain practical work experience across different operational functions, which aligns with my background in accounting and finance. Building a career in a structured business environment requires steady analytical skills and an eagerness to learn daily operations. My academic training and recent finance experience have prepared me to contribute effectively to your management trainee programme.\n\nDuring my National Youth Service Corps placement in the Bursary Department of the Nigerian College of Aviation Technology, I maintained financial records, reconciled revenue streams, and supported month-end close activities. I investigated inter-departmental variances, tracked discrepancies, and compiled supporting schedules for audit reviews. These duties involved analysing information, preparing reports, and collaborating with different teams to ensure accuracy. My proficiency in tools like Microsoft Excel, QuickBooks, and Microsoft Dynamics 365 Business Central enables me to handle data and support administrative tasks efficiently.\n\nI look forward to discussing how my analytical skills and operational support experience can contribute to Central Poultry. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Strong fit because your accounting degree, data analysis skills, reporting experience, and operational support background align directly with the requirements of the Central Poultry Graduate Trainee Programme.\nGap: None.",
-   "handled": false
+   "handled": true
   },
   {
    "title": "Client Finance Analyst I",
@@ -1453,7 +1453,7 @@
    ],
    "url": "https://jooble.org/jdp/-8822666455141864974",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 60,
@@ -2057,7 +2057,7 @@
    ],
    "url": "https://himalayas.app/companies/alegria-travel-services/jobs/hospitality-operations-service-coordinator?utm_source=api",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 40,
@@ -2439,7 +2439,7 @@
    ],
    "url": "https://jooble.org/jdp/-3538701952590094749",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -2806,7 +2806,7 @@
    ],
    "url": "https://himalayas.app/companies/alegria-travel-services/jobs/reservations-support-coordinator?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -2824,7 +2824,7 @@
    ],
    "url": "https://jooble.org/jdp/-3053174955020405000",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -3166,7 +3166,7 @@
    ],
    "url": "https://himalayas.app/companies/bmo/jobs/analyst-corporate-actions-entitlement?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -3181,7 +3181,7 @@
    ],
    "url": "https://jooble.org/jdp/8884742314516982093",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6234,7 +6234,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/liqid-lig/data-engineer-berlin-443594",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6255,7 +6255,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/parloa/fpa-analyst-berlin-265680",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6270,7 +6270,7 @@
    ],
    "url": "https://jooble.org/jdp/-4041251176331601545",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6287,7 +6287,7 @@
    ],
    "url": "https://jooble.org/jdp/-5651326239852680438",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6303,7 +6303,7 @@
    ],
    "url": "https://jooble.org/jdp/-4689343702148196274",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6319,7 +6319,7 @@
    ],
    "url": "https://jooble.org/jdp/8141254621949054678",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6334,7 +6334,7 @@
    ],
    "url": "https://jooble.org/jdp/-5356165467791974957",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6349,7 +6349,7 @@
    ],
    "url": "https://jooble.org/jdp/1400274038982023731",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6362,7 +6362,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/6327492307832071246",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6377,7 +6377,7 @@
    ],
    "url": "https://jooble.org/jdp/-6605618986841375238",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6394,7 +6394,7 @@
    ],
    "url": "https://jooble.org/jdp/-884102430190649620",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6410,7 +6410,7 @@
    ],
    "url": "https://jooble.org/jdp/-5260333823226711708",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6426,7 +6426,7 @@
    ],
    "url": "https://jooble.org/jdp/-8236105821996191670",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6441,7 +6441,7 @@
    ],
    "url": "https://jooble.org/jdp/2118675462913614507",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6457,7 +6457,7 @@
    ],
    "url": "https://jooble.org/jdp/7528860845618713431",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6473,7 +6473,7 @@
    ],
    "url": "https://jooble.org/jdp/8462727949107964949",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6489,7 +6489,7 @@
    ],
    "url": "https://jooble.org/jdp/7528860845618713431",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -6506,7 +6506,7 @@
    ],
    "url": "https://jooble.org/jdp/-1962707360683259623",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -10945,7 +10945,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/lux-point-partners/junior-business-development-manager-ma-hanover-327187",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -10963,7 +10963,7 @@
    ],
    "url": "https://jooble.org/jdp/5216226304294535748",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -10979,7 +10979,7 @@
    ],
    "url": "https://jooble.org/jdp/3842496186950126711",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -10996,7 +10996,7 @@
    ],
    "url": "https://jooble.org/jdp/290973144084589183",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11014,7 +11014,7 @@
    ],
    "url": "https://jooble.org/jdp/7254403961742545407",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11031,7 +11031,7 @@
    ],
    "url": "https://jooble.org/jdp/1799077216964632065",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11048,7 +11048,7 @@
    ],
    "url": "https://jooble.org/jdp/445559367907316066",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11066,7 +11066,7 @@
    ],
    "url": "https://jooble.org/jdp/237835205357760856",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11082,7 +11082,7 @@
    ],
    "url": "https://jooble.org/jdp/4254648116782939730",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11098,7 +11098,7 @@
    ],
    "url": "https://jooble.org/jdp/-3065319439407702823",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11111,7 +11111,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/3370070987351061642",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11126,7 +11126,7 @@
    ],
    "url": "https://jooble.org/jdp/-8758109463889208236",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11142,7 +11142,7 @@
    ],
    "url": "https://jooble.org/jdp/-1065984827923824413",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11157,7 +11157,7 @@
    ],
    "url": "https://jooble.org/jdp/1177984805289153867",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11173,7 +11173,7 @@
    ],
    "url": "https://jooble.org/jdp/-8758109463889208236",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11189,7 +11189,7 @@
    ],
    "url": "https://jooble.org/jdp/268082831770652100",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -11206,7 +11206,7 @@
    ],
    "url": "https://jooble.org/jdp/421775003506064576",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14530,7 +14530,7 @@
    ],
    "url": "https://himalayas.app/companies/moneygram/jobs/senior-international-accountant-with-turkish-5270500466?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14547,7 +14547,7 @@
    ],
    "url": "https://himalayas.app/companies/justplay-gmbh/jobs/senior-product-manager-platform-experience-all-genders?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14565,7 +14565,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/phenogyag/infrastructure-cybersecurity-manager-and-project-manager-root-lucerne-switzerland-or-bremen-123530",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14584,7 +14584,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/yoummday/intern-brand-communication-german-required-munich-442002",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14600,7 +14600,7 @@
    ],
    "url": "https://jooble.org/jdp/4306953994715922733",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14616,7 +14616,7 @@
    ],
    "url": "https://jooble.org/jdp/3888808822519923408",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14634,7 +14634,7 @@
    ],
    "url": "https://jooble.org/jdp/6377314431337608688",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14650,7 +14650,7 @@
    ],
    "url": "https://jooble.org/jdp/1572503289385543479",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14667,7 +14667,7 @@
    ],
    "url": "https://jooble.org/jdp/1343626597513832891",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14684,7 +14684,7 @@
    ],
    "url": "https://jooble.org/jdp/-1432448161131019839",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14701,7 +14701,7 @@
    ],
    "url": "https://jooble.org/jdp/-9053270324034049436",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14718,7 +14718,7 @@
    ],
    "url": "https://jooble.org/jdp/-3827162075975121728",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14735,7 +14735,7 @@
    ],
    "url": "https://jooble.org/jdp/-8385633413777181975",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14752,7 +14752,7 @@
    ],
    "url": "https://jooble.org/jdp/-8065901959745374732",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14770,7 +14770,7 @@
    ],
    "url": "https://jooble.org/jdp/7132528014118636956",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14786,7 +14786,7 @@
    ],
    "url": "https://jooble.org/jdp/3847994721023748633",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14804,7 +14804,7 @@
    ],
    "url": "https://jooble.org/jdp/5836601974986000068",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14821,7 +14821,7 @@
    ],
    "url": "https://jooble.org/jdp/8035491790366278728",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14838,7 +14838,7 @@
    ],
    "url": "https://jooble.org/jdp/-7136405027096526229",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14855,7 +14855,7 @@
    ],
    "url": "https://jooble.org/jdp/7552947983484811635",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14872,7 +14872,7 @@
    ],
    "url": "https://jooble.org/jdp/-7163234636652171851",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14889,7 +14889,7 @@
    ],
    "url": "https://jooble.org/jdp/6142874570467720574",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14906,7 +14906,7 @@
    ],
    "url": "https://jooble.org/jdp/6917349452875842163",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14921,7 +14921,7 @@
    ],
    "url": "https://jooble.org/jdp/-7449524308450401167",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -14938,7 +14938,7 @@
    ],
    "url": "https://jooble.org/jdp/4922200240586977132",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17108,7 +17108,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/globaldimensionsllc/data-scientist-stuttgart-285730",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17126,7 +17126,7 @@
    ],
    "url": "https://jooble.org/jdp/3771414525271788702",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17142,7 +17142,7 @@
    ],
    "url": "https://jooble.org/jdp/104023323843559315",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17159,7 +17159,7 @@
    ],
    "url": "https://jooble.org/jdp/6362741906975821124",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17176,7 +17176,7 @@
    ],
    "url": "https://jooble.org/jdp/-902895328155984301",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17193,7 +17193,7 @@
    ],
    "url": "https://jooble.org/jdp/6467214453038381579",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17206,7 +17206,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/4570926693371319766",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17221,7 +17221,7 @@
    ],
    "url": "https://jooble.org/jdp/-7313941023333237756",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17236,7 +17236,7 @@
    ],
    "url": "https://jooble.org/jdp/3390389379607368436",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17252,7 +17252,7 @@
    ],
    "url": "https://jooble.org/jdp/3914169905063068941",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17267,7 +17267,7 @@
    ],
    "url": "https://jooble.org/jdp/-8377905466614050319",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17282,7 +17282,7 @@
    ],
    "url": "https://jooble.org/jdp/6637633371817809203",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17297,7 +17297,7 @@
    ],
    "url": "https://jooble.org/jdp/-1170559944742924814",
    "drafted": false,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
