@@ -414,6 +414,12 @@ function draftCard(d, handled) {
   head.append(el('b', null, d.title), el('span', 'score', String(d.score)));
   c.append(head, el('div', 'muted', d.company));
   if (d.notes) c.append(el('div', 'muted', d.notes));
+  if ((d.requirements || []).length) {
+    const rq = el('details'); rq.style.marginTop = '6px';
+    rq.append(el('summary', null, 'What the posting asks for'));
+    d.requirements.forEach(line => rq.append(el('div', 'muted', line)));
+    c.append(rq);
+  }
   const a = link(d.url); if (a) { c.append(document.createElement('br'), a); }
   const det = el('details'); det.style.marginTop = '8px';
   det.append(el('summary', null, 'Read the cover letter'), el('pre', null, d.letter || 'No letter text saved.'));
