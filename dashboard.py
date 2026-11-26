@@ -113,10 +113,37 @@ def load_tracker():
     return [{"company": k, "stage": v.get("stage", ""), "updated": v.get("updated", "")} for k, v in data.items()]
 
 
+REQ_LABELS = {"cv": "CV", "nin": "NIN slip (or NRC)", "wassce": "WASSCE result", "nysc": "NYSC certificate",
+              "leaving": "Leaving certificate", "oau_result": "University result notification", "transcript": "Official transcript",
+              "other": "Something else (not on file)"}
+
+
+def requirement_summary(url, cache):
+    """Plain-English lines from the cached reading of a posting. Empty if the posting hasn't been read yet."""
+    req = cache.get(url)
+    if not req:
+        return []
+    lines = []
+    docs_asked = [REQ_LABELS.get(d, d) for d in req.get("documents", [])]
+    lines.append("Documents asked for: " + (", ".join(docs_asked) if docs_asked else "none beyond your CV"))
+    if req.get("single_document"):
+        lines.append("Format: all documents as one file")
+    if req.get("minimum_degree_class"):
+        lines.append("Degree class asked for: " + req["minimum_degree_class"])
+    if req.get("age_limit"):
+        lines.append(f"Age limit: {req['age_limit']}")
+    for e in req.get("eligibility", []):
+        lines.append("Requirement: " + e)
+    if req.get("questions"):
+        lines.append("Form questions: " + ", ".join(req["questions"]))
+    return lines
+
+
 def build_drafts():
     """Every draft-ready opportunity, read from the draft files written by the letter step."""
     import glob
     handled = set(json.load(open("handled.json", encoding="utf-8"))) if os.path.exists("handled.json") else set()
+    req_cache = json.load(open("requirements.json", encoding="utf-8")) if os.path.exists("requirements.json") else {}
     out = []
     for path in glob.glob("applications/*.md"):
         text = open(path, encoding="utf-8").read()
@@ -132,7 +159,8 @@ def build_drafts():
                     "url": link.group(1) if link else "",
                     "letter": letter.group(1).strip() if letter else "",
                     "notes": notes.group(1).strip() if notes else "",
-                    "handled": bool(link) and link.group(1) in handled})
+                    "handled": bool(link) and link.group(1) in handled,
+                    "requirements": requirement_summary(link.group(1) if link else "", req_cache)})
     return sorted(out, key=lambda d: d["score"], reverse=True)
 
 
