@@ -85,12 +85,15 @@ def main(dry_run):
 
     applied = load_applied()
     already = {r["url"] for r in applied}
+    sent_to = {}  # a link can be shared by different postings, so a send is recorded per link AND recipient
+    for r in applied:
+        sent_to.setdefault(r["url"], set()).add((r.get("email") or "").strip().lower())
     budget = None  # no daily cap: every eligible job is sent
 
     rows = list(csv.DictReader(open(MATCHES_PATH, encoding="utf-8"))) if os.path.exists(MATCHES_PATH) else []
     eligible = []
     for r in rows:
-        if r.get("url") in already:
+        if r.get("url") in already and not (sent_to.get(r.get("url"), set()) - {""}) :
             continue
         try:
             score = int(r["score"])
@@ -99,6 +102,8 @@ def main(dry_run):
         if score < MIN_SCORE or r.get("blockers", "").strip().lower() not in NO_BLOCKERS:
             continue
         addr = None if "himalayas.app" in (r.get("url") or "") else contact_email(r.get("description", ""))
+        if addr and addr.lower() in sent_to.get(r.get("url"), set()):
+            continue  # already sent to this recipient for this posting
         letter = read_cover_letter(r) if addr else None
         if addr and letter:
             eligible.append((score, r, addr, letter))
