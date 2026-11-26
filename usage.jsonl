@@ -1094,3 +1094,8 @@
 {"at": "2026-11-26T06:22:52+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1415, "output_tokens": 100}
 {"at": "2026-11-26T06:22:58+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 200, "key_number": 1, "prompt_tokens": 1399, "output_tokens": 94}
 {"at": "2026-11-26T06:23:05+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:45:51+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:45:51+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:45:52+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:45:52+00:00", "process": "web_search", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}
+{"at": "2026-11-26T06:45:52+00:00", "process": "scoring", "model": "gemini-flash-lite-latest", "status": 429, "key_number": 1, "prompt_tokens": 0, "output_tokens": 0}

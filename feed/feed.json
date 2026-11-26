@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-26 06:24 UTC",
+ "generated": "2026-11-26 06:48 UTC",
  "report": [
-  "Last run: 2026-11-26T06:23+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 478 postings in total, and 234 matched your skills.",
+  "Last run: 2026-11-26T06:45+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 476 postings in total, and 234 matched your skills.",
   "These sources could not be reached: themuse.",
-  "2 postings were scored against your CV this run.",
+  "0 postings were scored against your CV this run.",
   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "1 application emails were sent: Job posting at example.com.",
+  "No application emails were sent this run.",
   "Overall, 42 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
@@ -16,9 +16,9 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 173,
-    "week": 924,
-    "limited": 3,
+    "today": 174,
+    "week": 925,
+    "limited": 4,
     "overloaded": 214,
     "tokens_in": 843313,
     "tokens_out": 60685
@@ -34,9 +34,9 @@
    },
    {
     "process": "web_search",
-    "today": 16,
-    "week": 60,
-    "limited": 60,
+    "today": 20,
+    "week": 64,
+    "limited": 64,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -66,16 +66,6 @@
  ],
  "drafts": [
   {
-   "title": "Access Bank Entry Level Training Programme 2026",
-   "company": "Dixcover Hub listing",
-   "score": 90,
-   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
-   "letter": "Dear Hiring Manager,\n\nBuilding a professional career in financial services through the Access Bank Entry Level Training Programme 2026 presents an ideal opportunity to apply my background in accounting and practical finance workflows. My recent tenure in the Bursary Department at the Nigerian College of Aviation Technology provided a solid foundation in transaction processing, financial records management and audit documentation. \n\nDuring my time at NCAT, I managed revenue streams, maintained accurate receipt and payment records, and prepared journal postings to support month-end close schedules. Navigating software packages such as QuickBooks, Sage, Zoho Books and Microsoft Dynamics 365 Business Central has equipped me to handle ledger management and account reconciliations with precision. Furthermore, my B.Sc. in Accounting from Obafemi Awolowo University has grounded my practical work in sound financial principles, double-entry bookkeeping and regulatory compliance.\n\nI look forward to the possibility of discussing how my foundational accounting experience and diligence can contribute to your team. Please find my CV, academic certificates and National Registration Card attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit, as the candidate holds a relevant degree in accounting, has completed NYSC, is within the age limit, and brings nearly a year of practical financial and reconciliation experience that aligns well with an entry-level banking career.",
-   "handled": true,
-   "requirements": []
-  },
-  {
    "title": "Kleenol Nigeria Limited Graduate Trainee Programme 2026",
    "company": "Dixcover Hub listing",
    "score": 90,
@@ -83,6 +73,16 @@
    "letter": "Dear Hiring Manager,\n\nThe Kleenol Nigeria Limited Graduate Trainee Programme 2026 offers a clear path to build a structured professional career in a dynamic environment. My background aligns well with the programme requirement for strong analytical and problem-solving abilities.\n\nDuring my recent practical accounting experience at the Nigerian College of Aviation Technology, I investigated inter-departmental account variances, traced discrepancies to supporting records, and followed items through to resolution. I also maintained and reconciled receipt and payment records across multiple revenue streams while using software such as QuickBooks and Microsoft Dynamics 365 Business Central. My Bachelor of Science in Accounting from Obafemi Awolowo University provided a solid academic foundation in financial accounting, auditing, and corporate finance.\n\nI approach workplace challenges with a practical mindset and am eager to learn and adapt to the standards at Kleenol Nigeria Limited.\n\nI would welcome the opportunity to discuss how my analytical skills can support your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Strong fit, because the candidate has completed NYSC, holds a relevant degree, and demonstrates strong analytical and problem-solving skills matching the graduate trainee requirements.\nGap: None.",
    "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Access Bank Entry Level Training Programme 2026",
+   "company": "Dixcover Hub listing",
+   "score": 90,
+   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
+   "letter": "Dear Hiring Manager,\n\nBuilding a professional career in financial services through the Access Bank Entry Level Training Programme 2026 presents an ideal opportunity to apply my background in accounting and practical finance workflows. My recent tenure in the Bursary Department at the Nigerian College of Aviation Technology provided a solid foundation in transaction processing, financial records management and audit documentation. \n\nDuring my time at NCAT, I managed revenue streams, maintained accurate receipt and payment records, and prepared journal postings to support month-end close schedules. Navigating software packages such as QuickBooks, Sage, Zoho Books and Microsoft Dynamics 365 Business Central has equipped me to handle ledger management and account reconciliations with precision. Furthermore, my B.Sc. in Accounting from Obafemi Awolowo University has grounded my practical work in sound financial principles, double-entry bookkeeping and regulatory compliance.\n\nI look forward to the possibility of discussing how my foundational accounting experience and diligence can contribute to your team. Please find my CV, academic certificates and National Registration Card attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit, as the candidate holds a relevant degree in accounting, has completed NYSC, is within the age limit, and brings nearly a year of practical financial and reconciliation experience that aligns well with an entry-level banking career.",
+   "handled": true,
    "requirements": []
   },
   {
@@ -96,16 +96,6 @@
    "requirements": []
   },
   {
-   "title": "Central Poultry Graduate Trainee Program 2026",
-   "company": "Dixcover Hub listing",
-   "score": 85,
-   "url": "https://jobs.smartyacad.com/central-poultry-graduate-trainee-program-2026/",
-   "letter": "Dear Hiring Manager,\n\nCentral Poultry's Graduate Trainee Programme offers a clear path to gain practical work experience across different operational functions, which aligns with my background in accounting and finance. Building a career in a structured business environment requires steady analytical skills and an eagerness to learn daily operations. My academic training and recent finance experience have prepared me to contribute effectively to your management trainee programme.\n\nDuring my National Youth Service Corps placement in the Bursary Department of the Nigerian College of Aviation Technology, I maintained financial records, reconciled revenue streams, and supported month-end close activities. I investigated inter-departmental variances, tracked discrepancies, and compiled supporting schedules for audit reviews. These duties involved analysing information, preparing reports, and collaborating with different teams to ensure accuracy. My proficiency in tools like Microsoft Excel, QuickBooks, and Microsoft Dynamics 365 Business Central enables me to handle data and support administrative tasks efficiently.\n\nI look forward to discussing how my analytical skills and operational support experience can contribute to Central Poultry. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit because your accounting degree, data analysis skills, reporting experience, and operational support background align directly with the requirements of the Central Poultry Graduate Trainee Programme.\nGap: None.",
-   "handled": true,
-   "requirements": []
-  },
-  {
    "title": "Client Finance Analyst I",
    "company": "Precision Medicine Group",
    "score": 85,
@@ -116,73 +106,13 @@
    "requirements": []
   },
   {
-   "title": "Inventory Support Officer (Lagos) ",
-   "company": "Moniepoint",
-   "score": 75,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4196076101",
-   "letter": "Dear Hiring Manager,\n\nThe role of Inventory Support Officer - POS Terminals at Moniepoint immediately caught my attention because it demands rigorous end-to-end traceability and absolute logical-physical alignment in inventory management systems. Having spent nearly a year managing financial records and transaction workflows in a busy institutional setting, I am well-prepared to bring that same level of structural discipline to your repair centre subsystem.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams, ensuring every item was properly supported and accounted for. I investigated inter-departmental account variances, traced discrepancies back to source documents, and handled transaction processing with strict attention to audit trails. Furthermore, my proficiency in advanced Excel and enterprise accounting software such as Microsoft Dynamics 365 Business Central and QuickBooks has equipped me to log, categorise, and monitor physical and digital records accurately.\n\nWhile my formal background is rooted in accounting rather than dedicated logistics operations, my strong foundation in double-entry bookkeeping, inventory valuation principles, and rigorous reconciliation processes translates directly into managing terminal custody and discrepancy reports.\n\nI would welcome the opportunity to discuss how my analytical skills and dedication to accuracy can support the team at Moniepoint. My complete CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit; the candidate brings strong reconciliation, record-keeping, and discrepancy-investigation skills from an accounting background, but lacks direct physical POS terminal logistics experience.\nGap: Experience in physical logistics, hardware repair pipelines, or dedicated warehouse inventory management.\nBlocker: None.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Remote Office Assistant",
-   "company": "Coalition Technologies ",
-   "score": 75,
-   "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
-   "letter": "Dear Hiring Manager,\n\nSupporting internal operations and maintaining accurate records are tasks that match my background well, which is why the Remote Office Assistant role at Coalition Technologies immediately caught my attention. I am eager to bring my organisational skills and financial training to a fully remote environment that values diligent work and continuous growth.\n\nDuring my recent time in the Bursary Department at the Nigerian College of Aviation Technology, I handled transaction records, reconciled accounts, and organised supporting schedules for audits. My day-to-day duties involved resolving payment enquiries, posting journals, and maintaining structured accounting files using software like QuickBooks and Microsoft Dynamics 365 Business Central. These experiences equipped me to manage billing issues, organise client documents, and support internal reporting with a high level of accuracy and attention to detail.\n\nWhile my background is primarily focused on accounting rather than general administrative phone support, my time serving as General Secretary for NCCF Zaria Zone involved managing correspondence, scheduling, and maintaining clear records. I am comfortable learning new administrative workflows quickly and applying my structured problem-solving skills to support internal operations.\n\nI would welcome the opportunity to discuss how my bookkeeping and organisational background can support your team. My resume is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit, because the candidate has direct entry-level bookkeeping, record-keeping, and reconciliation experience that aligns closely with the administrative and financial duties of the Remote Office Assistant role.\nGap: The job description mentions answering phones, whereas the candidate's background centres on accounting operations, record-keeping, and written correspondence rather than telephone support.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "State Inventory Officer (Delta)",
-   "company": "Moniepoint",
-   "score": 75,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998881101",
-   "letter": "Dear Hiring Manager,\n\nManaging physical stock and maintaining exact digital records for POS devices at Moniepoint requires the rigorous controls and reconciliation discipline I practised during my time at the Nigerian College of Aviation Technology. Ensuring accurate tracking and secure distribution across Delta state directly builds on my background in financial controls, auditing and ledger management.\n\nWhile serving as a Junior Accountant in the Bursary Department, I routinely reconciled payment records, investigated inter-departmental variances and followed discrepancies through to resolution. I compiled supporting schedules and source documents in preparation for internal and external reviews, ensuring every transaction had a reliable audit trail. Furthermore, my proficiency in Microsoft Excel and enterprise software means I am well equipped to manage stock levels, validate serial numbers and maintain structured accounting and inventory records.\n\nAlthough my direct background is in financial accounting rather than physical logistics, the core competencies remain identical. Transaction coding, variance investigation and strict adherence to internal controls transfer directly to tracking POS hardware and reconciling physical stock with logical inventory.\n\nI welcome the opportunity to discuss how my reconciliation and record-keeping skills can support your regional operations. My complete background details are attached.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, as the candidate brings strong reconciliation, record-keeping, and audit skills that transfer well to inventory tracking, though the background is strictly in accounting rather than logistics.\nGap: No direct prior experience managing physical warehouse or POS inventory operations.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Cost Accountant",
-   "company": "GCB Services LLC",
-   "score": 75,
-   "url": "https://jooble.org/jdp/-7058373906205167193",
-   "letter": "Dear Hiring Manager,\n\nManaging inventory and cost accounting support for the Rhinelander plant at GCB Services LLC requires precise financial reporting and month-end close participation. This Cost Accountant role is a strong match for my background in financial reconciliations and structured record keeping.\n\nDuring my recent tenure at the Nigerian College of Aviation Technology, I prepared journal postings and supported month-end close activities to help our team meet strict deadlines. I investigated inter-departmental variances, traced discrepancies to source documents, and maintained accurate payment records across multiple revenue streams. Furthermore, my proficiency in QuickBooks, Sage, and Microsoft Dynamics 365 Business Central ensures I can navigate complex general ledger workflows and accounting software efficiently.\n\nWhile my practical experience spans eleven months in a bursary department rather than direct industrial cost accounting, my strong foundation in double-entry bookkeeping, accruals, and advanced Excel enables me to adapt quickly to inventory valuation and variance analysis. My degree in accounting from Obafemi Awolowo University also provided a solid grounding in corporate finance and management accounting.\n\nI welcome the opportunity to discuss how my reconciliation and financial reporting skills can support your plant operations. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit, because the candidate possesses strong general ledger, reconciliation, and month-end close experience, but lacks direct plant cost accounting experience.\nGap: The candidate has eleven months of general accounting experience rather than specific manufacturing or plant cost accounting experience.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "State Inventory Officer (Sokoto)",
-   "company": "Moniepoint",
-   "score": 75,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5039834101",
-   "letter": "Dear Hiring Manager,\n\nManaging physical stock levels, validating serial numbers and reconciling physical inventory with logical records are critical operational tasks for Moniepoint as Africa's largest merchant acquirer. The State Inventory Officer role in Sokoto requires meticulous record-keeping and a structured approach to supply chain execution to ensure seamless POS distribution. My background in accounting and inventory tracking provides a solid foundation for managing these regional responsibilities accurately.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams while ensuring complete audit trails. I investigated inter-departmental variances, traced discrepancies to source documents and followed reconciliation items through to resolution. Furthermore, my proficiency in Microsoft Excel and enterprise software such as Microsoft Dynamics 365 Business Central enables me to organise stock data, compile supporting schedules and maintain reliable inventory databases.\n\nI am keen to bring this experience in ledger management, variance investigation and process documentation to support your operations team in Sokoto.\n\nI look forward to discussing how my skills align with your requirements, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit due to strong reconciliation and record-keeping skills, though direct warehouse inventory management experience is limited.\nGap: Direct logistics or warehouse management experience is not explicitly shown in the CV, though general stock and receipt reconciliation experience is present.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Loan Accounting Financial Analyst",
-   "company": "Credit Acceptance",
-   "score": 75,
-   "url": "https://jooble.org/jdp/3935580966416531377",
-   "letter": "Dear Hiring Manager,\n\nContributing to the general ledger and monthly financial preparation at Credit Acceptance as a Loan Accounting Financial Analyst presents a meaningful opportunity to apply my practical finance background. Ensuring accurate accounting transactions and supporting financial workflows aligns closely with my professional training and daily accounting experience.\n\nDuring my recent role at the Nigerian College of Aviation Technology, I maintained and reconciled financial records across various revenue streams and supported month-end close activities. I regularly prepared journal postings, investigated inter-departmental account variances, and compiled supporting schedules for audit reviews. Additionally, my proficiency in Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel enables me to manage general ledger activities and structure financial data effectively.\n\nWhile my professional experience is built on institutional accounting rather than direct consumer loan portfolios, my solid foundation in double-entry bookkeeping and transaction coding transfers directly to analyzing loan transactions. I adapt quickly to new financial software environments and apply rigorous attention to detail to every reconciliation task.\n\nI would welcome the opportunity to discuss how my reconciliation and general ledger experience can support your team. My detailed CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong, because the candidate possesses direct general ledger, journal entry, reconciliation, and month-end support experience that aligns well with the role requirements.\nGap: The candidate lacks direct experience in consumer loan accounting specifically.\nBlocker: None noted from the job description.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Staff Accountant",
-   "company": "Colony Brands, Inc.",
-   "score": 75,
-   "url": "https://jooble.org/jdp/6444216753754383872",
-   "letter": "Dear Hiring Manager,\n\nSupporting trust accounting operations and general ledger activities at Colony Brands, Inc. as a Staff Accountant is a clear match for my background in finance and reporting. My eleven months of practical accounting experience have prepared me to contribute effectively to your daily financial workflows.\n\nDuring my time at the Nigerian College of Aviation Technology, I handled bank and account reconciliations and prepared journal postings to support month-end close activities. I regularly investigated inter-departmental variances, ensuring that all financial records were properly supported and documented. Furthermore, I am comfortable navigating accounting software such as QuickBooks, Zoho Books, Sage, and Microsoft Dynamics 365 Business Central to maintain structured ledgers and generate reliable reports.\n\nWhile my professional experience is based in Nigeria, my solid grounding in double-entry bookkeeping from my accounting degree ensures I adapt quickly to new financial environments and reporting standards. I am confident that my attention to detail and rigorous approach to transaction processing will bring value to your accounting team.\n\nI would welcome the opportunity to discuss how my background aligns with your needs, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit is moderate because the candidate has solid general ledger, reconciliation, and month-end experience, but lacks specific mention of trust accounting operations.\nGap: Trust accounting operations experience is not explicitly shown on the CV.",
-   "handled": false,
+   "title": "Central Poultry Graduate Trainee Program 2026",
+   "company": "Dixcover Hub listing",
+   "score": 85,
+   "url": "https://jobs.smartyacad.com/central-poultry-graduate-trainee-program-2026/",
+   "letter": "Dear Hiring Manager,\n\nCentral Poultry's Graduate Trainee Programme offers a clear path to gain practical work experience across different operational functions, which aligns with my background in accounting and finance. Building a career in a structured business environment requires steady analytical skills and an eagerness to learn daily operations. My academic training and recent finance experience have prepared me to contribute effectively to your management trainee programme.\n\nDuring my National Youth Service Corps placement in the Bursary Department of the Nigerian College of Aviation Technology, I maintained financial records, reconciled revenue streams, and supported month-end close activities. I investigated inter-departmental variances, tracked discrepancies, and compiled supporting schedules for audit reviews. These duties involved analysing information, preparing reports, and collaborating with different teams to ensure accuracy. My proficiency in tools like Microsoft Excel, QuickBooks, and Microsoft Dynamics 365 Business Central enables me to handle data and support administrative tasks efficiently.\n\nI look forward to discussing how my analytical skills and operational support experience can contribute to Central Poultry. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit because your accounting degree, data analysis skills, reporting experience, and operational support background align directly with the requirements of the Central Poultry Graduate Trainee Programme.\nGap: None.",
+   "handled": true,
    "requirements": []
   },
   {
@@ -206,72 +136,32 @@
    "requirements": []
   },
   {
-   "title": "Accounting Assistant",
-   "company": "Anant Operations Inc",
+   "title": "Staff Accountant",
+   "company": "Colony Brands, Inc.",
    "score": 75,
-   "url": "https://jooble.org/jdp/7701752442098778656",
-   "letter": "Dear Hiring Manager,\n\nThe Accounting Assistant position at Anant Operations Inc offers a valuable opportunity to support a finance team across essential functions like data entry, accounts payable, and receivables management. My background in accounting and practical finance operations aligns well with the daily transaction processing needs of this role.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled payment and receipt records across multiple revenue streams. I regularly processed internally generated revenue transactions, prepared journal postings, and supported month-end close activities to meet strict reporting deadlines. Additionally, my hands-on experience using accounting software such as QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage enables me to record transactions accurately and maintain reliable ledgers.\n\nWhile my practical experience has been gained primarily within a public sector institution rather than corporate operations, my strong foundation in double-entry bookkeeping and advanced Excel skills allow me to adapt quickly to new financial systems and workflows. I am eager to bring my rigorous approach to transaction coding and record-keeping to your team.\n\nI welcome the opportunity to discuss how my bookkeeping background can support your finance department. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong, because the candidate has direct practical experience in transaction processing, reconciliations, and accounting software use that match the Accounting Assistant duties.\nGap: No specific prior experience in accounts payable or vendor management workflows within a corporate environment, though general ledger and payment processing experience transfer directly.",
+   "url": "https://jooble.org/jdp/6444216753754383872",
+   "letter": "Dear Hiring Manager,\n\nSupporting trust accounting operations and general ledger activities at Colony Brands, Inc. as a Staff Accountant is a clear match for my background in finance and reporting. My eleven months of practical accounting experience have prepared me to contribute effectively to your daily financial workflows.\n\nDuring my time at the Nigerian College of Aviation Technology, I handled bank and account reconciliations and prepared journal postings to support month-end close activities. I regularly investigated inter-departmental variances, ensuring that all financial records were properly supported and documented. Furthermore, I am comfortable navigating accounting software such as QuickBooks, Zoho Books, Sage, and Microsoft Dynamics 365 Business Central to maintain structured ledgers and generate reliable reports.\n\nWhile my professional experience is based in Nigeria, my solid grounding in double-entry bookkeeping from my accounting degree ensures I adapt quickly to new financial environments and reporting standards. I am confident that my attention to detail and rigorous approach to transaction processing will bring value to your accounting team.\n\nI would welcome the opportunity to discuss how my background aligns with your needs, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit is moderate because the candidate has solid general ledger, reconciliation, and month-end experience, but lacks specific mention of trust accounting operations.\nGap: Trust accounting operations experience is not explicitly shown on the CV.",
    "handled": false,
    "requirements": []
   },
   {
-   "title": "Accounting Assistant",
-   "company": "Illinois Wesleyan",
+   "title": "Loan Accounting Financial Analyst",
+   "company": "Credit Acceptance",
    "score": 75,
-   "url": "https://jooble.org/jdp/1399572510279287839",
-   "letter": "Dear Hiring Manager,\n\nProcessing all cashiering activities and ensuring that transactions are properly documented are core responsibilities of the Accounting Assistant position at Illinois Wesleyan. My background in handling revenue transactions and maintaining financial records in a structured institutional setting makes this role a practical next step for my career. \n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure accuracy and proper support. I also processed internally generated revenue transactions and prepared journal postings while supporting month-end close activities. My experience extends to gathering and organising financial data and supporting schedules for internal and external audits, which aligns directly with your need to prepare for periodic reviews. Additionally, I am comfortable navigating accounting software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central to record and categorise transactions efficiently.\n\nI welcome the opportunity to discuss how my accounting foundation and attention to detail can support your finance team. My detailed curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit, as the candidate's recent bursary experience directly matches the cashiering, reconciliation, and audit preparation duties required by the role.\nGap: None noted from the available job description details.",
+   "url": "https://jooble.org/jdp/3935580966416531377",
+   "letter": "Dear Hiring Manager,\n\nContributing to the general ledger and monthly financial preparation at Credit Acceptance as a Loan Accounting Financial Analyst presents a meaningful opportunity to apply my practical finance background. Ensuring accurate accounting transactions and supporting financial workflows aligns closely with my professional training and daily accounting experience.\n\nDuring my recent role at the Nigerian College of Aviation Technology, I maintained and reconciled financial records across various revenue streams and supported month-end close activities. I regularly prepared journal postings, investigated inter-departmental account variances, and compiled supporting schedules for audit reviews. Additionally, my proficiency in Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel enables me to manage general ledger activities and structure financial data effectively.\n\nWhile my professional experience is built on institutional accounting rather than direct consumer loan portfolios, my solid foundation in double-entry bookkeeping and transaction coding transfers directly to analyzing loan transactions. I adapt quickly to new financial software environments and apply rigorous attention to detail to every reconciliation task.\n\nI would welcome the opportunity to discuss how my reconciliation and general ledger experience can support your team. My detailed CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong, because the candidate possesses direct general ledger, journal entry, reconciliation, and month-end support experience that aligns well with the role requirements.\nGap: The candidate lacks direct experience in consumer loan accounting specifically.\nBlocker: None noted from the job description.",
    "handled": false,
    "requirements": []
   },
   {
-   "title": "Data Entry Officer (Delta)",
-   "company": "Moniepoint",
+   "title": "General Accountant - Accounts Payable",
+   "company": "Upsun",
    "score": 75,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828394101",
-   "letter": "Dear Hiring Manager,\n\nAccurate merchant records and clean onboarding data are essential for maintaining the reliable reporting and fast go-lives that Moniepoint delivers across Nigeria. The Data Entry Officer role in Delta allows me to apply my rigorous approach to financial documentation and transaction processing to support your retail customers effectively.\n\nDuring my recent service at the Nigerian College of Aviation Technology, I maintained and reconciled payment records across multiple revenue streams and processed internally generated revenue transactions with careful attention to detail. I routinely investigated account variances, reviewed transaction classifications, and compiled supporting schedules to ensure complete and reliable audit trails. This background has given me strong proficiency in data management, structured bookkeeping, and software tools including QuickBooks and Microsoft Dynamics 365 Business Central.\n\nI look forward to the opportunity to discuss how my record-keeping experience and dedication to data accuracy can support your team. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong, because your practical experience in transaction processing, reconciliation, and data management directly matches the requirement to keep records clean, accurate, and ready for fast go-lives.\nGap: None.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Data Entry Officer (Ogun)",
-   "company": "Moniepoint",
-   "score": 75,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828382101",
-   "letter": "Dear Hiring Manager,\n\nAccurate merchant records and clean data pipelines are vital for ensuring fast go-lives and a smooth retail experience on the Moniebook platform. The Data Entry Officer role at Moniepoint offers an exciting opportunity to apply rigorous record-keeping practices to support retail customers and account managers.\n\nDuring my recent tenure in the Bursary Department of the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I regularly reviewed transaction details and supporting documentation, processed internally generated revenue entries, and compiled schedules for audit readiness. My experience working with multiple accounting platforms and advanced Microsoft Excel has given me a strong foundation in managing structured records, investigating variances, and maintaining clean financial data.\n\nWhile my primary background is in accounting and financial reporting rather than dedicated inventory cataloguing, my daily exposure to data entry, ledger coding, and documentation ensures I can transition smoothly into maintaining pricing data and customer accounts. I am comfortable managing detailed digital records and checking figures systematically to minimize errors.\n\nI would welcome the opportunity to discuss how my record management background can support the Onboarding team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong fit, because the candidate's recent experience in financial record-keeping, transaction processing, and database reconciliation aligns directly with the data accuracy and administrative requirements of the Data Entry Officer role.\nGap: The job description mentions maintaining product catalogues and inventory records, whereas the candidate's background is primarily financial and accounting data.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Accounting Assistant",
-   "company": "RFA Engineering",
-   "score": 75,
-   "url": "https://jooble.org/jdp/2509671297147940902",
-   "letter": "Dear Hiring Manager,\n\nRecent graduates starting their accounting careers will find an ideal opportunity in the Accounting Assistant role at RFA Engineering, especially given the chance to apply academic foundations in a practical setting. My background aligns well with this focus, combining formal training in accounting with hands-on experience in financial record maintenance and transaction processing.\n\nDuring my recent tenure in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I also prepared journal postings and supported month-end close activities, ensuring that our finance team met reporting deadlines. In addition to these duties, I gained practical proficiency in accounting software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central, which prepared me to handle day-to-day general ledger tasks with accuracy.\n\nWhile my practical experience spans eleven months rather than several years, my thorough grounding in double-entry bookkeeping and advanced Excel enables me to adapt quickly to new financial workflows. I am eager to contribute my attention to detail and my commitment to reliable record-keeping to your accounting team.\n\nI welcome the opportunity to discuss how my background matches the needs of RFA Engineering, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong, because the candidate has direct entry-level accounting experience, software proficiency, and relevant education that matches the requirements for an accounting assistant.\nGap: None noted from the job description provided.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Executive Operations Associate",
-   "company": "OHL Workforce Solutions Limited",
-   "score": 75,
-   "url": "https://jobs.smartyacad.com/executive-operations-associate-at-ohl-workforce-solutions-limited/",
-   "letter": "Dear Hiring Manager,\n\nThe opportunity to support daily business operations and administrative processes as an Executive Operations Associate at OHL Workforce Solutions Limited aligns well with my structured approach to managing records and coordinating tasks. Working remotely requires strong self-management, clear communication and careful attention to operational documentation, which are strengths I have developed through my administrative and finance background.\n\nDuring my time at the Nigerian College of Aviation Technology, I managed financial records, processed revenue transactions and reconciled accounts across multiple streams while keeping documentation orderly and accurate. My experience also includes coordinating communication, preparing leadership handover records, and maintaining clear schedules as General Secretary for a zonal association. Furthermore, my training in accounting has equipped me with advanced spreadsheet skills, systematic problem-solving abilities and a meticulous approach to checking details.\n\nAlthough my direct background is in accounting rather than logistics or procurement, my core competencies in managing commercial documentation, investigating discrepancies and handling operational reporting transfer directly to the administrative needs of this role. I am comfortable learning new business tools quickly and managing multiple responsibilities independently to support project execution.\n\nI would welcome the chance to discuss how my organisational skills can contribute to your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit because the candidate brings strong administrative, documentation, and digital tool skills from an accounting and leadership background, though direct logistics and procurement experience is limited.\nGap: 1-3 years of dedicated experience in business operations, logistics, or procurement (candidate has 11 months of NYSC accounting experience plus administrative service).\nGap: Direct experience in freight coordination, supplier sourcing, and international trade operations.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "State Inventory Officer (Lagos)",
-   "company": "Moniepoint",
-   "score": 75,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5040606101",
-   "letter": "Dear Hiring Manager,\n\nManaging point-of-sale device distribution and maintaining precise inventory records at Moniepoint requires rigorous attention to detail and strong reconciliation skills. The State Inventory Officer role calls for someone who can track stock levels accurately, validate serial numbers, and resolve discrepancies promptly across regional operations.\n\nDuring my time as a Junior Accountant at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure physical and logical accuracy. I also investigated inter-departmental account variances, traced discrepancies to supporting documents, and compiled source schedules for internal and external reviews. My strong foundation in double-entry bookkeeping, advanced Excel proficiency, and experience with structured database navigation ensure I can manage inventory logs, track serial numbers, and execute stock counts with high precision.\n\nI look forward to discussing how my background in financial record-keeping and variance resolution can support the State Coordinator and the wider logistics team. My complete career history is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit because the candidate has solid experience in stock reconciliation, variance investigation, audit documentation, and meticulous record-keeping that directly aligns with inventory management.\nGap: None.",
+   "url": "https://weworkremotely.com/remote-jobs/upsun-general-accountant-accounts-payable",
+   "letter": "Dear Hiring Manager,\n\nManaging vendor payments and maintaining operational rigour across multiple global entities at Upsun calls for a meticulous approach to the procure-to-pay cycle. This General Accountant - Accounts Payable role offers an opportunity to contribute directly to accurate financial reporting and strong internal controls within a growing finance team.\n\nDuring my recent accounting experience in the bursary department at the Nigerian College of Aviation Technology, I managed receipt and payment records across multiple revenue streams and processed financial transactions with careful attention to documentation. I regularly prepared journal postings, supported month-end close activities, and investigated account discrepancies to ensure reliable audit trails. My familiarity with software such as Microsoft Dynamics 365 Business Central, QuickBooks, and Sage allows me to navigate financial workflows, review ledger activity, and maintain structured accounting records efficiently.\n\nWhile my experience is rooted in single-entity transaction processing and reporting rather than managing accounts payable across eight international entities, my foundation in double-entry bookkeeping and rigorous reconciliation practices prepares me to adapt quickly to multi-entity environments. I am eager to bring my background in financial controls and transaction processing to support your team.\n\nI welcome the opportunity to discuss how my accounting background aligns with the needs of Upsun. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, because the candidate brings solid transactional accounting and reconciliation experience but lacks direct multi-entity global accounts payable experience.\nGap: Experience managing accounts payable across multiple international entities and currencies.\nGap: Professional accounting certification such as ACCA or ACA, if specifically required for senior entity consolidation.",
    "handled": false,
    "requirements": []
   },
@@ -296,6 +186,66 @@
    "requirements": []
   },
   {
+   "title": "State Inventory Officer (Sokoto)",
+   "company": "Moniepoint",
+   "score": 75,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5039834101",
+   "letter": "Dear Hiring Manager,\n\nManaging physical stock levels, validating serial numbers and reconciling physical inventory with logical records are critical operational tasks for Moniepoint as Africa's largest merchant acquirer. The State Inventory Officer role in Sokoto requires meticulous record-keeping and a structured approach to supply chain execution to ensure seamless POS distribution. My background in accounting and inventory tracking provides a solid foundation for managing these regional responsibilities accurately.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams while ensuring complete audit trails. I investigated inter-departmental variances, traced discrepancies to source documents and followed reconciliation items through to resolution. Furthermore, my proficiency in Microsoft Excel and enterprise software such as Microsoft Dynamics 365 Business Central enables me to organise stock data, compile supporting schedules and maintain reliable inventory databases.\n\nI am keen to bring this experience in ledger management, variance investigation and process documentation to support your operations team in Sokoto.\n\nI look forward to discussing how my skills align with your requirements, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit due to strong reconciliation and record-keeping skills, though direct warehouse inventory management experience is limited.\nGap: Direct logistics or warehouse management experience is not explicitly shown in the CV, though general stock and receipt reconciliation experience is present.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "State Inventory Officer (Delta)",
+   "company": "Moniepoint",
+   "score": 75,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998881101",
+   "letter": "Dear Hiring Manager,\n\nManaging physical stock and maintaining exact digital records for POS devices at Moniepoint requires the rigorous controls and reconciliation discipline I practised during my time at the Nigerian College of Aviation Technology. Ensuring accurate tracking and secure distribution across Delta state directly builds on my background in financial controls, auditing and ledger management.\n\nWhile serving as a Junior Accountant in the Bursary Department, I routinely reconciled payment records, investigated inter-departmental variances and followed discrepancies through to resolution. I compiled supporting schedules and source documents in preparation for internal and external reviews, ensuring every transaction had a reliable audit trail. Furthermore, my proficiency in Microsoft Excel and enterprise software means I am well equipped to manage stock levels, validate serial numbers and maintain structured accounting and inventory records.\n\nAlthough my direct background is in financial accounting rather than physical logistics, the core competencies remain identical. Transaction coding, variance investigation and strict adherence to internal controls transfer directly to tracking POS hardware and reconciling physical stock with logical inventory.\n\nI welcome the opportunity to discuss how my reconciliation and record-keeping skills can support your regional operations. My complete background details are attached.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, as the candidate brings strong reconciliation, record-keeping, and audit skills that transfer well to inventory tracking, though the background is strictly in accounting rather than logistics.\nGap: No direct prior experience managing physical warehouse or POS inventory operations.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Accounting Assistant",
+   "company": "Anant Operations Inc",
+   "score": 75,
+   "url": "https://jooble.org/jdp/7701752442098778656",
+   "letter": "Dear Hiring Manager,\n\nThe Accounting Assistant position at Anant Operations Inc offers a valuable opportunity to support a finance team across essential functions like data entry, accounts payable, and receivables management. My background in accounting and practical finance operations aligns well with the daily transaction processing needs of this role.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled payment and receipt records across multiple revenue streams. I regularly processed internally generated revenue transactions, prepared journal postings, and supported month-end close activities to meet strict reporting deadlines. Additionally, my hands-on experience using accounting software such as QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage enables me to record transactions accurately and maintain reliable ledgers.\n\nWhile my practical experience has been gained primarily within a public sector institution rather than corporate operations, my strong foundation in double-entry bookkeeping and advanced Excel skills allow me to adapt quickly to new financial systems and workflows. I am eager to bring my rigorous approach to transaction coding and record-keeping to your team.\n\nI welcome the opportunity to discuss how my bookkeeping background can support your finance department. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong, because the candidate has direct practical experience in transaction processing, reconciliations, and accounting software use that match the Accounting Assistant duties.\nGap: No specific prior experience in accounts payable or vendor management workflows within a corporate environment, though general ledger and payment processing experience transfer directly.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Cost Accountant",
+   "company": "GCB Services LLC",
+   "score": 75,
+   "url": "https://jooble.org/jdp/-7058373906205167193",
+   "letter": "Dear Hiring Manager,\n\nManaging inventory and cost accounting support for the Rhinelander plant at GCB Services LLC requires precise financial reporting and month-end close participation. This Cost Accountant role is a strong match for my background in financial reconciliations and structured record keeping.\n\nDuring my recent tenure at the Nigerian College of Aviation Technology, I prepared journal postings and supported month-end close activities to help our team meet strict deadlines. I investigated inter-departmental variances, traced discrepancies to source documents, and maintained accurate payment records across multiple revenue streams. Furthermore, my proficiency in QuickBooks, Sage, and Microsoft Dynamics 365 Business Central ensures I can navigate complex general ledger workflows and accounting software efficiently.\n\nWhile my practical experience spans eleven months in a bursary department rather than direct industrial cost accounting, my strong foundation in double-entry bookkeeping, accruals, and advanced Excel enables me to adapt quickly to inventory valuation and variance analysis. My degree in accounting from Obafemi Awolowo University also provided a solid grounding in corporate finance and management accounting.\n\nI welcome the opportunity to discuss how my reconciliation and financial reporting skills can support your plant operations. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate possesses strong general ledger, reconciliation, and month-end close experience, but lacks direct plant cost accounting experience.\nGap: The candidate has eleven months of general accounting experience rather than specific manufacturing or plant cost accounting experience.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Data Entry Officer (Ogun)",
+   "company": "Moniepoint",
+   "score": 75,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828382101",
+   "letter": "Dear Hiring Manager,\n\nAccurate merchant records and clean data pipelines are vital for ensuring fast go-lives and a smooth retail experience on the Moniebook platform. The Data Entry Officer role at Moniepoint offers an exciting opportunity to apply rigorous record-keeping practices to support retail customers and account managers.\n\nDuring my recent tenure in the Bursary Department of the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I regularly reviewed transaction details and supporting documentation, processed internally generated revenue entries, and compiled schedules for audit readiness. My experience working with multiple accounting platforms and advanced Microsoft Excel has given me a strong foundation in managing structured records, investigating variances, and maintaining clean financial data.\n\nWhile my primary background is in accounting and financial reporting rather than dedicated inventory cataloguing, my daily exposure to data entry, ledger coding, and documentation ensures I can transition smoothly into maintaining pricing data and customer accounts. I am comfortable managing detailed digital records and checking figures systematically to minimize errors.\n\nI would welcome the opportunity to discuss how my record management background can support the Onboarding team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong fit, because the candidate's recent experience in financial record-keeping, transaction processing, and database reconciliation aligns directly with the data accuracy and administrative requirements of the Data Entry Officer role.\nGap: The job description mentions maintaining product catalogues and inventory records, whereas the candidate's background is primarily financial and accounting data.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Data Entry Officer (Delta)",
+   "company": "Moniepoint",
+   "score": 75,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828394101",
+   "letter": "Dear Hiring Manager,\n\nAccurate merchant records and clean onboarding data are essential for maintaining the reliable reporting and fast go-lives that Moniepoint delivers across Nigeria. The Data Entry Officer role in Delta allows me to apply my rigorous approach to financial documentation and transaction processing to support your retail customers effectively.\n\nDuring my recent service at the Nigerian College of Aviation Technology, I maintained and reconciled payment records across multiple revenue streams and processed internally generated revenue transactions with careful attention to detail. I routinely investigated account variances, reviewed transaction classifications, and compiled supporting schedules to ensure complete and reliable audit trails. This background has given me strong proficiency in data management, structured bookkeeping, and software tools including QuickBooks and Microsoft Dynamics 365 Business Central.\n\nI look forward to the opportunity to discuss how my record-keeping experience and dedication to data accuracy can support your team. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong, because your practical experience in transaction processing, reconciliation, and data management directly matches the requirement to keep records clean, accurate, and ready for fast go-lives.\nGap: None.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Data Entry Officer (Lagos)",
    "company": "Moniepoint",
    "score": 75,
@@ -306,12 +256,62 @@
    "requirements": []
   },
   {
-   "title": "General Accountant - Accounts Payable",
-   "company": "Upsun",
+   "title": "Executive Operations Associate",
+   "company": "OHL Workforce Solutions Limited",
    "score": 75,
-   "url": "https://weworkremotely.com/remote-jobs/upsun-general-accountant-accounts-payable",
-   "letter": "Dear Hiring Manager,\n\nManaging vendor payments and maintaining operational rigour across multiple global entities at Upsun calls for a meticulous approach to the procure-to-pay cycle. This General Accountant - Accounts Payable role offers an opportunity to contribute directly to accurate financial reporting and strong internal controls within a growing finance team.\n\nDuring my recent accounting experience in the bursary department at the Nigerian College of Aviation Technology, I managed receipt and payment records across multiple revenue streams and processed financial transactions with careful attention to documentation. I regularly prepared journal postings, supported month-end close activities, and investigated account discrepancies to ensure reliable audit trails. My familiarity with software such as Microsoft Dynamics 365 Business Central, QuickBooks, and Sage allows me to navigate financial workflows, review ledger activity, and maintain structured accounting records efficiently.\n\nWhile my experience is rooted in single-entity transaction processing and reporting rather than managing accounts payable across eight international entities, my foundation in double-entry bookkeeping and rigorous reconciliation practices prepares me to adapt quickly to multi-entity environments. I am eager to bring my background in financial controls and transaction processing to support your team.\n\nI welcome the opportunity to discuss how my accounting background aligns with the needs of Upsun. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, because the candidate brings solid transactional accounting and reconciliation experience but lacks direct multi-entity global accounts payable experience.\nGap: Experience managing accounts payable across multiple international entities and currencies.\nGap: Professional accounting certification such as ACCA or ACA, if specifically required for senior entity consolidation.",
+   "url": "https://jobs.smartyacad.com/executive-operations-associate-at-ohl-workforce-solutions-limited/",
+   "letter": "Dear Hiring Manager,\n\nThe opportunity to support daily business operations and administrative processes as an Executive Operations Associate at OHL Workforce Solutions Limited aligns well with my structured approach to managing records and coordinating tasks. Working remotely requires strong self-management, clear communication and careful attention to operational documentation, which are strengths I have developed through my administrative and finance background.\n\nDuring my time at the Nigerian College of Aviation Technology, I managed financial records, processed revenue transactions and reconciled accounts across multiple streams while keeping documentation orderly and accurate. My experience also includes coordinating communication, preparing leadership handover records, and maintaining clear schedules as General Secretary for a zonal association. Furthermore, my training in accounting has equipped me with advanced spreadsheet skills, systematic problem-solving abilities and a meticulous approach to checking details.\n\nAlthough my direct background is in accounting rather than logistics or procurement, my core competencies in managing commercial documentation, investigating discrepancies and handling operational reporting transfer directly to the administrative needs of this role. I am comfortable learning new business tools quickly and managing multiple responsibilities independently to support project execution.\n\nI would welcome the chance to discuss how my organisational skills can contribute to your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit because the candidate brings strong administrative, documentation, and digital tool skills from an accounting and leadership background, though direct logistics and procurement experience is limited.\nGap: 1-3 years of dedicated experience in business operations, logistics, or procurement (candidate has 11 months of NYSC accounting experience plus administrative service).\nGap: Direct experience in freight coordination, supplier sourcing, and international trade operations.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "State Inventory Officer (Lagos)",
+   "company": "Moniepoint",
+   "score": 75,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5040606101",
+   "letter": "Dear Hiring Manager,\n\nManaging point-of-sale device distribution and maintaining precise inventory records at Moniepoint requires rigorous attention to detail and strong reconciliation skills. The State Inventory Officer role calls for someone who can track stock levels accurately, validate serial numbers, and resolve discrepancies promptly across regional operations.\n\nDuring my time as a Junior Accountant at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure physical and logical accuracy. I also investigated inter-departmental account variances, traced discrepancies to supporting documents, and compiled source schedules for internal and external reviews. My strong foundation in double-entry bookkeeping, advanced Excel proficiency, and experience with structured database navigation ensure I can manage inventory logs, track serial numbers, and execute stock counts with high precision.\n\nI look forward to discussing how my background in financial record-keeping and variance resolution can support the State Coordinator and the wider logistics team. My complete career history is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit because the candidate has solid experience in stock reconciliation, variance investigation, audit documentation, and meticulous record-keeping that directly aligns with inventory management.\nGap: None.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Inventory Support Officer (Lagos) ",
+   "company": "Moniepoint",
+   "score": 75,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4196076101",
+   "letter": "Dear Hiring Manager,\n\nThe role of Inventory Support Officer - POS Terminals at Moniepoint immediately caught my attention because it demands rigorous end-to-end traceability and absolute logical-physical alignment in inventory management systems. Having spent nearly a year managing financial records and transaction workflows in a busy institutional setting, I am well-prepared to bring that same level of structural discipline to your repair centre subsystem.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams, ensuring every item was properly supported and accounted for. I investigated inter-departmental account variances, traced discrepancies back to source documents, and handled transaction processing with strict attention to audit trails. Furthermore, my proficiency in advanced Excel and enterprise accounting software such as Microsoft Dynamics 365 Business Central and QuickBooks has equipped me to log, categorise, and monitor physical and digital records accurately.\n\nWhile my formal background is rooted in accounting rather than dedicated logistics operations, my strong foundation in double-entry bookkeeping, inventory valuation principles, and rigorous reconciliation processes translates directly into managing terminal custody and discrepancy reports.\n\nI would welcome the opportunity to discuss how my analytical skills and dedication to accuracy can support the team at Moniepoint. My complete CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit; the candidate brings strong reconciliation, record-keeping, and discrepancy-investigation skills from an accounting background, but lacks direct physical POS terminal logistics experience.\nGap: Experience in physical logistics, hardware repair pipelines, or dedicated warehouse inventory management.\nBlocker: None.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Remote Office Assistant",
+   "company": "Coalition Technologies ",
+   "score": 75,
+   "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+   "letter": "Dear Hiring Manager,\n\nSupporting internal operations and maintaining accurate records are tasks that match my background well, which is why the Remote Office Assistant role at Coalition Technologies immediately caught my attention. I am eager to bring my organisational skills and financial training to a fully remote environment that values diligent work and continuous growth.\n\nDuring my recent time in the Bursary Department at the Nigerian College of Aviation Technology, I handled transaction records, reconciled accounts, and organised supporting schedules for audits. My day-to-day duties involved resolving payment enquiries, posting journals, and maintaining structured accounting files using software like QuickBooks and Microsoft Dynamics 365 Business Central. These experiences equipped me to manage billing issues, organise client documents, and support internal reporting with a high level of accuracy and attention to detail.\n\nWhile my background is primarily focused on accounting rather than general administrative phone support, my time serving as General Secretary for NCCF Zaria Zone involved managing correspondence, scheduling, and maintaining clear records. I am comfortable learning new administrative workflows quickly and applying my structured problem-solving skills to support internal operations.\n\nI would welcome the opportunity to discuss how my bookkeeping and organisational background can support your team. My resume is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit, because the candidate has direct entry-level bookkeeping, record-keeping, and reconciliation experience that aligns closely with the administrative and financial duties of the Remote Office Assistant role.\nGap: The job description mentions answering phones, whereas the candidate's background centres on accounting operations, record-keeping, and written correspondence rather than telephone support.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Accounting Assistant",
+   "company": "Illinois Wesleyan",
+   "score": 75,
+   "url": "https://jooble.org/jdp/1399572510279287839",
+   "letter": "Dear Hiring Manager,\n\nProcessing all cashiering activities and ensuring that transactions are properly documented are core responsibilities of the Accounting Assistant position at Illinois Wesleyan. My background in handling revenue transactions and maintaining financial records in a structured institutional setting makes this role a practical next step for my career. \n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure accuracy and proper support. I also processed internally generated revenue transactions and prepared journal postings while supporting month-end close activities. My experience extends to gathering and organising financial data and supporting schedules for internal and external audits, which aligns directly with your need to prepare for periodic reviews. Additionally, I am comfortable navigating accounting software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central to record and categorise transactions efficiently.\n\nI welcome the opportunity to discuss how my accounting foundation and attention to detail can support your finance team. My detailed curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit, as the candidate's recent bursary experience directly matches the cashiering, reconciliation, and audit preparation duties required by the role.\nGap: None noted from the available job description details.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Accounting Assistant",
+   "company": "RFA Engineering",
+   "score": 75,
+   "url": "https://jooble.org/jdp/2509671297147940902",
+   "letter": "Dear Hiring Manager,\n\nRecent graduates starting their accounting careers will find an ideal opportunity in the Accounting Assistant role at RFA Engineering, especially given the chance to apply academic foundations in a practical setting. My background aligns well with this focus, combining formal training in accounting with hands-on experience in financial record maintenance and transaction processing.\n\nDuring my recent tenure in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I also prepared journal postings and supported month-end close activities, ensuring that our finance team met reporting deadlines. In addition to these duties, I gained practical proficiency in accounting software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central, which prepared me to handle day-to-day general ledger tasks with accuracy.\n\nWhile my practical experience spans eleven months rather than several years, my thorough grounding in double-entry bookkeeping and advanced Excel enables me to adapt quickly to new financial workflows. I am eager to contribute my attention to detail and my commitment to reliable record-keeping to your accounting team.\n\nI welcome the opportunity to discuss how my background matches the needs of RFA Engineering, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong, because the candidate has direct entry-level accounting experience, software proficiency, and relevant education that matches the requirements for an accounting assistant.\nGap: None noted from the job description provided.",
    "handled": false,
    "requirements": []
   },
@@ -326,22 +326,22 @@
    "requirements": []
   },
   {
-   "title": "Staff Accountant",
-   "company": "Beneficial Talent Source",
-   "score": 65,
-   "url": "https://jooble.org/jdp/-8822666455141864974",
-   "letter": "Dear Hiring Manager,\n\nEnsuring that customers are billed accurately and in accordance with established monthly schedules is central to the Staff Accountant position at Beneficial Talent Source. My background in maintaining precise financial records and managing transaction cycles makes this opportunity a strong match for my skills.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I processed revenue transactions, maintained receipt records, and handled billing workflows with a focus on accuracy. I regularly reviewed transaction details and supporting documentation to ensure every entry was properly coded and reconciled. Additionally, my proficiency in accounting platforms such as QuickBooks, Zoho Books, and Sage allows me to adapt quickly to established financial systems and generate reliable reports.\n\nWhile my professional experience is based in Nigeria rather than the United States, my strong foundation in double-entry bookkeeping, account reconciliations, and financial reporting equips me to handle billing and ledger duties effectively. I am eager to bring my disciplined approach to transaction processing to your team.\n\nI welcome the opportunity to discuss how my qualifications align with your needs, and my CV is attached for your review.\n\nYours sincerely,\n\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, as the candidate possesses strong general ledger, billing, and reconciliation experience but lacks direct corporate billing experience in the US market.\nGap: Experience with US-specific billing systems or client accounts, such as direct invoicing to Amazon.\nBlocker: None noted.",
-   "handled": false,
-   "requirements": []
-  },
-  {
    "title": "Talent &#038; Platform Operations Associate",
    "company": "Ethicpath",
    "score": 65,
    "url": "https://jobs.smartyacad.com/talent-platform-operations-associate-at-ethicpath/",
    "letter": "Dear Hiring Manager,\n\nThe opportunity to join Ethicpath as a Talent & Platform Operations Associate appeals to me because it combines structured research, administrative support, and digital platform management. Working independently in a remote environment requires careful organisation, which matches my background in managing financial records and digital workflows.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I maintained accurate transaction records, resolved account discrepancies, and managed administrative enquiries with strict attention to detail. My responsibilities included reviewing supporting documentation and maintaining structured databases, which directly relates to database maintenance, user verification, and recruitment tracking. Furthermore, my degree in accounting from Obafemi Awolowo University and my familiarity with various digital tools and software have strengthened my ability to handle complex operational data accurately.\n\nWhile my primary background is in finance and administration rather than formal recruitment, my experience coordinating administrative processes during my leadership service and my independent digital product projects have equipped me to handle multi-step workflows, digital tools, and clear documentation. I am comfortable picking up new digital platforms and administrative duties quickly through structured problem-solving.\n\nI would welcome the chance to discuss how my administrative experience and organisational skills can support Ethicpath. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Moderate, because your strong administrative, record-keeping, and digital tool experience matches the operational and research duties of the role, though formal recruitment experience is limited.\nGap: Formal end-to-end recruitment or sourcing experience is not explicitly shown in your background, though your administrative coordination and documentation skills are highly transferable.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Staff Accountant",
+   "company": "Beneficial Talent Source",
+   "score": 65,
+   "url": "https://jooble.org/jdp/-8822666455141864974",
+   "letter": "Dear Hiring Manager,\n\nEnsuring that customers are billed accurately and in accordance with established monthly schedules is central to the Staff Accountant position at Beneficial Talent Source. My background in maintaining precise financial records and managing transaction cycles makes this opportunity a strong match for my skills.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I processed revenue transactions, maintained receipt records, and handled billing workflows with a focus on accuracy. I regularly reviewed transaction details and supporting documentation to ensure every entry was properly coded and reconciled. Additionally, my proficiency in accounting platforms such as QuickBooks, Zoho Books, and Sage allows me to adapt quickly to established financial systems and generate reliable reports.\n\nWhile my professional experience is based in Nigeria rather than the United States, my strong foundation in double-entry bookkeeping, account reconciliations, and financial reporting equips me to handle billing and ledger duties effectively. I am eager to bring my disciplined approach to transaction processing to your team.\n\nI welcome the opportunity to discuss how my qualifications align with your needs, and my CV is attached for your review.\n\nYours sincerely,\n\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, as the candidate possesses strong general ledger, billing, and reconciliation experience but lacks direct corporate billing experience in the US market.\nGap: Experience with US-specific billing systems or client accounts, such as direct invoicing to Amazon.\nBlocker: None noted.",
    "handled": false,
    "requirements": []
   },
@@ -376,6 +376,26 @@
    "requirements": []
   },
   {
+   "title": "Finance Administrator",
+   "company": "Turnkey Consulting",
+   "score": 55,
+   "url": "https://jooble.org/jdp/2820612429063627742",
+   "letter": "Dear Hiring Manager,\n\nSupporting an independent risk and security consultancy as a Finance Administrator requires meticulous attention to financial records and structured accounting processes. My background in accounting and practical experience within a bursary department align well with the operational needs of Turnkey Consulting.\n\nDuring my recent tenure at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure complete accuracy. I also prepared journal postings and supported month-end close activities, which helped our team meet strict reporting deadlines. Furthermore, my proficiency in QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books and Sage allows me to manage financial workflows, review ledger activity and generate reliable reports efficiently.\n\nWhile my professional experience has been developed in Nigeria rather than across international jurisdictions, my solid foundation in double-entry bookkeeping, financial controls and advanced Excel enables me to adapt quickly to new financial systems and global reporting standards.\n\nI welcome the opportunity to discuss how my administrative and accounting background can support your finance operations, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, as the candidate possesses foundational accounting competencies and software skills suitable for a finance administration role, though the job posting provides limited detail on specific duties. \nGap: The job is located in the United States, while the candidate's experience is based in Nigeria.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "State Inventory Officer (Zamfara)",
+   "company": "Moniepoint",
+   "score": 55,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5039838101",
+   "letter": "Dear Hiring Manager,\n\nManaging physical stock, validating serial numbers and maintaining reliable supply chain records are critical functions for Moniepoint as you expand financial access across regions. The State Inventory Officer role in Zamfara requires strict attention to detail and rigorous record-keeping to ensure seamless distribution of POS devices.\n\nDuring my time as a Junior Accountant at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I investigated account variances, traced discrepancies to supporting documents and ensured every transaction was properly coded and documented. This background in rigorous asset tracking, reconciliations and database record management directly supports the inventory controls needed in your operations.\n\nWhile my primary background is in accounting rather than logistics, my training in financial controls and meticulous audit preparation translates naturally to stock monitoring and discrepancy resolution. I am comfortable managing structured records and maintaining the accuracy required for supply chain execution.\n\nI would welcome the opportunity to discuss how my record-keeping skills can support your Zamfara operations. My detailed CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, because the candidate has strong administrative, reconciliation, and record-keeping skills from an accounting background, but lacks direct logistics or warehouse inventory management experience.\nGap: Direct experience in physical warehouse management or large-scale supply chain logistics.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Accounting Assistant",
    "company": "NAKA Tech",
    "score": 55,
@@ -386,12 +406,12 @@
    "requirements": []
   },
   {
-   "title": "Finance Administrator",
-   "company": "Turnkey Consulting",
+   "title": "Accounting Assistant",
+   "company": "CFS",
    "score": 55,
-   "url": "https://jooble.org/jdp/2820612429063627742",
-   "letter": "Dear Hiring Manager,\n\nSupporting an independent risk and security consultancy as a Finance Administrator requires meticulous attention to financial records and structured accounting processes. My background in accounting and practical experience within a bursary department align well with the operational needs of Turnkey Consulting.\n\nDuring my recent tenure at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure complete accuracy. I also prepared journal postings and supported month-end close activities, which helped our team meet strict reporting deadlines. Furthermore, my proficiency in QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books and Sage allows me to manage financial workflows, review ledger activity and generate reliable reports efficiently.\n\nWhile my professional experience has been developed in Nigeria rather than across international jurisdictions, my solid foundation in double-entry bookkeeping, financial controls and advanced Excel enables me to adapt quickly to new financial systems and global reporting standards.\n\nI welcome the opportunity to discuss how my administrative and accounting background can support your finance operations, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, as the candidate possesses foundational accounting competencies and software skills suitable for a finance administration role, though the job posting provides limited detail on specific duties. \nGap: The job is located in the United States, while the candidate's experience is based in Nigeria.",
+   "url": "https://jooble.org/jdp/-15439806488804161",
+   "letter": "Dear Hiring Manager,\n\nA supportive and empowering leadership team at CFS provides an ideal setting to build a reliable accounting career in the Accounting Assistant role. Working in a hybrid environment appeals greatly as it combines structured office collaboration with focused independent tasks.\n\nMy eleven months in the Bursary Department at the Nigerian College of Aviation Technology involved maintaining accurate receipt records and processing internally generated revenue transactions. Reconciling accounts and investigating inter-departmental variances strengthened my ability to support month-end close activities and prepare audit documentation. Daily use of QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books and Sage ensured that financial entries remained properly coded and structured.\n\nAn accounting degree from Obafemi Awolowo University provided a solid foundation in double-entry bookkeeping and financial reporting. Advanced Excel skills help me organise data efficiently and support accurate record keeping across various accounting tasks.\n\nAn opportunity to discuss how these practical finance skills would benefit the team is very welcome, and my curriculum vitae is attached for review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, because the candidate has solid entry-level accounting and software experience that aligns with an assistant role, though the job description provides minimal detail about specific duties.\nGap: The job description mentions a hybrid work schedule and flexibility to work from home, which may require local residency or work authorization depending on the exact location context.",
    "handled": false,
    "requirements": []
   },
@@ -406,12 +426,12 @@
    "requirements": []
   },
   {
-   "title": "Accounting Assistant",
-   "company": "CFS",
+   "title": "Staff Accountant - General Accounting",
+   "company": "Earthlight Technologies LLC",
    "score": 55,
-   "url": "https://jooble.org/jdp/-15439806488804161",
-   "letter": "Dear Hiring Manager,\n\nA supportive and empowering leadership team at CFS provides an ideal setting to build a reliable accounting career in the Accounting Assistant role. Working in a hybrid environment appeals greatly as it combines structured office collaboration with focused independent tasks.\n\nMy eleven months in the Bursary Department at the Nigerian College of Aviation Technology involved maintaining accurate receipt records and processing internally generated revenue transactions. Reconciling accounts and investigating inter-departmental variances strengthened my ability to support month-end close activities and prepare audit documentation. Daily use of QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books and Sage ensured that financial entries remained properly coded and structured.\n\nAn accounting degree from Obafemi Awolowo University provided a solid foundation in double-entry bookkeeping and financial reporting. Advanced Excel skills help me organise data efficiently and support accurate record keeping across various accounting tasks.\n\nAn opportunity to discuss how these practical finance skills would benefit the team is very welcome, and my curriculum vitae is attached for review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, because the candidate has solid entry-level accounting and software experience that aligns with an assistant role, though the job description provides minimal detail about specific duties.\nGap: The job description mentions a hybrid work schedule and flexibility to work from home, which may require local residency or work authorization depending on the exact location context.",
+   "url": "https://jooble.org/jdp/7307761238579440469",
+   "letter": "Dear Hiring Manager,\n\nThe Staff Accountant - General Accounting role at Earthlight Technologies LLC aligns closely with my background in managing general ledger activities, accurate transaction coding, and financial documentation. Ensuring every financial transaction is properly recorded and documented is a challenge I am well prepared to undertake.\n\nDuring my recent service year at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I regularly prepared journal postings, supported month-end close activities, and investigated inter-departmental account variances to ensure reliable financial records. In addition, my practical experience using QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage enables me to navigate accounting workflows and general ledger tasks with confidence.\n\nHaving earned my degree in accounting from Obafemi Awolowo University, I bring a strong theoretical foundation in double-entry bookkeeping, accruals, and financial reporting. My technical skills in advanced Excel further allow me to organise supporting schedules and maintain clear audit trails for every transaction.\n\nI welcome the opportunity to discuss how my general accounting background can support your team. My detailed curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit, because the candidate has direct experience handling general ledger activities, journal entries, account reconciliations, and financial documentation using standard accounting software.\nGap: The job description is brief, but no specific technical gaps are evident from the provided requirements.",
    "handled": false,
    "requirements": []
   },
@@ -436,32 +456,12 @@
    "requirements": []
   },
   {
-   "title": "Staff Accountant - General Accounting",
-   "company": "Earthlight Technologies LLC",
-   "score": 55,
-   "url": "https://jooble.org/jdp/7307761238579440469",
-   "letter": "Dear Hiring Manager,\n\nThe Staff Accountant - General Accounting role at Earthlight Technologies LLC aligns closely with my background in managing general ledger activities, accurate transaction coding, and financial documentation. Ensuring every financial transaction is properly recorded and documented is a challenge I am well prepared to undertake.\n\nDuring my recent service year at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I regularly prepared journal postings, supported month-end close activities, and investigated inter-departmental account variances to ensure reliable financial records. In addition, my practical experience using QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage enables me to navigate accounting workflows and general ledger tasks with confidence.\n\nHaving earned my degree in accounting from Obafemi Awolowo University, I bring a strong theoretical foundation in double-entry bookkeeping, accruals, and financial reporting. My technical skills in advanced Excel further allow me to organise supporting schedules and maintain clear audit trails for every transaction.\n\nI welcome the opportunity to discuss how my general accounting background can support your team. My detailed curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit, because the candidate has direct experience handling general ledger activities, journal entries, account reconciliations, and financial documentation using standard accounting software.\nGap: The job description is brief, but no specific technical gaps are evident from the provided requirements.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "State Inventory Officer (Zamfara)",
-   "company": "Moniepoint",
-   "score": 55,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5039838101",
-   "letter": "Dear Hiring Manager,\n\nManaging physical stock, validating serial numbers and maintaining reliable supply chain records are critical functions for Moniepoint as you expand financial access across regions. The State Inventory Officer role in Zamfara requires strict attention to detail and rigorous record-keeping to ensure seamless distribution of POS devices.\n\nDuring my time as a Junior Accountant at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I investigated account variances, traced discrepancies to supporting documents and ensured every transaction was properly coded and documented. This background in rigorous asset tracking, reconciliations and database record management directly supports the inventory controls needed in your operations.\n\nWhile my primary background is in accounting rather than logistics, my training in financial controls and meticulous audit preparation translates naturally to stock monitoring and discrepancy resolution. I am comfortable managing structured records and maintaining the accuracy required for supply chain execution.\n\nI would welcome the opportunity to discuss how my record-keeping skills can support your Zamfara operations. My detailed CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, because the candidate has strong administrative, reconciliation, and record-keeping skills from an accounting background, but lacks direct logistics or warehouse inventory management experience.\nGap: Direct experience in physical warehouse management or large-scale supply chain logistics.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Finance Officer",
-   "company": "Talent Shore",
+   "title": "Finance & Accounting Analyst",
+   "company": "Trajectory Energy Partners",
    "score": 50,
-   "url": "https://jooble.org/jdp/581702304726811561",
-   "letter": "Dear Hiring Manager,\n\nThe Finance Officer position at Talent Shore offers a great opportunity to focus on operational finance while broadening my accounting responsibilities. Your emphasis on accounts payable and accounts receivable matches my background in managing transaction records and maintaining financial workflows.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I also processed internally generated revenue transactions, prepared journal postings, and supported month-end close activities to help meet reporting deadlines. My hands-on experience using QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage allows me to manage ledger activity, perform reconciliations, and handle accounts accurately.\n\nI am eager to bring my strong foundation in double-entry bookkeeping, transaction processing, and financial reporting to the Talent Shore team. I look forward to discussing how my operational finance background aligns with your requirements.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit, because your hands-on background in transaction processing, reconciliations, and financial software directly matches the operational finance focus of the role.\nGap: The job is located in the United States, but your CV shows your location as Nigeria.",
+   "url": "https://jooble.org/jdp/7087827625752467296",
+   "letter": "Dear Hiring Manager,\n\nStrengthening financial operations and reporting at Trajectory Energy Partners requires a meticulous approach to accounting processes that I have built throughout my early career. The Finance and Accounting Analyst role aligns closely with my background in maintaining accurate financial records and supporting month-end accounting cycles. I am eager to contribute my technical skills to your solar energy and storage development initiatives.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled payment records across multiple revenue streams while investigating inter-departmental variances. I regularly prepared journal postings and supported month-end close activities to help our team meet strict reporting deadlines. Additionally, I am comfortable navigating accounting workflows across several platforms including QuickBooks, Microsoft Dynamics 365 Business Central, and Zoho Books, alongside advanced proficiency in Microsoft Excel.\n\nI look forward to discussing how my grounding in financial reporting and general ledger management can support your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, as the candidate brings solid foundational accounting, reconciliation, and software skills that match the reporting needs of the role, though corporate finance experience is mostly academic.\nGap: The job description does not detail specific regional requirements, but the candidate is currently based in Nigeria.",
    "handled": false,
    "requirements": []
   },
@@ -476,32 +476,12 @@
    "requirements": []
   },
   {
-   "title": "Accounting Assistant",
-   "company": "Commercial and Residential Management Group",
-   "score": 50,
-   "url": "https://jooble.org/jdp/1639494944979321917",
-   "letter": "Dear Hiring Manager,\n\nJoining the accounting team at Commercial and Residential Management Group as an Accounting Assistant offers an opportunity to apply practical financial administration skills to support corporate operations. My background in maintaining structured financial records and supporting accounting departments directly aligns with the needs of your corporate accounting team.\n\nDuring my recent role in the Bursary Department at the Nigerian College of Aviation Technology, I managed receipt and payment records across multiple revenue streams and processed internally generated revenue transactions. I regularly prepared journal postings and assisted with month-end close activities to help the finance team meet reporting deadlines. Additionally, I investigated inter-departmental account variances and compiled supporting schedules for audit reviews, utilizing accounting software such as QuickBooks and Microsoft Dynamics 365 Business Central alongside advanced Excel.\n\nWhile my professional accounting experience has been gained within an institutional setting rather than commercial property management, my core bookkeeping and reconciliation competencies transfer directly to corporate accounting workflows. I am comfortable adapting to new ledger systems and organizing financial data accurately.\n\nI would welcome the opportunity to discuss how my reconciliation and financial reporting experience can support your team. My full curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate, because the candidate possesses strong general accounting, bookkeeping, and reconciliation skills, though lack of direct property management accounting experience is a slight gap.\nGap: No direct experience in commercial or residential property management accounting.",
-   "handled": false,
-   "requirements": []
-  },
-  {
    "title": "Remote Academic Administrators",
    "company": "Learnsignal",
    "score": 50,
    "url": "https://jobs.smartyacad.com/remote-academic-administrators-at-learnsignal/",
    "letter": "Dear Aaneesha,\n\nCoordinating international training programmes and keeping complex schedules running smoothly requires precise organisation and dependable communication. The Remote Academic Administrator role at Learnsignal offers an exciting opportunity to apply structured administrative habits to educational operations.\n\nDuring my recent national service in the bursary department of the Nigerian College of Aviation Technology, I managed extensive records, tracked revenue streams, and resolved inter-departmental queries with close attention to detail. My background in accounting from Obafemi Awolowo University has trained me to handle sensitive learner records, meet strict reporting deadlines, and coordinate communication across different groups efficiently. Furthermore, my administrative responsibilities as a general secretary involved maintaining clear schedules, handling formal correspondence, and organising executive documentation to support institutional continuity.\n\nAlthough my direct background is in finance administration rather than education management, my experience in processing records, managing inquiries, and keeping workflows organised translates naturally to academic coordination. I am eager to bring this same methodical approach to supporting your tutors, learners, and course content.\n\nI would welcome the opportunity to discuss how my administrative background aligns with your requirements. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Moderate fit because the candidate brings strong administrative, record-keeping, and communication skills from finance and leadership roles, though formal experience is in finance administration rather than education administration.\nGap: Lacks direct 1-2 years of experience specifically in education administration.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Goonite Hygiene is Recruiting for Entry Level Roles | Apply Now",
-   "company": "Dixcover Hub listing",
-   "score": 50,
-   "url": "https://jobs.smartyacad.com/goonite-hygiene-is-recruiting-for-entry-level-roles/",
-   "letter": "Dear Hiring Manager,\n\nManaging internal records and tracking orders at Goonite Hygiene Products FZE aligns closely with my background in handling administrative workflows and financial documentation. My training in accounting at Obafemi Awolowo University has provided me with a strong foundation in accurate record keeping and systematic organisation.\n\nDuring my recent service year at the Nigerian College of Aviation Technology, I managed receipt and payment records while investigating and resolving transaction discrepancies. I regularly coordinated with different departments and maintained clear schedules, which relates well to the administrative duties required in this role. Additionally, my familiarity with enterprise tools such as Microsoft Dynamics 365 Business Central and Excel allows me to track data efficiently and support daily operational tasks.\n\nI welcome the opportunity to discuss how my administrative background and attention to detail can support your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit, because the candidate has strong administrative, record-keeping, and coordination experience from NCAT and leadership roles, though the target job is in manufacturing support.\nGap: Experience working directly within a manufacturing or factory environment is not shown in the CV.\nGap: Direct experience in customer service, logistics coordination, or human resources tasks is limited to transferable administrative duties.",
    "handled": false,
    "requirements": []
   },
@@ -516,12 +496,32 @@
    "requirements": []
   },
   {
-   "title": "Finance & Accounting Analyst",
-   "company": "Trajectory Energy Partners",
+   "title": "Finance Officer",
+   "company": "Talent Shore",
    "score": 50,
-   "url": "https://jooble.org/jdp/7087827625752467296",
-   "letter": "Dear Hiring Manager,\n\nStrengthening financial operations and reporting at Trajectory Energy Partners requires a meticulous approach to accounting processes that I have built throughout my early career. The Finance and Accounting Analyst role aligns closely with my background in maintaining accurate financial records and supporting month-end accounting cycles. I am eager to contribute my technical skills to your solar energy and storage development initiatives.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled payment records across multiple revenue streams while investigating inter-departmental variances. I regularly prepared journal postings and supported month-end close activities to help our team meet strict reporting deadlines. Additionally, I am comfortable navigating accounting workflows across several platforms including QuickBooks, Microsoft Dynamics 365 Business Central, and Zoho Books, alongside advanced proficiency in Microsoft Excel.\n\nI look forward to discussing how my grounding in financial reporting and general ledger management can support your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, as the candidate brings solid foundational accounting, reconciliation, and software skills that match the reporting needs of the role, though corporate finance experience is mostly academic.\nGap: The job description does not detail specific regional requirements, but the candidate is currently based in Nigeria.",
+   "url": "https://jooble.org/jdp/581702304726811561",
+   "letter": "Dear Hiring Manager,\n\nThe Finance Officer position at Talent Shore offers a great opportunity to focus on operational finance while broadening my accounting responsibilities. Your emphasis on accounts payable and accounts receivable matches my background in managing transaction records and maintaining financial workflows.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I also processed internally generated revenue transactions, prepared journal postings, and supported month-end close activities to help meet reporting deadlines. My hands-on experience using QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage allows me to manage ledger activity, perform reconciliations, and handle accounts accurately.\n\nI am eager to bring my strong foundation in double-entry bookkeeping, transaction processing, and financial reporting to the Talent Shore team. I look forward to discussing how my operational finance background aligns with your requirements.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit, because your hands-on background in transaction processing, reconciliations, and financial software directly matches the operational finance focus of the role.\nGap: The job is located in the United States, but your CV shows your location as Nigeria.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Accounting Assistant",
+   "company": "Commercial and Residential Management Group",
+   "score": 50,
+   "url": "https://jooble.org/jdp/1639494944979321917",
+   "letter": "Dear Hiring Manager,\n\nJoining the accounting team at Commercial and Residential Management Group as an Accounting Assistant offers an opportunity to apply practical financial administration skills to support corporate operations. My background in maintaining structured financial records and supporting accounting departments directly aligns with the needs of your corporate accounting team.\n\nDuring my recent role in the Bursary Department at the Nigerian College of Aviation Technology, I managed receipt and payment records across multiple revenue streams and processed internally generated revenue transactions. I regularly prepared journal postings and assisted with month-end close activities to help the finance team meet reporting deadlines. Additionally, I investigated inter-departmental account variances and compiled supporting schedules for audit reviews, utilizing accounting software such as QuickBooks and Microsoft Dynamics 365 Business Central alongside advanced Excel.\n\nWhile my professional accounting experience has been gained within an institutional setting rather than commercial property management, my core bookkeeping and reconciliation competencies transfer directly to corporate accounting workflows. I am comfortable adapting to new ledger systems and organizing financial data accurately.\n\nI would welcome the opportunity to discuss how my reconciliation and financial reporting experience can support your team. My full curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate, because the candidate possesses strong general accounting, bookkeeping, and reconciliation skills, though lack of direct property management accounting experience is a slight gap.\nGap: No direct experience in commercial or residential property management accounting.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Goonite Hygiene is Recruiting for Entry Level Roles | Apply Now",
+   "company": "Dixcover Hub listing",
+   "score": 50,
+   "url": "https://jobs.smartyacad.com/goonite-hygiene-is-recruiting-for-entry-level-roles/",
+   "letter": "Dear Hiring Manager,\n\nManaging internal records and tracking orders at Goonite Hygiene Products FZE aligns closely with my background in handling administrative workflows and financial documentation. My training in accounting at Obafemi Awolowo University has provided me with a strong foundation in accurate record keeping and systematic organisation.\n\nDuring my recent service year at the Nigerian College of Aviation Technology, I managed receipt and payment records while investigating and resolving transaction discrepancies. I regularly coordinated with different departments and maintained clear schedules, which relates well to the administrative duties required in this role. Additionally, my familiarity with enterprise tools such as Microsoft Dynamics 365 Business Central and Excel allows me to track data efficiently and support daily operational tasks.\n\nI welcome the opportunity to discuss how my administrative background and attention to detail can support your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate has strong administrative, record-keeping, and coordination experience from NCAT and leadership roles, though the target job is in manufacturing support.\nGap: Experience working directly within a manufacturing or factory environment is not shown in the CV.\nGap: Direct experience in customer service, logistics coordination, or human resources tasks is limited to transferable administrative duties.",
    "handled": false,
    "requirements": []
   },
@@ -546,12 +546,22 @@
    "requirements": []
   },
   {
-   "title": "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub",
+   "title": "Fraud Operations Analyst (Turkey)",
+   "company": "Sezzle",
+   "score": 45,
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-fraud-operations-analyst-turkey",
+   "letter": "Dear Hiring Manager,\n\nProtecting transactions and ensuring a safe journey for shoppers at Sezzle requires sharp analytical skills and careful attention to detail. The role of Fraud Operations Analyst (Turkey) calls for someone who can carefully review flagged user behavior and maintain reliable trust systems. My background in financial administration and transaction review provides a solid foundation for this work.\n\nDuring my time at the Nigerian College of Aviation Technology, I regularly investigated account discrepancies and verified supporting documentation to ensure transactional accuracy. I routinely reviewed payment records across multiple streams, traced transaction details, and resolved variances through careful examination of audit trails. Furthermore, my proficiency in digital accounting tools and advanced Excel has trained me to spot unusual patterns and manage structured data efficiently. I bring this same methodical approach to reviewing customer transactions and identifying potential risks.\n\nWhile my experience is rooted in accounting rather than dedicated fraud operations, my strong background in reconciling ledgers and investigating variances transfers directly to risk analysis. I am quick to learn new technical workflows and adapt to specific platform guidelines for transaction monitoring. My university dissertation also explored transparency and fraud prevention through digital systems, deepening my interest in secure financial environments.\n\nI welcome the chance to discuss how my analytical skills can support Sezzle in safeguarding merchant sales and user interactions. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate. While the candidate possesses strong transactional review and variance investigation skills from an accounting background, direct fraud operations experience is lacking.\nGap: No direct prior experience working as a fraud analyst or monitoring e-commerce payment risk in real time.\nGap: The role specifies location or shift requirements tied to Turkey, which may need alignment with the candidate's remote availability.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub",
    "company": "jobs.smartyacad.com",
    "score": 45,
-   "url": "https://jobs.smartyacad.com/yolat-is-hiring-remote-customer-support-representatives/",
-   "letter": "Dear Hiring Manager,\n\nSupporting international customers with financial transactions at Yolat requires a calm approach and deep familiarity with payment records. The Customer Support Representative position appeals to me because it bridges my background in financial record-keeping with direct user assistance.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I regularly resolved payment discrepancies and responded to account enquiries from staff and students. My daily work involved tracking revenue transactions, verifying payment details and investigating account variances through to a clear resolution. These tasks strengthened my ability to handle financial queries accurately while using structured accounting tools.\n\nWhile my professional background is rooted in accounting rather than dedicated customer support, my experience handling sensitive account records has built my attention to detail. I am confident that my familiarity with transaction workflows will help me assist your users across Nigeria, the United Kingdom and Canada effectively.\n\nI welcome the opportunity to discuss how my record-keeping skills can support your team, and my curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, because the candidate has strong financial record management and enquiry-handling experience from an accounting background, but lacks direct remote customer support experience in fintech or banking.\nGap: Previous formal experience in customer support for banking, fintech or hospitality.",
+   "url": "https://jobs.smartyacad.com/youverify-internship-to-hire-programme-2026/",
+   "letter": "Dear Hiring Manager,\n\nContributing to Youverify as a Data Privacy Analyst intern offers a valuable opportunity to support compliance and risk management solutions. Building secure digital transaction environments requires careful attention to regulatory requirements and structured documentation.\n\nMy background in accounting and compliance at the Nigerian College of Aviation Technology involved maintaining accurate financial records, reviewing documentation, and resolving discrepancies. Through my B.Sc. in Accounting from Obafemi Awolowo University and coursework in business law and auditing, I developed a strong foundation in regulatory standards and data governance. Additionally, my independent digital product projects have strengthened my ability to conduct workflow design, assess process risks, and organise technical requirements.\n\nWhile my primary background is in finance rather than dedicated legal analysis, my experience in audit documentation, variance investigation, and internal controls translates effectively to compliance analysis. I am eager to apply my analytical skills and methodical approach to support your compliance and risk management teams in Lagos.\n\nI would welcome the opportunity to discuss how my analytical background aligns with your needs, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate has strong audit, documentation, and risk review skills, but the job specifically targets legal and data privacy analysts rather than finance roles.\nGap: The candidate lacks formal professional experience in dedicated legal or data privacy analysis, relying instead on audit, compliance coursework, and internal controls experience.",
    "handled": false,
    "requirements": []
   },
@@ -576,86 +586,6 @@
    "requirements": []
   },
   {
-   "title": "Staff Accountant",
-   "company": "H1",
-   "score": 45,
-   "url": "https://jobicy.com/jobs/157010-staff-accountant-3",
-   "letter": "Dear Hiring Manager,\n\nSupporting H1 in maintaining data integrity and ensuring smooth financial operations as a Staff Accountant is an exciting opportunity to apply my background in financial reporting and general ledger management. Your finance team ensures that operational decisions are powered by accurate data, which aligns closely with my experience in maintaining precise accounting records.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure transactions were properly supported. I also prepared journal postings, supported month-end close activities, and investigated inter-departmental account variances to resolve discrepancies. Furthermore, my proficiency in accounting platforms such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central enables me to manage financial workflows, review ledger activity, and compile supporting schedules efficiently.\n\nWhile my practical experience centres on general accounting, revenue records, and ledger management rather than US GAAP ASC 606 specifically, my strong foundation in double-entry bookkeeping and financial controls allows me to adapt quickly to new revenue frameworks. My degree in accounting from Obafemi Awolowo University has also provided me with a solid technical understanding of financial accounting principles.\n\nI welcome the chance to discuss how my reconciliation and month-end support skills can benefit your finance operations. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit, as the candidate possesses solid general ledger, reconciliation, and month-end experience, but lacks direct professional experience with US GAAP and ASC 606 revenue recognition.\nGap: The candidate has not applied US GAAP or ASC 606 revenue recognition principles in a commercial setting.\nGap: The job description mentions a Bachelor's degree in accounting under requirements, which the candidate meets, but does not explicitly detail years of post-qualification experience required beyond the degree.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Fraud Operations Analyst (Turkey)",
-   "company": "Sezzle",
-   "score": 45,
-   "url": "https://weworkremotely.com/remote-jobs/sezzle-fraud-operations-analyst-turkey",
-   "letter": "Dear Hiring Manager,\n\nProtecting transactions and ensuring a safe journey for shoppers at Sezzle requires sharp analytical skills and careful attention to detail. The role of Fraud Operations Analyst (Turkey) calls for someone who can carefully review flagged user behavior and maintain reliable trust systems. My background in financial administration and transaction review provides a solid foundation for this work.\n\nDuring my time at the Nigerian College of Aviation Technology, I regularly investigated account discrepancies and verified supporting documentation to ensure transactional accuracy. I routinely reviewed payment records across multiple streams, traced transaction details, and resolved variances through careful examination of audit trails. Furthermore, my proficiency in digital accounting tools and advanced Excel has trained me to spot unusual patterns and manage structured data efficiently. I bring this same methodical approach to reviewing customer transactions and identifying potential risks.\n\nWhile my experience is rooted in accounting rather than dedicated fraud operations, my strong background in reconciling ledgers and investigating variances transfers directly to risk analysis. I am quick to learn new technical workflows and adapt to specific platform guidelines for transaction monitoring. My university dissertation also explored transparency and fraud prevention through digital systems, deepening my interest in secure financial environments.\n\nI welcome the chance to discuss how my analytical skills can support Sezzle in safeguarding merchant sales and user interactions. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate. While the candidate possesses strong transactional review and variance investigation skills from an accounting background, direct fraud operations experience is lacking.\nGap: No direct prior experience working as a fraud analyst or monitoring e-commerce payment risk in real time.\nGap: The role specifies location or shift requirements tied to Turkey, which may need alignment with the candidate's remote availability.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Implementation Officer (Lagos)",
-   "company": "Moniepoint",
-   "score": 45,
-   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4827872101",
-   "letter": "Dear Hiring Manager,\n\nSupporting retail customers to successfully adopt Moniebook POS into daily store operations through a structured onboarding experience is an exciting opportunity at Moniepoint. This role appeals to me because it bridges finance operations and customer support, matching my background in accounting and record-keeping. Joining your team in Lagos means I can help businesses use financial tools with confidence.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I also investigated inter-departmental account variances and responded directly to staff and student payment enquiries by checking records and coordinating follow-up. Furthermore, my proficiency in accounting software like QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books and Sage demonstrates my strong grasp of financial systems and workflows.\n\nAlthough my direct experience has been within a bursary environment rather than commercial retail software implementation, my background in transaction processing, audit documentation and user enquiries has prepared me well. I am comfortable guiding individuals through financial records and resolving discrepancies with patience and clarity.\n\nI welcome the opportunity to discuss how my record-keeping skills and customer support experience can contribute to your team. My full CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate, because your background is in institutional accounting and bursary operations rather than direct commercial POS implementation or sales.\nGap: Direct field experience in retail merchant onboarding, POS deployment or merchant acquisition.\nGap: Experience working within a commercial fintech or merchant-focused operational team.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Financial Analyst",
-   "company": "CertiK",
-   "score": 45,
-   "url": "https://jobicy.com/jobs/156856-financial-analyst-3",
-   "letter": "Dear Hiring Manager,\n\nThe Financial Analyst position at CertiK offers a chance to build upon foundational accounting skills while supporting complex month-end close processes and detailed reconciliations. Maintaining absolute data integrity across ledgers aligns closely with the record keeping and reconciliation duties I managed during my time at the Nigerian College of Aviation Technology.\n\nAt NCAT, I maintained and reconciled payment records across multiple revenue streams and investigated inter-departmental variances to resolution. I compiled supporting schedules for audit preparation and supported month-end close activities to help the finance team meet reporting deadlines. My hands-on familiarity with tools such as Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel enables me to organise large sets of financial records effectively.\n\nWhile my experience is rooted in traditional accounting rather than Web3 platforms, my background in investigating discrepancies and structuring financial data equips me to adapt quickly to new operational environments. My academic research on blockchain technology in auditing has also provided me with an early perspective on digital asset ecosystems and financial transparency.\n\nI would welcome the opportunity to discuss how my reconciliation and record-keeping experience can support your finance team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit, because the candidate possesses strong foundational reconciliation and month-end support skills but lacks direct Web3 or heavy financial modelling and automation script experience.\nGap: Experience with financial modelling, profitability analysis, and budget model building.\nGap: Experience with automation tools and scripts such as Python, SQL, or Google Apps Script.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Accounting Assistant",
-   "company": "Sonalysts",
-   "score": 45,
-   "url": "https://jooble.org/jdp/8759538217780763852",
-   "letter": "Dear Hiring Manager,\n\nAccurate bookkeeping and reliable administrative support are essential for keeping an accounting team running smoothly at Sonalysts. This Accounting Assistant position directly matches my strong foundation in transaction processing, financial record maintenance, and structured office workflows. I am eager to contribute my recent finance experience to your team in Waterford.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I handled daily ledger maintenance, payment records, and account reconciliations. I routinely reviewed supporting documentation, checked transaction classifications, and investigated variances to ensure every record was accurate. My proficiency in accounting packages like QuickBooks, Sage, and Microsoft Dynamics 365 Business Central enables me to transition smoothly into your data entry and bookkeeping tasks.\n\nAlthough I am currently based in Nigeria and the posting mentions a preference for local candidates, I am fully prepared for remote coordination or relocation logistics depending on your company's hiring policies. My background in accounting and administrative documentation ensures I can pick up your timecard auditing and general bookkeeping workflows with minimal supervision.\n\nI welcome the opportunity to discuss how my reconciliation and bookkeeping skills can support your accounting team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit because the candidate has strong bookkeeping and data entry skills but is located internationally while the role prefers local candidates.\nGap: The candidate is currently based in Nigeria and would need to address relocation or remote work arrangements.\nGap: The job mentions timecard entry and auditing, which the candidate has not done specifically, though general auditing and transaction processing experience is strong.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Finance Administrator",
-   "company": "Cushman & Wakefield",
-   "score": 45,
-   "url": "https://jooble.org/jdp/-7488977661778149353",
-   "letter": "Dear Hiring Manager,\n\nSupporting the financial and operational performance of facilities requires meticulous attention to detail and reliable record-keeping. The Finance Administrator role at Cushman & Wakefield matches my background in maintaining financial controls and processing transactions. I am eager to contribute my accounting foundation to your team.\n\nDuring my recent service year at the Nigerian College of Aviation Technology, I handled bank and account reconciliations and supported month-end close activities. I regularly investigated variances, traced discrepancies, and prepared supporting schedules for audit reviews. My daily work also involved advanced Excel usage and software such as Microsoft Dynamics 365 Business Central and QuickBooks to process financial data accurately.\n\nWhile my experience is based in institutional finance rather than facilities management, my core accounting skills transfer directly to administrative financial duties. I am accustomed to managing financial records, reconciling accounts, and working methodically with spreadsheets to support reporting deadlines.\n\nI welcome the opportunity to discuss how my background aligns with your needs, and my curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong, because the candidate possesses solid reconciliation, ledger, and advanced Excel skills required for the finance administration duties.\nGap: The candidate's experience is in institutional bursary operations rather than facilities management.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Youverify Internship-to-Hire Programme 2026 - Dixcover Hub",
-   "company": "jobs.smartyacad.com",
-   "score": 45,
-   "url": "https://jobs.smartyacad.com/youverify-internship-to-hire-programme-2026/",
-   "letter": "Dear Hiring Manager,\n\nContributing to Youverify as a Data Privacy Analyst intern offers a valuable opportunity to support compliance and risk management solutions. Building secure digital transaction environments requires careful attention to regulatory requirements and structured documentation.\n\nMy background in accounting and compliance at the Nigerian College of Aviation Technology involved maintaining accurate financial records, reviewing documentation, and resolving discrepancies. Through my B.Sc. in Accounting from Obafemi Awolowo University and coursework in business law and auditing, I developed a strong foundation in regulatory standards and data governance. Additionally, my independent digital product projects have strengthened my ability to conduct workflow design, assess process risks, and organise technical requirements.\n\nWhile my primary background is in finance rather than dedicated legal analysis, my experience in audit documentation, variance investigation, and internal controls translates effectively to compliance analysis. I am eager to apply my analytical skills and methodical approach to support your compliance and risk management teams in Lagos.\n\nI would welcome the opportunity to discuss how my analytical background aligns with your needs, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit, because the candidate has strong audit, documentation, and risk review skills, but the job specifically targets legal and data privacy analysts rather than finance roles.\nGap: The candidate lacks formal professional experience in dedicated legal or data privacy analysis, relying instead on audit, compliance coursework, and internal controls experience.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Operations Analyst (Finance)",
-   "company": "Able",
-   "score": 45,
-   "url": "https://jobicy.com/jobs/153745-operations-analyst-finance",
-   "letter": "Dear Hiring Manager,\n\nThe Operations Analyst (Finance) role at Able appeals to me because it combines rigorous financial execution with the opportunity to build clear reporting dashboards for leadership. Managing both day-to-day accounts and financial insights is an exciting challenge that matches my background in accounting and data organization.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled financial records, processed revenue transactions, and prepared journal postings to support month-end close activities. I regularly investigated account variances and compiled supporting schedules to ensure clean audit trails. My proficiency in accounting software like QuickBooks and Microsoft Dynamics Business Central, combined with my advanced Excel skills and working knowledge of Power BI, will help me keep your financial operations running smoothly and build reliable dashboards.\n\nWhile my direct experience is based in traditional accounting rather than LATAM and US payroll systems, my strong foundation in transaction processing, reconciliations, and structured problem-solving means I learn new systems quickly and accurately. I am eager to help Able improve its financial workflows and establish clear reporting capabilities.\n\nI would welcome the opportunity to discuss how my background can support your finance team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate because the candidate has strong general ledger, reconciliation, and month-end skills, but lacks direct experience managing US and LATAM payroll systems.\nGap: Direct experience with LATAM and US payroll execution and multi-jurisdictional contractor payments.\nGap: Advanced dashboard creation experience, though offset by advanced Excel and working Power BI knowledge.",
-   "handled": false,
-   "requirements": []
-  },
-  {
    "title": "Implementation Officer",
    "company": "Moniepoint",
    "score": 45,
@@ -676,6 +606,16 @@
    "requirements": []
   },
   {
+   "title": "Accounting Assistant",
+   "company": "Sonalysts",
+   "score": 45,
+   "url": "https://jooble.org/jdp/8759538217780763852",
+   "letter": "Dear Hiring Manager,\n\nAccurate bookkeeping and reliable administrative support are essential for keeping an accounting team running smoothly at Sonalysts. This Accounting Assistant position directly matches my strong foundation in transaction processing, financial record maintenance, and structured office workflows. I am eager to contribute my recent finance experience to your team in Waterford.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I handled daily ledger maintenance, payment records, and account reconciliations. I routinely reviewed supporting documentation, checked transaction classifications, and investigated variances to ensure every record was accurate. My proficiency in accounting packages like QuickBooks, Sage, and Microsoft Dynamics 365 Business Central enables me to transition smoothly into your data entry and bookkeeping tasks.\n\nAlthough I am currently based in Nigeria and the posting mentions a preference for local candidates, I am fully prepared for remote coordination or relocation logistics depending on your company's hiring policies. My background in accounting and administrative documentation ensures I can pick up your timecard auditing and general bookkeeping workflows with minimal supervision.\n\nI welcome the opportunity to discuss how my reconciliation and bookkeeping skills can support your accounting team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit because the candidate has strong bookkeeping and data entry skills but is located internationally while the role prefers local candidates.\nGap: The candidate is currently based in Nigeria and would need to address relocation or remote work arrangements.\nGap: The job mentions timecard entry and auditing, which the candidate has not done specifically, though general auditing and transaction processing experience is strong.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Product Operations Specialist (w/m/d)",
    "company": "Flinn",
    "score": 45,
@@ -686,12 +626,22 @@
    "requirements": []
   },
   {
-   "title": "Hospitality Operations & Service Coordinator",
-   "company": "Alegría Travel Services",
+   "title": "Operations Analyst (Finance)",
+   "company": "Able",
    "score": 45,
-   "url": "https://himalayas.app/companies/alegria-travel-services/jobs/hospitality-operations-service-coordinator?utm_source=api",
-   "letter": "Dear Hiring Manager,\n\nSupporting hospitality operations at Alegr%C3%ADa Travel Services appeals to me because it relies on structured planning, clear communication and careful record keeping. My background in administrative organisation and client correspondence equips me to help deliver a smooth experience for your clients.\n\nDuring my recent finance role at the Nigerian College of Aviation Technology, I managed receipt records, tracked service payments and resolved administrative discrepancies through diligent follow up. I regularly coordinated with internal staff and external students to address payment inquiries, ensuring that every request received a prompt and accurate response. Furthermore, my administrative experience as a general secretary involved maintaining schedules, preparing formal correspondence and organising digital files to support efficient daily operations.\n\nWhile my professional background is rooted in accounting rather than direct hospitality, the administrative workflows, attention to detail and communication skills required are directly transferable. I am comfortable using spreadsheets, email systems and online tools to manage tasks independently and coordinate effectively with a team.\n\nI welcome the opportunity to discuss how my organisational skills can support your operations. My resume is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit because the candidate has strong administrative, record-keeping, and communication skills, though direct hospitality experience is limited.\nGap: No direct prior experience working in the hospitality or tourism industry.",
+   "url": "https://jobicy.com/jobs/153745-operations-analyst-finance",
+   "letter": "Dear Hiring Manager,\n\nThe Operations Analyst (Finance) role at Able appeals to me because it combines rigorous financial execution with the opportunity to build clear reporting dashboards for leadership. Managing both day-to-day accounts and financial insights is an exciting challenge that matches my background in accounting and data organization.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled financial records, processed revenue transactions, and prepared journal postings to support month-end close activities. I regularly investigated account variances and compiled supporting schedules to ensure clean audit trails. My proficiency in accounting software like QuickBooks and Microsoft Dynamics Business Central, combined with my advanced Excel skills and working knowledge of Power BI, will help me keep your financial operations running smoothly and build reliable dashboards.\n\nWhile my direct experience is based in traditional accounting rather than LATAM and US payroll systems, my strong foundation in transaction processing, reconciliations, and structured problem-solving means I learn new systems quickly and accurately. I am eager to help Able improve its financial workflows and establish clear reporting capabilities.\n\nI would welcome the opportunity to discuss how my background can support your finance team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate because the candidate has strong general ledger, reconciliation, and month-end skills, but lacks direct experience managing US and LATAM payroll systems.\nGap: Direct experience with LATAM and US payroll execution and multi-jurisdictional contractor payments.\nGap: Advanced dashboard creation experience, though offset by advanced Excel and working Power BI knowledge.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Bookkeeper",
+   "company": "Tidewell Accounting",
+   "score": 45,
+   "url": "https://jooble.org/jdp/2739301753783885169",
+   "letter": "Dear Hiring Manager,\n\nKeeping financial records accurate and bills paid on time are tasks that align directly with my background in handling day-to-day accounts. The Bookkeeper position at Tidewell Accounting offers a practical opportunity to apply my accounting training to daily financial operations. Having recently completed my accounting degree and practical training, I am eager to contribute to your Belfast office.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I regularly processed invoices, reviewed transaction details, and performed monthly bank reconciliations to ensure reliable financial records. Furthermore, my proficiency in QuickBooks, Sage, and Microsoft Dynamics 365 Business Central enables me to adapt quickly to your firm's software environment and manage transaction processing efficiently.\n\nI look forward to the possibility of discussing how my bookkeeping experience and attention to detail can support Tidewell Accounting. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit because the candidate has direct practical experience in bank reconciliations, invoice processing, and maintaining accurate financial records using standard accounting software.\nGap: The role is based in Belfast, United Kingdom, and the candidate is currently in Nigeria, meaning visa sponsorship or relocation arrangements would need to be addressed.",
    "handled": false,
    "requirements": []
   },
@@ -706,6 +656,16 @@
    "requirements": []
   },
   {
+   "title": "Financial Analyst",
+   "company": "CertiK",
+   "score": 45,
+   "url": "https://jobicy.com/jobs/156856-financial-analyst-3",
+   "letter": "Dear Hiring Manager,\n\nThe Financial Analyst position at CertiK offers a chance to build upon foundational accounting skills while supporting complex month-end close processes and detailed reconciliations. Maintaining absolute data integrity across ledgers aligns closely with the record keeping and reconciliation duties I managed during my time at the Nigerian College of Aviation Technology.\n\nAt NCAT, I maintained and reconciled payment records across multiple revenue streams and investigated inter-departmental variances to resolution. I compiled supporting schedules for audit preparation and supported month-end close activities to help the finance team meet reporting deadlines. My hands-on familiarity with tools such as Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel enables me to organise large sets of financial records effectively.\n\nWhile my experience is rooted in traditional accounting rather than Web3 platforms, my background in investigating discrepancies and structuring financial data equips me to adapt quickly to new operational environments. My academic research on blockchain technology in auditing has also provided me with an early perspective on digital asset ecosystems and financial transparency.\n\nI would welcome the opportunity to discuss how my reconciliation and record-keeping experience can support your finance team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate possesses strong foundational reconciliation and month-end support skills but lacks direct Web3 or heavy financial modelling and automation script experience.\nGap: Experience with financial modelling, profitability analysis, and budget model building.\nGap: Experience with automation tools and scripts such as Python, SQL, or Google Apps Script.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Financial Administrator",
    "company": "Somewhere",
    "score": 45,
@@ -716,12 +676,22 @@
    "requirements": []
   },
   {
-   "title": "Bookkeeper",
-   "company": "Tidewell Accounting",
+   "title": "Staff Accountant",
+   "company": "H1",
    "score": 45,
-   "url": "https://jooble.org/jdp/2739301753783885169",
-   "letter": "Dear Hiring Manager,\n\nKeeping financial records accurate and bills paid on time are tasks that align directly with my background in handling day-to-day accounts. The Bookkeeper position at Tidewell Accounting offers a practical opportunity to apply my accounting training to daily financial operations. Having recently completed my accounting degree and practical training, I am eager to contribute to your Belfast office.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I regularly processed invoices, reviewed transaction details, and performed monthly bank reconciliations to ensure reliable financial records. Furthermore, my proficiency in QuickBooks, Sage, and Microsoft Dynamics 365 Business Central enables me to adapt quickly to your firm's software environment and manage transaction processing efficiently.\n\nI look forward to the possibility of discussing how my bookkeeping experience and attention to detail can support Tidewell Accounting. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit because the candidate has direct practical experience in bank reconciliations, invoice processing, and maintaining accurate financial records using standard accounting software.\nGap: The role is based in Belfast, United Kingdom, and the candidate is currently in Nigeria, meaning visa sponsorship or relocation arrangements would need to be addressed.",
+   "url": "https://jobicy.com/jobs/157010-staff-accountant-3",
+   "letter": "Dear Hiring Manager,\n\nSupporting H1 in maintaining data integrity and ensuring smooth financial operations as a Staff Accountant is an exciting opportunity to apply my background in financial reporting and general ledger management. Your finance team ensures that operational decisions are powered by accurate data, which aligns closely with my experience in maintaining precise accounting records.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure transactions were properly supported. I also prepared journal postings, supported month-end close activities, and investigated inter-departmental account variances to resolve discrepancies. Furthermore, my proficiency in accounting platforms such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central enables me to manage financial workflows, review ledger activity, and compile supporting schedules efficiently.\n\nWhile my practical experience centres on general accounting, revenue records, and ledger management rather than US GAAP ASC 606 specifically, my strong foundation in double-entry bookkeeping and financial controls allows me to adapt quickly to new revenue frameworks. My degree in accounting from Obafemi Awolowo University has also provided me with a solid technical understanding of financial accounting principles.\n\nI welcome the chance to discuss how my reconciliation and month-end support skills can benefit your finance operations. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, as the candidate possesses solid general ledger, reconciliation, and month-end experience, but lacks direct professional experience with US GAAP and ASC 606 revenue recognition.\nGap: The candidate has not applied US GAAP or ASC 606 revenue recognition principles in a commercial setting.\nGap: The job description mentions a Bachelor's degree in accounting under requirements, which the candidate meets, but does not explicitly detail years of post-qualification experience required beyond the degree.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Hospitality Operations & Service Coordinator",
+   "company": "Alegría Travel Services",
+   "score": 45,
+   "url": "https://himalayas.app/companies/alegria-travel-services/jobs/hospitality-operations-service-coordinator?utm_source=api",
+   "letter": "Dear Hiring Manager,\n\nSupporting hospitality operations at Alegr%C3%ADa Travel Services appeals to me because it relies on structured planning, clear communication and careful record keeping. My background in administrative organisation and client correspondence equips me to help deliver a smooth experience for your clients.\n\nDuring my recent finance role at the Nigerian College of Aviation Technology, I managed receipt records, tracked service payments and resolved administrative discrepancies through diligent follow up. I regularly coordinated with internal staff and external students to address payment inquiries, ensuring that every request received a prompt and accurate response. Furthermore, my administrative experience as a general secretary involved maintaining schedules, preparing formal correspondence and organising digital files to support efficient daily operations.\n\nWhile my professional background is rooted in accounting rather than direct hospitality, the administrative workflows, attention to detail and communication skills required are directly transferable. I am comfortable using spreadsheets, email systems and online tools to manage tasks independently and coordinate effectively with a team.\n\nI welcome the opportunity to discuss how my organisational skills can support your operations. My resume is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit because the candidate has strong administrative, record-keeping, and communication skills, though direct hospitality experience is limited.\nGap: No direct prior experience working in the hospitality or tourism industry.",
    "handled": false,
    "requirements": []
   },
@@ -746,22 +716,32 @@
    "requirements": []
   },
   {
-   "title": "Accounting Assistant",
-   "company": "RFA Engineering",
-   "score": 40,
-   "url": "https://jooble.org/jdp/2567770189870130973",
-   "letter": "Dear Hiring Manager,\n\nRecent graduates and early career professionals looking to apply their academic training in a practical setting will find the Accounting Assistant position at RFA Engineering an ideal opportunity. This role matches my background in financial reporting and my eagerness to build a solid accounting career. Supporting your team would allow me to apply the core competencies I developed during my recent finance training and practical service.\n\nDuring my eleven months in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled revenue and payment records across multiple streams. I prepared journal postings, supported month-end close activities, and investigated inter-departmental account variances to ensure reliable financial records. Additionally, my work involved preparing supporting schedules for audit reviews and using software tools such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central to streamline general ledger workflows.\n\nMy Bachelor of Science in Accounting from Obafemi Awolowo University provided a strong foundation in double-entry bookkeeping, taxation, and corporate finance. I am ready to bring my working knowledge of advanced Excel and financial controls to help your accounting team maintain accurate records and meet reporting deadlines.\n\nI would welcome the opportunity to discuss how my practical accounting background aligns with your needs, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Strong fit, because your recent bursary experience, software proficiency, and accounting degree directly match the requirements for an entry-level accounting assistant.\nGap: None.",
+   "title": "Yolat is Hiring Remote Customer Support Representatives - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "score": 45,
+   "url": "https://jobs.smartyacad.com/yolat-is-hiring-remote-customer-support-representatives/",
+   "letter": "Dear Hiring Manager,\n\nSupporting international customers with financial transactions at Yolat requires a calm approach and deep familiarity with payment records. The Customer Support Representative position appeals to me because it bridges my background in financial record-keeping with direct user assistance.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I regularly resolved payment discrepancies and responded to account enquiries from staff and students. My daily work involved tracking revenue transactions, verifying payment details and investigating account variances through to a clear resolution. These tasks strengthened my ability to handle financial queries accurately while using structured accounting tools.\n\nWhile my professional background is rooted in accounting rather than dedicated customer support, my experience handling sensitive account records has built my attention to detail. I am confident that my familiarity with transaction workflows will help me assist your users across Nigeria, the United Kingdom and Canada effectively.\n\nI welcome the opportunity to discuss how my record-keeping skills can support your team, and my curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, because the candidate has strong financial record management and enquiry-handling experience from an accounting background, but lacks direct remote customer support experience in fintech or banking.\nGap: Previous formal experience in customer support for banking, fintech or hospitality.",
    "handled": false,
    "requirements": []
   },
   {
-   "title": "Sr. Analyst, Fund Controlling",
-   "company": "Gridline, LLC",
-   "score": 40,
-   "url": "https://himalayas.app/companies/gridline-llc/jobs/sr-analyst-fund-controlling?utm_source=api",
-   "letter": "Dear Hiring Manager,\n\nBuilding single, auditable systems of record to bring public market standards to private investing requires careful general ledger control and rigorous month-end discipline. The role of Sr. Analyst, Fund Controlling at Gridline, LLC offers a compelling opportunity to contribute to these foundations through precise accounting operations and financial reporting. My background in maintaining financial records, executing reconciliations, and supporting close processes aligns directly with the analytical demands of managing alternative investment vehicles.\n\nDuring my time in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure complete accuracy. I prepared journal postings and supported month-end close activities, helping our finance team consistently meet reporting deadlines. Additionally, I investigated account variances, traced discrepancies to supporting documents, and compiled schedules for audit preparation. My familiarity with Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel has equipped me to manage structured general ledger activity and detailed transactional data effectively.\n\nWhile my professional experience is focused on public sector accounting rather than private market fund operations, my strong foundation in double-entry bookkeeping, account reconciliations, and financial reporting transfers directly to fund controlling tasks. I am eager to apply my technical accounting skills to support net asset value production, capital lifecycle calculations, and cash reconciliations within your team.\n\nI welcome the opportunity to discuss how my reconciliation experience and attention to detail can support Gridline, LLC. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Moderate fit, as the candidate possesses solid general ledger reconciliation and month-end close experience but lacks direct exposure to alternative investment fund controlling or Net Asset Value (NAV) production.\nGap: Direct experience with private market fund controlling, capital lifecycle calculations, and NAV production.\nGap: Experience working within alternative investment vehicles or fund administration.",
+   "title": "Implementation Officer (Lagos)",
+   "company": "Moniepoint",
+   "score": 45,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4827872101",
+   "letter": "Dear Hiring Manager,\n\nSupporting retail customers to successfully adopt Moniebook POS into daily store operations through a structured onboarding experience is an exciting opportunity at Moniepoint. This role appeals to me because it bridges finance operations and customer support, matching my background in accounting and record-keeping. Joining your team in Lagos means I can help businesses use financial tools with confidence.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I also investigated inter-departmental account variances and responded directly to staff and student payment enquiries by checking records and coordinating follow-up. Furthermore, my proficiency in accounting software like QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books and Sage demonstrates my strong grasp of financial systems and workflows.\n\nAlthough my direct experience has been within a bursary environment rather than commercial retail software implementation, my background in transaction processing, audit documentation and user enquiries has prepared me well. I am comfortable guiding individuals through financial records and resolving discrepancies with patience and clarity.\n\nI welcome the opportunity to discuss how my record-keeping skills and customer support experience can contribute to your team. My full CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate, because your background is in institutional accounting and bursary operations rather than direct commercial POS implementation or sales.\nGap: Direct field experience in retail merchant onboarding, POS deployment or merchant acquisition.\nGap: Experience working within a commercial fintech or merchant-focused operational team.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Finance Administrator",
+   "company": "Cushman & Wakefield",
+   "score": 45,
+   "url": "https://jooble.org/jdp/-7488977661778149353",
+   "letter": "Dear Hiring Manager,\n\nSupporting the financial and operational performance of facilities requires meticulous attention to detail and reliable record-keeping. The Finance Administrator role at Cushman & Wakefield matches my background in maintaining financial controls and processing transactions. I am eager to contribute my accounting foundation to your team.\n\nDuring my recent service year at the Nigerian College of Aviation Technology, I handled bank and account reconciliations and supported month-end close activities. I regularly investigated variances, traced discrepancies, and prepared supporting schedules for audit reviews. My daily work also involved advanced Excel usage and software such as Microsoft Dynamics 365 Business Central and QuickBooks to process financial data accurately.\n\nWhile my experience is based in institutional finance rather than facilities management, my core accounting skills transfer directly to administrative financial duties. I am accustomed to managing financial records, reconciling accounts, and working methodically with spreadsheets to support reporting deadlines.\n\nI welcome the opportunity to discuss how my background aligns with your needs, and my curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong, because the candidate possesses solid reconciliation, ledger, and advanced Excel skills required for the finance administration duties.\nGap: The candidate's experience is in institutional bursary operations rather than facilities management.",
    "handled": false,
    "requirements": []
   },
@@ -776,22 +756,12 @@
    "requirements": []
   },
   {
-   "title": "Accounts Payable Specialist",
-   "company": "Samsara",
+   "title": "Sr. Analyst, Fund Controlling",
+   "company": "Gridline, LLC",
    "score": 40,
-   "url": "https://himalayas.app/companies/samsara/jobs/accounts-payable-specialist?utm_source=api",
-   "letter": "Dear Hiring Manager,\n\nSupporting Samsara in ensuring invoices and payments are processed accurately and efficiently aligns closely with my background in maintaining financial records and managing transaction workflows. The opportunity to join the team as an Accounts Payable Specialist appeals to me because it allows me to support the internal processes that keep physical operations moving.\n\nDuring my time at the Nigerian College of Aviation Technology, I processed revenue and payment records, reconciled accounts across multiple streams, and investigated variances to ensure proper documentation. I am comfortable navigating financial software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central to record transactions and review ledger activity. My training in B.Sc. Accounting at Obafemi Awolowo University has also provided me with a solid grounding in double-entry bookkeeping and financial controls.\n\nI look forward to discussing how my experience in transaction processing and account reconciliations can support your team. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit, because the candidate has solid general accounting, payment processing, and reconciliation experience using standard financial systems, though the role is specifically based in Mexico while the candidate is based in Nigeria.\nGap: The candidate is based in Nigeria while the role is located in Mexico.",
-   "handled": false,
-   "requirements": []
-  },
-  {
-   "title": "Accounting Specialist",
-   "company": "Ethical Plumbing Services",
-   "score": 40,
-   "url": "https://jooble.org/jdp/-2764151357832739731",
-   "letter": "Dear Hiring Manager,\n\nAnalyzing financial information to support an accounting department is a responsibility I am ready to take on as an Accounting Specialist at Ethical Plumbing Services. My background in financial reporting and general ledger management aligns directly with the duties outlined for this role. Building upon a solid academic foundation and practical bookkeeping experience, I aim to contribute reliable financial support to your team.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I maintained and reconciled payment records across multiple revenue streams. I also prepared journal postings and supported month-end close activities to help our team meet strict reporting deadlines. Additionally, I am comfortable navigating accounting workflows in software packages such as QuickBooks and Microsoft Dynamics 365 Business Central.\n\nI welcome the opportunity to discuss how my practical accounting background can benefit your department. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong, because the candidate has direct experience with general ledger work, reconciliations, month-end support, and accounting software that match the role requirements.\nGap: None noted from the provided job description.",
+   "url": "https://himalayas.app/companies/gridline-llc/jobs/sr-analyst-fund-controlling?utm_source=api",
+   "letter": "Dear Hiring Manager,\n\nBuilding single, auditable systems of record to bring public market standards to private investing requires careful general ledger control and rigorous month-end discipline. The role of Sr. Analyst, Fund Controlling at Gridline, LLC offers a compelling opportunity to contribute to these foundations through precise accounting operations and financial reporting. My background in maintaining financial records, executing reconciliations, and supporting close processes aligns directly with the analytical demands of managing alternative investment vehicles.\n\nDuring my time in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams to ensure complete accuracy. I prepared journal postings and supported month-end close activities, helping our finance team consistently meet reporting deadlines. Additionally, I investigated account variances, traced discrepancies to supporting documents, and compiled schedules for audit preparation. My familiarity with Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel has equipped me to manage structured general ledger activity and detailed transactional data effectively.\n\nWhile my professional experience is focused on public sector accounting rather than private market fund operations, my strong foundation in double-entry bookkeeping, account reconciliations, and financial reporting transfers directly to fund controlling tasks. I am eager to apply my technical accounting skills to support net asset value production, capital lifecycle calculations, and cash reconciliations within your team.\n\nI welcome the opportunity to discuss how my reconciliation experience and attention to detail can support Gridline, LLC. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, as the candidate possesses solid general ledger reconciliation and month-end close experience but lacks direct exposure to alternative investment fund controlling or Net Asset Value (NAV) production.\nGap: Direct experience with private market fund controlling, capital lifecycle calculations, and NAV production.\nGap: Experience working within alternative investment vehicles or fund administration.",
    "handled": false,
    "requirements": []
   },
@@ -806,6 +776,26 @@
    "requirements": []
   },
   {
+   "title": "Accounting Specialist",
+   "company": "Ethical Plumbing Services",
+   "score": 40,
+   "url": "https://jooble.org/jdp/-2764151357832739731",
+   "letter": "Dear Hiring Manager,\n\nAnalyzing financial information to support an accounting department is a responsibility I am ready to take on as an Accounting Specialist at Ethical Plumbing Services. My background in financial reporting and general ledger management aligns directly with the duties outlined for this role. Building upon a solid academic foundation and practical bookkeeping experience, I aim to contribute reliable financial support to your team.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I maintained and reconciled payment records across multiple revenue streams. I also prepared journal postings and supported month-end close activities to help our team meet strict reporting deadlines. Additionally, I am comfortable navigating accounting workflows in software packages such as QuickBooks and Microsoft Dynamics 365 Business Central.\n\nI welcome the opportunity to discuss how my practical accounting background can benefit your department. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong, because the candidate has direct experience with general ledger work, reconciliations, month-end support, and accounting software that match the role requirements.\nGap: None noted from the provided job description.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Accounts Payable Specialist",
+   "company": "Samsara",
+   "score": 40,
+   "url": "https://himalayas.app/companies/samsara/jobs/accounts-payable-specialist?utm_source=api",
+   "letter": "Dear Hiring Manager,\n\nSupporting Samsara in ensuring invoices and payments are processed accurately and efficiently aligns closely with my background in maintaining financial records and managing transaction workflows. The opportunity to join the team as an Accounts Payable Specialist appeals to me because it allows me to support the internal processes that keep physical operations moving.\n\nDuring my time at the Nigerian College of Aviation Technology, I processed revenue and payment records, reconciled accounts across multiple streams, and investigated variances to ensure proper documentation. I am comfortable navigating financial software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central to record transactions and review ledger activity. My training in B.Sc. Accounting at Obafemi Awolowo University has also provided me with a solid grounding in double-entry bookkeeping and financial controls.\n\nI look forward to discussing how my experience in transaction processing and account reconciliations can support your team. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate has solid general accounting, payment processing, and reconciliation experience using standard financial systems, though the role is specifically based in Mexico while the candidate is based in Nigeria.\nGap: The candidate is based in Nigeria while the role is located in Mexico.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Accounting Assistant",
    "company": "The Hatch Group",
    "score": 40,
@@ -816,12 +806,12 @@
    "requirements": []
   },
   {
-   "title": "Job posting",
-   "company": "example.com",
-   "score": 15,
-   "url": "https://example.com/jobs/test-accountant-2026",
-   "letter": "Dear Hiring Manager,\n\nAssisting international users with seamless payments and account access at Yolat requires a calm, structured approach to resolving enquiries. This Customer Support Representative role matches my background in managing financial records and handling client requests across multiple channels.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I regularly responded to staff and student payment enquiries by checking records and coordinating follow-up. I managed receipt records and investigated account discrepancies, ensuring every issue was traced through to clear resolution. My experience with structured financial software and documentation has trained me to pay close attention to detail when guiding users through complex transaction problems.\n\nWhile my professional background is rooted in accounting rather than dedicated fintech support, my daily work involved investigating transaction variances and resolving payment discrepancies with patience. I am well-prepared to apply these same problem-solving habits to in-app chat and WhatsApp interactions.\n\nI welcome the opportunity to discuss how my communication skills and commitment to accuracy can support your customers in Nigeria, the UK and Canada. My complete curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Moderate fit, because the candidate brings strong problem-solving and transaction-handling experience from an accounting background, though lack of direct fintech or banking customer support experience requires highlighting transferable skills.\nGap: Previous work experience specifically in banking, fintech or hospitality.",
+   "title": "Accounting Assistant",
+   "company": "RFA Engineering",
+   "score": 40,
+   "url": "https://jooble.org/jdp/2567770189870130973",
+   "letter": "Dear Hiring Manager,\n\nRecent graduates and early career professionals looking to apply their academic training in a practical setting will find the Accounting Assistant position at RFA Engineering an ideal opportunity. This role matches my background in financial reporting and my eagerness to build a solid accounting career. Supporting your team would allow me to apply the core competencies I developed during my recent finance training and practical service.\n\nDuring my eleven months in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled revenue and payment records across multiple streams. I prepared journal postings, supported month-end close activities, and investigated inter-departmental account variances to ensure reliable financial records. Additionally, my work involved preparing supporting schedules for audit reviews and using software tools such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central to streamline general ledger workflows.\n\nMy Bachelor of Science in Accounting from Obafemi Awolowo University provided a strong foundation in double-entry bookkeeping, taxation, and corporate finance. I am ready to bring my working knowledge of advanced Excel and financial controls to help your accounting team maintain accurate records and meet reporting deadlines.\n\nI would welcome the opportunity to discuss how my practical accounting background aligns with your needs, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit, because your recent bursary experience, software proficiency, and accounting degree directly match the requirements for an entry-level accounting assistant.\nGap: None.",
    "handled": false,
    "requirements": []
   },
@@ -836,13 +826,13 @@
    "requirements": []
   },
   {
-   "title": "Access Bank Entry Level Training Programme 2026 - Dixcover Hub",
-   "company": "jobs.smartyacad.com",
-   "score": 0,
-   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
-   "letter": "Dear Hiring Manager,\n\nBeginning a professional banking career through the Access Bank Entry Level Training Programme 2026 presents a valuable opportunity to build upon my foundation in finance. Working within a leading financial services institution aligns well with my ambition to apply my background in accounting and numerical analysis.\n\nDuring my recent experience in the Bursary Department at the Nigerian College of Aviation Technology, I managed financial records, processed internally generated revenue transactions, and supported month-end close activities. I regularly reconciled accounts and investigated variances to ensure reliable financial reporting, utilizing tools such as Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel. Holding a Bachelor of Science in Accounting from Obafemi Awolowo University has equipped me with a strong understanding of financial controls and transaction processing.\n\nI look forward to discussing how my numerical accuracy and operational experience can contribute to the training programme. My updated curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
-   "notes": "Fit: Strong fit, as the candidate possesses a relevant bachelor's degree in accounting, practical financial experience, and meets all stated educational and entry-level criteria.\nGap: None.",
-   "handled": true,
+   "title": "Job posting",
+   "company": "example.com",
+   "score": 15,
+   "url": "https://example.com/jobs/test-accountant-2026",
+   "letter": "Dear Hiring Manager,\n\nAssisting international users with seamless payments and account access at Yolat requires a calm, structured approach to resolving enquiries. This Customer Support Representative role matches my background in managing financial records and handling client requests across multiple channels.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I regularly responded to staff and student payment enquiries by checking records and coordinating follow-up. I managed receipt records and investigated account discrepancies, ensuring every issue was traced through to clear resolution. My experience with structured financial software and documentation has trained me to pay close attention to detail when guiding users through complex transaction problems.\n\nWhile my professional background is rooted in accounting rather than dedicated fintech support, my daily work involved investigating transaction variances and resolving payment discrepancies with patience. I am well-prepared to apply these same problem-solving habits to in-app chat and WhatsApp interactions.\n\nI welcome the opportunity to discuss how my communication skills and commitment to accuracy can support your customers in Nigeria, the UK and Canada. My complete curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate brings strong problem-solving and transaction-handling experience from an accounting background, though lack of direct fintech or banking customer support experience requires highlighting transferable skills.\nGap: Previous work experience specifically in banking, fintech or hospitality.",
+   "handled": false,
    "requirements": []
   },
   {
@@ -864,19 +854,29 @@
    "notes": "Fit: Strong, because you meet the NYSC completion requirement and hold a strong accounting degree with practical finance experience, though you should verify your age against their upper limit.\nGap: Age requirement (ensure you are not older than 24 as at the date of application).",
    "handled": false,
    "requirements": []
+  },
+  {
+   "title": "Access Bank Entry Level Training Programme 2026 - Dixcover Hub",
+   "company": "jobs.smartyacad.com",
+   "score": 0,
+   "url": "https://jobs.smartyacad.com/access-bank-entry-level-training-programme-2026/",
+   "letter": "Dear Hiring Manager,\n\nBeginning a professional banking career through the Access Bank Entry Level Training Programme 2026 presents a valuable opportunity to build upon my foundation in finance. Working within a leading financial services institution aligns well with my ambition to apply my background in accounting and numerical analysis.\n\nDuring my recent experience in the Bursary Department at the Nigerian College of Aviation Technology, I managed financial records, processed internally generated revenue transactions, and supported month-end close activities. I regularly reconciled accounts and investigated variances to ensure reliable financial reporting, utilizing tools such as Microsoft Dynamics 365 Business Central, QuickBooks, and advanced Excel. Holding a Bachelor of Science in Accounting from Obafemi Awolowo University has equipped me with a strong understanding of financial controls and transaction processing.\n\nI look forward to discussing how my numerical accuracy and operational experience can contribute to the training programme. My updated curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Strong fit, as the candidate possesses a relevant bachelor's degree in accounting, practical financial experience, and meets all stated educational and entry-level criteria.\nGap: None.",
+   "handled": true,
+   "requirements": []
   }
  ],
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-26T06:23+00:00",
+ "last_run": "2026-11-26T06:45+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 38 fetched, 11 passed filter",
   "- jobicy: 43 fetched, 37 passed filter",
   "- remoteok: 100 fetched, 50 passed filter",
-  "- greenhouse: 66 fetched, 34 passed filter",
+  "- greenhouse: 64 fetched, 34 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
@@ -887,15 +887,12 @@
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
   "- weworkremotely: 100 fetched, 48 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
-  "  - Greenhouse Moniepoint: 66 jobs",
+  "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 11 linked pages",
-  "- 28 jobs older than 30 days skipped",
-  "- 45 new jobs sent to scoring",
-  "- Top scores (threshold is 55):",
-  "  - 10: Principal Data Scientist at Upstart. Blockers: Principal-level data science experience required; candidate is entry-level in accounting and finance.",
-  "  - 5: Head of Technology & Data Partnerships at 6sense. Blockers: Senior executive-level leadership experience required",
+  "  - Dixcover Hub: opened 10 linked pages",
+  "- 26 jobs older than 30 days skipped",
+  "- 43 new jobs sent to scoring",
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "stats": {
@@ -11423,7 +11420,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/upstart-principal-data-scientist",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -15208,7 +15205,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/6sense-head-of-technology-data-partnerships",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -17571,6 +17568,44 @@
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-26T06:45+00:00",
+   "report": [
+    "Last run: 2026-11-26T06:45+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 476 postings in total, and 234 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "0 postings were scored against your CV this run.",
+    "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "No application emails were sent this run.",
+    "Overall, 42 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 9 passed filter",
+    "- workingnomads: 38 fetched, 11 passed filter",
+    "- jobicy: 43 fetched, 37 passed filter",
+    "- remoteok: 100 fetched, 50 passed filter",
+    "- greenhouse: 64 fetched, 34 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 45 fetched, 22 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 21 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 48 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 64 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 10 linked pages",
+    "- 26 jobs older than 30 days skipped",
+    "- 43 new jobs sent to scoring",
+    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+   ]
+  },
   {
    "last_run": "2026-11-26T06:23+00:00",
    "report": [

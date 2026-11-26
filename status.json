@@ -1,12 +1,12 @@
 {
- "last_run": "2026-11-26T06:23+00:00",
+ "last_run": "2026-11-26T06:45+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 38 fetched, 11 passed filter",
   "- jobicy: 43 fetched, 37 passed filter",
   "- remoteok: 100 fetched, 50 passed filter",
-  "- greenhouse: 66 fetched, 34 passed filter",
+  "- greenhouse: 64 fetched, 34 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
@@ -17,15 +17,12 @@
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
   "- weworkremotely: 100 fetched, 48 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
-  "  - Greenhouse Moniepoint: 66 jobs",
+  "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 11 linked pages",
-  "- 28 jobs older than 30 days skipped",
-  "- 45 new jobs sent to scoring",
-  "- Top scores (threshold is 55):",
-  "  - 10: Principal Data Scientist at Upstart. Blockers: Principal-level data science experience required; candidate is entry-level in accounting and finance.",
-  "  - 5: Head of Technology & Data Partnerships at 6sense. Blockers: Senior executive-level leadership experience required",
+  "  - Dixcover Hub: opened 10 linked pages",
+  "- 26 jobs older than 30 days skipped",
+  "- 43 new jobs sent to scoring",
   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
  ],
  "report": {
@@ -63,7 +60,7 @@
    {
     "name": "greenhouse",
     "ok": true,
-    "fetched": 66,
+    "fetched": 64,
     "passed": 34
    },
    {
@@ -127,8 +124,8 @@
     "passed": 0
    }
   ],
-  "new_to_score": 45,
-  "scored": 2,
+  "new_to_score": 43,
+  "scored": 0,
   "scoring_failed": 1,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
@@ -136,10 +133,8 @@
   ]
  },
  "emails": {
-  "sent": 1,
-  "eligible": 1,
-  "names": [
-   "Job posting at example.com"
-  ]
+  "sent": 0,
+  "eligible": 0,
+  "names": []
  }
 }

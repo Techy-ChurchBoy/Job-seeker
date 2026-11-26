@@ -1,5 +1,13 @@
 [
  {
+  "message_id": "<df3de1886e054d6692cac4255c6735bc@VI1PR04MB4493.eurprd04.prod.outlook.com>",
+  "received": "2026-11-26T06:24+00:00",
+  "from": "hr@sop-consulting.com",
+  "subject": "Automatic reply: Application: Job posting",
+  "company": "example.com",
+  "application": "Job posting"
+ },
+ {
   "message_id": "<198324463.26875218.1795643437021@lva2-app66876.prod.linkedin.com>",
   "received": "2026-11-25T21:50+00:00",
   "from": "messages-noreply@linkedin.com",
