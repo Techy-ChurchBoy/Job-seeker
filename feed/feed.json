@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-26 16:05 UTC",
+ "generated": "2026-11-26 16:55 UTC",
  "report": [
-  "Last run: 2026-11-26T06:45+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 476 postings in total, and 234 matched your skills.",
+  "Last run: 2026-11-26T16:52+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 476 postings in total, and 216 matched your skills.",
   "These sources could not be reached: themuse.",
-  "0 postings were scored against your CV this run.",
-  "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+  "75 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+  "7 cover letters were written.",
   "No application emails were sent this run.",
-  "Overall, 42 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -16,27 +16,27 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 174,
-    "week": 925,
+    "today": 251,
+    "week": 1002,
     "limited": 4,
-    "overloaded": 214,
-    "tokens_in": 843313,
-    "tokens_out": 60685
+    "overloaded": 216,
+    "tokens_in": 947941,
+    "tokens_out": 67725
    },
    {
     "process": "letters",
-    "today": 5,
-    "week": 112,
+    "today": 13,
+    "week": 120,
     "limited": 1,
-    "overloaded": 64,
-    "tokens_in": 83984,
-    "tokens_out": 39049
+    "overloaded": 65,
+    "tokens_in": 98539,
+    "tokens_out": 44823
    },
    {
     "process": "web_search",
-    "today": 20,
-    "week": 64,
-    "limited": 64,
+    "today": 24,
+    "week": 68,
+    "limited": 68,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -83,6 +83,16 @@
    "letter": "Dear Hiring Manager,\n\nThe Kleenol Nigeria Limited Graduate Trainee Programme 2026 offers a clear path to build a structured professional career in a dynamic environment. My background aligns well with the programme requirement for strong analytical and problem-solving abilities.\n\nDuring my recent practical accounting experience at the Nigerian College of Aviation Technology, I investigated inter-departmental account variances, traced discrepancies to supporting records, and followed items through to resolution. I also maintained and reconciled receipt and payment records across multiple revenue streams while using software such as QuickBooks and Microsoft Dynamics 365 Business Central. My Bachelor of Science in Accounting from Obafemi Awolowo University provided a solid academic foundation in financial accounting, auditing, and corporate finance.\n\nI approach workplace challenges with a practical mindset and am eager to learn and adapt to the standards at Kleenol Nigeria Limited.\n\nI would welcome the opportunity to discuss how my analytical skills can support your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Strong fit, because the candidate has completed NYSC, holds a relevant degree, and demonstrates strong analytical and problem-solving skills matching the graduate trainee requirements.\nGap: None.",
    "handled": true,
+   "requirements": []
+  },
+  {
+   "title": "SAP Young Professionals Program 2027 | Free Professional Training for African Graduates",
+   "company": "Dixcover Hub listing",
+   "score": 85,
+   "url": "https://careers.sap.com/job/Cairo-SAP-Young-Professionals-Program-Egypt-2027-11865/1451571733/",
+   "letter": "Dear Hiring Manager,\n\nThe opportunity to join the SAP Young Professionals Program Egypt 2027 provides a structured path to build deep expertise in enterprise software and business processes. Developing globally recognised associate-level certifications directly supports my goal of helping organisations run better through advanced technology.\n\nMy background in accounting from Obafemi Awolowo University and practical finance experience at the Nigerian College of Aviation Technology form a strong base for this training. During my NYSC placement, I managed general ledger reconciliations, processed revenue records, and supported month-end close activities. I am also comfortable navigating enterprise tools like Microsoft Dynamics 365 Business Central, QuickBooks, and Sage, which helps me grasp complex financial workflows quickly.\n\nI look forward to discussing how my grounding in financial systems and analytical problem-solving can contribute to the programme. My complete curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit is strong because the candidate has a solid accounting foundation, enterprise software familiarity, and a drive to learn complex business systems.\nGap: The job listing is titled for Egypt 2027, so international mobility or remote eligibility for this specific regional intake must be verified.",
+   "handled": false,
    "requirements": []
   },
   {
@@ -142,6 +152,16 @@
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998881101",
    "letter": "Dear Hiring Manager,\n\nManaging physical stock and maintaining exact digital records for POS devices at Moniepoint requires the rigorous controls and reconciliation discipline I practised during my time at the Nigerian College of Aviation Technology. Ensuring accurate tracking and secure distribution across Delta state directly builds on my background in financial controls, auditing and ledger management.\n\nWhile serving as a Junior Accountant in the Bursary Department, I routinely reconciled payment records, investigated inter-departmental variances and followed discrepancies through to resolution. I compiled supporting schedules and source documents in preparation for internal and external reviews, ensuring every transaction had a reliable audit trail. Furthermore, my proficiency in Microsoft Excel and enterprise software means I am well equipped to manage stock levels, validate serial numbers and maintain structured accounting and inventory records.\n\nAlthough my direct background is in financial accounting rather than physical logistics, the core competencies remain identical. Transaction coding, variance investigation and strict adherence to internal controls transfer directly to tracking POS hardware and reconciling physical stock with logical inventory.\n\nI welcome the opportunity to discuss how my reconciliation and record-keeping skills can support your regional operations. My complete background details are attached.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Moderate fit, as the candidate brings strong reconciliation, record-keeping, and audit skills that transfer well to inventory tracking, though the background is strictly in accounting rather than logistics.\nGap: No direct prior experience managing physical warehouse or POS inventory operations.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Resident Internal Control Officer (RICO)",
+   "company": "Moniepoint",
+   "score": 75,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5048525101",
+   "letter": "Dear Hiring Manager,\n\nProtecting daily transaction integrity and managing operational risks at a branch level connects directly with my background in maintaining accurate financial records and enforcing internal controls. The Resident Internal Control Officer role at Moniepoint offers an opportunity to apply my accounting foundation to safeguard branch assets and ensure strict adherence to procedures.\n\nDuring my recent role in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled payment records across multiple revenue streams and investigated inter-departmental variances to resolve discrepancies. I regularly reviewed transaction details, supported month-end close activities, and compiled supporting schedules to ensure reliable audit trails. My familiarity with software such as Microsoft Dynamics 365 Business Central and QuickBooks has also strengthened my ability to review general ledger activity and scrutinise transaction logs for accuracy.\n\nWhile my experience has focused primarily on general accounting and bursary operations rather than on-site branch banking controls, my rigorous training in financial controls and double-entry bookkeeping provides a solid foundation for this responsibility. I am confident in my ability to adapt these skills quickly to monitor vault counts, enforce dual-control principles, and review teller operations effectively.\n\nI welcome the opportunity to discuss how my control-oriented background can support your branch operations. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit, because the candidate has strong general accounting, reconciliation, and audit documentation experience that transfers well to internal controls, though lacks direct branch banking or cash-handling control experience.\nGap: Direct experience in a banking or microfinance branch environment performing daily vault counts and teller till reviews.",
    "handled": false,
    "requirements": []
   },
@@ -282,6 +302,16 @@
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998886101",
    "letter": "Dear Hiring Manager,\n\nManaging physical stock and reconciling inventory discrepancies are critical for ensuring smooth operations at Moniepoint, which makes the State Inventory Officer role a strong match for my background. My recent experience in a bursary department involved handling detailed records, tracking receipts, and investigating discrepancies to keep financial and physical controls tight.\n\nDuring my time at the Nigerian College of Aviation Technology, I regularly maintained and reconciled receipt and payment records across multiple streams, making sure everything was properly supported. I also investigated inter-departmental variances, traced discrepancies back to source records, and carried out regular stock or transaction counts. Furthermore, my advanced Excel skills and experience with structured database and accounting tools allow me to manage large inventories and verify serial numbers with high accuracy.\n\nI am keen to bring this rigorous approach to stock control and audit documentation to your team in Adamawa. I would welcome the chance to discuss how my background in reconciliation and record management fits your operational needs.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Strong, because the candidate has direct experience with physical and financial record reconciliation, stock counts, and investigating discrepancies.\nGap: None noted against the primary inventory and stock reconciliation requirements.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Admin Support Officer",
+   "company": "TeamAce Limited",
+   "score": 75,
+   "url": "https://jobs.smartyacad.com/admin-support-officer-at-teamace-limited/",
+   "letter": "Dear Hiring Manager,\n\nRemote coordination and task tracking are essential to keeping daily operations running smoothly at TeamAce Limited for the Admin Support Officer position. My background in administrative organisation and structured workflow management makes this remote role a natural fit for my skills.\n\nDuring my recent tenure at the Nigerian College of Aviation Technology, I managed complex records, tracked pending deliverables, and maintained clear documentation to support daily operations. My role required me to follow up on outstanding items, coordinate communication across departments, and organise digital records to ensure accuracy. Furthermore, my leadership experience as General Secretary for NCCF Zaria Zone involved handling formal correspondence, maintaining schedules, and coordinating administrative activities for diverse groups.\n\nAlthough my formal academic and professional background is rooted in accounting rather than office management, the core competencies translate directly. I regularly manage multiple responsibilities, maintain meticulous task trackers, and ensure rigorous attention to detail in every project I handle.\n\nI welcome the opportunity to discuss how my organisational skills can support your management team. My complete resume is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit because the candidate has strong administrative, organisational, and record-keeping experience from accounting and leadership roles, though their formal degree is in accounting rather than office management.\nGap: The job asks for a Bachelor's Degree or HND in Business Administration, Office Management, or a related field, whereas the candidate holds a B.Sc. in Accounting.",
    "handled": false,
    "requirements": []
   },
@@ -456,6 +486,16 @@
    "requirements": []
   },
   {
+   "title": "General Administrative Assistant — Remote | Pacific Time",
+   "company": "Boogie Consulting & Projects",
+   "score": 50,
+   "url": "https://himalayas.app/companies/boogie-consulting-projects/jobs/general-administrative-assistant-remote-pacific-time?utm_source=api",
+   "letter": "Dear Hiring Manager,\n\nSupporting busy managers and keeping daily workflows organised at Boogie Consulting and Projects requires the same careful attention to detail that I developed while managing financial records and administrative schedules at the Nigerian College of Aviation Technology. Ensuring that schedules, documentation, and follow-ups run smoothly aligns closely with my background in handling administrative tasks and coordinating team activities.\n\nDuring my time at the Bursary Department of the Nigerian College of Aviation Technology, I maintained transaction records, prepared supporting schedules, and investigated account discrepancies to resolution. As General Secretary for the NCCF Zaria Zone, I coordinated administrative correspondence, prepared handover documentation, and kept clear records to support leadership activities. My experience with Microsoft Excel, Microsoft Dynamics 365 Business Central, and QuickBooks has also given me a strong command of digital tools for organizing information, tracking tasks, and maintaining accurate records.\n\nI am fully prepared to align my working hours with U.S. Pacific Time to support your remote team effectively. My background demonstrates a strong commitment to reliable execution, clear communication, and careful documentation.\n\nI welcome the opportunity to discuss how my administrative and organisational skills can support your team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit because the candidate has strong administrative coordination, documentation, and record-keeping experience from finance and leadership roles, though primary professional experience is in accounting rather than executive virtual assistance.\nGap: Lacks direct professional experience supporting U.S.-based remote managers or executives.\nGap: Does not explicitly list Google Workspace or specific U.S. CRM tools in the original CV, though possesses strong general software proficiency.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Finance Officer",
    "company": "Talent Shore",
    "score": 50,
@@ -516,6 +556,16 @@
    "requirements": []
   },
   {
+   "title": "Contract Analyst",
+   "company": "Kpler",
+   "score": 50,
+   "url": "https://weworkremotely.com/remote-jobs/kpler-contract-analyst",
+   "letter": "Dear Hiring Manager,\n\nSupporting commercial agreements and streamlining contract workflows at Kpler requires a careful eye for documentation and structured process management. The Contract Analyst role fits my background in tracking financial records, reviewing documentation, and coordinating with diverse stakeholders.\n\nDuring my time at the Nigerian College of Aviation Technology, I managed transaction records, investigated variances, and maintained audit trails to ensure operational compliance. My work involved compiling supporting schedules, reviewing documentation, and resolving discrepancies through close collaboration with internal teams. Furthermore, my administrative experience as General Secretary for NCCF Zaria Zone involved drafting formal correspondence, managing executive documentation, and maintaining structured records.\n\nWhile my primary background is in accounting rather than legal contract drafting, my experience with process documentation, workflow design, and meticulous record-keeping translates well to managing contract lifecycles and tracking requests.\n\nI would welcome the opportunity to discuss how my administrative diligence and analytical skills can support the legal, risk, and compliance team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate has strong administrative documentation and record management skills, but lacks direct legal contract drafting experience.\nGap: No direct experience in drafting, reviewing, or negotiating commercial agreements or using contract lifecycle management tools like Ironclad.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Finance & Accounting Analyst",
    "company": "Trajectory Energy Partners",
    "score": 50,
@@ -542,6 +592,16 @@
    "url": "https://jobicy.com/jobs/150744-finance-operations",
    "letter": "Dear Hiring Manager,\n\nManaging the flow of funds within a rapidly scaling financial exchange requires precise accounting controls and rigorous transaction tracking. The Finance Operations position at Kalshi offers an exciting chance to apply financial record management to a novel asset class. Ensuring that money moving through connected systems is accurately accounted for aligns directly with my background in handling revenue transactions and ledger reconciliation.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I investigated inter-departmental account variances, traced discrepancies to source documents, and prepared journal postings to support month-end close activities. My degree in Accounting from Obafemi Awolowo University provided a strong foundation in double-entry bookkeeping, financial reporting, and controls, which I reinforced using software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central.\n\nWhile my practical experience has been gained within a bursary department rather than a US-regulated financial exchange, my core competencies in transaction processing, audit documentation, and ledger management are directly transferable. I am accustomed to investigating discrepancies and ensuring that financial records remain reliable under tight deadlines.\n\nI would welcome the opportunity to discuss how my accounting background and reconciliation skills can support your team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Moderate fit, because the candidate brings solid foundational accounting, reconciliation, and ledger experience from a bursary environment, though lacks direct experience within a US-regulated financial exchange or clearing operations.\nGap: Direct experience managing funds for a regulated financial exchange or broker-dealer.\nGap: Working knowledge of US financial regulations and clearing operations.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Hiring: TeamAce is Hiring for Executive Assistant",
+   "company": "Dixcover Hub listing",
+   "score": 45,
+   "url": "https://jobs.smartyacad.com/hiring-teamace-is-hiring-for-executive-assistant/",
+   "letter": "Dear Hiring Manager,\n\nCoordinating business activities and maintaining structured operational records are central to the Executive Assistant role at TeamAce within the automobile services sector. Ensuring smooth daily operations through careful scheduling, clear correspondence and reliable documentation aligns closely with my administrative and organisational background.\n\nDuring my time at the Nigerian College of Aviation Technology, I managed documentation, coordinated communication across departments and resolved discrepancies with strict attention to detail. My experience compiling supporting schedules, preparing reports and handling sensitive correspondence equips me to manage executive calendars and track project deliverables effectively. Furthermore, my leadership role as General Secretary with the NCCF involved managing formal notices, executive documentation and administrative schedules to support operational continuity.\n\nWhile my professional background is rooted in finance and accounting rather than executive administration, my advanced proficiency in Microsoft Excel, structured problem-solving skills and rigorous approach to confidential records transfer seamlessly to this position. I am well-prepared to handle correspondence, coordinate meetings and support strategic initiatives with high discretion and integrity.\n\nI welcome the opportunity to discuss how my organisational skills and administrative experience can support your executive team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate possesses strong administrative, documentation and organisational skills from accounting and leadership roles, though formal experience as an executive assistant is limited.\nGap: Does not meet the requirement of 2-4 years of proven experience as an Executive Assistant or Personal Assistant.\nGap: Degree is in Accounting rather than Business Administration or Office Management.",
    "handled": false,
    "requirements": []
   },
@@ -652,6 +712,16 @@
    "url": "https://jobicy.com/jobs/153745-operations-analyst-finance",
    "letter": "Dear Hiring Manager,\n\nThe Operations Analyst (Finance) role at Able appeals to me because it combines rigorous financial execution with the opportunity to build clear reporting dashboards for leadership. Managing both day-to-day accounts and financial insights is an exciting challenge that matches my background in accounting and data organization.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled financial records, processed revenue transactions, and prepared journal postings to support month-end close activities. I regularly investigated account variances and compiled supporting schedules to ensure clean audit trails. My proficiency in accounting software like QuickBooks and Microsoft Dynamics Business Central, combined with my advanced Excel skills and working knowledge of Power BI, will help me keep your financial operations running smoothly and build reliable dashboards.\n\nWhile my direct experience is based in traditional accounting rather than LATAM and US payroll systems, my strong foundation in transaction processing, reconciliations, and structured problem-solving means I learn new systems quickly and accurately. I am eager to help Able improve its financial workflows and establish clear reporting capabilities.\n\nI would welcome the opportunity to discuss how my background can support your finance team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Moderate because the candidate has strong general ledger, reconciliation, and month-end skills, but lacks direct experience managing US and LATAM payroll systems.\nGap: Direct experience with LATAM and US payroll execution and multi-jurisdictional contractor payments.\nGap: Advanced dashboard creation experience, though offset by advanced Excel and working Power BI knowledge.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Implementation Officer (Abia)",
+   "company": "Moniepoint",
+   "score": 45,
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931500101",
+   "letter": "Dear Hiring Manager,\n\nMoniepoint's commitment to empowering businesses with seamless payment, banking, and management tools makes this Implementation Officer role a compelling opportunity. Helping new retail customers successfully adopt the Moniebook POS into their daily store operations relies on structured processes and clear communication. My background in accounting and administrative coordination aligns well with guiding businesses through operational transitions.\n\nDuring my NYSC placement in the Bursary Department at the Nigerian College of Aviation Technology, I managed receipt and payment records while investigating inter-departmental variances to resolution. I regularly responded to staff and student payment enquiries, ensuring queries were addressed through careful checking of records and coordinated follow-up. My experience also includes organising documentation and supporting clear administrative workflows during my leadership service with NCCF Zaria Zone.\n\nI look forward to the possibility of discussing how my background in transaction processing, record-keeping, and stakeholder support can contribute to your onboarding team. Please find my CV attached for your review.\n\nYours sincerely,\n\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate has strong administrative, transaction processing, and stakeholder support experience from their bursary and leadership roles, though field-based retail POS implementation is a pivot from a strictly finance background.\nGap: Experience specifically in merchant acquisition, field sales, or direct POS hardware deployment in retail stores.",
    "handled": false,
    "requirements": []
   },
@@ -869,43 +939,48 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-26T06:45+00:00",
+ "last_run": "2026-11-26T16:52+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
-  "- workingnomads: 38 fetched, 11 passed filter",
-  "- jobicy: 43 fetched, 37 passed filter",
-  "- remoteok: 100 fetched, 50 passed filter",
-  "- greenhouse: 64 fetched, 34 passed filter",
+  "- workingnomads: 37 fetched, 11 passed filter",
+  "- jobicy: 45 fetched, 39 passed filter",
+  "- remoteok: 100 fetched, 41 passed filter",
+  "- greenhouse: 65 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
-  "- smartyacad: 45 fetched, 22 passed filter",
+  "- smartyacad: 43 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 21 passed filter",
+  "- arbeitnow: 50 fetched, 16 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 48 passed filter",
+  "- weworkremotely: 100 fetched, 42 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
-  "  - Greenhouse Moniepoint: 64 jobs",
+  "  - Greenhouse Moniepoint: 65 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 10 linked pages",
-  "- 26 jobs older than 30 days skipped",
-  "- 43 new jobs sent to scoring",
-  "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+  "  - Dixcover Hub: opened 12 linked pages",
+  "- 27 jobs older than 30 days skipped",
+  "- 75 new jobs sent to scoring",
+  "- Top scores (threshold is 55):",
+  "  - 85: SAP Young Professionals Program 2027 | Free Professional Training for African Graduates at Dixcover Hub listing. Blockers: none",
+  "  - 75: Resident Internal Control Officer (RICO) at Moniepoint. Blockers: none",
+  "  - 75: Admin Support Officer at TeamAce Limited. Blockers: none",
+  "  - 50: General Administrative Assistant — Remote | Pacific Time at Boogie Consulting & Projects. Blockers: none",
+  "  - 50: Contract Analyst at Kpler. Blockers: none"
  ],
  "stats": {
-  "jobs_scored": 947,
-  "strong": 73,
-  "drafts": 79,
+  "jobs_scored": 1022,
+  "strong": 80,
+  "drafts": 86,
   "sent_today": 1,
   "sent_total": 5
  },
  "skills": [
   {
    "skill": "Python",
-   "count": 39,
+   "count": 42,
    "examples": [
     "Financial Analyst at CertiK",
     "Test Data Quality Engineer at PLATO",
@@ -914,7 +989,7 @@
   },
   {
    "skill": "Enterprise Sales",
-   "count": 28,
+   "count": 30,
    "examples": [
     "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
     "Strategic Account Executive - Spain at GitLab",
@@ -923,20 +998,29 @@
   },
   {
    "skill": "Executive Leadership",
-   "count": 26,
+   "count": 28,
    "examples": [
     "Chief of Staff Director, Product at Affirm",
     "Director Technology & Data Intelligence (w/m/d) at enua Pharma GmbH",
-    "Director, Strategic Finance - Planning Systems at hims &#038; hers"
+    "Director, Revenue Accounting at 6sense"
    ]
   },
   {
    "skill": "Sql",
-   "count": 25,
+   "count": 26,
    "examples": [
     "Financial Analyst at CertiK",
     "Revenue Operations Analyst at Augment",
     "Test Data Quality Engineer at PLATO"
+   ]
+  },
+  {
+   "skill": "German Language",
+   "count": 26,
+   "examples": [
+    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
+    "Quality Assurance & Documentation Technician (m/f/d) at Esmc",
+    "Talent & Culture Intern / Working Student (m/w/d) at Avantgarde"
    ]
   },
   {
@@ -950,7 +1034,7 @@
   },
   {
    "skill": "Software Engineering",
-   "count": 20,
+   "count": 21,
    "examples": [
     "General Application for Product, Engineering and Technology at Talkspace",
     "Technical Product Manager at Sanovio",
@@ -959,7 +1043,7 @@
   },
   {
    "skill": "Us Gaap",
-   "count": 19,
+   "count": 20,
    "examples": [
     "Staff Accountant at H1",
     "Accounting Specialist at Attentive Care Inc",
@@ -967,12 +1051,12 @@
    ]
   },
   {
-   "skill": "German Language",
-   "count": 19,
+   "skill": "People Management",
+   "count": 20,
    "examples": [
-    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
-    "Quality Assurance & Documentation Technician (m/f/d) at Esmc",
-    "Talent & Culture Intern / Working Student (m/w/d) at Avantgarde"
+    "Accounts Receivable & Payable Lead at Who Gives A Crap",
+    "Service Center Operations Manager at Moniepoint",
+    "Operations and AI Enablement Manager, Remote at Aledade"
    ]
   },
   {
@@ -982,6 +1066,15 @@
     "CPC Processor Customer Support- 8706 at Datavant",
     "CPC Processor Customer Support I at Datavant",
     "Logistics Management Trainee at EXPRESS Family of Companies"
+   ]
+  },
+  {
+   "skill": "B2B Sales",
+   "count": 18,
+   "examples": [
+    "Business Development Representative, Financial Services - UKI at GitLab",
+    "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
+    "Graduate Commercial Associate (f/m/d) at Moss"
    ]
   },
   {
@@ -1003,39 +1096,21 @@
    ]
   },
   {
-   "skill": "People Management",
+   "skill": "Salesforce",
    "count": 17,
    "examples": [
-    "Accounts Receivable & Payable Lead at Who Gives A Crap",
-    "Service Center Operations Manager at Moniepoint",
-    "Operations and AI Enablement Manager, Remote at Aledade"
+    "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
+    "Junior Data Scientist - Contract at Mfinite Consulting",
+    "Senior Sales Operations Manager at SumUp"
    ]
   },
   {
-   "skill": "None",
-   "count": 15,
+   "skill": "Enterprise Software Sales",
+   "count": 17,
    "examples": [
-    "Data Entry Officer (Ogun) at Moniepoint",
-    "Accounting Assistant at The Hatch Group",
-    "Accounting Assistant at CFS"
-   ]
-  },
-  {
-   "skill": "Account Management",
-   "count": 14,
-   "examples": [
-    "Customer Relationship &#038; Client Retention Virtual Assistant at Talentbridging",
-    "Customer Success Manager at Fresh Prints",
-    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel"
-   ]
-  },
-  {
-   "skill": "Data Engineering",
-   "count": 14,
-   "examples": [
-    "Data Engineer, AI & Analytics at Power Digital Marketing",
-    "Senior Data Engineer at Lemon.io",
-    "Manager - Data Engineering at Astrana Health"
+    "Solutions Engineer, Okta(Enterprise) at Okta",
+    "Account Executive - Data Modernization Sales at Rocket Software",
+    "Enterprise Account Executive, Sacramento at Glean"
    ]
   }
  ],
@@ -1149,6 +1224,22 @@
    "url": "https://jobicy.com/jobs/153872-client-finance-analyst-i",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 85,
+   "title": "SAP Young Professionals Program 2027 | Free Professional Training for African Graduates",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The SAP Young Professionals Program is an excellent entry-level fit for recent graduates seeking training in enterprise software, aligning well with the candidate's background in ERP tools like Dynamics 365 and ambition for junior tech-adjacent roles.",
+   "blockers": "",
+   "gaps": [
+    "SAP S/4 HANA",
+    "SAP consulting experience"
+   ],
+   "url": "https://careers.sap.com/job/Cairo-SAP-Young-Professionals-Program-Egypt-2027-11865/1451571733/",
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 75,
@@ -1475,6 +1566,37 @@
    "url": "https://jooble.org/jdp/1399572510279287839",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 75,
+   "title": "Resident Internal Control Officer (RICO)",
+   "company": "Moniepoint",
+   "location": "Rivers, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role aligns well with the candidate's background in reconciliations, general ledger oversight, and internal controls, although it is based in Rivers rather than his preferred locations.",
+   "blockers": "",
+   "gaps": [
+    "banking internal control experience",
+    "core banking application proficiency"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5048525101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 75,
+   "title": "Admin Support Officer",
+   "company": "TeamAce Limited",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate has a B.Sc. degree and strong organizational, documentation, and coordination skills that directly transfer to this administrative support role, though it is outside core accounting.",
+   "blockers": "",
+   "gaps": [
+    "Google Workspace"
+   ],
+   "url": "https://jobs.smartyacad.com/admin-support-officer-at-teamace-limited/",
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 65,
@@ -1839,6 +1961,41 @@
    "recent": false
   },
   {
+   "score": 50,
+   "title": "General Administrative Assistant — Remote | Pacific Time",
+   "company": "Boogie Consulting & Projects",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role utilizes the candidate's administrative, documentation, and coordination skills gained from leadership and work experience, though it is outside of core finance and accounting.",
+   "blockers": "",
+   "gaps": [
+    "U.S. Pacific Time availability",
+    "Google Workspace",
+    "CRM systems"
+   ],
+   "url": "https://himalayas.app/companies/boogie-consulting-projects/jobs/general-administrative-assistant-remote-pacific-time?utm_source=api",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 50,
+   "title": "Contract Analyst",
+   "company": "Kpler",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role involves contract review, administration, and cross-functional coordination with finance and sales, aligning with the candidate's administrative and stakeholder management skills, though it is legally focused rather than financial.",
+   "blockers": "",
+   "gaps": [
+    "legal contract drafting",
+    "Ironclad",
+    "Jira",
+    "commercial negotiation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/kpler-contract-analyst",
+   "drafted": true,
+   "recent": true
+  },
+  {
    "score": 45,
    "title": "Implementation Officer",
    "company": "Moniepoint",
@@ -2142,6 +2299,40 @@
    "url": "https://himalayas.app/companies/alegria-travel-services/jobs/hospitality-operations-service-coordinator?utm_source=api",
    "drafted": true,
    "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Implementation Officer (Abia)",
+   "company": "Moniepoint",
+   "location": "Abia, Nigeria",
+   "source": "Greenhouse:Moniepoint",
+   "reason": "The role involves customer onboarding and implementation for fintech POS products, offering a moderate transferable fit into operations and stakeholder coordination, though it lacks direct finance or accounting duties.",
+   "blockers": "",
+   "gaps": [
+    "customer onboarding",
+    "POS implementation",
+    "merchant support"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931500101",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Hiring: TeamAce is Hiring for Executive Assistant",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate has a relevant Bachelor's degree and strong administrative and organizational skills from leadership experience, but falls short of the required 2-4 years of dedicated Executive Assistant experience.",
+   "blockers": "2-4 years of proven experience as an Executive Assistant or Personal Assistant required.",
+   "gaps": [
+    "Executive Assistant experience",
+    "Google Workspace",
+    "calendar management"
+   ],
+   "url": "https://jobs.smartyacad.com/hiring-teamace-is-hiring-for-executive-assistant/",
+   "drafted": true,
+   "recent": true
   },
   {
    "score": 40,
@@ -2528,6 +2719,42 @@
    "url": "https://himalayas.app/companies/caresource/jobs/member-incentive-program-analyst?utm_source=api",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 35,
+   "title": "Pursuit & Channel Operations Manager (R-20201)",
+   "company": "Dun & Bradstreet",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role is a mid-to-senior level operations and channel management position requiring specialized public sector contracting experience, which does not align well with the candidate's junior accounting background.",
+   "blockers": "Requires specialized experience in public sector contracting and partner-channel operations which the candidate lacks.",
+   "gaps": [
+    "contracting infrastructure",
+    "government contract-data tools",
+    "teaming agreements",
+    "market-development-fund contracts"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/dun-bradstreet-pursuit-channel-operations-manager-r-20201",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 35,
+   "title": "Assistant VIP Relationship Manager",
+   "company": "OKX",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "Although the candidate is interested in fintech operations, this role is primarily focused on VIP sales, account management, and client relationship building rather than finance, accounting, or administrative operations.",
+   "blockers": "",
+   "gaps": [
+    "VIP relationship management",
+    "crypto trading knowledge",
+    "client onboarding",
+    "sales and retention"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/okx-assistant-vip-relationship-manager",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 30,
@@ -2947,6 +3174,41 @@
    "url": "https://weworkremotely.com/remote-jobs/abnormal-compliance-trust-analyst",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Food Operations Manager",
+   "company": "Foodsmart",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior operations management role in the US healthcare/food sector requiring industry-specific client management experience, which does not align with the candidate's junior accounting and finance background.",
+   "blockers": "Senior management role requiring specific client operations experience in the US healthcare sector.",
+   "gaps": [
+    "healthcare operations",
+    "client management",
+    "food benefit program management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/foodsmart-food-operations-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 25,
+   "title": "Project Manager, Financial Benefits",
+   "company": "Justworks",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires specialized expertise as a project manager and benefits specialist, whereas the candidate is an entry-level junior accountant.",
+   "blockers": "Requires deep specialization and expertise as a specialist in benefits and project management.",
+   "gaps": [
+    "benefits billing expertise",
+    "401(k) MEP knowledge",
+    "project management experience",
+    "compliance testing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/justworks-project-manager-financial-benefits",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 20,
@@ -6646,6 +6908,190 @@
    "url": "https://weworkremotely.com/remote-jobs/yubico-inc-sr-business-operations-analyst",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Customer Operations & Support Analyst",
+   "company": "BigHand",
+   "location": "Australia",
+   "source": "Himalayas",
+   "reason": "The job requires a customer support and technical troubleshooting role in Australia, which does not align with the candidate's finance and accounting background.",
+   "blockers": "Candidate is resident in Nigeria and not Australia; the role requires working APAC hours on-site or based in the region.",
+   "gaps": [
+    "OSI model",
+    "Windows Server",
+    "technical troubleshooting",
+    "customer support"
+   ],
+   "url": "https://himalayas.app/companies/bighand/jobs/customer-operations-support-analyst?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Data Analyst Sr - E3",
+   "company": "Lockheed Martin Corporation",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job requires US work authorization and a DoD Secret Clearance, which the candidate lacks as a resident and citizen of Nigeria.",
+   "blockers": "Must be able to obtain a DoD Secret Clearance; US residency and work authorization required",
+   "gaps": [
+    "Python",
+    "R",
+    "SQL",
+    "Tableau"
+   ],
+   "url": "https://himalayas.app/companies/lockheed-martin-corporation/jobs/data-analyst-sr-e3?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "PMO Cost Controller - Alto Project",
+   "company": "SYSTRA",
+   "location": "Canada",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the mandatory 3+ years of experience in cost control, financial analysis, or project accounting, and is not located in Canada.",
+   "blockers": "Minimum of 3 years experience required; Located in Canada",
+   "gaps": [
+    "PMO experience",
+    "Earned value management",
+    "Infrastructure project accounting",
+    "French language proficiency"
+   ],
+   "url": "https://himalayas.app/companies/systra/jobs/pmo-cost-controller-alto-project?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "(Junior) Account Manager:in (m/w/d)",
+   "company": "aha! Agentur für Handelsmarketing",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks the required marketing-focused business degree, 1-3 years of trade marketing experience, and fluent German proficiency required for this Cologne-based account management role.",
+   "blockers": "Requires 1-3 years of specific trade marketing experience, a degree with a marketing focus, and fluent German and English (plus potentially other European languages).",
+   "gaps": [
+    "Trade marketing",
+    "German language proficiency",
+    "client account management",
+    "creative production coordination"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/aha-agentur-fur-handelsmarketing/junior-account-managerin-cologne-65010",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Analytics Engineer - Data Platform (m/f/d)",
+   "company": "Statista",
+   "location": "Hamburg or Berlin",
+   "source": "Arbeitnow",
+   "reason": "This is a senior software and data engineering role requiring 4+ years of specialized experience in Python, Kubernetes, Kafka, and AWS, which completely misaligns with the candidate's entry-level accounting and finance background.",
+   "blockers": "4+ years of experience in analytics engineering or data engineering required; advanced software engineering stack required.",
+   "gaps": [
+    "Python",
+    "Kubernetes",
+    "AWS",
+    "Kafka",
+    "Apache Avro",
+    "Snowflake",
+    "CI/CD",
+    "GitOps",
+    "dbt"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/statista/analytics-engineer-data-platform-hamburg-or-berlin-437592",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Graduate Commercial Associate (f/m/d)",
+   "company": "Moss",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The job requires fluency in German (C2/Native) and focuses entirely on a B2B sales career rather than accounting or finance operations.",
+   "blockers": "German fluency (C2/Native) required",
+   "gaps": [
+    "German language",
+    "B2B sales",
+    "cold calling",
+    "pipeline management"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/moss/graduate-commercial-associate-berlin-178990",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Founders Associate (Intern)",
+   "company": "Zauber Technology GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The job requires the candidate to be based in Berlin and fluent in German, both of which the candidate lacks.",
+   "blockers": "Berlin office location preference and German language fluency required",
+   "gaps": [
+    "German language",
+    "startup scaling",
+    "grant writing"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/zauber-technology-gmbh/founders-associate-intern-berlin-59575",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Product Readiness Manager (Remote eligible in Bulgaria)",
+   "company": "Smartsheet",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires 3+ years of experience and is located in Bulgaria, whereas the candidate has under a year of experience and is based in Nigeria.",
+   "blockers": "3+ years of experience required; remote eligible only in Bulgaria",
+   "gaps": [
+    "Smartsheet product suite expertise",
+    "GTM strategy experience",
+    "product readiness management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/smartsheet-product-readiness-manager-remote-eligible-in-bulgaria",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "International Payroll Analyst",
+   "company": "Reddit",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires an experienced professional for international payroll, whereas the candidate is a junior accountant with under a year of experience.",
+   "blockers": "Requires an experienced International Payroll Analyst with deep multi-country payroll expertise, whereas the candidate is an entry-level accountant.",
+   "gaps": [
+    "International payroll management",
+    "Workday",
+    "global payroll vendors",
+    "international tax compliance",
+    "equity compensation processing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/reddit-international-payroll-analyst",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Enterprise Engineer",
+   "company": "Coinbase",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 3 to 6+ years of specialized experience in enterprise engineering and legal tech platform administration, which exceeds the candidate's experience level.",
+   "blockers": "Requires 3 to 6+ years administering legal platforms like Ironclad, which exceeds the candidate's experience.",
+   "gaps": [
+    "Ironclad administration",
+    "Workato",
+    "API integrations",
+    "legal tech stack management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/coinbase-enterprise-engineer",
+   "drafted": false,
+   "recent": true
   },
   {
    "score": 10,
@@ -11423,6 +11869,480 @@
    "recent": false
   },
   {
+   "score": 10,
+   "title": "Reinsurance Accountant II - Specialty P&C",
+   "company": "Protective Life",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires candidates to reside within reasonable driving distance of Middletown, Connecticut, which conflicts with the candidate's location in Nigeria.",
+   "blockers": "Must reside within reasonable driving distance (~2 hours) of Middletown, Connecticut",
+   "gaps": [
+    "reinsurance accounting",
+    "statutory reporting",
+    "collateral monitoring",
+    "insurance market knowledge"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/protective-life-reinsurance-accountant-ii-specialty-p-c",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Product Marketing Manager",
+   "company": "Enovis",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior product marketing role in the United States requiring specific commercial marketing experience in medical technology, which does not align with the candidate's junior accounting and finance profile in Nigeria.",
+   "blockers": "Requirement to be resident in the United States; mandatory prior experience in product marketing; senior role requiring commercial marketing expertise.",
+   "gaps": [
+    "product marketing",
+    "downstream marketing strategy",
+    "medical technology industry experience",
+    "campaign development",
+    "pricing and promotions management"
+   ],
+   "url": "https://himalayas.app/companies/enovis/jobs/product-marketing-manager?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Interpreter - Arabic - Work-From-Home",
+   "company": "Teleperformance",
+   "location": "Malaysia",
+   "source": "Himalayas",
+   "reason": "This is a language interpretation role requiring bilingual fluency in Arabic and English, which completely misaligns with the candidate's finance and accounting background.",
+   "blockers": "Mandatory bilingual fluency in Arabic and English required, which the candidate lacks.",
+   "gaps": [
+    "Arabic language fluency",
+    "interpretation skills",
+    "active listening and note-taking for translation"
+   ],
+   "url": "https://himalayas.app/companies/teleperformanceusa/jobs/interpreter-arabic-work-from-home?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Analyst / Manager, APM Modeling & Analytics",
+   "company": "Arcadia",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior healthcare analytics and modeling role requiring advanced Python, SAS, and specific CMS data experience, which does not match the candidate's junior accounting profile.",
+   "blockers": "Senior-level role requiring advanced technical modeling, Python, SAS, and CMS data environment experience.",
+   "gaps": [
+    "Python",
+    "SAS",
+    "CMS VRDC data environments",
+    "healthcare analytics",
+    "advanced financial modeling"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/arcadia-senior-analyst-manager-apm-modeling-analytics",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "(Junior) Influencer Manager (m/w/d) DACH – TEVEO Men",
+   "company": "TEVEO GmbH",
+   "location": "Ansbach",
+   "source": "Arbeitnow",
+   "reason": "This is a junior influencer marketing role requiring German language fluency and marketing studies, which does not align with the candidate's accounting and finance profile.",
+   "blockers": "Requires fluency in German and a degree in Marketing, Communication, or a comparable field.",
+   "gaps": [
+    "German language skills",
+    "influencer marketing experience",
+    "social media management",
+    "marketing degree"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/teveo-gmbh/junior-influencer-manager-dach-teveo-men-ansbach-135302",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Controller (m/w/d)",
+   "company": "MVZ Dres. Daniel & Stephan Krause (eGbR)",
+   "location": "Dortmund",
+   "source": "Arbeitnow",
+   "reason": "This is a senior Controller position requiring fluent German and DATEV experience, which the candidate lacks.",
+   "blockers": "Senior controller role requiring German language proficiency and DATEV experience.",
+   "gaps": [
+    "German language",
+    "DATEV",
+    "professional controlling experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/mvz-dres-daniel-stephan-krause-egbr/controller-dortmund-341679",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Account Executive - DACH (m/f/d)",
+   "company": "Tandem Health",
+   "location": "Frankfurt",
+   "source": "Arbeitnow",
+   "reason": "This is a senior sales role requiring German language fluency and healthcare industry experience, none of which match the candidate's finance background.",
+   "blockers": "Bilingual fluency in both German and English required; Senior level role; Field sales experience required",
+   "gaps": [
+    "German language",
+    "sales",
+    "business development",
+    "healthcare industry knowledge"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-frankfurt-294902",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Account Executive - DACH (m/f/d)",
+   "company": "Tandem Health",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "This is a senior outbound sales and account executive role requiring bilingual fluency in German and English, which does not match the candidate's finance and accounting background or language skills.",
+   "blockers": "Requires bilingual fluency in German and English which the candidate does not have; senior-level sales role.",
+   "gaps": [
+    "German language",
+    "B2B sales",
+    "outbound prospecting",
+    "healthcare sales"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-cologne-256847",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Account Executive - DACH (m/f/d)",
+   "company": "Tandem Health",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The role is a senior-level B2B sales position requiring German fluency and healthcare sales experience, which does not match the candidate's finance background or language skills.",
+   "blockers": "Senior role; Bilingual fluency in German and English required; Field sales experience required",
+   "gaps": [
+    "German language",
+    "B2B sales",
+    "healthcare sales",
+    "enterprise account management"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-berlin-463777",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Product Engineer",
+   "company": "Zauber Technology GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The job is for a Product Engineer requiring strong software engineering skills in Node.js, TypeScript, React, and distributed systems, which completely misaligns with the candidate's finance and accounting background.",
+   "blockers": "Requires strong software engineering skills including Node.js, TypeScript, React, and distributed systems, which the candidate does not possess.",
+   "gaps": [
+    "Node.js",
+    "TypeScript",
+    "React",
+    "distributed systems",
+    "MongoDB",
+    "software engineering"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/zauber-technology-gmbh/product-engineer-berlin-432491",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Data Scientist - Research EU/UK (m/f/x)",
+   "company": "Makersite GmbH",
+   "location": "Remote job",
+   "source": "Arbeitnow",
+   "reason": "This is a senior-level machine learning and AI research role requiring advanced data science expertise, which does not align with the candidate's background in junior accounting and finance.",
+   "blockers": "Senior role requiring advanced data science and machine learning research experience that the candidate lacks.",
+   "gaps": [
+    "machine learning",
+    "LLM model development",
+    "applied AI research",
+    "data science",
+    "Python/R programming",
+    "advanced statistical modeling"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-data-scientist-research-eu-uk-berlin-247671",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Project Manager - R01573664",
+   "company": "Brillio",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 10 to 12 years of experience and deep expertise in AI implementation, which drastically exceeds the candidate's junior experience level and background.",
+   "blockers": "Requires 10 to 12 years of experience; requires expertise in AI and Agentic AI implementation.",
+   "gaps": [
+    "AI implementation",
+    "P&L management",
+    "program management",
+    "revenue forecasting",
+    "SOW creation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/brillio-project-manager-r01573664",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Accounting Manager",
+   "company": "Customer.io",
+   "location": "LATAM,  Canada,  USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the 6+ years of progressive accounting experience and 2 years of management experience required for this senior-level Accounting Manager role.",
+   "blockers": "6+ years of progressive accounting experience including 2 years reviewing the work of others",
+   "gaps": [
+    "NetSuite",
+    "FloQast",
+    "US GAAP",
+    "SaaS revenue recognition (ASC 606)",
+    "people management"
+   ],
+   "url": "https://jobicy.com/jobs/164356-accounting-manager-4",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Director, Revenue Accounting",
+   "company": "6sense",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior Director-level role requiring extensive leadership and technical accounting experience, whereas the candidate is a junior accountant with under a year of experience and no professional certification.",
+   "blockers": "Senior leadership role (Director) requiring years of specialized technical revenue accounting experience that far exceeds the candidate's junior profile.",
+   "gaps": [
+    "ASC 606 expertise",
+    "people management",
+    "executive leadership",
+    "revenue accounting specialization"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/6sense-director-revenue-accounting",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Principal Product Marketing Manager",
+   "company": "Sumo Logic",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level marketing role requiring extensive product marketing experience, which completely misaligns with the candidate's profile in junior finance and accounting.",
+   "blockers": "5+ years of senior product marketing experience required; principal-level role.",
+   "gaps": [
+    "product marketing",
+    "go-to-market strategy",
+    "AI content architecture",
+    "sales enablement",
+    "messaging frameworks"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sumo-logic-principal-product-marketing-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Product Manager I (Remote Eligible)",
+   "company": "Smartsheet",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level product management role requiring extensive experience, whereas the candidate is a junior accountant seeking entry-level to junior positions.",
+   "blockers": "Senior-level role requiring years of product management experience; geographic restriction to the US.",
+   "gaps": [
+    "product management strategy",
+    "enterprise IT administration features",
+    "go-to-market execution",
+    "people management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/smartsheet-senior-product-manager-i-remote-eligible",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "GSI Account Executive - LTM/HCL",
+   "company": "Rubrik Job Board",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior business development and partner management role requiring 6+ years of enterprise software experience, which does not match the candidate's junior accounting background.",
+   "blockers": "6+ years in enterprise software, cybersecurity, or data protection required; 3+ years in partner, alliance, or business development roles required.",
+   "gaps": [
+    "Enterprise software sales",
+    "partner relationship management",
+    "pipeline generation",
+    "Salesforce",
+    "cybersecurity industry experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-gsi-account-executive-ltm-hcl",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Accountant",
+   "company": "Eight Sleep",
+   "location": "Canada,  Mexico,  USA",
+   "source": "Jobicy",
+   "reason": "The role is a Senior Accountant position based in North America (Canada, Mexico, USA), which requires senior-level experience and local geographic presence that the junior Nigerian-based candidate does not possess.",
+   "blockers": "Senior role requiring presence in Canada, Mexico, or USA, which the candidate lacks.",
+   "gaps": [
+    "Senior-level accounting leadership",
+    "North American geographic presence"
+   ],
+   "url": "https://jobicy.com/jobs/157223-senior-accountant-6",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Manager, Accounting",
+   "company": "Wrapbook",
+   "location": "Canada,  USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the 5+ years of experience and professional accounting certification required for this senior management role, and is not located in Canada or the USA.",
+   "blockers": "Senior management role requiring extensive experience, professional certification, and residence in Canada or USA.",
+   "gaps": [
+    "Senior management experience",
+    "professional certification (ACA/ACCA/CPA)",
+    "US/Canadian GAAP knowledge"
+   ],
+   "url": "https://jobicy.com/jobs/157189-senior-manager-accounting",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Sales Compensation Analyst",
+   "company": "Collibra",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required 6+ years of analytical experience and 4+ years in sales compensation, and does not reside in the USA.",
+   "blockers": "Requires 6+ years in an analytical role with 4+ years in sales compensation; requires US residency.",
+   "gaps": [
+    "Sales compensation",
+    "Xactly",
+    "Salesforce",
+    "enterprise ICM administration"
+   ],
+   "url": "https://jobicy.com/jobs/157084-senior-sales-compensation-analyst",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Account Executive - Southeast",
+   "company": "agiloft",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior sales executive role requiring enterprise sales experience in the US, which does not match the candidate's junior accounting background and location in Nigeria.",
+   "blockers": "US residency required; Senior role requiring enterprise sales experience; Not an entry-level or accounting/finance role",
+   "gaps": [
+    "Enterprise software sales",
+    "B2B sales execution",
+    "Contract lifecycle management (CLM) sales"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-southeast-agiloft-1138139",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive I - 1096 (Remote)",
+   "company": "Lightcast",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The job requires US work authorization, residency in specific US states, and 3+ years of sales experience, none of which the candidate possesses.",
+   "blockers": "US work authorization required; US residency required; 3+ years of sales experience required",
+   "gaps": [
+    "sales strategy",
+    "cold calling",
+    "account management",
+    "Salesforce",
+    "SalesLoft",
+    "MEDICC"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-account-executive-i-1096-remote-lightcast-1138132",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Commercial Account Executive",
+   "company": "Apryse",
+   "location": "Canada Only",
+   "source": "RemoteOK",
+   "reason": "This is a B2B sales role requiring 3+ years of commercial software sales experience, which does not match the candidate's finance and accounting background.",
+   "blockers": "Requires 3+ years of commercial software sales experience; requires location in Canada only.",
+   "gaps": [
+    "commercial sales",
+    "software sales",
+    "prospecting",
+    "negotiation",
+    "CRM management",
+    "outbound/inbound sales cycle"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-commercial-account-executive-apryse-1138127",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Implementation Consultant - Pharmacovigilance Reporting (Remote)",
+   "company": "Veeva Systems",
+   "location": "UK Only",
+   "source": "RemoteOK",
+   "reason": "The candidate lacks the required 5+ years of software consulting or technical implementation experience in the Life Sciences industry and is based in Nigeria while the job requires UK residency.",
+   "blockers": "5+ years software consulting or technical implementation experience in Life Sciences required; UK residency required",
+   "gaps": [
+    "Life Sciences industry experience",
+    "pharmacovigilance reporting",
+    "Vault Workbench",
+    "software consulting"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Technical Customer Success Manager - xMatters",
+   "company": "Everbridge",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The job requires a US-only location and technical expertise in xMatters, neither of which aligns with the candidate's profile in Nigeria and finance background.",
+   "blockers": "US Only location requirement",
+   "gaps": [
+    "Technical Customer Success Management",
+    "xMatters platform expertise"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-technical-customer-success-manager-xmatters-everbridge-1138113",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Remote Travel Advisor | Entry Level",
+   "company": "Destination Knot",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a remote travel sales and advisory role requiring US residency, which has virtually no overlap with the candidate's accounting and finance background.",
+   "blockers": "Location requirement: US Only",
+   "gaps": [
+    "travel planning",
+    "sales",
+    "customer support",
+    "entrepreneurship"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-remote-travel-advisor-entry-level-destination-knot-1138109",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 5,
    "title": "Senior Data Scientist",
    "company": "Bright Vision Technologies",
@@ -15208,6 +16128,326 @@
    "recent": false
   },
   {
+   "score": 5,
+   "title": "SVP of Enterprise Payments",
+   "company": "Gate City Bank",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role is a senior executive position (SVP of Enterprise Payments) requiring extensive leadership experience that far exceeds an entry-level candidate's profile.",
+   "blockers": "Senior executive role (SVP) requiring extensive industry experience; US residency/location requirement (Midwest States)",
+   "gaps": [
+    "enterprise payments strategy",
+    "executive leadership",
+    "payment economics",
+    "product ownership"
+   ],
+   "url": "https://himalayas.app/companies/gate-city-bank/jobs/svp-of-enterprise-payments?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "(Junior) Sales Manager - Licensing DACH",
+   "company": "Statista",
+   "location": "Hamburg",
+   "source": "Arbeitnow",
+   "reason": "The role requires native-level German language proficiency for sales in the DACH region and focuses entirely on outbound commercial sales, which does not match the candidate's finance and accounting background.",
+   "blockers": "Native-level German language requirement",
+   "gaps": [
+    "native-level German",
+    "outbound B2B sales",
+    "cold calling",
+    "Salesforce"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/statista/junior-sales-manager-licensing-dach-hamburg-167910",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Account Executive - DACH (m/f/d)",
+   "company": "Tandem Health",
+   "location": "Hamburg",
+   "source": "Arbeitnow",
+   "reason": "This senior sales and account executive role requires bilingual fluency in German and outbound healthcare sales experience, which does not match the candidate's finance background.",
+   "blockers": "Senior role; Bilingual fluency in both German and English required; Field sales and outbound commercial experience required",
+   "gaps": [
+    "German language fluency",
+    "B2B sales",
+    "outbound prospecting",
+    "healthcare sales"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/tandem-health/senior-account-executive-dach-hamburg-17379",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "(Senior) Enterprise Sales Manager",
+   "company": "Zauber Technology GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The role requires senior enterprise sales experience and German language skills, which completely mismatch the candidate's finance and junior accounting profile.",
+   "blockers": "Requires 3-7 years of enterprise sales experience, German language fluency, and a senior-level sales background.",
+   "gaps": [
+    "enterprise sales",
+    "SaaS sales",
+    "quota carrying",
+    "German language"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/zauber-technology-gmbh/senior-enterprise-sales-manager-berlin-429025",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Head of Tax",
+   "company": "Jobgether",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate is a junior accountant with under a year of experience, whereas this role requires a Head of Tax position with at least 10 years of experience and professional certifications like ACA, ACCA, or CTA.",
+   "blockers": "Requires recognised professional tax or accountancy qualification (CTA, ADIT, ACA, ICAS, or ACCA) which the candidate lacks; Requires at least 10 years of relevant professional experience including senior in-house tax leadership.",
+   "gaps": [
+    "international tax strategy",
+    "transfer pricing",
+    "tax governance",
+    "multi-jurisdiction tax compliance",
+    "senior tax leadership experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/jobgether-head-of-tax",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Compliance Manager, Card",
+   "company": "Affirm",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 8+ years of compliance advisory experience in financial services, which significantly exceeds the candidate's junior-level background.",
+   "blockers": "Requires 8+ years of experience in a compliance advisory role within financial services.",
+   "gaps": [
+    "US regulatory knowledge (Reg E, Reg Z, CARD Act, UDAAP)",
+    "compliance advisory experience",
+    "card and payments compliance expertise"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/affirm-compliance-manager-card-1",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Account Executive - In-Territory (SF/Bay Area, LA, Orange County, San Diego)",
+   "company": "Justworks",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level sales role requiring a proven closer with PEO and SaaS sales experience in the US, which does not match the candidate's junior accounting background and Nigerian location.",
+   "blockers": "Senior-level sales role; US residency and territory requirement; PEO sales experience required.",
+   "gaps": [
+    "B2B sales",
+    "PEO industry knowledge",
+    "cold outreach",
+    "closing",
+    "US market network"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/justworks-senior-account-executive-in-territory-sf-bay-area-la-orange-county-san-diego",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Compliance Manager, Card",
+   "company": "Affirm",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate is heavily under-qualified for a senior-level compliance advisory role requiring 8+ years of specific financial services compliance experience.",
+   "blockers": "Requires 8+ years of experience in a compliance advisory role within financial services, which the candidate lacks.",
+   "gaps": [
+    "regulatory compliance advisory",
+    "EFTA and TILA regulation expertise",
+    "card program compliance management",
+    "compliance testing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/affirm-compliance-manager-card",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Strategic Account Executive - West",
+   "company": "LaunchDarkly",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise sales role requiring 8-10+ years of closing experience, which completely misaligns with the candidate's entry-level finance profile.",
+   "blockers": "Requires 8-10+ years of strategic B2B sales experience (closing).",
+   "gaps": [
+    "Strategic sales",
+    "quota attainment",
+    "enterprise account management",
+    "MEDDPIC methodology"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/launchdarkly-strategic-account-executive-west",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Product Design Intern (USA)",
+   "company": "Pinterest",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires current enrollment in a school or education program working towards a Bachelor's degree in design, engineering, or a related field, which the candidate does not meet, as well as being a US-based remote position with a design focus.",
+   "blockers": "Candidate is not currently enrolled in a degree program (already graduated in 2025) and does not reside in the USA for this US remote role.",
+   "gaps": [
+    "UI/UX design",
+    "portfolio in product design",
+    "design tools like Figma"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/pinterest-product-design-intern-usa",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Technical Accountant",
+   "company": "Kalshi",
+   "location": "USA",
+   "source": "Jobicy",
+   "reason": "The candidate lacks the required active CPA certification and 5+ years of experience for this senior technical accountant role.",
+   "blockers": "Active CPA required; 5+ years of experience required",
+   "gaps": [
+    "U.S. GAAP technical accounting policy",
+    "FASB guidance interpretation"
+   ],
+   "url": "https://jobicy.com/jobs/154057-technical-accountant",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Account Executive",
+   "company": "IDMWORKS",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires US residency, travel, and a strong network in the IAM industry, none of which match the candidate's profile.",
+   "blockers": "Must reside within the U.S.; Strong network within the IAM industry needed",
+   "gaps": [
+    "IAM industry network",
+    "B2B tech sales experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-account-executive-idmworks-1138145",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Enterprise Sales Executive",
+   "company": "Loadsmart",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires 5+ years of enterprise SaaS sales experience in the US logistics industry, whereas the candidate is a junior accountant based in Nigeria with no sales background.",
+   "blockers": "5+ years of selling experience; US location requirement; freight tech and SaaS sales experience",
+   "gaps": [
+    "enterprise sales",
+    "cold prospecting",
+    "SaaS sales",
+    "negotiation of enterprise contracts",
+    "logistics industry experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-enterprise-sales-executive-loadsmart-1138141",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sr. Manager, Revenue Enablement",
+   "company": "Secure Code Warrior",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior sales enablement and product marketing role requiring extensive go-to-market experience in the US, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior-level role requiring extensive product marketing and sales enablement experience; US only location",
+   "gaps": [
+    "product marketing",
+    "sales enablement",
+    "B2B SaaS go-to-market strategy",
+    "competitive intelligence"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-manager-revenue-enablement-secure-code-warrior-1138138",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Federal Account Executive",
+   "company": "Metabase",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "This is a senior US Federal sales role requiring direct government sales experience and a physical location in the US, none of which match the candidate's profile.",
+   "blockers": "US Only location requirement; Quota-carrying Federal sales experience required",
+   "gaps": [
+    "Federal sales",
+    "quota management",
+    "US government procurement knowledge"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-federal-account-executive-metabase-1138134",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Enterprise  Account Executive - (Illinois, Wisconsin, Indiana and Michigan)",
+   "company": "Sonatype",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires 5+ years of enterprise software sales experience in the US, which does not align with the candidate's finance background and location.",
+   "blockers": "5+ years of enterprise software sales experience required; US location requirement",
+   "gaps": [
+    "enterprise software sales",
+    "cold calling",
+    "Salesforce",
+    "account executive experience"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-illinois-wisconsin-indiana-and-michigan-sonatype-1138131",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Customer Success Engineer",
+   "company": "Ethena",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires US residency and technical engineering skills that do not match the candidate's finance profile.",
+   "blockers": "Location: US Only; Technical engineering experience required",
+   "gaps": [
+    "Customer Success",
+    "HRIS integrations",
+    "SSO setup",
+    "LMS connectors",
+    "API configurations"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-ethena-1138112",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sr. Customer Success Manager I",
+   "company": "Lyra Health",
+   "location": "US Only",
+   "source": "RemoteOK",
+   "reason": "The role requires US residency and 8+ years of customer success experience, which the candidate lacks.",
+   "blockers": "US Only location requirement; 8+ years experience required (candidate has 11 months)",
+   "gaps": [
+    "customer success",
+    "healthcare benefits experience",
+    "enterprise client management"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-customer-success-manager-i-lyra-health-1138106",
+   "drafted": false,
+   "recent": true
+  },
+  {
    "score": 0,
    "title": "Project Manager - Advanced Manufacturing",
    "company": "CACI International Inc",
@@ -17565,9 +18805,235 @@
    "url": "https://jooble.org/jdp/-1170559944742924814",
    "drafted": false,
    "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Mkt Manager Revenue Cycle Inpatient Coding",
+   "company": "CommonSpirit Health",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior management role requiring 4-6 years of specialized hospital-based medical coding and management experience, US healthcare certifications (RHIA, RHIT, CCS), and US location, all of which the candidate lacks.",
+   "blockers": "Requires 4-6 years of hospital-based coding management experience, RHIA/RHIT/CCS certifications, and US residency.",
+   "gaps": [
+    "ICD-10 coding",
+    "healthcare revenue cycle management",
+    "inpatient medical coding",
+    "medical billing and compliance"
+   ],
+   "url": "https://himalayas.app/companies/commonspirit-health/jobs/mkt-manager-revenue-cycle-inpatient-coding?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Senior Fullstack Engineer - Payroll (front-end oriented) - Paris - F/M/X",
+   "company": "Combo",
+   "location": "France",
+   "source": "Himalayas",
+   "reason": "This is a senior software engineering and coding role requiring extensive full-stack development experience, which does not match the candidate's accounting background.",
+   "blockers": "Senior software engineering experience with Node.js, React, and AI coding tools required",
+   "gaps": [
+    "Node.js",
+    "TypeScript",
+    "React",
+    "Postgres",
+    "Redis",
+    "GCP",
+    "Kubernetes",
+    "software engineering experience"
+   ],
+   "url": "https://himalayas.app/companies/combo/jobs/senior-fullstack-engineer-payroll-front-end-oriented-paris-f-m-x?utm_source=api",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Aradel Internship Programme 2027 | Undergraduate and Graduate Internship Opportunities",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate graduated with a Second Class Lower (2:2) degree, but the job explicitly requires a minimum of Second-Class Upper (2:1).",
+   "blockers": "Requires a minimum of Second-Class Upper (2:1), but candidate holds a Second Class Lower (2:2).",
+   "gaps": [
+    "energy industry experience"
+   ],
+   "url": "https://tally.so/r/2jEOpD",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Junior Art Director:in (m/w/d)",
+   "company": "aha! Agentur für Handelsmarketing",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "This is a creative design role for a Junior Art Director requiring a degree in communications design and 1-3 years of agency experience, which completely misaligns with the candidate's accounting background.",
+   "blockers": "Requires a degree in communications design or similar and 1 to 3 years of agency experience, which the candidate lacks.",
+   "gaps": [
+    "Adobe CC",
+    "Figma",
+    "typography and layout",
+    "print prepress",
+    "motion design",
+    "German language fluency"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/aha-agentur-fur-handelsmarketing/junior-art-directorin-cologne-324220",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Chief Information Security Officer (CISO)",
+   "company": "Hawk",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "This is a senior executive CISO (Chief Information Security Officer) role requiring extensive technical cybersecurity leadership experience, which does not match the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior CISO leadership role requiring extensive cybersecurity experience, well above the candidate's entry-level status.",
+   "gaps": [
+    "Cybersecurity architecture",
+    "application security",
+    "cloud security engineering (AWS/GCP)",
+    "incident response",
+    "CISO leadership experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/hawk/chief-information-security-officer-ciso-munich-319880",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "ChordPoint Group Recruitment 2026 | Apply for Remote Interpreter Positions",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role requires professional translation and interpretation skills, which do not align with the candidate's background in accounting, finance, and business administration.",
+   "blockers": "The job requires professional interpreter skills and fluency in specific language interpretation which the candidate does not possess.",
+   "gaps": [
+    "interpretation",
+    "translation",
+    "multilingual communication"
+   ],
+   "url": "https://jobs.smartyacad.com/chordpoint-group-recruitment-2026/",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Senior Software Engineer, Product/AI",
+   "company": "Customer.io",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 7+ years of experience in software engineering and fluency in Go, React, and TypeScript, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Requires 7+ years of software engineering experience and full-stack technical skills the candidate does not possess.",
+   "gaps": [
+    "Go",
+    "React",
+    "TypeScript",
+    "software engineering experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/customer-io-senior-software-engineer-product-ai",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Regional Vice President, Enterprise Account Management",
+   "company": "Salesloft",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior executive sales leadership role requiring extensive enterprise account management experience, which completely misaligns with the candidate's entry-level profile and lack of sales experience.",
+   "blockers": "Requires extensive senior sales leadership experience (Regional Vice President level) managing enterprise sellers, which the candidate lacks.",
+   "gaps": [
+    "enterprise sales leadership",
+    "pipeline forecasting",
+    "software sales",
+    "team management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/salesloft-regional-vice-president-enterprise-account-management",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "English to Belarusian Review Lead for UI, Marketing & Product Content",
+   "company": "Welo Data",
+   "location": "UK Only",
+   "source": "RemoteOK",
+   "reason": "The job requires English to Belarusian translation and review expertise, which completely lacks any alignment with the candidate's accounting, finance, and operations skill set.",
+   "blockers": "Candidate must be resident in the UK and fluent in Belarusian.",
+   "gaps": [
+    "English to Belarusian translation",
+    "linguistic review",
+    "UI localisation",
+    "editorial quality governance"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-english-to-belarusian-review-lead-for-ui-marketing-product-content-welo-data-1138140",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Associate Director of Field Marketing - Quality Cloud - Europe",
+   "company": "Veeva Systems",
+   "location": "UK Only",
+   "source": "RemoteOK",
+   "reason": "The candidate fails multiple hard eligibility requirements, including requiring 8+ years of B2B software marketing experience, being an Associate Director level role, and being restricted to candidates in the UK only.",
+   "blockers": "8+ years of experience in B2B software marketing required; UK residency only required",
+   "gaps": [
+    "B2B software marketing",
+    "ABM strategy",
+    "global account-based marketing",
+    "field marketing"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-associate-director-of-field-marketing-quality-cloud-europe-veeva-systems-1138121",
+   "drafted": false,
+   "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-26T16:52+00:00",
+   "report": [
+    "Last run: 2026-11-26T16:52+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 476 postings in total, and 216 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "75 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "7 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 9 passed filter",
+    "- workingnomads: 37 fetched, 11 passed filter",
+    "- jobicy: 45 fetched, 39 passed filter",
+    "- remoteok: 100 fetched, 41 passed filter",
+    "- greenhouse: 65 fetched, 33 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 43 fetched, 23 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 16 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 42 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 65 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 12 linked pages",
+    "- 27 jobs older than 30 days skipped",
+    "- 75 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 85: SAP Young Professionals Program 2027 | Free Professional Training for African Graduates at Dixcover Hub listing. Blockers: none",
+    "  - 75: Resident Internal Control Officer (RICO) at Moniepoint. Blockers: none",
+    "  - 75: Admin Support Officer at TeamAce Limited. Blockers: none",
+    "  - 50: General Administrative Assistant — Remote | Pacific Time at Boogie Consulting & Projects. Blockers: none",
+    "  - 50: Contract Analyst at Kpler. Blockers: none"
+   ]
+  },
   {
    "last_run": "2026-11-26T06:45+00:00",
    "report": [

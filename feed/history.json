@@ -1156,5 +1156,48 @@
    "- 43 new jobs sent to scoring",
    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
   ]
+ },
+ {
+  "last_run": "2026-11-26T16:52+00:00",
+  "report": [
+   "Last run: 2026-11-26T16:52+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 476 postings in total, and 216 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "75 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "7 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 9 passed filter",
+   "- workingnomads: 37 fetched, 11 passed filter",
+   "- jobicy: 45 fetched, 39 passed filter",
+   "- remoteok: 100 fetched, 41 passed filter",
+   "- greenhouse: 65 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 43 fetched, 23 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 16 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 42 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 65 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 12 linked pages",
+   "- 27 jobs older than 30 days skipped",
+   "- 75 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 85: SAP Young Professionals Program 2027 | Free Professional Training for African Graduates at Dixcover Hub listing. Blockers: none",
+   "  - 75: Resident Internal Control Officer (RICO) at Moniepoint. Blockers: none",
+   "  - 75: Admin Support Officer at TeamAce Limited. Blockers: none",
+   "  - 50: General Administrative Assistant — Remote | Pacific Time at Boogie Consulting & Projects. Blockers: none",
+   "  - 50: Contract Analyst at Kpler. Blockers: none"
+  ]
  }
 ]
