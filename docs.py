@@ -34,8 +34,42 @@ def _has(text, words):
     return any(re.search(w, text) for w in words)
 
 
-def select(description):
-    """Returns what to attach, what is missing, and notes about substitutions."""
+def select(description, url=""):
+    """What to attach, what is missing, and notes. The posting is read by the AI when a link is given,
+    and the keyword rules are the fallback."""
+    if url:
+        try:
+            import requirements
+            req = requirements.extract(url, description)
+            return _from_requirements(req, description)
+        except Exception as e:
+            print(f"Requirement reading failed, using keyword rules: {str(e)[:100]}")
+    return _keyword_select(description)
+
+
+def _from_requirements(req, description):
+    wanted = set(req.get("documents", []))
+    attach, missing, notes = ["cv"], [], []
+    if "nin" in wanted:
+        attach.append("nin")
+        if "NRC" in (description or "") or "National Registration" in (description or ""):
+            notes.append("The posting asks for an NRC. Your NIN slip has been sent instead.")
+    if req.get("academic_certificates") or "wassce" in wanted or "oau_result" in wanted:
+        attach += ["wassce", "oau_result"]
+    if "nysc" in wanted:
+        attach.append("nysc")
+    if "leaving" in wanted:
+        attach.append("leaving")
+    if "transcript" in wanted:
+        attach.append("oau_result")
+        missing.append("official transcript (you have a notification of results, not a transcript)")
+    if "other" in wanted:
+        missing.append("a document the posting asks for that is not on file")
+    return {"attach": [k for k in DOCS if k in attach], "missing": missing, "notes": notes,
+            "single": bool(req.get("single_document")), "requirements": req}
+
+
+def _keyword_select(description):
     text = (description or "").lower()
     attach, missing, notes = ["cv"], [], []
     if _has(text, NIN_WORDS):

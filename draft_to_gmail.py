@@ -39,7 +39,7 @@ def build_message(r, letter, failed_send=False):
     else:
         body += "No email address was found in the posting, so please apply through the link."
     msg.set_content(body)
-    docs.attach(msg, docs.select(r.get("description", "")), NAME)
+    docs.attach(msg, docs.select(r.get("description", ""), r.get("url", "")), NAME)
     return msg
 
 

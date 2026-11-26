@@ -114,7 +114,7 @@ def main(dry_run):
             print(f"Skipped {r['title']}: a placeholder was left unfilled.")
             continue
         subject = f"Application: {r['title']}"
-        sel = docs.select(r.get("description", ""))
+        sel = docs.select(r.get("description", ""), r.get("url", ""))
         if sel["missing"]:
             if not dry_run:
                 docs.hold(r["url"], r["title"], r["company"], sel,

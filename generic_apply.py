@@ -122,7 +122,7 @@ def main():
         for posting, item, letter in todo:
             url = item["apply_url"]
             shot = f"{SCREEN_DIR}/generic-{re.sub(r'[^a-z0-9]+', '-', item['company'].lower())[:30]}.png"
-            sel = docs.select(rows[posting].get("description", ""))
+            sel = docs.select(rows[posting].get("description", ""), posting)
             if sel["missing"]:
                 docs.hold(posting, item["title"], item["company"], sel, TOKEN, CHAT)
                 state[url] = "held"

@@ -45,7 +45,7 @@ def main():
     letter = read_cover_letter(job)
     if not letter:
         sys.exit("No cover letter draft for this job. Nothing sent.")
-    sel = docs.select(description)
+    sel = docs.select(description, JOB_URL)
     token, chat = os.getenv("TELEGRAM_BOT_TOKEN", ""), os.getenv("TELEGRAM_CHAT_ID", "")
     if sel["missing"]:
         docs.hold(JOB_URL, job["title"], job["company"], sel, token, chat)
