@@ -54,6 +54,17 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
 .toggle::after{content:"\25BE";font-size:14px;opacity:.7;transition:transform .2s}
 .toggle.open::after{transform:rotate(180deg)}
 @media (min-width:601px){.toggle{cursor:default;border-bottom:none;padding:0;margin-bottom:12px}.toggle::after{display:none}}
+
+/* Runs section */
+.rn-grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:760px){.rn-grid{grid-template-columns:1fr 1fr}}
+.rn-card{padding:16px;margin-bottom:10px}
+.rn-label{display:flex;flex-direction:column;gap:4px;font-size:14px;color:var(--soft);margin-bottom:10px}
+.rn-check{flex-direction:row;align-items:center;gap:8px}.rn-check input{width:auto}
+.rn-row{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.rn-title{font-weight:600}.rn-meta{color:var(--soft);font-size:13px}
+.rn-tag{display:inline-block;font-size:12px;border:1px solid #ffb020;color:#ffb020;border-radius:999px;padding:2px 8px;margin-left:6px}
+.rn-msg-err{color:#ff7070;font-weight:600}
 </style><link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -71,6 +82,7 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
     <button class="tab" data-tab="replies">Replies<span class="badge" id="badgeReplies" hidden></span></button>
     <button class="tab" data-tab="outreach">Outreach</button>
     <button class="tab" data-tab="history">History</button>
+    <button class="tab" data-tab="runs">Runs</button>
     <button class="tab" data-tab="settings">Settings</button>
   </nav>
 </header>
@@ -171,6 +183,44 @@ input.field,.field{border:1px solid rgba(255,251,241,.22)!important;box-shadow:i
   <div id="history"></div>
 </section>
 
+<section class="page" id="page-runs">
+  <h2>Outstanding</h2>
+  <p class="muted">Cover letters not written yet, and emails that failed. Retry runs that one item again.</p>
+  <div id="rnOutstanding"><p class="muted">Loading...</p></div>
+
+  <h2>Run a search</h2>
+  <div class="rn-grid">
+    <div class="clay rn-card">
+      <label class="rn-label">Where to search
+        <select id="rnMode" class="field"><option value="site">A saved site</option><option value="link">A pasted page link</option></select>
+      </label>
+      <div id="rnSiteBox"><label class="rn-label">Saved site<select id="rnSite" class="field"></select></label></div>
+      <div id="rnLinkBox" hidden>
+        <label class="rn-label">Page link<input id="rnLink" class="field" type="url" placeholder="https://..."></label>
+        <label class="rn-label rn-check"><input id="rnSave" type="checkbox"> Save this link as a site</label>
+        <label class="rn-label">Site name<input id="rnSiteName" class="field" placeholder="e.g. Careers page"></label>
+      </div>
+      <p class="muted">Leave any filter empty to use no filter.</p>
+      <label class="rn-label">Keyword (optional)<input id="rnKeyword" class="field" placeholder="e.g. audit"></label>
+      <div id="rnOtOnly">
+        <label class="rn-label">Category (OpenTrain only)<input id="rnCategory" class="field"></label>
+        <label class="rn-label">Domain (OpenTrain only)<input id="rnDomain" class="field"></label>
+        <label class="rn-label">Language (OpenTrain only), such as en<input id="rnLanguage" class="field"></label>
+        <label class="rn-label">Country (OpenTrain only), two letters such as US<input id="rnCountry" class="field" maxlength="2"></label>
+        <label class="rn-label">Pay type (OpenTrain only)<select id="rnPay" class="field"><option value="">Any</option><option>PAY_PER_HOUR</option><option>FIXED_PRICE</option><option>PAY_PER_LABEL</option></select></label>
+      </div>
+      <button class="btn" id="rnRun" type="button">Run</button>
+      <p class="muted" id="rnRunMsg"></p>
+    </div>
+    <div class="clay rn-card">
+      <div class="rn-row"><strong>Latest runs</strong><button class="btn" id="rnRefresh" type="button">Refresh</button></div>
+      <div id="rnRuns" style="margin-top:10px"><p class="muted">Loading...</p></div>
+    </div>
+  </div>
+
+  <h2 id="rnResultsTitle" hidden>Results</h2>
+  <div id="rnResults"></div>
+</section>
 <section class="page" id="page-settings">
   <h2>Form submission</h2>
   <div class="clay">
@@ -209,7 +259,7 @@ function setBadge(id, n) {
 }
 
 /* ---------- tabs ---------- */
-const TABS = ['overview', 'jobs', 'drafts', 'sent', 'replies', 'outreach', 'history', 'settings'];
+const TABS = ['overview', 'jobs', 'drafts', 'sent', 'replies', 'outreach', 'history', 'runs', 'settings'];
 function showTab(name) {
   if (!TABS.includes(name)) name = 'overview';
   TABS.forEach(t => {
@@ -217,6 +267,7 @@ function showTab(name) {
     document.querySelector('.tab[data-tab="' + t + '"]').classList.toggle('on', t === name);
   });
   window.scrollTo(0, 0);
+  if (name === 'runs') rnStart();
 }
 document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
   location.hash = b.dataset.tab;
@@ -583,6 +634,134 @@ document.getElementById('lockBtn').addEventListener('click', async () => {
   if (!password) return;
   const feed = await loadFeed(password);
   if (feed) { sessionStorage.setItem('dashboardPassword', password); showFeed(feed); }
+});
+/* ---------- runs (inside the dashboard) ---------- */
+function rnEl(tag, props, ...kids) {
+  const n = document.createElement(tag);
+  Object.entries(props || {}).forEach(([k, v]) => {
+    if (k === 'cls') n.className = v; else if (k === 'text') n.textContent = v;
+    else if (k === 'onclick') n.onclick = v; else n.setAttribute(k, v);
+  });
+  kids.forEach(k => { if (k !== '' && k != null) n.append(k); });
+  return n;
+}
+function rnLink(url, text) {
+  const a = rnEl('a', { text: text || url });
+  if (/^https?:\/\//.test(url)) { a.href = url; a.target = '_blank'; a.rel = 'noopener'; }
+  return a;
+}
+function rnAgo(iso) { const d = new Date(iso); return isNaN(d) ? (iso || '') : d.toLocaleString(); }
+async function rnGetFile(path) {
+  const r = await fetch('/api/feed-file?path=' + encodeURIComponent(path), { cache: 'no-store', headers: { 'x-dashboard-password': savedPassword() } });
+  if (r.status === 401) throw new Error('Wrong password. Log in again.');
+  if (r.status === 404) return null;
+  if (!r.ok) throw new Error('Could not load ' + path + '.');
+  return r.json();
+}
+async function rnPost(path, body) {
+  const r = await fetch('/api/' + path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: savedPassword(), ...body }) });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || 'Something went wrong.');
+  return data;
+}
+function rnSyncMode() {
+  const link = document.getElementById('rnMode').value === 'link';
+  document.getElementById('rnSiteBox').hidden = link;
+  document.getElementById('rnLinkBox').hidden = !link;
+  document.getElementById('rnOtOnly').hidden = link;
+}
+async function rnLoadOutstanding() {
+  const box = document.getElementById('rnOutstanding');
+  box.replaceChildren(rnEl('p', { cls: 'muted', text: 'Loading...' }));
+  const data = await rnGetFile('feed/outstanding.json');
+  box.replaceChildren();
+  if (!data) { box.append(rnEl('p', { cls: 'muted', text: 'Nothing loaded yet. It appears after the next run.' })); return; }
+  const item = (it, label) => {
+    const msg = rnEl('p', { cls: 'muted' });
+    const btn = rnEl('button', { cls: 'btn', type: 'button', text: 'Retry', onclick: async () => {
+      btn.disabled = true; msg.textContent = 'Starting...'; msg.className = 'muted';
+      try { msg.textContent = (await rnPost('retry', { kind: it.kind, url: it.url })).message; }
+      catch (e) { msg.textContent = e.message; msg.className = 'muted rn-msg-err'; }
+      btn.disabled = false;
+    } });
+    return rnEl('div', { cls: 'clay rn-card' },
+      rnEl('div', { cls: 'rn-row' },
+        rnEl('div', {}, rnEl('div', { cls: 'rn-title', text: it.title || 'Job' }),
+          rnEl('div', { cls: 'rn-meta', text: [it.company, label].filter(Boolean).join(' · ') })),
+        btn),
+      rnEl('div', { cls: 'rn-meta' }, rnLink(it.url, 'Job link')),
+      msg);
+  };
+  if (!data.letters.length && !data.sends.length) box.append(rnEl('p', { cls: 'muted', text: 'Nothing waiting.' }));
+  data.sends.forEach(s => box.append(item(s, 'Email failed')));
+  if (data.letters_total) box.append(rnEl('p', { cls: 'muted', text: `${data.letters_total} cover letter(s) waiting. Showing the first ${data.letters.length}, fewest failed tries first.` }));
+  data.letters.forEach(l => box.append(item(l, `Score ${l.score} · tries failed: ${l.tries_failed}`)));
+}
+async function rnLoadSites() {
+  const sites = (await rnGetFile('feed/sites.json')) || [];
+  document.getElementById('rnSite').replaceChildren(...sites.map(s => rnEl('option', { value: s.id, text: s.name })));
+}
+async function rnLoadRuns() {
+  const box = document.getElementById('rnRuns');
+  const index = (await rnGetFile('feed/runs/index.json')) || [];
+  box.replaceChildren();
+  if (!index.length) { box.append(rnEl('p', { cls: 'muted', text: 'No runs yet.' })); return; }
+  index.forEach(r => box.append(rnEl('div', { cls: 'clay rn-card' },
+    rnEl('div', { cls: 'rn-row' },
+      rnEl('div', {}, rnEl('div', { cls: 'rn-title', text: r.site || 'Search' }),
+        rnEl('div', { cls: 'rn-meta', text: `${rnAgo(r.created)} · ${r.count} job(s)${r.blocked ? ' · ' + r.blocked + ' blocked' : ''}` })),
+      rnEl('button', { cls: 'btn', type: 'button', text: 'Open', onclick: () => rnShowRun(r.id) })))));
+}
+async function rnShowRun(id) {
+  const box = document.getElementById('rnResults');
+  document.getElementById('rnResultsTitle').hidden = false;
+  box.replaceChildren(rnEl('p', { cls: 'muted', text: 'Loading...' }));
+  const data = await rnGetFile(`feed/runs/${id}.json`);
+  box.replaceChildren();
+  if (!data) { box.append(rnEl('p', { cls: 'muted', text: 'That run is not ready yet.' })); return; }
+  const filters = Object.entries(data.filters || {}).map(([k, v]) => `${k} = ${v}`).join(', ');
+  box.append(rnEl('div', { cls: 'clay rn-card' },
+    rnEl('div', { cls: 'rn-title', text: data.site || 'Search' }),
+    rnEl('div', { cls: 'rn-meta', text: rnAgo(data.created) }),
+    rnEl('p', { cls: 'muted', text: data.note }),
+    rnEl('div', { cls: 'rn-meta', text: filters ? 'Filters: ' + filters : 'No filters' })));
+  if (!data.jobs.length) box.append(rnEl('p', { cls: 'muted', text: 'No jobs found.' }));
+  data.jobs.forEach(j => box.append(rnEl('div', { cls: 'clay rn-card' },
+    rnEl('div', { cls: 'rn-title' }, j.title, j.blocked ? rnEl('span', { cls: 'rn-tag', text: 'Blocked: ' + j.blocked_reason }) : ''),
+    rnEl('div', { cls: 'rn-meta', text: `Pay: ${j.pay} · Countries: ${j.countries}` }),
+    rnEl('div', { cls: 'rn-meta' }, rnLink(j.url)))));
+}
+let rnPollTimer = null;
+function rnPollRuns() {
+  clearTimeout(rnPollTimer);
+  let tries = 0;
+  const tick = async () => { await rnLoadRuns().catch(() => {}); if (++tries < 30) rnPollTimer = setTimeout(tick, 20000); };
+  rnPollTimer = setTimeout(tick, 60000);
+}
+async function rnStart() {
+  if (!savedPassword()) return;
+  try { await Promise.all([rnLoadSites(), rnLoadOutstanding(), rnLoadRuns()]); rnSyncMode(); }
+  catch (e) { document.getElementById('rnRunMsg').textContent = e.message; }
+}
+document.getElementById('rnMode').addEventListener('change', rnSyncMode);
+document.getElementById('rnRefresh').addEventListener('click', () => rnLoadRuns().catch(e => alert(e.message)));
+document.getElementById('rnRun').addEventListener('click', async () => {
+  const link = document.getElementById('rnMode').value === 'link';
+  const v = id => document.getElementById(id).value.trim();
+  const msg = document.getElementById('rnRunMsg');
+  msg.className = 'muted'; msg.textContent = 'Starting...';
+  const btn = document.getElementById('rnRun'); btn.disabled = true;
+  try {
+    const d = await rnPost('run', {
+      mode: link ? 'link' : 'site', site_id: v('rnSite'), link_url: v('rnLink'),
+      save_site: document.getElementById('rnSave').checked, site_name: v('rnSiteName'),
+      keyword: v('rnKeyword'), category: v('rnCategory'), domain: v('rnDomain'),
+      language: v('rnLanguage'), country: v('rnCountry'), pay_type: document.getElementById('rnPay').value,
+    });
+    msg.textContent = d.message;
+    rnPollRuns();
+  } catch (e) { msg.textContent = e.message; msg.className = 'muted rn-msg-err'; }
+  btn.disabled = false;
 });
 (function start() {
   document.querySelector('header').hidden = true;
