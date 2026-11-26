@@ -947,5 +947,48 @@
    "  - 15: Operations Coordinator – Einsatz- & Terminplanung (d/w/m) at SpotmyEnergy GmbH. Blockers: Requires fluent German (C1 minimum) and location in Cologne, Germany.",
    "- 3 jobs FAILED scoring. First error: no usable answer after 3 tries: 503 from Gemini"
   ]
+ },
+ {
+  "last_run": "2026-11-26T01:54+00:00",
+  "report": [
+   "Last run: 2026-11-26T01:54+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 978 postings in total, and 672 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "80 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "3 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 40 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 10 passed filter",
+   "- workingnomads: 38 fetched, 11 passed filter",
+   "- jobicy: 50 fetched, 44 passed filter",
+   "- remoteok: 100 fetched, 49 passed filter",
+   "- greenhouse: 66 fetched, 34 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 22 passed filter",
+   "- jooble: 494 fetched, 435 passed filter",
+   "- arbeitnow: 50 fetched, 22 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 43 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 66 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 10 linked pages",
+   "- 58 jobs older than 30 days skipped",
+   "- 80 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 55: Accounting Assistant at CFS. Blockers: U.S. work authorization and local presence in Oak Brook, IL required",
+   "  - 50: accounting assistant at MadCap Software Inc. Blockers: Candidate is in Nigeria and the job is located in the United States with no remote work confirmation.",
+   "  - 50: Accounting Assistant at Commercial and Residential Management Group. Blockers: The job requires physical presence in Portland, OR while the candidate is based in Nigeria.",
+   "  - 35: Venture Operations (m/w/d) at Kola Invest GmbH. Blockers: Required to be based in Hamburg, Germany; required to speak fluent German.",
+   "  - 35: Accounting Specialist II at CFS. Blockers: Candidate is not resident in the US and lacks work authorization for Holland, MI"
+  ]
  }
 ]

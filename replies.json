@@ -1,5 +1,21 @@
 [
  {
+  "message_id": "<198324463.26875218.1795643437021@lva2-app66876.prod.linkedin.com>",
+  "received": "2026-11-25T21:50+00:00",
+  "from": "messages-noreply@linkedin.com",
+  "subject": "1 person viewed your profile",
+  "company": "linkedin.com",
+  "application": "your application"
+ },
+ {
+  "message_id": "<1422509588.25232964.1795636744263@lva2-app65002.prod.linkedin.com>",
+  "received": "2026-11-25T19:59+00:00",
+  "from": "updates-noreply@linkedin.com",
+  "subject": "CFD Research Corporation just shared",
+  "company": "linkedin.com",
+  "application": "your application"
+ },
+ {
   "message_id": "<1835412166.403337.1795629807217@email-sender-5676bfb666-wgrbz>",
   "received": "2026-11-25T18:03+00:00",
   "from": "notification@smartrecruiters.com",
