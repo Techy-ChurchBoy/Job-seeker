@@ -1242,5 +1242,48 @@
    "  - 15: Deal Desk Analyst at Fivetran. Blockers: Based out of our Costa Rica office / remote from Costa Rica",
    "  - 15: (Senior) Business Performance Analyst (all genders) at Foodji GmbH. Blockers: 2 to 5 years of experience required; Fluent German required"
   ]
+ },
+ {
+  "last_run": "2026-11-26T18:49+00:00",
+  "report": [
+   "Last run: 2026-11-26T18:49+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 213 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "20 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "2 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 9 passed filter",
+   "- workingnomads: 37 fetched, 11 passed filter",
+   "- jobicy: 46 fetched, 40 passed filter",
+   "- remoteok: 100 fetched, 41 passed filter",
+   "- greenhouse: 65 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 43 fetched, 23 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 13 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 41 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 65 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 12 linked pages",
+   "- 26 jobs older than 30 days skipped",
+   "- 20 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 45: Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH. Blockers: The job requires physical presence in Berlin, Germany (Werkstudent/Praktikant), whereas the candidate is based in Nigeria.",
+   "  - 45: Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH. Blockers: Required to be based in Berlin, Germany for a Werkstudent or Praktikant role.",
+   "  - 15: Senior Value Engineer - AI & Process Optimization at Celonis. Blockers: Senior role requiring extensive experience and regional right to work.",
+   "  - 15: Projektmanager (m/w/d) MarTech – Content Supply Chain & Automatisierung | Vollzeit | Hybrid at DIU MarTech Solutions GmbH. Blockers: Requires location in Germany/Hamburg with hybrid onsite work, and technical MarTech project management experience that the candidate lacks.",
+   "  - 10: Senior Value Engineer - AI & Process Optimization at Celonis. Blockers: Senior-level role; requires right to work in the region (Copenhagen/Finland); lacks senior experience."
+  ]
  }
 ]

@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26 18:05 UTC",
+ "generated": "2026-11-26 18:50 UTC",
  "report": [
-  "Last run: 2026-11-26T18:04+00:00 UTC.",
+  "Last run: 2026-11-26T18:49+00:00 UTC.",
   "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 213 matched your skills.",
   "These sources could not be reached: themuse.",
-  "22 postings were scored against your CV this run.",
+  "20 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "1 cover letters were written.",
+  "2 cover letters were written.",
   "No application emails were sent this run.",
   "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
  ],
@@ -16,27 +16,27 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 274,
-    "week": 1025,
+    "today": 294,
+    "week": 1045,
     "limited": 4,
     "overloaded": 217,
-    "tokens_in": 979556,
-    "tokens_out": 69714
+    "tokens_in": 1007775,
+    "tokens_out": 71726
    },
    {
     "process": "letters",
-    "today": 14,
-    "week": 121,
+    "today": 16,
+    "week": 123,
     "limited": 1,
     "overloaded": 65,
-    "tokens_in": 100496,
-    "tokens_out": 45542
+    "tokens_in": 104610,
+    "tokens_out": 47359
    },
    {
     "process": "web_search",
-    "today": 28,
-    "week": 72,
-    "limited": 72,
+    "today": 32,
+    "week": 76,
+    "limited": 76,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -616,6 +616,16 @@
    "requirements": []
   },
   {
+   "title": "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion",
+   "company": "Strive Nutrition GmbH",
+   "score": 45,
+   "url": "https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-81456",
+   "letter": "Dear Hiring Manager,\n\nWorking alongside founders on the operational foundations of product growth at Strive Nutrition GmbH offers an exciting chance to help build a physical consumer brand. The role of Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion matches my background in financial controls, structured documentation and cross-departmental coordination.\n\nDuring my time in the Bursary Department at the Nigerian College of Aviation Technology, I managed vendor and payment records, reconciled transaction data, and tracked discrepancies through to resolution. I also maintained structured procurement and payment schedules, using software such as Microsoft Dynamics 365 Business Central and QuickBooks to ensure data accuracy and clear audit trails. Furthermore, my independent digital product projects have involved workflow design, process reviews, and organizing requirements to improve operational efficiency.\n\nWhile my primary background is in accounting rather than supply chain management, my strong foundation in numerical analysis, timeline tracking, and administrative coordination allows me to adapt quickly to supplier management and production planning tasks.\n\nI welcome the opportunity to discuss how my organizational skills can support your upcoming product launches and international expansion. Please find my CV attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Moderate fit because the candidate brings strong operational documentation, vendor record management, and software skills, but lacks direct supply chain or product management experience.\nGap: Direct experience in physical product procurement, supplier negotiations, and supply chain management.\nGap: Proficiency in German language (not explicitly requested in the posting, but common for Berlin operations roles).",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Administrative Assistant",
    "company": "Tidewell Accounting",
    "score": 45,
@@ -632,6 +642,16 @@
    "url": "https://jooble.org/jdp/2555130073963261954",
    "letter": "Dear Hiring Manager,\n\nKeeping financial records accurate and bills paid on time is central to the Accounts Assistant role at Brook Accounting, making this position an ideal match for my background in bookkeeping and transaction processing. My 11 months of hands-on finance experience have prepared me to handle high volumes of financial data with precision and care.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled receipt and payment records across multiple revenue streams. I regularly prepared journal postings, supported month-end close activities, and investigated inter-departmental account variances to ensure reliable audit trails. Additionally, my proficiency in QuickBooks, Sage, and Microsoft Dynamics 365 Business Central enables me to adapt quickly to your software workflows and begin contributing immediately.\n\nI would welcome the opportunity to discuss how my accounting foundation and attention to detail can support your team in Manila. Please find my CV attached for your review.\n\nYours sincerely,\n\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Strong fit because the candidate has direct practical experience in bank reconciliations, transaction processing, and month-end support using standard accounting software.\nGap: The job is located in Manila, Philippines, while the candidate's current location is Nigeria.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion",
+   "company": "Strive Nutrition GmbH",
+   "score": 45,
+   "url": "https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-388895",
+   "letter": "Dear Hiring Manager,\n\nWorking directly with the founders at Strive Nutrition GmbH to manage supplier relationships and coordinate product launches matches my operational background well. Supporting the growth of a physical consumer brand requires structured coordination across procurement, production planning, and inventory management.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled financial and operational records across multiple revenue streams while tracking open items to resolution. I regularly reviewed supplier and transaction documentation, keeping clear oversight of quantities, pricing schedules, and audit trails. Furthermore, my degree in accounting from Obafemi Awolowo University provided me with a strong foundation in process documentation, quantitative analysis, and financial controls, which helps me maintain reliable data across complex workflows.\n\nWhile my primary background is in financial operations rather than direct consumer goods product management, my experience in building structured tracking systems, investigating discrepancies, and coordinating between departments translates directly to managing supplier databases and production timelines. I am comfortable handling detailed administrative requirements and keeping cross-functional tasks organised.\n\nI would welcome the opportunity to discuss how my operational background can support your upcoming product launches and supply chain expansion. Please find my CV attached.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate. The candidate brings strong process documentation, data tracking, and administrative coordination skills from an accounting background, though direct consumer goods product management and supplier negotiation experience are limited.\nGap: No direct experience in physical consumer goods product management, raw material sourcing, or supply chain negotiation.\nGap: Basic working knowledge of German is not mentioned in the CV, which may be relevant for local supplier communications.",
    "handled": false,
    "requirements": []
   },
@@ -949,7 +969,7 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-26T18:04+00:00",
+ "last_run": "2026-11-26T18:49+00:00",
  "summary": [
   "- remotive: 16 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 9 passed filter",
@@ -971,26 +991,26 @@
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
-  "- 27 jobs older than 30 days skipped",
-  "- 22 new jobs sent to scoring",
+  "- 26 jobs older than 30 days skipped",
+  "- 20 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 45: Interne Projekt- und Prozessanalyse (m/w/d) at S-Akquise GmbH. Blockers: The job requires physical presence in Berlin, Germany, whereas the candidate is based in Nigeria and seeking Nigeria-based or remote roles.",
-  "  - 15: Operations Koordination - Werkstudent (m/w/d) at Enter by baupal GmbH. Blockers: Required current student status in Germany; Required C1 German language proficiency",
-  "  - 15: Executive Assistant People & HR (m/w/d) at Ordio GmbH. Blockers: Must be resident in or around Cologne, Germany and able to work regularly on-site; Very good German language skills required.",
-  "  - 15: Deal Desk Analyst at Fivetran. Blockers: Based out of our Costa Rica office / remote from Costa Rica",
-  "  - 15: (Senior) Business Performance Analyst (all genders) at Foodji GmbH. Blockers: 2 to 5 years of experience required; Fluent German required"
+  "  - 45: Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH. Blockers: The job requires physical presence in Berlin, Germany (Werkstudent/Praktikant), whereas the candidate is based in Nigeria.",
+  "  - 45: Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH. Blockers: Required to be based in Berlin, Germany for a Werkstudent or Praktikant role.",
+  "  - 15: Senior Value Engineer - AI & Process Optimization at Celonis. Blockers: Senior role requiring extensive experience and regional right to work.",
+  "  - 15: Projektmanager (m/w/d) MarTech – Content Supply Chain & Automatisierung | Vollzeit | Hybrid at DIU MarTech Solutions GmbH. Blockers: Requires location in Germany/Hamburg with hybrid onsite work, and technical MarTech project management experience that the candidate lacks.",
+  "  - 10: Senior Value Engineer - AI & Process Optimization at Celonis. Blockers: Senior-level role; requires right to work in the region (Copenhagen/Finland); lacks senior experience."
  ],
  "stats": {
-  "jobs_scored": 1044,
-  "strong": 81,
-  "drafts": 87,
+  "jobs_scored": 1064,
+  "strong": 83,
+  "drafts": 89,
   "sent_today": 1,
   "sent_total": 5
  },
  "skills": [
   {
    "skill": "Python",
-   "count": 43,
+   "count": 44,
    "examples": [
     "Financial Analyst at CertiK",
     "Test Data Quality Engineer at PLATO",
@@ -999,7 +1019,7 @@
   },
   {
    "skill": "Enterprise Sales",
-   "count": 30,
+   "count": 32,
    "examples": [
     "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
     "Strategic Account Executive - Spain at GitLab",
@@ -1052,6 +1072,15 @@
    ]
   },
   {
+   "skill": "People Management",
+   "count": 21,
+   "examples": [
+    "Accounts Receivable & Payable Lead at Who Gives A Crap",
+    "Service Center Operations Manager at Moniepoint",
+    "Operations and AI Enablement Manager, Remote at Aledade"
+   ]
+  },
+  {
    "skill": "Us Gaap",
    "count": 20,
    "examples": [
@@ -1061,12 +1090,21 @@
    ]
   },
   {
-   "skill": "People Management",
+   "skill": "German Language Proficiency",
    "count": 20,
    "examples": [
-    "Accounts Receivable & Payable Lead at Who Gives A Crap",
-    "Service Center Operations Manager at Moniepoint",
-    "Operations and AI Enablement Manager, Remote at Aledade"
+    "Interne Projekt- und Prozessanalyse (m/w/d) at S-Akquise GmbH",
+    "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH",
+    "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH"
+   ]
+  },
+  {
+   "skill": "B2B Sales",
+   "count": 20,
+   "examples": [
+    "Business Development Representative, Financial Services - UKI at GitLab",
+    "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
+    "Graduate Commercial Associate (f/m/d) at Moss"
    ]
   },
   {
@@ -1088,15 +1126,6 @@
    ]
   },
   {
-   "skill": "B2B Sales",
-   "count": 18,
-   "examples": [
-    "Business Development Representative, Financial Services - UKI at GitLab",
-    "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
-    "Graduate Commercial Associate (f/m/d) at Moss"
-   ]
-  },
-  {
    "skill": "Us Tax Law Knowledge",
    "count": 18,
    "examples": [
@@ -1112,15 +1141,6 @@
     "Solutions Engineer, Okta(Enterprise) at Okta",
     "Account Executive - Data Modernization Sales at Rocket Software",
     "Enterprise Account Executive, Sacramento at Glean"
-   ]
-  },
-  {
-   "skill": "Tax Preparation",
-   "count": 18,
-   "examples": [
-    "Tax Expert - Remote at Intuit",
-    "Remote Tax Accountant at Nexus Leads Services",
-    "Tax Expert - Expert Center at Intuit"
    ]
   }
  ],
@@ -2356,6 +2376,40 @@
     "German language proficiency"
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/s-akquise-gmbh/interne-projekt-und-prozessanalyse-berlin-309393",
+   "drafted": true,
+   "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion",
+   "company": "Strive Nutrition GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The candidate has strong process, workflow, and operations skills that transfer well to business operations and supply chain coordination, but the role requires physical presence in Berlin, Germany, which contradicts the candidate's location in Nigeria.",
+   "blockers": "Required to be based in Berlin, Germany for a Werkstudent or Praktikant role.",
+   "gaps": [
+    "German language proficiency",
+    "supply chain management experience",
+    "e-commerce/Amazon operations"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-81456",
+   "drafted": true,
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion",
+   "company": "Strive Nutrition GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The candidate has strong transferable skills in inventory accounting, process documentation, and operations, but lacks German language proficiency and Berlin residency for this on-site internship.",
+   "blockers": "The job requires physical presence in Berlin, Germany (Werkstudent/Praktikant), whereas the candidate is based in Nigeria.",
+   "gaps": [
+    "German language proficiency",
+    "supply chain management",
+    "product management experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-388895",
    "drafted": true,
    "recent": true
   },
@@ -7132,7 +7186,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/enter-by-baupal-gmbh/operations-koordination-werkstudent-berlin-465194",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7150,7 +7204,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/foodji-gmbh/senior-business-performance-analyst-all-genders-munchen-277175",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7167,7 +7221,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/ordio-gmbh/executive-assistant-people-hr-cologne-136649",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -7182,6 +7236,45 @@
     "Ironclad"
    ],
    "url": "https://weworkremotely.com/remote-jobs/fivetran-deal-desk-analyst",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Senior Value Engineer - AI & Process Optimization",
+   "company": "Celonis",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate lacks the required senior-level experience and right to work in the region for this senior role.",
+   "blockers": "Senior role requiring extensive experience and regional right to work.",
+   "gaps": [
+    "Value engineering",
+    "enterprise AI transformation",
+    "consulting",
+    "executive stakeholder management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-ai-process-optimization-1",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Projektmanager (m/w/d) MarTech – Content Supply Chain & Automatisierung | Vollzeit | Hybrid",
+   "company": "DIU MarTech Solutions GmbH",
+   "location": "Hamburg",
+   "source": "Arbeitnow",
+   "reason": "The role is a senior-leaning technical project manager position in Germany requiring direct MarTech and software development implementation skills, which does not match the candidate's finance and accounting background.",
+   "blockers": "Requires location in Germany/Hamburg with hybrid onsite work, and technical MarTech project management experience that the candidate lacks.",
+   "gaps": [
+    "Projektmanagement",
+    "MarTech-Systeme",
+    "Claude Code",
+    "MCP-Server",
+    "Low-Code-Plattformen",
+    "Systemintegration",
+    "German language proficiency"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/diu-martech-solutions-gmbh/projektmanager-martech-content-supply-chain-automatisierung-vollzeit-hybrid-hamburg-490948",
    "drafted": false,
    "recent": true
   },
@@ -12451,7 +12544,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/jeeves-head-of-product-platform-growth-spend-management",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12468,7 +12561,7 @@
    ],
    "url": "https://himalayas.app/companies/empact/jobs/senior-corporate-finance-manager-m-w-d?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12489,7 +12582,7 @@
    ],
    "url": "https://himalayas.app/companies/next-lotto-gmbh/jobs/cro-product-experimentation-manager-m-w-d-remote-deutschlandweit?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12507,7 +12600,7 @@
    ],
    "url": "https://himalayas.app/companies/maxana/jobs/zendesk-administrator-remote-latam?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12525,7 +12618,7 @@
    ],
    "url": "https://himalayas.app/companies/jane-technologies/jobs/account-executive-retail?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12544,7 +12637,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/visual-statements-gmbh/junior-creative-strategist-all-genders-freiburg-im-breisgau-247465",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12562,7 +12655,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/product-owner-softwareentwicklung-oberkochen-242644",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12579,7 +12672,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektmanager-windenergie-mit-dem-schwerpunkt-genehmigungsverfahren-molbergen-47783",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -12595,6 +12688,177 @@
     "advanced supply chain forecasting"
    ],
    "url": "https://jobicy.com/jobs/164408-director-fp-a",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Commercial Account Executive - Australia",
+   "company": "GitLab",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a sales and account executive role requiring direct B2B tech sales experience and regional presence in Australia, neither of which align with the candidate's finance and accounting background or Nigerian residency.",
+   "blockers": "Requires residency in Australia and B2B tech sales experience.",
+   "gaps": [
+    "B2B sales",
+    "outbound prospecting",
+    "pipeline generation",
+    "account executive experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/gitlab-commercial-account-executive-australia",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Principal Data Scientist, Marketing Measurement",
+   "company": "Upstart",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level Principal Data Scientist role requiring deep expertise in causal inference and marketing measurement, which completely misaligns with the candidate's entry-level accounting and finance background.",
+   "blockers": "Senior-level experience required in data science and causal inference; candidate is junior in accounting.",
+   "gaps": [
+    "Causal inference",
+    "marketing measurement",
+    "data science",
+    "advanced statistical modeling"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/upstart-principal-data-scientist-marketing-measurement",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive, Higher Education (MI/OH)",
+   "company": "Everpure",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise sales and account executive role focusing on territory growth and selling data storage hardware, which does not utilize the candidate's finance, accounting, or administrative skills.",
+   "blockers": "Mandatory prior experience in enterprise SLED (State, Local, and Education) tech sales and account management which the candidate lacks.",
+   "gaps": [
+    "enterprise sales",
+    "SLED market expertise",
+    "RFI/RFP bidding",
+    "technical product evangelism",
+    "quota-carrying sales experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-higher-education-mi-oh",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive, Federal (Intelligence Community)",
+   "company": "Everpure",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior outside sales role requiring 7+ years of experience and an active TS/SCI clearance, which does not match the candidate's profile.",
+   "blockers": "Requires 7+ years of outside sales experience and active TS/SCI clearance.",
+   "gaps": [
+    "outside sales",
+    "B2B sales",
+    "pipeline management",
+    "enterprise storage technology"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-federal-intelligence-community",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Value Engineer - AI & Process Optimization",
+   "company": "Celonis",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level role requiring right to work in the region, extensive experience, and focuses on value engineering for Fortune 500 companies, which does not align with the candidate's junior profile.",
+   "blockers": "Senior-level role; requires right to work in the region (Copenhagen/Finland); lacks senior experience.",
+   "gaps": [
+    "Value engineering",
+    "enterprise AI platform expertise",
+    "executive consulting",
+    "large-scale digital transformation."
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-ai-process-optimization",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Commercial Credit Operations Manager",
+   "company": "Stripe",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior management role requiring leadership of credit operations teams and significant experience, whereas the candidate is a junior accountant seeking entry-level positions.",
+   "blockers": "Senior-level management role requiring extensive experience in credit operations and team leadership.",
+   "gaps": [
+    "people management",
+    "credit underwriting",
+    "risk management strategy",
+    "vendor management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/stripe-commercial-credit-operations-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Sales Engineer - Germany",
+   "company": "Datadog",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires 3+ years of experience in Sales Engineering or DevOps, programming/scripting skills, and technical sales expertise which do not align with the candidate's finance and accounting background.",
+   "blockers": "Requires 3+ years in Sales Engineering or DevOps Engineering and programming/scripting skills",
+   "gaps": [
+    "Sales engineering",
+    "DevOps",
+    "Java",
+    "Python",
+    "Ruby",
+    "Go",
+    "Node.JS",
+    "PHP",
+    ".NET",
+    "technical sales"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-germany",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Head of Marketing Compliance",
+   "company": "OKX",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior compliance manager and leadership role requiring extensive experience in regulatory compliance that far exceeds the candidate's junior profile.",
+   "blockers": "Requires senior-level compliance experience and a senior individual-contributor track record.",
+   "gaps": [
+    "product compliance",
+    "regulatory frameworks",
+    "AML/CFT compliance",
+    "sanctions",
+    "senior risk management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/okx-head-of-marketing-compliance",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Engineering Manager - Grafana Productivity | Canada | Remote",
+   "company": "Grafana Labs",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior engineering management role in software development that requires technical leadership in engineering, which does not align with the candidate's background in accounting and finance.",
+   "blockers": "Requires extensive software engineering experience and management background; role is restricted to US and Canada residents.",
+   "gaps": [
+    "Engineering management",
+    "software development life cycle (SDLC) tooling",
+    "Kubernetes",
+    "cloud service provider architecture",
+    "application security engineering"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/grafana-labs-engineering-manager-grafana-productivity-canada-remote",
    "drafted": false,
    "recent": true
   },
@@ -16718,7 +16982,7 @@
    ],
    "url": "https://himalayas.app/companies/netforemost-inc/jobs/trainee-flutter-developer?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16737,7 +17001,7 @@
    ],
    "url": "https://himalayas.app/companies/cprime/jobs/apptio-targetprocess-atp-implementation-lead?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16755,7 +17019,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/rubrik/remote-msp-account-executive-dach-338050",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16774,7 +17038,7 @@
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/axicom/junior-account-executive-gestalte-die-zukunft-der-tech-kommunikation-munchen-bavaria-242662",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -16798,6 +17062,59 @@
     "Node.js"
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/andercore/senior-product-engineer-full-stack-berlin-49635",
+   "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Enterprise Account Executive, Texas",
+   "company": "Glean",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior enterprise sales role requiring geographic presence in Texas, whereas the candidate is a junior accountant in Nigeria looking for finance and operations roles.",
+   "blockers": "Requires resident in Texas, US; requires extensive enterprise sales experience.",
+   "gaps": [
+    "enterprise sales",
+    "quota-carrying sales experience",
+    "B2B SaaS account executive experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-texas",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "VP, Product Management",
+   "company": "LaunchDarkly",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior executive leadership role (VP, Product Management) requiring extensive experience managing product organizations, which vastly exceeds the candidate's junior profile.",
+   "blockers": "Requires extensive senior product leadership experience and executive-level management of product organizations, which the candidate lacks.",
+   "gaps": [
+    "product management leadership",
+    "AI-SDLC infrastructure",
+    "executive management",
+    "product strategy"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/launchdarkly-vp-product-management",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Manager, CyberSecurity Risk Management",
+   "company": "Rubrik Job Board",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior management role in cybersecurity risk requiring extensive specialized security experience, which completely misaligns with the candidate's entry-level financial profile.",
+   "blockers": "Requires management-level experience in cybersecurity risk management, which the candidate lacks.",
+   "gaps": [
+    "cybersecurity risk management",
+    "security frameworks",
+    "risk assessment frameworks",
+    "technical vulnerability triage"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-manager-cybersecurity-risk-management",
    "drafted": false,
    "recent": true
   },
@@ -19359,7 +19676,7 @@
    ],
    "url": "https://himalayas.app/companies/inv/jobs/japanese-voice-actor-freelance-ai-trainer-project?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -19378,7 +19695,7 @@
    ],
    "url": "https://himalayas.app/companies/inv/jobs/slovene-voice-actor-freelance-ai-trainer-project?utm_source=api",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -19395,10 +19712,132 @@
    ],
    "url": "https://himalayas.app/companies/boldscience/jobs/associate-client-services-director?utm_source=api",
    "drafted": false,
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Principal Software Engineer, Data Lakes",
+   "company": "Fivetran",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior software engineering role requiring deep backend programming and distributed systems expertise, which does not align with the candidate's accounting and finance background.",
+   "blockers": "Requires Principal Software Engineer level experience with Java, C++, and distributed systems, which the candidate does not possess.",
+   "gaps": [
+    "Java",
+    "C++",
+    "Kubernetes",
+    "Cloud infrastructure",
+    "Distributed systems architecture"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/fivetran-principal-software-engineer-data-lakes",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Principal Product Security Engineer",
+   "company": "Cribl",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior engineering role requiring deep technical cybersecurity and cloud architecture expertise, which completely misaligns with the candidate's finance and accounting background.",
+   "blockers": "Requires a Principal-level software/security engineering background with extensive experience in cloud security, threat modeling, and product security architecture, which the candidate does not possess.",
+   "gaps": [
+    "application security",
+    "cloud security",
+    "threat modeling",
+    "secure code review",
+    "Kubernetes security",
+    "IAM",
+    "infrastructure as code"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/cribl-principal-product-security-engineer",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Model Risk Manager",
+   "company": "Mercury",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires extensive mid-to-senior level model risk management experience in a regulated banking environment, which far exceeds the candidate's junior accounting background.",
+   "blockers": "Requires extensive specialized model risk management and banking regulation experience which the candidate lacks.",
+   "gaps": [
+    "Model validation",
+    "model risk management",
+    "credit underwriting models",
+    "BSA/AML",
+    "CECL",
+    "quantitative testing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/mercury-model-risk-manager",
+   "drafted": false,
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Engineering Manager - Grafana Productivity | USA | Remote",
+   "company": "Grafana Labs",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires a senior software engineering management position in the US or Canada, which completely misaligns with the candidate's entry-level accounting profile and Nigerian residency.",
+   "blockers": "Candidate is not resident in the US or Canada; role requires senior technical engineering management experience.",
+   "gaps": [
+    "software engineering management",
+    "Kubernetes",
+    "cloud service provider resources",
+    "application security",
+    "SDLC tooling"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/grafana-labs-engineering-manager-grafana-productivity-usa-remote",
+   "drafted": false,
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-26T18:49+00:00",
+   "report": [
+    "Last run: 2026-11-26T18:49+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 213 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "20 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "2 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 48 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 9 passed filter",
+    "- workingnomads: 37 fetched, 11 passed filter",
+    "- jobicy: 46 fetched, 40 passed filter",
+    "- remoteok: 100 fetched, 41 passed filter",
+    "- greenhouse: 65 fetched, 33 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 43 fetched, 23 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 13 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 41 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 65 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 12 linked pages",
+    "- 26 jobs older than 30 days skipped",
+    "- 20 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 45: Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH. Blockers: The job requires physical presence in Berlin, Germany (Werkstudent/Praktikant), whereas the candidate is based in Nigeria.",
+    "  - 45: Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH. Blockers: Required to be based in Berlin, Germany for a Werkstudent or Praktikant role.",
+    "  - 15: Senior Value Engineer - AI & Process Optimization at Celonis. Blockers: Senior role requiring extensive experience and regional right to work.",
+    "  - 15: Projektmanager (m/w/d) MarTech – Content Supply Chain & Automatisierung | Vollzeit | Hybrid at DIU MarTech Solutions GmbH. Blockers: Requires location in Germany/Hamburg with hybrid onsite work, and technical MarTech project management experience that the candidate lacks.",
+    "  - 10: Senior Value Engineer - AI & Process Optimization at Celonis. Blockers: Senior-level role; requires right to work in the region (Copenhagen/Finland); lacks senior experience."
+   ]
+  },
   {
    "last_run": "2026-11-26T18:04+00:00",
    "report": [
