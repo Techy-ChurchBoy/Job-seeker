@@ -115,7 +115,7 @@ def main():
     msg["From"] = f"{NAME} <{SENDER}>"
     msg["To"] = to
     msg["Reply-To"] = SENDER
-    msg["Subject"] = f"Application: {row.get('title', 'Job application')}"
+    msg["Subject"] = (sel.get("requirements") or {}).get("email_subject") or f"Application: {row.get('title', 'Job application')}"
     msg.set_content(fill(letter))
     docs.attach(msg, sel, NAME)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:

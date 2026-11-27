@@ -20,6 +20,8 @@ Return ONLY JSON with these keys:
 - "age_limit": the maximum age asked for as a number, or null.
 - "eligibility": short phrases for other hard requirements (current employees only, residency, years of experience).
 - "questions": short phrases for questions the application form asks (for example salary, notice period).
+- "email_subject": the exact subject line the posting asks applicants to use (for example 'using "X" as the subject'), or null.
+- "email_contact": the address applicants must send to, if the posting gives one, or null.
 Use only the posting. If something is not stated, leave it out or use null.
 
 POSTING:

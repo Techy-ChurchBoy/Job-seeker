@@ -120,6 +120,7 @@ def main(dry_run):
             continue
         subject = f"Application: {r['title']}"
         sel = docs.select(r.get("description", ""), r.get("url", ""))
+        subject = (sel.get("requirements") or {}).get("email_subject") or subject
         if sel["missing"]:
             if not dry_run:
                 docs.hold(r["url"], r["title"], r["company"], sel,
