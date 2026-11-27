@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-27T18:03+00:00",
+ "last_run": "2026-11-27T18:48+00:00",
  "summary": [
   "- remotive: 17 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 5 passed filter",
@@ -13,22 +13,22 @@
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 44 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 18 passed filter",
+  "- arbeitnow: 50 fetched, 16 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 35 passed filter",
+  "- weworkremotely: 100 fetched, 38 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
   "- 25 jobs older than 30 days skipped",
-  "- 24 new jobs sent to scoring",
+  "- 21 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 45: Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin) at Nextcloud. Blockers: none",
-  "  - 35: Workforce Management - Real Time Analyst at Clipboard. Blockers: none",
-  "  - 25: Production NPD Launch Analyst at Kitsch LLC. Blockers: Mandatory prior experience in supply chain planning and vendor management required.",
-  "  - 15: Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement) at Immo-Marketer. Blockers: Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
-  "  - 15: Product Manager Mission Autonomy (All Genders) at Skdse. Blockers: Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology"
+  "  - 25: Executive Assistant 3 at Twilio. Blockers: Senior executive assistant experience required",
+  "  - 15: Strategic Account Executive 7 at Wrike. Blockers: Senior enterprise sales role requiring extensive full-cycle sales experience, which the candidate lacks.",
+  "  - 15: Sr. Analyst, FP&A - GTM at BeyondTrust. Blockers: Senior-level role requiring significant prior FP&A experience that the candidate lacks.",
+  "  - 15: Junior Software Engineer with Accounting Experience (LATAM) at Sezzle. Blockers: Role requires software engineering coding skills and technical stack experience which the candidate lacks.",
+  "  - 15: Enterprise Solutions Engineer, East at Glean. Blockers: 5+ years of sales engineering or solution consulting experience in a SaaS organization required"
  ],
  "report": {
   "sources": [
@@ -108,7 +108,7 @@
     "name": "arbeitnow",
     "ok": true,
     "fetched": 50,
-    "passed": 18
+    "passed": 16
    },
    {
     "name": "themuse",
@@ -120,7 +120,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 35
+    "passed": 38
    },
    {
     "name": "web_search_jobs",
@@ -129,18 +129,13 @@
     "passed": 0
    }
   ],
-  "new_to_score": 24,
-  "scored": 24,
+  "new_to_score": 21,
+  "scored": 21,
   "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
- },
- "drafts": {
-  "written": 1,
-  "failed": 0,
-  "waiting": 0
  },
  "emails": {
   "sent": 0,

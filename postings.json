@@ -22646,5 +22646,405 @@
   "company": "NOVUS GmbH",
   "source": "Arbeitnow",
   "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/twilio-executive-assistant-3": {
+  "url": "https://weworkremotely.com/remote-jobs/twilio-executive-assistant-3",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "The job is for a senior executive assistant role requiring specialized administrative experience, which offers low alignment with the candidate's finance and accounting background.",
+  "blockers": "Senior executive assistant experience required",
+  "skill_gaps": "executive calendar management; complex administrative support",
+  "title": "Executive Assistant 3",
+  "company": "Twilio",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/wrike-strategic-account-executive-7": {
+  "url": "https://weworkremotely.com/remote-jobs/wrike-strategic-account-executive-7",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This is a senior-level enterprise sales role requiring complex B2B SaaS closing experience, which does not match the candidate's entry-level accounting and finance background.",
+  "blockers": "Senior enterprise sales role requiring extensive full-cycle sales experience, which the candidate lacks.",
+  "skill_gaps": "enterprise sales; C-suite negotiation; Salesforce CRM; SaaS pipeline forecasting; outbound prospecting; contract negotiation",
+  "title": "Strategic Account Executive 7",
+  "company": "Wrike",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/beyondtrust-sr-analyst-fp-a-gtm": {
+  "url": "https://weworkremotely.com/remote-jobs/beyondtrust-sr-analyst-fp-a-gtm",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is a senior-level FP&A role requiring extensive experience, whereas the candidate is a junior accountant seeking entry-level positions.",
+  "blockers": "Senior-level role requiring significant prior FP&A experience that the candidate lacks.",
+  "skill_gaps": "advanced GTM financial planning; SaaS industry FP&A; sales capacity and CAC analysis",
+  "title": "Sr. Analyst, FP&A - GTM",
+  "company": "BeyondTrust",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/glean-enterprise-solutions-engineer-east": {
+  "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-solutions-engineer-east",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires 5+ years of sales engineering or solution consulting experience in SaaS, which the candidate lacks.",
+  "blockers": "5+ years of sales engineering or solution consulting experience in a SaaS organization required",
+  "skill_gaps": "sales engineering; solution consulting; SaaS pre-sales",
+  "title": "Enterprise Solutions Engineer, East",
+  "company": "Glean",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-latam": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-latam",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires software engineering, coding, and technical assessments in a backend stack (Golang, React) which does not align with the candidate's accounting profile.",
+  "blockers": "Role requires software engineering coding skills and technical stack experience which the candidate lacks.",
+  "skill_gaps": "Golang; React; software engineering; coding; Kubernetes; AWS; MySQL",
+  "title": "Junior Software Engineer with Accounting Experience (LATAM)",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/keeper-security-google-cloud-gemini-enterprise-administrator": {
+  "url": "https://weworkremotely.com/remote-jobs/keeper-security-google-cloud-gemini-enterprise-administrator",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior IT systems administration role focused on Google Cloud and Gemini Enterprise, requiring specialized technical expertise that does not align with the candidate's finance and accounting profile.",
+  "blockers": "Senior-level technical IT administration role requiring deep experience in Google Cloud and Gemini Enterprise that the candidate lacks.",
+  "skill_gaps": "Google Cloud Platform; Google Workspace administration; Gemini Enterprise; IAM roles; IT systems administration; cybersecurity software management",
+  "title": "Google Cloud & Gemini Enterprise Administrator",
+  "company": "Keeper Security",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/everpure-account-executive-higher-education-texas": {
+  "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-higher-education-texas",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is an outbound sales and territory growth role in the US education sector, which does not match the candidate's accounting, finance, or administrative skill set.",
+  "blockers": "The role requires extensive SLED market expertise and strategic sales mastery in the US, which the candidate lacks.",
+  "skill_gaps": "SLED market expertise; strategic sales mastery; RFIs and RFPs contract negotiations; account executive experience",
+  "title": "Account Executive, Higher Education (Texas)",
+  "company": "Everpure",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/zscaler-commercial-account-executive-berlin": {
+  "url": "https://weworkremotely.com/remote-jobs/zscaler-commercial-account-executive-berlin",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a commercial sales and account executive role focusing on software sales in Berlin, which completely misaligns with the candidate's finance and accounting background.",
+  "blockers": "The role requires active sales territory management in Berlin, Germany, and previous tech sales experience, none of which the candidate possesses.",
+  "skill_gaps": "sales pipeline generation; B2B tech sales; account management; business development",
+  "title": "Commercial Account Executive - Berlin",
+  "company": "Zscaler",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-pharma-ai-process-optimization": {
+  "url": "https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-pharma-ai-process-optimization",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level role requiring pharmaceutical industry expertise and relocation to Europe, which completely mismatches the candidate's junior profile and location.",
+  "blockers": "Senior role level; right to work / relocation to Europe required; mandatory prior experience in the pharmaceutical sector.",
+  "skill_gaps": "Value engineering; enterprise AI platform expertise; pharmaceutical industry domain knowledge",
+  "title": "Senior Value Engineer (Pharma) - AI & Process Optimization",
+  "company": "Celonis",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-mexico": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-mexico",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires software engineering experience, coding, and technical assessments in Golang and React, which does not match the candidate's finance and accounting background.",
+  "blockers": "Mandatory software engineering experience and coding skills required",
+  "skill_gaps": "Golang; React; software development; coding; Kubernetes; AWS",
+  "title": "Junior Software Engineer with Accounting Experience (Mexico)",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/my-humancapital-gmbh/personalreferent-hr-administration-arbeitnehmeruberlassung-munich-222162": {
+  "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/personalreferent-hr-administration-arbeitnehmeruberlassung-munich-222162",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks local residency in Germany, fluency in German, and specific HR/labor law qualifications required for this Munich-based HR role.",
+  "blockers": "Required residency in Germany, German language proficiency, and relevant HR professional background (Arbeitnehmerüberlassung/HR administration experience)",
+  "skill_gaps": "SAP HCM; German labor law; Arbeitnehmerüberlassung; HR administration experience",
+  "title": "Personalreferent HR Administration & Arbeitnehmerüberlassung (m/w/d)",
+  "company": "MY Humancapital GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/everpure-account-executive-higher-education-rockies": {
+  "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-higher-education-rockies",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior territory sales and business development role in the SLED sector requiring extensive B2B sales experience, which completely misaligns with the candidate's background in junior accounting, finance, and reporting.",
+  "blockers": "Mandatory prior experience in complex SLED sector strategic sales and territory growth",
+  "skill_gaps": "SLED market expertise; strategic sales mastery; RFP and contract negotiations; territory management",
+  "title": "Account Executive, Higher Education (Rockies)",
+  "company": "Everpure",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/keeper-security-enterprise-sales-executive-uk": {
+  "url": "https://weworkremotely.com/remote-jobs/keeper-security-enterprise-sales-executive-uk",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate is based in Nigeria and lacks the required 5+ years of enterprise SaaS sales experience for this UK-based remote sales role.",
+  "blockers": "Required to permanently reside in the UK; 5+ years of experience in enterprise SaaS sales required; sales role requiring extensive B2B sales background.",
+  "skill_gaps": "enterprise SaaS sales; cold calling; pipeline management; B2B sales negotiation",
+  "title": "Enterprise Sales Executive (UK)",
+  "company": "Keeper Security",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/abnormal-director-enterprise-sales": {
+  "url": "https://weworkremotely.com/remote-jobs/abnormal-director-enterprise-sales",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role is for a senior enterprise sales director in cybersecurity, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+  "blockers": "Requires extensive senior sales leadership experience; candidate is an entry-level accountant.",
+  "skill_gaps": "enterprise sales; cybersecurity sales; sales leadership; MEDDPICC; channel building",
+  "title": "Director, Enterprise Sales",
+  "company": "Abnormal",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/okx-head-of-tax-information-reporting-1": {
+  "url": "https://weworkremotely.com/remote-jobs/okx-head-of-tax-information-reporting-1",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior executive leadership role requiring deep expertise in global tax information reporting, which does not match the candidate's entry-level profile.",
+  "blockers": "Requires extensive senior-level experience leading global tax reporting functions like CARF, DAC8, CRS, and FATCA, which the candidate lacks.",
+  "skill_gaps": "global tax reporting; CARF; DAC8; CRS; FATCA; US Form 1099-DA; tax vendor management",
+  "title": "Head of Tax Information Reporting",
+  "company": "OKX",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:20+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/okx-head-of-tax-information-reporting": {
+  "url": "https://weworkremotely.com/remote-jobs/okx-head-of-tax-information-reporting",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior leadership role requiring extensive specialized tax reporting experience, which completely mismatches the candidate's junior profile.",
+  "blockers": "Requires senior-level experience leading global tax information reporting (CARF, DAC8, CRS, FATCA, etc.) which the candidate lacks.",
+  "skill_gaps": "Global tax information reporting; CARF; DAC8; CRS 2.0; FATCA; US Form 1099-DA; vendor management; tax authority compliance",
+  "title": "Head of Tax Information Reporting",
+  "company": "OKX",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:21+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/samsara-business-sox-compliance-manager": {
+  "url": "https://weworkremotely.com/remote-jobs/samsara-business-sox-compliance-manager",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior management role requiring extensive hands-on SOX expertise which heavily mismatches the candidate's junior experience level and lack of professional certification.",
+  "blockers": "Requires experienced manager level with deep SOX expertise and Canada residency, whereas the candidate is a junior accountant based in Nigeria.",
+  "skill_gaps": "SOX compliance; management experience; public company reporting experience",
+  "title": "Business SOX Compliance Manager",
+  "company": "Samsara",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:21+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/metamask-staff-product-manager-core-ux": {
+  "url": "https://weworkremotely.com/remote-jobs/metamask-staff-product-manager-core-ux",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior product management role requiring extensive design and product experience, which does not align with the candidate's junior accounting and finance background.",
+  "blockers": "Staff Product Manager role requiring deep product management and design background; candidate is an entry-level accountant.",
+  "skill_gaps": "Product management; UX/UI design; technical product leadership",
+  "title": "Staff Product Manager, Core UX",
+  "company": "MetaMask",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:21+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/dropbox-principal-software-engineer-product-engineering": {
+  "url": "https://weworkremotely.com/remote-jobs/dropbox-principal-software-engineer-product-engineering",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires 15+ years of software engineering experience and an advanced technical degree, which do not align with the candidate's entry-level accounting and finance background.",
+  "blockers": "15+ years of software engineering experience required; advanced degree in Computer Science or technical field required",
+  "skill_gaps": "software architecture; distributed systems; advanced software development; applied AI strategy",
+  "title": "Principal Software Engineer, Product Engineering",
+  "company": "Dropbox",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:48:21+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/pertemps-erp/senior-sap-logistics-berater-stuttgart-409943": {
+  "url": "https://www.arbeitnow.com/jobs/companies/pertemps-erp/senior-sap-logistics-berater-stuttgart-409943",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "This senior SAP logistics consulting role requires fluent German, extensive SAP experience, and on-site presence in Germany, none of which match the candidate's profile.",
+  "blockers": "Senior experience required; SAP SD/MM expertise required; ABAP debugging required; Verhandlungssicheres Deutsch (C1) required; On-site work in Stuttgart, Germany required",
+  "skill_gaps": "SAP SD; SAP MM; ABAP; German language; SAP S/4HANA",
+  "title": "Senior SAP Logistics-Berater",
+  "company": "Pertemps ERP",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:48:21+00:00"
  }
 }

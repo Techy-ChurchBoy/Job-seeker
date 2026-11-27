@@ -1,12 +1,11 @@
 {
- "generated": "2026-11-27 18:05 UTC",
+ "generated": "2026-11-27 18:49 UTC",
  "report": [
-  "Last run: 2026-11-27T18:03+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 208 matched your skills.",
+  "Last run: 2026-11-27T18:48+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 209 matched your skills.",
   "These sources could not be reached: themuse.",
-  "24 postings were scored against your CV this run.",
+  "21 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "1 cover letters were written.",
   "No application emails were sent this run.",
   "Overall, 62 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
  ],
@@ -16,12 +15,12 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 347,
-    "week": 1392,
+    "today": 368,
+    "week": 1413,
     "limited": 5,
     "overloaded": 219,
-    "tokens_in": 1413665,
-    "tokens_out": 101351
+    "tokens_in": 1442931,
+    "tokens_out": 103350
    },
    {
     "process": "letters",
@@ -34,9 +33,9 @@
    },
    {
     "process": "web_search",
-    "today": 24,
-    "week": 100,
-    "limited": 100,
+    "today": 28,
+    "week": 104,
+    "limited": 104,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -1257,7 +1256,7 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-27T18:03+00:00",
+ "last_run": "2026-11-27T18:48+00:00",
  "summary": [
   "- remotive: 17 fetched, 2 passed filter",
   "- himalayas: 20 fetched, 5 passed filter",
@@ -1271,25 +1270,25 @@
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 44 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 18 passed filter",
+  "- arbeitnow: 50 fetched, 16 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 35 passed filter",
+  "- weworkremotely: 100 fetched, 38 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
   "- 25 jobs older than 30 days skipped",
-  "- 24 new jobs sent to scoring",
+  "- 21 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 45: Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin) at Nextcloud. Blockers: none",
-  "  - 35: Workforce Management - Real Time Analyst at Clipboard. Blockers: none",
-  "  - 25: Production NPD Launch Analyst at Kitsch LLC. Blockers: Mandatory prior experience in supply chain planning and vendor management required.",
-  "  - 15: Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement) at Immo-Marketer. Blockers: Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
-  "  - 15: Product Manager Mission Autonomy (All Genders) at Skdse. Blockers: Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology"
+  "  - 25: Executive Assistant 3 at Twilio. Blockers: Senior executive assistant experience required",
+  "  - 15: Strategic Account Executive 7 at Wrike. Blockers: Senior enterprise sales role requiring extensive full-cycle sales experience, which the candidate lacks.",
+  "  - 15: Sr. Analyst, FP&A - GTM at BeyondTrust. Blockers: Senior-level role requiring significant prior FP&A experience that the candidate lacks.",
+  "  - 15: Junior Software Engineer with Accounting Experience (LATAM) at Sezzle. Blockers: Role requires software engineering coding skills and technical stack experience which the candidate lacks.",
+  "  - 15: Enterprise Solutions Engineer, East at Glean. Blockers: 5+ years of sales engineering or solution consulting experience in a SaaS organization required"
  ],
  "stats": {
-  "jobs_scored": 1408,
+  "jobs_scored": 1429,
   "strong": 113,
   "drafts": 117,
   "sent_today": 6,
@@ -1333,6 +1332,15 @@
    ]
   },
   {
+   "skill": "Enterprise Sales",
+   "count": 41,
+   "examples": [
+    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
+    "Strategic Account Executive 7 at Wrike",
+    "Strategic Account Executive - Spain at GitLab"
+   ]
+  },
+  {
    "skill": "Sql",
    "count": 40,
    "examples": [
@@ -1342,17 +1350,8 @@
    ]
   },
   {
-   "skill": "Enterprise Sales",
-   "count": 39,
-   "examples": [
-    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
-    "Strategic Account Executive - Spain at GitLab",
-    "Senior Enterprise Account Executive - Central at LaunchDarkly"
-   ]
-  },
-  {
    "skill": "German Language",
-   "count": 36,
+   "count": 37,
    "examples": [
     "Launch Intern (f/m/d) at Upvest",
     "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
@@ -1378,6 +1377,15 @@
    ]
   },
   {
+   "skill": "Software Engineering",
+   "count": 28,
+   "examples": [
+    "General Application for Product, Engineering and Technology at Talkspace",
+    "Technical Product Manager at Sanovio",
+    "Junior Software Engineer with Accounting Experience (LATAM) at Sezzle"
+   ]
+  },
+  {
    "skill": "Ea",
    "count": 28,
    "examples": [
@@ -1393,15 +1401,6 @@
     "Business Development Representative, Financial Services - UKI at GitLab",
     "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
     "Graduate Commercial Associate (f/m/d) at Moss"
-   ]
-  },
-  {
-   "skill": "Software Engineering",
-   "count": 27,
-   "examples": [
-    "General Application for Product, Engineering and Technology at Talkspace",
-    "Technical Product Manager at Sanovio",
-    "Junior Full Stack Engineer (LATAM) at LoanBud"
    ]
   },
   {
@@ -3280,7 +3279,7 @@
    "url": "https://himalayas.app/companies/nextcloud/jobs/accountant-finance-executive-assistant-remote-or-stuttgart-or-berlin?utm_source=api",
    "drafted": true,
    "pdf": "nextcloud-accountant-finance-executive-a-b111361e",
-   "recent": true
+   "recent": false
   },
   {
    "score": 40,
@@ -3907,7 +3906,7 @@
    "url": "https://weworkremotely.com/remote-jobs/clipboard-workforce-management-real-time-analyst",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 30,
@@ -4513,6 +4512,23 @@
     "cosmetics industry background"
    ],
    "url": "https://himalayas.app/companies/kitsch-llc/jobs/production-npd-launch-analyst?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Executive Assistant 3",
+   "company": "Twilio",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job is for a senior executive assistant role requiring specialized administrative experience, which offers low alignment with the candidate's finance and accounting background.",
+   "blockers": "Senior executive assistant experience required",
+   "gaps": [
+    "executive calendar management",
+    "complex administrative support"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/twilio-executive-assistant-3",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -9725,7 +9741,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-490377",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9743,7 +9759,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/skdse/product-manager-mission-autonomy-all-genders-munich-bavaria-354681",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9761,7 +9777,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/skdse/junior-pmt-architect-all-genders-342583",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9778,6 +9794,85 @@
     "sensitivity studies on flight tools"
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/intern-working-student-flight-safety-parsdorf-bavaria-12488",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Strategic Account Executive 7",
+   "company": "Wrike",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level enterprise sales role requiring complex B2B SaaS closing experience, which does not match the candidate's entry-level accounting and finance background.",
+   "blockers": "Senior enterprise sales role requiring extensive full-cycle sales experience, which the candidate lacks.",
+   "gaps": [
+    "enterprise sales",
+    "C-suite negotiation",
+    "Salesforce CRM",
+    "SaaS pipeline forecasting",
+    "outbound prospecting",
+    "contract negotiation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/wrike-strategic-account-executive-7",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Sr. Analyst, FP&A - GTM",
+   "company": "BeyondTrust",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job is a senior-level FP&A role requiring extensive experience, whereas the candidate is a junior accountant seeking entry-level positions.",
+   "blockers": "Senior-level role requiring significant prior FP&A experience that the candidate lacks.",
+   "gaps": [
+    "advanced GTM financial planning",
+    "SaaS industry FP&A",
+    "sales capacity and CAC analysis"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-sr-analyst-fp-a-gtm",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Enterprise Solutions Engineer, East",
+   "company": "Glean",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 5+ years of sales engineering or solution consulting experience in SaaS, which the candidate lacks.",
+   "blockers": "5+ years of sales engineering or solution consulting experience in a SaaS organization required",
+   "gaps": [
+    "sales engineering",
+    "solution consulting",
+    "SaaS pre-sales"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-solutions-engineer-east",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Junior Software Engineer with Accounting Experience (LATAM)",
+   "company": "Sezzle",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires software engineering, coding, and technical assessments in a backend stack (Golang, React) which does not align with the candidate's accounting profile.",
+   "blockers": "Role requires software engineering coding skills and technical stack experience which the candidate lacks.",
+   "gaps": [
+    "Golang",
+    "React",
+    "software engineering",
+    "coding",
+    "Kubernetes",
+    "AWS",
+    "MySQL"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-latam",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -17556,7 +17651,7 @@
    "url": "https://himalayas.app/companies/botstacks/jobs/data-scientist?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17576,7 +17671,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/working-student-data-ai-cologne-397080",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17597,7 +17692,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/nyka-technologies/praktikum-product-engineering-wuppertal-187359",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17616,7 +17711,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/dach-mag-senior-workforce-production-planner-all-genders-magdeburg-saxony-anhalt-494904",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17635,7 +17730,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/team-lead-production-factory-ergolding-42972",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17653,7 +17748,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-growth-marketing-manager-munich-188407",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17672,7 +17767,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-digital-marketing-manager-munich-268091",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17691,7 +17786,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-308057",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17711,7 +17806,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/one-mobility/senior-accountant-consolidation-reporting-mfd-reutlingen-330235",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17732,7 +17827,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/7nxt-gmbh/senior-data-engineer-data-ai-platform-berlin-127467",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17750,6 +17845,142 @@
     "medical data processing"
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-213130",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Google Cloud & Gemini Enterprise Administrator",
+   "company": "Keeper Security",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior IT systems administration role focused on Google Cloud and Gemini Enterprise, requiring specialized technical expertise that does not align with the candidate's finance and accounting profile.",
+   "blockers": "Senior-level technical IT administration role requiring deep experience in Google Cloud and Gemini Enterprise that the candidate lacks.",
+   "gaps": [
+    "Google Cloud Platform",
+    "Google Workspace administration",
+    "Gemini Enterprise",
+    "IAM roles",
+    "IT systems administration",
+    "cybersecurity software management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/keeper-security-google-cloud-gemini-enterprise-administrator",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive, Higher Education (Texas)",
+   "company": "Everpure",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is an outbound sales and territory growth role in the US education sector, which does not match the candidate's accounting, finance, or administrative skill set.",
+   "blockers": "The role requires extensive SLED market expertise and strategic sales mastery in the US, which the candidate lacks.",
+   "gaps": [
+    "SLED market expertise",
+    "strategic sales mastery",
+    "RFIs and RFPs contract negotiations",
+    "account executive experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-higher-education-texas",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Commercial Account Executive - Berlin",
+   "company": "Zscaler",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a commercial sales and account executive role focusing on software sales in Berlin, which completely misaligns with the candidate's finance and accounting background.",
+   "blockers": "The role requires active sales territory management in Berlin, Germany, and previous tech sales experience, none of which the candidate possesses.",
+   "gaps": [
+    "sales pipeline generation",
+    "B2B tech sales",
+    "account management",
+    "business development"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/zscaler-commercial-account-executive-berlin",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Value Engineer (Pharma) - AI & Process Optimization",
+   "company": "Celonis",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level role requiring pharmaceutical industry expertise and relocation to Europe, whereas the candidate is an entry-level accountant in Nigeria.",
+   "blockers": "Senior-level role; requires pharmaceutical industry expertise; requires right to work/relocation to Europe",
+   "gaps": [
+    "Value engineering",
+    "pharmaceutical domain knowledge",
+    "enterprise AI platforms",
+    "executive consulting"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-pharma-ai-process-optimization",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Value Engineer (Pharma) - AI & Process Optimization",
+   "company": "Celonis",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior-level role requiring pharmaceutical industry expertise and relocation to Europe, which completely mismatches the candidate's junior profile and location.",
+   "blockers": "Senior role level; right to work / relocation to Europe required; mandatory prior experience in the pharmaceutical sector.",
+   "gaps": [
+    "Value engineering",
+    "enterprise AI platform expertise",
+    "pharmaceutical industry domain knowledge"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-pharma-ai-process-optimization",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Junior Software Engineer with Accounting Experience (Mexico)",
+   "company": "Sezzle",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires software engineering experience, coding, and technical assessments in Golang and React, which does not match the candidate's finance and accounting background.",
+   "blockers": "Mandatory software engineering experience and coding skills required",
+   "gaps": [
+    "Golang",
+    "React",
+    "software development",
+    "coding",
+    "Kubernetes",
+    "AWS"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-mexico",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Personalreferent HR Administration & Arbeitnehmerüberlassung (m/w/d)",
+   "company": "MY Humancapital GmbH",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks local residency in Germany, fluency in German, and specific HR/labor law qualifications required for this Munich-based HR role.",
+   "blockers": "Required residency in Germany, German language proficiency, and relevant HR professional background (Arbeitnehmerüberlassung/HR administration experience)",
+   "gaps": [
+    "SAP HCM",
+    "German labor law",
+    "Arbeitnehmerüberlassung",
+    "HR administration experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/personalreferent-hr-administration-arbeitnehmeruberlassung-munich-222162",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -23703,7 +23934,7 @@
    "url": "https://himalayas.app/companies/vitalief/jobs/director-clinical-research-operations-service-line-activation?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23721,7 +23952,7 @@
    "url": "https://himalayas.app/companies/choate-agency/jobs/financial-advisors-p-c-agents-realtors-add-a-life-production-platform-rem?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23741,6 +23972,145 @@
     "German language"
    ],
    "url": "https://www.arbeitnow.com/jobs/companies/codewerk-gmbh/it-administrator-schwerpunkt-security-karlsruhe-152187",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Account Executive, Higher Education (Rockies)",
+   "company": "Everpure",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior territory sales and business development role in the SLED sector requiring extensive B2B sales experience, which completely misaligns with the candidate's background in junior accounting, finance, and reporting.",
+   "blockers": "Mandatory prior experience in complex SLED sector strategic sales and territory growth",
+   "gaps": [
+    "SLED market expertise",
+    "strategic sales mastery",
+    "RFP and contract negotiations",
+    "territory management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-higher-education-rockies",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Enterprise Sales Executive (UK)",
+   "company": "Keeper Security",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The candidate is based in Nigeria and lacks the required 5+ years of enterprise SaaS sales experience for this UK-based remote sales role.",
+   "blockers": "Required to permanently reside in the UK; 5+ years of experience in enterprise SaaS sales required; sales role requiring extensive B2B sales background.",
+   "gaps": [
+    "enterprise SaaS sales",
+    "cold calling",
+    "pipeline management",
+    "B2B sales negotiation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/keeper-security-enterprise-sales-executive-uk",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Director, Enterprise Sales",
+   "company": "Abnormal",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role is for a senior enterprise sales director in cybersecurity, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+   "blockers": "Requires extensive senior sales leadership experience; candidate is an entry-level accountant.",
+   "gaps": [
+    "enterprise sales",
+    "cybersecurity sales",
+    "sales leadership",
+    "MEDDPICC",
+    "channel building"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/abnormal-director-enterprise-sales",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Head of Tax Information Reporting",
+   "company": "OKX",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior executive leadership role requiring deep expertise in global tax information reporting, which does not match the candidate's entry-level profile.",
+   "blockers": "Requires extensive senior-level experience leading global tax reporting functions like CARF, DAC8, CRS, and FATCA, which the candidate lacks.",
+   "gaps": [
+    "global tax reporting",
+    "CARF",
+    "DAC8",
+    "CRS",
+    "FATCA",
+    "US Form 1099-DA",
+    "tax vendor management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/okx-head-of-tax-information-reporting-1",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Head of Tax Information Reporting",
+   "company": "OKX",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior leadership role requiring extensive specialized tax reporting experience, which completely mismatches the candidate's junior profile.",
+   "blockers": "Requires senior-level experience leading global tax information reporting (CARF, DAC8, CRS, FATCA, etc.) which the candidate lacks.",
+   "gaps": [
+    "Global tax information reporting",
+    "CARF",
+    "DAC8",
+    "CRS 2.0",
+    "FATCA",
+    "US Form 1099-DA",
+    "vendor management",
+    "tax authority compliance"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/okx-head-of-tax-information-reporting",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Business SOX Compliance Manager",
+   "company": "Samsara",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior management role requiring extensive hands-on SOX expertise which heavily mismatches the candidate's junior experience level and lack of professional certification.",
+   "blockers": "Requires experienced manager level with deep SOX expertise and Canada residency, whereas the candidate is a junior accountant based in Nigeria.",
+   "gaps": [
+    "SOX compliance",
+    "management experience",
+    "public company reporting experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/samsara-business-sox-compliance-manager",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Staff Product Manager, Core UX",
+   "company": "MetaMask",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior product management role requiring extensive design and product experience, which does not align with the candidate's junior accounting and finance background.",
+   "blockers": "Staff Product Manager role requiring deep product management and design background; candidate is an entry-level accountant.",
+   "gaps": [
+    "Product management",
+    "UX/UI design",
+    "technical product leadership"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/metamask-staff-product-manager-core-ux",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -27474,7 +27844,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/databricks/senior-solutions-architect-edw-enterprise-data-warehouse-migrations-berlin-munich-447929",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -27494,7 +27864,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-e-e-engineer-emc-and-compliance-ugv-platforms-gilching-493708",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -27514,10 +27884,91 @@
    "url": "https://www.arbeitnow.com/jobs/companies/novus-gmbh/testingenieur-gesamtfahrzeug-powertrain-erprobung-braunschweig-223198",
    "drafted": false,
    "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Principal Software Engineer, Product Engineering",
+   "company": "Dropbox",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 15+ years of software engineering experience and an advanced technical degree, which do not align with the candidate's entry-level accounting and finance background.",
+   "blockers": "15+ years of software engineering experience required; advanced degree in Computer Science or technical field required",
+   "gaps": [
+    "software architecture",
+    "distributed systems",
+    "advanced software development",
+    "applied AI strategy"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/dropbox-principal-software-engineer-product-engineering",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Senior SAP Logistics-Berater",
+   "company": "Pertemps ERP",
+   "location": "Stuttgart",
+   "source": "Arbeitnow",
+   "reason": "This senior SAP logistics consulting role requires fluent German, extensive SAP experience, and on-site presence in Germany, none of which match the candidate's profile.",
+   "blockers": "Senior experience required; SAP SD/MM expertise required; ABAP debugging required; Verhandlungssicheres Deutsch (C1) required; On-site work in Stuttgart, Germany required",
+   "gaps": [
+    "SAP SD",
+    "SAP MM",
+    "ABAP",
+    "German language",
+    "SAP S/4HANA"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/pertemps-erp/senior-sap-logistics-berater-stuttgart-409943",
+   "drafted": false,
+   "pdf": "",
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-27T18:48+00:00",
+   "report": [
+    "Last run: 2026-11-27T18:48+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 209 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "21 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "No application emails were sent this run.",
+    "Overall, 62 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 17 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 5 passed filter",
+    "- workingnomads: 37 fetched, 11 passed filter",
+    "- jobicy: 45 fetched, 40 passed filter",
+    "- remoteok: 100 fetched, 41 passed filter",
+    "- greenhouse: 64 fetched, 33 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 44 fetched, 23 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 16 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 38 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 64 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 12 linked pages",
+    "- 25 jobs older than 30 days skipped",
+    "- 21 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 25: Executive Assistant 3 at Twilio. Blockers: Senior executive assistant experience required",
+    "  - 15: Strategic Account Executive 7 at Wrike. Blockers: Senior enterprise sales role requiring extensive full-cycle sales experience, which the candidate lacks.",
+    "  - 15: Sr. Analyst, FP&A - GTM at BeyondTrust. Blockers: Senior-level role requiring significant prior FP&A experience that the candidate lacks.",
+    "  - 15: Junior Software Engineer with Accounting Experience (LATAM) at Sezzle. Blockers: Role requires software engineering coding skills and technical stack experience which the candidate lacks.",
+    "  - 15: Enterprise Solutions Engineer, East at Glean. Blockers: 5+ years of sales engineering or solution consulting experience in a SaaS organization required"
+   ]
+  },
   {
    "last_run": "2026-11-27T18:03+00:00",
    "report": [
