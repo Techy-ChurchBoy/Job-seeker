@@ -566,7 +566,7 @@ def main():
         seen.add(j["url"])
         scored.append((s["score"], j["title"], j["company"], s.get("blockers", ""), j["url"]))
         results.append({**{k: j[k] for k in ("source", "title", "company", "location", "url")},
-                            "description": j["description"][:2500], **s})
+                            "description": __import__("contacts").with_contacts(j["description"], j["description"][:2500]), **s})
 
     results.sort(key=lambda r: r["score"], reverse=True)
     new_file = not os.path.exists("matches.csv")

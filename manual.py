@@ -13,6 +13,7 @@ import requests
 import jobbot as jb
 import prepare as pr
 import send_applications as sa
+import docs
 
 JOB_URL = os.getenv("JOB_URL", "").strip()
 JOB_COMPANY = os.getenv("JOB_COMPANY", "").strip()
@@ -68,8 +69,8 @@ def send(job, body_letter, to):
     msg["Reply-To"] = sender
     msg["Subject"] = f"Application: {job['title']} at {job['company']}"
     msg.set_content(body)
-    msg.add_attachment(open(sa.CV_PDF, "rb").read(), maintype="application", subtype="pdf",
-                       filename=f"{name.replace(' ', '_')}_CV.pdf")
+    docs.attach(msg, docs.select(job.get("description", ""), job.get("url", "")), NAME)
+
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(sender, pw)
         s.send_message(msg)
