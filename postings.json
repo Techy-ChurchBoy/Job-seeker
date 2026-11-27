@@ -17337,7 +17337,8 @@
    "title": "scoring",
    "company": "scoring",
    "source": "scoring",
-   "drafted": "letters"
+   "drafted": "letters",
+   "sent": "sender"
   },
   "score": 90,
   "reason": "The job directly matches the candidate's profile as an entry-level accountant role based in Nigeria, utilizing skills in transaction processing, journal postings, bank reconciliations, and audit documentation.",
@@ -17346,8 +17347,9 @@
   "title": "Entry-Level and Mid-Level Accountants Needed",
   "company": "RAGE Media Group",
   "source": "Dixcover Hub",
-  "updated": "2026-11-27T06:10:27+00:00",
-  "drafted": true
+  "updated": "2026-11-27T07:06:29+00:00",
+  "drafted": true,
+  "sent": true
  },
  "https://jobs.smartyacad.com/management-trainees-needed-at-avatar-new-energy-materials-company-limited": {
   "url": "https://jobs.smartyacad.com/management-trainees-needed-at-avatar-new-energy-materials-company-limited/",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 07:01 UTC",
+ "generated": "2026-11-27 07:06 UTC",
  "report": [
   "Last run: 2026-11-27T06:55+00:00 UTC.",
   "The search checked 16 job sources and 15 responded. It found 972 postings in total, and 659 matched your skills.",
@@ -1262,8 +1262,8 @@
   "jobs_scored": 1304,
   "strong": 110,
   "drafts": 114,
-  "sent_today": 2,
-  "sent_total": 7
+  "sent_today": 3,
+  "sent_total": 8
  },
  "skills": [
   {
@@ -1403,6 +1403,16 @@
   }
  ],
  "sent": [
+  {
+   "sent_at": "2026-11-27T07:06:29+00:00",
+   "title": "Entry-Level and Mid-Level Accountants Needed",
+   "company": "RAGE Media Group",
+   "email": "work@theragemediagroup.com",
+   "score": "90",
+   "url": "https://jobs.smartyacad.com/entry-level-and-mid-level-accountants-needed-at-rage-media-group/",
+   "recent": true,
+   "repeat": false
+  },
   {
    "sent_at": "2026-11-27T06:57:38+00:00",
    "title": "Administrative Assistant",
