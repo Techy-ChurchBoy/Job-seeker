@@ -138,15 +138,27 @@ def main():
            "location": "", "url": JOB_URL or f"pasted-{company}", "description": text[:6000], "subject": rules.get("email_subject") or ""}
 
     jb.MODEL = jb.pick_model()
-    s = jb.score(job)
+    try:
+        s = jb.score(job)
+    except Exception as e:  # Gemini busy or out of quota: say so clearly instead of crashing
+        print(f"Scoring failed: {e}")
+        write_result("failed", "The AI service was busy or out of quota, so the posting could not be scored. "
+                               "Send it again in a few minutes. Nothing was sent.")
+        return
     save_row({**job, "score": s["score"], "reason": s.get("reason", ""), "blockers": s.get("blockers", ""),
               "skill_gaps": s.get("skill_gaps", ""), "description": job["description"][:2500]})
     lines.append(f"- Scored {s['score']}/100: {job['title']} at {job['company']}")
     lines.append(f"- Blockers: {s.get('blockers') or 'none'}")
 
-    letter_out = pr.generate(jb.MODEL, pr.PROMPT.format(
-        cv=pr.CV_TEXT, title=job["title"], company=company, location="Nigeria",
-        description=job["description"][:2500]))
+    try:
+        letter_out = pr.generate(jb.MODEL, pr.PROMPT.format(
+            cv=pr.CV_TEXT, title=job["title"], company=company, location="Nigeria",
+            description=job["description"][:2500]))
+    except Exception as e:
+        print(f"Letter writing failed: {e}")
+        write_result("failed", "The AI service was busy, so the cover letter could not be written. "
+                               "Send the posting again in a few minutes. Nothing was sent.")
+        return
     path = write_draft(job, s["score"], letter_out.get("notes", ""),
                        letter_out.get("cover_letter", ""), letter_out.get("tailored_cv", ""))
     done = set(json.load(open(pr.PREPARED_PATH))) if os.path.exists(pr.PREPARED_PATH) else set()
