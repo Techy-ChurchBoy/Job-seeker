@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 06:57 UTC",
+ "generated": "2026-11-27 07:01 UTC",
  "report": [
   "Last run: 2026-11-27T06:55+00:00 UTC.",
   "The search checked 16 job sources and 15 responded. It found 972 postings in total, and 659 matched your skills.",
@@ -8,7 +8,7 @@
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
   "4 cover letters were written.",
   "1 application emails were sent: Administrative Assistant at Extreme Minds Artistry.",
-  "Overall, 59 postings meet the score rules (40 or more, no blockers). 4 of them list a contact address the bot can email; the rest need the application link."
+  "Overall, 59 postings meet the score rules (40 or more, no blockers). 5 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -1590,7 +1590,7 @@
    ],
    "url": "https://jooble.org/jdp/1017209298880629279",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 75,
@@ -2572,7 +2572,7 @@
    ],
    "url": "https://jobs.smartyacad.com/administrative-assistant-at-extreme-minds-artistry/",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 50,
@@ -2588,7 +2588,7 @@
    ],
    "url": "https://jooble.org/jdp/-3236224155835472854",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -3055,7 +3055,7 @@
    ],
    "url": "https://growix.com/careers/virtual-assistant",
    "drafted": true,
-   "recent": true
+   "recent": false
   },
   {
    "score": 40,
@@ -4063,7 +4063,7 @@
    ],
    "url": "https://jobs.smartyacad.com/remote-data-entry-online-registration-assistant-at-tickora-llc/",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -4081,7 +4081,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/dropbox-marketing-operations-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 20,
@@ -8378,7 +8378,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/mercury-product-marketing-manager-banking-payments",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8396,7 +8396,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/zscaler-commercial-account-executive",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8414,7 +8414,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/dropbox-marketing-operations-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8434,7 +8434,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-chile",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8451,7 +8451,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/abnormal-data-strategy-operations-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8471,7 +8471,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/sezzle-junior-software-engineer-with-accounting-experience-brazil",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8488,7 +8488,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-senior-associate-network-operations",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8504,7 +8504,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-senior-associate-client-success",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8522,7 +8522,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/coinbase-executive-assistant",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8540,7 +8540,7 @@
    ],
    "url": "https://jooble.org/jdp/-1031935986645799272",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8556,7 +8556,7 @@
    ],
    "url": "https://jooble.org/jdp/-692639188593853499",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8573,7 +8573,7 @@
    ],
    "url": "https://jooble.org/jdp/4850188674299121208",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8586,7 +8586,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/-4580461207161096117",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8603,7 +8603,7 @@
    ],
    "url": "https://jooble.org/jdp/-7814425797755597973",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8619,7 +8619,7 @@
    ],
    "url": "https://jooble.org/jdp/2538607022278993563",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8632,7 +8632,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/-7249064815737776965",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -8648,7 +8648,7 @@
    ],
    "url": "https://jooble.org/jdp/4443310712739632274",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15070,7 +15070,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/keeper-security-enterprise-sales-executive-sled",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15088,7 +15088,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/pinterest-senior-product-manager-deceptive-content",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15106,7 +15106,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/bitwarden-senior-product-manager-platform",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15125,7 +15125,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/abnormal-director-customer-success-public-sector",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15145,7 +15145,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/samsara-associate-sales-engineer-se-desk-tola",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15163,7 +15163,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/6sense-sr-product-manager",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15181,7 +15181,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/6sense-sr-data-scientist-forward-deployed",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15197,7 +15197,7 @@
    ],
    "url": "https://jooble.org/jdp/1505112799610095183",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15213,7 +15213,7 @@
    ],
    "url": "https://jooble.org/jdp/8231192296006422893",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15230,7 +15230,7 @@
    ],
    "url": "https://jooble.org/jdp/4669189507800577723",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15246,7 +15246,7 @@
    ],
    "url": "https://jooble.org/jdp/-660350782431662089",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15263,7 +15263,7 @@
    ],
    "url": "https://jooble.org/jdp/3113210020914202545",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15280,7 +15280,7 @@
    ],
    "url": "https://jooble.org/jdp/7721047139129409842",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15298,7 +15298,7 @@
    ],
    "url": "https://jooble.org/jdp/6605101259167246263",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15316,7 +15316,7 @@
    ],
    "url": "https://jooble.org/jdp/6716508269144471566",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15332,7 +15332,7 @@
    ],
    "url": "https://jooble.org/jdp/5481248339952880122",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15349,7 +15349,7 @@
    ],
    "url": "https://jooble.org/jdp/8083071751083561564",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15366,7 +15366,7 @@
    ],
    "url": "https://jooble.org/jdp/1022388867859307452",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15383,7 +15383,7 @@
    ],
    "url": "https://jooble.org/jdp/-5759909549047742305",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15400,7 +15400,7 @@
    ],
    "url": "https://jooble.org/jdp/8535148641915488743",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -15416,7 +15416,7 @@
    ],
    "url": "https://jooble.org/jdp/3248483610738783570",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20359,7 +20359,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/instacart-director-it-internal-audit",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20377,7 +20377,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/upstart-principal-product-manager-growth",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20396,7 +20396,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/mercury-open-call-for-founders-founding-teams-product-management-and-engineering",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20415,7 +20415,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/bitwarden-senior-database-engineer",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20433,7 +20433,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/zscaler-associate-product-sales-account-executive",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20452,7 +20452,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-staff-software-engineer-payments",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20471,7 +20471,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/samsara-associate-sales-engineer-se-desk-southeast",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20490,7 +20490,7 @@
    ],
    "url": "https://jobicy.com/jobs/157340-global-controller-2",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20507,7 +20507,7 @@
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-western-us-agiloft-1138169",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20523,7 +20523,7 @@
    ],
    "url": "https://jooble.org/jdp/5143161809939435558",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20541,7 +20541,7 @@
    ],
    "url": "https://jooble.org/jdp/4101918892849592466",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20558,7 +20558,7 @@
    ],
    "url": "https://jooble.org/jdp/9028291339695179921",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20576,7 +20576,7 @@
    ],
    "url": "https://jooble.org/jdp/5148169405620698502",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20593,7 +20593,7 @@
    ],
    "url": "https://jooble.org/jdp/2523191383913844915",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20611,7 +20611,7 @@
    ],
    "url": "https://jooble.org/jdp/4227019718089273480",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20629,7 +20629,7 @@
    ],
    "url": "https://jooble.org/jdp/4332398619057634962",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20647,7 +20647,7 @@
    ],
    "url": "https://jooble.org/jdp/5448454302195709934",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20665,7 +20665,7 @@
    ],
    "url": "https://jooble.org/jdp/6449583063073936101",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20682,7 +20682,7 @@
    ],
    "url": "https://jooble.org/jdp/-8875392832946703607",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20699,7 +20699,7 @@
    ],
    "url": "https://jooble.org/jdp/6681376207242327082",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20717,7 +20717,7 @@
    ],
    "url": "https://jooble.org/jdp/7026214692914117186",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20734,7 +20734,7 @@
    ],
    "url": "https://jooble.org/jdp/119551944440130953",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -20750,7 +20750,7 @@
    ],
    "url": "https://jooble.org/jdp/-4798123460111346213",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -23945,7 +23945,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/keeper-security-enterprise-sales-executive-emea",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -23963,7 +23963,7 @@
    ],
    "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-msp-account-executive-dach",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -23980,7 +23980,7 @@
    ],
    "url": "https://jooble.org/jdp/8085314538067722300",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -23996,7 +23996,7 @@
    ],
    "url": "https://jooble.org/jdp/745932804147291284",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24013,7 +24013,7 @@
    ],
    "url": "https://jooble.org/jdp/5492994652495548181",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24030,7 +24030,7 @@
    ],
    "url": "https://jooble.org/jdp/7652959686419033395",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24047,7 +24047,7 @@
    ],
    "url": "https://jooble.org/jdp/3258825538808475923",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24062,7 +24062,7 @@
    ],
    "url": "https://jooble.org/jdp/1673608188205570605",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24077,7 +24077,7 @@
    ],
    "url": "https://jooble.org/jdp/2441472860360444794",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24094,7 +24094,7 @@
    ],
    "url": "https://jooble.org/jdp/219248317306195407",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24109,7 +24109,7 @@
    ],
    "url": "https://jooble.org/jdp/6800451302343190623",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24124,7 +24124,7 @@
    ],
    "url": "https://jooble.org/jdp/3575848946481988095",
    "drafted": false,
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -24137,7 +24137,7 @@
    "gaps": [],
    "url": "https://jooble.org/jdp/8950414666078121175",
    "drafted": false,
-   "recent": true
+   "recent": false
   }
  ],
  "history": [
