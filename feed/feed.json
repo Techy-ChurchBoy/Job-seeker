@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 07:34 UTC",
+ "generated": "2026-11-27 07:35 UTC",
  "report": [
   "Last run: 2026-11-27T06:55+00:00 UTC.",
   "The search checked 16 job sources and 15 responded. It found 972 postings in total, and 659 matched your skills.",
@@ -8,7 +8,7 @@
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
   "4 cover letters were written.",
   "1 application emails were sent: Administrative Assistant at Extreme Minds Artistry.",
-  "Overall, 59 postings meet the score rules (40 or more, no blockers). 6 of them list a contact address the bot can email; the rest need the application link."
+  "Overall, 59 postings meet the score rules (40 or more, no blockers). 7 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -1262,8 +1262,8 @@
   "jobs_scored": 1304,
   "strong": 110,
   "drafts": 114,
-  "sent_today": 4,
-  "sent_total": 9
+  "sent_today": 5,
+  "sent_total": 10
  },
  "skills": [
   {
@@ -1403,6 +1403,16 @@
   }
  ],
  "sent": [
+  {
+   "sent_at": "2026-11-27T07:35:24+00:00",
+   "title": "Talent &#038; Platform Operations Associate",
+   "company": "Ethicpath",
+   "email": "careers@ethicpath.co",
+   "score": "65",
+   "url": "https://jobs.smartyacad.com/talent-platform-operations-associate-at-ethicpath/",
+   "recent": true,
+   "repeat": false
+  },
   {
    "sent_at": "2026-11-27T07:09:41+00:00",
    "title": "Client Finance Analyst I",
