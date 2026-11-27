@@ -3,8 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       job_url:
-        description: Link to the job posting
-        required: true
+        description: Link to the job posting (optional if the description is pasted)
+        required: false
+        default: ""
       company:
         description: Company name (optional, the site name is used if blank)
         required: false
@@ -14,6 +15,10 @@ on:
       job_description:
         description: Paste the job description here if the link won't load (optional)
         required: false
+      subject:
+        description: Exact email subject the posting asks for (optional, e.g. Admin Support Officer)
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -37,6 +42,7 @@ jobs:
           JOB_COMPANY: ${{ inputs.company }}
           JOB_EMAIL: ${{ inputs.email }}
           JOB_DESCRIPTION: ${{ inputs.job_description }}
+          JOB_SUBJECT: ${{ inputs.subject }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}

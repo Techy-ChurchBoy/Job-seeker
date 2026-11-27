@@ -19,6 +19,7 @@ JOB_URL = os.getenv("JOB_URL", "").strip()
 JOB_COMPANY = os.getenv("JOB_COMPANY", "").strip()
 JOB_EMAIL = os.getenv("JOB_EMAIL", "").strip()
 PASTED = os.getenv("JOB_DESCRIPTION", "").strip()
+JOB_SUBJECT = os.getenv("JOB_SUBJECT", "").strip()  # exact subject line the posting asks for, if any
 MATCH_FIELDS = ["score", "title", "company", "location", "source", "url", "reason", "blockers", "description", "skill_gaps"]
 
 
@@ -67,7 +68,7 @@ def send(job, body_letter, to):
     msg["From"] = f"{name} <{sender}>"
     msg["To"] = to
     msg["Reply-To"] = sender
-    msg["Subject"] = f"Application: {job['title']} at {job['company']}"
+    msg["Subject"] = JOB_SUBJECT or f"Application: {job['title']} at {job['company']}"
     msg.set_content(body)
     docs.attach(msg, docs.select(job.get("description", ""), job.get("url", "")), NAME)
 
@@ -77,8 +78,8 @@ def send(job, body_letter, to):
 
 
 def main():
-    if not JOB_URL:
-        sys.exit("Set job_url.")
+    if not JOB_URL and not PASTED:
+        sys.exit("Give a job link, or paste the job description.")
     if not jb.GEMINI_KEY:
         sys.exit("Set GEMINI_API_KEY.")
     os.makedirs(sa.OUT_DIR, exist_ok=True)
@@ -103,7 +104,7 @@ def main():
             write_result("failed", "The page showed almost no text (it may need JavaScript). Paste the description instead.")
             return
 
-    company = JOB_COMPANY or urlparse(JOB_URL).hostname.replace("www.", "")
+    company = JOB_COMPANY or ((urlparse(JOB_URL).hostname or "").replace("www.", "") if JOB_URL else "") or "Pasted posting"
     job = {"source": "Manual", "title": title or "Job posting", "company": company,
            "location": "", "url": JOB_URL or f"pasted-{company}", "description": text[:6000]}
 
