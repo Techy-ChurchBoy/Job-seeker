@@ -1458,5 +1458,48 @@
    "  - 15: Senior Project Manager at D2L. Blockers: 4+ years of project/program management experience required; US location requirement",
    "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
   ]
+ },
+ {
+  "last_run": "2026-11-27T16:33+00:00",
+  "report": [
+   "Last run: 2026-11-27T16:33+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 478 postings in total, and 217 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "60 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "2 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 61 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 17 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 9 passed filter",
+   "- workingnomads: 37 fetched, 11 passed filter",
+   "- jobicy: 46 fetched, 41 passed filter",
+   "- remoteok: 100 fetched, 41 passed filter",
+   "- greenhouse: 64 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 23 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 20 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 37 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 64 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 12 linked pages",
+   "- 25 jobs older than 30 days skipped",
+   "- 60 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 90: MOORE Bishop &#038; Rooks Graduate Trainee Program 2027 at Dixcover Hub listing. Blockers: none",
+   "  - 50: Product Auditor at Moniepoint. Blockers: none",
+   "  - 35: Financial Analyst at Jamf. Blockers: Minimum of 2 years financial planning & analysis experience required (candidate has under 1 year of junior accounting experience)",
+   "  - 35: Field Credit Officer (Ekiti North) at Moniepoint. Blockers: none",
+   "  - 25: Influencer Marketing Internship (Winter/Spring 2027) at FamFluence. Blockers: none"
+  ]
  }
 ]

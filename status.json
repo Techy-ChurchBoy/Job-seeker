@@ -1,61 +1,60 @@
 {
- "last_run": "2026-11-27T07:54+00:00",
+ "last_run": "2026-11-27T16:33+00:00",
  "summary": [
-  "- remotive: 16 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 11 passed filter",
-  "- workingnomads: 36 fetched, 11 passed filter",
-  "- jobicy: 44 fetched, 39 passed filter",
+  "- remotive: 17 fetched, 2 passed filter",
+  "- himalayas: 20 fetched, 9 passed filter",
+  "- workingnomads: 37 fetched, 11 passed filter",
+  "- jobicy: 46 fetched, 41 passed filter",
   "- remoteok: 100 fetched, 41 passed filter",
-  "- greenhouse: 65 fetched, 33 passed filter",
+  "- greenhouse: 64 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
-  "- smartyacad: 43 fetched, 24 passed filter",
+  "- smartyacad: 44 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 22 passed filter",
+  "- arbeitnow: 50 fetched, 20 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 44 passed filter",
+  "- weworkremotely: 100 fetched, 37 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
-  "  - Greenhouse Moniepoint: 65 jobs",
+  "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 11 linked pages",
-  "- 26 jobs older than 30 days skipped",
-  "- 22 new jobs sent to scoring",
+  "  - Dixcover Hub: opened 12 linked pages",
+  "- 25 jobs older than 30 days skipped",
+  "- 60 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 35: Graduate Operations Supervisor (m/w/d) at Teampicnic. Blockers: Required degree in logistics management, supply chain management, or industrial engineering; physical presence/residence in Germany.",
-  "  - 35: Graduate Operations Supervisor (m/w/d) at Teampicnic. Blockers: Location mismatch (role is in Germany, candidate is in Nigeria); possible language barrier (German posting).",
-  "  - 35: Client Services Intern at Go Fish Digital. Blockers: US location requirement (candidate is in Nigeria); role requires current university enrollment",
-  "  - 20: Data Science Intern at Corporate Web Solutions. Blockers: Required degree in Data Science, Computer Science, Mathematics, Statistics, or a related field.",
-  "  - 15: Senior Project Manager at D2L. Blockers: 4+ years of project/program management experience required; US location requirement",
-  "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+  "  - 90: MOORE Bishop &#038; Rooks Graduate Trainee Program 2027 at Dixcover Hub listing. Blockers: none",
+  "  - 50: Product Auditor at Moniepoint. Blockers: none",
+  "  - 35: Financial Analyst at Jamf. Blockers: Minimum of 2 years financial planning & analysis experience required (candidate has under 1 year of junior accounting experience)",
+  "  - 35: Field Credit Officer (Ekiti North) at Moniepoint. Blockers: none",
+  "  - 25: Influencer Marketing Internship (Winter/Spring 2027) at FamFluence. Blockers: none"
  ],
  "report": {
   "sources": [
    {
     "name": "remotive",
     "ok": true,
-    "fetched": 16,
+    "fetched": 17,
     "passed": 2
    },
    {
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 11
+    "passed": 9
    },
    {
     "name": "workingnomads",
     "ok": true,
-    "fetched": 36,
+    "fetched": 37,
     "passed": 11
    },
    {
     "name": "jobicy",
     "ok": true,
-    "fetched": 44,
-    "passed": 39
+    "fetched": 46,
+    "passed": 41
    },
    {
     "name": "remoteok",
@@ -66,7 +65,7 @@
    {
     "name": "greenhouse",
     "ok": true,
-    "fetched": 65,
+    "fetched": 64,
     "passed": 33
    },
    {
@@ -96,8 +95,8 @@
    {
     "name": "smartyacad",
     "ok": true,
-    "fetched": 43,
-    "passed": 24
+    "fetched": 44,
+    "passed": 23
    },
    {
     "name": "jooble",
@@ -109,7 +108,7 @@
     "name": "arbeitnow",
     "ok": true,
     "fetched": 50,
-    "passed": 22
+    "passed": 20
    },
    {
     "name": "themuse",
@@ -121,7 +120,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 44
+    "passed": 37
    },
    {
     "name": "web_search_jobs",
@@ -130,19 +129,22 @@
     "passed": 0
    }
   ],
-  "new_to_score": 22,
-  "scored": 20,
-  "scoring_failed": 1,
+  "new_to_score": 60,
+  "scored": 60,
+  "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
    "Greenhouse Andela: FAILED ('jobs')"
   ]
  },
+ "drafts": {
+  "written": 2,
+  "failed": 0,
+  "waiting": 0
+ },
  "emails": {
-  "sent": 1,
-  "eligible": 1,
-  "names": [
-   "Medical Virtual Assistant - Reception & Bookkeeping at D2B"
-  ]
+  "sent": 0,
+  "eligible": 0,
+  "names": []
  }
 }
