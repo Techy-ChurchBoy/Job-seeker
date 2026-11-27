@@ -229,6 +229,13 @@ def recent(stamp):
         return False
 
 
+def pdf_name(r):
+    """Name of the ready-to-send cover letter PDF for this job, or '' when there is none."""
+    from prepare import slug
+    name = slug({"company": r.get("company", ""), "title": r.get("title", ""), "url": r.get("url", "")})
+    return name if os.path.exists(f"applications/pdf/{name}.pdf") else ""
+
+
 def build():
     matches = rows("matches.csv")
     applied = rows("applied.csv")
@@ -279,7 +286,7 @@ def build():
         "jobs": [{"score": int(num(r.get("score"))), "title": r.get("title", ""), "company": r.get("company", ""),
                   "location": r.get("location", ""), "source": r.get("source", ""), "reason": r.get("reason", ""),
                   "blockers": r.get("blockers", ""), "gaps": gaps(r), "url": r.get("url", ""),
-                  "drafted": r.get("url") in prepared, "recent": r.get("url") not in known_urls} for r in scored],
+                  "drafted": r.get("url") in prepared, "pdf": pdf_name(r), "recent": r.get("url") not in known_urls} for r in scored],
     }
 
 

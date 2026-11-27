@@ -72,6 +72,12 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
           CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
+      - run: python -u letter_pdfs.py
+        if: always()
+        env:
+          CANDIDATE_NAME: ${{ secrets.CANDIDATE_NAME }}
+          CANDIDATE_PHONE: ${{ secrets.CANDIDATE_PHONE }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
       - run: python -u dashboard.py
         if: always()
       - name: Save results
