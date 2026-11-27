@@ -343,6 +343,9 @@ def smartyacad():
         title, company = (m.group(1), m.group(2)) if m else (heading, "Dixcover Hub listing")
         content_html = p.get("content", {}).get("rendered", "")
         url, text = p.get("link", ""), strip_html(content_html)[:6000]
+        protected = __import__("contacts").decode_cfemail(content_html)
+        if protected:
+            text = " ".join(protected) + " " + text
         if prefilter({"title": title}):
             for dest in destination_links(content_html):
                 page = follow_page(dest)

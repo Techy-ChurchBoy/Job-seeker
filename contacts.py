@@ -26,3 +26,27 @@ def with_contacts(full_text, description_cut):
     """The stored description: any contacts first, then the (cut) text."""
     emails = find(full_text)
     return (f"Contacts: {'; '.join(emails)}\n" if emails else "") + (description_cut or "")
+
+
+CF_ATTR = re.compile(r'data-cfemail=["\']([0-9a-fA-F]+)["\']')
+CF_LINK = re.compile(r'/cdn-cgi/l/email-protection#([0-9a-fA-F]+)')
+
+
+def _decode_cf(hex_text):
+    """Cloudflare hides an address as hex: the first byte is a key, and each later byte is XORed with it."""
+    key = int(hex_text[0:2], 16)
+    return "".join(chr(int(hex_text[i:i + 2], 16) ^ key) for i in range(2, len(hex_text), 2))
+
+
+def decode_cfemail(raw_html):
+    """Addresses hidden by Cloudflare's email protection, decoded from the raw HTML."""
+    raw = raw_html or ""
+    found = []
+    for h in CF_ATTR.findall(raw) + CF_LINK.findall(raw):
+        try:
+            e = _decode_cf(h)
+        except ValueError:
+            continue
+        if "@" in e and e.lower() not in [f.lower() for f in found]:
+            found.append(e)
+    return found

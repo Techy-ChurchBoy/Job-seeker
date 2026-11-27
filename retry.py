@@ -42,7 +42,8 @@ def fetch_full(url):
         if not r.ok:
             return ""
         raw = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", r.text, flags=re.S | re.I)
-        return jb.strip_html(raw)
+        protected = contacts.decode_cfemail(r.text)
+        return jb.strip_html(raw) + (" " + " ".join(protected) if protected else "")
     except requests.RequestException:
         return ""
 
