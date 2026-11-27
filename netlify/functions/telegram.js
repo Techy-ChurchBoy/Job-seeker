@@ -20,11 +20,11 @@ const HELP = [
 ].join("\n");
 
 function parse(text) {
-  const out = { url: "", company: "", email: "", description: "" };
+  const out = { url: "", company: "", email: "", subject: "", description: "" };
   let mode = "";
   for (const raw of (text || "").split("\n")) {
     const line = raw.trim();
-    const m = line.match(/^(link|company|email|description):\s*(.*)$/i);
+    const m = line.match(/^(link|company|email|subject|description):\s*(.*)$/i);
     if (m) {
       mode = m[1].toLowerCase();
       const value = m[2];
@@ -301,7 +301,7 @@ exports.handler = async (event) => {
     },
     body: JSON.stringify({
       ref: "main",
-      inputs: { job_url: job.url, company: job.company, email: job.email, job_description: job.description },
+      inputs: { job_url: job.url, company: job.company, email: job.email, subject: job.subject, job_description: job.description },
     }),
   });
 
