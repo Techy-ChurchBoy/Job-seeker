@@ -22164,5 +22164,487 @@
   "company": "Spotify",
   "source": "RemoteOK",
   "updated": "2026-11-27T16:33:08+00:00"
+ },
+ "https://himalayas.app/companies/nextcloud/jobs/accountant-finance-executive-assistant-remote-or-stuttgart-or-berlin": {
+  "url": "https://himalayas.app/companies/nextcloud/jobs/accountant-finance-executive-assistant-remote-or-stuttgart-or-berlin?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring",
+   "drafted": "letters"
+  },
+  "score": 45,
+  "reason": "The job matches the candidate's accounting background and remote preference, but requires specific German financial processes and foreign payment regulations that he lacks.",
+  "blockers": "",
+  "skill_gaps": "German language skills; notification of reportable foreign payments; German commercial training",
+  "title": "Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin)",
+  "company": "Nextcloud",
+  "source": "Himalayas",
+  "updated": "2026-11-27T18:04:08+00:00",
+  "drafted": true
+ },
+ "https://weworkremotely.com/remote-jobs/clipboard-workforce-management-real-time-analyst": {
+  "url": "https://weworkremotely.com/remote-jobs/clipboard-workforce-management-real-time-analyst",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "The role focuses on real-time workforce management and operational analysis rather than finance or accounting, though some analytical skills and stakeholder communication transfer well.",
+  "blockers": "",
+  "skill_gaps": "real-time workforce management; workforce management (WFM) software; queue management playbooks; incident management",
+  "title": "Workforce Management - Real Time Analyst",
+  "company": "Clipboard",
+  "source": "We Work Remotely",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://himalayas.app/companies/kitsch-llc/jobs/production-npd-launch-analyst": {
+  "url": "https://himalayas.app/companies/kitsch-llc/jobs/production-npd-launch-analyst?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "The role requires specific supply chain planning and vendor management experience in cosmetics which the candidate lacks.",
+  "blockers": "Mandatory prior experience in supply chain planning and vendor management required.",
+  "skill_gaps": "supply chain planning; vendor management; negotiation skills; production capacity analysis; cosmetics industry background",
+  "title": "Production NPD Launch Analyst",
+  "company": "Kitsch LLC",
+  "source": "Himalayas",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-490377": {
+  "url": "https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-490377",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical presence in Bochum, Germany, and is structured for a currently enrolled student ('Werkstudent/-in'), whereas the candidate is based in Nigeria and has already graduated.",
+  "blockers": "Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
+  "skill_gaps": "German language proficiency",
+  "title": "Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement)",
+  "company": "Immo-Marketer",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/skdse/product-manager-mission-autonomy-all-genders-munich-bavaria-354681": {
+  "url": "https://www.arbeitnow.com/jobs/companies/skdse/product-manager-mission-autonomy-all-genders-munich-bavaria-354681",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate's profile is focused on accounting and finance, whereas this is a senior-level technical Product Manager role in defence technology located in Munich, Germany.",
+  "blockers": "Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology",
+  "skill_gaps": "military CONOPS; autonomous systems; product management experience",
+  "title": "Product Manager Mission Autonomy (All Genders)",
+  "company": "Skdse",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/skdse/junior-pmt-architect-all-genders-342583": {
+  "url": "https://www.arbeitnow.com/jobs/companies/skdse/junior-pmt-architect-all-genders-342583",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role is a technical engineering position in European defense technology requiring core systems engineering skills, which do not align with the candidate's finance and accounting background.",
+  "blockers": "The position requires engineering expertise and focus in systems engineering toolchains, processes, methods, and tools (PMT), which is completely unrelated to the candidate's finance, accounting, and digital product background.",
+  "skill_gaps": "systems engineering; PMT frameworks; defence technology engineering",
+  "title": "Junior PMT Architect (All Genders)",
+  "company": "Skdse",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/isaraerospace/intern-working-student-flight-safety-parsdorf-bavaria-12488": {
+  "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/intern-working-student-flight-safety-parsdorf-bavaria-12488",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires engineering, risk analysis, and mission operations in Germany, which does not align with Alexander's finance, accounting, and Nigerian location background.",
+  "blockers": "Requires physical presence/residence in Parsdorf, Bavaria, Germany, and an engineering/technical background rather than finance or accounting.",
+  "skill_gaps": "flight safety engineering; risk analysis tools; aerospace operations; sensitivity studies on flight tools",
+  "title": "Intern/Working Student Flight Safety (f/m/d)",
+  "company": "isaraerospace",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://himalayas.app/companies/botstacks/jobs/data-scientist": {
+  "url": "https://himalayas.app/companies/botstacks/jobs/data-scientist?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a senior-level US-based Data Scientist role requiring strong Python and SQL skills, which does not match the candidate's finance, accounting, and junior-level profile.",
+  "blockers": "Requires resident in the United States and strong Python and SQL skills which the candidate lacks.",
+  "skill_gaps": "Python; SQL; practical statistics; AI or machine-learning evaluation",
+  "title": "Data Scientist",
+  "company": "BotStacks",
+  "source": "Himalayas",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/betterdoc-gmbh/working-student-data-ai-cologne-397080": {
+  "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/working-student-data-ai-cologne-397080",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job strictly requires the candidate to be a medical student enrolled at a German university, which the candidate is not.",
+  "blockers": "Must study medicine and be enrolled at a German university",
+  "skill_gaps": "Medical knowledge; clinical expertise; German language fluency; Python; SQL",
+  "title": "Working Student Data & AI (m/f/d)",
+  "company": "BetterDoc GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/nyka-technologies/praktikum-product-engineering-wuppertal-187359": {
+  "url": "https://www.arbeitnow.com/jobs/companies/nyka-technologies/praktikum-product-engineering-wuppertal-187359",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a software engineering internship requiring hands-on coding in TypeScript, React, Node.js, and fluent German, none of which match the candidate's accounting profile.",
+  "blockers": "Requires fluent German and software engineering/coding experience (TypeScript, React, Node.js)",
+  "skill_gaps": "Fluent German; TypeScript; React; Node.js; Postgres; software engineering",
+  "title": "Praktikum Product Engineering (m/w/d)",
+  "company": "nyka Technologies",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/hellofresh/dach-mag-senior-workforce-production-planner-all-genders-magdeburg-saxony-anhalt-494904": {
+  "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/dach-mag-senior-workforce-production-planner-all-genders-magdeburg-saxony-anhalt-494904",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a senior-level position requiring 3-5+ years of experience in production planning, which exceeds the candidate's junior experience level and does not align with their accounting background.",
+  "blockers": "Senior-level position requiring 3-5+ years of experience",
+  "skill_gaps": "production planning; workforce management; German language proficiency; manufacturing industry experience",
+  "title": "[DACH MAG] Senior Workforce Production Planner (all genders)",
+  "company": "hellofresh",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/quantum-systems-gmbh/team-lead-production-factory-ergolding-42972": {
+  "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/team-lead-production-factory-ergolding-42972",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires industrial production and manufacturing team leadership with technical vocational training, which does not match the candidate's finance and accounting background.",
+  "blockers": "Requires completed technical vocational training with qualification as a Master Craftsman or state-certified technician in industrial series production, and physical presence in Germany.",
+  "skill_gaps": "production shift leadership; lean production; shop floor management; industrial series production",
+  "title": "Team Lead Production Factory (m/f/d)",
+  "company": "Quantum-Systems GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-growth-marketing-manager-munich-188407": {
+  "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-growth-marketing-manager-munich-188407",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires residency in Munich, Germany, and German language proficiency, neither of which the candidate possesses, and it is a digital marketing role rather than finance or accounting.",
+  "blockers": "Wohnsitz in München oder Umzugsbereitschaft, sehr gute Deutschkenntnisse",
+  "skill_gaps": "Growth Marketing; Performance Marketing; Kampagnenaufbau",
+  "title": "Junior Growth Marketing Manager (m/w/d)",
+  "company": "Cyrus Digital GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-digital-marketing-manager-munich-268091": {
+  "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-digital-marketing-manager-munich-268091",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks mandatory German language proficiency, residency in Munich, and prior experience in digital marketing.",
+  "blockers": "Required residency in Munich, Germany, and very fluent German language skills.",
+  "skill_gaps": "Online marketing; performance marketing; campaign optimization; German language",
+  "title": "Junior Digital Marketing Manager",
+  "company": "Cyrus Digital GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-308057": {
+  "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-308057",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires active enrollment in a human medicine degree program at a German university, which the candidate does not possess.",
+  "blockers": "Must be studying Human Medicine at a German university",
+  "skill_gaps": "Medical degree; Python; SQL; German language fluency",
+  "title": "Werkstudent Data & AI (m/w/d)",
+  "company": "BetterDoc GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/one-mobility/senior-accountant-consolidation-reporting-mfd-reutlingen-330235": {
+  "url": "https://www.arbeitnow.com/jobs/companies/one-mobility/senior-accountant-consolidation-reporting-mfd-reutlingen-330235",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the required senior experience, manufacturing background, and is not located in Germany.",
+  "blockers": "At least 2-5 years of professional experience in group accounting / consolidation required; Experience in Manufacturing is mandatory; Location in Germany.",
+  "skill_gaps": "HGB; IFRS; SAP; LucaNet; German language",
+  "title": "Senior Accountant Consolidation & Reporting (m\\f\\d)",
+  "company": "One Mobility",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/7nxt-gmbh/senior-data-engineer-data-ai-platform-berlin-127467": {
+  "url": "https://www.arbeitnow.com/jobs/companies/7nxt-gmbh/senior-data-engineer-data-ai-platform-berlin-127467",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level technical data engineering role requiring 4+ years of data warehouse experience, Python, and cloud infrastructure, which does not match the candidate's entry-level accounting and finance background.",
+  "blockers": "4+ years building and running a production data warehouse required; senior-level role",
+  "skill_gaps": "Python; BigQuery; GCP; Airflow; dbt; data engineering experience",
+  "title": "Senior Data Engineer- Data & AI Platform (f/m/d)",
+  "company": "7NXT GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-213130": {
+  "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-213130",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires studying human medicine at a German university, which the candidate does not do.",
+  "blockers": "Candidate must be studying Human Medicine at a German university.",
+  "skill_gaps": "human medicine; Python; SQL; Claude; medical data processing",
+  "title": "Werkstudent Data & AI (m/w/d)",
+  "company": "BetterDoc GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://himalayas.app/companies/vitalief/jobs/director-clinical-research-operations-service-line-activation": {
+  "url": "https://himalayas.app/companies/vitalief/jobs/director-clinical-research-operations-service-line-activation?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior-level clinical research operations leadership role requiring extensive US-based healthcare management experience, which completely misaligns with the candidate's entry-level finance profile.",
+  "blockers": "Requires senior-level clinical research operations leadership experience, US location, and a director-level background.",
+  "skill_gaps": "clinical research operations; healthcare management; cardiovascular/pulmonary study activation; US health system experience",
+  "title": "Director, Clinical Research Operations Service Line Activation",
+  "company": "Vitalief",
+  "source": "Himalayas",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://himalayas.app/companies/choate-agency/jobs/financial-advisors-p-c-agents-realtors-add-a-life-production-platform-rem": {
+  "url": "https://himalayas.app/companies/choate-agency/jobs/financial-advisors-p-c-agents-realtors-add-a-life-production-platform-rem?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires U.S. residency and active life insurance licensing for sales and advisory work, which completely misaligns with the candidate's profile as a junior management accountant in Nigeria.",
+  "blockers": "U.S. residency required; active life insurance license required; not for entry-level applicants",
+  "skill_gaps": "life insurance sales; financial advisory; property and casualty insurance licensing",
+  "title": "Financial Advisors, P&C Agents & Realtors | Add a Life Production Platform | Rem",
+  "company": "Choate Agency",
+  "source": "Himalayas",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/codewerk-gmbh/it-administrator-schwerpunkt-security-karlsruhe-152187": {
+  "url": "https://www.arbeitnow.com/jobs/companies/codewerk-gmbh/it-administrator-schwerpunkt-security-karlsruhe-152187",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate's profile is in finance and accounting, whereas this is a specialized IT administration and security role requiring a degree in computer science or system integration and German fluency.",
+  "blockers": "Requires a degree in (Wirtschafts-)Informatik or Fachinformatiker training, IT system administration experience, and very good German language skills.",
+  "skill_gaps": "IT security; virtualization; Docker; Kubernetes; vCenter; Proxmox; German language",
+  "title": "IT-Administrator Schwerpunkt Security (m/w/d)",
+  "company": "Codewerk GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/databricks/senior-solutions-architect-edw-enterprise-data-warehouse-migrations-berlin-munich-447929": {
+  "url": "https://www.arbeitnow.com/jobs/companies/databricks/senior-solutions-architect-edw-enterprise-data-warehouse-migrations-berlin-munich-447929",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "This is a senior-level technical solutions architect role requiring extensive data warehouse migration and enterprise engineering experience, whereas the candidate is a junior accountant.",
+  "blockers": "Senior-level role requiring advanced technical solutions architecture and enterprise data warehouse migration experience; located in Germany while candidate is in Nigeria.",
+  "skill_gaps": "Solutions architecture; EDW migrations; Databricks; ETL; machine learning; Python/Scala; enterprise data warehousing",
+  "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+  "company": "databricks",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-e-e-engineer-emc-and-compliance-ugv-platforms-gilching-493708": {
+  "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-e-e-engineer-emc-and-compliance-ugv-platforms-gilching-493708",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job is a senior engineering role in EMC and compliance for unmanned systems requiring extensive engineering experience and technical qualifications that do not match the candidate's finance and accounting background.",
+  "blockers": "Requires a senior engineering role (Senior E/E Engineer) with specialized hardware, EMC, and military compliance experience which the candidate lacks; requires residence in Germany.",
+  "skill_gaps": "EMC engineering; MIL-STD compliance; E/E design; high power electronics; hardware testing",
+  "title": "Senior E/E Engineer EMC and Compliance, UGV Platforms (m/f/d)",
+  "company": "Quantum-Systems GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/novus-gmbh/testingenieur-gesamtfahrzeug-powertrain-erprobung-braunschweig-223198": {
+  "url": "https://www.arbeitnow.com/jobs/companies/novus-gmbh/testingenieur-gesamtfahrzeug-powertrain-erprobung-braunschweig-223198",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role is for a Test Engineer in vehicle and powertrain testing, which requires a heavy technical engineering background that does not match the candidate's accounting and finance profile.",
+  "blockers": "The candidate lacks the required technical engineering background, automotive testing experience, and residency/work authorization in Germany.",
+  "skill_gaps": "Fahrzeugtechnik; Antriebstechnik; Elektrotechnik; Messtechnik; Motorradführerschein",
+  "title": "Testingenieur (m/w/d) Gesamtfahrzeug & Powertrain-Erprobung",
+  "company": "NOVUS GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T18:03:58+00:00"
  }
 }

@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-27 16:34 UTC",
+ "generated": "2026-11-27 18:05 UTC",
  "report": [
-  "Last run: 2026-11-27T16:33+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 478 postings in total, and 217 matched your skills.",
+  "Last run: 2026-11-27T18:03+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 208 matched your skills.",
   "These sources could not be reached: themuse.",
-  "60 postings were scored against your CV this run.",
+  "24 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "2 cover letters were written.",
+  "1 cover letters were written.",
   "No application emails were sent this run.",
-  "Overall, 61 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
+  "Overall, 62 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -16,27 +16,27 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 322,
-    "week": 1367,
+    "today": 347,
+    "week": 1392,
     "limited": 5,
-    "overloaded": 218,
-    "tokens_in": 1378172,
-    "tokens_out": 99077
+    "overloaded": 219,
+    "tokens_in": 1413665,
+    "tokens_out": 101351
    },
    {
     "process": "letters",
-    "today": 30,
-    "week": 153,
+    "today": 31,
+    "week": 154,
     "limited": 1,
     "overloaded": 66,
-    "tokens_in": 155668,
-    "tokens_out": 71980
+    "tokens_in": 157579,
+    "tokens_out": 72943
    },
    {
     "process": "web_search",
-    "today": 20,
-    "week": 96,
-    "limited": 96,
+    "today": 24,
+    "week": 100,
+    "limited": 100,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -1024,6 +1024,16 @@
    "requirements": []
   },
   {
+   "title": "Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin)",
+   "company": "Nextcloud",
+   "score": 45,
+   "url": "https://himalayas.app/companies/nextcloud/jobs/accountant-finance-executive-assistant-remote-or-stuttgart-or-berlin?utm_source=api",
+   "letter": "Dear Hiring Manager,\n\nThe Accountant / Finance Executive Assistant role at Nextcloud caught my attention because it combines meticulous receivables management with direct support for financial planning. Working within a distributed global team aligns well with my background in handling structured accounting workflows and multi-channel financial records.\n\nDuring my recent tenure at the Nigerian College of Aviation Technology, I maintained and reconciled revenue streams, processed transactions, and supported month-end close activities. I investigated variances and compiled supporting schedules, ensuring every audit trail remained clear and reliable. My hands-on experience using QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage has equipped me to adapt quickly to your financial systems and manage account reconciliations effectively.\n\nWhile my background is rooted in general accounting rather than specialised foreign payment notifications in Germany, my advanced Excel skills and attention to detail allow me to learn new reporting standards efficiently. I am well-prepared to handle back office tasks, customer communication regarding payment modalities, and travel expense processing with high accuracy.\n\nI would welcome the opportunity to discuss how my accounting foundation and organisational skills can support your finance team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit because the candidate has strong general ledger, reconciliation, and software skills that match the accounting and back office needs, though specific European compliance tasks like reportable foreign payments are new.\nGap: Experience with notification of reportable foreign payments.\nGap: Commercial training or education in financial accounting specifically structured around European standards, though balanced by a B.Sc. in Accounting.\nGap: German language fluency, as the posting notes \"ideally German speaker\" (though English is fluent).",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Accounting Assistant",
    "company": "Express Commercial Cleaning Inc",
    "score": 45,
@@ -1247,12 +1257,12 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-27T16:33+00:00",
+ "last_run": "2026-11-27T18:03+00:00",
  "summary": [
   "- remotive: 17 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 9 passed filter",
+  "- himalayas: 20 fetched, 5 passed filter",
   "- workingnomads: 37 fetched, 11 passed filter",
-  "- jobicy: 46 fetched, 41 passed filter",
+  "- jobicy: 45 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 41 passed filter",
   "- greenhouse: 64 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -1261,31 +1271,40 @@
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 44 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 20 passed filter",
+  "- arbeitnow: 50 fetched, 18 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 37 passed filter",
+  "- weworkremotely: 100 fetched, 35 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
   "- 25 jobs older than 30 days skipped",
-  "- 60 new jobs sent to scoring",
+  "- 24 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 90: MOORE Bishop &#038; Rooks Graduate Trainee Program 2027 at Dixcover Hub listing. Blockers: none",
-  "  - 50: Product Auditor at Moniepoint. Blockers: none",
-  "  - 35: Financial Analyst at Jamf. Blockers: Minimum of 2 years financial planning & analysis experience required (candidate has under 1 year of junior accounting experience)",
-  "  - 35: Field Credit Officer (Ekiti North) at Moniepoint. Blockers: none",
-  "  - 25: Influencer Marketing Internship (Winter/Spring 2027) at FamFluence. Blockers: none"
+  "  - 45: Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin) at Nextcloud. Blockers: none",
+  "  - 35: Workforce Management - Real Time Analyst at Clipboard. Blockers: none",
+  "  - 25: Production NPD Launch Analyst at Kitsch LLC. Blockers: Mandatory prior experience in supply chain planning and vendor management required.",
+  "  - 15: Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement) at Immo-Marketer. Blockers: Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
+  "  - 15: Product Manager Mission Autonomy (All Genders) at Skdse. Blockers: Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology"
  ],
  "stats": {
-  "jobs_scored": 1384,
-  "strong": 112,
-  "drafts": 116,
+  "jobs_scored": 1408,
+  "strong": 113,
+  "drafts": 117,
   "sent_today": 6,
   "sent_total": 11
  },
  "skills": [
+  {
+   "skill": "Python",
+   "count": 59,
+   "examples": [
+    "Financial Analyst at CertiK",
+    "Data Science Intern at Corporate Web Solutions",
+    "Test Data Quality Engineer at PLATO"
+   ]
+  },
   {
    "skill": "Cpa",
    "count": 58,
@@ -1293,15 +1312,6 @@
     "Senior Revenue Accountant at Cologix, Inc.",
     "Tax expert at Intuit",
     "Accounting Manager at SunStrong Management, LLC"
-   ]
-  },
-  {
-   "skill": "Python",
-   "count": 54,
-   "examples": [
-    "Financial Analyst at CertiK",
-    "Data Science Intern at Corporate Web Solutions",
-    "Test Data Quality Engineer at PLATO"
    ]
   },
   {
@@ -1323,6 +1333,15 @@
    ]
   },
   {
+   "skill": "Sql",
+   "count": 40,
+   "examples": [
+    "Financial Analyst at CertiK",
+    "Revenue Operations Analyst at Augment",
+    "Marketing Operations Manager at Dropbox"
+   ]
+  },
+  {
    "skill": "Enterprise Sales",
    "count": 39,
    "examples": [
@@ -1332,12 +1351,12 @@
    ]
   },
   {
-   "skill": "Sql",
+   "skill": "German Language",
    "count": 36,
    "examples": [
-    "Financial Analyst at CertiK",
-    "Revenue Operations Analyst at Augment",
-    "Marketing Operations Manager at Dropbox"
+    "Launch Intern (f/m/d) at Upvest",
+    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
+    "Quality Assurance & Documentation Technician (m/f/d) at Esmc"
    ]
   },
   {
@@ -1350,17 +1369,8 @@
    ]
   },
   {
-   "skill": "German Language",
-   "count": 33,
-   "examples": [
-    "Launch Intern (f/m/d) at Upvest",
-    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
-    "Quality Assurance & Documentation Technician (m/f/d) at Esmc"
-   ]
-  },
-  {
    "skill": "German Language Proficiency",
-   "count": 31,
+   "count": 33,
    "examples": [
     "Interne Projekt- und Prozessanalyse (m/w/d) at S-Akquise GmbH",
     "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH",
@@ -1387,7 +1397,7 @@
   },
   {
    "skill": "Software Engineering",
-   "count": 26,
+   "count": 27,
    "examples": [
     "General Application for Product, Engineering and Technology at Talkspace",
     "Technical Product Manager at Sanovio",
@@ -1581,7 +1591,7 @@
    "url": "https://jobs.smartyacad.com/moore-bishop-rooks-graduate-trainee-program-2027/",
    "drafted": true,
    "pdf": "dixcover-hub-listing-moore-bishop-038-ro-4eabf1fa",
-   "recent": true
+   "recent": false
   },
   {
    "score": 85,
@@ -2756,7 +2766,7 @@
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4821858101",
    "drafted": true,
    "pdf": "moniepoint-product-auditor-90a5ed85",
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -3253,6 +3263,24 @@
    "drafted": true,
    "pdf": "growix-virtual-assistant-a0ba255d",
    "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin)",
+   "company": "Nextcloud",
+   "location": "Germany",
+   "source": "Himalayas",
+   "reason": "The job matches the candidate's accounting background and remote preference, but requires specific German financial processes and foreign payment regulations that he lacks.",
+   "blockers": "",
+   "gaps": [
+    "German language skills",
+    "notification of reportable foreign payments",
+    "German commercial training"
+   ],
+   "url": "https://himalayas.app/companies/nextcloud/jobs/accountant-finance-executive-assistant-remote-or-stuttgart-or-berlin?utm_source=api",
+   "drafted": true,
+   "pdf": "nextcloud-accountant-finance-executive-a-b111361e",
+   "recent": true
   },
   {
    "score": 40,
@@ -3843,7 +3871,7 @@
    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4983218101",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 35,
@@ -3858,6 +3886,25 @@
     "software industry experience"
    ],
    "url": "https://jobicy.com/jobs/164528-financial-analyst-7",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 35,
+   "title": "Workforce Management - Real Time Analyst",
+   "company": "Clipboard",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role focuses on real-time workforce management and operational analysis rather than finance or accounting, though some analytical skills and stakeholder communication transfer well.",
+   "blockers": "",
+   "gaps": [
+    "real-time workforce management",
+    "workforce management (WFM) software",
+    "queue management playbooks",
+    "incident management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/clipboard-workforce-management-real-time-analyst",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -4446,6 +4493,26 @@
     "social media management"
    ],
    "url": "https://weworkremotely.com/remote-jobs/famfluence-influencer-marketing-internship-winter-spring-2027",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Production NPD Launch Analyst",
+   "company": "Kitsch LLC",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires specific supply chain planning and vendor management experience in cosmetics which the candidate lacks.",
+   "blockers": "Mandatory prior experience in supply chain planning and vendor management required.",
+   "gaps": [
+    "supply chain planning",
+    "vendor management",
+    "negotiation skills",
+    "production capacity analysis",
+    "cosmetics industry background"
+   ],
+   "url": "https://himalayas.app/companies/kitsch-llc/jobs/production-npd-launch-analyst?utm_source=api",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -9445,7 +9512,7 @@
    "url": "https://himalayas.app/companies/realstudio/jobs/account-executive-tiktok-shop-m-w-d?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9464,7 +9531,7 @@
    "url": "https://weworkremotely.com/remote-jobs/hopper-growth-product-manager-hts-media",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9483,7 +9550,7 @@
    "url": "https://himalayas.app/companies/opensesame/jobs/marketing-internship-summer-2027?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9500,7 +9567,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/edtelligent/founders-associate-product-strategy-munich-451509",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9518,7 +9585,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-master-data-management-mdm-heidelberg-113665",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9538,7 +9605,7 @@
    "url": "https://jobicy.com/jobs/164535-payroll-tax-analyst",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9556,7 +9623,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/furo/gtm-intern-munich-202377",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9574,7 +9641,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/people-operations-working-student-aachen-265763",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9591,7 +9658,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/getspecialfastenerscom/founders-associate-bielefeld-163437",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9609,7 +9676,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/oscar-gmbh/junior-consultant-im-bereich-it-softwaremanagement-cologne-26565",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9626,7 +9693,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/backoffice-manager-auch-quereinstieg-stuttgart-198537",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -9640,6 +9707,77 @@
     "energy sector experience"
    ],
    "url": "https://nipcoplc.com/career.html",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement)",
+   "company": "Immo-Marketer",
+   "location": "Bochum",
+   "source": "Arbeitnow",
+   "reason": "The job requires physical presence in Bochum, Germany, and is structured for a currently enrolled student ('Werkstudent/-in'), whereas the candidate is based in Nigeria and has already graduated.",
+   "blockers": "Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
+   "gaps": [
+    "German language proficiency"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-490377",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Product Manager Mission Autonomy (All Genders)",
+   "company": "Skdse",
+   "location": "Munich, Bavaria",
+   "source": "Arbeitnow",
+   "reason": "The candidate's profile is focused on accounting and finance, whereas this is a senior-level technical Product Manager role in defence technology located in Munich, Germany.",
+   "blockers": "Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology",
+   "gaps": [
+    "military CONOPS",
+    "autonomous systems",
+    "product management experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/skdse/product-manager-mission-autonomy-all-genders-munich-bavaria-354681",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Junior PMT Architect (All Genders)",
+   "company": "Skdse",
+   "location": "",
+   "source": "Arbeitnow",
+   "reason": "The role is a technical engineering position in European defense technology requiring core systems engineering skills, which do not align with the candidate's finance and accounting background.",
+   "blockers": "The position requires engineering expertise and focus in systems engineering toolchains, processes, methods, and tools (PMT), which is completely unrelated to the candidate's finance, accounting, and digital product background.",
+   "gaps": [
+    "systems engineering",
+    "PMT frameworks",
+    "defence technology engineering"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/skdse/junior-pmt-architect-all-genders-342583",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Intern/Working Student Flight Safety (f/m/d)",
+   "company": "isaraerospace",
+   "location": "Parsdorf, Bavaria",
+   "source": "Arbeitnow",
+   "reason": "The role requires engineering, risk analysis, and mission operations in Germany, which does not align with Alexander's finance, accounting, and Nigerian location background.",
+   "blockers": "Requires physical presence/residence in Parsdorf, Bavaria, Germany, and an engineering/technical background rather than finance or accounting.",
+   "gaps": [
+    "flight safety engineering",
+    "risk analysis tools",
+    "aerospace operations",
+    "sensitivity studies on flight tools"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/intern-working-student-flight-safety-parsdorf-bavaria-12488",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -16928,7 +17066,7 @@
    "url": "https://weworkremotely.com/remote-jobs/truelogic-software-senior-data-engineer-real-estate-mexico",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -16948,7 +17086,7 @@
    "url": "https://weworkremotely.com/remote-jobs/trm-labs-lead-product-manager",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -16967,7 +17105,7 @@
    "url": "https://himalayas.app/companies/smartsheet/jobs/sr-customer-success-manager-east?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -16985,7 +17123,7 @@
    "url": "https://himalayas.app/companies/mammutmarsch/jobs/lohnbuchhalter-payroll-specialist-m-w-d?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17007,7 +17145,7 @@
    "url": "https://himalayas.app/companies/fourkites/jobs/senior-data-scientist?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17027,7 +17165,7 @@
    "url": "https://himalayas.app/companies/bluesight/jobs/senior-data-engineer?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17047,7 +17185,7 @@
    "url": "https://weworkremotely.com/remote-jobs/tilt-staff-product-designer",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17067,7 +17205,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/exp-software-gmbh/product-owner-fur-agentic-twin-plattform-explore-pfaffenhofen-an-der-ilm-18392",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17088,7 +17226,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/leicht-digital-gmbh/it-administratorin-microsoft-365-intune-fur-non-profits-berlin-445645",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17109,7 +17247,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/greentech-hub-gmbh/automotive-data-engineer-vehicle-data-engineer-memmingen-214777",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17128,7 +17266,7 @@
    "url": "https://weworkremotely.com/remote-jobs/duckduckgo-senior-product-partnerships-manager-remote-within-usa-or-canada",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17147,7 +17285,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/veeamsoftware/remote-senior-account-executive-enterprise-sales-public-accounts-192076",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17167,7 +17305,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/purestorage/remote-territory-account-executive-nrw-375300",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17186,7 +17324,7 @@
    "url": "https://jobicy.com/jobs/164542-tax-manager-2",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17204,7 +17342,7 @@
    "url": "https://jobicy.com/jobs/164539-senior-accountant-14",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17224,7 +17362,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/glow25/remote-accounting-manager-a-r-e-commerce-all-genders-212162",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17244,7 +17382,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/sogema-software-gmbh/technische-r-informatikerin-als-it-projektleiterin-business-analystin-100-a-berlin-221716",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17264,7 +17402,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/sogema-software-gmbh/senior-data-migration-interface-engineer-dach-100-a-berlin-16751",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17283,7 +17421,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/oscar-gmbh/junior-consultant-im-bereich-prozessmanagement-cologne-184668",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17301,7 +17439,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/junior-google-performance-analytics-manager-stuttgart-382578",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17320,7 +17458,7 @@
    "url": "https://jobs.smartyacad.com/nigerian-bottling-company-technical-trainee-program-2027/",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17339,7 +17477,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-outmarket-ai-1138189",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17361,7 +17499,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-support-operations-lead-zip-1138188",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17382,7 +17520,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-sr-dynamics-365-app-developer-remote-protective-life-1138182",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -17397,6 +17535,221 @@
     "Maxio billing system"
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-senior-accountant-ethena-1138175",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Data Scientist",
+   "company": "BotStacks",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The job is a senior-level US-based Data Scientist role requiring strong Python and SQL skills, which does not match the candidate's finance, accounting, and junior-level profile.",
+   "blockers": "Requires resident in the United States and strong Python and SQL skills which the candidate lacks.",
+   "gaps": [
+    "Python",
+    "SQL",
+    "practical statistics",
+    "AI or machine-learning evaluation"
+   ],
+   "url": "https://himalayas.app/companies/botstacks/jobs/data-scientist?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Working Student Data & AI (m/f/d)",
+   "company": "BetterDoc GmbH",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "The job strictly requires the candidate to be a medical student enrolled at a German university, which the candidate is not.",
+   "blockers": "Must study medicine and be enrolled at a German university",
+   "gaps": [
+    "Medical knowledge",
+    "clinical expertise",
+    "German language fluency",
+    "Python",
+    "SQL"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/working-student-data-ai-cologne-397080",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Praktikum Product Engineering (m/w/d)",
+   "company": "nyka Technologies",
+   "location": "Wuppertal",
+   "source": "Arbeitnow",
+   "reason": "The job is a software engineering internship requiring hands-on coding in TypeScript, React, Node.js, and fluent German, none of which match the candidate's accounting profile.",
+   "blockers": "Requires fluent German and software engineering/coding experience (TypeScript, React, Node.js)",
+   "gaps": [
+    "Fluent German",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Postgres",
+    "software engineering"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/nyka-technologies/praktikum-product-engineering-wuppertal-187359",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "[DACH MAG] Senior Workforce Production Planner (all genders)",
+   "company": "hellofresh",
+   "location": "Magdeburg, Saxony-Anhalt",
+   "source": "Arbeitnow",
+   "reason": "The job is a senior-level position requiring 3-5+ years of experience in production planning, which exceeds the candidate's junior experience level and does not align with their accounting background.",
+   "blockers": "Senior-level position requiring 3-5+ years of experience",
+   "gaps": [
+    "production planning",
+    "workforce management",
+    "German language proficiency",
+    "manufacturing industry experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/dach-mag-senior-workforce-production-planner-all-genders-magdeburg-saxony-anhalt-494904",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Team Lead Production Factory (m/f/d)",
+   "company": "Quantum-Systems GmbH",
+   "location": "Ergolding , Bayern, Germany",
+   "source": "Arbeitnow",
+   "reason": "The job requires industrial production and manufacturing team leadership with technical vocational training, which does not match the candidate's finance and accounting background.",
+   "blockers": "Requires completed technical vocational training with qualification as a Master Craftsman or state-certified technician in industrial series production, and physical presence in Germany.",
+   "gaps": [
+    "production shift leadership",
+    "lean production",
+    "shop floor management",
+    "industrial series production"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/team-lead-production-factory-ergolding-42972",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Junior Growth Marketing Manager (m/w/d)",
+   "company": "Cyrus Digital GmbH",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "The job requires residency in Munich, Germany, and German language proficiency, neither of which the candidate possesses, and it is a digital marketing role rather than finance or accounting.",
+   "blockers": "Wohnsitz in München oder Umzugsbereitschaft, sehr gute Deutschkenntnisse",
+   "gaps": [
+    "Growth Marketing",
+    "Performance Marketing",
+    "Kampagnenaufbau"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-growth-marketing-manager-munich-188407",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Junior Digital Marketing Manager",
+   "company": "Cyrus Digital GmbH",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks mandatory German language proficiency, residency in Munich, and prior experience in digital marketing.",
+   "blockers": "Required residency in Munich, Germany, and very fluent German language skills.",
+   "gaps": [
+    "Online marketing",
+    "performance marketing",
+    "campaign optimization",
+    "German language"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/junior-digital-marketing-manager-munich-268091",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Werkstudent Data & AI (m/w/d)",
+   "company": "BetterDoc GmbH",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "The role requires active enrollment in a human medicine degree program at a German university, which the candidate does not possess.",
+   "blockers": "Must be studying Human Medicine at a German university",
+   "gaps": [
+    "Medical degree",
+    "Python",
+    "SQL",
+    "German language fluency"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-308057",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Accountant Consolidation & Reporting (m\\f\\d)",
+   "company": "One Mobility",
+   "location": "Reutlingen, Baden-Württemberg, Germany",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks the required senior experience, manufacturing background, and is not located in Germany.",
+   "blockers": "At least 2-5 years of professional experience in group accounting / consolidation required; Experience in Manufacturing is mandatory; Location in Germany.",
+   "gaps": [
+    "HGB",
+    "IFRS",
+    "SAP",
+    "LucaNet",
+    "German language"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/one-mobility/senior-accountant-consolidation-reporting-mfd-reutlingen-330235",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Data Engineer- Data & AI Platform (f/m/d)",
+   "company": "7NXT GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "This is a senior-level technical data engineering role requiring 4+ years of data warehouse experience, Python, and cloud infrastructure, which does not match the candidate's entry-level accounting and finance background.",
+   "blockers": "4+ years building and running a production data warehouse required; senior-level role",
+   "gaps": [
+    "Python",
+    "BigQuery",
+    "GCP",
+    "Airflow",
+    "dbt",
+    "data engineering experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/7nxt-gmbh/senior-data-engineer-data-ai-platform-berlin-127467",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Werkstudent Data & AI (m/w/d)",
+   "company": "BetterDoc GmbH",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "The job requires studying human medicine at a German university, which the candidate does not do.",
+   "blockers": "Candidate must be studying Human Medicine at a German university.",
+   "gaps": [
+    "human medicine",
+    "Python",
+    "SQL",
+    "Claude",
+    "medical data processing"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-213130",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -23089,7 +23442,7 @@
    "url": "https://himalayas.app/companies/veeva-systems/jobs/associate-director-of-field-marketing-quality-cloud-europe-7916496574?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23109,7 +23462,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/noris-network-ag/datacenter-technician-it-systems-servicetechniker-rechenzentrum-aschheim-220621",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23131,7 +23484,7 @@
    "url": "https://weworkremotely.com/remote-jobs/3y-health-ai-product-engineer",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23151,7 +23504,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/domus-consult-wirtschaftsberatungsgesellschaft-mbh/it-systemadministrator-microsoft-365-infrastruktur-483717",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23171,7 +23524,7 @@
    "url": "https://jobicy.com/jobs/164552-senior-sales-compensation-analyst-2",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23190,7 +23543,7 @@
    "url": "https://weworkremotely.com/remote-jobs/qr-8-ltd-eu-economic-and-financial-policy-specialist",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23209,7 +23562,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-district-manager-majors-financial-services-snowflake-1138196",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23228,7 +23581,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-msp-account-executive-dach-rubrik-job-board-1138195",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23248,7 +23601,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-account-executive-japan-socket-1138193",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23267,7 +23620,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-content-engineer-developer-documentation-livekit-1138185",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23291,7 +23644,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-enterprise-sales-engineer-germany-datadog-1138184",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23312,7 +23665,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-staff-compliance-engineer-livekit-1138183",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -23329,6 +23682,65 @@
     "CLM platform administration"
    ],
    "url": "https://remoteOK.com/remote-jobs/remote-partner-solution-architect-partner-center-of-excellence-agiloft-1138172",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Director, Clinical Research Operations Service Line Activation",
+   "company": "Vitalief",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior-level clinical research operations leadership role requiring extensive US-based healthcare management experience, which completely misaligns with the candidate's entry-level finance profile.",
+   "blockers": "Requires senior-level clinical research operations leadership experience, US location, and a director-level background.",
+   "gaps": [
+    "clinical research operations",
+    "healthcare management",
+    "cardiovascular/pulmonary study activation",
+    "US health system experience"
+   ],
+   "url": "https://himalayas.app/companies/vitalief/jobs/director-clinical-research-operations-service-line-activation?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Financial Advisors, P&C Agents & Realtors | Add a Life Production Platform | Rem",
+   "company": "Choate Agency",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The role requires U.S. residency and active life insurance licensing for sales and advisory work, which completely misaligns with the candidate's profile as a junior management accountant in Nigeria.",
+   "blockers": "U.S. residency required; active life insurance license required; not for entry-level applicants",
+   "gaps": [
+    "life insurance sales",
+    "financial advisory",
+    "property and casualty insurance licensing"
+   ],
+   "url": "https://himalayas.app/companies/choate-agency/jobs/financial-advisors-p-c-agents-realtors-add-a-life-production-platform-rem?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "IT-Administrator Schwerpunkt Security (m/w/d)",
+   "company": "Codewerk GmbH",
+   "location": "Karlsruhe",
+   "source": "Arbeitnow",
+   "reason": "The candidate's profile is in finance and accounting, whereas this is a specialized IT administration and security role requiring a degree in computer science or system integration and German fluency.",
+   "blockers": "Requires a degree in (Wirtschafts-)Informatik or Fachinformatiker training, IT system administration experience, and very good German language skills.",
+   "gaps": [
+    "IT security",
+    "virtualization",
+    "Docker",
+    "Kubernetes",
+    "vCenter",
+    "Proxmox",
+    "German language"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/codewerk-gmbh/it-administrator-schwerpunkt-security-karlsruhe-152187",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -26958,7 +27370,7 @@
    "url": "https://himalayas.app/companies/chenega-corporation/jobs/sr-windows-iam-administrator-active-directory-entra-id?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -26980,7 +27392,7 @@
    "url": "https://himalayas.app/companies/discord/jobs/senior-software-engineer-enterprise-platform?utm_source=api",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -27002,7 +27414,7 @@
    "url": "https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/senior-process-equipment-engineer-sin-si-pvd-deposition-aachen-357886",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -27021,7 +27433,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-senior-energy-markets-analyst-pjm-voltus-1138181",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -27040,10 +27452,115 @@
    "url": "https://remoteOK.com/remote-jobs/remote-senior-engineering-manager-agentic-products-spotify-1138174",
    "drafted": false,
    "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+   "company": "databricks",
+   "location": "Berlin; Munich",
+   "source": "Arbeitnow",
+   "reason": "This is a senior-level technical solutions architect role requiring extensive data warehouse migration and enterprise engineering experience, whereas the candidate is a junior accountant.",
+   "blockers": "Senior-level role requiring advanced technical solutions architecture and enterprise data warehouse migration experience; located in Germany while candidate is in Nigeria.",
+   "gaps": [
+    "Solutions architecture",
+    "EDW migrations",
+    "Databricks",
+    "ETL",
+    "machine learning",
+    "Python/Scala",
+    "enterprise data warehousing"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/databricks/senior-solutions-architect-edw-enterprise-data-warehouse-migrations-berlin-munich-447929",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Senior E/E Engineer EMC and Compliance, UGV Platforms (m/f/d)",
+   "company": "Quantum-Systems GmbH",
+   "location": "Gilching, Bayern, Germany",
+   "source": "Arbeitnow",
+   "reason": "The job is a senior engineering role in EMC and compliance for unmanned systems requiring extensive engineering experience and technical qualifications that do not match the candidate's finance and accounting background.",
+   "blockers": "Requires a senior engineering role (Senior E/E Engineer) with specialized hardware, EMC, and military compliance experience which the candidate lacks; requires residence in Germany.",
+   "gaps": [
+    "EMC engineering",
+    "MIL-STD compliance",
+    "E/E design",
+    "high power electronics",
+    "hardware testing"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-e-e-engineer-emc-and-compliance-ugv-platforms-gilching-493708",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "Testingenieur (m/w/d) Gesamtfahrzeug & Powertrain-Erprobung",
+   "company": "NOVUS GmbH",
+   "location": "Braunschweig",
+   "source": "Arbeitnow",
+   "reason": "The role is for a Test Engineer in vehicle and powertrain testing, which requires a heavy technical engineering background that does not match the candidate's accounting and finance profile.",
+   "blockers": "The candidate lacks the required technical engineering background, automotive testing experience, and residency/work authorization in Germany.",
+   "gaps": [
+    "Fahrzeugtechnik",
+    "Antriebstechnik",
+    "Elektrotechnik",
+    "Messtechnik",
+    "Motorradführerschein"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/novus-gmbh/testingenieur-gesamtfahrzeug-powertrain-erprobung-braunschweig-223198",
+   "drafted": false,
+   "pdf": "",
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-27T18:03+00:00",
+   "report": [
+    "Last run: 2026-11-27T18:03+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 208 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "24 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "1 cover letters were written.",
+    "No application emails were sent this run.",
+    "Overall, 62 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 17 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 5 passed filter",
+    "- workingnomads: 37 fetched, 11 passed filter",
+    "- jobicy: 45 fetched, 40 passed filter",
+    "- remoteok: 100 fetched, 41 passed filter",
+    "- greenhouse: 64 fetched, 33 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 44 fetched, 23 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 18 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 35 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 64 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 12 linked pages",
+    "- 25 jobs older than 30 days skipped",
+    "- 24 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 45: Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin) at Nextcloud. Blockers: none",
+    "  - 35: Workforce Management - Real Time Analyst at Clipboard. Blockers: none",
+    "  - 25: Production NPD Launch Analyst at Kitsch LLC. Blockers: Mandatory prior experience in supply chain planning and vendor management required.",
+    "  - 15: Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement) at Immo-Marketer. Blockers: Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
+    "  - 15: Product Manager Mission Autonomy (All Genders) at Skdse. Blockers: Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology"
+   ]
+  },
   {
    "last_run": "2026-11-27T16:33+00:00",
    "report": [

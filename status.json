@@ -1,10 +1,10 @@
 {
- "last_run": "2026-11-27T16:33+00:00",
+ "last_run": "2026-11-27T18:03+00:00",
  "summary": [
   "- remotive: 17 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 9 passed filter",
+  "- himalayas: 20 fetched, 5 passed filter",
   "- workingnomads: 37 fetched, 11 passed filter",
-  "- jobicy: 46 fetched, 41 passed filter",
+  "- jobicy: 45 fetched, 40 passed filter",
   "- remoteok: 100 fetched, 41 passed filter",
   "- greenhouse: 64 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
@@ -13,22 +13,22 @@
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 44 fetched, 23 passed filter",
   "- jooble: 0 fetched, 0 passed filter",
-  "- arbeitnow: 50 fetched, 20 passed filter",
+  "- arbeitnow: 50 fetched, 18 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 37 passed filter",
+  "- weworkremotely: 100 fetched, 35 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
   "  - Dixcover Hub: opened 12 linked pages",
   "- 25 jobs older than 30 days skipped",
-  "- 60 new jobs sent to scoring",
+  "- 24 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 90: MOORE Bishop &#038; Rooks Graduate Trainee Program 2027 at Dixcover Hub listing. Blockers: none",
-  "  - 50: Product Auditor at Moniepoint. Blockers: none",
-  "  - 35: Financial Analyst at Jamf. Blockers: Minimum of 2 years financial planning & analysis experience required (candidate has under 1 year of junior accounting experience)",
-  "  - 35: Field Credit Officer (Ekiti North) at Moniepoint. Blockers: none",
-  "  - 25: Influencer Marketing Internship (Winter/Spring 2027) at FamFluence. Blockers: none"
+  "  - 45: Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin) at Nextcloud. Blockers: none",
+  "  - 35: Workforce Management - Real Time Analyst at Clipboard. Blockers: none",
+  "  - 25: Production NPD Launch Analyst at Kitsch LLC. Blockers: Mandatory prior experience in supply chain planning and vendor management required.",
+  "  - 15: Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement) at Immo-Marketer. Blockers: Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
+  "  - 15: Product Manager Mission Autonomy (All Genders) at Skdse. Blockers: Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology"
  ],
  "report": {
   "sources": [
@@ -42,7 +42,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 9
+    "passed": 5
    },
    {
     "name": "workingnomads",
@@ -53,8 +53,8 @@
    {
     "name": "jobicy",
     "ok": true,
-    "fetched": 46,
-    "passed": 41
+    "fetched": 45,
+    "passed": 40
    },
    {
     "name": "remoteok",
@@ -108,7 +108,7 @@
     "name": "arbeitnow",
     "ok": true,
     "fetched": 50,
-    "passed": 20
+    "passed": 18
    },
    {
     "name": "themuse",
@@ -120,7 +120,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 37
+    "passed": 35
    },
    {
     "name": "web_search_jobs",
@@ -129,8 +129,8 @@
     "passed": 0
    }
   ],
-  "new_to_score": 60,
-  "scored": 60,
+  "new_to_score": 24,
+  "scored": 24,
   "scoring_failed": 0,
   "boards_failed": [
    "Greenhouse Flutterwave: FAILED ('jobs')",
@@ -138,7 +138,7 @@
   ]
  },
  "drafts": {
-  "written": 2,
+  "written": 1,
   "failed": 0,
   "waiting": 0
  },

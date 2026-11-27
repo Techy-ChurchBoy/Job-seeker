@@ -1501,5 +1501,48 @@
    "  - 35: Field Credit Officer (Ekiti North) at Moniepoint. Blockers: none",
    "  - 25: Influencer Marketing Internship (Winter/Spring 2027) at FamFluence. Blockers: none"
   ]
+ },
+ {
+  "last_run": "2026-11-27T18:03+00:00",
+  "report": [
+   "Last run: 2026-11-27T18:03+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 477 postings in total, and 208 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "24 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 62 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 17 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 5 passed filter",
+   "- workingnomads: 37 fetched, 11 passed filter",
+   "- jobicy: 45 fetched, 40 passed filter",
+   "- remoteok: 100 fetched, 41 passed filter",
+   "- greenhouse: 64 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 23 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 18 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 35 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 64 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 12 linked pages",
+   "- 25 jobs older than 30 days skipped",
+   "- 24 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 45: Accountant / Finance Executive Assistant (remote or Stuttgart or Berlin) at Nextcloud. Blockers: none",
+   "  - 35: Workforce Management - Real Time Analyst at Clipboard. Blockers: none",
+   "  - 25: Production NPD Launch Analyst at Kitsch LLC. Blockers: Mandatory prior experience in supply chain planning and vendor management required.",
+   "  - 15: Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement) at Immo-Marketer. Blockers: Required to be based in Germany; required to be a current student (Werkstudent); requires onsite presence in Bochum",
+   "  - 15: Product Manager Mission Autonomy (All Genders) at Skdse. Blockers: Location mismatch (Munich, Germany vs Nigeria/Remote); lack of senior product management experience in defense technology"
+  ]
  }
 ]
