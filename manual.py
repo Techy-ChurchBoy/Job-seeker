@@ -97,7 +97,7 @@ def send(job, body_letter, to):
     msg["Reply-To"] = sender
     msg["Subject"] = JOB_SUBJECT or job.get("subject") or f"Application: {job['title']} at {job['company']}"
     msg.set_content(body)
-    docs.attach(msg, docs.select(job.get("description", ""), job.get("url", "")), NAME)
+    docs.attach(msg, docs.select(job.get("description", ""), job.get("url", "")), name)
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(sender, pw)
