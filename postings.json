@@ -3169,7 +3169,8 @@
    "title": "scoring",
    "company": "scoring",
    "source": "scoring",
-   "drafted": "letters"
+   "drafted": "letters",
+   "sent": "sender"
   },
   "score": 85,
   "reason": "The candidate meets the entry-level experience and bachelor's degree requirements in accounting, and possesses strong relevant skills in month-end close, ledger reconciliations, and advanced Excel for this remote finance analyst role.",
@@ -3178,8 +3179,9 @@
   "title": "Client Finance Analyst I",
   "company": "Precision Medicine Group",
   "source": "Jobicy",
-  "updated": "2026-11-24T17:42:29+00:00",
-  "drafted": true
+  "updated": "2026-11-27T07:09:41+00:00",
+  "drafted": true,
+  "sent": true
  },
  "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998886101": {
   "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998886101",
