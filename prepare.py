@@ -39,7 +39,7 @@ Produce three parts, returned as JSON.
 - Closing paragraph (1 to 2 sentences): express interest in discussing the role, and say the CV is attached.
 - Sign-off: "Yours sincerely," on its own line, then "[FULL NAME]" on the next line, then "[PHONE] | [EMAIL]" on the line after.
 
-Writing rules: use British spelling (organise, programme, analyse). Keep sentences under 25 words. Avoid clichés such as "passionate", "dynamic", "team player", "hit the ground running", "fast-paced", "I believe I would be a great fit". Do not invent facts about the company. If the description says little about the company, focus on the role. Use the job title as written in the posting.
+Writing rules: use British spelling (organise, programme, analyse). Keep sentences under 25 words. Avoid clichés such as "passionate", "dynamic", "team player", "hit the ground running", "fast-paced", "I believe I would be a great fit". Do not invent facts about the company. If the company is not named, do not name one; say "your organisation" instead. If the description says little about the company, focus on the role. Use the job title as written in the posting.
 
 2. "tailored_cv": the CV rewritten in Markdown for this job. Put the most relevant skills and experience first. Keep every fact true to the original CV: reorder and reword only, never add. Use these headings in this order: Profile, Experience, Skills, Education, Additional. Use the placeholders [FULL NAME], [PHONE], [EMAIL], [LOCATION] instead of contact details.
 

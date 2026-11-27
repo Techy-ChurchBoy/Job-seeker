@@ -22,6 +22,8 @@ Return ONLY JSON with these keys:
 - "questions": short phrases for questions the application form asks (for example salary, notice period).
 - "email_subject": the exact subject line the posting asks applicants to use (for example 'using "X" as the subject'), or null.
 - "email_contact": the address applicants must send to, if the posting gives one, or null.
+- "company": the employer's name, only if the posting names it, otherwise null. Never guess a name.
+- "job_title": the job title exactly as the posting writes it, or null.
 Use only the posting. If something is not stated, leave it out or use null.
 
 POSTING:

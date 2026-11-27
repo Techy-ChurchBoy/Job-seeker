@@ -57,6 +57,33 @@ def write_draft(job, score, notes, letter, cv):
     return path
 
 
+FALLBACK_SUBJECT = re.compile(
+    r'"([^"\n]{3,80})"\s*(?:as the|as|for the|in the)?\s*(?:email\s+)?subject'
+    r'|subject[^"\n]{0,40}"([^"\n]{3,80})"', re.I)
+FALLBACK_EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
+
+
+def read_rules(url, text):
+    """What the posting itself asks for: subject, address, company, job title. The AI reads it first,
+    and simple patterns fill in anything the AI could not find. Nothing is guessed: missing means empty."""
+    import hashlib, requirements
+    key = url if url.startswith("http") else "pasted-" + hashlib.sha1(text.encode("utf-8")).hexdigest()[:12]
+    rules = {}
+    try:
+        rules = requirements.extract(key, text) or {}
+    except Exception as e:
+        print(f"Reading the posting's rules with AI failed, using patterns: {str(e)[:120]}")
+    if not rules.get("email_subject"):
+        m = FALLBACK_SUBJECT.search(text)
+        if m:
+            rules["email_subject"] = (m.group(1) or m.group(2) or "").strip()
+    if not rules.get("email_contact"):
+        m = FALLBACK_EMAIL.search(text)
+        if m:
+            rules["email_contact"] = m.group(0)
+    return rules
+
+
 def send(job, body_letter, to):
     name = os.getenv("CANDIDATE_NAME", "").strip()
     phone = os.getenv("CANDIDATE_PHONE", "").strip()
@@ -68,7 +95,7 @@ def send(job, body_letter, to):
     msg["From"] = f"{name} <{sender}>"
     msg["To"] = to
     msg["Reply-To"] = sender
-    msg["Subject"] = JOB_SUBJECT or f"Application: {job['title']} at {job['company']}"
+    msg["Subject"] = JOB_SUBJECT or job.get("subject") or f"Application: {job['title']} at {job['company']}"
     msg.set_content(body)
     docs.attach(msg, docs.select(job.get("description", ""), job.get("url", "")), NAME)
 
@@ -104,9 +131,11 @@ def main():
             write_result("failed", "The page showed almost no text (it may need JavaScript). Paste the description instead.")
             return
 
-    company = JOB_COMPANY or ((urlparse(JOB_URL).hostname or "").replace("www.", "") if JOB_URL else "") or "Pasted posting"
+    rules = read_rules(JOB_URL, text)
+    company = JOB_COMPANY or rules.get("company") or ((urlparse(JOB_URL).hostname or "").replace("www.", "") if JOB_URL else "") or "Organisation not named"
+    title = title or rules.get("job_title") or ""
     job = {"source": "Manual", "title": title or "Job posting", "company": company,
-           "location": "", "url": JOB_URL or f"pasted-{company}", "description": text[:6000]}
+           "location": "", "url": JOB_URL or f"pasted-{company}", "description": text[:6000], "subject": rules.get("email_subject") or ""}
 
     jb.MODEL = jb.pick_model()
     s = jb.score(job)
@@ -125,7 +154,7 @@ def main():
     json.dump(sorted(done), open(pr.PREPARED_PATH, "w"))
     lines.append(f"- Draft saved: {path}")
 
-    to = JOB_EMAIL or sa.contact_email(job["description"])
+    to = JOB_EMAIL or rules.get("email_contact") or sa.contact_email(job["description"])
     applied = sa.load_applied()
     if not to:
         lines.append("- No contact email found. Apply through the posting's link using the draft.")
