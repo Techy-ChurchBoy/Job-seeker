@@ -1285,5 +1285,48 @@
    "  - 15: Projektmanager (m/w/d) MarTech – Content Supply Chain & Automatisierung | Vollzeit | Hybrid at DIU MarTech Solutions GmbH. Blockers: Requires location in Germany/Hamburg with hybrid onsite work, and technical MarTech project management experience that the candidate lacks.",
    "  - 10: Senior Value Engineer - AI & Process Optimization at Celonis. Blockers: Senior-level role; requires right to work in the region (Copenhagen/Finland); lacks senior experience."
   ]
+ },
+ {
+  "last_run": "2026-11-27T01:46+00:00",
+  "report": [
+   "Last run: 2026-11-27T01:46+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 975 postings in total, and 648 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "80 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "10 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 52 postings meet the score rules (40 or more, no blockers). 2 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 4 passed filter",
+   "- workingnomads: 37 fetched, 11 passed filter",
+   "- jobicy: 46 fetched, 40 passed filter",
+   "- remoteok: 100 fetched, 42 passed filter",
+   "- greenhouse: 65 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 43 fetched, 23 passed filter",
+   "- jooble: 498 fetched, 442 passed filter",
+   "- arbeitnow: 50 fetched, 13 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 38 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 65 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 12 linked pages",
+   "- 59 jobs older than 30 days skipped",
+   "- 80 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 75: accounting assistant at MadCap Software Inc. Blockers: none",
+   "  - 75: Accounting Assistant at Virtual Vocations Inc. Blockers: none",
+   "  - 75: Accounting Assistant at Virtual Vocations Inc. Blockers: none",
+   "  - 75: Accounting Assistant at Express Employment Professionals Defunct. Blockers: none",
+   "  - 55: Accounting Assistant at Pearl Law Group. Blockers: requires physical presence in San Francisco, CA without indication of remote work or visa sponsorship"
+  ]
  }
 ]
