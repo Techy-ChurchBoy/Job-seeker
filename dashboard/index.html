@@ -424,6 +424,15 @@ function draftCard(d, handled) {
   const det = el('details'); det.style.marginTop = '8px';
   det.append(el('summary', null, 'Read the cover letter'), el('pre', null, d.letter || 'No letter text saved.'));
   c.append(det);
+  const retry = el('button', 'btn', 'Retry');
+  retry.type = 'button'; retry.style.marginTop = '10px'; retry.style.marginRight = '8px';
+  retry.addEventListener('click', async () => {
+    retry.disabled = true;
+    const r = await outreachPost({ password: savedPassword(), action: 'retry', url: d.url });
+    document.getElementById('dMsg').textContent = r.ok ? r.d.message : (r.d.error || 'Something went wrong.');
+    retry.disabled = false;
+  });
+  c.append(retry);
   const btn = el('button', 'btn', handled ? 'Reopen' : 'Mark handled');
   btn.type = 'button'; btn.style.marginTop = '10px';
   btn.addEventListener('click', () => markDraft(d.url, handled ? 'open' : 'handled', c, btn, handled));

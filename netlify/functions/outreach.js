@@ -44,6 +44,12 @@ exports.handler = async (event) => {
     workflow = "handled.yml";
     inputs = { url, state };
     message = "Saved. The draft moves to its new section after the next refresh, about a minute.";
+  } else if (data.action === "retry") {
+    const url = String(data.url || "").trim();
+    if (!/^https?:\/\/\S+$/.test(url)) return reply(400, { error: "That draft has no link to retry." });
+    workflow = "retry.yml";
+    inputs = { job_url: url };
+    message = "Retry started. The posting is fetched again in full and the result comes to Telegram.";
   } else if (data.action === "boards") {
     workflow = "board-finder.yml";
     inputs = {};
