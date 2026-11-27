@@ -259,7 +259,8 @@
    "title": "scoring",
    "company": "scoring",
    "source": "scoring",
-   "drafted": "letters"
+   "drafted": "letters",
+   "sent": "sender"
   },
   "score": 50,
   "reason": "The role includes routine bookkeeping and financial administration tasks that match the candidate's junior accounting experience, but it heavily emphasizes medical reception and patient support.",
@@ -268,8 +269,9 @@
   "title": "Medical Virtual Assistant - Reception & Bookkeeping",
   "company": "D2B",
   "source": "We Work Remotely",
-  "updated": "2026-11-27T07:36:30+00:00",
-  "drafted": true
+  "updated": "2026-11-27T07:56:32+00:00",
+  "drafted": true,
+  "sent": true
  },
  "https://himalayas.app/companies/wealth-enhancement/jobs/trading-associate-remote-work-option": {
   "url": "https://himalayas.app/companies/wealth-enhancement/jobs/trading-associate-remote-work-option?utm_source=api",
@@ -20558,5 +20560,405 @@
   "title": "Talent &#038; Platform Operations Associate",
   "updated": "2026-11-27T07:35:24+00:00",
   "sent": true
+ },
+ "https://himalayas.app/companies/go-fish-digital/jobs/client-services-intern": {
+  "url": "https://himalayas.app/companies/go-fish-digital/jobs/client-services-intern?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "This is a digital marketing client services internship in the United States, which poorly matches the candidate's accounting, finance, and operations background.",
+  "blockers": "US location requirement (candidate is in Nigeria); role requires current university enrollment",
+  "skill_gaps": "client services; digital marketing; SEO; account management",
+  "title": "Client Services Intern",
+  "company": "Go Fish Digital",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-lubeck-schleswig-holstein-324945": {
+  "url": "https://www.arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-lubeck-schleswig-holstein-324945",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "The job is a graduate operations supervisor role requiring physical presence in Germany and German language context, whereas the candidate is based in Nigeria and seeks remote or Nigerian roles.",
+  "blockers": "Location mismatch (role is in Germany, candidate is in Nigeria); possible language barrier (German posting).",
+  "skill_gaps": "people management; warehouse operations; German language proficiency",
+  "title": "Graduate Operations Supervisor (m/w/d)",
+  "company": "Teampicnic",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-gelsenkirchen-north-rhine-westphalia-360035": {
+  "url": "https://www.arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-gelsenkirchen-north-rhine-westphalia-360035",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "The candidate has a relevant graduate background and process skills, but lacks the required logistics or supply chain degree and is based in Nigeria while the job requires physical presence in Germany.",
+  "blockers": "Required degree in logistics management, supply chain management, or industrial engineering; physical presence/residence in Germany.",
+  "skill_gaps": "logistics experience; warehouse operations; German language skills; team leadership in supply chain",
+  "title": "Graduate Operations Supervisor (m/w/d)",
+  "company": "Teampicnic",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/corporate-web-solutions/jobs/data-science-intern": {
+  "url": "https://himalayas.app/companies/corporate-web-solutions/jobs/data-science-intern?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 20,
+  "reason": "The job requires a degree in Data Science, Computer Science, Mathematics, Statistics, or a related field and programming proficiency in Python, R, or SQL, which the candidate lacks.",
+  "blockers": "Required degree in Data Science, Computer Science, Mathematics, Statistics, or a related field.",
+  "skill_gaps": "Python; R; SQL; machine learning; predictive modeling",
+  "title": "Data Science Intern",
+  "company": "Corporate Web Solutions",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/commonspirit-health/jobs/financial-analyst": {
+  "url": "https://himalayas.app/companies/commonspirit-health/jobs/financial-analyst?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires 2-5+ years of experience and is located in the United States while the candidate is in Nigeria with less than 2 years of experience.",
+  "blockers": "2-5+ years of experience required; US location / work authorization required",
+  "skill_gaps": "SQL queries",
+  "title": "Financial Analyst",
+  "company": "CommonSpirit Health",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/crash-champions/jobs/manager-operations-finance": {
+  "url": "https://himalayas.app/companies/crash-champions/jobs/manager-operations-finance?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The role requires extensive management experience as a Manager, whereas the candidate is an entry-level junior accountant with less than a year of experience.",
+  "blockers": "Requires management experience and a senior finance leadership role that far exceeds the candidate's junior 11-month experience level.",
+  "skill_gaps": "People management; advanced financial modeling; strategic financial planning; executive partnership",
+  "title": "Manager, Operations Finance",
+  "company": "Crash Champions",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/d2l/jobs/senior-project-manager": {
+  "url": "https://himalayas.app/companies/d2l/jobs/senior-project-manager?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This role requires 4+ years of project management experience and is based in the United States, whereas the candidate is an entry-level junior accountant in Nigeria.",
+  "blockers": "4+ years of project/program management experience required; US location requirement",
+  "skill_gaps": "formal project management experience",
+  "title": "Senior Project Manager",
+  "company": "D2L",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/teampicnic/graduate-teamleiter-logistik-hamburg-hamburg-98731": {
+  "url": "https://www.arbeitnow.com/jobs/companies/teampicnic/graduate-teamleiter-logistik-hamburg-hamburg-98731",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is a logistics operations and team leadership role located in Germany requiring on-site presence in Hamburg, which does not align with the candidate's financial background and geographical preference.",
+  "blockers": "Requires physical presence in Hamburg, Germany, while the candidate is based in Nigeria and seeks Nigeria or remote roles.",
+  "skill_gaps": "Logistics management; team leadership in supply chain; German language proficiency",
+  "title": "Graduate Teamleiter Logistik (m/w/d)",
+  "company": "Teampicnic",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-neumunster-schleswig-holstein-229707": {
+  "url": "https://www.arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-neumunster-schleswig-holstein-229707",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical presence and full relocation to Germany for a fulfillment center operations role, whereas the candidate is based in Nigeria and seeks remote or Nigeria-based roles.",
+  "blockers": "Requirement to be resident in/relocate to Germany; job location is Neumünster/Hamburg, Germany.",
+  "skill_gaps": "German language proficiency; logistics and supply chain management background; warehouse operations management",
+  "title": "Graduate Operations Supervisor (m/w/d)",
+  "company": "Teampicnic",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-castrop-rauxel-north-rhine-westphalia-405270": {
+  "url": "https://www.arbeitnow.com/jobs/companies/teampicnic/graduate-operations-supervisor-castrop-rauxel-north-rhine-westphalia-405270",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required degree discipline in logistics or supply chain management and is not located in Germany.",
+  "blockers": "Required degree in logistics, supply chain management, or industrial engineering; physical location in Germany / North Rhine-Westphalia.",
+  "skill_gaps": "logistics management; warehouse operations; German language skills",
+  "title": "Graduate Operations Supervisor (m/w/d)",
+  "company": "Teampicnic",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/enpal/associate-business-engineer-virtual-power-plant-onboarding-berlin-323420": {
+  "url": "https://www.arbeitnow.com/jobs/companies/enpal/associate-business-engineer-virtual-power-plant-onboarding-berlin-323420",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is located in Berlin, Germany, whereas the candidate is based in Nigeria and seeking roles in Nigeria or remote.",
+  "blockers": "Candidate is not resident in Berlin, Germany and the job requires physical presence or local work authorization there.",
+  "skill_gaps": "German energy market regulations; Marktkommunikation (MaKo); AI development",
+  "title": "Associate Business Engineer – Virtual Power Plant Onboarding (m/w/d)",
+  "company": "Enpal",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/steampunk/jobs/senior-business-analyst": {
+  "url": "https://himalayas.app/companies/steampunk/jobs/senior-business-analyst?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level position requiring 5+ years of experience as a Business Analyst and U.S. work authorization/federal clearance, all of which the candidate lacks.",
+  "blockers": "5+ years of experience as a Business Analyst required; Authorized to work for any U.S. employer and Federal Clearance required",
+  "skill_gaps": "Salesforce systems; Agile/Information Technology project management; Jira; Confluence; Certified Scrum Master",
+  "title": "Senior Business Analyst",
+  "company": "Steampunk",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/rippling/jobs/global-payroll-operations-specialist-japan": {
+  "url": "https://himalayas.app/companies/rippling/jobs/global-payroll-operations-specialist-japan?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the required 4+ years of Japanese payroll processing experience, local Japanese payroll software expertise, and resides in Nigeria rather than Japan.",
+  "blockers": "Minimum of 4+ years in a Japanese payroll processing role; resident in Japan",
+  "skill_gaps": "Japanese payroll processing; local Japanese payroll software; Japanese tax compliance and government agency liaison",
+  "title": "Global Payroll Operations Specialist (Japan)",
+  "company": "Rippling",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/rush-enterprises/jobs/sr-data-analytics-eng": {
+  "url": "https://himalayas.app/companies/rush-enterprises/jobs/sr-data-analytics-eng?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate is a junior accountant, while this is a senior-level data engineering role requiring 6 years of experience in data analytics, cloud data warehouses, machine learning, and ETL tools.",
+  "blockers": "6 years of data analytics/programming experience required; Senior-level role",
+  "skill_gaps": "Azure Data Lake; Cloud Data Warehouse; Python; ETL tools; database administration; machine learning",
+  "title": "Sr Data Analytics Eng",
+  "company": "Rush Enterprises",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/orbital-eye/jobs/account-executive-north-america": {
+  "url": "https://himalayas.app/companies/orbital-eye/jobs/account-executive-north-america?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior enterprise B2B sales role requiring 5+ years of full-cycle sales experience, which does not align with the candidate's junior accounting and finance profile.",
+  "blockers": "5+ years of full-cycle B2B sales experience required; location in Canada or United States required",
+  "skill_gaps": "B2B sales; enterprise account management; prospecting; technical sales; pipeline generation",
+  "title": "Account Executive - North America",
+  "company": "Orbital Eye",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/idnow/senior-product-manager-berlin-berlin-munchen-bavaria-244289": {
+  "url": "https://www.arbeitnow.com/jobs/companies/idnow/senior-product-manager-berlin-berlin-munchen-bavaria-244289",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role is a Senior Product Manager position based in Germany, which requires extensive product management experience and does not match the candidate's junior accounting and finance profile.",
+  "blockers": "Senior level role requiring extensive product management experience; location in Germany",
+  "skill_gaps": "Product management; product strategy; roadmap planning; cross-functional product leadership",
+  "title": "Senior Product Manager (f/m/d)",
+  "company": "idnow",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/descope/enterprise-account-executive-dach-munich-berlin-231845": {
+  "url": "https://www.arbeitnow.com/jobs/companies/descope/enterprise-account-executive-dach-munich-berlin-231845",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a senior enterprise sales executive role requiring 7+ years of SaaS sales experience in the DACH region, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+  "blockers": "Requires 7+ years of enterprise SaaS sales experience and location in Munich/Berlin, both of which the candidate lacks.",
+  "skill_gaps": "enterprise sales; DACH market experience; cybersecurity sales; outbound prospecting; revenue quota carrying",
+  "title": "Enterprise Account Executive, DACH",
+  "company": "descope",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/eendigo/jobs/engagement-manager-private-equity-commercial-excellence": {
+  "url": "https://himalayas.app/companies/eendigo/jobs/engagement-manager-private-equity-commercial-excellence?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior management consulting role requiring extensive prior experience, whereas the candidate is an entry-level professional.",
+  "blockers": "Requires an experienced Engagement Manager with senior consulting background, which the candidate lacks.",
+  "skill_gaps": "consulting experience; stakeholder management at C-suite level; business development; strategic consulting frameworks",
+  "title": "Engagement Manager - Private Equity & Commercial Excellence",
+  "company": "Eendigo",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/enpal/lead-expert-corporate-tax-berlin-250905": {
+  "url": "https://www.arbeitnow.com/jobs/companies/enpal/lead-expert-corporate-tax-berlin-250905",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior corporate tax role requiring several years of specific tax experience and German tax law expertise, which the candidate lacks.",
+  "blockers": "Requires multiple years of professional experience in corporate tax and deep knowledge of German tax law, which the candidate does not have; location is Berlin, Germany while the candidate is in Nigeria.",
+  "skill_gaps": "corporate tax; German tax law; HGB and IFRS tax accounting; fluency in German; tax audit management",
+  "title": "Lead Expert Corporate Tax (w/m/d)",
+  "company": "Enpal",
+  "source": "Arbeitnow",
+  "updated": "2026-11-27T07:54:53+00:00"
+ },
+ "https://himalayas.app/companies/unisys/jobs/windows-admin-systems-administration-6260508068": {
+  "url": "https://himalayas.app/companies/unisys/jobs/windows-admin-systems-administration-6260508068?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires 6-8 years of IT systems administration experience and US citizenship, both of which the candidate lacks.",
+  "blockers": "6-8 years of relevant IT experience required; U.S. Citizenship and U.S. residency required.",
+  "skill_gaps": "Windows administration; PowerShell; VMware; Microsoft Server; disaster recovery and cloud environments",
+  "title": "Windows Admin — Systems Administration",
+  "company": "Unisys",
+  "source": "Himalayas",
+  "updated": "2026-11-27T07:54:53+00:00"
  }
 }

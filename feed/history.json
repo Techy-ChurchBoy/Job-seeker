@@ -1414,5 +1414,49 @@
    "  - 45: Virtual Assistant at Growix. Blockers: none",
    "  - 25: Remote Data Entry &#038; Online Registration Assistant at Tickora LLC. Blockers: none"
   ]
+ },
+ {
+  "last_run": "2026-11-27T07:54+00:00",
+  "report": [
+   "Last run: 2026-11-27T07:54+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 474 postings in total, and 227 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "20 postings were scored against your CV this run.",
+   "1 postings could not be scored because the AI service was busy. They will be tried again next run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "1 application emails were sent: Medical Virtual Assistant - Reception & Bookkeeping at D2B.",
+   "Overall, 59 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 11 passed filter",
+   "- workingnomads: 36 fetched, 11 passed filter",
+   "- jobicy: 44 fetched, 39 passed filter",
+   "- remoteok: 100 fetched, 41 passed filter",
+   "- greenhouse: 65 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 43 fetched, 24 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 22 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 44 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 65 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 11 linked pages",
+   "- 26 jobs older than 30 days skipped",
+   "- 22 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 35: Graduate Operations Supervisor (m/w/d) at Teampicnic. Blockers: Required degree in logistics management, supply chain management, or industrial engineering; physical presence/residence in Germany.",
+   "  - 35: Graduate Operations Supervisor (m/w/d) at Teampicnic. Blockers: Location mismatch (role is in Germany, candidate is in Nigeria); possible language barrier (German posting).",
+   "  - 35: Client Services Intern at Go Fish Digital. Blockers: US location requirement (candidate is in Nigeria); role requires current university enrollment",
+   "  - 20: Data Science Intern at Corporate Web Solutions. Blockers: Required degree in Data Science, Computer Science, Mathematics, Statistics, or a related field.",
+   "  - 15: Senior Project Manager at D2L. Blockers: 4+ years of project/program management experience required; US location requirement",
+   "- 1 jobs FAILED scoring. First error: Gemini quota or rate limit hit (429). Daily free quota may be used up."
+  ]
  }
 ]
