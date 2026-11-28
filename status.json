@@ -1,21 +1,21 @@
 {
- "last_run": "2026-11-28T01:26+00:00",
+ "last_run": "2026-11-28T06:15+00:00",
  "summary": [
   "- remotive: 17 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 6 passed filter",
+  "- himalayas: 20 fetched, 9 passed filter",
   "- workingnomads: 37 fetched, 11 passed filter",
   "- jobicy: 44 fetched, 40 passed filter",
-  "- remoteok: 100 fetched, 38 passed filter",
+  "- remoteok: 100 fetched, 40 passed filter",
   "- greenhouse: 64 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
   "- smartyacad: 44 fetched, 23 passed filter",
-  "- jooble: 501 fetched, 437 passed filter",
+  "- jooble: 501 fetched, 436 passed filter",
   "- arbeitnow: 50 fetched, 18 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
-  "- weworkremotely: 100 fetched, 36 passed filter",
+  "- weworkremotely: 100 fetched, 35 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
@@ -24,11 +24,11 @@
   "- 62 jobs older than 30 days skipped",
   "- 80 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 75: Accounting Assistant at Builders Stair Supply, Inc. Blockers: none",
-  "  - 35: Finance Officer at The Duke of Edinburgh's Award. Blockers: Candidate is not resident in the United States.",
-  "  - 35: (Junior) Finance Manager (f/m/d) at Applike Group. Blockers: Requires 2\u20134 years of relevant finance/accounting experience, which exceeds the candidate's 11 months of experience.",
-  "  - 25: Implementation Manager at QBench. Blockers: The position requires specific technical implementation management experience in software deployment which the candidate lacks.",
-  "  - 25: Financial Aid Officer at South College. Blockers: Candidate is not resident in the United States and the job is onsite in Nashville, TN"
+  "  - 55: Staff Accountant at junipersquare. Blockers: Job location is in Canada/India",
+  "  - 55: Finance Research Expert at micro1. Blockers: none",
+  "  - 40: Casual Research Data Handler - 20 hours/week FTC at Times Higher Education. Blockers: none",
+  "  - 20: Staff Accountant at junipersquare. Blockers: Canada location requirement",
+  "  - 20: Accounting Assistant at Marand Builders. Blockers: Required location is Charlotte, NC"
  ],
  "report": {
   "sources": [
@@ -42,7 +42,7 @@
     "name": "himalayas",
     "ok": true,
     "fetched": 20,
-    "passed": 6
+    "passed": 9
    },
    {
     "name": "workingnomads",
@@ -60,7 +60,7 @@
     "name": "remoteok",
     "ok": true,
     "fetched": 100,
-    "passed": 38
+    "passed": 40
    },
    {
     "name": "greenhouse",
@@ -102,7 +102,7 @@
     "name": "jooble",
     "ok": true,
     "fetched": 501,
-    "passed": 437
+    "passed": 436
    },
    {
     "name": "arbeitnow",
@@ -120,7 +120,7 @@
     "name": "weworkremotely",
     "ok": true,
     "fetched": 100,
-    "passed": 36
+    "passed": 35
    },
    {
     "name": "web_search_jobs",
@@ -138,7 +138,7 @@
   ]
  },
  "drafts": {
-  "written": 1,
+  "written": 3,
   "failed": 0,
   "waiting": 0
  },
