@@ -23046,5 +23046,1567 @@
   "company": "Pertemps ERP",
   "source": "Arbeitnow",
   "updated": "2026-11-27T18:48:21+00:00"
+ },
+ "https://jooble.org/jdp/-6833368596771088366": {
+  "url": "https://jooble.org/jdp/-6833368596771088366",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring",
+   "drafted": "letters"
+  },
+  "score": 75,
+  "reason": "The Accounting Assistant role matches the candidate's junior accounting experience and skills, though the location is in the US while the candidate is in Nigeria.",
+  "blockers": "",
+  "skill_gaps": "local US GAAP knowledge; specific industry experience",
+  "title": "Accounting Assistant",
+  "company": "Builders Stair Supply, Inc",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:41+00:00",
+  "drafted": true
+ },
+ "https://arbeitnow.com/jobs/companies/applike-group/junior-finance-manager-hamburg-317263": {
+  "url": "https://www.arbeitnow.com/jobs/companies/applike-group/junior-finance-manager-hamburg-317263",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 35,
+  "reason": "The role requires 2 to 4 years of relevant finance and accounting experience, whereas the candidate only has 11 months of junior-level experience.",
+  "blockers": "Requires 2–4 years of relevant finance/accounting experience, which exceeds the candidate's 11 months of experience.",
+  "skill_gaps": "HGB & IFRS closing; tax compliance experience; foreign entity setup experience",
+  "title": "(Junior) Finance Manager (f/m/d)",
+  "company": "Applike Group",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:29+00:00"
+ },
+ "https://jooble.org/jdp/-5019276462202308790": {
+  "url": "https://jooble.org/jdp/-5019276462202308790",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate is based in Nigeria and ineligible for a role located in the United States without sponsorship.",
+  "blockers": "Required to be resident in the United States",
+  "skill_gaps": "none",
+  "title": "Finance Officer",
+  "company": "The Duke of Edinburgh's Award",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://himalayas.app/companies/qbench/jobs/implementation-manager": {
+  "url": "https://himalayas.app/companies/qbench/jobs/implementation-manager?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "The role is a mid-to-senior level software implementation and account management position requiring technical LIMS expertise, whereas the candidate is an entry-level accounting professional.",
+  "blockers": "The position requires specific technical implementation management experience in software deployment which the candidate lacks.",
+  "skill_gaps": "LIMS software knowledge; technical customer support; software implementation management; client retention management",
+  "title": "Implementation Manager",
+  "company": "QBench",
+  "source": "Himalayas",
+  "updated": "2026-11-28T01:26:29+00:00"
+ },
+ "https://jooble.org/jdp/-2926084366285273447": {
+  "url": "https://jooble.org/jdp/-2926084366285273447",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "The job is located in the US and the candidate is in Nigeria, representing a strict location mismatch.",
+  "blockers": "Candidate is not resident in the United States and the job is onsite in Nashville, TN",
+  "skill_gaps": "Financial aid administration; US financial aid regulations",
+  "title": "Financial Aid Officer",
+  "company": "South College",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:29+00:00"
+ },
+ "https://jooble.org/jdp/-6227755702911421383": {
+  "url": "https://jooble.org/jdp/-6227755702911421383",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 20,
+  "reason": "The job requires US tax preparation experience in Elmhurst, IL, and the candidate is based in Nigeria without tax-specific experience.",
+  "blockers": "Required location (Elmhurst, IL) and tax return experience the candidate lacks.",
+  "skill_gaps": "business tax returns; sales and use tax",
+  "title": "Tax Accountant",
+  "company": "CFS",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:29+00:00"
+ },
+ "https://jooble.org/jdp/2545383764922208526": {
+  "url": "https://jooble.org/jdp/2545383764922208526",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 20,
+  "reason": "The job is located in Presque Isle, ME, and the candidate is based in Nigeria, failing the geographic eligibility requirement.",
+  "blockers": "Candidate is not resident in the required location (Presque Isle, ME, USA).",
+  "skill_gaps": "local US accounting and tax knowledge",
+  "title": "Accounting Assistant",
+  "company": "Tempo Employment Services",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/361293975524337423": {
+  "url": "https://jooble.org/jdp/361293975524337423",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 20,
+  "reason": "The job is located in the United States and requires local physical presence at a lakeside office, which violates the candidate's geographic restriction to Nigeria or remote roles.",
+  "blockers": "Requires physical presence in Lake Ozark, MO, USA, but candidate is resident in Nigeria.",
+  "skill_gaps": "part-time availability; local US accounting practices",
+  "title": "Accounting Assistant",
+  "company": "Big Thunder Marine",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/-3772406526921592934": {
+  "url": "https://jooble.org/jdp/-3772406526921592934",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 20,
+  "reason": "The job requires an experienced professional for a role in New York, NY, whereas the candidate is a junior professional based in Nigeria seeking remote or local opportunities.",
+  "blockers": "Requires an experienced professional and location in New York, NY; candidate is a junior based in Nigeria.",
+  "skill_gaps": "extensive professional experience; international remote work authorization",
+  "title": "Accounting & Finance Specialist",
+  "company": "SILVERCAST Media",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/flix/senior-project-process-manager-hr-operations-berlin-162355": {
+  "url": "https://www.arbeitnow.com/jobs/companies/flix/senior-project-process-manager-hr-operations-berlin-162355",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This is a senior-level role requiring extensive HR operations project management experience in Germany, which completely mismatches the candidate's entry-level profile and geographical location.",
+  "blockers": "Senior-level role requiring extensive HR operations experience; located in Berlin, Germany (candidate is in Nigeria); candidate lacks senior project management background.",
+  "skill_gaps": "HR operations experience; project management; change management; compliance frameworks; stakeholder management",
+  "title": "Senior Project & Process Manager – HR Operations (m/f/d)",
+  "company": "Flix",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/liqid-lig/revenue-operations-manager-hubspot-berlin-138280": {
+  "url": "https://www.arbeitnow.com/jobs/companies/liqid-lig/revenue-operations-manager-hubspot-berlin-138280",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is located in Berlin and requires at least 3 years of hands-on HubSpot or Salesforce experience, neither of which the candidate possesses.",
+  "blockers": "Requires resident in Berlin (or Germany); requires at least 3 years of HubSpot or Salesforce experience.",
+  "skill_gaps": "HubSpot; Salesforce; API integration; Zapier; Make; CRM data models",
+  "title": "Revenue Operations Manager (HubSpot)",
+  "company": "Liqid Lig",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/oscilar-sr-data-analyst-fraud-aml": {
+  "url": "https://weworkremotely.com/remote-jobs/oscilar-sr-data-analyst-fraud-aml",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate is ineligible due to lacking the required 4+ years of experience as a data analyst in fraud prevention or anti-money laundering.",
+  "blockers": "4+ years of experience as a data analyst in fraud/AML required (candidate has less than 1 year total experience)",
+  "skill_gaps": "Python; SQL; machine learning",
+  "title": "Sr. Data Analyst - Fraud/AML",
+  "company": "Oscilar",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/my-humancapital-gmbh/junior-controller-munich-198103": {
+  "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/junior-controller-munich-198103",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires fluent German language skills, which the candidate does not possess, and is located on-site in Munich.",
+  "blockers": "Fluent German language proficiency required; on-site location in Munich, Germany.",
+  "skill_gaps": "German language skills",
+  "title": "(Junior) Controller (m/w/d)",
+  "company": "MY Humancapital GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/913330095706281578": {
+  "url": "https://jooble.org/jdp/913330095706281578",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is located in Albany, NY, whereas the candidate is based in Nigeria and requires remote work or relocation.",
+  "blockers": "Location requirement: must be based in Albany, NY.",
+  "skill_gaps": "child and adult protective services financial systems",
+  "title": "Staff Accountant",
+  "company": "Youth Research Inc.",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/4231387899218436283": {
+  "url": "https://jooble.org/jdp/4231387899218436283",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical presence in Boston, MA, which violates the candidate's location constraints of Nigeria or remote.",
+  "blockers": "Requires physical presence in Boston, MA, whereas the candidate is based in Nigeria.",
+  "skill_gaps": "tax compliance; US tax experience",
+  "title": "Tax Accountant",
+  "company": "CFS",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/6053520615586090029": {
+  "url": "https://jooble.org/jdp/6053520615586090029",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is located in the United States, but the candidate is based in Nigeria and there is no indication of visa sponsorship or remote eligibility for this location-dependent role.",
+  "blockers": "Requires presence in the United States / international location eligibility",
+  "skill_gaps": "US financial aid regulations; student financial services",
+  "title": "Financial Aid Officer",
+  "company": "Kaplan",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/7955446376992295407": {
+  "url": "https://jooble.org/jdp/7955446376992295407",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is located in Lawrenceville, GA, whereas the candidate is based in Nigeria and requires remote work or relocation, and the role focuses on sales and collections rather than accounting.",
+  "blockers": "Location requirement in the USA (Lawrenceville, GA)",
+  "skill_gaps": "sales; collections; customer service; loan sales",
+  "title": "Assistant Manager",
+  "company": "OneMain Financial",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/2585646575908242471": {
+  "url": "https://jooble.org/jdp/2585646575908242471",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is located in Verona, WI, United States, and the candidate is based in Nigeria, creating a geographical and relocation blocker.",
+  "blockers": "Candidate is not resident in the United States / Verona, WI",
+  "skill_gaps": "US tax law; taxation experience",
+  "title": "Tax Accountant",
+  "company": "CFS",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/3056285403929023855": {
+  "url": "https://jooble.org/jdp/3056285403929023855",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks U.S. tax compliance experience, professional tax credentials, and the legal residency required to work in Indianapolis, IN.",
+  "blockers": "Requires U.S. residency / work authorization and professional tax accounting experience.",
+  "skill_gaps": "tax compliance; partnership taxation; U.S. tax laws",
+  "title": "Tax Accountant",
+  "company": "CFS",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/-1750906957094620961": {
+  "url": "https://jooble.org/jdp/-1750906957094620961",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires the candidate to be currently enrolled in a Bachelor's degree program graduating between August 2027 and June 2028 and to be located in New Jersey, whereas the candidate graduated in 2025 and is based in Nigeria.",
+  "blockers": "Current enrollment in a degree program graduating 2027-2028; residency in New Jersey, United States.",
+  "skill_gaps": "customer service; operations management",
+  "title": "Summer 2027 Management Trainee Intern- Central NJ",
+  "company": "Enterprise",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/3797230919984249081": {
+  "url": "https://jooble.org/jdp/3797230919984249081",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical presence in Virginia Beach, VA, United States, whereas the candidate is based in Nigeria and requires visa sponsorship/remote work.",
+  "blockers": "Requires physical location in Virginia Beach, VA, US",
+  "skill_gaps": "none",
+  "title": "Staff Accountant",
+  "company": "KForce",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/1411357153908507828": {
+  "url": "https://jooble.org/jdp/1411357153908507828",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job is located in the Philippines and requires relocation or local residency, whereas the candidate is based in Nigeria.",
+  "blockers": "Requirement to be resident in the Philippines",
+  "skill_gaps": "training design; coaching; operations training",
+  "title": "Process & Comm Training Analyst",
+  "company": "NTT DATA, Inc.",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/3634485217077279613": {
+  "url": "https://jooble.org/jdp/3634485217077279613",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires an experienced tax accountant focused on U.S. federal, state, and local tax returns, which does not align with the candidate's Nigerian profile and entry-level experience.",
+  "blockers": "U.S. tax preparation experience required; Richmond, VA location with no remote option specified",
+  "skill_gaps": "individual and corporate tax return preparation; U.S. tax compliance",
+  "title": "Tax Accountant",
+  "company": "LHH",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/6621113878900684918": {
+  "url": "https://jooble.org/jdp/6621113878900684918",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical presence in Greenwich, CT, USA, while the candidate is located in Nigeria and seeking Nigeria or remote roles.",
+  "blockers": "Location requirement: must be resident in or near Greenwich, CT, USA.",
+  "skill_gaps": "tax accounting",
+  "title": "Tax Accountant",
+  "company": "Atlantic Group",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/6976503913164579811": {
+  "url": "https://jooble.org/jdp/6976503913164579811",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical presence in Los Angeles, CA, whereas the candidate is based in Nigeria and seeking Nigeria or remote roles.",
+  "blockers": "Requires physical presence in Los Angeles, CA / US work authorization",
+  "skill_gaps": "US payroll processing; US GAAP",
+  "title": "Payroll Staff Accountant",
+  "company": "Robert Half",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/11173204974712930": {
+  "url": "https://jooble.org/jdp/11173204974712930",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires physical presence in Tallahassee, FL, while the candidate is based in Nigeria and seeking roles in Nigeria or remote.",
+  "blockers": "Requires local presence in Tallahassee, FL, which the candidate lacks.",
+  "skill_gaps": "dealership activities",
+  "title": "Accounting Assistant",
+  "company": "Bish's RV, Inc.",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://himalayas.app/companies/smadex/jobs/senior-manager-programmatic-strategy-ad-operations-gcr": {
+  "url": "https://himalayas.app/companies/smadex/jobs/senior-manager-programmatic-strategy-ad-operations-gcr?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior management role in advertising operations requiring extensive regional leadership experience, which completely misaligns with the candidate's entry-level financial background.",
+  "blockers": "Senior-level management role requiring years of experience in programmatic strategy and ad operations that the candidate does not possess.",
+  "skill_gaps": "programmatic strategy; ad operations; GCR market knowledge; team leadership at scale; campaign optimization",
+  "title": "Senior Manager - Programmatic Strategy & Ad Operations (GCR)",
+  "company": "Smadex",
+  "source": "Himalayas",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://himalayas.app/companies/technosylva/jobs/senior-product-manager": {
+  "url": "https://himalayas.app/companies/technosylva/jobs/senior-product-manager?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level product management role requiring extensive experience in a completely different domain, whereas the candidate is an entry-level accountant.",
+  "blockers": "Senior-level role requiring years of product management experience.",
+  "skill_gaps": "product management; wildfire science; software product ownership; engineering leadership",
+  "title": "Senior Product Manager",
+  "company": "Technosylva",
+  "source": "Himalayas",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://himalayas.app/companies/igsrs/jobs/vulnerability-management-analyst-warsaw-full-remote": {
+  "url": "https://himalayas.app/companies/igsrs/jobs/vulnerability-management-analyst-warsaw-full-remote?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a specialized technical cybersecurity role requiring a degree in Computer Science, IT, or Cyber Security, which does not align with the candidate's accounting background and skill set.",
+  "blockers": "Required bachelor's degree in Cyber Security, Information Technology, Computer Science, or equivalent technical experience.",
+  "skill_gaps": "vulnerability management; threat intelligence; cyber security operations; CVE, CVSS, EPSS; SIEM and EDR platforms; OSINT",
+  "title": "Vulnerability Management Analyst | Warsaw (Full Remote)",
+  "company": "Intertek",
+  "source": "Himalayas",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://himalayas.app/companies/genus-plc/jobs/principal-product-lead": {
+  "url": "https://himalayas.app/companies/genus-plc/jobs/principal-product-lead?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level leadership role requiring extensive product experience, making it a poor fit for an entry-level candidate.",
+  "blockers": "Principal-level role requiring extensive product leadership experience which the candidate lacks.",
+  "skill_gaps": "product leadership; commercial product strategy; team management; enterprise product management",
+  "title": "Principal Product Lead",
+  "company": "Genus PLC",
+  "source": "Himalayas",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudent-filialmanagement-store-operations-rostock-188774": {
+  "url": "https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudent-filialmanagement-store-operations-rostock-188774",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires physical presence in Rostock, Germany, and German language fluency, neither of which the candidate possesses.",
+  "blockers": "Requires physical location in Rostock, Germany, and German language proficiency",
+  "skill_gaps": "German language; retail store management; on-site operations",
+  "title": "Werkstudent (m/w/d) Filialmanagement / Store Operations",
+  "company": "Gusti Leder GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/bbht-beratungsgesellschaft-mbh-co-kg/remote-senior-it-business-analyst-munster-71228": {
+  "url": "https://www.arbeitnow.com/jobs/companies/bbht-beratungsgesellschaft-mbh-co-kg/remote-senior-it-business-analyst-munster-71228",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate is a junior accountant with less than a year of experience, whereas this role requires at least five years of experience in IT consulting for banks and insurance, plus fluent German.",
+  "blockers": "Requires 5+ years experience in IT consulting and fluent German (C1), which the candidate lacks.",
+  "skill_gaps": "IT consulting experience; software development project experience; fluent German language",
+  "title": "Senior IT Business Analyst (w/m/d)",
+  "company": "BBHT Beratungsgesellschaft mbH & Co. KG",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/bbht-beratungsgesellschaft-mbh-co-kg/remote-senior-business-consultant-it-business-analyst-banking-insurance-munster-355936": {
+  "url": "https://www.arbeitnow.com/jobs/companies/bbht-beratungsgesellschaft-mbh-co-kg/remote-senior-business-consultant-it-business-analyst-banking-insurance-munster-355936",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role requires at least five years of experience in IT consulting and fluent German at C1 level, both of which the candidate lacks.",
+  "blockers": "Requires 5+ years of experience in IT consulting and fluent German (C1 level), which the candidate does not have.",
+  "skill_gaps": "IT consulting; IT business analysis; IT project management; banking & insurance domain knowledge; fluent German (C1)",
+  "title": "Senior Business Consultant / IT Business Analyst - Banking & Insurance (w/m/d)",
+  "company": "BBHT Beratungsgesellschaft mbH & Co. KG",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/n8n/group-product-manager-ai-experience-germany-117123": {
+  "url": "https://www.arbeitnow.com/jobs/companies/n8n/group-product-manager-ai-experience-germany-117123",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior leadership role (Group Product Manager) requiring extensive product management experience, which is completely misaligned with the candidate's profile as an entry-level junior accountant.",
+  "blockers": "Senior leadership role requiring extensive product management experience; location in Germany without remote option matching candidate location.",
+  "skill_gaps": "people management; product strategy; AI orchestration; software product management",
+  "title": "Group Product Manager - AI Experience",
+  "company": "N8N",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/roompricegenie/remote-sr-product-manager-43710": {
+  "url": "https://www.arbeitnow.com/jobs/companies/roompricegenie/remote-sr-product-manager-43710",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires a senior-level product manager with extensive experience, which far exceeds the candidate's junior profile.",
+  "blockers": "Requires senior-level product management experience.",
+  "skill_gaps": "Senior product management strategy; engineering team leadership; SaaS product ownership",
+  "title": "Remote Sr. Product Manager (m/f/d)",
+  "company": "Roompricegenie",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/stealthrocketrystartup/project-manager-propulsion-germany-432284": {
+  "url": "https://www.arbeitnow.com/jobs/companies/stealthrocketrystartup/project-manager-propulsion-germany-432284",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior engineering project management role in the aerospace/rocket industry requiring proven technical experience in defence or space, which does not match the candidate's finance and accounting background.",
+  "blockers": "Mandatory prior experience in a named industry or role (defence, space, rocketry, missile programmes, aerospace engineering project management) that the profile does not show.",
+  "skill_gaps": "aerospace engineering background; propulsion project management experience; technical domain expertise in rocketry and hardware manufacturing",
+  "title": "Project Manager - Propulsion",
+  "company": "Stealthrocketrystartup",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/liqid-lig/product-builder-intern-growth-jan-mar-2027-berlin-401980": {
+  "url": "https://www.arbeitnow.com/jobs/companies/liqid-lig/product-builder-intern-growth-jan-mar-2027-berlin-401980",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the required computer science background, JavaScript/TypeScript coding skills, and fluency in German for this Berlin-based internship.",
+  "blockers": "Required fluency in German; required background in Computer Science, Business Informatics, Engineering, or Economics; required JavaScript/TypeScript and React coding skills.",
+  "skill_gaps": "JavaScript; TypeScript; React; Next.js; Sanity CMS; Git; technical SEO; German language",
+  "title": "Product Builder Intern - Growth (Jan-Mar 2027)",
+  "company": "Liqid Lig",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/nipponexpress/senior-manager-operations-bedburg-97134": {
+  "url": "https://www.arbeitnow.com/jobs/companies/nipponexpress/senior-manager-operations-bedburg-97134",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior management role requiring 5+ years of leadership experience and a logistics background, which completely misaligns with the candidate's entry-level profile and lack of logistics industry experience.",
+  "blockers": "5+ years of experience required in a similar position; logistics management degree or equivalent required; senior management role",
+  "skill_gaps": "logistics management; team leadership; labor law knowledge; quality assurance systems like Six Sigma; German market experience",
+  "title": "Senior Manager Operations (m/w/d)",
+  "company": "Nipponexpress",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/outmarket-ai-head-of-product-marketing": {
+  "url": "https://weworkremotely.com/remote-jobs/outmarket-ai-head-of-product-marketing",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior marketing role requiring extensive product marketing experience in the US tech sector, which completely misaligns with the candidate's finance and accounting background.",
+  "blockers": "Requires specific product marketing experience and US residency/work authorization, which the candidate does not have.",
+  "skill_gaps": "product marketing; market positioning; competitive intelligence; go-to-market strategy; sales enablement",
+  "title": "Head of Product Marketing",
+  "company": "Outmarket AI",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/atlanticvc/finance-manager-finance-data-automation-gn-at-atlantic-berlin-65088": {
+  "url": "https://www.arbeitnow.com/jobs/companies/atlanticvc/finance-manager-finance-data-automation-gn-at-atlantic-berlin-65088",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role is a mid-to-senior level Finance Manager position in venture capital requiring high-level experience in fund finance, PE, Big Four audit, or controlling, which far exceeds the candidate's junior profile.",
+  "blockers": "Requires prior experience in fund finance at a VC/PE firm, fund administrator, Big Four audit/advisory, or controlling, which the candidate lacks; senior-level role.",
+  "skill_gaps": "fund finance; VC operations; regulatory compliance; KYC/AML; fund accounting",
+  "title": "Finance Manager (Finance, Data & Automation) (gn) @ Atlantic, Berlin",
+  "company": "atlantic.vc",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/my-humancapital-gmbh/referent-finance-und-risikomanagement-teilzeit-munich-241002": {
+  "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/referent-finance-und-risikomanagement-teilzeit-munich-241002",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The candidate lacks the required 3 to 5 years of professional experience, specific German financial/regulatory experience (HGB), and fluent German language skills for this Munich-based role.",
+  "blockers": "3 to 5 years of specific professional experience required; verhandlungssichere Deutschkenntnisse (fluent German) required; location in Munich with on-site presence required.",
+  "skill_gaps": "German language proficiency; HGB accounting standards; regulatory reporting in Germany; KYC and anti-money laundering analysis",
+  "title": "Referent Finance und Risikomanagement (m/w/d) Teilzeit",
+  "company": "MY Humancapital GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/6502019569151319133": {
+  "url": "https://jooble.org/jdp/6502019569151319133",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level role based in New York requiring US healthcare industry experience, which does not match the candidate's junior experience level, location, or background.",
+  "blockers": "Requires senior experience level and is located in New York, US, while the candidate is an entry-level professional based in Nigeria.",
+  "skill_gaps": "healthcare revenue cycle; US healthcare finance; patient financial services",
+  "title": "Senior Revenue Accountant",
+  "company": "Mount Sinai Health System",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:30+00:00"
+ },
+ "https://jooble.org/jdp/8700843751653011535": {
+  "url": "https://jooble.org/jdp/8700843751653011535",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires an active EA, CPA, or Practicing Attorney certification, which the candidate lacks.",
+  "blockers": "Required professional credential (EA, CPA, or Practicing Attorney)",
+  "skill_gaps": "US tax law knowledge; CPA or EA certification",
+  "title": "Tax Expert - Expert Center",
+  "company": "Intuit",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-1807636634121509610": {
+  "url": "https://jooble.org/jdp/-1807636634121509610",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires physical presence in the US and focuses on US public tax accounting, whereas the candidate is based in Nigeria and has no US tax experience.",
+  "blockers": "Candidate is not located in the US and lacks eligibility to work there; US tax accounting experience required.",
+  "skill_gaps": "US tax law; public accounting experience; tax preparation software",
+  "title": "Tax Staff Accountant",
+  "company": "CFS",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-2322881803933881160": {
+  "url": "https://jooble.org/jdp/-2322881803933881160",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a retail management and operations internship in Mechanicsburg, PA, which requires physical presence in the US and does not utilize the candidate's accounting, finance, or analytical skill set.",
+  "blockers": "The candidate is resident in Nigeria and lacks US work authorization for this on-site US position.",
+  "skill_gaps": "customer service; retail management; sales",
+  "title": "Spring 2027 Management Trainee Intern - Mechanicsburg",
+  "company": "Enterprise",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-8370438895115583645": {
+  "url": "https://jooble.org/jdp/-8370438895115583645",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a senior-level role requiring extensive experience, which the candidate lacks as a junior accountant.",
+  "blockers": "Senior-level role requiring experience beyond the candidate's 11 months of junior-level experience.",
+  "skill_gaps": "Senior accounting experience; M&A accounting; advanced financial leadership",
+  "title": "Senior Accountant - Remote",
+  "company": "Robert Half",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-3061961575074117230": {
+  "url": "https://jooble.org/jdp/-3061961575074117230",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires physical presence in Delhi, LA, United States, but the candidate is based in Nigeria.",
+  "blockers": "Candidate is not located in the United States and lacks US tax preparation experience.",
+  "skill_gaps": "US tax law; tax preparation",
+  "title": "Tax Accountant",
+  "company": "Staffmark Group",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/4018585163875658845": {
+  "url": "https://jooble.org/jdp/4018585163875658845",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The World Bank Finance Officer (GF grade) role typically requires extensive professional experience (often 5+ years) and advanced international financial management qualifications that exceed the candidate's entry-level profile, alongside being based in Washington DC.",
+  "blockers": "Requires extensive professional experience beyond the candidate's junior 11-month background; international organization grade level expectations.",
+  "skill_gaps": "multilateral development finance experience; international financial institution standards; advanced treasury management",
+  "title": "Finance Officer",
+  "company": "The World Bank",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/2976008495662431247": {
+  "url": "https://jooble.org/jdp/2976008495662431247",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires physical presence in New York, NY, which violates the candidate's location constraints of Nigeria or remote.",
+  "blockers": "Candidate must be located in or willing to work from New York, NY",
+  "skill_gaps": "indirect tax compliance; tax workpapers",
+  "title": "Indirect Tax Accountant",
+  "company": "Abacus Group, LLC",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/3211383840086598752": {
+  "url": "https://jooble.org/jdp/3211383840086598752",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires US residency and location in Plano, TX, which the candidate does not meet.",
+  "blockers": "Must be located in Plano, TX / US resident",
+  "skill_gaps": "US tax knowledge",
+  "title": "Client Tax Accountant",
+  "company": "Fisher Investments",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://himalayas.app/companies/twilio/jobs/staff-data-engineer": {
+  "url": "https://himalayas.app/companies/twilio/jobs/staff-data-engineer?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires 8+ years of data engineering experience and technical leadership, which far exceeds the candidate's junior accounting and finance background.",
+  "blockers": "Requires 8+ years of professional data engineering experience.",
+  "skill_gaps": "Python; Scala; Java; AWS cloud architecture; Spark; dbt; data engineering leadership",
+  "title": "Staff Data Engineer",
+  "company": "Twilio",
+  "source": "Himalayas",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/mistralai/account-executive-digital-natives-munich-28537": {
+  "url": "https://www.arbeitnow.com/jobs/companies/mistralai/account-executive-digital-natives-munich-28537",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires 5 to 8 years of tech sales experience, which completely mismatches the candidate's entry-level accounting background.",
+  "blockers": "Requires 5 to 8 years of sales experience, whereas the candidate is entry-level.",
+  "skill_gaps": "enterprise software sales; account management; outbound prospecting; DACH market knowledge",
+  "title": "Account Executive, Digital Natives",
+  "company": "Mistral.ai",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/6098559390574959900": {
+  "url": "https://jooble.org/jdp/6098559390574959900",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a commercial sales role in the banking sector located in the US, which does not match the candidate's finance, accounting, and reporting skill set or location preferences.",
+  "blockers": "Candidate is not resident in the US and the job requires sales experience in equipment finance.",
+  "skill_gaps": "sales; equipment finance; client relationship management",
+  "title": "Equipment Finance Sales Officer",
+  "company": "Commerce Bank",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-7518828449249278759": {
+  "url": "https://jooble.org/jdp/-7518828449249278759",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires the candidate to be enrolled as a current college student graduating by December 2027 (rising senior) in Salt Lake City, whereas the candidate graduated in 2025 and is based in Nigeria.",
+  "blockers": "Must be a current college student (rising senior) graduating by December 2027; Must be resident in or able to work in Salt Lake City, UT",
+  "skill_gaps": "customer service; sales; branch operations",
+  "title": "Management Trainee Spring Internship - Salt Lake City",
+  "company": "Enterprise",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-6565014039492816736": {
+  "url": "https://jooble.org/jdp/-6565014039492816736",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate is based in Nigeria and lacks senior management experience for an Assistant Director role in the UK.",
+  "blockers": "Assistant Director role requires senior-level experience the candidate does not have; job is located in the United Kingdom while candidate is in Nigeria.",
+  "skill_gaps": "partner program management; alliance leadership; senior executive stakeholder management",
+  "title": "Snowflake Alliance Partner Program Assistant Director",
+  "company": "Ernst & Young",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/8957865624233388224": {
+  "url": "https://jooble.org/jdp/8957865624233388224",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a C-suite Board role requiring extensive executive leadership experience, which far exceeds the candidate's junior profile.",
+  "blockers": "Senior executive / Board level experience required",
+  "skill_gaps": "executive leadership; board-level strategic management; commercial leadership",
+  "title": "Chief Finance and Commercial Officer",
+  "company": "GatenbySanderson",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/6424278886238746403": {
+  "url": "https://jooble.org/jdp/6424278886238746403",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a C-level executive role requiring extensive leadership experience that far exceeds the candidate's entry-level background.",
+  "blockers": "Executive level role requiring years of senior leadership experience missing from the profile",
+  "skill_gaps": "CFO experience; executive leadership; healthcare financial management",
+  "title": "Chief Finance Officer",
+  "company": "Behavioral Health Response",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/8622527960915351190": {
+  "url": "https://jooble.org/jdp/8622527960915351190",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate does not possess the mandatory active CPA, EA, or Attorney credential required for the tax accountant role.",
+  "blockers": "Must possess active unrestricted credential: EA, CPA, or Practicing Attorney",
+  "skill_gaps": "tax preparation; US tax law knowledge",
+  "title": "Tax Accountant - Remote",
+  "company": "Intuit Careers",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/bbht-beratungsgesellschaft-mbh-co-kg/remote-senior-meldewesenspezialistin-it-business-analyst-munster-27459": {
+  "url": "https://www.arbeitnow.com/jobs/companies/bbht-beratungsgesellschaft-mbh-co-kg/remote-senior-meldewesenspezialistin-it-business-analyst-munster-27459",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate lacks the required 5+ years of experience as an IT Business Analyst in the banking sector and does not speak fluent German (C1), which is mandatory for the role.",
+  "blockers": "5+ years experience as an IT Business Analyst; fluent German language skills (min. C1)",
+  "skill_gaps": "IT business analysis; regulatory reporting (Meldewesen); German language proficiency",
+  "title": "Senior Meldewesenspezialist:in / IT Business Analyst (w/m/d)",
+  "company": "BBHT Beratungsgesellschaft mbH & Co. KG",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/advanced-engineering-gmbh/machine-learning-engineer-models-in-production-munich-57266": {
+  "url": "https://www.arbeitnow.com/jobs/companies/advanced-engineering-gmbh/machine-learning-engineer-models-in-production-munich-57266",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires advanced Machine Learning engineering, MLOps, and Python software development skills which are completely outside the candidate's accounting and finance background.",
+  "blockers": "The candidate lacks a technical degree in machine learning/computer science and does not possess programming or machine learning engineering experience required for this role.",
+  "skill_gaps": "Python; machine learning models; MLOps tools; cloud application development; automotive data processing",
+  "title": "Machine Learning Engineer – Models in Production (m/f/d)",
+  "company": "advanced engineering GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/mint-solutions/chief-technology-officer-munich-212648": {
+  "url": "https://www.arbeitnow.com/jobs/companies/mint-solutions/chief-technology-officer-munich-212648",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "This is a senior executive Chief Technology Officer role requiring extensive software architecture and engineering management experience, which does not align with the candidate's entry-level accounting and finance background.",
+  "blockers": "Requires senior technical leadership experience and software engineering expertise (CTO role), which the candidate lacks.",
+  "skill_gaps": "Software architecture; Flutter; Dart; C++; cloud-infrastructure management; team leadership in software engineering",
+  "title": "Chief Technology Officer (m/w/d)",
+  "company": "MINT Solutions",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-5272816161996414690": {
+  "url": "https://jooble.org/jdp/-5272816161996414690",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires US state residency and eligibility for California state employment, which the candidate does not meet.",
+  "blockers": "Requires US state residency and California state employment eligibility",
+  "skill_gaps": "US government accounting standards; state civil service eligibility",
+  "title": "ACCOUNTANT TRAINEE",
+  "company": "California State Jobs",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/4672691700957546062": {
+  "url": "https://jooble.org/jdp/4672691700957546062",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires a Senior Vice President level of experience which far exceeds the candidate's junior profile.",
+  "blockers": "Requires senior-level executive experience (Senior Vice President) which the candidate lacks.",
+  "skill_gaps": "equipment finance; executive leadership; commercial banking",
+  "title": "Senior Vice President Equipment Finance Officer",
+  "company": "KeyBank",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-7637522099080564710": {
+  "url": "https://jooble.org/jdp/-7637522099080564710",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires US work authorization and location in Sonora, CA, which violates the candidate's residency constraint.",
+  "blockers": "Candidate is not located in the United States and lacks US work authorization for this onsite role.",
+  "skill_gaps": "US healthcare finance regulations; local hospital system experience",
+  "title": "Finance Officer",
+  "company": "Adventist Health",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-309701879187705725": {
+  "url": "https://jooble.org/jdp/-309701879187705725",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The role requires a board certified physician with Graduate Medical Education leadership experience, which completely mismatches the candidate's finance and accounting profile.",
+  "blockers": "Requires a board-certified physician with medical training and leadership experience.",
+  "skill_gaps": "clinical medicine; medical education leadership; physician board certification",
+  "title": "Administrative/CEO Physician",
+  "company": "AdventHealth West FL Division",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/1417065357445568192": {
+  "url": "https://jooble.org/jdp/1417065357445568192",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate is an accounting graduate, whereas this job requires a Nurse Practitioner or Physician Assistant degree and clinical licensure.",
+  "blockers": "Requires a Nurse Practitioner or Physician Assistant degree and licensure",
+  "skill_gaps": "clinical care; nursing; pediatric hematology/oncology",
+  "title": "Inpatient Pedi & Adolescent/Young Adult Hematology/Oncology Nurse Practitioner/Physician Assistant",
+  "company": "University Health",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-4836453282012740013": {
+  "url": "https://jooble.org/jdp/-4836453282012740013",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires physical presence in Dallas, Texas, and the candidate is based in Nigeria.",
+  "blockers": "Required to be resident in the United States / Dallas, TX",
+  "skill_gaps": "US financial aid regulations; federal and state aid disbursement systems",
+  "title": "Student Financial Aid Officer II",
+  "company": "The University of Texas at Dallas",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/7185397925480003035": {
+  "url": "https://jooble.org/jdp/7185397925480003035",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires the candidate to be based in South Africa, but the candidate is in Nigeria.",
+  "blockers": "Candidate must be resident in South Africa",
+  "skill_gaps": "",
+  "title": "Finance Administrator",
+  "company": "Remote Recruitment",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/8977195214961905777": {
+  "url": "https://jooble.org/jdp/8977195214961905777",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires physical presence in Garden City, NY, while the candidate is based in Nigeria.",
+  "blockers": "On-site location in Garden City, NY (US location and residency requirement)",
+  "skill_gaps": "indirect tax compliance; US tax laws",
+  "title": "Tax Accountant",
+  "company": "CFS",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-6584659835257631657": {
+  "url": "https://jooble.org/jdp/-6584659835257631657",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires the candidate to be a full-time college student graduating in 2028, whereas the candidate has already graduated.",
+  "blockers": "Must be a full-time college student graduating by May 2028 or August 2028; Location is Green Bay, WI (requires US residency/relocation not matched by profile preferences for Nigeria/remote)",
+  "skill_gaps": "none",
+  "title": "Management Trainee Intern - Green Bay",
+  "company": "Enterprise",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-5000190156068187753": {
+  "url": "https://jooble.org/jdp/-5000190156068187753",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires the candidate to be located in Milwaukee, WI and currently enrolled in college graduating within 2 semesters, which the candidate does not meet.",
+  "blockers": "Required to be located in Milwaukee, WI; Required to be a current college student graduating within 2 semesters",
+  "skill_gaps": "customer service; operations management",
+  "title": "Management Trainee Intern - Milwaukee",
+  "company": "Enterprise",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/2281854293278435966": {
+  "url": "https://jooble.org/jdp/2281854293278435966",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The internship requires the candidate to be a current college student graduating no later than May 2028 (rising Senior), whereas the candidate graduated with a B.Sc. in March 2025 and has already completed NYSC.",
+  "blockers": "Candidate must be a current college student graduating no later than May 2028.",
+  "skill_gaps": "",
+  "title": "Management Trainee Summer Internship - Logan",
+  "company": "Enterprise",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-4378114472716625574": {
+  "url": "https://jooble.org/jdp/-4378114472716625574",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires physical presence in Blacksburg, VA, USA, but the candidate is based in Nigeria and remote work is not offered for this local temporary position.",
+  "blockers": "Candidate is not located in the US and lacks work authorization for the location",
+  "skill_gaps": "payroll administration",
+  "title": "Accounting Assistant",
+  "company": "Randstad",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-4658235426342749010": {
+  "url": "https://jooble.org/jdp/-4658235426342749010",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires working in Sacramento, California, and the candidate is based in Nigeria without U.S. work authorization or relocation support.",
+  "blockers": "U.S. residency and work authorization required",
+  "skill_gaps": "California state accounting standards",
+  "title": "ACCOUNTANT TRAINEE",
+  "company": "California Governor's Office of Emergency Services",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-2462466210365582394": {
+  "url": "https://jooble.org/jdp/-2462466210365582394",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate is resident in Nigeria, but the job strictly requires being located within specific US states.",
+  "blockers": "Candidate is not resident in the required US states",
+  "skill_gaps": "US tax compliance; corporate tax accounting",
+  "title": "Tax Accountant II - Remote or Onsite",
+  "company": "Prime Corporate Services",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/-7198022087214781303": {
+  "url": "https://jooble.org/jdp/-7198022087214781303",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires US residency and local state employment eligibility, which the candidate does not meet as an applicant based in Nigeria.",
+  "blockers": "US residency and state employment eligibility required",
+  "skill_gaps": "none",
+  "title": "ACCOUNTANT TRAINEE",
+  "company": "California State Jobs",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:31+00:00"
+ },
+ "https://jooble.org/jdp/361704527531140165": {
+  "url": "https://jooble.org/jdp/361704527531140165",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job requires physical presence in Newnan, GA, USA, while the candidate is located in Nigeria and remote work is not offered.",
+  "blockers": "Requires onsite presence in Newnan, GA, USA, but candidate is in Nigeria",
+  "skill_gaps": "",
+  "title": "Bookkeeper / Accounting Assistant with QuickBooks",
+  "company": "Staff Financial Group",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:32+00:00"
+ },
+ "https://jooble.org/jdp/1816739863537183221": {
+  "url": "https://jooble.org/jdp/1816739863537183221",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The job is located in Dothan, AL, USA, while the candidate is based in Nigeria and requires remote work or relocation, and international hospitality experience is lacking.",
+  "blockers": "Requires physical presence in the United States (Dothan, AL) without visa sponsorship indicated.",
+  "skill_gaps": "US hospitality accounting experience",
+  "title": "Accounting Assistant",
+  "company": "LBA Hospitality",
+  "source": "Jooble",
+  "updated": "2026-11-28T01:26:32+00:00"
  }
 }
