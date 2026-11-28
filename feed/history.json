@@ -1715,5 +1715,48 @@
    "  - 45: Financial Operations Generalist at wonderly. Blockers: Location requirement (Canada)",
    "  - 45: Financial Operations Generalist at wonderly. Blockers: Location mismatch (job is in Canada)"
   ]
+ },
+ {
+  "last_run": "2026-11-28T15:23+00:00",
+  "report": [
+   "Last run: 2026-11-28T15:23+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 475 postings in total, and 217 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "38 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "7 cover letters were written.",
+   "1 application emails were sent: NYSC Member (Accounting) at Arit of Africa Limited.",
+   "Overall, 74 postings meet the score rules (40 or more, no blockers). 9 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 6 passed filter",
+   "- workingnomads: 36 fetched, 11 passed filter",
+   "- jobicy: 45 fetched, 41 passed filter",
+   "- remoteok: 100 fetched, 39 passed filter",
+   "- greenhouse: 64 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 26 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 21 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 38 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 64 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 10 linked pages",
+   "- 26 jobs older than 30 days skipped",
+   "- 38 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 95: NYSC Member (Accounting) at Arit of Africa Limited. Blockers: none",
+   "  - 85: FAE Limited Graduate Trainee Programme 2026 at Dixcover Hub listing. Blockers: none",
+   "  - 85: FAE Limited Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
+   "  - 45: Underwriting Administrator at The Ardonagh Group. Blockers: Candidate is located in Nigeria, but the role requires being based in the United Kingdom.",
+   "  - 45: Integration Associate, Clinic Acquisitions at 3Y Health. Blockers: none"
+  ]
  }
 ]

@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-28 06:57 UTC",
+ "generated": "2026-11-28 15:26 UTC",
  "report": [
-  "Last run: 2026-11-28T06:55+00:00 UTC.",
-  "The search checked 16 job sources and 15 responded. It found 982 postings in total, and 655 matched your skills.",
+  "Last run: 2026-11-28T15:23+00:00 UTC.",
+  "The search checked 16 job sources and 15 responded. It found 475 postings in total, and 217 matched your skills.",
   "These sources could not be reached: themuse.",
-  "80 postings were scored against your CV this run.",
+  "38 postings were scored against your CV this run.",
   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
-  "6 cover letters were written.",
-  "No application emails were sent this run.",
-  "Overall, 68 postings meet the score rules (40 or more, no blockers). 8 of them list a contact address the bot can email; the rest need the application link."
+  "7 cover letters were written.",
+  "1 application emails were sent: NYSC Member (Accounting) at Arit of Africa Limited.",
+  "Overall, 74 postings meet the score rules (40 or more, no blockers). 9 of them list a contact address the bot can email; the rest need the application link."
  ],
  "batches": [],
  "tracker": [],
@@ -16,27 +16,27 @@
   "processes": [
    {
     "process": "scoring",
-    "today": 248,
-    "week": 1661,
+    "today": 286,
+    "week": 1699,
     "limited": 5,
     "overloaded": 227,
-    "tokens_in": 1701391,
-    "tokens_out": 122875
+    "tokens_in": 1754337,
+    "tokens_out": 126407
    },
    {
     "process": "letters",
-    "today": 10,
-    "week": 164,
+    "today": 17,
+    "week": 171,
     "limited": 1,
     "overloaded": 66,
-    "tokens_in": 174375,
-    "tokens_out": 81412
+    "tokens_in": 187876,
+    "tokens_out": 87456
    },
    {
     "process": "web_search",
-    "today": 12,
-    "week": 116,
-    "limited": 116,
+    "today": 16,
+    "week": 120,
+    "limited": 120,
     "overloaded": 0,
     "tokens_in": 0,
     "tokens_out": 0
@@ -88,6 +88,16 @@
   "Score differs for Director of Internal Audit: 5 in matches, 0 in records"
  ],
  "drafts": [
+  {
+   "title": "NYSC Member (Accounting)",
+   "company": "Arit of Africa Limited",
+   "score": 95,
+   "url": "https://jobs.smartyacad.com/nysc-member-accounting-at-arit-of-africa-limited/",
+   "letter": "Dear Hiring Manager,\n\nThe NYSC Member (Accounting) role at Arit of Africa Limited offers a valuable opportunity to support a leading IT services organisation that understands the Nigerian market. My recent training in accounting and practical finance experience align well with the organisational needs outlined for this position.\n\nDuring my National Youth Service Corps placement in the Bursary Department of the Nigerian College of Aviation Technology, I managed financial records and supported month-end close activities. I regularly reconciled accounts, investigated variances, and ensured revenue transactions were accurately documented. My work with accounting packages such as QuickBooks and Microsoft Dynamics 365 Business Central has given me practical familiarity with structured financial workflows and ledger management.\n\nI welcome the opportunity to discuss how my academic background from Obafemi Awolowo University and practical accounting experience can support your finance team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit because the candidate holds a B.Sc. in Accounting, brings relevant NYSC finance experience, and possesses strong organisational and software skills.\nGap: None.",
+   "handled": false,
+   "requirements": []
+  },
   {
    "title": "Accounting Assistant",
    "company": "Parsons Corporation",
@@ -166,6 +176,26 @@
    "letter": "Dear Hiring Manager,\n\nJoining the Kleenol Nigeria Limited Graduate Trainee Programme 2026 offers a valuable opportunity to build practical workplace experience in an established facility management and chemical supply organisation. The chance to develop professional skills through structured training and mentorship directly matches my career goals as an accounting graduate ready to learn and adapt in a dynamic environment.\n\nMy eleven months in the Bursary Department at the Nigerian College of Aviation Technology sharpened my analytical and problem-solving abilities through daily financial record maintenance, bank reconciliations, and inter-departmental variance investigations. Handling internally generated revenue transactions and supporting month-end close activities required meticulous attention to detail and a methodical approach to resolving discrepancies. Furthermore, my academic foundation in accounting from Obafemi Awolowo University combined with practical use of QuickBooks, Sage, and Microsoft Dynamics 365 Business Central has prepared me to contribute effectively to your administrative and operational teams.\n\nWhile my primary background is in finance and reporting rather than integrated facility management, my strong quantitative foundation, clear communication skills, and experience coordinating administrative tasks as General Secretary for NCCF Zaria Zone enable me to grasp new operational workflows quickly. I am genuinely interested in contributing a positive attitude and a disciplined approach to your collaborative working environment.\n\nI welcome the opportunity to discuss how my analytical skills can support your team, and my curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Strong, because your analytical foundation, problem-solving skills, and eagerness to learn align well with the graduate trainee requirements.\nGap: None, as all stated requirements regarding degree completion, NYSC, and skills are fully met.",
    "handled": true,
+   "requirements": []
+  },
+  {
+   "title": "FAE Limited Graduate Trainee Program 2026",
+   "company": "Dixcover Hub listing",
+   "score": 85,
+   "url": "https://jobs.smartyacad.com/fae-limited-graduate-trainee-program-2026/",
+   "letter": "Dear Hiring Manager,\n\nYour organisation's commitment to nurturing young and ambitious talent through the FAE Limited Graduate Trainee Program 2026 presents an ideal environment to begin a finance career. The opportunity to learn within a company with extensive manufacturing experience aligns closely with my background in accounting and financial reporting. I bring a strong desire to build practical expertise and contribute to accurate financial operations.\n\nDuring my recent service year in the Bursary Department at the Nigerian College of Aviation Technology, I maintained and reconciled revenue records across multiple streams. I supported month-end close activities, prepared journal postings, and investigated account variances to ensure reliable audit trails. My academic foundation from Obafemi Awolowo University, combined with hands-on proficiency in software such as QuickBooks, Sage, and Microsoft Dynamics 365 Business Central, allows me to handle financial transactions and ledger management effectively.\n\nI welcome the chance to discuss how my foundational accounting experience can support your finance team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit because the candidate holds a B.Sc. in Accounting, completed the mandatory NYSC programme, and brings nearly a year of direct finance and bursary experience.\nGap: None.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "FAE Limited Graduate Trainee Programme 2026",
+   "company": "Dixcover Hub listing",
+   "score": 85,
+   "url": "https://jobs.smartyacad.com/fae-limited-graduate-trainee-programme-2026/",
+   "letter": "Dear Hiring Manager,\n\nBeginning my professional career through the FAE Limited Graduate Trainee Programme 2026 presents an ideal opportunity to develop relevant workplace skills within your manufacturing environment. Your structured approach to training ambitious graduates aligns closely with my readiness to build upon my foundation in accounting and finance. Having completed my National Youth Service Corps service, I am fully available to participate in this full time programme in Lagos.\n\nMy eleven months of practical experience in the Bursary Department at the Nigerian College of Aviation Technology involved maintaining financial records, processing internally generated revenue transactions, and preparing journal postings. I also supported month-end close activities and investigated account variances to help the finance team meet reporting deadlines. Furthermore, my proficiency in QuickBooks, Microsoft Dynamics 365 Business Central, Zoho Books, and Sage, combined with an advanced command of Microsoft Excel, enables me to adapt quickly to your financial systems and administrative workflows.\n\nI welcome the opportunity to discuss how my accounting background and willingness to learn can support your team. My curriculum vitae is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Strong fit, as the candidate is a recent graduate who has completed the NYSC programme and holds a B.Sc. in Accounting.\nNo gaps identified against the stated requirements.",
+   "handled": false,
    "requirements": []
   },
   {
@@ -1019,6 +1049,16 @@
    "requirements": []
   },
   {
+   "title": "Corporate & Integration Operations Associate",
+   "company": "3Y Health",
+   "score": 45,
+   "url": "https://weworkremotely.com/remote-jobs/3y-health-corporate-integration-operations-associate",
+   "letter": "Dear Hiring Manager,\n\nManaging complex integration plans and keeping entity records in pristine order draws me strongly to the Corporate & Integration Operations Associate position at 3Y Health. Your focus on structured checklists, detailed documentation and smooth onboarding aligns closely with my background in financial administration and process management.\n\nDuring my recent tenure at the Nigerian College of Aviation Technology, I managed receipt records, tracked down inter-departmental variances and compiled supporting schedules for audit reviews. These responsibilities required me to reconcile multi-stream transactions, maintain clear audit trails and keep digital ledgers in precise order across systems like Microsoft Dynamics 365 Business Central and QuickBooks. Furthermore, my administrative leadership with NCCF Zaria involved drafting formal correspondence, organising executive documentation and preparing handover notes to ensure continuity.\n\nWhile I have not previously managed healthcare entity acquisitions in the United States, my accounting degree from Obafemi Awolowo University and my experience with financial controls have trained me to master compliance checklists quickly. I am accustomed to working through detailed transaction requirements, documenting operational workflows and coordinating closely with cross-functional teams to resolve discrepancies.\n\nI would welcome the opportunity to discuss how my organisational skills and administrative discipline can support your operations. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate brings strong administrative, reconciliation, and documentation skills that match the operational focus of the role, though without prior US healthcare M&A experience.\nGap: No prior experience in US healthcare operations, entity acquisitions, or managing US entity filings.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Operations Analyst (Finance)",
    "company": "Able",
    "score": 45,
@@ -1049,12 +1089,32 @@
    "requirements": []
   },
   {
+   "title": "Underwriting Administrator",
+   "company": "The Ardonagh Group",
+   "score": 45,
+   "url": "https://himalayas.app/companies/everywhen-co/jobs/underwriting-administrator?utm_source=api",
+   "letter": "Dear Hiring Manager,\n\nSupporting the Underwriting Governance Team at The Ardonagh Group as an Underwriting Administrator appeals to me because it combines structured administrative coordination with rigorous attention to detail. My background in accounting and institutional governance has prepared me well to maintain accurate records, track complex actions, and support compliance activities.\n\nDuring my time at the Nigerian College of Aviation Technology, I regularly investigated account variances, compiled supporting schedules for audits, and resolved discrepancies through to completion. This experience directly mirrors the need to manage audit activity and track remediation actions within your team. Furthermore, my role as General Secretary for NCCF Zaria Zone involved producing formal documentation, maintaining clear schedules, and coordinating administrative communication with external partners. I also bring advanced proficiency in Microsoft Excel and experience using various software systems to organise data and generate reliable reports.\n\nWhile I have not worked directly in the insurance sector, my strong grounding in financial controls, auditing principles, and administrative coordination allows me to adapt quickly to your governance workflows. I am keen to bring my organisational capabilities to your central underwriting office and support your committees effectively.\n\nI welcome the opportunity to discuss how my administrative and record-keeping background aligns with your needs, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit. The candidate has strong administrative, auditing, documentation, and Excel skills that directly match the governance coordination requirements, though direct insurance industry experience is absent.\nGap: Previous experience specifically within the insurance, compliance, or formal corporate governance sector is limited, though substituted by solid financial administration and audit support experience.\nBlocker: None.",
+   "handled": false,
+   "requirements": []
+  },
+  {
    "title": "Implementation Officer",
    "company": "Moniepoint",
    "score": 45,
    "url": "https://m/1",
    "letter": "Dear Hiring Manager,\n\nThe Implementation Officer position at Moniepoint aligns closely with my background in financial systems, structured problem-solving, and process documentation. Supporting business clients and deploying financial tools requires both technical software knowledge and clear communication. My recent finance background provides a strong foundation for this role.\n\nDuring my time at the Nigerian College of Aviation Technology, I managed financial software workflows across platforms like Microsoft Dynamics 365 Business Central, QuickBooks, and Sage. I regularly investigated account variances, reconciled revenue streams, and ensured that transaction records met strict documentation standards. Furthermore, my independent digital product projects have involved workflow design, technical documentation, and process reviews to organise requirements and improve operational efficiency.\n\nWhile my primary background is in accounting and finance rather than dedicated software implementation, my familiarity with enterprise systems and structured methodologies ensures a smooth transition. I quickly grasp complex financial workflows and know how to guide users through technical setups with patience and clarity.\n\nI welcome the opportunity to discuss how my system navigation and documentation skills can support your implementation team. My CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Moderate fit, because the candidate brings strong financial software and documentation skills that transfer well to implementation, though formal client-facing software deployment experience is limited.\nGap: No direct prior experience in a dedicated client-facing implementation role.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Founder's Associate - Internship or Working Student  (m/w/d)",
+   "company": "ARCHIVE GmbH",
+   "score": 45,
+   "url": "https://www.arbeitnow.com/jobs/companies/archive-gmbh/founders-associate-internship-or-working-student-munich-8493",
+   "letter": "Dear Hiring Manager,\n\nWorking directly with founders to scale operations and build structured processes at ARCHIVE GmbH as a Founder's Associate aligns closely with my background in financial controls and workflow organisation. My experience managing administrative documentation and revenue systems gives me a strong foundation for supporting your business development and automation initiatives.\n\nDuring my recent accounting role at the Nigerian College of Aviation Technology, I investigated inter-departmental variances, reconciled records and maintained structured documentation to ensure reliable audit trails. I also developed digital product projects independently, applying structured problem-solving to design workflows and review processes. Furthermore, my proficiency in accounting software and advanced Excel demonstrates my comfort with digital tools and data analysis.\n\nWhile my formal background is in finance rather than venture capital or management consulting, my administrative leadership experience with NCCF Zaria Zone involved coordinating communications, maintaining clear schedules and preparing handover documentation. These responsibilities taught me to manage competing priorities and communicate clearly across teams.\n\nI welcome the opportunity to discuss how my organisational skills can support your growth objectives, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate fit, because the candidate brings strong digital affinity, structured documentation skills and process organisation experience, though lack of prior startup or consulting experience is a gap.\nGap: Experience in sales strategy, business development or venture capital/consulting environments is not present on the CV.\nBlocker: None.",
    "handled": false,
    "requirements": []
   },
@@ -1095,6 +1155,16 @@
    "url": "https://himalayas.app/companies/alegria-travel-services/jobs/hospitality-operations-service-coordinator?utm_source=api",
    "letter": "Dear Hiring Manager,\n\nSupporting hospitality operations at Alegr%C3%ADa Travel Services appeals to me because it relies on structured planning, clear communication and careful record keeping. My background in administrative organisation and client correspondence equips me to help deliver a smooth experience for your clients.\n\nDuring my recent finance role at the Nigerian College of Aviation Technology, I managed receipt records, tracked service payments and resolved administrative discrepancies through diligent follow up. I regularly coordinated with internal staff and external students to address payment inquiries, ensuring that every request received a prompt and accurate response. Furthermore, my administrative experience as a general secretary involved maintaining schedules, preparing formal correspondence and organising digital files to support efficient daily operations.\n\nWhile my professional background is rooted in accounting rather than direct hospitality, the administrative workflows, attention to detail and communication skills required are directly transferable. I am comfortable using spreadsheets, email systems and online tools to manage tasks independently and coordinate effectively with a team.\n\nI welcome the opportunity to discuss how my organisational skills can support your operations. My resume is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
    "notes": "Fit: Moderate fit because the candidate has strong administrative, record-keeping, and communication skills, though direct hospitality experience is limited.\nGap: No direct prior experience working in the hospitality or tourism industry.",
+   "handled": false,
+   "requirements": []
+  },
+  {
+   "title": "Integration Associate, Clinic Acquisitions",
+   "company": "3Y Health",
+   "score": 45,
+   "url": "https://weworkremotely.com/remote-jobs/3y-health-integration-associate-clinic-acquisitions",
+   "letter": "Dear Hiring Manager,\n\nManaging complex operational records and multi-entity workflows directly aligns with the Integration Associate, Clinic Acquisitions position at 3Y Health. Every newly acquired practice brings intricate filings, schedules and documentation that require structured oversight and meticulous follow-through. This role offers an engaging opportunity to apply rigorous administrative coordination to healthcare integration workflows.\n\nDuring my time at the Nigerian College of Aviation Technology, I maintained and reconciled financial records across multiple revenue streams while tracking discrepancies to resolution. I regularly compiled supporting schedules and source documents, ensuring every transaction had a reliable audit trail. Furthermore, my administrative background as General Secretary for a major zonal organization involved coordinating formal correspondence, managing executive documentation, and maintaining clear schedules and follow-up communication to keep complex projects moving forward.\n\nWhile I have not previously managed US-specific healthcare entities, my strong foundation in structured accounting documentation, process reviews, and meticulous record-keeping translates smoothly to checking entity records and executing detailed checklists. I learn new operational frameworks quickly and take pride in managing administrative details without letting items slip.\n\nI would welcome the opportunity to discuss how my administrative rigour can support your integration team, and my CV is attached for your review.\n\nYours sincerely,\n[FULL NAME]\n[PHONE] | [EMAIL]",
+   "notes": "Fit: Moderate, because the candidate brings strong administrative coordination, documentation, and multi-stream tracking skills, though without prior US healthcare experience.\nGap: Experience with US healthcare operations, entities, and payer records.\nGap: Experience working across US East Coast hours from a remote location.",
    "handled": false,
    "requirements": []
   },
@@ -1342,48 +1412,48 @@
  "replies": [],
  "replies_hidden": true,
  "paused": false,
- "last_run": "2026-11-28T06:55+00:00",
+ "last_run": "2026-11-28T15:23+00:00",
  "summary": [
-  "- remotive: 17 fetched, 2 passed filter",
-  "- himalayas: 20 fetched, 9 passed filter",
-  "- workingnomads: 37 fetched, 11 passed filter",
-  "- jobicy: 49 fetched, 45 passed filter",
+  "- remotive: 16 fetched, 2 passed filter",
+  "- himalayas: 20 fetched, 6 passed filter",
+  "- workingnomads: 36 fetched, 11 passed filter",
+  "- jobicy: 45 fetched, 41 passed filter",
   "- remoteok: 100 fetched, 39 passed filter",
   "- greenhouse: 64 fetched, 33 passed filter",
   "- lever: 0 fetched, 0 passed filter",
   "- ashby: 0 fetched, 0 passed filter",
   "- smartrecruiters: 0 fetched, 0 passed filter",
   "- workable: 0 fetched, 0 passed filter",
-  "- smartyacad: 44 fetched, 23 passed filter",
-  "- jooble: 501 fetched, 437 passed filter",
-  "- arbeitnow: 50 fetched, 18 passed filter",
+  "- smartyacad: 44 fetched, 26 passed filter",
+  "- jooble: 0 fetched, 0 passed filter",
+  "- arbeitnow: 50 fetched, 21 passed filter",
   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
   "- weworkremotely: 100 fetched, 38 passed filter",
   "- web_search_jobs: 0 fetched, 0 passed filter",
   "  - Greenhouse Moniepoint: 64 jobs",
   "  - Greenhouse Flutterwave: FAILED ('jobs')",
   "  - Greenhouse Andela: FAILED ('jobs')",
-  "  - Dixcover Hub: opened 12 linked pages",
-  "- 62 jobs older than 30 days skipped",
-  "- 80 new jobs sent to scoring",
+  "  - Dixcover Hub: opened 10 linked pages",
+  "- 26 jobs older than 30 days skipped",
+  "- 38 new jobs sent to scoring",
   "- Top scores (threshold is 55):",
-  "  - 90: Accounting Assistant at Parsons Corporation. Blockers: none",
-  "  - 90: Accounting Assistant at Parsons Corporation. Blockers: none",
-  "  - 75: Subaward Finance Administrator at Northeastern University. Blockers: none",
-  "  - 45: Financial Operations Generalist at wonderly. Blockers: Location requirement (Canada)",
-  "  - 45: Financial Operations Generalist at wonderly. Blockers: Location mismatch (job is in Canada)"
+  "  - 95: NYSC Member (Accounting) at Arit of Africa Limited. Blockers: none",
+  "  - 85: FAE Limited Graduate Trainee Programme 2026 at Dixcover Hub listing. Blockers: none",
+  "  - 85: FAE Limited Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
+  "  - 45: Underwriting Administrator at The Ardonagh Group. Blockers: Candidate is located in Nigeria, but the role requires being based in the United Kingdom.",
+  "  - 45: Integration Associate, Clinic Acquisitions at 3Y Health. Blockers: none"
  ],
  "stats": {
-  "jobs_scored": 1669,
-  "strong": 123,
-  "drafts": 124,
-  "sent_today": 0,
-  "sent_total": 11
+  "jobs_scored": 1707,
+  "strong": 130,
+  "drafts": 131,
+  "sent_today": 1,
+  "sent_total": 12
  },
  "skills": [
   {
    "skill": "Python",
-   "count": 65,
+   "count": 66,
    "examples": [
     "Financial Analyst at CertiK",
     "Data Science Intern at Corporate Web Solutions",
@@ -1418,6 +1488,33 @@
    ]
   },
   {
+   "skill": "Enterprise Sales",
+   "count": 46,
+   "examples": [
+    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
+    "Strategic Account Executive 7 at Wrike",
+    "Strategic Account Executive - Spain at GitLab"
+   ]
+  },
+  {
+   "skill": "Sql",
+   "count": 45,
+   "examples": [
+    "Financial Analyst at CertiK",
+    "Revenue Operations Analyst at Augment",
+    "Marketing Operations Manager at Dropbox"
+   ]
+  },
+  {
+   "skill": "German Language",
+   "count": 45,
+   "examples": [
+    "Launch Intern (f/m/d) at Upvest",
+    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
+    "Quality Assurance & Documentation Technician (m/f/d) at Esmc"
+   ]
+  },
+  {
    "skill": "Executive Leadership",
    "count": 45,
    "examples": [
@@ -1427,35 +1524,8 @@
    ]
   },
   {
-   "skill": "Sql",
-   "count": 44,
-   "examples": [
-    "Financial Analyst at CertiK",
-    "Revenue Operations Analyst at Augment",
-    "Marketing Operations Manager at Dropbox"
-   ]
-  },
-  {
-   "skill": "Enterprise Sales",
-   "count": 44,
-   "examples": [
-    "Customer Success Manager – Enterprise (m/w/d) at Stackfuel",
-    "Strategic Account Executive 7 at Wrike",
-    "Strategic Account Executive - Spain at GitLab"
-   ]
-  },
-  {
-   "skill": "German Language",
-   "count": 41,
-   "examples": [
-    "Launch Intern (f/m/d) at Upvest",
-    "Working student Digital Learning & Technical Documentation (m/w/d) at Dornier MedTech GmbH",
-    "Quality Assurance & Documentation Technician (m/f/d) at Esmc"
-   ]
-  },
-  {
    "skill": "German Language Proficiency",
-   "count": 35,
+   "count": 38,
    "examples": [
     "Interne Projekt- und Prozessanalyse (m/w/d) at S-Akquise GmbH",
     "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion at Strive Nutrition GmbH",
@@ -1472,21 +1542,21 @@
    ]
   },
   {
+   "skill": "B2B Sales",
+   "count": 33,
+   "examples": [
+    "Business Development Representative, Financial Services - UKI at GitLab",
+    "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
+    "Graduate Commercial Associate (f/m/d) at Moss"
+   ]
+  },
+  {
    "skill": "Salesforce",
    "count": 32,
    "examples": [
     "Marketing Operations Manager at Dropbox",
     "Retail Solutions Internal Wholesaler – Remote at Mutual Of Omaha",
     "Junior Data Scientist - Contract at Mfinite Consulting"
-   ]
-  },
-  {
-   "skill": "B2B Sales",
-   "count": 32,
-   "examples": [
-    "Business Development Representative, Financial Services - UKI at GitLab",
-    "Business Development Representative - Data & AI Consulting (m/w/d) at Alexander Thamm Gmbh",
-    "Graduate Commercial Associate (f/m/d) at Moss"
    ]
   },
   {
@@ -1499,6 +1569,15 @@
    ]
   },
   {
+   "skill": "Software Engineering",
+   "count": 31,
+   "examples": [
+    "General Application for Product, Engineering and Technology at Talkspace",
+    "Technical Product Manager at Sanovio",
+    "Junior Software Engineer with Accounting Experience (LATAM) at Sezzle"
+   ]
+  },
+  {
    "skill": "Us Gaap",
    "count": 30,
    "examples": [
@@ -1506,18 +1585,19 @@
     "Staff Accountant at H1",
     "Accounting Specialist at Attentive Care Inc"
    ]
-  },
-  {
-   "skill": "Software Engineering",
-   "count": 30,
-   "examples": [
-    "General Application for Product, Engineering and Technology at Talkspace",
-    "Technical Product Manager at Sanovio",
-    "Junior Software Engineer with Accounting Experience (LATAM) at Sezzle"
-   ]
   }
  ],
  "sent": [
+  {
+   "sent_at": "2026-11-28T15:26:58+00:00",
+   "title": "NYSC Member (Accounting)",
+   "company": "Arit of Africa Limited",
+   "email": "careers@aritofafrica.com",
+   "score": "95",
+   "url": "https://jobs.smartyacad.com/nysc-member-accounting-at-arit-of-africa-limited/",
+   "recent": true,
+   "repeat": false
+  },
   {
    "sent_at": "2026-11-27T07:56:32+00:00",
    "title": "Medical Virtual Assistant - Reception & Bookkeeping",
@@ -1631,6 +1711,20 @@
  ],
  "jobs": [
   {
+   "score": 95,
+   "title": "NYSC Member (Accounting)",
+   "company": "Arit of Africa Limited",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The role specifically targets a fresh accounting graduate with a B.Sc. for an accounting position, perfectly matching the candidate's qualification, education level, and career entry point.",
+   "blockers": "",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/nysc-member-accounting-at-arit-of-africa-limited/",
+   "drafted": true,
+   "pdf": "",
+   "recent": true
+  },
+  {
    "score": 90,
    "title": "Kleenol Nigeria Limited Graduate Trainee Programme 2026",
    "company": "Dixcover Hub listing",
@@ -1690,7 +1784,7 @@
    "url": "https://jooble.org/jdp/-6191608212398380616",
    "drafted": true,
    "pdf": "parsons-corporation-accounting-assistant-d8ff981b",
-   "recent": true
+   "recent": false
   },
   {
    "score": 90,
@@ -1706,7 +1800,7 @@
    "url": "https://jooble.org/jdp/-6191608212398380616",
    "drafted": true,
    "pdf": "parsons-corporation-accounting-assistant-d8ff981b",
-   "recent": true
+   "recent": false
   },
   {
    "score": 85,
@@ -1802,6 +1896,34 @@
    "drafted": true,
    "pdf": "wing-assistant-accounting-assistant-7f4b00e6",
    "recent": false
+  },
+  {
+   "score": 85,
+   "title": "FAE Limited Graduate Trainee Programme 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate holds the required B.Sc. degree, completed NYSC, and fits the recent graduate profile perfectly for this general graduate trainee programme.",
+   "blockers": "",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/fae-limited-graduate-trainee-programme-2026/",
+   "drafted": true,
+   "pdf": "dixcover-hub-listing-fae-limited-graduat-02bdf57f",
+   "recent": true
+  },
+  {
+   "score": 85,
+   "title": "FAE Limited Graduate Trainee Program 2026",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate holds a B.Sc. degree and completed NYSC within the required timeframe, making them a strong match for this graduate trainee program.",
+   "blockers": "",
+   "gaps": [],
+   "url": "https://jobs.smartyacad.com/fae-limited-graduate-trainee-program-2026/",
+   "drafted": true,
+   "pdf": "dixcover-hub-listing-fae-limited-graduat-e6fdf7e1",
+   "recent": true
   },
   {
    "score": 75,
@@ -2342,7 +2464,7 @@
    "url": "https://jooble.org/jdp/-5623138618473173761",
    "drafted": true,
    "pdf": "northeastern-university-subaward-finance-3046bdc0",
-   "recent": true
+   "recent": false
   },
   {
    "score": 65,
@@ -3479,7 +3601,7 @@
    "url": "https://jooble.org/jdp/-2279827062042908477",
    "drafted": true,
    "pdf": "wonderly-financial-operations-generalist-12bf3a26",
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -3495,7 +3617,7 @@
    "url": "https://jooble.org/jdp/-2279827062042908477",
    "drafted": true,
    "pdf": "wonderly-financial-operations-generalist-12bf3a26",
-   "recent": true
+   "recent": false
   },
   {
    "score": 45,
@@ -3511,6 +3633,78 @@
    "url": "https://jooble.org/jdp/-2279827062042908477",
    "drafted": true,
    "pdf": "wonderly-financial-operations-generalist-12bf3a26",
+   "recent": false
+  },
+  {
+   "score": 45,
+   "title": "Underwriting Administrator",
+   "company": "The Ardonagh Group",
+   "location": "United Kingdom",
+   "source": "Himalayas",
+   "reason": "The job is an administrative and governance role in the UK insurance sector, which aligns with the candidate's organizational and audit documentation skills, but it is located in the United Kingdom while the candidate is based in Nigeria.",
+   "blockers": "Candidate is located in Nigeria, but the role requires being based in the United Kingdom.",
+   "gaps": [
+    "insurance experience",
+    "governance and compliance experience",
+    "minutes taking"
+   ],
+   "url": "https://himalayas.app/companies/everywhen-co/jobs/underwriting-administrator?utm_source=api",
+   "drafted": true,
+   "pdf": "the-ardonagh-group-underwriting-administ-d02236cd",
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Corporate & Integration Operations Associate",
+   "company": "3Y Health",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role involves operations, entity management, and financial coordination which fits the candidate's operational skillset, but it is located in Athens / requires US hours and has no direct accounting focus.",
+   "blockers": "",
+   "gaps": [
+    "US healthcare compliance",
+    "US tax and entity filings",
+    "payer credentialing"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/3y-health-corporate-integration-operations-associate",
+   "drafted": true,
+   "pdf": "3y-health-corporate-integration-operatio-7a9cabf8",
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Integration Associate, Clinic Acquisitions",
+   "company": "3Y Health",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role involves corporate integration, compliance, and entity management which aligns with the candidate's administrative and organizational skills, but it is an independent contractor position covering US hours with a heavy focus on US legal and operational workflows.",
+   "blockers": "",
+   "gaps": [
+    "US healthcare compliance",
+    "payer credentialing",
+    "corporate integration experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/3y-health-integration-associate-clinic-acquisitions",
+   "drafted": true,
+   "pdf": "3y-health-integration-associate-clinic-a-fdc403b1",
+   "recent": true
+  },
+  {
+   "score": 45,
+   "title": "Founder's Associate - Internship or Working Student  (m/w/d)",
+   "company": "ARCHIVE GmbH",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "The job offers a relevant remote internship working on processes and business development, but its core focus on sales and startup strategy does not leverage the candidate's primary accounting and finance expertise.",
+   "blockers": "",
+   "gaps": [
+    "sales strategy",
+    "startup experience",
+    "business development"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/archive-gmbh/founders-associate-internship-or-working-student-munich-8493",
+   "drafted": true,
+   "pdf": "archive-gmbh-founder-s-associate-interns-776ddb79",
    "recent": true
   },
   {
@@ -4207,7 +4401,7 @@
    "url": "https://weworkremotely.com/remote-jobs/twilio-executive-business-partner",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 30,
@@ -4886,7 +5080,7 @@
    "url": "https://jobs.smartyacad.com/virtual-assistant-social-media-at-evoke-gifts/",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 25,
@@ -4902,6 +5096,26 @@
     "dispute negotiation"
    ],
    "url": "https://weworkremotely.com/remote-jobs/twilio-fraud-specialist-supplier-operations-governance",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 25,
+   "title": "Events & Marketing Coordinator",
+   "company": "FabStation",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job is focused on event management and social media marketing which do not align with the candidate's core background in accounting and finance.",
+   "blockers": "The job requires at least 2 years of relevant event and marketing experience, which exceeds the candidate's professional profile.",
+   "gaps": [
+    "Event management",
+    "social media marketing",
+    "video production",
+    "graphic design",
+    "Canva"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/fabstation-events-marketing-coordinator",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -5436,7 +5650,7 @@
    "url": "https://jooble.org/jdp/2205462619945951700",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11014,7 +11228,7 @@
    "url": "https://jobs.smartyacad.com/ai-content-community-growth-executive-at-ethicpath/",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11032,7 +11246,7 @@
    "url": "https://weworkremotely.com/remote-jobs/upstart-product-quality-manager-home-lending-auto",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11052,7 +11266,7 @@
    "url": "https://weworkremotely.com/remote-jobs/coinbase-finance-strategy-analyst-product",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11071,7 +11285,7 @@
    "url": "https://weworkremotely.com/remote-jobs/samsara-commercial-account-executive",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11091,7 +11305,7 @@
    "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-solutions-engineer-texas",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11107,7 +11321,7 @@
    "url": "https://jobicy.com/jobs/157613-commissions-analyst-permanent-work-from-home",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11126,7 +11340,7 @@
    "url": "https://jobicy.com/jobs/157461-certified-public-accountant",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11145,7 +11359,7 @@
    "url": "https://jobicy.com/jobs/157467-sr-accountant-cpa",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11162,7 +11376,7 @@
    "url": "https://jooble.org/jdp/-7454062187093633158",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11178,7 +11392,7 @@
    "url": "https://jooble.org/jdp/7338669245192403641",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11195,7 +11409,7 @@
    "url": "https://jooble.org/jdp/5781297199864791977",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11212,7 +11426,7 @@
    "url": "https://jooble.org/jdp/8470737889154532898",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11229,7 +11443,7 @@
    "url": "https://jooble.org/jdp/8470737889154532898",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11246,7 +11460,7 @@
    "url": "https://jooble.org/jdp/-3239907788055839684",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11263,7 +11477,7 @@
    "url": "https://jooble.org/jdp/6324012238442617044",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11281,7 +11495,7 @@
    "url": "https://jooble.org/jdp/-7545333980713663249",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 15,
@@ -11296,6 +11510,158 @@
     "management experience"
    ],
    "url": "https://jooble.org/jdp/-7545333980713663249",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 15,
+   "title": "Client Facing Assistant | LATAMKT",
+   "company": "Elevate Teams",
+   "location": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+   "source": "Himalayas",
+   "reason": "The job requires physical residency in specific LATAM or Caribbean countries, which excludes the candidate based in Nigeria.",
+   "blockers": "Candidate is not resident in one of the eligible LATAM or Caribbean countries.",
+   "gaps": [
+    "Fluent Spanish or Portuguese"
+   ],
+   "url": "https://himalayas.app/companies/elevate-teams/jobs/client-facing-assistant-latamkt?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Account Executive (m/w/d)",
+   "company": "Jupus",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks required fluency in German and prior professional sales experience for this Berlin-based B2B sales role.",
+   "blockers": "German language fluency required; B2B sales experience required",
+   "gaps": [
+    "German language",
+    "sales",
+    "B2B outreach",
+    "CRM management"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/jupus/account-executive-berlin-118874",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Growth Manager - AI Online Marketing (m/w/d) für Tax SaaS Startup",
+   "company": "Boring.legal GmbH",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The job requires senior marketing and growth management expertise in Berlin, which does not align with the candidate's finance, accounting, and entry-level profile.",
+   "blockers": "Requires relocation to Berlin and extensive specialized marketing/growth experience.",
+   "gaps": [
+    "Growth marketing",
+    "SEO",
+    "demand generation",
+    "paid advertising",
+    "product marketing",
+    "B2B SaaS sales funnels"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/boringlegal-gmbh/growth-manager-ai-online-marketing-fur-tax-saas-startup-berlin-390188",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Customer Success Manager (m/w/d)",
+   "company": "Merlin Digital Solutions GmbH",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "The job requires physical presence in Munich, Germany, and the candidate is based in Nigeria without relocation support mentioned.",
+   "blockers": "Candidate is not resident in Germany and requires remote or Nigeria-based work.",
+   "gaps": [
+    "customer success",
+    "German language proficiency",
+    "account management"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/merlin-digital-solutions-gmbh/customer-success-manager-munich-363910",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "BI Development (m/w/d) mit Schwerpunkt KI-Enablement",
+   "company": "EXTERNUM UG (haftungsbeschränkt)",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks the mandatory IT or data degree and German language proficiency required for this role.",
+   "blockers": "Mandatory degree in IT or data; fluent German language requirement; residency in Germany.",
+   "gaps": [
+    "Qlik Sense",
+    "SQL",
+    "MSSQL",
+    "AI tools",
+    "German language"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/externum-ug-haftungsbeschrankt/bi-development-mit-schwerpunkt-ki-enablement-berlin-307907",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Swisscontact is Hiring Technical Interns",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The job requires physical presence in Ghana for a technical renewable energy engineering internship, which does not match the candidate's location, background, or career focus in finance and accounting.",
+   "blockers": "Required to be located/resident in Ghana; requires a technical engineering/renewable energy background.",
+   "gaps": [
+    "renewable energy technologies",
+    "technical assessments",
+    "engineering field inspections",
+    "market systems development"
+   ],
+   "url": "https://jobs.smartyacad.com/swisscontact-is-hiring-technical-interns/",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Senior Digital Project Manager",
+   "company": "AirVu Media",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The job requires senior-level digital project management experience and agency background which the junior candidate lacks.",
+   "blockers": "Senior-level experience required; digital agency experience required",
+   "gaps": [
+    "Senior project management",
+    "agency operations",
+    "sprint planning",
+    "team resource allocation",
+    "client relationship management"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/airvu-media-senior-digital-project-manager",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 15,
+   "title": "Implementation Specialist",
+   "company": "Hawk",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks residency in Germany and EU work authorization required for this Munich-based implementation role.",
+   "blockers": "Required to be based in Munich / EU work authorization not shown; candidate is in Nigeria.",
+   "gaps": [
+    "AML compliance",
+    "fraud detection technology",
+    "API integration",
+    "client-facing software implementation"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/hawk/implementation-specialist-munich-114896",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -20385,7 +20751,7 @@
    "url": "https://weworkremotely.com/remote-jobs/grafana-labs-enterprise-account-executive-acquisition-remote-sweden",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20404,7 +20770,7 @@
    "url": "https://weworkremotely.com/remote-jobs/grafana-labs-enterprise-account-executive-acquisition-remote-italy",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20424,7 +20790,7 @@
    "url": "https://weworkremotely.com/remote-jobs/fivetran-senior-partner-operations-manager",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20442,7 +20808,7 @@
    "url": "https://weworkremotely.com/remote-jobs/bybit-eu-customer-excellence-lead-eu",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20458,7 +20824,7 @@
    "url": "https://weworkremotely.com/remote-jobs/samsara-collections-analyst-i",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20478,7 +20844,7 @@
    "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-senior-commercial-compliance-analyst",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20495,7 +20861,7 @@
    "url": "https://jobicy.com/jobs/157625-senior-associate-fund-administration-accounting",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20513,7 +20879,7 @@
    "url": "https://jobicy.com/jobs/157462-international-tax-manager-3",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20530,7 +20896,7 @@
    "url": "https://jooble.org/jdp/-8531325772305040347",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20548,7 +20914,7 @@
    "url": "https://jooble.org/jdp/-1985670132314653593",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20566,7 +20932,7 @@
    "url": "https://jooble.org/jdp/-5500674294079571861",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20584,7 +20950,7 @@
    "url": "https://jooble.org/jdp/-46232220742527664",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20601,7 +20967,7 @@
    "url": "https://jooble.org/jdp/1390897881365902644",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20619,7 +20985,7 @@
    "url": "https://jooble.org/jdp/-4969893543063599889",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20636,7 +21002,7 @@
    "url": "https://jooble.org/jdp/8657924800442916960",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20655,7 +21021,7 @@
    "url": "https://jooble.org/jdp/-1076309456504617949",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20673,7 +21039,7 @@
    "url": "https://jooble.org/jdp/6357479689021400734",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20691,7 +21057,7 @@
    "url": "https://jooble.org/jdp/8470737889154532898",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20707,7 +21073,7 @@
    "url": "https://jooble.org/jdp/7702260934979589454",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20724,7 +21090,7 @@
    "url": "https://jooble.org/jdp/111767426505863157",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20741,7 +21107,7 @@
    "url": "https://jooble.org/jdp/-2025028868961012703",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20758,7 +21124,7 @@
    "url": "https://jooble.org/jdp/6324012238442617044",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 10,
@@ -20774,6 +21140,220 @@
     "UK employment compliance"
    ],
    "url": "https://jooble.org/jdp/7380289528291509650",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 10,
+   "title": "Sr. Sales Executive – General Safety/ Field Evaluations",
+   "company": "SGS",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior sales and business development role requiring extensive sales experience, which completely misaligns with the candidate's profile as an entry-level management accountant and finance professional.",
+   "blockers": "Senior-level sales role requiring B2B sales experience, which the candidate lacks.",
+   "gaps": [
+    "sales strategy",
+    "lead generation",
+    "fee negotiation",
+    "B2B account management",
+    "industry trade show networking"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sgs-sr-sales-executive-general-safety-field-evaluations",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Project Manager",
+   "company": "Cayenta",
+   "location": "Canada, United States",
+   "source": "Himalayas",
+   "reason": "The candidate is based in Nigeria and lacks the required legal eligibility to work and travel in Canada, the US, and the Caribbean, alongside requiring mid-to-senior level project management experience.",
+   "blockers": "Candidate is not located in Canada, US, or Caribbean and lacks legal eligibility for international travel/work in those regions; requires project management experience.",
+   "gaps": [
+    "Project management",
+    "customer relationship management",
+    "scope negotiations",
+    "project budgeting",
+    "international travel eligibility"
+   ],
+   "url": "https://himalayas.app/companies/cayenta/jobs/project-manager?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Strategic Finance Manager",
+   "company": "ClickUp",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "The role requires 5+ years of senior FP&A or strategic finance experience in a SaaS/tech environment, whereas the candidate is an entry-level junior accountant with less than one year of experience.",
+   "blockers": "5+ years of FP&A or strategic finance experience required.",
+   "gaps": [
+    "SaaS financial metrics",
+    "financial modeling",
+    "Pigment, Adaptive, or Anaplan",
+    "NetSuite",
+    "board-level presentation experience"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/clickup-strategic-finance-manager",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Account Executive (m/w/d) – Köln",
+   "company": "Jupus",
+   "location": "Cologne",
+   "source": "Arbeitnow",
+   "reason": "This is a full-cycle sales (Account Executive) role in Germany requiring German-speaking outbound software sales, which completely misaligns with the candidate's finance, accounting, and Nigeria/remote profile.",
+   "blockers": "Requires physical location in Cologne/Berlin, German language proficiency, and B2B software sales experience.",
+   "gaps": [
+    "Account Executive experience",
+    "B2B sales",
+    "outbound prospecting",
+    "German language",
+    "legal tech sales"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/jupus/account-executive-koln-cologne-307292",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Market Lead DACH / Senior Account Executive",
+   "company": "Aquablu B.V",
+   "location": "Remote job",
+   "source": "Arbeitnow",
+   "reason": "This is a senior sales and market-building role requiring 6-10 years of B2B full-cycle sales and fluency in German, none of which the candidate possesses.",
+   "blockers": "Requires 6-10 years of B2B full-cycle sales experience and fluent German, which the candidate lacks.",
+   "gaps": [
+    "B2B full-cycle sales",
+    "German language proficiency",
+    "enterprise software sales",
+    "pipeline generation",
+    "contract closing"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/aquablu-bv/remote-market-lead-dach-senior-account-executive-frankfurt-139266",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Principal Product Manager, Sandboxes",
+   "company": "Docker",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior software engineering and product management role requiring deep technical fluency in virtualization and developer infrastructure, which does not match the candidate's finance and accounting background.",
+   "blockers": "Requires extensive prior experience as a software engineer and senior product manager in developer infrastructure, which the candidate lacks.",
+   "gaps": [
+    "developer infrastructure",
+    "containers and microVMs",
+    "software engineering experience",
+    "product management",
+    "virtualization technologies"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/docker-principal-product-manager-sandboxes",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Account Executive - UKI/Nordics (m/f/x)",
+   "company": "Makersite GmbH",
+   "location": "Remote job",
+   "source": "Arbeitnow",
+   "reason": "This is a senior enterprise sales role requiring extensive B2B SaaS closing experience, which does not match the candidate's entry-level accounting and finance profile.",
+   "blockers": "Senior enterprise sales role requiring complex software sales experience and high-value deal closing.",
+   "gaps": [
+    "enterprise sales",
+    "SaaS sales",
+    "commercial negotiation",
+    "territory management",
+    "revenue generation"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-enterprise-account-executive-uki-nordics-berlin-232661",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Enterprise Account Executive (DACH)",
+   "company": "ChurchDesk",
+   "location": "Berlin, Berlin, Germany",
+   "source": "Arbeitnow",
+   "reason": "The job is a senior sales role requiring enterprise B2B SaaS experience and fluent German, neither of which the candidate possesses.",
+   "blockers": "Requires multiple years of B2B SaaS sales experience, enterprise account executive experience, and fluent German language skills.",
+   "gaps": [
+    "Enterprise sales",
+    "SaaS experience",
+    "Hubspot",
+    "German language"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/churchdesk/enterprise-account-executive-dach-berlin-42285",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Project Manager (m/f/d)",
+   "company": "Statista",
+   "location": "Hamburg",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks the required multi-year project management experience and fluency in German for this senior-level role based in Hamburg.",
+   "blockers": "Requires multi-year project management experience and fluent German language proficiency, both of which the candidate lacks.",
+   "gaps": [
+    "Project management experience",
+    "PMO experience",
+    "German language proficiency"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/statista/project-manager-hamburg-285210",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Working Student Finance (f/m/d)",
+   "company": "Moss",
+   "location": "Berlin",
+   "source": "Arbeitnow",
+   "reason": "The candidate is not currently enrolled in a degree program in Berlin and lacks the required fluent German (C1) language skills.",
+   "blockers": "Currently enrolled student requirement; Fluent in German (C1) requirement; Onsite in Berlin requirement.",
+   "gaps": [
+    "Fluent in German",
+    "German tax knowledge"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/moss/working-student-finance-berlin-394263",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 10,
+   "title": "Senior Financial Systems Engineer (m/f/d)",
+   "company": "Berlitz",
+   "location": "Germany Remote",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks the mandatory 6+ years of software engineering and NetSuite development experience required for this senior engineering role.",
+   "blockers": "Requires 6+ years in software engineering with at least 3 years in financial systems engineering and hands-on NetSuite development experience, which the candidate lacks.",
+   "gaps": [
+    "Software engineering",
+    "NetSuite SuiteScript",
+    "Stripe/Adyen integration",
+    "system architecture",
+    "API development"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/berlitz/remote-senior-financial-systems-engineer-9820",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -27355,7 +27935,7 @@
    "url": "https://weworkremotely.com/remote-jobs/instacart-director-of-customer-success",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27376,7 +27956,7 @@
    "url": "https://weworkremotely.com/remote-jobs/bitwarden-sr-director-revenue-accounting",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27396,7 +27976,7 @@
    "url": "https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-ai-foundations",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27414,7 +27994,7 @@
    "url": "https://weworkremotely.com/remote-jobs/bybit-eu-chief-product-officer-eu",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27433,7 +28013,7 @@
    "url": "https://weworkremotely.com/remote-jobs/datadog-strategic-account-executive-italy",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27453,7 +28033,7 @@
    "url": "https://remoteOK.com/remote-jobs/remote-social-systems-lead-auditor-north-uk-sgs-1138223",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27467,7 +28047,7 @@
    "url": "https://jooble.org/jdp/-1177878278684385395",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27484,7 +28064,7 @@
    "url": "https://jooble.org/jdp/-4653357093479946152",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27502,7 +28082,7 @@
    "url": "https://jooble.org/jdp/6848053615707229293",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27519,7 +28099,7 @@
    "url": "https://jooble.org/jdp/231258087163835309",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27537,7 +28117,7 @@
    "url": "https://jooble.org/jdp/285540613039651503",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27556,7 +28136,7 @@
    "url": "https://jooble.org/jdp/285540613039651503",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27575,7 +28155,7 @@
    "url": "https://jooble.org/jdp/285540613039651503",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27593,7 +28173,7 @@
    "url": "https://jooble.org/jdp/3487323622523311157",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27611,7 +28191,7 @@
    "url": "https://jooble.org/jdp/3487323622523311157",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27628,7 +28208,7 @@
    "url": "https://jooble.org/jdp/5029901209157769474",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27646,7 +28226,7 @@
    "url": "https://jooble.org/jdp/-2677502730197145042",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27664,7 +28244,7 @@
    "url": "https://jooble.org/jdp/-1076309456504617949",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27683,7 +28263,7 @@
    "url": "https://jooble.org/jdp/-1076309456504617949",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 5,
@@ -27700,6 +28280,186 @@
     "AI-assisted engineering workflows"
    ],
    "url": "https://jooble.org/jdp/-7480402882042055614",
+   "drafted": false,
+   "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 5,
+   "title": "Director Commercial Strategy and Procurement - RID00255",
+   "company": "Red Nucleus",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "This is a senior Director-level commercial strategy and procurement leadership role requiring extensive executive negotiation and industry-specific expertise, which completely misaligns with an entry-level candidate.",
+   "blockers": "Senior executive role requiring extensive leadership and negotiation experience far beyond the candidate's junior 11-month profile; location is United States.",
+   "gaps": [
+    "commercial strategy",
+    "executive negotiations",
+    "pharmaceutical and life sciences industry expertise",
+    "legal risk management",
+    "contract structuring"
+   ],
+   "url": "https://himalayas.app/companies/red-nucleus/jobs/director-commercial-strategy-and-procurement-rid00255?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Product Manager - Hardware, Infrastructure and Virtualization",
+   "company": "Akamai Technologies",
+   "location": "United States",
+   "source": "Himalayas",
+   "reason": "The candidate lacks the required 12+ years of hardware product management experience and deep technical expertise in server hardware, firmware, and virtualization layers.",
+   "blockers": "Requires 12+ years in relevant product management/development with hardware, firmware, and virtualization layers.",
+   "gaps": [
+    "Hardware product management",
+    "Linux kernel lifecycle",
+    "server firmware",
+    "virtualization layers",
+    "GPU architecture"
+   ],
+   "url": "https://himalayas.app/companies/akamai-technologies/jobs/senior-product-manager-hardware-infrastructure-and-virtualization?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Product Management IA Generative",
+   "company": "GEC",
+   "location": "France",
+   "source": "Himalayas",
+   "reason": "The role requires 10 years of experience in product management, specific generative AI and GCP expertise, a SAFe certification, and French language proficiency, all of which the candidate lacks.",
+   "blockers": "10 years experience required; SAFe certification required; French language proficiency required; generative AI and GCP expertise required",
+   "gaps": [
+    "Generative AI",
+    "GCP",
+    "SAFe certification",
+    "French language",
+    "product management experience"
+   ],
+   "url": "https://himalayas.app/companies/gec/jobs/product-management-ia-generative?utm_source=api",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Account Executive I/II, Parkinson's Disease - Chicago South",
+   "company": "AbbVie",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a pharmaceutical sales and account management role requiring medical/drug product promotion to healthcare professionals, which completely misaligns with the candidate's finance and accounting background.",
+   "blockers": "Mandatory pharmaceutical sales/medical detailing experience and US territory residency (Chicago/Indiana)",
+   "gaps": [
+    "medical sales",
+    "pharmaceutical product knowledge",
+    "healthcare professional relationship management",
+    "sales quota achievement"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/abbvie-account-executive-i-ii-parkinson-s-disease-chicago-south",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Sr. Sales Executive - Med Device",
+   "company": "SGS",
+   "location": "Remote",
+   "source": "We Work Remotely",
+   "reason": "This is a senior sales executive role requiring medical device sales experience, which completely misaligns with the candidate's finance, accounting, and entry-level profile.",
+   "blockers": "Senior-level role; requires sales and medical device industry experience.",
+   "gaps": [
+    "sales execution",
+    "business development",
+    "medical device knowledge",
+    "B2B sales negotiation"
+   ],
+   "url": "https://weworkremotely.com/remote-jobs/sgs-sr-sales-executive-med-device",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Account Executive, Product Sales Specialist (SAAS) - DACH",
+   "company": "Rubrik",
+   "location": "Remote",
+   "source": "Arbeitnow",
+   "reason": "The role is a senior, technical quota-carrying sales position focused on the DACH region, completely misaligned with the candidate's entry-level accounting and finance background.",
+   "blockers": "Requires extensive sales experience, technical SaaS sales expertise, and focus on the DACH region.",
+   "gaps": [
+    "DACH region market knowledge",
+    "SaaS sales",
+    "technical product sales",
+    "quota-carrying sales experience"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/rubrik/remote-account-executive-product-sales-specialist-saas-dach-497523",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Enterprise Account Executive - FR/BNL/SE (m/f/x)",
+   "company": "Makersite GmbH",
+   "location": "Remote job",
+   "source": "Arbeitnow",
+   "reason": "This is a senior enterprise sales role requiring high-value SaaS sales experience and French language proficiency, which does not match the candidate's entry-level accounting and finance background.",
+   "blockers": "Requires 5+ years of enterprise sales experience, high-value SaaS closing experience, and fluent French language skills, none of which the candidate possesses.",
+   "gaps": [
+    "enterprise software sales",
+    "French language proficiency",
+    "territory management",
+    "key account management",
+    "complex B2B negotiations"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-enterprise-account-executive-fr-bnl-se-berlin-381716",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Project Manager (m/w/d) – SaaS Healthcare",
+   "company": "Intus Workforce Solutions B.V.",
+   "location": "Berlin, Berlin, Germany",
+   "source": "Arbeitnow",
+   "reason": "The candidate is a junior accountant with less than a year of experience, whereas this role requires at least 5 years of project management experience in SaaS.",
+   "blockers": "Minimum 5 years of experience in project management required, but candidate has under 1 year of experience.",
+   "gaps": [
+    "project management",
+    "SaaS implementation",
+    "IT project leadership",
+    "client project steering"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/intus-workforce-solutions-bv/senior-project-manager-saas-healthcare-berlin-264597",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 5,
+   "title": "Senior Data Engineer",
+   "company": "Lemon.io",
+   "location": "Remote",
+   "source": "RemoteOK",
+   "reason": "This is a senior software and data engineering role requiring 3 to 5+ years of specialized engineering experience, MongoDB, Databricks, and Python, which completely misaligns with the candidate's entry-level accounting and finance background.",
+   "blockers": "Senior-level Data Engineering experience (3-5+ years required; candidate has junior accounting experience)",
+   "gaps": [
+    "Senior data engineering",
+    "MongoDB",
+    "Snowflake",
+    "Databricks",
+    "Python",
+    "PySpark",
+    "Azure Data Factory",
+    "dbt",
+    "Spark-based workloads"
+   ],
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-data-engineer-lemon-io-1138229",
    "drafted": false,
    "pdf": "",
    "recent": true
@@ -32115,7 +32875,7 @@
    "url": "https://weworkremotely.com/remote-jobs/tailscale-director-revenue-enablement",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32133,7 +32893,7 @@
    "url": "https://weworkremotely.com/remote-jobs/zscaler-detection-analyst",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32149,7 +32909,7 @@
    "url": "https://jooble.org/jdp/7338669245192403641",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32165,7 +32925,7 @@
    "url": "https://jooble.org/jdp/-4666301327256271584",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32183,7 +32943,7 @@
    "url": "https://jooble.org/jdp/-6668826077400890385",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32202,7 +32962,7 @@
    "url": "https://jooble.org/jdp/-6668826077400890385",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32220,7 +32980,7 @@
    "url": "https://jooble.org/jdp/3794720484953773172",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32239,7 +32999,7 @@
    "url": "https://jooble.org/jdp/285540613039651503",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32256,7 +33016,7 @@
    "url": "https://jooble.org/away/6234704752657926412",
    "drafted": false,
    "pdf": "",
-   "recent": true
+   "recent": false
   },
   {
    "score": 0,
@@ -32273,10 +33033,91 @@
    "url": "https://jooble.org/jdp/7019043858223348103",
    "drafted": false,
    "pdf": "",
+   "recent": false
+  },
+  {
+   "score": 0,
+   "title": "Scientist, Model Validation and Experimental Data Analysis",
+   "company": "Proxima Fusion GmbH",
+   "location": "Munich",
+   "source": "Arbeitnow",
+   "reason": "The candidate lacks a background in physics, engineering, or experimental data analysis required for this scientific role.",
+   "blockers": "Requires a scientific background in plasma physics or experimental data analysis, which the candidate lacks.",
+   "gaps": [
+    "plasma physics",
+    "Bayesian state estimation",
+    "fusion technology",
+    "W7-X data analysis",
+    "scientific modeling"
+   ],
+   "url": "https://www.arbeitnow.com/jobs/companies/proxima-fusion-gmbh/scientist-model-validation-and-experimental-data-analysis-munich-452239",
+   "drafted": false,
+   "pdf": "",
+   "recent": true
+  },
+  {
+   "score": 0,
+   "title": "OAT Construction Graduate Technical Training Academy 2027",
+   "company": "Dixcover Hub listing",
+   "location": "",
+   "source": "Dixcover Hub",
+   "reason": "The candidate lacks the required engineering, building, or architecture degree for this construction technical training academy.",
+   "blockers": "Required degree in Civil Engineering, Structural Engineering, Building Technology, Quantity Surveying, Architecture, Mechanical Engineering, Electrical Engineering, or Estate Management, which the candidate does not hold.",
+   "gaps": [
+    "construction technical skills",
+    "civil engineering",
+    "quantity surveying"
+   ],
+   "url": "https://jobs.smartyacad.com/oat-construction-graduate-technical-training-academy-2027/",
+   "drafted": false,
+   "pdf": "",
    "recent": true
   }
  ],
  "history": [
+  {
+   "last_run": "2026-11-28T15:23+00:00",
+   "report": [
+    "Last run: 2026-11-28T15:23+00:00 UTC.",
+    "The search checked 16 job sources and 15 responded. It found 475 postings in total, and 217 matched your skills.",
+    "These sources could not be reached: themuse.",
+    "38 postings were scored against your CV this run.",
+    "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+    "7 cover letters were written.",
+    "1 application emails were sent: NYSC Member (Accounting) at Arit of Africa Limited.",
+    "Overall, 74 postings meet the score rules (40 or more, no blockers). 9 of them list a contact address the bot can email; the rest need the application link."
+   ],
+   "summary": [
+    "- remotive: 16 fetched, 2 passed filter",
+    "- himalayas: 20 fetched, 6 passed filter",
+    "- workingnomads: 36 fetched, 11 passed filter",
+    "- jobicy: 45 fetched, 41 passed filter",
+    "- remoteok: 100 fetched, 39 passed filter",
+    "- greenhouse: 64 fetched, 33 passed filter",
+    "- lever: 0 fetched, 0 passed filter",
+    "- ashby: 0 fetched, 0 passed filter",
+    "- smartrecruiters: 0 fetched, 0 passed filter",
+    "- workable: 0 fetched, 0 passed filter",
+    "- smartyacad: 44 fetched, 26 passed filter",
+    "- jooble: 0 fetched, 0 passed filter",
+    "- arbeitnow: 50 fetched, 21 passed filter",
+    "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+    "- weworkremotely: 100 fetched, 38 passed filter",
+    "- web_search_jobs: 0 fetched, 0 passed filter",
+    "  - Greenhouse Moniepoint: 64 jobs",
+    "  - Greenhouse Flutterwave: FAILED ('jobs')",
+    "  - Greenhouse Andela: FAILED ('jobs')",
+    "  - Dixcover Hub: opened 10 linked pages",
+    "- 26 jobs older than 30 days skipped",
+    "- 38 new jobs sent to scoring",
+    "- Top scores (threshold is 55):",
+    "  - 95: NYSC Member (Accounting) at Arit of Africa Limited. Blockers: none",
+    "  - 85: FAE Limited Graduate Trainee Programme 2026 at Dixcover Hub listing. Blockers: none",
+    "  - 85: FAE Limited Graduate Trainee Program 2026 at Dixcover Hub listing. Blockers: none",
+    "  - 45: Underwriting Administrator at The Ardonagh Group. Blockers: Candidate is located in Nigeria, but the role requires being based in the United Kingdom.",
+    "  - 45: Integration Associate, Clinic Acquisitions at 3Y Health. Blockers: none"
+   ]
+  },
   {
    "last_run": "2026-11-28T06:55+00:00",
    "report": [
