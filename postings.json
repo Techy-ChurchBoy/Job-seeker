@@ -28136,5 +28136,385 @@
   "company": "Dixcover Hub listing",
   "source": "Dixcover Hub",
   "updated": "2026-11-28T15:23:14+00:00"
+ },
+ "https://himalayas.app/companies/360insights/jobs/customer-success-program-manager-8364060297": {
+  "url": "https://himalayas.app/companies/360insights/jobs/customer-success-program-manager-8364060297?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required Canadian residency and specific customer success experience needed for this international role.",
+  "blockers": "Candidate is located in Nigeria, but the job is based in Canada with no mention of visa sponsorship or remote work from Nigeria.",
+  "skill_gaps": "customer success management; client services; SLA tracking; program management",
+  "title": "Customer Success Program Manager",
+  "company": "360insights",
+  "source": "Himalayas",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://himalayas.app/companies/wealth-enhancement/jobs/internal-sales-specialist": {
+  "url": "https://himalayas.app/companies/wealth-enhancement/jobs/internal-sales-specialist?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate is located in Nigeria, whereas this position explicitly requires candidates to be located in the US EST or CST time zones.",
+  "blockers": "Required to be located in the US EST or CST time zones; candidate is in Nigeria.",
+  "skill_gaps": "FINRA Series 7 and 66; wealth management sales experience",
+  "title": "Internal Sales Specialist",
+  "company": "Wealth Enhancement",
+  "source": "Himalayas",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/taxforce/founders-associate-ai-roll-up-berlin-51798": {
+  "url": "https://www.arbeitnow.com/jobs/companies/taxforce/founders-associate-ai-roll-up-berlin-51798",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The candidate lacks the required 2-3 years of high-finance or top startup experience, fluent German language skills, and physical location in Berlin.",
+  "blockers": "Requires 2 to 3 years of experience in strategy consulting, investment banking, private equity, transaction services, or high-growth startups; requires fluent German language skills; location in Berlin, Germany.",
+  "skill_gaps": "German language; M&A and transaction services experience; startup operations experience",
+  "title": "Founders Associate (m/w/d) - AI Roll-up",
+  "company": "Taxforce",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/almedia/data-scientist-berlin-334553": {
+  "url": "https://www.arbeitnow.com/jobs/companies/almedia/data-scientist-berlin-334553",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "This is a senior-level Data Scientist role in Berlin requiring strong Python and SQL machine learning systems engineering, which completely misaligns with the candidate's accounting background and lack of residency/work authorization in Germany.",
+  "blockers": "Requires residency in Berlin, Germany (onsite), strong Python, SQL, and machine learning systems experience which the candidate lacks.",
+  "skill_gaps": "Python; SQL; Machine Learning; A/B testing; Causal reasoning",
+  "title": "Data Scientist",
+  "company": "Almedia",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://himalayas.app/companies/celerity-consulting-group/jobs/senior-manager-practice-operations-7597289469": {
+  "url": "https://himalayas.app/companies/celerity-consulting-group/jobs/senior-manager-practice-operations-7597289469?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior management role requiring over 10 years of consulting and operational experience, which far exceeds the candidate's junior-level profile.",
+  "blockers": "Requires 10+ years of hands-on experience and senior management consulting background; candidate is an entry-level/junior professional with under 1 year of experience.",
+  "skill_gaps": "people management; practice operations leadership; executive stakeholder management; utilities industry expertise",
+  "title": "Senior Manager, Practice Operations",
+  "company": "Celerity Consulting Group",
+  "source": "Himalayas",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://himalayas.app/companies/luni/jobs/freelance-ai-microdrama-director-junior-shorts-by-luni": {
+  "url": "https://himalayas.app/companies/luni/jobs/freelance-ai-microdrama-director-junior-shorts-by-luni?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a creative video directing role requiring film, editing, and AI generation skills, which has no overlap with the candidate's accounting, finance, and administrative background.",
+  "blockers": "",
+  "skill_gaps": "AI video generation; film directing; video editing; visual training; serialized storytelling",
+  "title": "Freelance AI Microdrama Director - Junior · Shorts by Luni",
+  "company": "Luni",
+  "source": "Himalayas",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://himalayas.app/companies/jeser-human-capital/jobs/sales-coordinator": {
+  "url": "https://himalayas.app/companies/jeser-human-capital/jobs/sales-coordinator?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a bilingual sales and customer service role requiring fluency in Arabic, which completely misaligns with the candidate's finance profile and language skills.",
+  "blockers": "Fluent in both Arabic and English required",
+  "skill_gaps": "Arabic language fluency; sales experience; customer service; lead generation; B2B sales",
+  "title": "Sales Coordinator",
+  "company": "Jeser Human Capital",
+  "source": "Himalayas",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/necsws-assistant-head-of-marketing-public-safety-justice-6-month-ftc": {
+  "url": "https://weworkremotely.com/remote-jobs/necsws-assistant-head-of-marketing-public-safety-justice-6-month-ftc",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The role is for an Assistant Head of Marketing requiring extensive marketing experience, which completely misaligns with the candidate's accounting, finance, and operations background.",
+  "blockers": "Extensive prior experience in a marketing role required.",
+  "skill_gaps": "marketing strategy; B2B marketing; email marketing; copywriting; social media management; event organisation; market research; PR; SEO and website CMS",
+  "title": "Assistant Head of Marketing, Public Safety & Justice - 6 Month FTC",
+  "company": "NECSWS",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/abbvie-clinical-account-executive-multiple-myeloma-denver-co": {
+  "url": "https://weworkremotely.com/remote-jobs/abbvie-clinical-account-executive-multiple-myeloma-denver-co",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a specialized pharmaceutical sales and clinical account management role in the US, which completely misaligns with the candidate's finance, accounting, and remote/Nigeria-based profile.",
+  "blockers": "Candidate is not resident in the United States and lacks pharmaceutical sales and clinical account management experience.",
+  "skill_gaps": "pharmaceutical sales; clinical expertise in oncology; healthcare account management; territory business planning",
+  "title": "Clinical Account Executive, Multiple Myeloma - Denver, CO",
+  "company": "AbbVie",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/tomoro-gmbh/ki-business-analyst-financial-services-frankfurt-am-main-30448": {
+  "url": "https://www.arbeitnow.com/jobs/companies/tomoro-gmbh/ki-business-analyst-financial-services-frankfurt-am-main-30448",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job requires several years of business analysis experience in the financial sector, AI/ML project experience, and fluent German, which the candidate does not possess.",
+  "blockers": "Requires multiple years of experience as a business analyst in the financial sector, practical AI/ML project experience, and fluent German.",
+  "skill_gaps": "Business analysis; AI and machine learning project experience; Python; SQL; fluent German",
+  "title": "KI Business Analyst Financial Services (m/w/d)",
+  "company": "tomoro GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://himalayas.app/companies/thehivecareers/jobs/chief-procurement-officer-cpo-insurance-investments-1488363767": {
+  "url": "https://himalayas.app/companies/thehivecareers/jobs/chief-procurement-officer-cpo-insurance-investments-1488363767?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a C-suite executive procurement role requiring extensive senior leadership experience, whereas the candidate is a junior accountant with under a year of experience.",
+  "blockers": "Senior executive role requiring years of leadership experience; candidate is an entry-level junior accountant.",
+  "skill_gaps": "procurement strategy; executive leadership; strategic sourcing; vendor management",
+  "title": "Chief Procurement Officer (CPO) – Insurance & Investments",
+  "company": "TheHiveCareers",
+  "source": "Himalayas",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/eversana-traveling-account-executive-neurology-rare-disease": {
+  "url": "https://weworkremotely.com/remote-jobs/eversana-traveling-account-executive-neurology-rare-disease",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a pharmaceutical sales and account executive role requiring travel across the United States, which completely misaligns with the candidate's finance, accounting, and remote/Nigeria-based profile.",
+  "blockers": "Candidate is based in Nigeria and the role requires traveling across the United States for pharmaceutical sales.",
+  "skill_gaps": "pharmaceutical sales; healthcare provider relationship management; territory management; clinical product promotion",
+  "title": "Traveling Account Executive - Neurology/Rare Disease",
+  "company": "EVERSANA",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/almedia/staff-data-scientist-berlin-499659": {
+  "url": "https://www.arbeitnow.com/jobs/companies/almedia/staff-data-scientist-berlin-499659",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior-level Staff Data Scientist role requiring advanced causal inference, experimentation infrastructure, and data engineering fluency, which completely misaligns with the candidate's junior accounting background.",
+  "blockers": "Requires senior-level data science and data engineering expertise (Staff Data Scientist) which the candidate lacks.",
+  "skill_gaps": "Causal inference; experimentation infrastructure; dbt; Airflow; Kubernetes; Terraform; production machine learning",
+  "title": "Staff Data Scientist",
+  "company": "Almedia",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/cortea-ai/senior-staff-product-engineer-berlin-358928": {
+  "url": "https://www.arbeitnow.com/jobs/companies/cortea-ai/senior-staff-product-engineer-berlin-358928",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires 5+ years of software engineering experience and full-stack coding skills, which the candidate lacks.",
+  "blockers": "5+ years of engineering experience required; software engineering stack (React, Python, Postgres, etc.) not held",
+  "skill_gaps": "full-stack engineering; React; Python; distributed systems architecture",
+  "title": "Senior/Staff Product Engineer (m/f/x)",
+  "company": "Cortea AI",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/lio/product-engineer-all-genders-munich-92316": {
+  "url": "https://www.arbeitnow.com/jobs/companies/lio/product-engineer-all-genders-munich-92316",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior software engineering role requiring extensive coding expertise in Python, Java or TypeScript, which does not align with the candidate's finance and accounting background.",
+  "blockers": "5+ years of software engineering experience or Master's in computer-related field required",
+  "skill_gaps": "Python; TypeScript; Java; software engineering; cloud SaaS development; system architecture",
+  "title": "Product Engineer (all genders)",
+  "company": "Lio",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://arbeitnow.com/jobs/companies/tomoro-gmbh/senior-consultant-financial-services-frankfurt-am-main-67579": {
+  "url": "https://www.arbeitnow.com/jobs/companies/tomoro-gmbh/senior-consultant-financial-services-frankfurt-am-main-67579",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The candidate is an entry-level junior accountant, whereas this is a senior consultant role requiring multiple years of experience in financial services IT compliance and consulting.",
+  "blockers": "Requires multiple years of experience in the financial sector or consulting environment, which the candidate lacks.",
+  "skill_gaps": "IT-Compliance; MaRisk; BAIT; DORA; consulting experience; German language proficiency",
+  "title": "Senior-Consultant Financial Services (m/w/d)",
+  "company": "tomoro GmbH",
+  "source": "Arbeitnow",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://jobicy.com/jobs/164641-director-vp-tax-equity-capital": {
+  "url": "https://jobicy.com/jobs/164641-director-vp-tax-equity-capital",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior executive Director/VP role in the USA requiring extensive capital markets and tax equity experience, which completely misaligns with the candidate's junior profile.",
+  "blockers": "Senior executive role requiring years of specialized capital markets experience and US location.",
+  "skill_gaps": "tax equity structuring; capital raising; debt/equity negotiation; executive leadership",
+  "title": "Director/VP, Tax Equity Capital",
+  "company": "Palmetto Clean Technology",
+  "source": "Jobicy",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://jobicy.com/jobs/164629-manager-treasury-and-cash-operations": {
+  "url": "https://jobicy.com/jobs/164629-manager-treasury-and-cash-operations",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior management role requiring 7+ years of experience and team leadership, which far exceeds the candidate's junior-level background.",
+  "blockers": "Requires 7+ years of related experience and people leadership, US residency, and is a senior manager level role.",
+  "skill_gaps": "People leadership; advanced treasury management; SWIFT connectivity; FIS treasury solutions; Notional Pooling; foreign exchange hedging",
+  "title": "Manager - Treasury and Cash Operations",
+  "company": "GoDaddy",
+  "source": "Jobicy",
+  "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://himalayas.app/companies/jimmy-technologies/jobs/snowflake-data-engineer-with-fluent-german": {
+  "url": "https://himalayas.app/companies/jimmy-technologies/jobs/snowflake-data-engineer-with-fluent-german?utm_source=api",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate lacks fluent German and residency in the EU, and does not have the required Snowflake data engineering experience.",
+  "blockers": "Requires fluent German (C1), EU residency, and 1-4 years of data engineering experience with Snowflake.",
+  "skill_gaps": "Fluent German; Snowflake; dbt; Python; data governance; data engineering",
+  "title": "Snowflake Data Engineer with fluent German",
+  "company": "Jimmy Technologies",
+  "source": "Himalayas",
+  "updated": "2026-11-28T18:03:05+00:00"
  }
 }
