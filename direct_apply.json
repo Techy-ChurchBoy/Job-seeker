@@ -534,5 +534,21 @@
   "apply_url": "https://www.arbeitnow.com/jobs/companies/archive-gmbh/founders-associate-internship-or-working-student-munich-8493",
   "status": "generic_form",
   "checked": "2026-11-28T15:26+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-practicante-en-product-management": {
+  "company": "Sezzle",
+  "title": "Practicante en Product Management",
+  "posting": "https://weworkremotely.com/remote-jobs/sezzle-practicante-en-product-management",
+  "apply_url": "",
+  "status": "no_direct_form",
+  "checked": "2026-11-28T18:50+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/ping-identity-sales-operations-analyst": {
+  "company": "Ping Identity",
+  "title": "Sales Operations Analyst",
+  "posting": "https://weworkremotely.com/remote-jobs/ping-identity-sales-operations-analyst",
+  "apply_url": "",
+  "status": "no_direct_form",
+  "checked": "2026-11-28T18:50+00:00"
  }
 }

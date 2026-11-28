@@ -1800,5 +1800,48 @@
    "  - 15: Customer Success Program Manager at 360insights. Blockers: Candidate is located in Nigeria, but the job is based in Canada with no mention of visa sponsorship or remote work from Nigeria.",
    "  - 10: Senior Manager, Practice Operations at Celerity Consulting Group. Blockers: Requires 10+ years of hands-on experience and senior management consulting background; candidate is an entry-level/junior professional with under 1 year of experience."
   ]
+ },
+ {
+  "last_run": "2026-11-28T18:48+00:00",
+  "report": [
+   "Last run: 2026-11-28T18:48+00:00 UTC.",
+   "The search checked 16 job sources and 15 responded. It found 478 postings in total, and 227 matched your skills.",
+   "These sources could not be reached: themuse.",
+   "27 postings were scored against your CV this run.",
+   "These company boards could not be read, so their names need checking: Greenhouse Flutterwave, Greenhouse Andela.",
+   "2 cover letters were written.",
+   "No application emails were sent this run.",
+   "Overall, 76 postings meet the score rules (40 or more, no blockers). 9 of them list a contact address the bot can email; the rest need the application link."
+  ],
+  "summary": [
+   "- remotive: 16 fetched, 2 passed filter",
+   "- himalayas: 20 fetched, 7 passed filter",
+   "- workingnomads: 36 fetched, 11 passed filter",
+   "- jobicy: 48 fetched, 43 passed filter",
+   "- remoteok: 100 fetched, 39 passed filter",
+   "- greenhouse: 64 fetched, 33 passed filter",
+   "- lever: 0 fetched, 0 passed filter",
+   "- ashby: 0 fetched, 0 passed filter",
+   "- smartrecruiters: 0 fetched, 0 passed filter",
+   "- workable: 0 fetched, 0 passed filter",
+   "- smartyacad: 44 fetched, 26 passed filter",
+   "- jooble: 0 fetched, 0 passed filter",
+   "- arbeitnow: 50 fetched, 20 passed filter",
+   "- themuse: FAILED (404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true)",
+   "- weworkremotely: 100 fetched, 46 passed filter",
+   "- web_search_jobs: 0 fetched, 0 passed filter",
+   "  - Greenhouse Moniepoint: 64 jobs",
+   "  - Greenhouse Flutterwave: FAILED ('jobs')",
+   "  - Greenhouse Andela: FAILED ('jobs')",
+   "  - Dixcover Hub: opened 10 linked pages",
+   "- 26 jobs older than 30 days skipped",
+   "- 27 new jobs sent to scoring",
+   "- Top scores (threshold is 55):",
+   "  - 75: Practicante en Product Management at Sezzle. Blockers: none",
+   "  - 45: Sales Operations Analyst at Ping Identity. Blockers: none",
+   "  - 25: Events Lead, Product & Financial Services at Stripe. Blockers: Requires an experienced events professional with substantial portfolio management experience.",
+   "  - 15: [Fiat] Payment Operations Specialist - Brazil at Bybit. Blockers: Candidate is not based in Brazil and lacks expertise in the Brazilian banking and regulatory landscape (BRL payment methods).",
+   "  - 15: Legal Intern (Practicante / Becario de Derecho) at Sezzle. Blockers: Requires a degree in Law (Derecho) or a related field."
+  ]
  }
 ]

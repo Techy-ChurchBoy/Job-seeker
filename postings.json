@@ -28516,5 +28516,549 @@
   "company": "Jimmy Technologies",
   "source": "Himalayas",
   "updated": "2026-11-28T18:03:05+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-practicante-en-product-management": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-practicante-en-product-management",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring",
+   "drafted": "letters"
+  },
+  "score": 75,
+  "reason": "The remote fintech product management internship aligns well with the candidate's interest in fintech operations, process reviews, requirements organisation, and independent digital product projects.",
+  "blockers": "",
+  "skill_gaps": "SQL",
+  "title": "Practicante en Product Management",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:49:07+00:00",
+  "drafted": true
+ },
+ "https://weworkremotely.com/remote-jobs/ping-identity-sales-operations-analyst": {
+  "url": "https://weworkremotely.com/remote-jobs/ping-identity-sales-operations-analyst",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring",
+   "drafted": "letters"
+  },
+  "score": 45,
+  "reason": "The role involves revenue operations and analytics that align with the candidate's data and process skills, but it leans heavily into specialized sales operations tools and partner management rather than core accounting or finance.",
+  "blockers": "",
+  "skill_gaps": "Salesforce; Anaplan; Tableau; PRM platform; partner revenue forecasting",
+  "title": "Sales Operations Analyst",
+  "company": "Ping Identity",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:49:16+00:00",
+  "drafted": true
+ },
+ "https://weworkremotely.com/remote-jobs/stripe-events-lead-product-financial-services": {
+  "url": "https://weworkremotely.com/remote-jobs/stripe-events-lead-product-financial-services",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 25,
+  "reason": "The role requires extensive prior experience as an events professional managing large-scale corporate portfolios, which exceeds the candidate's junior accounting and administrative background.",
+  "blockers": "Requires an experienced events professional with substantial portfolio management experience.",
+  "skill_gaps": "event management; budget tracking; vendor negotiation; CRM systems; marketing strategy",
+  "title": "Events Lead, Product & Financial Services",
+  "company": "Stripe",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/bybit-fiat-payment-operations-specialist-brazil": {
+  "url": "https://weworkremotely.com/remote-jobs/bybit-fiat-payment-operations-specialist-brazil",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires a candidate based in Brazil and focused on the Brazilian BRL market, which conflicts with the candidate's location and currency scope.",
+  "blockers": "Candidate is not based in Brazil and lacks expertise in the Brazilian banking and regulatory landscape (BRL payment methods).",
+  "skill_gaps": "BRL payment methods; Brazilian banking relationships; local PSP integrations",
+  "title": "[Fiat] Payment Operations Specialist - Brazil",
+  "company": "Bybit",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/sezzle-legal-intern-practicante-becario-de-derecho": {
+  "url": "https://weworkremotely.com/remote-jobs/sezzle-legal-intern-practicante-becario-de-derecho",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 15,
+  "reason": "The job requires a degree in Law (Derecho) or a related field, which the candidate does not possess as his degree is in Accounting.",
+  "blockers": "Requires a degree in Law (Derecho) or a related field.",
+  "skill_gaps": "legal document review; legal drafting; US legal concepts; Jira; Asana; Notion",
+  "title": "Legal Intern (Practicante / Becario de Derecho)",
+  "company": "Sezzle",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/bitwarden-sr-product-marketing-manager-secrets-manager": {
+  "url": "https://weworkremotely.com/remote-jobs/bitwarden-sr-product-marketing-manager-secrets-manager",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior marketing role requiring U.S. residency and deep developer-focused product marketing experience, which completely misaligns with the candidate's finance and junior accounting profile.",
+  "blockers": "Located in the U.S. and visa sponsorship not offered; Senior Product Marketing Manager role requiring extensive prior marketing experience",
+  "skill_gaps": "product marketing; go-to-market strategy; developer ecosystem expertise; secrets management; technical writing; sales enablement",
+  "title": "Sr. Product Marketing Manager, Secrets Manager",
+  "company": "Bitwarden",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/anthropic-data-center-capacity-delivery-canada": {
+  "url": "https://weworkremotely.com/remote-jobs/anthropic-data-center-capacity-delivery-canada",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level infrastructure and construction management role requiring extensive data center delivery experience, which completely misaligns with the candidate's entry-level financial accounting background.",
+  "blockers": "Senior-level role requiring specialized data center construction and infrastructure delivery experience.",
+  "skill_gaps": "data center construction management; real estate development; vendor leadership in engineering; physical site presence in Canada",
+  "title": "Data Center Capacity Delivery, Canada",
+  "company": "Anthropic",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/grafana-labs-enterprise-account-executive-growth-meta-remote-spain": {
+  "url": "https://weworkremotely.com/remote-jobs/grafana-labs-enterprise-account-executive-growth-meta-remote-spain",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior enterprise technology sales role requiring 5+ years of infrastructure tech sales experience, which does not match the candidate's finance background and entry-level experience.",
+  "blockers": "5+ years of experience in infrastructure technology sales required; candidate has less than 1 year of junior accounting experience.",
+  "skill_gaps": "enterprise software sales; Salesforce; infrastructure technology sales; outbound prospecting; product demos",
+  "title": "Enterprise Account Executive, Growth - META | Remote | Spain",
+  "company": "Grafana Labs",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/grafana-labs-enterprise-account-executive-acquisition-tokyo-japan": {
+  "url": "https://weworkremotely.com/remote-jobs/grafana-labs-enterprise-account-executive-acquisition-tokyo-japan",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior enterprise sales role requiring 5+ years of infrastructure technology sales experience, which completely misaligns with the candidate's entry-level accounting and finance profile.",
+  "blockers": "Requires 5+ years of experience in infrastructure technology sales.",
+  "skill_gaps": "enterprise sales; outbound prospecting; Salesforce; infrastructure technology sales",
+  "title": "Enterprise Account Executive, Acquisition | Tokyo, Japan",
+  "company": "Grafana Labs",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/gitlab-commercial-account-executive-named-west": {
+  "url": "https://weworkremotely.com/remote-jobs/gitlab-commercial-account-executive-named-west",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is an outbound B2B sales and account executive role focusing on software sales in US timezones, which is completely misaligned with the candidate's background in accounting, finance, and operations.",
+  "blockers": "Must be located in Central, Mountain, or Pacific Timezones; requires mid-market software sales experience.",
+  "skill_gaps": "B2B sales; quota carrying; enterprise prospecting; software sales experience",
+  "title": "Commercial Account Executive, Named - West",
+  "company": "GitLab",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/beyondtrust-sr-field-partner-marketing-manager-us-enterprise": {
+  "url": "https://weworkremotely.com/remote-jobs/beyondtrust-sr-field-partner-marketing-manager-us-enterprise",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior-level marketing and sales enablement role requiring extensive B2B tech marketing experience, which completely misaligns with the candidate's entry-level accounting and finance background.",
+  "blockers": "Senior-level experience required (Sr Field & Partner Marketing Manager), missing enterprise marketing and channel partnership background.",
+  "skill_gaps": "field marketing; account-based marketing (ABM); partner marketing; Salesforce; demand generation; budget management; marketing automation",
+  "title": "Sr Field & Partner Marketing Manager - US Enterprise",
+  "company": "BeyondTrust",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/beyondtrust-sr-director-l2c-process-owner": {
+  "url": "https://weworkremotely.com/remote-jobs/beyondtrust-sr-director-l2c-process-owner",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior director level role requiring extensive leadership and process ownership experience, which completely mismatches the candidate's entry-level junior profile.",
+  "blockers": "Senior leadership role requiring years of experience far exceeding the candidate's junior 11-month background",
+  "skill_gaps": "Senior leadership; Lead-to-Cash process ownership; Salesforce governance; executive stakeholder management",
+  "title": "Sr Director, L2C Process Owner",
+  "company": "BeyondTrust",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/databricks-named-core-account-executive-gaming": {
+  "url": "https://weworkremotely.com/remote-jobs/databricks-named-core-account-executive-gaming",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "The job is a senior enterprise software sales role requiring 7+ years of experience, which completely mismatches the candidate's junior accounting and finance profile.",
+  "blockers": "Requires 7+ years of Enterprise Sales experience; candidate lacks required sales background and seniority.",
+  "skill_gaps": "enterprise sales; big data sales; SaaS sales; Salesforce; quota management",
+  "title": "Named Core Account Executive, Gaming",
+  "company": "Databricks",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/samsara-core-account-executive-dach": {
+  "url": "https://weworkremotely.com/remote-jobs/samsara-core-account-executive-dach",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is an enterprise sales role requiring high-level B2B tech sales experience in the DACH region, which does not align with the candidate's accounting, finance, and operations background.",
+  "blockers": "Requires enterprise sales experience and regional coverage for DACH, neither of which the candidate possesses.",
+  "skill_gaps": "enterprise sales; B2B SaaS sales; DACH market knowledge; German language fluency",
+  "title": "Core Account Executive - DACH",
+  "company": "Samsara",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/okx-principal-product-manager-professional-trading-tools-experience": {
+  "url": "https://weworkremotely.com/remote-jobs/okx-principal-product-manager-professional-trading-tools-experience",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior/lead product management role requiring extensive experience in building professional trading tools, which completely mismatches the candidate's junior accounting background.",
+  "blockers": "Requires senior/lead product manager experience in electronic trading platforms, which the candidate lacks.",
+  "skill_gaps": "product management; professional trading tools; crypto market expertise; order execution systems; UX strategy",
+  "title": "Principal Product Manager - Professional Trading Tools & Experience",
+  "company": "OKX",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/airbnb-software-engineer-payments": {
+  "url": "https://weworkremotely.com/remote-jobs/airbnb-software-engineer-payments",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 10,
+  "reason": "This is a senior software engineering role requiring 3+ years of professional coding experience in backend languages and distributed systems, which completely misaligns with the candidate's finance and accounting background.",
+  "blockers": "3+ years of professional software engineering experience required; backend programming languages (Java, Kotlin, Python, Go) required.",
+  "skill_gaps": "software engineering; backend development; Java; Kotlin; Python; Go; distributed systems; APIs; coding",
+  "title": "Software Engineer, Payments",
+  "company": "Airbnb",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/anthropic-data-center-controls-engineer": {
+  "url": "https://weworkremotely.com/remote-jobs/anthropic-data-center-controls-engineer",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This role is a highly specialized engineering position requiring deep technical expertise in industrial automation, HVAC, and data center hardware systems, which completely misaligns with the candidate's background in accounting and finance.",
+  "blockers": "Requires an experienced Datacenter Controls Engineer with technical depth in industrial automation, mechanical/electrical systems, and HVAC design, which the candidate completely lacks.",
+  "skill_gaps": "industrial automation; HVAC systems; SCADA; Ignition or Niagara/Tridium; electrical power monitoring systems; P&IDs; control systems engineering",
+  "title": "Data Center Controls Engineer",
+  "company": "Anthropic",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-money-movement": {
+  "url": "https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-money-movement",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires 10+ years of senior product management experience in payments infrastructure, which completely misaligns with an entry-level candidate.",
+  "blockers": "Requires 10+ years of product management experience.",
+  "skill_gaps": "10+ years product management experience; deep technical fluency in distributed systems; senior leadership in financial platforms",
+  "title": "Group Product Manager, Money Movement",
+  "company": "Coinbase",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-customer-engagement-experience": {
+  "url": "https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-customer-engagement-experience",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior executive product management role requiring 10+ years of experience, whereas the candidate is an entry-level junior accountant.",
+  "blockers": "Requires 10+ years of product management experience and 5+ years leading product teams; candidate is entry-level with 11 months of accounting experience.",
+  "skill_gaps": "10+ years product management experience; leading product teams; customer support product strategy; fintech product scaling",
+  "title": "Group Product Manager, Customer Engagement & Experience",
+  "company": "Coinbase",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/gitlab-commercial-account-executive-mid-market-east": {
+  "url": "https://weworkremotely.com/remote-jobs/gitlab-commercial-account-executive-mid-market-east",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a US-based sales role requiring residency in specific US time zones and extensive tech sales experience, neither of which the candidate possesses.",
+  "blockers": "Must be located in East or Central timezones in the US; required prior experience in mid-market software sales.",
+  "skill_gaps": "MEDDPICC; value-based selling; DevSecOps platform knowledge; quota carrying sales experience",
+  "title": "Commercial Account Executive - Mid-Market, East",
+  "company": "GitLab",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/stripe-enterprise-risk-management-erm-program-lead-malpb": {
+  "url": "https://weworkremotely.com/remote-jobs/stripe-enterprise-risk-management-erm-program-lead-malpb",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior Enterprise Risk Management leadership role requiring executive presence and advanced risk engineering capabilities, which completely mismatch the candidate's junior accounting profile.",
+  "blockers": "Requires senior-level ERM experience and executive presence to lead a banking governance program, which exceeds the candidate's junior 11-month experience level.",
+  "skill_gaps": "Enterprise risk management leadership; SQL; executive presence; banking governance program setup; advanced risk engineering",
+  "title": "Enterprise Risk Management (ERM) Program Lead, MALPB",
+  "company": "Stripe",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/okx-principal-product-manager-simple-trading-growth-retention": {
+  "url": "https://weworkremotely.com/remote-jobs/okx-principal-product-manager-simple-trading-growth-retention",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior product management role requiring extensive crypto and product leadership experience, which far exceeds the candidate's junior accounting background.",
+  "blockers": "Principal-level product management experience required; deep crypto product expertise required",
+  "skill_gaps": "product management; crypto trading; agile product development; user acquisition strategy",
+  "title": "Principal Product Manager - Simple Trading, Growth & Retention",
+  "company": "OKX",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/glean-mid-market-account-executive-central": {
+  "url": "https://weworkremotely.com/remote-jobs/glean-mid-market-account-executive-central",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a sales and account executive role requiring direct software sales experience, which does not align with the candidate's finance, accounting, and operational background.",
+  "blockers": "Requires B2B sales and account executive experience which the candidate lacks",
+  "skill_gaps": "enterprise sales; prospecting; quota carrying; closing deals; territory management",
+  "title": "Mid-Market Account Executive, Central",
+  "company": "Glean",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/rubrik-job-board-senior-manager-security-operations-center": {
+  "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-senior-manager-security-operations-center",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior management role in cybersecurity operations that requires extensive technical security experience, making it completely misaligned with an entry-level management accountant profile.",
+  "blockers": "Requires extensive senior experience in cybersecurity and Security Operations Center management which the candidate lacks.",
+  "skill_gaps": "cybersecurity operations; incident management; FedRAMP compliance; AI SOC strategy; threat intelligence",
+  "title": "Senior Manager, Security Operations Center",
+  "company": "Rubrik Job Board",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/pinterest-solutions-engineer-ads-product-innovation": {
+  "url": "https://weworkremotely.com/remote-jobs/pinterest-solutions-engineer-ads-product-innovation",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "This is a senior technical software engineering role requiring coding, API development, and computer science expertise that does not align with the candidate's finance, accounting, and business background.",
+  "blockers": "Requires software engineering and coding expertise (APIs, SDKs, writing code) which the candidate lacks.",
+  "skill_gaps": "API development; software engineering; coding in production languages; technical troubleshooting; SDKs",
+  "title": "Solutions Engineer - Ads Product & Innovation",
+  "company": "Pinterest",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/mercury-research-operations-lead": {
+  "url": "https://weworkremotely.com/remote-jobs/mercury-research-operations-lead",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 5,
+  "reason": "The role requires 8+ years of specialized research operations experience, which greatly exceeds the candidate's experience level and background.",
+  "blockers": "Requires 8+ years of hands-on research operations experience.",
+  "skill_gaps": "Research operations; user research; qualitative and quantitative research methods; Dovetail; Maze; Rally",
+  "title": "Research Operations Lead",
+  "company": "Mercury",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:57+00:00"
+ },
+ "https://weworkremotely.com/remote-jobs/pinterest-software-engineer-intern-2027-usa": {
+  "url": "https://weworkremotely.com/remote-jobs/pinterest-software-engineer-intern-2027-usa",
+  "owners": {
+   "score": "scoring",
+   "reason": "scoring",
+   "blockers": "scoring",
+   "skill_gaps": "scoring",
+   "title": "scoring",
+   "company": "scoring",
+   "source": "scoring"
+  },
+  "score": 0,
+  "reason": "The candidate does not meet the geographic location requirement (US remote) and lacks the required Computer Science degree and software engineering background.",
+  "blockers": "Requires US location/residency and a Bachelor's or Master's degree in Computer Science or a related technical field.",
+  "skill_gaps": "Computer science fundamentals; Python; Java; JavaScript; software engineering; coding",
+  "title": "Software Engineer Intern 2027 (USA)",
+  "company": "Pinterest",
+  "source": "We Work Remotely",
+  "updated": "2026-11-28T18:48:58+00:00"
  }
 }
